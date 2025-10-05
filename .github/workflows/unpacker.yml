@@ -1,0 +1,103 @@
+name: Unpack Frontend
+
+on:
+  workflow_dispatch:
+
+jobs:
+  check-and-update:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+        
+    - name: Setup Git
+      run: |
+        git config --global user.name "github-actions[bot]"
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        
+    - name: Download and check version
+      run: |
+        wget -O frontend.zip "http://pc.az-ins.com/release/game/frontend.zip"
+        DOWNLOADED_HASH=$(sha256sum frontend.zip | cut -d' ' -f1)
+        echo "Downloaded hash: $DOWNLOADED_HASH"
+        echo "DOWNLOADED_HASH=$DOWNLOADED_HASH" >> $GITHUB_ENV
+        
+        if [ -f "last_version.txt" ]; then
+          STORED_HASH=$(cat last_version.txt)
+          echo "Stored hash: $STORED_HASH"
+          
+          if [ "$DOWNLOADED_HASH" = "$STORED_HASH" ]; then
+            echo "Versions match. No update needed."
+            echo "SHOULD_UPDATE=false" >> $GITHUB_ENV
+            exit 0
+          else
+            echo "New version detected. Proceeding with update..."
+            echo "SHOULD_UPDATE=true" >> $GITHUB_ENV
+          fi
+        else
+          echo "last_version.txt not found. Proceeding with update..."
+          echo "SHOULD_UPDATE=true" >> $GITHUB_ENV
+        fi
+        
+    - name: Extract and prepare files
+      if: success() && env.SHOULD_UPDATE == 'true'
+      run: |
+        rm -rf tmp_unpack/
+        mkdir -p tmp_unpack
+        unzip -o frontend.zip -d tmp_unpack
+        
+        if [ -d "tmp_unpack/frontend" ]; then
+          SRC="tmp_unpack/frontend"
+        else
+          SRC="tmp_unpack"
+        fi
+        
+        
+        find "$SRC" -type f -size +90M | while read file; do
+          echo "[GitHub] GitHub not support large file" > "$file"
+          echo "Replaced large file: $file"
+        done
+        
+        mkdir -p frontend
+        set +e
+        rsync -a --delete --exclude '.git' --exclude '.github' "$SRC"/ ./frontend/
+        RSYNC_CODE=$?
+        set -e
+        if [ "$RSYNC_CODE" -ne 0 ] && [ "$RSYNC_CODE" -ne 24 ]; then
+          echo "rsync failed with code $RSYNC_CODE"
+          exit $RSYNC_CODE
+        else
+          if [ "$RSYNC_CODE" -eq 24 ]; then
+            echo "rsync reported 'some files vanished' (code 24). Continuing."
+          fi
+        fi
+        
+        rm -rf tmp_unpack/
+        
+    - name: Update version file
+      if: success() && env.SHOULD_UPDATE == 'true'
+      run: |
+        echo "$DOWNLOADED_HASH" > last_version.txt
+        
+    - name: Commit and push changes
+      if: success() && env.SHOULD_UPDATE == 'true'
+      run: |
+        rm -f frontend.zip || true
+        git add -A
+        
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "Update frontend with hash $DOWNLOADED_HASH"
+          git push origin main
+          echo "Changes pushed successfully"
+        fi
+        
+    - name: Cleanup
+      if: always()
+      run: |
+        rm -f frontend.zip
+        rm -rf tmp_unpack/ || true
