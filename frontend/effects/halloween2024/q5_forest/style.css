@@ -1,0 +1,54 @@
+:root {
+    --trsn: all 0.5s ease 0s;
+    --black: #000000; 
+}
+ 
+*, *:before, *:after {
+    position: absolute;
+}
+ 
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 100vmin;
+}
+ 
+.content {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    transition: var(--trsn);
+}
+ 
+.content:before {
+    font-family: Arial, Helvetica, serif;
+    bottom: 0vmin;
+    font-weight: 500;
+    font-size: 1.35vmin;
+    color: #fffD;
+    border-radius: 1px;
+    padding: 20vmin 2vmin 3vmin;
+    letter-spacing: 0.5px;
+    word-spacing: 3px;
+    background: linear-gradient(0deg, black, transparent);
+    width: 100%;
+    text-align: center;
+}
+ 
+.content:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    box-shadow: 0 0 20vmin 0vmin var(--black) inset, 0 0 3vmin 0.5vmin var(--black) inset, 0 0 1vmin 1vmin var(--black);
+}

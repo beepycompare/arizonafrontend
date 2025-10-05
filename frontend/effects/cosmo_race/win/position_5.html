@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>TEXT</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+  <div class='wrapper'>
+    <div id="victory-container" class="victory-container">
+      <div id="victory-text-1" class="victory-text neon-text" data-text="ПОБЕДА">ПОБЕДА</div>
+    </div>
+  </div>
+  <script>
+    function getPlayerPosition() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const position = urlParams.get('position');
+      return position || '1'; // По умолчанию 1-е место
+    }
+
+    function getPositionText(position) {
+      const pos = parseInt(position);
+      if (pos === 1) return `${pos}-М`;
+      if (pos === 2) return `${pos}-М`;
+      if (pos === 3) return `${pos}-М`;
+      if (pos >= 4 && pos <= 20) return `${pos}-М`;
+      if (pos % 10 === 1) return `${pos}-М`;
+      if (pos % 10 >= 2 && pos % 10 <= 4) return `${pos}-М`;
+      return `${pos}-М`;
+    }
+
+    const playerPosition = 5;
+    const positionText = getPositionText(playerPosition);
+    
+    const phrases = [ 
+      "ФИНИШ",
+      `ВЫ ПРИШЛИ ${positionText}, ПОЗДРАВЛЯЕМ`
+    ];
+    
+    const container = document.getElementById('victory-container');
+    let currentIndex = 0;
+
+    function showNextPhrase() {
+      if (currentIndex < phrases.length - 1) {
+        currentIndex++;
+        
+        const existingTexts = container.querySelectorAll('.victory-text');
+        existingTexts.forEach((text, index) => {
+          text.style.transform = `translateY(-${(index + 1) * 120}px)`;
+          text.style.opacity = '0.3';
+          text.classList.add('fade-out');
+        });
+        
+        const newText = document.createElement('div');
+        newText.className = 'victory-text neon-text slide-in';
+        newText.textContent = phrases[currentIndex];
+        newText.setAttribute('data-text', phrases[currentIndex]);
+        newText.id = `victory-text-${currentIndex + 1}`;
+        
+        container.appendChild(newText);
+        
+        setTimeout(() => {
+          existingTexts.forEach(text => {
+            if (text.parentNode) {
+              text.parentNode.removeChild(text);
+            }
+          });
+        }, 1000);
+        
+        if (currentIndex < phrases.length - 1) {
+          setTimeout(showNextPhrase, 1500);
+        }
+      }
+    }
+    
+    setTimeout(showNextPhrase, 2000);
+  </script>
+</body>
+</html>

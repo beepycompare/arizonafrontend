@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Космический Старт</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap');
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            background-attachment: fixed;
+            overflow: hidden;
+            position: relative;
+        }
+
+        /* Звездное небо */
+        body::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: 
+                radial-gradient(2px 2px at 20px 30px, #eee, transparent),
+                radial-gradient(2px 2px at 40px 70px, rgba(255,255,255,0.8), transparent),
+                radial-gradient(1px 1px at 90px 40px, #fff, transparent),
+                radial-gradient(1px 1px at 130px 80px, rgba(255,255,255,0.6), transparent),
+                radial-gradient(2px 2px at 160px 30px, #fff, transparent);
+            background-repeat: repeat;
+            background-size: 200px 100px;
+            animation: twinkle 4s ease-in-out infinite alternate;
+            z-index: 1;
+        }
+
+        .container {
+            position: relative;
+            z-index: 2;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        .countdown-text {
+            font-family: 'Orbitron', monospace;
+            font-size: 8rem;
+            font-weight: 900;
+            text-align: center;
+            letter-spacing: 8px;
+            text-transform: uppercase;
+            background: linear-gradient(45deg, #00ffff, #ff00ff, #ffff00, #00ff00, #ff0080, #00ffff);
+            background-size: 600% 600%;
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: space-gradient 3s ease-in-out infinite, pulse 1s ease-in-out infinite;
+            text-shadow: 
+                0 0 20px rgba(0, 255, 255, 0.8),
+                0 0 40px rgba(255, 0, 255, 0.6),
+                0 0 60px rgba(255, 255, 0, 0.4);
+            opacity: 0;
+            transform: scale(0.5);
+            transition: all 0.8s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        }
+
+        .countdown-text.show {
+            opacity: 1;
+            transform: scale(1);
+        }
+
+        .countdown-text.hide {
+            opacity: 0;
+            transform: scale(1.2);
+        }
+
+        /* Космические частицы */
+        .particle {
+            position: absolute;
+            width: 3px;
+            height: 3px;
+            background: #00ffff;
+            border-radius: 50%;
+            animation: float 6s ease-in-out infinite;
+            z-index: 1;
+        }
+
+        .particle:nth-child(1) {
+            top: 20%;
+            left: 10%;
+            animation-delay: 0s;
+            background: #ff00ff;
+        }
+
+        .particle:nth-child(2) {
+            top: 60%;
+            left: 20%;
+            animation-delay: 1s;
+            background: #ffff00;
+        }
+
+        .particle:nth-child(3) {
+            top: 40%;
+            right: 15%;
+            animation-delay: 2s;
+            background: #00ff00;
+        }
+
+        .particle:nth-child(4) {
+            bottom: 30%;
+            left: 30%;
+            animation-delay: 3s;
+            background: #ff0080;
+        }
+
+        .particle:nth-child(5) {
+            top: 15%;
+            right: 25%;
+            animation-delay: 4s;
+            background: #00ffff;
+        }
+
+        /* Анимации */
+        @keyframes space-gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        @keyframes pulse {
+            0%, 100% {
+                text-shadow: 
+                    0 0 20px rgba(0, 255, 255, 0.8),
+                    0 0 40px rgba(255, 0, 255, 0.6),
+                    0 0 60px rgba(255, 255, 0, 0.4);
+            }
+            50% {
+                text-shadow: 
+                    0 0 30px rgba(0, 255, 255, 1),
+                    0 0 50px rgba(255, 0, 255, 0.8),
+                    0 0 70px rgba(255, 255, 0, 0.6);
+            }
+        }
+
+        @keyframes twinkle {
+            0% {
+                opacity: 0.3;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes float {
+            0%, 100% {
+                transform: translateY(0px) rotate(0deg);
+                opacity: 1;
+            }
+            25% {
+                transform: translateY(-20px) rotate(90deg);
+                opacity: 0.8;
+            }
+            50% {
+                transform: translateY(-40px) rotate(180deg);
+                opacity: 0.6;
+            }
+            75% {
+                transform: translateY(-20px) rotate(270deg);
+                opacity: 0.8;
+            }
+        }
+
+        /* Адаптивность */
+        @media (max-width: 768px) {
+            .countdown-text {
+                font-size: 5rem;
+                letter-spacing: 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .countdown-text {
+                font-size: 3.5rem;
+                letter-spacing: 2px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Космические частицы -->
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+    <div class="particle"></div>
+
+    <div class="container">
+        <div class="countdown-text" id="countdownText">НА СТАРТ</div>
+    </div>
+
+    <script>
+        const countdownText = document.getElementById('countdownText');
+        const phrases = ['НА СТАРТ', 'ВНИМАНИЕ', 'МАРШ'];
+        let currentPhrase = 1;
+
+        function showNextPhrase() {
+            // Скрываем текущую фразу
+            countdownText.classList.add('hide');
+            
+            setTimeout(() => {
+                // Меняем текст
+                countdownText.textContent = phrases[currentPhrase];
+                
+                // Убираем классы и показываем новую фразу
+                countdownText.classList.remove('hide');
+                countdownText.classList.add('show');
+                
+                currentPhrase++;
+                
+                // Если есть еще фразы, планируем следующую
+                if (currentPhrase < phrases.length) {
+                    setTimeout(() => {
+                        countdownText.classList.remove('show');
+                        setTimeout(showNextPhrase, 500);
+                    }, 3000); // Показываем каждую фразу 3 секунды
+                } else {
+                    // После последней фразы делаем финальный эффект
+                    setTimeout(() => {
+                        countdownText.classList.add('hide');
+                        setTimeout(() => {
+                            countdownText.style.fontSize = '10rem';
+                            countdownText.style.animation = 'space-gradient 1s ease-in-out infinite, pulse 0.5s ease-in-out infinite';
+                        }, 800);
+                    }, 2000);
+                }
+            }, 400);
+        }
+
+        // Начинаем отсчет
+        setTimeout(() => {
+            countdownText.classList.add('show');
+            setTimeout(() => {
+                countdownText.classList.remove('show');
+                setTimeout(showNextPhrase, 500);
+            }, 3000);
+        }, 500);
+    </script>
+</body>
+</html>

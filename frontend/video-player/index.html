@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>fllscreen video player</title>
+	<style>
+		body {
+			margin: 0;
+			overflow: hidden;
+		}
+		video {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	</style>
+</head>
+<body>
+	<video id="videoPlayer" autoplay loop muted></video>
+	<script>
+		const switchVideo = (videoName) => {
+			console.log('[video-player] play video: ' + videoName);
+			const videoPlayer = document.getElementById('videoPlayer');
+			videoPlayer.src = 'assets/' + videoName;
+			videoPlayer.play();
+		}
+		window.videoPlayer.setVideo = switchVideo;
+	</script>
+</body>
+</html>

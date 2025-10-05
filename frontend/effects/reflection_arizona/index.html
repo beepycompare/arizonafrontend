@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>ALIEN INVASION</title>
+  <link rel="stylesheet" href="./style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Audiowide&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class='wrapper'>
+    <div class="alien-bg"></div>
+    <div id="alien-container" class="alien-container">
+      <div id="alien-text" class="alien-text sci-fi-text" data-text="ВОЛНА ИНОПЛАНЕТЯН: ?">ВОЛНА ИНОПЛАНЕТЯН: ?</div>
+    </div>
+  </div>
+  <script>
+    // Получаем позицию из URL параметров
+    function getPosition() {
+      const urlParams = new URLSearchParams(window.location.search);
+      const position = urlParams.get('position');
+      return position || '1'; // По умолчанию 1-я позиция
+    }
+
+    const position = getPosition();
+    const alienText = document.getElementById('alien-text');
+    
+    // Анимация мигания текста с вопросом
+    let isVisible = true;
+    const blinkInterval = setInterval(() => {
+      if (isVisible) {
+        alienText.style.opacity = '0.3';
+      } else {
+        alienText.style.opacity = '1';
+      }
+      isVisible = !isVisible;
+    }, 500);
+    
+    // Через 3 секунды показываем позицию
+    setTimeout(() => {
+      clearInterval(blinkInterval);
+      alienText.style.opacity = '1';
+      alienText.textContent = `НОВАЯ ВОЛНА ИНОПЛАНЕТЯН!`;
+      alienText.setAttribute('data-text', `НОВАЯ ВОЛНА ИНОПЛАНЕТЯН!`);
+      alienText.classList.add('wave-reveal');
+      
+      // Добавляем эффект тряски экрана
+      document.body.classList.add('screen-shake');
+      setTimeout(() => {
+        document.body.classList.remove('screen-shake');
+      }, 1000);
+    }, 1000);
+  </script>
+</body>
+</html>

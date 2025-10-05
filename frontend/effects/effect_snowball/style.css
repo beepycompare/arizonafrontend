@@ -1,0 +1,257 @@
+body {
+  margin: 0 !important;
+}
+
+.main {
+  position: relative;
+  background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+}
+
+.absolute-full {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.bg {
+  background: radial-gradient(
+      90.09% 90.09% at 50% 50%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(252, 253, 254, 0.0325) 33.5%,
+      rgba(203, 232, 244, 0.5) 100%
+    ),
+    radial-gradient(
+      54.12% 54.12% at 50% 50%,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(203, 232, 244, 0.5) 100%
+    );
+  animation: bgAnim 1s linear;
+}
+
+.crumbs {
+  background-image: url('./crumbs.png');
+  background-size: cover;
+  animation: crumbsAnim 1s ease-in-out;
+}
+
+.snowball {
+  position: absolute;
+  background-image: url('./snowball.png');
+  background-size: cover;
+  width: 32vw;
+  height: 32vw;
+}
+
+.lt {
+  top: -4.1vw;
+  left: -9.3vw;
+  transform: rotate(16.35deg);
+  animation: lt 1s ease-in-out;
+}
+
+.ct {
+  top: -15vw;
+  left: 25vw;
+  transform: scale(0.76) rotate(99.71deg);
+  animation: ct 1s ease-in-out;
+}
+
+.rt {
+  top: -19vw;
+  left: 62vw;
+  transform: scale(1.3) rotate(120.36deg);
+  animation: rt 1s ease-in-out;
+}
+
+.rc {
+  top: 50%;
+  right: -17vw;
+  transform: scale(0.9) translateY(-50%) rotate(120.36deg);
+  animation: rc 1s linear;
+}
+
+.rb {
+  bottom: -15vw;
+  right: 1vw;
+  transform: scale(1) rotate(99.71deg);
+  animation: rb 1s ease-in-out;
+}
+
+.lb {
+  bottom: -16vw;
+  left: 10vw;
+  transform: scale(1.2) rotate(16.35deg);
+  animation: lb 1s ease-in-out;
+}
+
+@keyframes bgAnim {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes crumbsAnim {
+  0% {
+    opacity: 0;
+  }
+  25% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes lt {
+  0% {
+    top: -16vw;
+    left: -16vw;
+    transform: scale(0) rotate(16.35deg);
+  }
+  20% {
+    top: -16vw;
+    left: -16vw;
+    transform: scale(0.1) rotate(16.35deg);
+  }
+  40% {
+    top: -4.1vw;
+    left: -9.3vw;
+    transform: scale(1) rotate(16.35deg);
+  }
+  100% {
+    top: -4.1vw;
+    left: -9.3vw;
+    transform: scale(1) rotate(16.35deg);
+  }
+}
+
+@keyframes ct {
+  0% {
+    top: -20vw;
+    left: 30vw;
+    transform: scale(0) rotate(99.71deg);
+  }
+  20% {
+    top: -20vw;
+    left: 30vw;
+    transform: scale(0.1) rotate(99.71deg);
+  }
+  50% {
+    top: -15vw;
+    left: 25vw;
+    transform: scale(0.76) rotate(99.71deg);
+  }
+  100% {
+    top: -15vw;
+    left: 25vw;
+    transform: scale(0.76) rotate(99.71deg);
+  }
+}
+
+@keyframes rt {
+  0% {
+    top: -23vw;
+    left: 80vw;
+    transform: scale(0) rotate(120.36deg);
+  }
+  50% {
+    top: -23vw;
+    left: 80vw;
+    transform: scale(0.1) rotate(120.36deg);
+  }
+  70% {
+    top: -19vw;
+    left: 62vw;
+    transform: scale(1.3) rotate(120.36deg);
+  }
+  100% {
+    top: -19vw;
+    left: 62vw;
+    transform: scale(1.3) rotate(120.36deg);
+  }
+}
+
+@keyframes rc {
+  0% {
+    top: 0%;
+    right: -25vw;
+    transform: scale(0) translateY(-50%) rotate(120.36deg);
+  }
+  30% {
+    top: 0%;
+    right: -25vw;
+    transform: scale(0.1) translateY(-50%) rotate(120.36deg);
+  }
+  60% {
+    top: 50%;
+    right: -17vw;
+    transform: scale(0.9) translateY(-50%) rotate(120.36deg);
+  }
+  100% {
+    top: 50%;
+    right: -17vw;
+    transform: scale(0.9) translateY(-50%) rotate(120.36deg);
+  }
+}
+
+@keyframes rb {
+  0% {
+    bottom: -10vw;
+    right: -32vw;
+    transform: scale(0) rotate(99.71deg);
+  }
+  40% {
+    bottom: -10vw;
+    right: -32vw;
+    transform: scale(0.1) rotate(99.71deg);
+  }
+  60% {
+    bottom: -15vw;
+    right: 1vw;
+    transform: scale(1) rotate(99.71deg);
+  }
+  100% {
+    bottom: -15vw;
+    right: 1vw;
+    transform: scale(1) rotate(99.71deg);
+  }
+}
+
+@keyframes lb {
+  0% {
+    bottom: 10vw;
+    left: 0;
+    transform: scale(0) rotate(16.35deg);
+  }
+  48% {
+    bottom: 10vw;
+    left: 0;
+    transform: scale(0) rotate(16.35deg);
+  }
+  50% {
+    bottom: 10vw;
+    left: 0;
+    transform: scale(0.05) rotate(16.35deg);
+  }
+  70% {
+    bottom: -16vw;
+    left: 10vw;
+    transform: scale(1.2) rotate(16.35deg);
+  }
+  100% {
+    bottom: -16vw;
+    left: 10vw;
+    transform: scale(1.2) rotate(16.35deg);
+  }
+}

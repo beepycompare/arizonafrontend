@@ -1,0 +1,204 @@
+/* Import font */
+@import url("https://fonts.googleapis.com/css2?family=Orbitron&display=swap");
+
+:root {
+  --portal-diameter: 130px;
+  --text-padding: 70px;
+  --materialization-duration: 5.6s;
+  --slide-duration: 2.5s;
+  --string: "Arizona Role Play! ♥\AHappy Easter";
+  --string-font-size: 6rem;
+  --flicker-duration: 1s;
+  --portal-color: rgba(50, 170, 170, 0.5);
+  --portal-faint-side: rgba(0, 200, 200, 0.1);
+  --portal-bold-side: rgba(0, 255, 255, 1);
+  --final-portal-width: 13px;
+}
+
+@media screen and (max-width: 700px) {
+  :root {
+    --text-padding: 50px;
+    --string-font-size: 5rem;
+    --portal-diameter: 100px;
+    --final-portal-width: 10px;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  :root {
+    --portal-diameter: 80px;
+    --string-font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  :root {
+    --text-padding: 30px;
+    --string-font-size: 2rem;
+    --portal-diameter: 50px;
+    --final-portal-width: 7px;
+  }
+}
+
+@keyframes materialization {
+  0% {
+    width: 0;
+    height: 0;
+    border-width: 0px;
+    left: 50%;
+    border-left-color: var(--portal-faint-side);
+    border-right-color: var(--portal-faint-side);
+    border-top-color: var(--portal-bold-side);
+    border-bottom-color: var(--portal-bold-side);
+    transform: translate3d(-50%, -50%, 0);
+    box-shadow: 0 0 0 0 rgba(100, 200, 200, 0.4);
+  }
+  50% {
+    width: var(--portal-diameter);
+    height: var(--portal-diameter);
+    border-width: 4px;
+    border-left-color: var(--portal-faint-side);
+    border-right-color: var(--portal-faint-side);
+    border-top-color: var(--portal-bold-side);
+    border-bottom-color: var(--portal-bold-side);
+    box-shadow: 0 0 var(--final-portal-width) var(--final-portal-width) rgba(100, 200, 200, 1);
+  }
+  70% {
+    width: var(--portal-diameter);
+    height: var(--portal-diameter);
+    border-width: 2px;
+    border-color: rgba(0, 255, 255, 0.7);
+    left: 50%;
+    transform: translate3d(-50%, -50%, 0) rotateZ(900deg);
+  }
+  100% {
+    width: var(--final-portal-width);
+    height: var(--portal-diameter);
+    border-width: 2px;
+    border-color: rgba(0, 255, 255, 0.7);
+    left: 0;
+    transform: translate3d(0, -50%, 0) rotateZ(900deg);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    transform: translateX(calc(-100% - var(--text-padding)));
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+@keyframes flicker {
+  0%, 10% {
+    opacity: 0.5;
+    text-shadow: 0px 0px 5px hotpink;
+  }
+  20% {
+    opacity: 0.4;
+    text-shadow: 0px 0px 4px hotpink;
+  }
+  30% {
+    opacity: 0.8;
+    text-shadow: 0px 0px 8px hotpink;
+  }
+  40% {
+    opacity: 0.4;
+    text-shadow: 0px 0px 4px hotpink;
+  }
+  50% {
+    opacity: 1;
+    text-shadow: 0px 0px 10px hotpink;
+  }
+  90% {
+    opacity: 0.2;
+    text-shadow: 0px 0px 2px hotpink;
+  }
+  100% {
+    opacity: 1;
+    text-shadow: 0px 0px 10px hotpink;
+  }
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 10px;
+}
+
+html, body {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  padding: 30px;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    padding: 20px;
+  }
+}
+
+.teleport {
+  overflow: hidden;
+  position: relative;
+  font-family: "Orbitron", monospace;
+}
+
+.teleport::before,
+.teleport::after {
+  animation-fill-mode: forwards;
+  display: block;
+}
+
+.teleport::before {
+  content: var(--string);
+  white-space: pre; /* Чтобы отображался перенос строки */
+  font-size: var(--string-font-size);
+  color: hotpink;
+  opacity: 0.5;
+  text-shadow: 0px 0px 5px hotpink;
+  padding: var(--text-padding) var(--final-portal-width) var(--text-padding)
+    calc(var(--text-padding) - var(--final-portal-width));
+  transform: translateX(calc(-100% - var(--text-padding)));
+  animation-name: slide-in, flicker;
+  animation-duration: var(--slide-duration), var(--flicker-duration);
+  animation-timing-function: ease-out, linear;
+  animation-delay: var(--materialization-duration),
+    calc(var(--materialization-duration) + var(--slide-duration));
+}
+
+.teleport::after {
+  content: "";
+  position: absolute;
+  z-index: 0;
+  background-color: var(--portal-color);
+  width: 0;
+  height: 0;
+  left: 50%;
+  top: 50%;
+  box-shadow: 0 0 0 0 rgba(100, 200, 200, 0.4);
+  transform: translate3d(-50%, -50%, 0);
+  border-width: 0px;
+  border-style: dotted;
+  border-radius: 100%;
+  border-left-color: var(--portal-faint-side);
+  border-right-color: var(--portal-faint-side);
+  border-top-color: var(--portal-bold-side);
+  border-bottom-color: var(--portal-bold-side);
+  animation-duration: var(--materialization-duration);
+  animation-name: materialization;
+}

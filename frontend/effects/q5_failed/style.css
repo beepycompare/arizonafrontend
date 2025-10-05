@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow');
+
+body {
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    font-family: 'Impact', sans-serif;
+}
+.container {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+a {
+    text-decoration: none;
+}
+
+.sp-container {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+    background: -webkit-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.5));
+    background: -moz-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.5));
+    background: -ms-radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.5));
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 3));
+}
+.sp-content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+    z-index: 1000;
+}
+.sp-container h2 {
+    position: absolute;
+    top: 50%;
+    line-height: 100px;
+    height: 50px;
+    margin-top: -50px;
+    font-size: 60px;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-animation: blurFadeInOut 1s ease-in forwards;
+    -moz-animation: blurFadeInOut 1s ease-in forwards;
+    -ms-animation: blurFadeInOut 1s ease-in forwards;
+    animation: blurFadeInOut 1s ease-in forwards;
+}
+.sp-container h2.frame-1 {
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    animation-delay: 1s;
+}
+
+.sp-container h4 {
+    position: absolute;
+    top: 50%;
+    line-height: 200px;
+    height: 50px;
+    margin-top: -50px;
+    font-size: 25px;
+    font-weight: 100;
+    width: 100%;
+    text-align: center;
+    color: transparent;
+    -webkit-animation: blurFadeInOut 1s ease-in forwards;
+    -moz-animation: blurFadeInOut 1s ease-in forwards;
+    -ms-animation: blurFadeInOut 1s ease-in forwards;
+    animation: blurFadeInOut 1s ease-in forwards;
+}
+.sp-container h4.frame-1 {
+    -webkit-animation-delay: 5s;
+    -moz-animation-delay: 5s;
+    -ms-animation-delay: 5s;
+    animation-delay: 1s;
+}
+
+@-webkit-keyframes blurFadeInOut {
+    0% {
+        opacity: 0;
+        text-shadow: 0px 0px 5px #FE0000;
+        -webkit-transform: scale(1.3);
+    }
+    20%, 75%, 100% { 
+      opacity: 1;
+        text-shadow: 0px 0px 1px #FE0000;
+        -webkit-transform: scale(1.3);
+    }
+}
