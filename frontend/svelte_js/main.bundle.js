@@ -72459,70 +72459,70 @@
             "id": 2647,
             "name": "Капот для Dodge Challenger (STOCK)",
             "icon": "2647.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2648,
             "name": "Капот для Dodge Challenger (FOUR-SLOT)",
             "icon": "2648.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2649,
             "name": "Капот для Dodge Challenger (SPEEDLINE)",
             "icon": "2649.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2650,
             "name": "Капот для Dodge Challenger (TREMOR)",
             "icon": "2650.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2651,
             "name": "Капот для Dodge Challenger (DOUBLE-V)",
             "icon": "2651.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2652,
             "name": "Капот для Fiat 500 (STOCK)",
             "icon": "2652.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2653,
             "name": "Капот для Fiat 500 (FOUR-SLOT)",
             "icon": "2653.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2654,
             "name": "Капот для Fiat 500 (SPEEDLINE)",
             "icon": "2654.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2655,
             "name": "Капот для Fiat 500 (TREMOR)",
             "icon": "2655.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2656,
             "name": "Капот для Fiat 500 (DOUBLE-V)",
             "icon": "2656.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -73019,35 +73019,35 @@
             "id": 2727,
             "name": "Капот для BMW M5 E60 (STOCK)",
             "icon": "2727.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2728,
             "name": "Капот для BMW M5 E60 (FOUR-SLOT)",
             "icon": "2728.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2729,
             "name": "Капот для BMW M5 E60 (SPEEDLINE)",
             "icon": "2729.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2730,
             "name": "Капот для BMW M5 E60 (TREMOR)",
             "icon": "2730.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2731,
             "name": "Капот для BMW M5 E60 (DOUBLE-V)",
             "icon": "2731.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -74580,70 +74580,70 @@
             "id": 2950,
             "name": "Выхлоп для Dodge Challenger (GRADIENT STOCK)",
             "icon": "2950.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2951,
             "name": "Выхлоп для Dodge Challenger (CARBON RING)",
             "icon": "2951.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2952,
             "name": "Выхлоп для Dodge Challenger (CARBON TWO)",
             "icon": "2952.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2953,
             "name": "Выхлоп для Dodge Challenger (GRADIENT TWO)",
             "icon": "2953.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2954,
             "name": "Выхлоп для Dodge Challenger (GRID)",
             "icon": "2954.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2955,
             "name": "Выхлоп для Fiat 500 (GRADIENT STOCK)",
             "icon": "2955.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2956,
             "name": "Выхлоп для Fiat 500 (CARBON RING)",
             "icon": "2956.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2957,
             "name": "Выхлоп для Fiat 500 (CARBON TWO)",
             "icon": "2957.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2958,
             "name": "Выхлоп для Fiat 500 (GRADIENT TWO)",
             "icon": "2958.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2959,
             "name": "Выхлоп для Fiat 500 (GRID)",
             "icon": "2959.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -75140,35 +75140,35 @@
             "id": 3030,
             "name": "Выхлоп для BMW M5 E60 (GRADIENT STOCK)",
             "icon": "3030.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3031,
             "name": "Выхлоп для BMW M5 E60 (CARBON RING)",
             "icon": "3031.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3032,
             "name": "Выхлоп для BMW M5 E60 (CARBON TWO)",
             "icon": "3032.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3033,
             "name": "Выхлоп для BMW M5 E60 (GRADIENT TWO)",
             "icon": "3033.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3034,
             "name": "Выхлоп для BMW M5 E60 (GRID)",
             "icon": "3034.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -76533,70 +76533,70 @@
             "id": 3229,
             "name": "Спойлер для Dodge Challenger (STOCK)",
             "icon": "3229.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3230,
             "name": "Спойлер для Dodge Challenger (DUCKTAIL)",
             "icon": "3230.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3231,
             "name": "Спойлер для Dodge Challenger (REAPER)",
             "icon": "3231.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3232,
             "name": "Спойлер для Dodge Challenger (DAYTONA)",
             "icon": "3232.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3233,
             "name": "Спойлер для Dodge Challenger (CURSE)",
             "icon": "3233.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3234,
             "name": "Спойлер для Fiat 500 (STOCK)",
             "icon": "3234.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3235,
             "name": "Спойлер для Fiat 500 (DUCKTAIL)",
             "icon": "3235.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3236,
             "name": "Спойлер для Fiat 500 (REAPER)",
             "icon": "3236.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3237,
             "name": "Спойлер для Fiat 500 (DAYTONA)",
             "icon": "3237.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3238,
             "name": "Спойлер для Fiat 500 (CURSE)",
             "icon": "3238.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -77072,35 +77072,35 @@
             "id": 3306,
             "name": "Спойлер для BMW M5 E60 (STOCK)",
             "icon": "3306.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3307,
             "name": "Спойлер для BMW M5 E60 (DUCKTAIL)",
             "icon": "3307.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3308,
             "name": "Спойлер для BMW M5 E60 (REAPER)",
             "icon": "3308.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3309,
             "name": "Спойлер для BMW M5 E60 (DAYTONA)",
             "icon": "3309.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3310,
             "name": "Спойлер для BMW M5 E60 (CURSE)",
             "icon": "3310.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -79438,35 +79438,35 @@
             "id": 3644,
             "name": "Капот для Toyota Chaser (STOCK)",
             "icon": "3644.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3645,
             "name": "Капот для Toyota Chaser (FOUR-SLOT)",
             "icon": "3645.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3646,
             "name": "Капот для Toyota Chaser (SPEEDLINE)",
             "icon": "3646.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3647,
             "name": "Капот для Toyota Chaser (TREMOR)",
             "icon": "3647.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3648,
             "name": "Капот для Toyota Chaser (DOUBLE-V)",
             "icon": "3648.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -80103,35 +80103,35 @@
             "id": 3739,
             "name": "Выхлоп для Toyota Chaser (GRADIENT STOCK)",
             "icon": "3739.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3740,
             "name": "Выхлоп для Toyota Chaser (CARBON RING)",
             "icon": "3740.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3741,
             "name": "Выхлоп для Toyota Chaser (CARBON TWO)",
             "icon": "3741.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3742,
             "name": "Выхлоп для Toyota Chaser (GRADIENT TWO)",
             "icon": "3742.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3743,
             "name": "Выхлоп для Toyota Chaser (GRID)",
             "icon": "3743.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -80698,35 +80698,35 @@
             "id": 3824,
             "name": "Спойлер для Toyota Chaser (STOCK)",
             "icon": "3824.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3825,
             "name": "Спойлер для Toyota Chaser (DUCKTAIL)",
             "icon": "3825.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3826,
             "name": "Спойлер для Toyota Chaser (REAPER)",
             "icon": "3826.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3827,
             "name": "Спойлер для Toyota Chaser (DAYTONA)",
             "icon": "3827.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3828,
             "name": "Спойлер для Toyota Chaser (CURSE)",
             "icon": "3828.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -118875,7 +118875,7 @@
             "active": 0
         }, {
             "id": 9275,
-            "name": "Сертификат Ford Raptor",
+            "name": "Сертификат Saleen S7",
             "icon": "9275.webp",
             "acs_slot": -1,
             "type": 2,
@@ -119464,10 +119464,10 @@
             "effect": "white-fire"
         }, {
             "id": 9356,
-            "name": "Сертификат Saleen S7",
+            "name": "DELETED",
             "icon": "9356.webp",
             "acs_slot": -1,
-            "type": 2,
+            "type": 15,
             "active": 0
         }, {
             "id": 9357,
@@ -119557,6 +119557,48 @@
             "id": 9369,
             "name": "BattlePass Хэллоуинские Грёзы (10 EXP)",
             "icon": "9369.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9370,
+            "name": "Ящик с запечатанным сэтом Друида (Хлам)",
+            "icon": "9370.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9371,
+            "name": "Ящик с запечатанным сэтом Друида (Редкий)",
+            "icon": "9371.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9372,
+            "name": "Ящик с запечатанным сэтом Друида (Легендарный)",
+            "icon": "9372.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9373,
+            "name": "Ящик с запечатанным сэтом Черного мечника (Хлам)",
+            "icon": "9373.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9374,
+            "name": "Ящик с запечатанным сэтом Черного мечника (Редкий)",
+            "icon": "9374.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9375,
+            "name": "Ящик с запечатанным сэтом Черного мечника (Легендарный)",
+            "icon": "9375.webp",
             "acs_slot": -1,
             "type": 15,
             "active": 0
@@ -290835,12 +290877,447 @@ const getRandomTableNumber = () => {
 
         function product_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[8] = list[i];
+            child_ctx[9] = list[i];
             return child_ctx;
         }
 
-        // (47:1) {#if data.animation >= 0 && backgroundLoaded}
-        function product_index_svelte_create_if_block_14(ctx) {
+        // (49:4) {#if contentVisible}
+        function product_index_svelte_create_if_block(ctx) {
+            let t0;
+            let div0;
+            let img;
+            let img_src_value;
+            let t1;
+            let t2;
+            let div9;
+            let div2;
+            let div1;
+            let light;
+            let t3;
+            let div2_class_value;
+            let t4;
+            let div5;
+            let div3;
+            let t5;
+            let div4;
+            let t6;
+            let div8;
+            let t7;
+            let show_if_1 = /*data*/ ctx[0].typeTemplate === Templates.Big && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
+            let t8;
+            let div6;
+            let span0;
+            let t9;
+            let t10;
+            let span1;
+            let t11;
+            let t12;
+            let show_if = /*data*/ ctx[0].typeTemplate === Templates.Standart || /*data*/ ctx[0].typeTemplate === Templates.Wide && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
+            let t13;
+            let div7;
+            let button;
+            let t14;
+            let current;
+            let mounted;
+            let dispose;
+            let if_block0 = /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[3] && product_index_svelte_create_if_block_15(ctx);
+            let if_block1 = /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[3] && product_index_svelte_create_if_block_14(ctx);
+
+            light = new light_index_svelte({
+                props: {
+                    color: /*data*/ ctx[0].imageEffectId
+                }
+            });
+
+            let if_block2 = ( /*data*/ ctx[0].imageId >= 0 || /*data*/ ctx[0].gifId >= 0) && product_index_svelte_create_if_block_13(ctx);
+            let each_value = each_ensure_array_like( /*data*/ ctx[0].badges);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = product_index_svelte_create_each_block(product_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            let if_block3 = /*data*/ ctx[0].endUnixTime >= 0 && /*data*/ ctx[0].timeDifference > 0 && product_index_svelte_create_if_block_10(ctx);
+            let if_block4 = ( /*data*/ ctx[0].typeTemplate === Templates.Exchange || /*data*/ ctx[0].typeTemplate === Templates.Add) && product_index_svelte_create_if_block_6(ctx);
+            let if_block5 = show_if_1 && product_index_svelte_create_if_block_5(ctx);
+            let if_block6 = show_if && product_index_svelte_create_if_block_4(ctx);
+
+            button = new component_button_index_svelte({
+                props: {
+                    onClick: /*purchase*/ ctx[1],
+                    colors: /*data*/ ctx[0].colorButton,
+                    currency: MAP_ID_TO_CURRENCY[ /*data*/ ctx[0].priceCurrency],
+                    crossedText: /*data*/ ctx[0].discountPrice !== 0 ?
+                        /*data*/ ctx[0].price :
+                        '',
+                    text: (0, lodash.isEmpty)( /*data*/ ctx[0].nameButton) ?
+                        `${/*data*/ ctx[0].discountPrice === 0
+					? /*data*/ ctx[0].price
+					: /*data*/ ctx[0].discountPrice} ${MAP_ID_TO_CURRENCY_NAME[/*data*/ ctx[0].priceCurrency]}` :
+                        /*data*/ ctx[0].nameButton,
+                    disabled: /*data*/ ctx[0].iSdisabledButton
+                }
+            });
+
+            let if_block7 = /*data*/ ctx[0].blockedType >= 0 && product_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    if (if_block0) if_block0.c();
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    img = dom_element("img");
+                    t1 = dom_space();
+                    if (if_block1) if_block1.c();
+                    t2 = dom_space();
+                    div9 = dom_element("div");
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    create_component(light.$$.fragment);
+                    t3 = dom_space();
+                    if (if_block2) if_block2.c();
+                    t4 = dom_space();
+                    div5 = dom_element("div");
+                    div3 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    t5 = dom_space();
+                    div4 = dom_element("div");
+                    if (if_block3) if_block3.c();
+                    t6 = dom_space();
+                    div8 = dom_element("div");
+                    if (if_block4) if_block4.c();
+                    t7 = dom_space();
+                    if (if_block5) if_block5.c();
+                    t8 = dom_space();
+                    div6 = dom_element("div");
+                    span0 = dom_element("span");
+                    t9 = dom_text( /*solidText*/ ctx[5]);
+                    t10 = dom_space();
+                    span1 = dom_element("span");
+                    t11 = dom_text( /*gradientText*/ ctx[4]);
+                    t12 = dom_space();
+                    if (if_block6) if_block6.c();
+                    t13 = dom_space();
+                    div7 = dom_element("div");
+                    create_component(button.$$.fragment);
+                    t14 = dom_space();
+                    if (if_block7) if_block7.c();
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate_background/${/*data*/ ctx[0].backgroundId}.webp`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "back");
+                    dom_attr(img, "class", "donate-shop-product__background-image");
+                    dom_attr(div0, "class", "donate-shop-product__background");
+                    dom_attr(div1, "class", "donate-shop-product__image-light");
+                    dom_attr(div2, "class", div2_class_value = "donate-shop-product__image-wrapper donate-shop-product__image-wrapper--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate]);
+                    dom_attr(div3, "class", "donate-shop-product__badges");
+                    dom_attr(div4, "class", "donate-shop-product__time");
+                    dom_attr(div5, "class", "donate-shop-product__header");
+                    dom_toggle_class(div5, "donate-shop-product__header--wide", /*data*/ ctx[0].typeTemplate === Templates.Big);
+                    dom_attr(span0, "class", "donate-shop-product__name");
+                    dom_attr(span1, "class", "donate-shop-product__name");
+                    set_style(span1, "--textGradient", "linear-gradient(90deg, " + ( /*data*/ ctx[0].textGradientColor[0] || '#FFF') + " 0%, " + ( /*data*/ ctx[0].textGradientColor[1] || '#FFF') + " 100%)");
+                    dom_toggle_class(span1, "donate-shop-product__name--gradient", !(0, lodash.isEmpty)( /*data*/ ctx[0].textGradientColor));
+                    dom_attr(div6, "class", "donate-shop-product__name-wrppaer");
+                    dom_attr(div7, "class", "donate-shop-product__button");
+                    dom_attr(div8, "class", "donate-shop-product__footer");
+                    dom_attr(div9, "class", "donate-shop-product__content");
+                },
+                m(target, anchor) {
+                    if (if_block0) if_block0.m(target, anchor);
+                    dom_insert(target, t0, anchor);
+                    dom_insert(target, div0, anchor);
+                    dom_append(div0, img);
+                    dom_insert(target, t1, anchor);
+                    if (if_block1) if_block1.m(target, anchor);
+                    dom_insert(target, t2, anchor);
+                    dom_insert(target, div9, anchor);
+                    dom_append(div9, div2);
+                    dom_append(div2, div1);
+                    mount_component(light, div1, null);
+                    dom_append(div2, t3);
+                    if (if_block2) if_block2.m(div2, null);
+                    dom_append(div9, t4);
+                    dom_append(div9, div5);
+                    dom_append(div5, div3);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div3, null);
+                        }
+                    }
+
+                    dom_append(div5, t5);
+                    dom_append(div5, div4);
+                    if (if_block3) if_block3.m(div4, null);
+                    dom_append(div9, t6);
+                    dom_append(div9, div8);
+                    if (if_block4) if_block4.m(div8, null);
+                    dom_append(div8, t7);
+                    if (if_block5) if_block5.m(div8, null);
+                    dom_append(div8, t8);
+                    dom_append(div8, div6);
+                    dom_append(div6, span0);
+                    dom_append(span0, t9);
+                    dom_append(div6, t10);
+                    dom_append(div6, span1);
+                    dom_append(span1, t11);
+                    dom_append(div8, t12);
+                    if (if_block6) if_block6.m(div8, null);
+                    dom_append(div8, t13);
+                    dom_append(div8, div7);
+                    mount_component(button, div7, null);
+                    dom_append(div9, t14);
+                    if (if_block7) if_block7.m(div9, null);
+                    current = true;
+
+                    if (!mounted) {
+                        dispose = dom_listen(img, "load", /*load_handler*/ ctx[8]);
+                        mounted = true;
+                    }
+                },
+                p(ctx, dirty) {
+                    if ( /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[3]) {
+                        if (if_block0) {
+
+                        } else {
+                            if_block0 = product_index_svelte_create_if_block_15(ctx);
+                            if_block0.c();
+                            if_block0.m(t0.parentNode, t0);
+                        }
+                    } else if (if_block0) {
+                        if_block0.d(1);
+                        if_block0 = null;
+                    }
+
+                    if (!current || dirty & /*data*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate_background/${/*data*/ ctx[0].backgroundId}.webp`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+
+                    if ( /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[3]) {
+                        if (if_block1) {
+
+                        } else {
+                            if_block1 = product_index_svelte_create_if_block_14(ctx);
+                            if_block1.c();
+                            if_block1.m(t2.parentNode, t2);
+                        }
+                    } else if (if_block1) {
+                        if_block1.d(1);
+                        if_block1 = null;
+                    }
+
+                    const light_changes = {};
+                    if (dirty & /*data*/ 1) light_changes.color = /*data*/ ctx[0].imageEffectId;
+                    light.$set(light_changes);
+
+                    if ( /*data*/ ctx[0].imageId >= 0 || /*data*/ ctx[0].gifId >= 0) {
+                        if (if_block2) {
+                            if_block2.p(ctx, dirty);
+
+                            if (dirty & /*data*/ 1) {
+                                transitions_transition_in(if_block2, 1);
+                            }
+                        } else {
+                            if_block2 = product_index_svelte_create_if_block_13(ctx);
+                            if_block2.c();
+                            transitions_transition_in(if_block2, 1);
+                            if_block2.m(div2, null);
+                        }
+                    } else if (if_block2) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block2, 1, 1, () => {
+                            if_block2 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if (!current || dirty & /*data*/ 1 && div2_class_value !== (div2_class_value = "donate-shop-product__image-wrapper donate-shop-product__image-wrapper--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate])) {
+                        dom_attr(div2, "class", div2_class_value);
+                    }
+
+                    if (dirty & /*data*/ 1) {
+                        each_value = each_ensure_array_like( /*data*/ ctx[0].badges);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = product_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = product_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div3, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+
+                    if ( /*data*/ ctx[0].endUnixTime >= 0 && /*data*/ ctx[0].timeDifference > 0) {
+                        if (if_block3) {
+                            if_block3.p(ctx, dirty);
+                        } else {
+                            if_block3 = product_index_svelte_create_if_block_10(ctx);
+                            if_block3.c();
+                            if_block3.m(div4, null);
+                        }
+                    } else if (if_block3) {
+                        if_block3.d(1);
+                        if_block3 = null;
+                    }
+
+                    if (!current || dirty & /*data*/ 1) {
+                        dom_toggle_class(div5, "donate-shop-product__header--wide", /*data*/ ctx[0].typeTemplate === Templates.Big);
+                    }
+
+                    if ( /*data*/ ctx[0].typeTemplate === Templates.Exchange || /*data*/ ctx[0].typeTemplate === Templates.Add) {
+                        if (if_block4) {
+                            if_block4.p(ctx, dirty);
+                        } else {
+                            if_block4 = product_index_svelte_create_if_block_6(ctx);
+                            if_block4.c();
+                            if_block4.m(div8, t7);
+                        }
+                    } else if (if_block4) {
+                        if_block4.d(1);
+                        if_block4 = null;
+                    }
+
+                    if (dirty & /*data*/ 1) show_if_1 = /*data*/ ctx[0].typeTemplate === Templates.Big && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
+
+                    if (show_if_1) {
+                        if (if_block5) {
+                            if_block5.p(ctx, dirty);
+                        } else {
+                            if_block5 = product_index_svelte_create_if_block_5(ctx);
+                            if_block5.c();
+                            if_block5.m(div8, t8);
+                        }
+                    } else if (if_block5) {
+                        if_block5.d(1);
+                        if_block5 = null;
+                    }
+
+                    if (!current || dirty & /*solidText*/ 32) dom_set_data(t9, /*solidText*/ ctx[5]);
+                    if (!current || dirty & /*gradientText*/ 16) dom_set_data(t11, /*gradientText*/ ctx[4]);
+
+                    if (!current || dirty & /*data*/ 1) {
+                        set_style(span1, "--textGradient", "linear-gradient(90deg, " + ( /*data*/ ctx[0].textGradientColor[0] || '#FFF') + " 0%, " + ( /*data*/ ctx[0].textGradientColor[1] || '#FFF') + " 100%)");
+                    }
+
+                    if (!current || dirty & /*data*/ 1) {
+                        dom_toggle_class(span1, "donate-shop-product__name--gradient", !(0, lodash.isEmpty)( /*data*/ ctx[0].textGradientColor));
+                    }
+
+                    if (dirty & /*data*/ 1) show_if = /*data*/ ctx[0].typeTemplate === Templates.Standart || /*data*/ ctx[0].typeTemplate === Templates.Wide && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
+
+                    if (show_if) {
+                        if (if_block6) {
+                            if_block6.p(ctx, dirty);
+                        } else {
+                            if_block6 = product_index_svelte_create_if_block_4(ctx);
+                            if_block6.c();
+                            if_block6.m(div8, t13);
+                        }
+                    } else if (if_block6) {
+                        if_block6.d(1);
+                        if_block6 = null;
+                    }
+
+                    const button_changes = {};
+                    if (dirty & /*purchase*/ 2) button_changes.onClick = /*purchase*/ ctx[1];
+                    if (dirty & /*data*/ 1) button_changes.colors = /*data*/ ctx[0].colorButton;
+                    if (dirty & /*data*/ 1) button_changes.currency = MAP_ID_TO_CURRENCY[ /*data*/ ctx[0].priceCurrency];
+
+                    if (dirty & /*data*/ 1) button_changes.crossedText = /*data*/ ctx[0].discountPrice !== 0 ?
+                        /*data*/ ctx[0].price :
+                        '';
+
+                    if (dirty & /*data*/ 1) button_changes.text = (0, lodash.isEmpty)( /*data*/ ctx[0].nameButton) ?
+                        `${/*data*/ ctx[0].discountPrice === 0
+				? /*data*/ ctx[0].price
+				: /*data*/ ctx[0].discountPrice} ${MAP_ID_TO_CURRENCY_NAME[/*data*/ ctx[0].priceCurrency]}` :
+                        /*data*/ ctx[0].nameButton;
+
+                    if (dirty & /*data*/ 1) button_changes.disabled = /*data*/ ctx[0].iSdisabledButton;
+                    button.$set(button_changes);
+
+                    if ( /*data*/ ctx[0].blockedType >= 0) {
+                        if (if_block7) {
+                            if_block7.p(ctx, dirty);
+
+                            if (dirty & /*data*/ 1) {
+                                transitions_transition_in(if_block7, 1);
+                            }
+                        } else {
+                            if_block7 = product_index_svelte_create_if_block_1(ctx);
+                            if_block7.c();
+                            transitions_transition_in(if_block7, 1);
+                            if_block7.m(div9, null);
+                        }
+                    } else if (if_block7) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block7, 1, 1, () => {
+                            if_block7 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(light.$$.fragment, local);
+                    transitions_transition_in(if_block2);
+                    transitions_transition_in(button.$$.fragment, local);
+                    transitions_transition_in(if_block7);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(light.$$.fragment, local);
+                    transitions_transition_out(if_block2);
+                    transitions_transition_out(button.$$.fragment, local);
+                    transitions_transition_out(if_block7);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t0);
+                        dom_detach(div0);
+                        dom_detach(t1);
+                        dom_detach(t2);
+                        dom_detach(div9);
+                    }
+
+                    if (if_block0) if_block0.d(detaching);
+                    if (if_block1) if_block1.d(detaching);
+                    destroy_component(light);
+                    if (if_block2) if_block2.d();
+                    destroy_each(each_blocks, detaching);
+                    if (if_block3) if_block3.d();
+                    if (if_block4) if_block4.d();
+                    if (if_block5) if_block5.d();
+                    if (if_block6) if_block6.d();
+                    destroy_component(button);
+                    if (if_block7) if_block7.d();
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        // (50:8) {#if data.animation >= 0 && backgroundLoaded}
+        function product_index_svelte_create_if_block_15(ctx) {
             let img;
             let img_src_value;
 
@@ -290862,8 +291339,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (58:1) {#if data.animation >= 0 && backgroundLoaded}
-        function product_index_svelte_create_if_block_13(ctx) {
+        // (61:8) {#if data.animation >= 0 && backgroundLoaded}
+        function product_index_svelte_create_if_block_14(ctx) {
             let img;
             let img_src_value;
 
@@ -290885,8 +291362,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (80:3) {#if data.imageId >= 0 || data.gifId >= 0}
-        function product_index_svelte_create_if_block_12(ctx) {
+        // (83:16) {#if data.imageId >= 0 || data.gifId >= 0}
+        function product_index_svelte_create_if_block_13(ctx) {
             let div;
             let imagewithfallback;
             let current;
@@ -290934,10 +291411,10 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (97:6) {#if !isEmpty(badge.icon)}
-        function product_index_svelte_create_if_block_11(ctx) {
+        // (100:28) {#if !isEmpty(badge.icon)}
+        function product_index_svelte_create_if_block_12(ctx) {
             let div;
-            let t_value = unicodeFormatToEmoji( /*badge*/ ctx[8].icon) + "";
+            let t_value = unicodeFormatToEmoji( /*badge*/ ctx[9].icon) + "";
             let t;
 
             return {
@@ -290951,7 +291428,7 @@ const getRandomTableNumber = () => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*data*/ 1 && t_value !== (t_value = unicodeFormatToEmoji( /*badge*/ ctx[8].icon) + "")) dom_set_data(t, t_value);
+                    if (dirty & /*data*/ 1 && t_value !== (t_value = unicodeFormatToEmoji( /*badge*/ ctx[9].icon) + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -290961,16 +291438,16 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (92:4) {#each data.badges as badge}
+        // (95:20) {#each data.badges as badge}
         function product_index_svelte_create_each_block(ctx) {
             let div1;
-            let show_if = !(0, lodash.isEmpty)( /*badge*/ ctx[8].icon);
+            let show_if = !(0, lodash.isEmpty)( /*badge*/ ctx[9].icon);
             let t0;
             let div0;
-            let t1_value = /*badge*/ ctx[8].text + "";
+            let t1_value = /*badge*/ ctx[9].text + "";
             let t1;
             let t2;
-            let if_block = show_if && product_index_svelte_create_if_block_11(ctx);
+            let if_block = show_if && product_index_svelte_create_if_block_12(ctx);
 
             return {
                 c() {
@@ -290982,7 +291459,7 @@ const getRandomTableNumber = () => {
                     t2 = dom_space();
                     dom_attr(div0, "class", "donate-shop-product__badge-text");
                     dom_attr(div1, "class", "donate-shop-product__badge");
-                    set_style(div1, "--gradient", "linear-gradient(90deg, " + /*badge*/ ctx[8].colors[0] + " 0%, " + /*badge*/ ctx[8].colors[1] + " 100%)");
+                    set_style(div1, "--gradient", "linear-gradient(90deg, " + /*badge*/ ctx[9].colors[0] + " 0%, " + /*badge*/ ctx[9].colors[1] + " 100%)");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -290993,13 +291470,13 @@ const getRandomTableNumber = () => {
                     dom_append(div1, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*data*/ 1) show_if = !(0, lodash.isEmpty)( /*badge*/ ctx[8].icon);
+                    if (dirty & /*data*/ 1) show_if = !(0, lodash.isEmpty)( /*badge*/ ctx[9].icon);
 
                     if (show_if) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
-                            if_block = product_index_svelte_create_if_block_11(ctx);
+                            if_block = product_index_svelte_create_if_block_12(ctx);
                             if_block.c();
                             if_block.m(div1, t0);
                         }
@@ -291008,10 +291485,10 @@ const getRandomTableNumber = () => {
                         if_block = null;
                     }
 
-                    if (dirty & /*data*/ 1 && t1_value !== (t1_value = /*badge*/ ctx[8].text + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*data*/ 1 && t1_value !== (t1_value = /*badge*/ ctx[9].text + "")) dom_set_data(t1, t1_value);
 
                     if (dirty & /*data*/ 1) {
-                        set_style(div1, "--gradient", "linear-gradient(90deg, " + /*badge*/ ctx[8].colors[0] + " 0%, " + /*badge*/ ctx[8].colors[1] + " 100%)");
+                        set_style(div1, "--gradient", "linear-gradient(90deg, " + /*badge*/ ctx[9].colors[0] + " 0%, " + /*badge*/ ctx[9].colors[1] + " 100%)");
                     }
                 },
                 d(detaching) {
@@ -291024,14 +291501,14 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (109:4) {#if data.endUnixTime >= 0 && data.timeDifference > 0}
-        function product_index_svelte_create_if_block_9(ctx) {
+        // (112:20) {#if data.endUnixTime >= 0 && data.timeDifference > 0}
+        function product_index_svelte_create_if_block_10(ctx) {
             let i;
             let t;
             let div;
 
             function select_block_type(ctx, dirty) {
-                if ( /*data*/ ctx[0].timerView) return product_index_svelte_create_if_block_10;
+                if ( /*data*/ ctx[0].timerView) return product_index_svelte_create_if_block_11;
                 return product_index_svelte_create_else_block_2;
             }
 
@@ -291078,7 +291555,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (114:6) {:else}
+        // (117:28) {:else}
         function product_index_svelte_create_else_block_2(ctx) {
             let t_value = moment_default().unix( /*data*/ ctx[0].endUnixTime).format('DD.MM.YYYY') + "";
             let t;
@@ -291101,9 +291578,9 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (112:6) {#if data.timerView}
-        function product_index_svelte_create_if_block_10(ctx) {
-            let t_value = /*formatTimeString*/ ctx[6]( /*data*/ ctx[0].timeDifference) + "";
+        // (115:28) {#if data.timerView}
+        function product_index_svelte_create_if_block_11(ctx) {
+            let t_value = /*formatTimeString*/ ctx[7]( /*data*/ ctx[0].timeDifference) + "";
             let t;
 
             return {
@@ -291114,7 +291591,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, t, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*data*/ 1 && t_value !== (t_value = /*formatTimeString*/ ctx[6]( /*data*/ ctx[0].timeDifference) + "")) dom_set_data(t, t_value);
+                    if (dirty & /*data*/ 1 && t_value !== (t_value = /*formatTimeString*/ ctx[7]( /*data*/ ctx[0].timeDifference) + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -291124,8 +291601,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (123:3) {#if data.typeTemplate === Templates.Exchange || data.typeTemplate === Templates.Add}
-        function product_index_svelte_create_if_block_5(ctx) {
+        // (126:16) {#if data.typeTemplate === Templates.Exchange || data.typeTemplate === Templates.Add}
+        function product_index_svelte_create_if_block_6(ctx) {
             let show_if = /*data*/ ctx[0].typeTemplate && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
             let t0;
             let div2;
@@ -291136,15 +291613,15 @@ const getRandomTableNumber = () => {
             let t4;
 
             let t5_value = formatMoney( /*data*/ ctx[0].typeTemplate === Templates.Exchange ?
-                /*$donateSettings*/ ctx[5].totalEarnings :
+                /*$donateSettings*/ ctx[6].totalEarnings :
                 /*data*/ ctx[0].price) + "";
 
             let t5;
             let t6;
-            let if_block0 = show_if && product_index_svelte_create_if_block_8(ctx);
+            let if_block0 = show_if && product_index_svelte_create_if_block_9(ctx);
 
             function select_block_type_1(ctx, dirty) {
-                if ( /*data*/ ctx[0].typeTemplate === Templates.Exchange) return product_index_svelte_create_if_block_7;
+                if ( /*data*/ ctx[0].typeTemplate === Templates.Exchange) return product_index_svelte_create_if_block_8;
                 return product_index_svelte_create_else_block_1;
             }
 
@@ -291152,7 +291629,7 @@ const getRandomTableNumber = () => {
             let if_block1 = current_block_type(ctx);
 
             function select_block_type_2(ctx, dirty) {
-                if ( /*data*/ ctx[0].typeTemplate === Templates.Exchange) return product_index_svelte_create_if_block_6;
+                if ( /*data*/ ctx[0].typeTemplate === Templates.Exchange) return product_index_svelte_create_if_block_7;
                 return product_index_svelte_create_else_block;
             }
 
@@ -291199,7 +291676,7 @@ const getRandomTableNumber = () => {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = product_index_svelte_create_if_block_8(ctx);
+                            if_block0 = product_index_svelte_create_if_block_9(ctx);
                             if_block0.c();
                             if_block0.m(t0.parentNode, t0);
                         }
@@ -291218,8 +291695,8 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    if (dirty & /*data, $donateSettings*/ 33 && t5_value !== (t5_value = formatMoney( /*data*/ ctx[0].typeTemplate === Templates.Exchange ?
-                            /*$donateSettings*/ ctx[5].totalEarnings :
+                    if (dirty & /*data, $donateSettings*/ 65 && t5_value !== (t5_value = formatMoney( /*data*/ ctx[0].typeTemplate === Templates.Exchange ?
+                            /*$donateSettings*/ ctx[6].totalEarnings :
                             /*data*/ ctx[0].price) + "")) dom_set_data(t5, t5_value);
 
                     if (current_block_type_1 !== (current_block_type_1 = select_block_type_2(ctx, dirty))) {
@@ -291245,8 +291722,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (124:4) {#if data.typeTemplate && !isEmpty(data.desc)}
-        function product_index_svelte_create_if_block_8(ctx) {
+        // (127:20) {#if data.typeTemplate && !isEmpty(data.desc)}
+        function product_index_svelte_create_if_block_9(ctx) {
             let div;
             let t_value = /*data*/ ctx[0].desc + "";
             let t;
@@ -291272,7 +291749,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (133:5) {:else}
+        // (136:24) {:else}
         function product_index_svelte_create_else_block_1(ctx) {
             let i;
 
@@ -291292,8 +291769,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (131:5) {#if data.typeTemplate === Templates.Exchange}
-        function product_index_svelte_create_if_block_7(ctx) {
+        // (134:24) {#if data.typeTemplate === Templates.Exchange}
+        function product_index_svelte_create_if_block_8(ctx) {
             let img;
             let img_src_value;
 
@@ -291315,7 +291792,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (141:5) {:else}
+        // (144:24) {:else}
         function product_index_svelte_create_else_block(ctx) {
             let img;
             let img_src_value;
@@ -291338,8 +291815,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (139:5) {#if data.typeTemplate === Templates.Exchange}
-        function product_index_svelte_create_if_block_6(ctx) {
+        // (142:24) {#if data.typeTemplate === Templates.Exchange}
+        function product_index_svelte_create_if_block_7(ctx) {
             let i;
 
             return {
@@ -291358,8 +291835,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (146:3) {#if data.typeTemplate === Templates.Big && !isEmpty(data.desc)}
-        function product_index_svelte_create_if_block_4(ctx) {
+        // (149:16) {#if data.typeTemplate === Templates.Big && !isEmpty(data.desc)}
+        function product_index_svelte_create_if_block_5(ctx) {
             let div;
             let t_value = /*data*/ ctx[0].desc + "";
             let t;
@@ -291390,8 +291867,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (163:3) {#if data.typeTemplate === Templates.Standart || data.typeTemplate === Templates.Wide && !isEmpty(data.desc)}
-        function product_index_svelte_create_if_block_3(ctx) {
+        // (166:16) {#if data.typeTemplate === Templates.Standart || data.typeTemplate === Templates.Wide && !isEmpty(data.desc)}
+        function product_index_svelte_create_if_block_4(ctx) {
             let div;
             let t_value = /*data*/ ctx[0].desc + "";
             let t;
@@ -291417,13 +291894,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (179:2) {#if data.blockedType >= 0}
-        function product_index_svelte_create_if_block(ctx) {
+        // (182:12) {#if data.blockedType >= 0}
+        function product_index_svelte_create_if_block_1(ctx) {
             let div;
             let current_block_type_index;
             let if_block;
             let current;
-            const if_block_creators = [product_index_svelte_create_if_block_1, product_index_svelte_create_if_block_2];
+            const if_block_creators = [product_index_svelte_create_if_block_2, product_index_svelte_create_if_block_3];
             const if_blocks = [];
 
             function select_block_type_3(ctx, dirty) {
@@ -291508,8 +291985,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (186:37) 
-        function product_index_svelte_create_if_block_2(ctx) {
+        // (189:53) 
+        function product_index_svelte_create_if_block_3(ctx) {
             let div;
             let loader;
             let current;
@@ -291550,8 +292027,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (181:4) {#if data.blockedType === 1}
-        function product_index_svelte_create_if_block_1(ctx) {
+        // (184:20) {#if data.blockedType === 1}
+        function product_index_svelte_create_if_block_2(ctx) {
             let i;
             let t0;
             let div;
@@ -291595,450 +292072,75 @@ const getRandomTableNumber = () => {
         }
 
         function product_index_svelte_create_fragment(ctx) {
-            let div10;
-            let t0;
-            let div0;
-            let img;
-            let img_src_value;
-            let t1;
-            let t2;
-            let div9;
-            let div2;
-            let div1;
-            let light;
-            let t3;
-            let div2_class_value;
-            let t4;
-            let div5;
-            let div3;
-            let t5;
-            let div4;
-            let t6;
-            let div8;
-            let t7;
-            let show_if_1 = /*data*/ ctx[0].typeTemplate === Templates.Big && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
-            let t8;
-            let div6;
-            let span0;
-            let t9;
-            let t10;
-            let span1;
-            let t11;
-            let t12;
-            let show_if = /*data*/ ctx[0].typeTemplate === Templates.Standart || /*data*/ ctx[0].typeTemplate === Templates.Wide && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
-            let t13;
-            let div7;
-            let button;
-            let t14;
-            let div10_class_value;
+            let div;
+            let div_class_value;
             let current;
-            let mounted;
-            let dispose;
-            let if_block0 = /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[2] && product_index_svelte_create_if_block_14(ctx);
-            let if_block1 = /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[2] && product_index_svelte_create_if_block_13(ctx);
-
-            light = new light_index_svelte({
-                props: {
-                    color: /*data*/ ctx[0].imageEffectId
-                }
-            });
-
-            let if_block2 = ( /*data*/ ctx[0].imageId >= 0 || /*data*/ ctx[0].gifId >= 0) && product_index_svelte_create_if_block_12(ctx);
-            let each_value = each_ensure_array_like( /*data*/ ctx[0].badges);
-            let each_blocks = [];
-
-            for (let i = 0; i < each_value.length; i += 1) {
-                each_blocks[i] = product_index_svelte_create_each_block(product_index_svelte_get_each_context(ctx, each_value, i));
-            }
-
-            let if_block3 = /*data*/ ctx[0].endUnixTime >= 0 && /*data*/ ctx[0].timeDifference > 0 && product_index_svelte_create_if_block_9(ctx);
-            let if_block4 = ( /*data*/ ctx[0].typeTemplate === Templates.Exchange || /*data*/ ctx[0].typeTemplate === Templates.Add) && product_index_svelte_create_if_block_5(ctx);
-            let if_block5 = show_if_1 && product_index_svelte_create_if_block_4(ctx);
-            let if_block6 = show_if && product_index_svelte_create_if_block_3(ctx);
-
-            button = new component_button_index_svelte({
-                props: {
-                    onClick: /*purchase*/ ctx[1],
-                    colors: /*data*/ ctx[0].colorButton,
-                    currency: MAP_ID_TO_CURRENCY[ /*data*/ ctx[0].priceCurrency],
-                    crossedText: /*data*/ ctx[0].discountPrice !== 0 ?
-                        /*data*/ ctx[0].price :
-                        '',
-                    text: (0, lodash.isEmpty)( /*data*/ ctx[0].nameButton) ?
-                        `${/*data*/ ctx[0].discountPrice === 0
-					? /*data*/ ctx[0].price
-					: /*data*/ ctx[0].discountPrice} ${MAP_ID_TO_CURRENCY_NAME[/*data*/ ctx[0].priceCurrency]}` :
-                        /*data*/ ctx[0].nameButton,
-                    disabled: /*data*/ ctx[0].iSdisabledButton
-                }
-            });
-
-            let if_block7 = /*data*/ ctx[0].blockedType >= 0 && product_index_svelte_create_if_block(ctx);
+            let if_block = /*contentVisible*/ ctx[2] && product_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
-                    div10 = dom_element("div");
-                    if (if_block0) if_block0.c();
-                    t0 = dom_space();
-                    div0 = dom_element("div");
-                    img = dom_element("img");
-                    t1 = dom_space();
-                    if (if_block1) if_block1.c();
-                    t2 = dom_space();
-                    div9 = dom_element("div");
-                    div2 = dom_element("div");
-                    div1 = dom_element("div");
-                    create_component(light.$$.fragment);
-                    t3 = dom_space();
-                    if (if_block2) if_block2.c();
-                    t4 = dom_space();
-                    div5 = dom_element("div");
-                    div3 = dom_element("div");
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        each_blocks[i].c();
-                    }
-
-                    t5 = dom_space();
-                    div4 = dom_element("div");
-                    if (if_block3) if_block3.c();
-                    t6 = dom_space();
-                    div8 = dom_element("div");
-                    if (if_block4) if_block4.c();
-                    t7 = dom_space();
-                    if (if_block5) if_block5.c();
-                    t8 = dom_space();
-                    div6 = dom_element("div");
-                    span0 = dom_element("span");
-                    t9 = dom_text( /*solidText*/ ctx[4]);
-                    t10 = dom_space();
-                    span1 = dom_element("span");
-                    t11 = dom_text( /*gradientText*/ ctx[3]);
-                    t12 = dom_space();
-                    if (if_block6) if_block6.c();
-                    t13 = dom_space();
-                    div7 = dom_element("div");
-                    create_component(button.$$.fragment);
-                    t14 = dom_space();
-                    if (if_block7) if_block7.c();
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate_background/${/*data*/ ctx[0].backgroundId}.webp`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "back");
-                    dom_attr(img, "class", "donate-shop-product__background-image");
-                    dom_attr(div0, "class", "donate-shop-product__background");
-                    dom_attr(div1, "class", "donate-shop-product__image-light");
-                    dom_attr(div2, "class", div2_class_value = "donate-shop-product__image-wrapper donate-shop-product__image-wrapper--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate]);
-                    dom_attr(div3, "class", "donate-shop-product__badges");
-                    dom_attr(div4, "class", "donate-shop-product__time");
-                    dom_attr(div5, "class", "donate-shop-product__header");
-                    dom_toggle_class(div5, "donate-shop-product__header--wide", /*data*/ ctx[0].typeTemplate === Templates.Big);
-                    dom_attr(span0, "class", "donate-shop-product__name");
-                    dom_attr(span1, "class", "donate-shop-product__name");
-                    set_style(span1, "--textGradient", "linear-gradient(90deg, " + ( /*data*/ ctx[0].textGradientColor[0] || '#FFF') + " 0%, " + ( /*data*/ ctx[0].textGradientColor[1] || '#FFF') + " 100%)");
-                    dom_toggle_class(span1, "donate-shop-product__name--gradient", !(0, lodash.isEmpty)( /*data*/ ctx[0].textGradientColor));
-                    dom_attr(div6, "class", "donate-shop-product__name-wrppaer");
-                    dom_attr(div7, "class", "donate-shop-product__button");
-                    dom_attr(div8, "class", "donate-shop-product__footer");
-                    dom_attr(div9, "class", "donate-shop-product__content");
-                    dom_attr(div10, "class", div10_class_value = "donate-shop-product donate-shop-product--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate]);
-                    dom_toggle_class(div10, "donate-shop-product--white", /*data*/ ctx[0].animation === 0 && /*backgroundLoaded*/ ctx[2]);
-                    dom_toggle_class(div10, "donate-shop-product--gold", /*data*/ ctx[0].animation === 1 && /*backgroundLoaded*/ ctx[2]);
+                    div = dom_element("div");
+                    if (if_block) if_block.c();
+                    dom_attr(div, "class", div_class_value = "donate-shop-product donate-shop-product--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate]);
+                    dom_toggle_class(div, "donate-shop-product--white", /*data*/ ctx[0].animation === 0 && /*backgroundLoaded*/ ctx[3]);
+                    dom_toggle_class(div, "donate-shop-product--gold", /*data*/ ctx[0].animation === 1 && /*backgroundLoaded*/ ctx[3]);
                 },
                 m(target, anchor) {
-                    dom_insert(target, div10, anchor);
-                    if (if_block0) if_block0.m(div10, null);
-                    dom_append(div10, t0);
-                    dom_append(div10, div0);
-                    dom_append(div0, img);
-                    dom_append(div10, t1);
-                    if (if_block1) if_block1.m(div10, null);
-                    dom_append(div10, t2);
-                    dom_append(div10, div9);
-                    dom_append(div9, div2);
-                    dom_append(div2, div1);
-                    mount_component(light, div1, null);
-                    dom_append(div2, t3);
-                    if (if_block2) if_block2.m(div2, null);
-                    dom_append(div9, t4);
-                    dom_append(div9, div5);
-                    dom_append(div5, div3);
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        if (each_blocks[i]) {
-                            each_blocks[i].m(div3, null);
-                        }
-                    }
-
-                    dom_append(div5, t5);
-                    dom_append(div5, div4);
-                    if (if_block3) if_block3.m(div4, null);
-                    dom_append(div9, t6);
-                    dom_append(div9, div8);
-                    if (if_block4) if_block4.m(div8, null);
-                    dom_append(div8, t7);
-                    if (if_block5) if_block5.m(div8, null);
-                    dom_append(div8, t8);
-                    dom_append(div8, div6);
-                    dom_append(div6, span0);
-                    dom_append(span0, t9);
-                    dom_append(div6, t10);
-                    dom_append(div6, span1);
-                    dom_append(span1, t11);
-                    dom_append(div8, t12);
-                    if (if_block6) if_block6.m(div8, null);
-                    dom_append(div8, t13);
-                    dom_append(div8, div7);
-                    mount_component(button, div7, null);
-                    dom_append(div9, t14);
-                    if (if_block7) if_block7.m(div9, null);
+                    dom_insert(target, div, anchor);
+                    if (if_block) if_block.m(div, null);
                     current = true;
-
-                    if (!mounted) {
-                        dispose = dom_listen(img, "load", /*load_handler*/ ctx[7]);
-                        mounted = true;
-                    }
                 },
                 p(ctx, [dirty]) {
-                    if ( /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[2]) {
-                        if (if_block0) {
+                    if ( /*contentVisible*/ ctx[2]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
 
-                        } else {
-                            if_block0 = product_index_svelte_create_if_block_14(ctx);
-                            if_block0.c();
-                            if_block0.m(div10, t0);
-                        }
-                    } else if (if_block0) {
-                        if_block0.d(1);
-                        if_block0 = null;
-                    }
-
-                    if (!current || dirty & /*data*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate_background/${/*data*/ ctx[0].backgroundId}.webp`)) {
-                        dom_attr(img, "src", img_src_value);
-                    }
-
-                    if ( /*data*/ ctx[0].animation >= 0 && /*backgroundLoaded*/ ctx[2]) {
-                        if (if_block1) {
-
-                        } else {
-                            if_block1 = product_index_svelte_create_if_block_13(ctx);
-                            if_block1.c();
-                            if_block1.m(div10, t2);
-                        }
-                    } else if (if_block1) {
-                        if_block1.d(1);
-                        if_block1 = null;
-                    }
-
-                    const light_changes = {};
-                    if (dirty & /*data*/ 1) light_changes.color = /*data*/ ctx[0].imageEffectId;
-                    light.$set(light_changes);
-
-                    if ( /*data*/ ctx[0].imageId >= 0 || /*data*/ ctx[0].gifId >= 0) {
-                        if (if_block2) {
-                            if_block2.p(ctx, dirty);
-
-                            if (dirty & /*data*/ 1) {
-                                transitions_transition_in(if_block2, 1);
+                            if (dirty & /*contentVisible*/ 4) {
+                                transitions_transition_in(if_block, 1);
                             }
                         } else {
-                            if_block2 = product_index_svelte_create_if_block_12(ctx);
-                            if_block2.c();
-                            transitions_transition_in(if_block2, 1);
-                            if_block2.m(div2, null);
+                            if_block = product_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(div, null);
                         }
-                    } else if (if_block2) {
+                    } else if (if_block) {
                         transitions_group_outros();
 
-                        transitions_transition_out(if_block2, 1, 1, () => {
-                            if_block2 = null;
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
                         });
 
                         transitions_check_outros();
                     }
 
-                    if (!current || dirty & /*data*/ 1 && div2_class_value !== (div2_class_value = "donate-shop-product__image-wrapper donate-shop-product__image-wrapper--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate])) {
-                        dom_attr(div2, "class", div2_class_value);
+                    if (!current || dirty & /*data*/ 1 && div_class_value !== (div_class_value = "donate-shop-product donate-shop-product--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate])) {
+                        dom_attr(div, "class", div_class_value);
                     }
 
-                    if (dirty & /*data*/ 1) {
-                        each_value = each_ensure_array_like( /*data*/ ctx[0].badges);
-                        let i;
-
-                        for (i = 0; i < each_value.length; i += 1) {
-                            const child_ctx = product_index_svelte_get_each_context(ctx, each_value, i);
-
-                            if (each_blocks[i]) {
-                                each_blocks[i].p(child_ctx, dirty);
-                            } else {
-                                each_blocks[i] = product_index_svelte_create_each_block(child_ctx);
-                                each_blocks[i].c();
-                                each_blocks[i].m(div3, null);
-                            }
-                        }
-
-                        for (; i < each_blocks.length; i += 1) {
-                            each_blocks[i].d(1);
-                        }
-
-                        each_blocks.length = each_value.length;
+                    if (!current || dirty & /*data, data, backgroundLoaded*/ 9) {
+                        dom_toggle_class(div, "donate-shop-product--white", /*data*/ ctx[0].animation === 0 && /*backgroundLoaded*/ ctx[3]);
                     }
 
-                    if ( /*data*/ ctx[0].endUnixTime >= 0 && /*data*/ ctx[0].timeDifference > 0) {
-                        if (if_block3) {
-                            if_block3.p(ctx, dirty);
-                        } else {
-                            if_block3 = product_index_svelte_create_if_block_9(ctx);
-                            if_block3.c();
-                            if_block3.m(div4, null);
-                        }
-                    } else if (if_block3) {
-                        if_block3.d(1);
-                        if_block3 = null;
-                    }
-
-                    if (!current || dirty & /*data*/ 1) {
-                        dom_toggle_class(div5, "donate-shop-product__header--wide", /*data*/ ctx[0].typeTemplate === Templates.Big);
-                    }
-
-                    if ( /*data*/ ctx[0].typeTemplate === Templates.Exchange || /*data*/ ctx[0].typeTemplate === Templates.Add) {
-                        if (if_block4) {
-                            if_block4.p(ctx, dirty);
-                        } else {
-                            if_block4 = product_index_svelte_create_if_block_5(ctx);
-                            if_block4.c();
-                            if_block4.m(div8, t7);
-                        }
-                    } else if (if_block4) {
-                        if_block4.d(1);
-                        if_block4 = null;
-                    }
-
-                    if (dirty & /*data*/ 1) show_if_1 = /*data*/ ctx[0].typeTemplate === Templates.Big && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
-
-                    if (show_if_1) {
-                        if (if_block5) {
-                            if_block5.p(ctx, dirty);
-                        } else {
-                            if_block5 = product_index_svelte_create_if_block_4(ctx);
-                            if_block5.c();
-                            if_block5.m(div8, t8);
-                        }
-                    } else if (if_block5) {
-                        if_block5.d(1);
-                        if_block5 = null;
-                    }
-
-                    if (!current || dirty & /*solidText*/ 16) dom_set_data(t9, /*solidText*/ ctx[4]);
-                    if (!current || dirty & /*gradientText*/ 8) dom_set_data(t11, /*gradientText*/ ctx[3]);
-
-                    if (!current || dirty & /*data*/ 1) {
-                        set_style(span1, "--textGradient", "linear-gradient(90deg, " + ( /*data*/ ctx[0].textGradientColor[0] || '#FFF') + " 0%, " + ( /*data*/ ctx[0].textGradientColor[1] || '#FFF') + " 100%)");
-                    }
-
-                    if (!current || dirty & /*data*/ 1) {
-                        dom_toggle_class(span1, "donate-shop-product__name--gradient", !(0, lodash.isEmpty)( /*data*/ ctx[0].textGradientColor));
-                    }
-
-                    if (dirty & /*data*/ 1) show_if = /*data*/ ctx[0].typeTemplate === Templates.Standart || /*data*/ ctx[0].typeTemplate === Templates.Wide && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
-
-                    if (show_if) {
-                        if (if_block6) {
-                            if_block6.p(ctx, dirty);
-                        } else {
-                            if_block6 = product_index_svelte_create_if_block_3(ctx);
-                            if_block6.c();
-                            if_block6.m(div8, t13);
-                        }
-                    } else if (if_block6) {
-                        if_block6.d(1);
-                        if_block6 = null;
-                    }
-
-                    const button_changes = {};
-                    if (dirty & /*purchase*/ 2) button_changes.onClick = /*purchase*/ ctx[1];
-                    if (dirty & /*data*/ 1) button_changes.colors = /*data*/ ctx[0].colorButton;
-                    if (dirty & /*data*/ 1) button_changes.currency = MAP_ID_TO_CURRENCY[ /*data*/ ctx[0].priceCurrency];
-
-                    if (dirty & /*data*/ 1) button_changes.crossedText = /*data*/ ctx[0].discountPrice !== 0 ?
-                        /*data*/ ctx[0].price :
-                        '';
-
-                    if (dirty & /*data*/ 1) button_changes.text = (0, lodash.isEmpty)( /*data*/ ctx[0].nameButton) ?
-                        `${/*data*/ ctx[0].discountPrice === 0
-				? /*data*/ ctx[0].price
-				: /*data*/ ctx[0].discountPrice} ${MAP_ID_TO_CURRENCY_NAME[/*data*/ ctx[0].priceCurrency]}` :
-                        /*data*/ ctx[0].nameButton;
-
-                    if (dirty & /*data*/ 1) button_changes.disabled = /*data*/ ctx[0].iSdisabledButton;
-                    button.$set(button_changes);
-
-                    if ( /*data*/ ctx[0].blockedType >= 0) {
-                        if (if_block7) {
-                            if_block7.p(ctx, dirty);
-
-                            if (dirty & /*data*/ 1) {
-                                transitions_transition_in(if_block7, 1);
-                            }
-                        } else {
-                            if_block7 = product_index_svelte_create_if_block(ctx);
-                            if_block7.c();
-                            transitions_transition_in(if_block7, 1);
-                            if_block7.m(div9, null);
-                        }
-                    } else if (if_block7) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block7, 1, 1, () => {
-                            if_block7 = null;
-                        });
-
-                        transitions_check_outros();
-                    }
-
-                    if (!current || dirty & /*data*/ 1 && div10_class_value !== (div10_class_value = "donate-shop-product donate-shop-product--" + MAP_TEMPLATE_TO_CLASS[ /*data*/ ctx[0].typeTemplate])) {
-                        dom_attr(div10, "class", div10_class_value);
-                    }
-
-                    if (!current || dirty & /*data, data, backgroundLoaded*/ 5) {
-                        dom_toggle_class(div10, "donate-shop-product--white", /*data*/ ctx[0].animation === 0 && /*backgroundLoaded*/ ctx[2]);
-                    }
-
-                    if (!current || dirty & /*data, data, backgroundLoaded*/ 5) {
-                        dom_toggle_class(div10, "donate-shop-product--gold", /*data*/ ctx[0].animation === 1 && /*backgroundLoaded*/ ctx[2]);
+                    if (!current || dirty & /*data, data, backgroundLoaded*/ 9) {
+                        dom_toggle_class(div, "donate-shop-product--gold", /*data*/ ctx[0].animation === 1 && /*backgroundLoaded*/ ctx[3]);
                     }
                 },
                 i(local) {
                     if (current) return;
-                    transitions_transition_in(light.$$.fragment, local);
-                    transitions_transition_in(if_block2);
-                    transitions_transition_in(button.$$.fragment, local);
-                    transitions_transition_in(if_block7);
+                    transitions_transition_in(if_block);
                     current = true;
                 },
                 o(local) {
-                    transitions_transition_out(light.$$.fragment, local);
-                    transitions_transition_out(if_block2);
-                    transitions_transition_out(button.$$.fragment, local);
-                    transitions_transition_out(if_block7);
+                    transitions_transition_out(if_block);
                     current = false;
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div10);
+                        dom_detach(div);
                     }
 
-                    if (if_block0) if_block0.d();
-                    if (if_block1) if_block1.d();
-                    destroy_component(light);
-                    if (if_block2) if_block2.d();
-                    destroy_each(each_blocks, detaching);
-                    if (if_block3) if_block3.d();
-                    if (if_block4) if_block4.d();
-                    if (if_block5) if_block5.d();
-                    if (if_block6) if_block6.d();
-                    destroy_component(button);
-                    if (if_block7) if_block7.d();
-                    mounted = false;
-                    dispose();
+                    if (if_block) if_block.d();
                 }
             };
         }
@@ -292047,7 +292149,7 @@ const getRandomTableNumber = () => {
             let solidText;
             let gradientText;
             let $donateSettings;
-            utils_component_subscribe($$self, donateSettings, $$value => $$invalidate(5, $donateSettings = $$value));
+            utils_component_subscribe($$self, donateSettings, $$value => $$invalidate(6, $donateSettings = $$value));
             let {
                 data = {}
             } = $$props;
@@ -292058,6 +292160,9 @@ const getRandomTableNumber = () => {
                 }
             } = $$props;
 
+            let {
+                contentVisible = true
+            } = $$props;
             let backgroundLoaded = false;
 
             const formatTimeString = seconds => {
@@ -292066,26 +292171,28 @@ const getRandomTableNumber = () => {
                 return `${hours}час. ${minutes}мин.`;
             };
 
-            const load_handler = () => $$invalidate(2, backgroundLoaded = true);
+            const load_handler = () => $$invalidate(3, backgroundLoaded = true);
 
             $$self.$$set = $$props => {
                 if ('data' in $$props) $$invalidate(0, data = $$props.data);
                 if ('purchase' in $$props) $$invalidate(1, purchase = $$props.purchase);
+                if ('contentVisible' in $$props) $$invalidate(2, contentVisible = $$props.contentVisible);
             };
 
             $$self.$$.update = () => {
                 if ($$self.$$.dirty & /*data*/ 1) {
-                    $: $$invalidate(4, solidText = data.name.split(' ')[0]);
+                    $: $$invalidate(5, solidText = data.name.split(' ')[0]);
                 }
 
                 if ($$self.$$.dirty & /*data*/ 1) {
-                    $: $$invalidate(3, gradientText = data.name.split(' ').slice(1).join(' '));
+                    $: $$invalidate(4, gradientText = data.name.split(' ').slice(1).join(' '));
                 }
             };
 
             return [
                 data,
                 purchase,
+                contentVisible,
                 backgroundLoaded,
                 gradientText,
                 solidText,
@@ -292100,7 +292207,8 @@ const getRandomTableNumber = () => {
                 super();
                 Component_init(this, options, product_index_svelte_instance, product_index_svelte_create_fragment, utils_safe_not_equal, {
                     data: 0,
-                    purchase: 1
+                    purchase: 1,
+                    contentVisible: 2
                 });
             }
         }
@@ -292635,16 +292743,16 @@ const getRandomTableNumber = () => {
 
 
         function grid_index_svelte_add_css(target) {
-            append_styles(target, "svelte-llscxx", ".donate-shop-grid.svelte-llscxx{width:100%;display:flex;flex-direction:column;justify-content:center}.donate-shop-grid--row.svelte-llscxx{position:absolute;top:50%;transform:translateY(-50%)}.donate-shop-grid__title.svelte-llscxx{color:#FFFFFF;font-family:\"HeadingNowBold\";font-size:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper.svelte-llscxx{gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--grid.svelte-llscxx{display:grid;grid-template-columns:repeat(4, 1fr);align-items:stretch;grid-auto-rows:auto}.donate-shop-grid__wrapper--row.svelte-llscxx{width:100%;overflow-x:auto;display:flex;align-items:center;padding-bottom:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-llscxx::-webkit-scrollbar{width:0;height:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-llscxx::-webkit-scrollbar-button{display:none}.donate-shop-grid__wrapper--row.svelte-llscxx::-webkit-scrollbar-track{background-color:rgba(255, 255, 255, 0.5)}.donate-shop-grid__wrapper--row.svelte-llscxx::-webkit-scrollbar-track-piece{background:rgba(255, 255, 255, 0.5);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-llscxx::-webkit-scrollbar-thumb{background:#FFFFFF;border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-llscxx::-webkit-scrollbar-corner{background-color:rgba(255, 255, 255, 0.5)}.donate-shop-grid__wrapper--row.svelte-llscxx::-webkit-resizer{background-color:rgba(255, 255, 255, 0.5)}.donate-shop-grid__item.svelte-llscxx{grid-column:var(--span);align-self:stretch;min-height:100%;display:flex}");
+            append_styles(target, "svelte-5ljfks", ".donate-shop-grid.svelte-5ljfks{width:100%;display:flex;flex-direction:column;justify-content:center}.donate-shop-grid--row.svelte-5ljfks{position:absolute;top:50%;transform:translateY(-50%)}.donate-shop-grid__title.svelte-5ljfks{color:#FFFFFF;font-family:\"HeadingNowBold\";font-size:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper.svelte-5ljfks{gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-bottom:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--grid.svelte-5ljfks{display:grid;grid-template-columns:repeat(4, 1fr);align-items:stretch;grid-auto-rows:auto}.donate-shop-grid__wrapper--row.svelte-5ljfks{width:100%;overflow-x:auto;display:flex;align-items:center;padding-bottom:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-5ljfks::-webkit-scrollbar{width:0;height:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-5ljfks::-webkit-scrollbar-button{display:none}.donate-shop-grid__wrapper--row.svelte-5ljfks::-webkit-scrollbar-track{background-color:rgba(255, 255, 255, 0.5)}.donate-shop-grid__wrapper--row.svelte-5ljfks::-webkit-scrollbar-track-piece{background:rgba(255, 255, 255, 0.5);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-5ljfks::-webkit-scrollbar-thumb{background:#FFFFFF;border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.donate-shop-grid__wrapper--row.svelte-5ljfks::-webkit-scrollbar-corner{background-color:rgba(255, 255, 255, 0.5)}.donate-shop-grid__wrapper--row.svelte-5ljfks::-webkit-resizer{background-color:rgba(255, 255, 255, 0.5)}.donate-shop-grid__wrapper--without-scroll.svelte-5ljfks{padding-bottom:0}.donate-shop-grid__item.svelte-5ljfks{grid-column:var(--span);align-self:stretch;min-height:100%;display:flex}");
         }
 
         function grid_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[12] = list[i];
+            child_ctx[16] = list[i];
             return child_ctx;
         }
 
-        // (117:1) {#if $layoutTemplate === LayoutTemplate.Row}
+        // (151:1) {#if $layoutTemplate === LayoutTemplate.Row}
         function grid_index_svelte_create_if_block_1(ctx) {
             let div;
 
@@ -292652,7 +292760,7 @@ const getRandomTableNumber = () => {
                 c() {
                     div = dom_element("div");
                     div.textContent = "Покупка AZ-коинов";
-                    dom_attr(div, "class", "donate-shop-grid__title svelte-llscxx");
+                    dom_attr(div, "class", "donate-shop-grid__title svelte-5ljfks");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -292665,53 +292773,75 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (122:3) {#if data.visible}
+        // (162:3) {#if data.visible}
         function grid_index_svelte_create_if_block(ctx) {
             let div;
             let product;
             let t;
+            let visible_action;
             let current;
+            let mounted;
+            let dispose;
 
             function func() {
-                return /*func*/ ctx[6]( /*data*/ ctx[12]);
+                return /*func*/ ctx[9]( /*data*/ ctx[16]);
             }
 
             product = new product_index_svelte({
                 props: {
-                    data: /*data*/ ctx[12],
-                    purchase: func
+                    data: /*data*/ ctx[16],
+                    purchase: func,
+                    contentVisible: /*withoutScroll*/ ctx[2] || !! /*visibleItems*/ ctx[4][ /*data*/ ctx[16].key]
                 }
             });
+
+            function visible_function(...args) {
+                return /*visible_function*/ ctx[10]( /*data*/ ctx[16], ...args);
+            }
 
             return {
                 c() {
                     div = dom_element("div");
                     create_component(product.$$.fragment);
                     t = dom_space();
-                    dom_attr(div, "class", "donate-shop-grid__item svelte-llscxx");
+                    dom_attr(div, "class", "donate-shop-grid__item svelte-5ljfks");
 
-                    set_style(div, "--span", /*data*/ ctx[12].typeTemplate === 2 ?
+                    set_style(div, "--span", /*data*/ ctx[16].typeTemplate === 2 ?
                         'span 2' :
                         'span 1');
+
+                    set_style(div, "qwe", !! /*visibleItems*/ ctx[4][ /*data*/ ctx[16].key]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
                     mount_component(product, div, null);
                     dom_append(div, t);
                     current = true;
+
+                    if (!mounted) {
+                        dispose = action_destroyer(visible_action = visible.call(null, div, visible_function));
+                        mounted = true;
+                    }
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
                     const product_changes = {};
-                    if (dirty & /*forceItems, items*/ 3) product_changes.data = /*data*/ ctx[12];
+                    if (dirty & /*forceItems, items*/ 3) product_changes.data = /*data*/ ctx[16];
                     if (dirty & /*forceItems, items*/ 3) product_changes.purchase = func;
+                    if (dirty & /*withoutScroll, visibleItems, forceItems, items*/ 23) product_changes.contentVisible = /*withoutScroll*/ ctx[2] || !! /*visibleItems*/ ctx[4][ /*data*/ ctx[16].key];
                     product.$set(product_changes);
 
                     if (!current || dirty & /*forceItems, items*/ 3) {
-                        set_style(div, "--span", /*data*/ ctx[12].typeTemplate === 2 ?
+                        set_style(div, "--span", /*data*/ ctx[16].typeTemplate === 2 ?
                             'span 2' :
                             'span 1');
                     }
+
+                    if (!current || dirty & /*visibleItems, forceItems, items*/ 19) {
+                        set_style(div, "qwe", !! /*visibleItems*/ ctx[4][ /*data*/ ctx[16].key]);
+                    }
+
+                    if (visible_action && utils_is_function(visible_action.update) && dirty & /*forceItems, items*/ 3) visible_action.update.call(null, visible_function);
                 },
                 i(local) {
                     if (current) return;
@@ -292728,16 +292858,18 @@ const getRandomTableNumber = () => {
                     }
 
                     destroy_component(product);
+                    mounted = false;
+                    dispose();
                 }
             };
         }
 
-        // (121:2) {#each forceItems || items as data (data)}
+        // (161:2) {#each forceItems || items as data (data)}
         function grid_index_svelte_create_each_block(key_1, ctx) {
             let first;
             let if_block_anchor;
             let current;
-            let if_block = /*data*/ ctx[12].visible && grid_index_svelte_create_if_block(ctx);
+            let if_block = /*data*/ ctx[16].visible && grid_index_svelte_create_if_block(ctx);
 
             return {
                 key: key_1,
@@ -292757,7 +292889,7 @@ const getRandomTableNumber = () => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if ( /*data*/ ctx[12].visible) {
+                    if ( /*data*/ ctx[16].visible) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
 
@@ -292812,9 +292944,9 @@ const getRandomTableNumber = () => {
             let current;
             let mounted;
             let dispose;
-            let if_block = /*$layoutTemplate*/ ctx[3] === LayoutTemplate.Row && grid_index_svelte_create_if_block_1(ctx);
+            let if_block = /*$layoutTemplate*/ ctx[5] === LayoutTemplate.Row && grid_index_svelte_create_if_block_1(ctx);
             let each_value = each_ensure_array_like( /*forceItems*/ ctx[0] || /*items*/ ctx[1]);
-            const get_key = ctx => /*data*/ ctx[12];
+            const get_key = ctx => /*data*/ ctx[16];
 
             for (let i = 0; i < each_value.length; i += 1) {
                 let child_ctx = grid_index_svelte_get_each_context(ctx, each_value, i);
@@ -292833,8 +292965,9 @@ const getRandomTableNumber = () => {
                         each_blocks[i].c();
                     }
 
-                    dom_attr(div0, "class", div0_class_value = "donate-shop-grid__wrapper donate-shop-grid__wrapper--" + /*$layoutTemplate*/ ctx[3] + " svelte-llscxx");
-                    dom_attr(div1, "class", div1_class_value = "donate-shop-grid donate-shop-grid--" + /*$layoutTemplate*/ ctx[3] + " svelte-llscxx");
+                    dom_attr(div0, "class", div0_class_value = "donate-shop-grid__wrapper donate-shop-grid__wrapper--" + /*$layoutTemplate*/ ctx[5] + " svelte-5ljfks");
+                    dom_toggle_class(div0, "donate-shop-grid__wrapper--without-scroll", /*withoutScroll*/ ctx[2]);
+                    dom_attr(div1, "class", div1_class_value = "donate-shop-grid donate-shop-grid--" + /*$layoutTemplate*/ ctx[5] + " svelte-5ljfks");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -292849,16 +292982,16 @@ const getRandomTableNumber = () => {
                     }
 
                     /*div0_binding*/
-                    ctx[7](div0);
+                    ctx[11](div0);
                     current = true;
 
                     if (!mounted) {
-                        dispose = dom_listen(div0, "wheel", /*scrollHandler*/ ctx[4]);
+                        dispose = dom_listen(div0, "wheel", /*scrollHandler*/ ctx[6]);
                         mounted = true;
                     }
                 },
                 p(ctx, [dirty]) {
-                    if ( /*$layoutTemplate*/ ctx[3] === LayoutTemplate.Row) {
+                    if ( /*$layoutTemplate*/ ctx[5] === LayoutTemplate.Row) {
                         if (if_block) {
 
                         } else {
@@ -292871,18 +293004,22 @@ const getRandomTableNumber = () => {
                         if_block = null;
                     }
 
-                    if (dirty & /*forceItems, items, purchase*/ 35) {
+                    if (dirty & /*forceItems, items, visibleItems, onVisibleChange, purchase, withoutScroll*/ 407) {
                         each_value = each_ensure_array_like( /*forceItems*/ ctx[0] || /*items*/ ctx[1]);
                         transitions_group_outros();
                         each_blocks = update_keyed_each(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, div0, outro_and_destroy_block, grid_index_svelte_create_each_block, null, grid_index_svelte_get_each_context);
                         transitions_check_outros();
                     }
 
-                    if (!current || dirty & /*$layoutTemplate*/ 8 && div0_class_value !== (div0_class_value = "donate-shop-grid__wrapper donate-shop-grid__wrapper--" + /*$layoutTemplate*/ ctx[3] + " svelte-llscxx")) {
+                    if (!current || dirty & /*$layoutTemplate*/ 32 && div0_class_value !== (div0_class_value = "donate-shop-grid__wrapper donate-shop-grid__wrapper--" + /*$layoutTemplate*/ ctx[5] + " svelte-5ljfks")) {
                         dom_attr(div0, "class", div0_class_value);
                     }
 
-                    if (!current || dirty & /*$layoutTemplate*/ 8 && div1_class_value !== (div1_class_value = "donate-shop-grid donate-shop-grid--" + /*$layoutTemplate*/ ctx[3] + " svelte-llscxx")) {
+                    if (!current || dirty & /*$layoutTemplate, withoutScroll*/ 36) {
+                        dom_toggle_class(div0, "donate-shop-grid__wrapper--without-scroll", /*withoutScroll*/ ctx[2]);
+                    }
+
+                    if (!current || dirty & /*$layoutTemplate*/ 32 && div1_class_value !== (div1_class_value = "donate-shop-grid donate-shop-grid--" + /*$layoutTemplate*/ ctx[5] + " svelte-5ljfks")) {
                         dom_attr(div1, "class", div1_class_value);
                     }
                 },
@@ -292923,9 +293060,25 @@ const getRandomTableNumber = () => {
                     }
 
                     /*div0_binding*/
-                    ctx[7](null);
+                    ctx[11](null);
                     mounted = false;
                     dispose();
+                }
+            };
+        }
+
+        function visible(node, callback) {
+            const observer = new IntersectionObserver(([entry]) => {
+                callback(entry.isIntersecting);
+            }, {
+                threshold: 0.1
+            });
+
+            observer.observe(node);
+
+            return {
+                destroy() {
+                    observer.disconnect();
                 }
             };
         }
@@ -292936,21 +293089,24 @@ const getRandomTableNumber = () => {
             let $selectedCategoryId;
             let $products;
             let $layoutTemplate;
-            utils_component_subscribe($$self, modalSettings, $$value => $$invalidate(8, $modalSettings = $$value));
-            utils_component_subscribe($$self, donateSettings, $$value => $$invalidate(9, $donateSettings = $$value));
-            utils_component_subscribe($$self, store_selectedCategoryId, $$value => $$invalidate(10, $selectedCategoryId = $$value));
-            utils_component_subscribe($$self, products, $$value => $$invalidate(11, $products = $$value));
-            utils_component_subscribe($$self, layoutTemplate, $$value => $$invalidate(3, $layoutTemplate = $$value));
+            utils_component_subscribe($$self, modalSettings, $$value => $$invalidate(12, $modalSettings = $$value));
+            utils_component_subscribe($$self, donateSettings, $$value => $$invalidate(13, $donateSettings = $$value));
+            utils_component_subscribe($$self, store_selectedCategoryId, $$value => $$invalidate(14, $selectedCategoryId = $$value));
+            utils_component_subscribe($$self, products, $$value => $$invalidate(15, $products = $$value));
+            utils_component_subscribe($$self, layoutTemplate, $$value => $$invalidate(5, $layoutTemplate = $$value));
             let {
                 forceItems = null
             } = $$props;
             let {
                 items = $products[$selectedCategoryId] || []
             } = $$props;
+            let {
+                withoutScroll = false
+            } = $$props;
             let scrollNode;
 
             const scrollHandler = event => {
-                $$invalidate(2, scrollNode.scrollLeft += event.deltaY, scrollNode);
+                $$invalidate(3, scrollNode.scrollLeft += event.deltaY, scrollNode);
             };
 
             const purchase = product => {
@@ -292982,28 +293138,48 @@ const getRandomTableNumber = () => {
                 cef_sendClientMessage('donateShop.purchase', product.key);
             };
 
+            const visibleItems = {};
+
+            function onVisibleChange(data, isVisible) {
+                if (withoutScroll) {
+                    return;
+                }
+
+                if (isVisible) {
+                    $$invalidate(4, visibleItems[data.key] = isVisible, visibleItems);
+                } else {
+                    delete visibleItems[data.key];
+                }
+            }
+
             const func = data => purchase(data);
+            const visible_function = (data, isVisible) => onVisibleChange(data, isVisible);
 
             function div0_binding($$value) {
                 binding_callbacks[$$value ? 'unshift' : 'push'](() => {
                     scrollNode = $$value;
-                    $$invalidate(2, scrollNode);
+                    $$invalidate(3, scrollNode);
                 });
             }
 
             $$self.$$set = $$props => {
                 if ('forceItems' in $$props) $$invalidate(0, forceItems = $$props.forceItems);
                 if ('items' in $$props) $$invalidate(1, items = $$props.items);
+                if ('withoutScroll' in $$props) $$invalidate(2, withoutScroll = $$props.withoutScroll);
             };
 
             return [
                 forceItems,
                 items,
+                withoutScroll,
                 scrollNode,
+                visibleItems,
                 $layoutTemplate,
                 scrollHandler,
                 purchase,
+                onVisibleChange,
                 func,
+                visible_function,
                 div0_binding
             ];
         }
@@ -293011,10 +293187,19 @@ const getRandomTableNumber = () => {
         class Grid extends Component_SvelteComponent {
             constructor(options) {
                 super();
-                Component_init(this, options, grid_index_svelte_instance, grid_index_svelte_create_fragment, utils_safe_not_equal, {
-                    forceItems: 0,
-                    items: 1
-                }, grid_index_svelte_add_css);
+
+                Component_init(
+                    this,
+                    options,
+                    grid_index_svelte_instance,
+                    grid_index_svelte_create_fragment,
+                    utils_safe_not_equal, {
+                        forceItems: 0,
+                        items: 1,
+                        withoutScroll: 2
+                    },
+                    grid_index_svelte_add_css
+                );
             }
         }
 
@@ -293046,7 +293231,8 @@ const getRandomTableNumber = () => {
             }
 
             let grid_props = {
-                layout: LayoutTemplate.Row
+                layout: LayoutTemplate.Row,
+                withoutScroll: true
             };
 
             if ( /*top*/ ctx[0] !== void 0) {
@@ -302481,7 +302667,7 @@ const getRandomTableNumber = () => {
          * OpenLayers version.
          * @type {string}
          */
-        const util_VERSION = '10.6.1';
+        const util_VERSION = '10.5.0';
 
         ; // CONCATENATED MODULE: ./node_modules/ol/Object.js
         /**
@@ -309672,7 +309858,7 @@ const getRandomTableNumber = () => {
             x,
             y,
         ) {
-            // https://web.archive.org/web/20210504233957/http://geomalgorithms.com/a03-_inclusion.html
+            // https://geomalgorithms.com/a03-_inclusion.html
             // Copyright 2000 softSurfer, 2012 Dan Sunday
             // This code may be freely used and modified for any purpose
             // providing that this copyright notice is included with it.
@@ -315128,12 +315314,6 @@ const getRandomTableNumber = () => {
             'family',
         ];
 
-        /** @type {Object<string|number, number>} */
-        const fontWeights = {
-            normal: 400,
-            bold: 700,
-        };
-
         /**
          * Get the list of font families from a font spec.  Note that this doesn't work
          * for font families that have commas in them.
@@ -315149,22 +315329,16 @@ const getRandomTableNumber = () => {
                 lineHeight: 'normal',
                 size: '1.2em',
                 style: 'normal',
-                weight: '400',
+                weight: 'normal',
                 variant: 'normal',
             });
             for (let i = 0, ii = fontRegExMatchIndex.length; i < ii; ++i) {
                 const value = match[i + 1];
                 if (value !== undefined) {
-                    style[fontRegExMatchIndex[i]] =
-                        typeof value === 'string' ? value.trim() : value;
+                    style[fontRegExMatchIndex[i]] = value;
                 }
             }
-            if (isNaN(Number(style.weight)) && style.weight in fontWeights) {
-                style.weight = fontWeights[style.weight];
-            }
-            style.families = style.family
-                .split(/,\s?/)
-                .map((f) => f.trim().replace(/^['"]|['"]$/g, ''));
+            style.families = style.family.split(/,\s?/);
             return style;
         };
 
@@ -315525,11 +315699,7 @@ const getRandomTableNumber = () => {
          * the control should be re-rendered. This is called in a `requestAnimationFrame`
          * callback.
          * @property {string|Array<string>|undefined} [attributions] Optional attribution(s) that will always be
-         * displayed regardless of the layers rendered.
-         * **Caution:** Attributions are rendered dynamically using `innerHTML`, which can lead to potential
-         * [**XSS (Cross-Site Scripting)**](https://en.wikipedia.org/wiki/Cross-site_scripting) vulnerabilities.
-         * Use this feature only for trusted content
-         * or ensure that the content is properly sanitized before inserting it.
+         * displayed regardless of the layers rendered
          */
 
         /**
@@ -316774,7 +316944,7 @@ const getRandomTableNumber = () => {
         const mouseActionButton = function(mapBrowserEvent) {
             const originalEvent = mapBrowserEvent.originalEvent;
             return (
-                'pointerId' in originalEvent &&
+                originalEvent instanceof PointerEvent &&
                 originalEvent.button == 0 &&
                 !(WEBKIT && has_MAC && originalEvent.ctrlKey)
             );
@@ -316923,7 +317093,9 @@ const getRandomTableNumber = () => {
         const mouseOnly = function(mapBrowserEvent) {
             const pointerEvent = mapBrowserEvent.originalEvent;
             // see https://www.w3.org/TR/pointerevents/#widl-PointerEvent-pointerType
-            return 'pointerId' in pointerEvent && pointerEvent.pointerType == 'mouse';
+            return (
+                pointerEvent instanceof PointerEvent && pointerEvent.pointerType == 'mouse'
+            );
         };
 
         /**
@@ -316936,7 +317108,9 @@ const getRandomTableNumber = () => {
         const touchOnly = function(mapBrowserEvent) {
             const pointerEvt = mapBrowserEvent.originalEvent;
             // see https://www.w3.org/TR/pointerevents/#widl-PointerEvent-pointerType
-            return 'pointerId' in pointerEvt && pointerEvt.pointerType === 'touch';
+            return (
+                pointerEvt instanceof PointerEvent && pointerEvt.pointerType === 'touch'
+            );
         };
 
         /**
@@ -316949,7 +317123,7 @@ const getRandomTableNumber = () => {
         const penOnly = function(mapBrowserEvent) {
             const pointerEvt = mapBrowserEvent.originalEvent;
             // see https://www.w3.org/TR/pointerevents/#widl-PointerEvent-pointerType
-            return 'pointerId' in pointerEvt && pointerEvt.pointerType === 'pen';
+            return pointerEvt instanceof PointerEvent && pointerEvt.pointerType === 'pen';
         };
 
         /**
@@ -316964,7 +317138,7 @@ const getRandomTableNumber = () => {
         const primaryAction = function(mapBrowserEvent) {
             const pointerEvent = mapBrowserEvent.originalEvent;
             return (
-                'pointerId' in pointerEvent &&
+                pointerEvent instanceof PointerEvent &&
                 pointerEvent.isPrimary &&
                 pointerEvent.button === 0
             );
@@ -318335,18 +318509,6 @@ const getRandomTableNumber = () => {
          */
 
         /**
-         * Mutliplier for the DOM_DELTA_LINE delta value.
-         * @type {number}
-         */
-        const DELTA_LINE_MULTIPLIER = 40;
-
-        /**
-         * Mutliplier for the DOM_DELTA_PAGE delta value.
-         * @type {number}
-         */
-        const DELTA_PAGE_MULTIPLIER = 300;
-
-        /**
          * @classdesc
          * Allows the user to zoom the map by scrolling the mouse wheel.
          * @api
@@ -318510,17 +318672,12 @@ const getRandomTableNumber = () => {
 
                 // Delta normalisation inspired by
                 // https://github.com/mapbox/mapbox-gl-js/blob/001c7b9/js/ui/handler/scroll_zoom.js
-                let delta = wheelEvent.deltaY;
-
-                switch (wheelEvent.deltaMode) {
-                    case WheelEvent.DOM_DELTA_LINE:
-                        delta *= DELTA_LINE_MULTIPLIER;
-                        break;
-                    case WheelEvent.DOM_DELTA_PAGE:
-                        delta *= DELTA_PAGE_MULTIPLIER;
-                        break;
-                    default:
-                        // pass
+                let delta;
+                if (mapBrowserEvent.type == events_EventType.WHEEL) {
+                    delta = wheelEvent.deltaY;
+                    if (wheelEvent.deltaMode === WheelEvent.DOM_DELTA_LINE) {
+                        delta *= 40;
+                    }
                 }
 
                 if (delta === 0) {
@@ -320199,6 +320356,7 @@ const getRandomTableNumber = () => {
                             this.dispatchEvent('sourceready');
                         }, 0);
                     }
+                    this.clearRenderer();
                 }
                 this.changed();
             }
@@ -321539,38 +321697,38 @@ const getRandomTableNumber = () => {
          * See below for details on the available operators (with notes for those that are WebGL or Canvas only).
          *
          * Reading operators:
-         *   * `['band', bandIndex, xOffset, yOffset]` For tile layers only. Fetches pixel values from band
+         *   `['band', bandIndex, xOffset, yOffset]` For tile layers only. Fetches pixel values from band
          *     `bandIndex` of the source's data. The first `bandIndex` of the source data is `1`. Fetched values
          *     are in the 0..1 range. {@link import("../source/TileImage.js").default} sources have 4 bands: red,
          *     green, blue and alpha. {@link import("../source/DataTile.js").default} sources can have any number
          *     of bands, depending on the underlying data source and
          *     {@link import("../source/GeoTIFF.js").Options configuration}. `xOffset` and `yOffset` are optional
          *     and allow specifying pixel offsets for x and y. This is used for sampling data from neighboring pixels (WebGL only).
-         *   * `['get', attributeName]` fetches a feature property value, similar to `feature.get('attributeName')`.
-         *   * `['get', attributeName, keyOrArrayIndex, ...]` (Canvas only) Access nested properties and array items of a
+         *   `['get', attributeName]` fetches a feature property value, similar to `feature.get('attributeName')`.
+         *   `['get', attributeName, keyOrArrayIndex, ...]` (Canvas only) Access nested properties and array items of a
          *     feature property. The result is `undefined` when there is nothing at the specified key or index.
-         *   * `['geometry-type']` returns a feature's geometry type as string, either: 'LineString', 'Point' or 'Polygon'
+         *   `['geometry-type']` returns a feature's geometry type as string, either: 'LineString', 'Point' or 'Polygon'
          *     `Multi*` values are returned as their singular equivalent
          *     `Circle` geometries are returned as 'Polygon'
          *     `GeometryCollection` geometries are returned as the type of the first geometry found in the collection (WebGL only).
-         *   * `['resolution']` returns the current resolution
-         *   * `['time']` The time in seconds since the creation of the layer (WebGL only).
-         *   * `['var', 'varName']` fetches a value from the style variables; will throw an error if that variable is undefined
-         *   * `['zoom']` The current zoom level (WebGL only).
-         *   * `['line-metric']` returns the M component of the current point on a line (WebGL only); in case where the geometry layout of the line
+         *   `['resolution']` returns the current resolution
+         *   `['time']` The time in seconds since the creation of the layer (WebGL only).
+         *   `['var', 'varName']` fetches a value from the style variables; will throw an error if that variable is undefined
+         *   `['zoom']` The current zoom level (WebGL only).
+         *   `['line-metric']` returns the M component of the current point on a line (WebGL only); in case where the geometry layout of the line
          *      does not contain an M component (e.g. XY or XYZ), 0 is returned; 0 is also returned for geometries other than lines.
          *      Please note that the M component will be linearly interpolated between the two points composing a segment.
          *
          * Math operators:
-         *   * `['*', value1, value2, ...]` multiplies the values (either numbers or colors)
-         *   * `['/', value1, value2]` divides `value1` by `value2`
-         *   * `['+', value1, value2, ...]` adds the values
-         *   * `['-', value1, value2]` subtracts `value2` from `value1`
-         *   * `['clamp', value, low, high]` clamps `value` between `low` and `high`
-         *   * `['%', value1, value2]` returns the result of `value1 % value2` (modulo)
-         *   * `['^', value1, value2]` returns the value of `value1` raised to the `value2` power
-         *   * `['abs', value1]` returns the absolute value of `value1`
-         *   * `['floor', value1]` returns the nearest integer less than or equal to `value1`
+         *   `['*', value1, value2, ...]` multiplies the values (either numbers or colors)
+         *   `['/', value1, value2]` divides `value1` by `value2`
+         *   `['+', value1, value2, ...]` adds the values
+         *   `['-', value1, value2]` subtracts `value2` from `value1`
+         *   `['clamp', value, low, high]` clamps `value` between `low` and `high`
+         *   `['%', value1, value2]` returns the result of `value1 % value2` (modulo)
+         *   `['^', value1, value2]` returns the value of `value1` raised to the `value2` power
+         *   `['abs', value1]` returns the absolute value of `value1`
+         *   `['floor', value1]` returns the nearest integer less than or equal to `value1`
          *   * `['round', value1]` returns the nearest integer to `value1`
          *   * `['ceil', value1]` returns the nearest integer greater than or equal to `value1`
          *   * `['sin', value1]` returns the sine of `value1`
@@ -324371,123 +324529,98 @@ const getRandomTableNumber = () => {
          */
         const textHeights = {};
 
-        const genericFontFamilies = new Set([
-            'serif',
-            'sans-serif',
-            'monospace',
-            'cursive',
-            'fantasy',
-            'system-ui',
-            'ui-serif',
-            'ui-sans-serif',
-            'ui-monospace',
-            'ui-rounded',
-            'emoji',
-            'math',
-            'fangsong',
-        ]);
-
-        /**
-         * @param {string} style Css font-style
-         * @param {string} weight Css font-weight
-         * @param {string} family Css font-family
-         * @return {string} Font key.
-         */
-        function getFontKey(style, weight, family) {
-            return `${style} ${weight} 16px "${family}"`;
-        }
-
         /**
          * Clears the label cache when a font becomes available.
          * @param {string} fontSpec CSS font spec.
          */
         const registerFont = (function() {
             const retries = 100;
-            let timeout, fontFaceSet;
+            const size = '32px ';
+            const referenceFonts = ['monospace', 'serif'];
+            const len = referenceFonts.length;
+            const text = 'wmytzilWMYTZIL@#/&?$%10\uF013';
+            let interval, referenceWidth;
 
             /**
-             * @param {string} fontSpec Css font spec
-             * @return {Promise<boolean>} Font with style and weight is available
+             * @param {string} fontStyle Css font-style
+             * @param {string} fontWeight Css font-weight
+             * @param {*} fontFamily Css font-family
+             * @return {boolean} Font with style and weight is available
              */
-            async function isAvailable(fontSpec) {
-                await fontFaceSet.ready;
-                const fontFaces = await fontFaceSet.load(fontSpec);
-                if (fontFaces.length === 0) {
-                    return false;
-                }
-                const font = getFontParameters(fontSpec);
-                const checkFamily = font.families[0].toLowerCase();
-                const checkWeight = font.weight;
-                return fontFaces.some(
-                    /**
-                     * @param {import('../css.js').FontParameters} f Font.
-                     * @return {boolean} Font matches.
-                     */
-                    (f) => {
-                        const family = f.family.replace(/^['"]|['"]$/g, '').toLowerCase();
-                        const weight = fontWeights[f.weight] || f.weight;
-                        return (
-                            family === checkFamily &&
-                            f.style === font.style &&
-                            weight == checkWeight
+            function isAvailable(fontStyle, fontWeight, fontFamily) {
+                let available = true;
+                for (let i = 0; i < len; ++i) {
+                    const referenceFont = referenceFonts[i];
+                    referenceWidth = measureTextWidth(
+                        fontStyle + ' ' + fontWeight + ' ' + size + referenceFont,
+                        text,
+                    );
+                    if (fontFamily != referenceFont) {
+                        const width = measureTextWidth(
+                            fontStyle +
+                            ' ' +
+                            fontWeight +
+                            ' ' +
+                            size +
+                            fontFamily +
+                            ',' +
+                            referenceFont,
+                            text,
                         );
-                    },
-                );
+                        // If width and referenceWidth are the same, then the fallback was used
+                        // instead of the font we wanted, so the font is not available.
+                        available = available && width != referenceWidth;
+                    }
+                }
+                if (available) {
+                    return true;
+                }
+                return false;
             }
 
-            async function check() {
-                await fontFaceSet.ready;
+            function check() {
                 let done = true;
-                const checkedFontsProperties = checkedFonts.getProperties();
-                const fonts = Object.keys(checkedFontsProperties).filter(
-                    (key) => checkedFontsProperties[key] < retries,
-                );
-                for (let i = fonts.length - 1; i >= 0; --i) {
+                const fonts = checkedFonts.getKeys();
+                for (let i = 0, ii = fonts.length; i < ii; ++i) {
                     const font = fonts[i];
-                    let currentRetries = checkedFontsProperties[font];
-                    if (currentRetries < retries) {
-                        if (await isAvailable(font)) {
+                    if (checkedFonts.get(font) < retries) {
+                        const [style, weight, family] = font.split('\n');
+                        if (isAvailable(style, weight, family)) {
                             clear(textHeights);
+                            // Make sure that loaded fonts are picked up by Safari
+                            measureContext = null;
+                            measureFont = undefined;
                             checkedFonts.set(font, retries);
                         } else {
-                            currentRetries += 10;
-                            checkedFonts.set(font, currentRetries, true);
-                            if (currentRetries < retries) {
-                                done = false;
-                            }
+                            checkedFonts.set(font, checkedFonts.get(font) + 1, true);
+                            done = false;
                         }
                     }
                 }
-                timeout = undefined;
-                if (!done) {
-                    timeout = setTimeout(check, 100);
+                if (done) {
+                    clearInterval(interval);
+                    interval = undefined;
                 }
             }
 
-            return async function(fontSpec) {
-                if (!fontFaceSet) {
-                    fontFaceSet = WORKER_OFFSCREEN_CANVAS ? self.fonts : document.fonts;
-                }
+            return function(fontSpec) {
                 const font = getFontParameters(fontSpec);
                 if (!font) {
                     return;
                 }
                 const families = font.families;
-                let needCheck = false;
-                for (const family of families) {
-                    if (genericFontFamilies.has(family)) {
-                        continue;
+                for (let i = 0, ii = families.length; i < ii; ++i) {
+                    const family = families[i];
+                    const key = font.style + '\n' + font.weight + '\n' + family;
+                    if (checkedFonts.get(key) === undefined) {
+                        checkedFonts.set(key, retries, true);
+                        if (!isAvailable(font.style, font.weight, family)) {
+                            checkedFonts.set(key, 0, true);
+                            if (interval === undefined) {
+                                interval = setInterval(check, 32);
+                            }
+                        }
                     }
-                    const key = getFontKey(font.style, font.weight, family);
-                    if (checkedFonts.get(key) !== undefined) {
-                        continue;
-                    }
-                    checkedFonts.set(key, 0, true);
-                    needCheck = true;
-                }
-                if (needCheck) {
-                    clearTimeout(timeout);
-                    timeout = setTimeout(check, 100);
                 }
             };
         })();
@@ -331616,10 +331749,7 @@ const getRandomTableNumber = () => {
              * Redraws all text after new fonts have loaded
              */
             redrawText() {
-                if (!this.frameState_) {
-                    return;
-                }
-                const layerStates = this.frameState_.layerStatesArray;
+                const layerStates = this.getLayerGroup().getLayerStatesArray();
                 for (let i = 0, ii = layerStates.length; i < ii; ++i) {
                     const layer = layerStates[i].layer;
                     if (layer.hasRenderer()) {
@@ -332553,8 +332683,8 @@ const getRandomTableNumber = () => {
 
                 this.setVisible(true);
 
-                const x = `${pixel[0] + offset[0]}px`;
-                const y = `${pixel[1] + offset[1]}px`;
+                const x = Math.round(pixel[0] + offset[0]) + 'px';
+                const y = Math.round(pixel[1] + offset[1]) + 'px';
                 let posX = '0%';
                 let posY = '0%';
                 if (
@@ -337802,7 +337932,9 @@ const getRandomTableNumber = () => {
             updateFillStyle(state, createFill) {
                 const fillStyle = state.fillStyle;
                 if (typeof fillStyle !== 'string' || state.currentFillStyle != fillStyle) {
-                    this.instructions.push(createFill.call(this, state));
+                    if (fillStyle !== undefined) {
+                        this.instructions.push(createFill.call(this, state));
+                    }
                     state.currentFillStyle = fillStyle;
                 }
             }
@@ -337829,7 +337961,9 @@ const getRandomTableNumber = () => {
                     state.currentLineWidth != lineWidth ||
                     state.currentMiterLimit != miterLimit
                 ) {
-                    applyStroke.call(this, state);
+                    if (strokeStyle !== undefined) {
+                        applyStroke.call(this, state);
+                    }
                     state.currentStrokeStyle = strokeStyle;
                     state.currentLineCap = lineCap;
                     state.currentLineDash = lineDash;
@@ -338593,8 +338727,13 @@ const getRandomTableNumber = () => {
              */
             setFillStrokeStyles_() {
                 const state = this.state;
-                this.updateFillStyle(state, this.createFill);
-                this.updateStrokeStyle(state, this.applyStroke);
+                const fillStyle = state.fillStyle;
+                if (fillStyle !== undefined) {
+                    this.updateFillStyle(state, this.createFill);
+                }
+                if (state.strokeStyle !== undefined) {
+                    this.updateStrokeStyle(state, this.applyStroke);
+                }
             }
         }
 
@@ -340450,9 +340589,6 @@ const getRandomTableNumber = () => {
                 context.strokeStyle =
                     /** @type {import("../../colorlike.js").ColorLike} */
                     (instruction[1]);
-                if (!instruction[1]) {
-                    return;
-                }
                 context.lineWidth = /** @type {number} */ (instruction[2]);
                 context.lineCap = /** @type {CanvasLineCap} */ (instruction[3]);
                 context.lineJoin = /** @type {CanvasLineJoin} */ (instruction[4]);
@@ -341383,11 +341519,6 @@ const getRandomTableNumber = () => {
 
                 const newContext = !this.hitDetectionContext_;
                 if (newContext) {
-                    // Refrain from adding a 'willReadFrequently' hint in the options here.
-                    // While it will remove the "Canvas2D: Multiple readback operations using
-                    // getImageData are faster with the willReadFrequently attribute set
-                    // to true" warnings in the console, it makes hitDetection extremely
-                    // slow in Chrome when there are many features on the map
                     this.hitDetectionContext_ = dom_createCanvasContext2D(
                         contextSize,
                         contextSize,
@@ -341588,7 +341719,7 @@ const getRandomTableNumber = () => {
                             }
                             if (zIndexContext) {
                                 zIndexContext.offset();
-                                const index = zs[i] * maxBuilderTypes + ALL.indexOf(builderType);
+                                const index = zs[i] * maxBuilderTypes + j;
                                 if (!this.deferredZIndexContexts_[index]) {
                                     this.deferredZIndexContexts_[index] = [];
                                 }
@@ -344359,7 +344490,7 @@ const getRandomTableNumber = () => {
              * @private
              */
             resetDrawContext_() {
-                if (this.opacity_ !== 1 && this.targetContext_) {
+                if (this.opacity_ !== 1) {
                     const alpha = this.targetContext_.globalAlpha;
                     this.targetContext_.globalAlpha = this.opacity_;
                     this.targetContext_.drawImage(this.context.canvas, 0, 0);
@@ -345556,15 +345687,14 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @param {import("../../source/Tile.js").default} source The tile source.
          * @param {string} sourceKey The source key.
          * @param {number} z The tile z level.
          * @param {number} x The tile x level.
          * @param {number} y The tile y level.
          * @return {string} The cache key.
          */
-        function TileLayer_getCacheKey(source, sourceKey, z, x, y) {
-            return `${getUid(source)},${sourceKey},${getKeyZXY(z, x, y)}`;
+        function TileLayer_getCacheKey(sourceKey, z, x, y) {
+            return `${sourceKey},${getKeyZXY(z, x, y)}`;
         }
 
         /**
@@ -345686,6 +345816,12 @@ const getRandomTableNumber = () => {
                 this.renderedProjection = null;
 
                 /**
+                 * @private
+                 * @type {number}
+                 */
+                this.renderedRevision_;
+
+                /**
                  * @protected
                  * @type {!Array<import("../../Tile.js").default>}
                  */
@@ -345753,7 +345889,7 @@ const getRandomTableNumber = () => {
                 const tileCache = this.tileCache_;
                 const tileLayer = this.getLayer();
                 const tileSource = tileLayer.getSource();
-                const cacheKey = TileLayer_getCacheKey(tileSource, tileSource.getKey(), z, x, y);
+                const cacheKey = TileLayer_getCacheKey(tileSource.getKey(), z, x, y);
 
                 /** @type {import("../../Tile.js").default} */
                 let tile;
@@ -345891,10 +346027,10 @@ const getRandomTableNumber = () => {
                     return false;
                 }
                 const sourceRevision = source.getRevision();
-                if (!this.renderedSourceRevision_) {
-                    this.renderedSourceRevision_ = sourceRevision;
-                } else if (this.renderedSourceRevision_ !== sourceRevision) {
-                    this.renderedSourceRevision_ = sourceRevision;
+                if (!this.renderedRevision_) {
+                    this.renderedRevision_ = sourceRevision;
+                } else if (this.renderedRevision_ !== sourceRevision) {
+                    this.renderedRevision_ = sourceRevision;
                     if (this.renderedSourceKey_ === source.getKey()) {
                         this.tileCache_.clear();
                     }
@@ -346007,13 +346143,7 @@ const getRandomTableNumber = () => {
                 const y = tileCoord[2];
                 const staleKeys = this.getStaleKeys();
                 for (let i = 0; i < staleKeys.length; ++i) {
-                    const cacheKey = TileLayer_getCacheKey(
-                        this.getLayer().getSource(),
-                        staleKeys[i],
-                        z,
-                        x,
-                        y,
-                    );
+                    const cacheKey = TileLayer_getCacheKey(staleKeys[i], z, x, y);
                     if (tileCache.containsKey(cacheKey)) {
                         const tile = tileCache.peek(cacheKey);
                         if (tile.getState() === TileState.LOADED) {
@@ -346053,7 +346183,7 @@ const getRandomTableNumber = () => {
                 const sourceKey = source.getKey();
                 for (let x = tileRange.minX; x <= tileRange.maxX; ++x) {
                     for (let y = tileRange.minY; y <= tileRange.maxY; ++y) {
-                        const cacheKey = TileLayer_getCacheKey(source, sourceKey, altZ, x, y);
+                        const cacheKey = TileLayer_getCacheKey(sourceKey, altZ, x, y);
                         let loaded = false;
                         if (tileCache.containsKey(cacheKey)) {
                             const tile = tileCache.peek(cacheKey);
@@ -348841,7 +348971,7 @@ const getRandomTableNumber = () => {
              * @param {function(FeatureType):boolean} [filter] Feature filter function.
              *     The filter function will receive one argument, the {@link module:ol/Feature~Feature feature}
              *     and it should return a boolean value. By default, no filtering is made.
-             * @return {FeatureType|null} Closest feature (or `null` if none found).
+             * @return {FeatureType} Closest feature.
              * @api
              */
             getClosestFeatureToCoordinate(coordinate, filter) {
@@ -363093,20 +363223,20 @@ const getRandomTableNumber = () => {
 
         function base_rating_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[42] = list[i];
+            child_ctx[43] = list[i];
             return child_ctx;
         }
 
         function base_rating_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[45] = list[i];
-            child_ctx[47] = i;
+            child_ctx[46] = list[i];
+            child_ctx[48] = i;
             return child_ctx;
         }
 
         function base_rating_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[48] = list[i];
+            child_ctx[49] = list[i];
             return child_ctx;
         }
 
@@ -363114,13 +363244,13 @@ const getRandomTableNumber = () => {
         function base_rating_index_svelte_create_if_block_11(ctx) {
             let div;
             let p;
-            let t_value = /*quality*/ ctx[48].name + "";
+            let t_value = /*quality*/ ctx[49].name + "";
             let t;
             let mounted;
             let dispose;
 
             function click_handler_2() {
-                return /*click_handler_2*/ ctx[26]( /*quality*/ ctx[48]);
+                return /*click_handler_2*/ ctx[26]( /*quality*/ ctx[49]);
             }
 
             return {
@@ -363130,7 +363260,7 @@ const getRandomTableNumber = () => {
                     t = dom_text(t_value);
                     dom_attr(p, "class", "transport-interaction-rating__sort-item-title");
                     dom_attr(div, "class", "transport-interaction-rating__sort-item");
-                    dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[48].id);
+                    dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[49].id);
                     dom_toggle_class(div, "transport-interaction-rating__sort-item--disabled", /*loaderVisible*/ ctx[9]);
                 },
                 m(target, anchor) {
@@ -363145,10 +363275,10 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if (dirty[0] & /*$qualityApiData, qualityKey*/ 4097 && t_value !== (t_value = /*quality*/ ctx[48].name + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$qualityApiData, qualityKey*/ 4097 && t_value !== (t_value = /*quality*/ ctx[49].name + "")) dom_set_data(t, t_value);
 
                     if (dirty[0] & /*filterType, $qualityApiData, qualityKey*/ 4113) {
-                        dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[48].id);
+                        dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[49].id);
                     }
 
                     if (dirty[0] & /*loaderVisible*/ 512) {
@@ -363169,7 +363299,7 @@ const getRandomTableNumber = () => {
         // (255:8) {#each $qualityApiData[qualityKey] as quality}
         function base_rating_index_svelte_create_each_block_2(ctx) {
             let if_block_anchor;
-            let if_block = /*quality*/ ctx[48].id > 0 && base_rating_index_svelte_create_if_block_11(ctx);
+            let if_block = /*quality*/ ctx[49].id > 0 && base_rating_index_svelte_create_if_block_11(ctx);
 
             return {
                 c() {
@@ -363181,7 +363311,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, if_block_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if ( /*quality*/ ctx[48].id > 0) {
+                    if ( /*quality*/ ctx[49].id > 0) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -363466,7 +363596,7 @@ const getRandomTableNumber = () => {
             let div4;
             let div0;
             let p0;
-            let t0_value = /*item*/ ctx[45].id + "";
+            let t0_value = /*item*/ ctx[46].id + "";
             let t0;
             let t1;
             let img;
@@ -363477,19 +363607,19 @@ const getRandomTableNumber = () => {
             let t3;
             let div3;
             let p1;
-            let t4_value = /*item*/ ctx[45].subName + "";
+            let t4_value = /*item*/ ctx[46].subName + "";
             let t4;
             let t5;
             let p2;
-            let t6_value = /*item*/ ctx[45].name + "";
+            let t6_value = /*item*/ ctx[46].name + "";
             let t6;
             let t7;
             let div2;
             let p3;
-            let t8_value = /*item*/ ctx[45].quality.name + "";
+            let t8_value = /*item*/ ctx[46].quality.name + "";
             let t8;
             let t9;
-            let t10_value = /*item*/ ctx[45].qualityValue + "";
+            let t10_value = /*item*/ ctx[46].qualityValue + "";
             let t10;
             let t11;
             let current;
@@ -363498,14 +363628,14 @@ const getRandomTableNumber = () => {
 
             imagewithfallback = new imageWithFallback_index_svelte({
                 props: {
-                    src: `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`,
+                    src: `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`,
                     fallbackImageUrl: `${CDN_URL}/assets/images/inventory/vehicles/512/none.webp`,
                     alt: "car"
                 }
             });
 
             function click_handler_6() {
-                return /*click_handler_6*/ ctx[33]( /*i*/ ctx[47]);
+                return /*click_handler_6*/ ctx[33]( /*i*/ ctx[48]);
             }
 
             return {
@@ -363535,7 +363665,7 @@ const getRandomTableNumber = () => {
                     t11 = dom_text(")");
                     dom_attr(p0, "class", "transport-interaction-rating__side-left-item-number-value");
                     dom_attr(div0, "class", "transport-interaction-rating__side-left-item-number");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "blur");
                     dom_attr(img, "class", "transport-interaction-rating__side-left-item-image-blur");
                     dom_attr(div1, "class", "transport-interaction-rating__side-left-item-image");
@@ -363543,11 +363673,11 @@ const getRandomTableNumber = () => {
                     dom_attr(p2, "class", "transport-interaction-rating__side-left-item-title-car");
                     dom_attr(p3, "class", "transport-interaction-rating__side-left-item-title-rarity-value");
                     dom_attr(div2, "class", "transport-interaction-rating__side-left-item-title-rarity");
-                    set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[45].quality.colors[0] + " 50%, " + /*item*/ ctx[45].quality.colors[1] + " 100%)");
+                    set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[46].quality.colors[0] + " 50%, " + /*item*/ ctx[46].quality.colors[1] + " 100%)");
                     dom_attr(div3, "class", "transport-interaction-rating__side-left-item-titles");
                     dom_attr(div4, "class", "transport-interaction-rating__side-left-item");
-                    set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[45].quality.colors[0] + "AA 0%, transparent 100%)");
-                    dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[47]);
+                    set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[46].quality.colors[0] + "AA 0%, transparent 100%)");
+                    dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[48]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div4, anchor);
@@ -363582,30 +363712,30 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if ((!current || dirty[0] & /*list*/ 4) && t0_value !== (t0_value = /*item*/ ctx[45].id + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t0_value !== (t0_value = /*item*/ ctx[46].id + "")) dom_set_data(t0, t0_value);
 
-                    if (!current || dirty[0] & /*list*/ 4 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`)) {
+                    if (!current || dirty[0] & /*list*/ 4 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
                     const imagewithfallback_changes = {};
-                    if (dirty[0] & /*list*/ 4) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`;
+                    if (dirty[0] & /*list*/ 4) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`;
                     imagewithfallback.$set(imagewithfallback_changes);
-                    if ((!current || dirty[0] & /*list*/ 4) && t4_value !== (t4_value = /*item*/ ctx[45].subName + "")) dom_set_data(t4, t4_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t6_value !== (t6_value = /*item*/ ctx[45].name + "")) dom_set_data(t6, t6_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t8_value !== (t8_value = /*item*/ ctx[45].quality.name + "")) dom_set_data(t8, t8_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t10_value !== (t10_value = /*item*/ ctx[45].qualityValue + "")) dom_set_data(t10, t10_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t4_value !== (t4_value = /*item*/ ctx[46].subName + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t6_value !== (t6_value = /*item*/ ctx[46].name + "")) dom_set_data(t6, t6_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t8_value !== (t8_value = /*item*/ ctx[46].quality.name + "")) dom_set_data(t8, t8_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t10_value !== (t10_value = /*item*/ ctx[46].qualityValue + "")) dom_set_data(t10, t10_value);
 
                     if (!current || dirty[0] & /*list*/ 4) {
-                        set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[45].quality.colors[0] + " 50%, " + /*item*/ ctx[45].quality.colors[1] + " 100%)");
+                        set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[46].quality.colors[0] + " 50%, " + /*item*/ ctx[46].quality.colors[1] + " 100%)");
                     }
 
                     if (!current || dirty[0] & /*list*/ 4) {
-                        set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[45].quality.colors[0] + "AA 0%, transparent 100%)");
+                        set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[46].quality.colors[0] + "AA 0%, transparent 100%)");
                     }
 
                     if (!current || dirty[0] & /*selectedItemIndex*/ 8) {
-                        dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[47]);
+                        dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[48]);
                     }
                 },
                 i(local) {
@@ -364246,7 +364376,7 @@ const getRandomTableNumber = () => {
 
             let t_value = ( /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.id === 0 ?
                 '???' :
-                `${/*bonus*/ ctx[42].valueString}`) + "";
+                `${/*bonus*/ ctx[43].valueString}`) + "";
 
             let t;
 
@@ -364264,7 +364394,7 @@ const getRandomTableNumber = () => {
                 p(ctx, dirty) {
                     if (dirty[0] & /*list, selectedItemIndex*/ 12 && t_value !== (t_value = ( /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.id === 0 ?
                             '???' :
-                            `${/*bonus*/ ctx[42].valueString}`) + "")) dom_set_data(t, t_value);
+                            `${/*bonus*/ ctx[43].valueString}`) + "")) dom_set_data(t, t_value);
 
                     if (dirty[0] & /*list, selectedItemIndex*/ 12) {
                         set_style(span, "background", /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.colors[0]);
@@ -364282,10 +364412,10 @@ const getRandomTableNumber = () => {
         function base_rating_index_svelte_create_each_block(ctx) {
             let div;
             let span;
-            let t0_value = /*bonus*/ ctx[42].name + "";
+            let t0_value = /*bonus*/ ctx[43].name + "";
             let t0;
             let t1;
-            let show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[42].valueString);
+            let show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[43].valueString);
             let t2;
             let if_block = show_if && base_rating_index_svelte_create_if_block_2(ctx);
 
@@ -364309,8 +364439,8 @@ const getRandomTableNumber = () => {
                     dom_append(div, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*list, selectedItemIndex*/ 12 && t0_value !== (t0_value = /*bonus*/ ctx[42].name + "")) dom_set_data(t0, t0_value);
-                    if (dirty[0] & /*list, selectedItemIndex*/ 12) show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[42].valueString);
+                    if (dirty[0] & /*list, selectedItemIndex*/ 12 && t0_value !== (t0_value = /*bonus*/ ctx[43].name + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*list, selectedItemIndex*/ 12) show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[43].valueString);
 
                     if (show_if) {
                         if (if_block) {
@@ -364677,8 +364807,10 @@ const getRandomTableNumber = () => {
 
         function base_rating_index_svelte_instance($$self, $$props, $$invalidate) {
             let $serverApiServerId;
+            let $serverApiToken;
             let $qualityApiData;
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(40, $serverApiServerId = $$value));
+            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(41, $serverApiToken = $$value));
             utils_component_subscribe($$self, qualityApiData, $$value => $$invalidate(12, $qualityApiData = $$value));
             let {
                 qualityKey = ''
@@ -364752,8 +364884,9 @@ const getRandomTableNumber = () => {
 
                 lib_axios.get(`${SERVER_API_URL}/client/${entity}/getRatingList`, {
                     params: requestParams,
-                    headers: {}, // Authorization: `Bearer ${$serverApiToken}`,
-
+                    headers: {
+                        Authorization: `Bearer ${$serverApiToken}`
+                    }
                 }).then(response => {
                     requestParams.page += 1;
                     $$invalidate(9, loaderVisible = false);
@@ -374441,7 +374574,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "84da702e");
+                    console.log(`[debug] app init`, "1021", "cdbf90b1");
                 }
             });
 
@@ -374506,7 +374639,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "84da702e");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "cdbf90b1");
     })();
 
     /******/
