@@ -59192,98 +59192,98 @@
             "active": 0
         }, {
             "id": 752,
-            "name": "Сертификат Infernus (Launch)",
+            "name": "Сертификат Infernus",
             "icon": "752.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 753,
-            "name": "Сертификат Cheetah (Launch)",
+            "name": "Сертификат Cheetah",
             "icon": "753.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 754,
-            "name": "Сертификат Buffalo (Launch)",
+            "name": "Сертификат Buffalo",
             "icon": "754.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 755,
-            "name": "Сертификат Banshee (Launch)",
+            "name": "Сертификат Banshee",
             "icon": "755.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 756,
-            "name": "Сертификат Bullet (Launch)",
+            "name": "Сертификат Bullet",
             "icon": "756.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 757,
-            "name": "Сертификат Comet (Launch)",
+            "name": "Сертификат Comet",
             "icon": "757.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 758,
-            "name": "Сертификат Super GT (Launch)",
+            "name": "Сертификат Super GT",
             "icon": "758.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 759,
-            "name": "Сертификат Huntley (Launch)",
+            "name": "Сертификат Huntley",
             "icon": "759.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 760,
-            "name": "Сертификат Turismo (Launch)",
+            "name": "Сертификат Turismo",
             "icon": "760.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 761,
-            "name": "Сертификат Windsor (Launch)",
+            "name": "Сертификат Windsor",
             "icon": "761.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 762,
-            "name": "Сертификат Jester (Launch)",
+            "name": "Сертификат Jester",
             "icon": "762.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 763,
-            "name": "Сертификат Sultan (Launch)",
+            "name": "Сертификат Sultan",
             "icon": "763.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 764,
-            "name": "Сертификат Elegy (Launch)",
+            "name": "Сертификат Elegy",
             "icon": "764.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 765,
-            "name": "Сертификат Phoenix (Launch)",
+            "name": "Сертификат Phoenix",
             "icon": "765.webp",
             "acs_slot": -1,
             "type": 2,
@@ -59388,7 +59388,7 @@
             "active": 0
         }, {
             "id": 780,
-            "name": "Сертификат Cabbie (Launch)",
+            "name": "Сертификат Cabbie",
             "icon": "780.webp",
             "acs_slot": -1,
             "type": 2,
@@ -72424,35 +72424,35 @@
             "id": 2642,
             "name": "Капот для Toyota Camry XV70 (STOCK)",
             "icon": "2642.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2643,
             "name": "Капот для Toyota Camry XV70 (FOUR-SLOT)",
             "icon": "2643.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2644,
             "name": "Капот для Toyota Camry XV70 (SPEEDLINE)",
             "icon": "2644.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2645,
             "name": "Капот для Toyota Camry XV70 (TREMOR)",
             "icon": "2645.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2646,
             "name": "Капот для Toyota Camry XV70 (DOUBLE-V)",
             "icon": "2646.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -74545,35 +74545,35 @@
             "id": 2945,
             "name": "Выхлоп для Toyota Camry XV70 (GRADIENT STOCK)",
             "icon": "2945.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2946,
             "name": "Выхлоп для Toyota Camry XV70 (CARBON RING)",
             "icon": "2946.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2947,
             "name": "Выхлоп для Toyota Camry XV70 (CARBON TWO)",
             "icon": "2947.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2948,
             "name": "Выхлоп для Toyota Camry XV70 (GRADIENT TWO)",
             "icon": "2948.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 2949,
             "name": "Выхлоп для Toyota Camry XV70 (GRID)",
             "icon": "2949.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -76498,35 +76498,35 @@
             "id": 3224,
             "name": "Спойлер для Toyota Camry XV70 (STOCK)",
             "icon": "3224.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3225,
             "name": "Спойлер для Toyota Camry XV70 (DUCKTAIL)",
             "icon": "3225.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3226,
             "name": "Спойлер для Toyota Camry XV70 (REAPER)",
             "icon": "3226.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3227,
             "name": "Спойлер для Toyota Camry XV70 (DAYTONA)",
             "icon": "3227.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 3228,
             "name": "Спойлер для Toyota Camry XV70 (CURSE)",
             "icon": "3228.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -82301,35 +82301,35 @@
             "id": 4053,
             "name": "Капот для LADA Priora (STOCK)",
             "icon": "4053.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4054,
             "name": "Капот для LADA Priora (FOUR-SLOT)",
             "icon": "4054.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4055,
             "name": "Капот для LADA Priora (SPEEDLINE)",
             "icon": "4055.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4056,
             "name": "Капот для LADA Priora (TREMOR)",
             "icon": "4056.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4057,
             "name": "Капот для LADA Priora (DOUBLE-V)",
             "icon": "4057.webp",
-            "acs_slot": 1,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -82511,35 +82511,35 @@
             "id": 4083,
             "name": "Выхлоп для LADA Priora (GRADIENT STOCK)",
             "icon": "4083.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4084,
             "name": "Выхлоп для LADA Priora (CARBON RING)",
             "icon": "4084.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4085,
             "name": "Выхлоп для LADA Priora (CARBON TWO)",
             "icon": "4085.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4086,
             "name": "Выхлоп для LADA Priora (GRADIENT TWO)",
             "icon": "4086.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4087,
             "name": "Выхлоп для LADA Priora (GRID)",
             "icon": "4087.webp",
-            "acs_slot": 6,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -82721,35 +82721,35 @@
             "id": 4113,
             "name": "Спойлер для LADA Priora (STOCK)",
             "icon": "4113.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4114,
             "name": "Спойлер для LADA Priora (DUCKTAIL)",
             "icon": "4114.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4115,
             "name": "Спойлер для LADA Priora (REAPER)",
             "icon": "4115.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4116,
             "name": "Спойлер для LADA Priora (DAYTONA)",
             "icon": "4116.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 4117,
             "name": "Спойлер для LADA Priora (CURSE)",
             "icon": "4117.webp",
-            "acs_slot": 0,
+            "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
@@ -102942,7 +102942,7 @@
             "active": 0
         }, {
             "id": 7002,
-            "name": "Сертификат Infernus с росписью Diamond",
+            "name": "Сертификат Infernus",
             "icon": "7002.webp",
             "acs_slot": -1,
             "type": 2,
@@ -103033,21 +103033,21 @@
             "active": 0
         }, {
             "id": 7015,
-            "name": "Сертификат Cheetah c росписью Advance",
+            "name": "Сертификат Cheetah",
             "icon": "7015.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 7016,
-            "name": "Сертификат Cheetah c росписью Diamond",
+            "name": "Сертификат Cheetah",
             "icon": "7016.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 7017,
-            "name": "Сертификат Infernus с росписью Advance",
+            "name": "Сертификат Infernus",
             "icon": "7017.webp",
             "acs_slot": -1,
             "type": 2,
@@ -119602,6 +119602,1142 @@
             "acs_slot": -1,
             "type": 15,
             "active": 0
+        }, {
+            "id": 9376,
+            "name": "Накопитель энергии (квест)",
+            "icon": "9376.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9377,
+            "name": "Сертификат Безумная Газель",
+            "icon": "9377.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9378,
+            "name": "Сертификат Limozeen Hot-Wheels",
+            "icon": "9378.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9379,
+            "name": "Сертификат Seymoor Creeps School Bus Hot-Wheels",
+            "icon": "9379.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9380,
+            "name": "Сертификат Gigahorse Mad Max",
+            "icon": "9380.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9381,
+            "name": "Сертификат Такси Франкенштейна",
+            "icon": "9381.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9382,
+            "name": "Сертификат Такси Оборотня",
+            "icon": "9382.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9383,
+            "name": "Сертификат Dream Halloween Blown Delivery Hot-Wheels",
+            "icon": "9383.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9384,
+            "name": "Скин: Зомби 1(без головы) (ID: 1053)",
+            "icon": "9384.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9385,
+            "name": "Скин: Зомби 2(без головы) (ID: 1054)",
+            "icon": "9385.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9386,
+            "name": "Скин: Зомби 3(без головы) (ID: 1055)",
+            "icon": "9386.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9387,
+            "name": "Скин: Скелет с тыквенной головой (ID: 1056)",
+            "icon": "9387.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9388,
+            "name": "Скин: Королевская нежить (ID: 1057)",
+            "icon": "9388.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9389,
+            "name": "Скин: Скелет (ID: 1058)",
+            "icon": "9389.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9390,
+            "name": "Скин: Доктор Франкенштейн (ID: 1059)",
+            "icon": "9390.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9391,
+            "name": "Скин: Дракула (ID: 1060)",
+            "icon": "9391.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9392,
+            "name": "Скин: Франкенштейн (ID: 1061)",
+            "icon": "9392.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9393,
+            "name": "Скин: Ван Хелсинг (ID: 1062)",
+            "icon": "9393.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9394,
+            "name": "Скин: Воинственная нежить (ID: 1063)",
+            "icon": "9394.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9395,
+            "name": "Скин: Петух Ван Хелсинга (ID: 1064)",
+            "icon": "9395.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9396,
+            "name": "Скин: Сабрина ведьмочка (ID: 1065)",
+            "icon": "9396.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9397,
+            "name": "Скин: Безумный Дракула (ID: 1066)",
+            "icon": "9397.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9398,
+            "name": "Тюнинг-пак для LADA Priora",
+            "icon": "9398.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9399,
+            "name": "Тюнинг-пак для Ford Raptor F150",
+            "icon": "9399.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9400,
+            "name": "Тюнинг-пак для Toyota Camry XV70",
+            "icon": "9400.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9401,
+            "name": "Тюнинг-пак для BMW M3 Touring",
+            "icon": "9401.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9402,
+            "name": "Диски (Череп)",
+            "icon": "9402.webp",
+            "acs_slot": 7,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9403,
+            "name": "Диски (Паутина)",
+            "icon": "9403.webp",
+            "acs_slot": 7,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9404,
+            "name": "Кенгурятник для Безумная Газель",
+            "icon": "9404.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9405,
+            "name": "Кенгурятник для Limozeen Hot-Wheels",
+            "icon": "9405.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9406,
+            "name": "Кенгурятник для Seymoor Creeps School Bus Hot-Wheels",
+            "icon": "9406.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9407,
+            "name": "Кенгурятник для Gigahorse Mad Max",
+            "icon": "9407.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9408,
+            "name": "Кенгурятник для Такси Франкенштейна",
+            "icon": "9408.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9409,
+            "name": "Кенгурятник для Такси Оборотня",
+            "icon": "9409.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9410,
+            "name": "Кенгурятник для Dream Halloween Blown Delivery Hot-Wheels",
+            "icon": "9410.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9411,
+            "name": "Объект: Мимик",
+            "icon": "9411.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9412,
+            "name": "Объект: Призрак",
+            "icon": "9412.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9413,
+            "name": "Объект: Чернокнижник",
+            "icon": "9413.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9414,
+            "name": "Объект: Могила",
+            "icon": "9414.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9415,
+            "name": "Объект: Пенёк",
+            "icon": "9415.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9416,
+            "name": "Объект: Котелок с зельем",
+            "icon": "9416.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9417,
+            "name": "Объект: Гроб",
+            "icon": "9417.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9418,
+            "name": "Сердце Лича (Хлам)",
+            "icon": "9418.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9419,
+            "name": "Сердце Лича (Обычный)",
+            "icon": "9419.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9420,
+            "name": "Сердце Лича (Легендарный)",
+            "icon": "9420.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9421,
+            "name": "Кинжал Лича (Хлам)",
+            "icon": "9421.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9422,
+            "name": "Кинжал Лича (Обычный)",
+            "icon": "9422.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9423,
+            "name": "Кинжал Лича (Легендарный)",
+            "icon": "9423.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9424,
+            "name": "Перчатка Лича (Хлам)",
+            "icon": "9424.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9425,
+            "name": "Перчатка Лича (Обычный)",
+            "icon": "9425.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9426,
+            "name": "Перчатка Лича (Легендарный)",
+            "icon": "9426.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9427,
+            "name": "Сапоги лича L (Хлам)",
+            "icon": "9427.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9428,
+            "name": "Сапоги лича L (Обычный)",
+            "icon": "9428.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9429,
+            "name": "Сапоги лича L (Легендарный)",
+            "icon": "9429.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9430,
+            "name": "Сапоги лича R (Хлам)",
+            "icon": "9430.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9431,
+            "name": "Сапоги лича R (Обычный)",
+            "icon": "9431.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9432,
+            "name": "Сапоги лича R (Легендарный)",
+            "icon": "9432.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9433,
+            "name": "Меч Лича (Хлам)",
+            "icon": "9433.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9434,
+            "name": "Меч Лича (Обычный)",
+            "icon": "9434.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9435,
+            "name": "Меч Лича (Легендарный)",
+            "icon": "9435.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9436,
+            "name": "Чемодан Лича (Хлам)",
+            "icon": "9436.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9437,
+            "name": "Чемодан Лича (Обычный)",
+            "icon": "9437.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9438,
+            "name": "Чемодан Лича (Легендарный)",
+            "icon": "9438.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9439,
+            "name": "Нимб Лича (Хлам)",
+            "icon": "12538.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9440,
+            "name": "Нимб Лича (Обычный)",
+            "icon": "9440.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9441,
+            "name": "Нимб Лича (Легендарный)",
+            "icon": "9441.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9442,
+            "name": "Наплечник Лича (Хлам)",
+            "icon": "12542.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9443,
+            "name": "Наплечник Лича (Обычный)",
+            "icon": "12545.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9444,
+            "name": "Наплечник Лича (Легендарный)",
+            "icon": "12546.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9445,
+            "name": "Бронежилет Лича (Хлам)",
+            "icon": "12547.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9446,
+            "name": "Бронежилет Лича (Обычный)",
+            "icon": "12548.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9447,
+            "name": "Бронежилет Лича (Легендарный)",
+            "icon": "9447.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9448,
+            "name": "Шлем Лича (Хлам)",
+            "icon": "9448.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9449,
+            "name": "Шлем Лича (Обычный)",
+            "icon": "9449.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9450,
+            "name": "Шлем Лича (Легендарный)",
+            "icon": "9450.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0,
+            "effect": "berserk"
+        }, {
+            "id": 9451,
+            "name": "Бронежилет Ведьмы (Хлам)",
+            "icon": "9451.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9452,
+            "name": "Бронежилет Ведьмы (Обычный)",
+            "icon": "9452.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9453,
+            "name": "Бронежилет Ведьмы (Легендарный)",
+            "icon": "9453.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9454,
+            "name": "Метла ведьмы (Хлам)",
+            "icon": "9454.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9455,
+            "name": "Метла ведьмы (Обычный)",
+            "icon": "9455.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9456,
+            "name": "Метла ведьмы (Легендарный)",
+            "icon": "9456.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9457,
+            "name": "Чемодан Ведьмы (Хлам)",
+            "icon": "9457.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9458,
+            "name": "Чемодан Ведьмы (Обычный)",
+            "icon": "9458.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9459,
+            "name": "Чемодан Ведьмы (Легендарный)",
+            "icon": "9459.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9460,
+            "name": "Котелок Ведьмы (Хлам)",
+            "icon": "9460.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9461,
+            "name": "Котелок Ведьмы (Обычный)",
+            "icon": "9461.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9462,
+            "name": "Котелок Ведьмы (Легендарный)",
+            "icon": "9462.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9463,
+            "name": "Летающий кот у плеча (Хлам)",
+            "icon": "9463.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9464,
+            "name": "Летающий кот у плеча (Обычный)",
+            "icon": "9464.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9465,
+            "name": "Летающий кот у плеча (Легендарный)",
+            "icon": "9465.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9466,
+            "name": "Палка Сейлор Мун (Хлам)",
+            "icon": "9466.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9467,
+            "name": "Палка Сейлор Мун (Обычный)",
+            "icon": "9467.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9468,
+            "name": "Палка Сейлор Мун (Легендарный)",
+            "icon": "9468.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9469,
+            "name": "Ботинки ведьмы L (Хлам)",
+            "icon": "9469.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9470,
+            "name": "Ботинки ведьмы L (Обычный)",
+            "icon": "9470.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9471,
+            "name": "Ботинки ведьмы L (Легендарный)",
+            "icon": "9471.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9472,
+            "name": "Ботинки ведьмы R (Хлам)",
+            "icon": "9472.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9473,
+            "name": "Ботинки ведьмы R (Обычный)",
+            "icon": "9473.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9474,
+            "name": "Ботинки ведьмы R (Легендарный)",
+            "icon": "9474.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9475,
+            "name": "Шляпа ведьмы (Хлам)",
+            "icon": "9475.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9476,
+            "name": "Шляпа ведьмы (Обычный)",
+            "icon": "9476.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9477,
+            "name": "Шляпа ведьмы (Легендарный)",
+            "icon": "12536.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9478,
+            "name": "Нимб ведьмы (Хлам)",
+            "icon": "12537.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9479,
+            "name": "Нимб ведьмы (Обычный)",
+            "icon": "9479.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9480,
+            "name": "Нимб ведьмы (Легендарный)",
+            "icon": "9480.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9481,
+            "name": "Ожерелье ведьмы (Хлам)",
+            "icon": "12539.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9482,
+            "name": "Ожерелье ведьмы (Обычный)",
+            "icon": "12540.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9483,
+            "name": "Ожерелье ведьмы (Легендарный)",
+            "icon": "12541.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0,
+            "effect": "druid"
+        }, {
+            "id": 9484,
+            "name": "Запечатанный: Сердце Лича",
+            "icon": "9484.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9485,
+            "name": "Запечатанный: Кинжал Лича",
+            "icon": "9485.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9486,
+            "name": "Запечатанный: Перчатка Лича",
+            "icon": "9486.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9487,
+            "name": "Запечатанный: Сапоги лича(ЛегендарныйSealed )",
+            "icon": "9487.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9488,
+            "name": "Запечатанный: Сапоги лича(ЛегендарныйSealed )",
+            "icon": "9488.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9489,
+            "name": "Запечатанный: Меч Лича",
+            "icon": "9489.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9490,
+            "name": "Запечатанный: Чемодан Лича",
+            "icon": "9490.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9491,
+            "name": "Запечатанный: Нимб Лича",
+            "icon": "9491.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9492,
+            "name": "Запечатанный: Наплечник Лича",
+            "icon": "9492.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9493,
+            "name": "Запечатанный: Бронежилет Лича",
+            "icon": "9493.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9494,
+            "name": "Запечатанный: Шлем Лича",
+            "icon": "9494.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9495,
+            "name": "Запечатанный: Бронежилет Ведьмы",
+            "icon": "9495.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9496,
+            "name": "Запечатанный: Метла ведьмы",
+            "icon": "9496.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9497,
+            "name": "Запечатанный: Чемодан Ведьмы",
+            "icon": "9497.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9498,
+            "name": "Запечатанный: Котелок Ведьмы",
+            "icon": "9498.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9499,
+            "name": "Запечатанный: Летающий коплеча (Sealed Легендарный)",
+            "icon": "9499.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9500,
+            "name": "Запечатанный: Палка Сейло(ЛегендарныйSealed )",
+            "icon": "9500.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9501,
+            "name": "Запечатанный: Ботинки ведьм(ЛегендарныйSealed )",
+            "icon": "9501.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9502,
+            "name": "Запечатанный: Ботинки ведьм(ЛегендарныйSealed )",
+            "icon": "9502.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9503,
+            "name": "Запечатанный: Шляпа ведьмы",
+            "icon": "9503.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9504,
+            "name": "Запечатанный: Нимб Ведьмы",
+            "icon": "9504.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9505,
+            "name": "Запечатанный: Ожерелье Ведьмы",
+            "icon": "9505.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9506,
+            "name": "Сертификат охранника Петух Ван Хелсинга",
+            "icon": "9506.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9507,
+            "name": "Сертификат охранника Монстр Франкенштейна",
+            "icon": "9507.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9508,
+            "name": "Осколок охранника Монстр Франкенштейна",
+            "icon": "9508.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9509,
+            "name": "Осколок сертификата Такси Франкенштейна",
+            "icon": "9509.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9510,
+            "name": "Осколок Диски (Череп)",
+            "icon": "9510.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9511,
+            "name": "Кейс Дня Мертвых",
+            "icon": "9511.webp",
+            "acs_slot": -1,
+            "type": 74,
+            "active": 0
+        }, {
+            "id": 9512,
+            "name": "Кейс Страха и пламени",
+            "icon": "9512.webp",
+            "acs_slot": -1,
+            "type": 74,
+            "active": 0
+        }, {
+            "id": 9513,
+            "name": "Монета мертвых (2025)",
+            "icon": "9513.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9514,
+            "name": "Тайник Ведьмы",
+            "icon": "9514.webp",
+            "acs_slot": -1,
+            "type": 0,
+            "active": 0
+        }, {
+            "id": 9515,
+            "name": "Тайник Лича",
+            "icon": "9515.webp",
+            "acs_slot": -1,
+            "type": 0,
+            "active": 0
+        }, {
+            "id": 9516,
+            "name": "Осколок Тайника Ведьмы",
+            "icon": "9516.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9517,
+            "name": "Осколок Тайника Лича",
+            "icon": "9517.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9518,
+            "name": "Осколок обуви лича",
+            "icon": "9518.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9519,
+            "name": "Осколок обуви ведьмы",
+            "icon": "9519.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9520,
+            "name": "Осколок кинжала лича",
+            "icon": "9520.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9521,
+            "name": "Осколок палки сейло",
+            "icon": "9521.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9522,
+            "name": "Скин: Призрак (ID: 1067)",
+            "icon": "9522.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9523,
+            "name": "Скин: Воинственная нежить (босс) (ID: 1068)",
+            "icon": "9523.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9524,
+            "name": "Скин: Франкенштейн (босс) (ID: 1069)",
+            "icon": "9524.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9525,
+            "name": "Скин: Зомби 1 (ID: 1070)",
+            "icon": "9525.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9526,
+            "name": "Скин: Зомби 2 (ID: 1071)",
+            "icon": "9526.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9527,
+            "name": "Скин: Зомби 3 (ID: 1072)",
+            "icon": "9527.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9528,
+            "name": "Запечатанный: Сапоги Лича",
+            "icon": "9528.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9529,
+            "name": "Запечатанный: Ботинки Ведьмы",
+            "icon": "9529.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9530,
+            "name": "Осколок Сабрина ведьмочка",
+            "icon": "9530.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9531,
+            "name": "Осколок Королевская нежить",
+            "icon": "9531.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
         }];; // CONCATENATED MODULE: ./src/store/inventory.js
 
 
@@ -125385,6 +126521,29 @@
             }, quality_typeof(o);
         }
 
+        function ownKeys(e, r) {
+            var t = Object.keys(e);
+            if (Object.getOwnPropertySymbols) {
+                var o = Object.getOwnPropertySymbols(e);
+                r && (o = o.filter(function(r) {
+                    return Object.getOwnPropertyDescriptor(e, r).enumerable;
+                })), t.push.apply(t, o);
+            }
+            return t;
+        }
+
+        function _objectSpread(e) {
+            for (var r = 1; r < arguments.length; r++) {
+                var t = null != arguments[r] ? arguments[r] : {};
+                r % 2 ? ownKeys(Object(t), !0).forEach(function(r) {
+                    quality_defineProperty(e, r, t[r]);
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function(r) {
+                    Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
+                });
+            }
+            return e;
+        }
+
         function quality_defineProperty(e, r, t) {
             return (r = quality_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
                 value: t,
@@ -125414,8 +126573,6 @@
 
 
 
-
-        var qualityApiData = store_writable({});
         var QualityEntities = {
             VehicleQuality: 'vehicleQuality',
             AccessoryQuality: 'accessoryQuality',
@@ -125423,21 +126580,59 @@
             AccessoryQualityBonuses: 'accessoryQualityBonuses'
         };
         var MAP_QUALITY_TO_API_KEYS = quality_defineProperty(quality_defineProperty(quality_defineProperty(quality_defineProperty({}, QualityEntities.VehicleQuality, 'vehicle_quality_types'), QualityEntities.AccessoryQuality, 'accessory_quality_types'), QualityEntities.VehicleQualityBonuses, 'vehicle_quality_bonuses'), QualityEntities.AccessoryQualityBonuses, 'accessory_quality_bonuses');
-        var getQualityData = function getQualityData() {
-            var temp = {};
+        var retryCounts = quality_defineProperty(quality_defineProperty(quality_defineProperty(quality_defineProperty({}, QualityEntities.VehicleQuality, 0), QualityEntities.AccessoryQuality, 0), QualityEntities.VehicleQualityBonuses, 0), QualityEntities.AccessoryQualityBonuses, 0);
+        var timerIds = {};
+        var qualityApiData = store_writable({});
+        var loadingStates = store_writable(quality_defineProperty(quality_defineProperty(quality_defineProperty(quality_defineProperty({}, QualityEntities.VehicleQuality, false), QualityEntities.AccessoryQuality, false), QualityEntities.VehicleQualityBonuses, false), QualityEntities.AccessoryQualityBonuses, false));
+        var getAllQualityData = function getAllQualityData() {
             Object.values(QualityEntities).forEach(function(item) {
-                lib_axios.get("".concat(SERVER_API_URL, "/client/json/table/get?project=").concat(SERVER_API_PROJECT, "&server=").concat(get_store_value(serverApiServerId), "&key=").concat(MAP_QUALITY_TO_API_KEYS[item]), {
-                    headers: {
-                        Authorization: "Bearer ".concat(get_store_value(serverApiToken))
-                    }
-                }).then(function(response) {
-                    temp[item] = response.data;
-                    qualityApiData.set(temp);
-                })["catch"](function(error) {
-                    console.log("error from getQualityData ".concat(entity), JSON.stringify(error));
-                });
+                _getQualityDataByType(item);
             });
-        };; // CONCATENATED MODULE: ./src/shared/action-button/keycap/index.svelte
+        };
+        var _getQualityDataByType = function getQualityDataByType(type) {
+            var currentLoadingStates = get_store_value(loadingStates);
+            if (currentLoadingStates[type]) {
+                return;
+            }
+            var temp = get_store_value(qualityApiData);
+            loadingStates.update(function(states) {
+                return _objectSpread(_objectSpread({}, states), {}, quality_defineProperty({}, type, true));
+            });
+            lib_axios.get("".concat(SERVER_API_URL, "/client/json/table/get?project=").concat(SERVER_API_PROJECT, "&server=").concat(get_store_value(serverApiServerId), "&key=").concat(MAP_QUALITY_TO_API_KEYS[type]), {
+                headers: {
+                    Authorization: "Bearer ".concat(get_store_value(serverApiToken))
+                }
+            }).then(function(response) {
+                temp[type] = response.data;
+                qualityApiData.set(temp);
+                loadingStates.update(function(states) {
+                    return _objectSpread(_objectSpread({}, states), {}, quality_defineProperty({}, type, false));
+                });
+                retryCounts[type] = 0;
+            })["catch"](function(error) {
+                if (retryCounts[type] < 3) {
+                    timerIds[type] = setTimeout(function() {
+                        loadingStates.update(function(states) {
+                            return _objectSpread(_objectSpread({}, states), {}, quality_defineProperty({}, type, false));
+                        });
+                        _getQualityDataByType(type);
+                    }, 1500);
+                    retryCounts[type] += 1;
+                } else {
+                    retryCounts[type] = 0;
+                    loadingStates.update(function(states) {
+                        return _objectSpread(_objectSpread({}, states), {}, quality_defineProperty({}, type, false));
+                    });
+                    console.log("error from getQualityDataByType ".concat(MAP_QUALITY_TO_API_KEYS[type]), JSON.stringify(error));
+                    if (timerIds[type]) {
+                        clearTimeout(timerIds[type]);
+                        timerIds[type] = null;
+                    }
+                }
+            });
+        };
+
+        ; // CONCATENATED MODULE: ./src/shared/action-button/keycap/index.svelte
         /* src\shared\action-button\keycap\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -127172,6 +128367,7 @@
             }]
         };
         var VEHICLES_MOCK = [{
+            id: 0,
             title: 'mercedes-benz e63 w123123123 123',
             sysName: -1,
             status: 'loaded',
@@ -127190,6 +128386,7 @@
                 icon: 'icon-id'
             }]
         }, {
+            id: 1,
             title: 'ШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШШ',
             sysName: e63w_namespaceObject,
             status: 'loaded',
@@ -127208,6 +128405,7 @@
                 icon: 'icon-id'
             }]
         }, {
+            id: 2,
             title: 'mercedes-benz e63 w211',
             sysName: -1,
             status: 'notLoaded',
@@ -127226,6 +128424,7 @@
                 icon: 'icon-id'
             }]
         }, {
+            id: 3,
             title: 'mercedes-benz e63 w244',
             sysName: e63w_namespaceObject,
             status: 'notLoaded',
@@ -127244,6 +128443,7 @@
                 icon: 'icon-id'
             }]
         }, {
+            id: 4,
             title: 'mercedes-benz e63 w2553',
             sysName: -1,
             status: 'loaded',
@@ -128583,7 +129783,9 @@
 
 
 
-        function vehicle_menu_index_svelte_create_if_block_3(ctx) {
+
+
+        function index_svelte_create_if_block_4(ctx) {
             let i;
             let mounted;
             let dispose;
@@ -128597,7 +129799,7 @@
                     dom_insert(target, i, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(i, "click", /*back*/ ctx[5]);
+                        dispose = dom_listen(i, "click", /*back*/ ctx[7]);
                         mounted = true;
                     }
                 },
@@ -128613,8 +129815,8 @@
             };
         }
 
-        // (142:4) {#if currentStage === VehicleInformationStage.List}
-        function vehicle_menu_index_svelte_create_if_block_2(ctx) {
+        // (171:4) {#if currentStage === VehicleInformationStage.List}
+        function vehicle_menu_index_svelte_create_if_block_3(ctx) {
             let div;
             let t0;
             let span;
@@ -128653,7 +129855,7 @@
             };
         }
 
-        // (168:2) {:else}
+        // (208:8) {:else}
         function index_svelte_create_else_block_1(ctx) {
             let information;
             let current;
@@ -128683,21 +129885,25 @@
             };
         }
 
-        // (160:2) {#if currentStage === VehicleInformationStage.List}
+        // (193:4) {#if currentStage === VehicleInformationStage.List}
         function vehicle_menu_index_svelte_create_if_block(ctx) {
             let show_if;
+            let show_if_1;
             let current_block_type_index;
             let if_block;
             let if_block_anchor;
             let current;
-            const if_block_creators = [vehicle_menu_index_svelte_create_if_block_1, vehicle_menu_index_svelte_create_else_block];
+            const if_block_creators = [vehicle_menu_index_svelte_create_if_block_1, vehicle_menu_index_svelte_create_if_block_2, vehicle_menu_index_svelte_create_else_block];
             const if_blocks = [];
 
             function select_block_type_1(ctx, dirty) {
-                if (dirty & /*vehicleList*/ 8) show_if = null;
-                if (show_if == null) show_if = !!(0, lodash.isEmpty)( /*vehicleList*/ ctx[3]);
+                if (dirty & /*vehicleList, $loadingStates*/ 40) show_if = null;
+                if (dirty & /*vehicleList, $qualityApiData*/ 24) show_if_1 = null;
+                if (show_if == null) show_if = !!((0, lodash.isEmpty)( /*vehicleList*/ ctx[3]) || /*$loadingStates*/ ctx[5].vehicleQuality);
                 if (show_if) return 0;
-                return 1;
+                if (show_if_1 == null) show_if_1 = !!(!(0, lodash.isEmpty)( /*vehicleList*/ ctx[3]) && (0, lodash.isNil)( /*$qualityApiData*/ ctx[4].vehicleQuality));
+                if (show_if_1) return 1;
+                return 2;
             }
 
             current_block_type_index = select_block_type_1(ctx, -1);
@@ -128759,7 +129965,7 @@
             };
         }
 
-        // (165:3) {:else}
+        // (205:4) {:else}
         function vehicle_menu_index_svelte_create_else_block(ctx) {
             let vehiclelist;
             let current;
@@ -128767,7 +129973,7 @@
             vehiclelist = new list_index_svelte({
                 props: {
                     vehicleList: /*vehicleList*/ ctx[3],
-                    onSelect: /*selectVehicle*/ ctx[7]
+                    onSelect: /*selectVehicle*/ ctx[9]
                 }
             });
 
@@ -128799,7 +130005,53 @@
             };
         }
 
-        // (161:3) {#if isEmpty(vehicleList)}
+        // (198:77) 
+        function vehicle_menu_index_svelte_create_if_block_2(ctx) {
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let mounted;
+            let dispose;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "Ошибка загрузки данных. Попробуйте позже или проверьте интернет-соединение.";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    div1.textContent = "Повторить";
+                    dom_attr(div0, "class", "vehicle-menu__api-problem-message");
+                    dom_attr(div1, "class", "vehicle-menu__api-problem-button");
+                    dom_attr(div2, "class", "vehicle-menu__api-problem");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div1, "click", /*reloadAPIdata*/ ctx[10]);
+                        mounted = true;
+                    }
+                },
+                p: utils_noop,
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        // (194:4) {#if isEmpty(vehicleList) || $loadingStates.vehicleQuality}
         function vehicle_menu_index_svelte_create_if_block_1(ctx) {
             let div;
             let loader;
@@ -128864,14 +130116,14 @@
             let current;
             let mounted;
             let dispose;
-            let if_block0 = /*currentStage*/ ctx[2] === VehicleInformationStage.Information && vehicle_menu_index_svelte_create_if_block_3(ctx);
-            let if_block1 = /*currentStage*/ ctx[2] === VehicleInformationStage.List && vehicle_menu_index_svelte_create_if_block_2(ctx);
+            let if_block0 = /*currentStage*/ ctx[2] === VehicleInformationStage.Information && index_svelte_create_if_block_4(ctx);
+            let if_block1 = /*currentStage*/ ctx[2] === VehicleInformationStage.List && vehicle_menu_index_svelte_create_if_block_3(ctx);
 
             actionbutton = new shared_action_button_index_svelte({
                 props: {
                     keycapText: 'Esc',
                     code: "escape",
-                    onPressed: /*close*/ ctx[4]
+                    onPressed: /*close*/ ctx[6]
                 }
             });
 
@@ -128915,6 +130167,7 @@
                     dom_attr(div1, "class", "vehicle-menu__main-title-wrapper");
                     dom_attr(div2, "class", "vehicle-menu__main");
                     dom_attr(div4, "class", "vehicle-menu__rating");
+                    dom_toggle_class(div4, "vehicle-menu__rating--disabled", (0, lodash.isNil)( /*$qualityApiData*/ ctx[4].vehicleQuality));
                     dom_attr(div5, "class", "vehicle-menu__exit");
                     dom_attr(div6, "class", "vehicle-menu__header-controls");
                     dom_attr(div7, "class", "vehicle-menu__header");
@@ -128946,7 +130199,7 @@
                     current = true;
 
                     if (!mounted) {
-                        dispose = dom_listen(div4, "click", /*openRating*/ ctx[6]);
+                        dispose = dom_listen(div4, "click", /*openRating*/ ctx[8]);
                         mounted = true;
                     }
                 },
@@ -128955,7 +130208,7 @@
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = vehicle_menu_index_svelte_create_if_block_3(ctx);
+                            if_block0 = index_svelte_create_if_block_4(ctx);
                             if_block0.c();
                             if_block0.m(div2, t0);
                         }
@@ -128968,13 +130221,17 @@
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = vehicle_menu_index_svelte_create_if_block_2(ctx);
+                            if_block1 = vehicle_menu_index_svelte_create_if_block_3(ctx);
                             if_block1.c();
                             if_block1.m(div1, null);
                         }
                     } else if (if_block1) {
                         if_block1.d(1);
                         if_block1 = null;
+                    }
+
+                    if (!current || dirty & /*$qualityApiData*/ 16) {
+                        dom_toggle_class(div4, "vehicle-menu__rating--disabled", (0, lodash.isNil)( /*$qualityApiData*/ ctx[4].vehicleQuality));
                     }
 
                     let previous_block_index = current_block_type_index;
@@ -129035,7 +130292,9 @@
 
         function vehicle_menu_index_svelte_instance($$self, $$props, $$invalidate) {
             let $qualityApiData;
-            utils_component_subscribe($$self, qualityApiData, $$value => $$invalidate(8, $qualityApiData = $$value));
+            let $loadingStates;
+            utils_component_subscribe($$self, qualityApiData, $$value => $$invalidate(4, $qualityApiData = $$value));
+            utils_component_subscribe($$self, loadingStates, $$value => $$invalidate(5, $loadingStates = $$value));
             let {
                 slotsUsed = 0
             } = $$props;
@@ -129104,7 +130363,11 @@
                 const temp = vehicleItemDto;
                 temp.loaded = vehicleItemDto.status !== VehicleStatus.NotLoaded;
                 temp.index = vehicleList.length;
-                temp.quality = $qualityApiData.vehicleQuality.find(findItem => findItem.id === temp.rarity);
+
+                if (!(0, lodash.isNil)($qualityApiData.vehicleQuality)) {
+                    temp.quality = $qualityApiData.vehicleQuality.find(findItem => findItem.id === temp.rarity);
+                }
+
                 const existingItemIndex = vehicleList.findIndex(findItem => findItem.id === temp.id);
 
                 if (existingItemIndex >= 0) {
@@ -129145,8 +130408,18 @@
                 sortItems();
             };
 
+            const reloadAPIdata = () => {
+                _getQualityDataByType(QualityEntities.VehicleQuality);
+            };
+
             // init mocks
             // initializeVehicleList(VEHICLES_MOCK);
+            // setTimeout(() => {
+            //    pushVehicleItem(VEHICLES_MOCK[0]);
+            //    pushVehicleItem(VEHICLES_MOCK[1]);
+            //    pushVehicleItem(VEHICLES_MOCK[2]);
+            //    pushVehicleItem(VEHICLES_MOCK[3]);
+            // }, 1000);
             const unregisterInitializeVehicleList = registerEvent('event.vehicleMenu.initializeVehicleList', initializeVehicleList);
 
             const unregisterPushVehicleItem = registerEvent('event.vehicleMenu.pushVehicleItem', pushVehicleItem);
@@ -129174,15 +130447,33 @@
                 if ('currentStage' in $$props) $$invalidate(2, currentStage = $$props.currentStage);
             };
 
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*vehicleList, $qualityApiData*/ 24) {
+                    $: {
+                        if (!(0, lodash.isEmpty)(vehicleList) && !(0, lodash.isNil)($qualityApiData.vehicleQuality)) {
+                            $$invalidate(3, vehicleList = vehicleList.map(item => {
+                                return {
+                                    ...item,
+                                    quality: $qualityApiData.vehicleQuality.find(findItem => findItem.id === item.rarity)
+                                };
+                            }));
+                        }
+                    }
+                }
+            };
+
             return [
                 slotsUsed,
                 maxSlots,
                 currentStage,
                 vehicleList,
+                $qualityApiData,
+                $loadingStates,
                 close,
                 back,
                 openRating,
-                selectVehicle
+                selectVehicle,
+                reloadAPIdata
             ];
         }
 
@@ -132492,7 +133783,7 @@
                 each_blocks_1[i] = menu_index_svelte_create_each_block_1(menu_index_svelte_get_each_context_1(ctx, each_value_1, i));
             }
 
-            let if_block0 = show_if_1 && index_svelte_create_if_block_4(ctx);
+            let if_block0 = show_if_1 && menu_index_svelte_create_if_block_4(ctx);
             let each_value = each_ensure_array_like([... /*gameInformation*/ ctx[0].lobbyPlayers || [], ...new Array(3).fill(null)].slice(0, 3));
             let each_blocks = [];
 
@@ -132653,7 +133944,7 @@
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = index_svelte_create_if_block_4(ctx);
+                            if_block0 = menu_index_svelte_create_if_block_4(ctx);
                             if_block0.c();
                             if_block0.m(div3, t9);
                         }
@@ -132781,7 +134072,7 @@
         }
 
         // (91:12) {#if !isEmpty(gameInformation.invite)}
-        function index_svelte_create_if_block_4(ctx) {
+        function menu_index_svelte_create_if_block_4(ctx) {
             let div5;
             let div1;
             let div0;
@@ -136436,7 +137727,7 @@
             }, store_typeof(o);
         }
 
-        function ownKeys(e, r) {
+        function store_ownKeys(e, r) {
             var t = Object.keys(e);
             if (Object.getOwnPropertySymbols) {
                 var o = Object.getOwnPropertySymbols(e);
@@ -136447,12 +137738,12 @@
             return t;
         }
 
-        function _objectSpread(e) {
+        function store_objectSpread(e) {
             for (var r = 1; r < arguments.length; r++) {
                 var t = null != arguments[r] ? arguments[r] : {};
-                r % 2 ? ownKeys(Object(t), !0).forEach(function(r) {
+                r % 2 ? store_ownKeys(Object(t), !0).forEach(function(r) {
                     store_defineProperty(e, r, t[r]);
-                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : ownKeys(Object(t)).forEach(function(r) {
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : store_ownKeys(Object(t)).forEach(function(r) {
                     Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
                 });
             }
@@ -136502,14 +137793,14 @@
         };
         var commitChanges = function commitChanges(inventoryName, changesDto) {
             var cache = get_store_value(inventories);
-            cache[inventoryName] = _objectSpread(_objectSpread({}, cache[inventoryName]), changesDto);
+            cache[inventoryName] = store_objectSpread(store_objectSpread({}, cache[inventoryName]), changesDto);
             inventories.set(cache);
         };
         var disableInventorySlots = function disableInventorySlots(inventory) {
             var disabledSlotsDto = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : '[]';
             var disabledSlots = disabledSlotsDto;
             var currentState = get_store_value(disabledInventoriesSlots);
-            disabledInventoriesSlots.set(_objectSpread(_objectSpread({}, currentState), {}, store_defineProperty({}, inventory, disabledSlots)));
+            disabledInventoriesSlots.set(store_objectSpread(store_objectSpread({}, currentState), {}, store_defineProperty({}, inventory, disabledSlots)));
         };
         registerEvent('event.pubg.setInventory', setInventory);
         registerEvent('event.pubg.commitChanges', commitChanges);
@@ -139364,7 +140655,7 @@
         const _1111_namespaceObject = __webpack_require__.p + "assets/2b69c9a036bbc466f9bb.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1112.png
         const _1112_namespaceObject = __webpack_require__.p + "assets/9c22f648b4e16543c6e2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/zombie_apocalypse.png
         const zombie_apocalypse_namespaceObject = __webpack_require__.p + "assets/6c8407e7fb0fc0db3185.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/halloween_2025.png
-        const halloween_2025_namespaceObject = __webpack_require__.p + "assets/861439928e690ab048a4.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_1.gif
+        const halloween_2025_namespaceObject = __webpack_require__.p + "assets/c48bb58aa30d6b8b86d2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_1.gif
         const gif_logo_custom_1_namespaceObject = __webpack_require__.p + "assets/0a737a74bcf743b77406.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_2.gif
         const gif_logo_custom_2_namespaceObject = __webpack_require__.p + "assets/b670b187f67ea1606de6.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_3.gif
         const gif_logo_custom_3_namespaceObject = __webpack_require__.p + "assets/d8737f41053986170e6a.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_4.gif
@@ -140049,7 +141340,9 @@
         const grenade_stun_namespaceObject = __webpack_require__.p + "assets/e531b4d71bbcce13ee9a.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/grenade_flash.png
         const grenade_flash_namespaceObject = __webpack_require__.p + "assets/ec6e64be3bc041239a9d.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/berserk-dagger.png
         const berserk_dagger_namespaceObject = __webpack_require__.p + "assets/714c89fff0018262d15c.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/druid-staff.png
-        const druid_staff_namespaceObject = __webpack_require__.p + "assets/bfd3909662b7894928ec.webp";; // CONCATENATED MODULE: ./src/constants/weapons.js
+        const druid_staff_namespaceObject = __webpack_require__.p + "assets/bfd3909662b7894928ec.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/lich-dagger.png
+        const lich_dagger_namespaceObject = __webpack_require__.p + "assets/1c643c3c3ad3754c1987.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/witch-stick.png
+        const witch_stick_namespaceObject = __webpack_require__.p + "assets/c38aa5b136cb93778b1d.webp";; // CONCATENATED MODULE: ./src/constants/weapons.js
         var _MAP_WEAPON_TO_ICON, _MAP_WEAPON_TO_AMMO_D;
 
         function weapons_typeof(o) {
@@ -140169,11 +141462,15 @@
 
 
 
+
+
         var INVISIBLE_KNIVES = {
             berserkDagger: 1,
-            druidStaff: 2
+            druidStaff: 2,
+            lichDagger: 3,
+            witchStick: 4
         };
-        var MAP_INVISIBLE_KNIFE_TO_ICON = weapons_defineProperty(weapons_defineProperty({}, INVISIBLE_KNIVES.berserkDagger, berserk_dagger_namespaceObject), INVISIBLE_KNIVES.druidStaff, druid_staff_namespaceObject);
+        var MAP_INVISIBLE_KNIFE_TO_ICON = weapons_defineProperty(weapons_defineProperty(weapons_defineProperty(weapons_defineProperty({}, INVISIBLE_KNIVES.berserkDagger, berserk_dagger_namespaceObject), INVISIBLE_KNIVES.druidStaff, druid_staff_namespaceObject), INVISIBLE_KNIVES.lichDagger, lich_dagger_namespaceObject), INVISIBLE_KNIVES.witchStick, witch_stick_namespaceObject);
         var WEAPONS = {
             fist: 0,
             brassknuckle: 1,
@@ -141811,6 +143108,11 @@
             Job: 'job',
             Rating: 'rating'
         };
+        var RewardsType = {
+            Common: 'common',
+            Premium: 'premium'
+        };
+        var MAP_REWARD_TYPE_TO_ENTITY = arizona_pass_constants_defineProperty(arizona_pass_constants_defineProperty({}, RewardsType.Common, 'battlepass_awards_default'), RewardsType.Premium, 'battlepass_awards_gold');
         var constants_MenuIds = {
             Main: 'main',
             Tasks: 'tasks',
@@ -141838,7 +143140,7 @@
             }, arizona_pass_store_typeof(o);
         }
 
-        function store_ownKeys(e, r) {
+        function arizona_pass_store_ownKeys(e, r) {
             var t = Object.keys(e);
             if (Object.getOwnPropertySymbols) {
                 var o = Object.getOwnPropertySymbols(e);
@@ -141849,12 +143151,12 @@
             return t;
         }
 
-        function store_objectSpread(e) {
+        function arizona_pass_store_objectSpread(e) {
             for (var r = 1; r < arguments.length; r++) {
                 var t = null != arguments[r] ? arguments[r] : {};
-                r % 2 ? store_ownKeys(Object(t), !0).forEach(function(r) {
+                r % 2 ? arizona_pass_store_ownKeys(Object(t), !0).forEach(function(r) {
                     arizona_pass_store_defineProperty(e, r, t[r]);
-                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : store_ownKeys(Object(t)).forEach(function(r) {
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : arizona_pass_store_ownKeys(Object(t)).forEach(function(r) {
                     Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
                 });
             }
@@ -141945,7 +143247,7 @@
         };
         registerEvent('event.battlePass.updateQuestsProgress', updateQuestsProgress);
         var inititalizeBattlePassData = function inititalizeBattlePassData(battlePassDto) {
-            return store_battlePassData.set(store_objectSpread(store_objectSpread({}, get_store_value(store_battlePassData)), battlePassDto));
+            return store_battlePassData.set(arizona_pass_store_objectSpread(arizona_pass_store_objectSpread({}, get_store_value(store_battlePassData)), battlePassDto));
         };
         registerEvent('event.battlePass.initializeBattlePassData', inititalizeBattlePassData);
         var inititalizeBattlePassShop = function inititalizeBattlePassShop(battlePassShopDto) {
@@ -141971,7 +143273,7 @@
                 rouletteBoxes.set([].concat(arizona_pass_store_toConsumableArray(get_store_value(rouletteBoxes)), arizona_pass_store_toConsumableArray(rouletteBoxesDto)));
             } else {
                 rouletteBoxesDto.forEach(function(item) {
-                    cache[item.id] = store_objectSpread(store_objectSpread({}, cache[item.id]), item);
+                    cache[item.id] = arizona_pass_store_objectSpread(arizona_pass_store_objectSpread({}, cache[item.id]), item);
                 });
                 rouletteBoxes.set(cache);
             }
@@ -142457,6 +143759,7 @@
             Daily: 'daily',
             Premium: 'premium'
         };
+        var MAP_CATEGORY_TO_ENTITY = quests_constants_defineProperty(quests_constants_defineProperty({}, CATEGORIES.Daily, 'battlepass_mission_default'), CATEGORIES.Premium, 'battlepass_mission_premium');
         var MAP_CATEGORY_TO_NAME = quests_constants_defineProperty(quests_constants_defineProperty({}, CATEGORIES.Daily, 'Ежедневные задания'), CATEGORIES.Premium, '<b>Premium</b> задания');
         var QUESTS = quests_constants_defineProperty(quests_constants_defineProperty({}, CATEGORIES.Daily, [{
             "id": 0,
@@ -152379,158 +153682,7 @@
                 "item": 30074
             }]
         }]);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/star.svg
-        const star_namespaceObject = __webpack_require__.p + "assets/b1a966a7b3565492bb05.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/flashlight-image.svg
-        const flashlight_image_namespaceObject = __webpack_require__.p + "assets/6c4c4570b1b20b9dd075.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/premium-car.png
-        const premium_car_namespaceObject = __webpack_require__.p + "assets/d29362dddb2a74d1f8c6.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/promo/index.svelte
-        /* src\views\arizona-pass\components\promo\index.svelte generated by Svelte v4.2.8 */
-
-
-
-
-
-
-
-
-
-        function promo_index_svelte_create_if_block(ctx) {
-            let div;
-            let t0;
-            let b;
-            let t1;
-            let t2_value = ( /*$battlePassData*/ ctx[0].premium === 1 ? '+' : '') + "";
-            let t2;
-            let mounted;
-            let dispose;
-
-            return {
-                c() {
-                    div = element("div");
-                    t0 = text("Купить ");
-                    b = element("b");
-                    t1 = text("Premium ");
-                    t2 = text(t2_value);
-                    attr(div, "class", "battle-pass-promo__button");
-                },
-                m(target, anchor) {
-                    insert(target, div, anchor);
-                    append(div, t0);
-                    append(div, b);
-                    append(b, t1);
-                    append(b, t2);
-
-                    if (!mounted) {
-                        dispose = listen(div, "click", /*click_handler*/ ctx[2]);
-                        mounted = true;
-                    }
-                },
-                p(ctx, dirty) {
-                    if (dirty & /*$battlePassData*/ 1 && t2_value !== (t2_value = ( /*$battlePassData*/ ctx[0].premium === 1 ? '+' : '') + "")) set_data(t2, t2_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        detach(div);
-                    }
-
-                    mounted = false;
-                    dispose();
-                }
-            };
-        }
-
-        function promo_index_svelte_create_fragment(ctx) {
-            let div3;
-            let div2;
-            let div0;
-            let t1;
-            let div1;
-            let t4;
-            let img;
-            let img_src_value;
-            let t5;
-            let if_block = /*$battlePassData*/ ctx[0].premium < 2 && promo_index_svelte_create_if_block(ctx);
-
-            return {
-                c() {
-                    div3 = element("div");
-                    div2 = element("div");
-                    div0 = element("div");
-                    div0.textContent = "Lamborghini Huracan Off-Road";
-                    t1 = space();
-                    div1 = element("div");
-                    div1.innerHTML = `Доступно на 45 ур. с <span class="battle-pass-promo__premium">Premium</span>`;
-                    t4 = space();
-                    img = element("img");
-                    t5 = space();
-                    if (if_block) if_block.c();
-                    attr(div0, "class", "battle-pass-promo__title");
-                    attr(div1, "class", "battle-pass-promo__caption");
-                    if (!src_url_equal(img.src, img_src_value = premiumCar)) attr(img, "src", img_src_value);
-                    attr(img, "alt", "car");
-                    attr(img, "class", "battle-pass-promo__image");
-                    attr(div2, "class", "battle-pass-promo__content");
-                    attr(div3, "class", "battle-pass-promo");
-                },
-                m(target, anchor) {
-                    insert(target, div3, anchor);
-                    append(div3, div2);
-                    append(div2, div0);
-                    append(div2, t1);
-                    append(div2, div1);
-                    append(div2, t4);
-                    append(div2, img);
-                    append(div2, t5);
-                    if (if_block) if_block.m(div2, null);
-                },
-                p(ctx, [dirty]) {
-                    if ( /*$battlePassData*/ ctx[0].premium < 2) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
-                        } else {
-                            if_block = promo_index_svelte_create_if_block(ctx);
-                            if_block.c();
-                            if_block.m(div2, null);
-                        }
-                    } else if (if_block) {
-                        if_block.d(1);
-                        if_block = null;
-                    }
-                },
-                i: noop,
-                o: noop,
-                d(detaching) {
-                    if (detaching) {
-                        detach(div3);
-                    }
-
-                    if (if_block) if_block.d();
-                }
-            };
-        }
-
-        function promo_index_svelte_instance($$self, $$props, $$invalidate) {
-            let $currentPage;
-            let $battlePassData;
-            component_subscribe($$self, currentPage, $$value => $$invalidate(3, $currentPage = $$value));
-            component_subscribe($$self, battlePassData, $$value => $$invalidate(0, $battlePassData = $$value));
-
-            const purchasePremium = () => {
-                sendClientMessage('battlePass.promo.purchasePremium');
-                set_store_value(currentPage, $currentPage = MenuIds.PurchasePremium, $currentPage);
-            };
-
-            const click_handler = () => purchasePremium();
-            return [$battlePassData, purchasePremium, click_handler];
-        }
-
-        class Promo extends( /* unused pure expression or super */ null && (SvelteComponent)) {
-            constructor(options) {
-                super();
-                init(this, options, promo_index_svelte_instance, promo_index_svelte_create_fragment, safe_not_equal, {});
-            }
-        }
-
-        /* harmony default export */
-        const promo_index_svelte = (( /* unused pure expression or super */ null && (Promo)));; // CONCATENATED MODULE: ./src/views/arizona-pass/components/quests/index.svelte
+        const star_namespaceObject = __webpack_require__.p + "assets/b1a966a7b3565492bb05.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/quests/index.svelte
         /* src\views\arizona-pass\components\quests\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -152539,6 +153691,7 @@
 
 
 
+        // import { sendClientMessage } from 'src/utils/cef';
 
 
 
@@ -152553,6 +153706,10 @@
 
 
 
+
+
+        // import flashlightImage from '../../img/flashlight-image.svg';
+        // import Promo from '../promo/index.svelte';
 
 
 
@@ -152561,23 +153718,23 @@
 
         function quests_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
+            child_ctx[26] = list[i];
             return child_ctx;
         }
 
         function quests_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[26] = list[i];
+            child_ctx[29] = list[i];
             return child_ctx;
         }
 
         function index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[29] = list[i];
+            child_ctx[32] = list[i];
             return child_ctx;
         }
 
-        // (295:4) {:else}
+        // (325:4) {:else}
         function index_svelte_create_else_block_2(ctx) {
             let div;
             let loader;
@@ -152619,12 +153776,68 @@
             };
         }
 
-        // (139:4) {#if initializeComplete}
+        // (318:29) 
+        function index_svelte_create_if_block_6(ctx) {
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let premiumbutton;
+            let current;
+
+            premiumbutton = new premium_button_index_svelte({
+                props: {
+                    onClick: /*initializeApiData*/ ctx[10],
+                    text: 'Повторить'
+                }
+            });
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "Ошибка загрузки данных. Попробуйте позже или проверьте интернет-соединение.";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    create_component(premiumbutton.$$.fragment);
+                    dom_attr(div0, "class", "battle-pass-quests__api-problem-message");
+                    dom_attr(div1, "class", "battle-pass-quests__api-problem-button");
+                    dom_attr(div2, "class", "battle-pass-quests__api-problem");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    mount_component(premiumbutton, div1, null);
+                    current = true;
+                },
+                p: utils_noop,
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(premiumbutton.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(premiumbutton.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+
+                    destroy_component(premiumbutton);
+                }
+            };
+        }
+
+        // (162:4) {#if initializeComplete}
         function quests_index_svelte_create_if_block(ctx) {
             let div10;
             let div2;
             let div0;
-            let t0_value = /*$battlePassData*/ ctx[4].level + "";
+            let t0_value = /*$battlePassData*/ ctx[6].level + "";
             let t0;
             let t1;
             let div1;
@@ -152634,7 +153847,7 @@
             let div3;
             let t5;
             let div4;
-            let t6_value = `${/*$battlePassData*/ ctx[4].exp} / ${/*$battlePassData*/ ctx[4].maxExp}` + "";
+            let t6_value = `${/*$battlePassData*/ ctx[6].exp} / ${/*$battlePassData*/ ctx[6].maxExp}` + "";
             let t6;
             let t7;
             let img;
@@ -152656,7 +153869,7 @@
             let div13;
             let div12;
             let t15;
-            let show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[4]);
+            let show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[6]);
             let t16;
             let div18;
             let div16;
@@ -152727,7 +153940,7 @@
                 each_blocks[i] = quests_index_svelte_create_each_block(quests_index_svelte_get_each_context(ctx, each_value, i));
             }
 
-            let if_block2 = /*$battlePassData*/ ctx[4].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium && quests_index_svelte_create_if_block_1(ctx);
+            let if_block2 = /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium && quests_index_svelte_create_if_block_1(ctx);
 
             return {
                 c() {
@@ -152829,7 +154042,7 @@
                     dom_attr(div4, "class", "battle-pass-quests__level-counter-current");
                     dom_attr(div5, "class", "battle-pass-quests__level-counter-wrapper");
                     dom_attr(div6, "class", "battle-pass-quests__level-counter-progress-bar-current");
-                    set_style(div6, "--currentProgress", countPercents( /*$battlePassData*/ ctx[4].exp, /*$battlePassData*/ ctx[4].maxExp) + "%");
+                    set_style(div6, "--currentProgress", countPercents( /*$battlePassData*/ ctx[6].exp, /*$battlePassData*/ ctx[6].maxExp) + "%");
                     dom_attr(div7, "class", "battle-pass-quests__level-counter-progress-bar");
                     dom_attr(div8, "class", "battle-pass-quests__level-counter");
                     dom_attr(div9, "class", "battle-pass-quests__level-purchase-button");
@@ -152845,7 +154058,7 @@
                     dom_attr(div18, "class", "battle-pass-quests__quests-wrapper");
                     dom_attr(div19, "class", "battle-pass-quests__details-title");
                     dom_attr(div20, "class", "battle-pass-quests__details-description");
-                    dom_toggle_class(div20, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[4].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    dom_toggle_class(div20, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
                     dom_attr(div21, "class", "battle-pass-quests__details-progress-current");
                     dom_attr(div22, "class", "battle-pass-quests__details-progress-total");
                     dom_attr(div23, "class", "battle-pass-quests__details-progress-count");
@@ -152860,7 +154073,7 @@
                     dom_attr(div29, "class", "battle-pass-quests__rewards-caption");
                     dom_attr(div30, "class", "battle-pass-quests__details-rewards");
                     dom_attr(div31, "class", "battle-pass-quests__details-wrapper");
-                    dom_toggle_class(div31, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[4].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    dom_toggle_class(div31, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
                     dom_attr(div32, "class", "battle-pass-quests__details");
                     dom_toggle_class(div32, "battle-pass-quests__details--premium", /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
                     dom_attr(div33, "class", "battle-pass-quests__main-wrapper");
@@ -152960,19 +154173,19 @@
                     current = true;
 
                     if (!mounted) {
-                        dispose = dom_listen(div9, "click", /*click_handler*/ ctx[10]);
+                        dispose = dom_listen(div9, "click", /*click_handler*/ ctx[12]);
                         mounted = true;
                     }
                 },
                 p(ctx, dirty) {
-                    if ((!current || dirty[0] & /*$battlePassData*/ 16) && t0_value !== (t0_value = /*$battlePassData*/ ctx[4].level + "")) dom_set_data(t0, t0_value);
-                    if ((!current || dirty[0] & /*$battlePassData*/ 16) && t6_value !== (t6_value = `${/*$battlePassData*/ ctx[4].exp} / ${/*$battlePassData*/ ctx[4].maxExp}` + "")) dom_set_data(t6, t6_value);
+                    if ((!current || dirty[0] & /*$battlePassData*/ 64) && t0_value !== (t0_value = /*$battlePassData*/ ctx[6].level + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty[0] & /*$battlePassData*/ 64) && t6_value !== (t6_value = `${/*$battlePassData*/ ctx[6].exp} / ${/*$battlePassData*/ ctx[6].maxExp}` + "")) dom_set_data(t6, t6_value);
 
-                    if (!current || dirty[0] & /*$battlePassData*/ 16) {
-                        set_style(div6, "--currentProgress", countPercents( /*$battlePassData*/ ctx[4].exp, /*$battlePassData*/ ctx[4].maxExp) + "%");
+                    if (!current || dirty[0] & /*$battlePassData*/ 64) {
+                        set_style(div6, "--currentProgress", countPercents( /*$battlePassData*/ ctx[6].exp, /*$battlePassData*/ ctx[6].maxExp) + "%");
                     }
 
-                    if (dirty[0] & /*selectedCategory, selectCategory*/ 130) {
+                    if (dirty[0] & /*selectedCategory, selectCategory*/ 258) {
                         each_value_2 = each_ensure_array_like(Object.values(CATEGORIES));
                         let i;
 
@@ -152995,7 +154208,7 @@
                         each_blocks_2.length = each_value_2.length;
                     }
 
-                    if (dirty[0] & /*$battlePassData*/ 16) show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[4]);
+                    if (dirty[0] & /*$battlePassData*/ 64) show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[6]);
 
                     if (show_if) {
                         if (if_block0) {
@@ -153012,7 +154225,7 @@
 
                     if ((!current || dirty[0] & /*selectedCategory*/ 2) && raw_value !== (raw_value = `${MAP_CATEGORY_TO_NAME[/*selectedCategory*/ ctx[1]]}` + "")) div16.innerHTML = raw_value;;
 
-                    if (dirty[0] & /*selectedQuest, $quests, selectedCategory, selectQuest*/ 267) {
+                    if (dirty[0] & /*selectedQuest, $quests, selectedCategory, selectQuest*/ 523) {
                         each_value_1 = each_ensure_array_like( /*$quests*/ ctx[0][ /*selectedCategory*/ ctx[1]]);
                         let i;
 
@@ -153038,8 +154251,8 @@
                     if ((!current || dirty[0] & /*selectedQuest*/ 8) && t19_value !== (t19_value = /*selectedQuest*/ ctx[3].title + "")) dom_set_data(t19, t19_value);
                     if ((!current || dirty[0] & /*selectedQuest*/ 8) && t21_value !== (t21_value = /*selectedQuest*/ ctx[3].hint + "")) dom_set_data(t21, t21_value);
 
-                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 18) {
-                        dom_toggle_class(div20, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[4].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
+                        dom_toggle_class(div20, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
                     }
 
                     if ((!current || dirty[0] & /*selectedQuest*/ 8) && t23_value !== (t23_value = formatMoney(Math.min( /*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress)) + "")) dom_set_data(t23, t23_value);
@@ -153092,15 +154305,15 @@
                         each_blocks.length = each_value.length;
                     }
 
-                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 18) {
-                        dom_toggle_class(div31, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[4].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
+                        dom_toggle_class(div31, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
                     }
 
-                    if ( /*$battlePassData*/ ctx[4].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium) {
+                    if ( /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
 
-                            if (dirty[0] & /*$battlePassData, selectedCategory*/ 18) {
+                            if (dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
                                 transitions_transition_in(if_block2, 1);
                             }
                         } else {
@@ -153151,17 +154364,17 @@
             };
         }
 
-        // (165:24) {#each Object.values(CATEGORIES) as cat}
+        // (188:24) {#each Object.values(CATEGORIES) as cat}
         function index_svelte_create_each_block_2(ctx) {
             let div;
             let html_tag;
-            let raw_value = MAP_CATEGORY_TO_NAME[ /*cat*/ ctx[29]] + "";
+            let raw_value = MAP_CATEGORY_TO_NAME[ /*cat*/ ctx[32]] + "";
             let t;
             let mounted;
             let dispose;
 
             function click_handler_1() {
-                return /*click_handler_1*/ ctx[11]( /*cat*/ ctx[29]);
+                return /*click_handler_1*/ ctx[13]( /*cat*/ ctx[32]);
             }
 
             return {
@@ -153171,8 +154384,8 @@
                     t = dom_space();
                     html_tag.a = t;
                     dom_attr(div, "class", "battle-pass-quests__categories-item");
-                    dom_toggle_class(div, "battle-pass-quests__categories-item--active", /*selectedCategory*/ ctx[1] === /*cat*/ ctx[29]);
-                    dom_toggle_class(div, "battle-pass-quests__categories-item--premium", /*cat*/ ctx[29] === CATEGORIES.Premium);
+                    dom_toggle_class(div, "battle-pass-quests__categories-item--active", /*selectedCategory*/ ctx[1] === /*cat*/ ctx[32]);
+                    dom_toggle_class(div, "battle-pass-quests__categories-item--premium", /*cat*/ ctx[32] === CATEGORIES.Premium);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -153188,11 +154401,11 @@
                     ctx = new_ctx;
 
                     if (dirty[0] & /*selectedCategory*/ 2) {
-                        dom_toggle_class(div, "battle-pass-quests__categories-item--active", /*selectedCategory*/ ctx[1] === /*cat*/ ctx[29]);
+                        dom_toggle_class(div, "battle-pass-quests__categories-item--active", /*selectedCategory*/ ctx[1] === /*cat*/ ctx[32]);
                     }
 
                     if (dirty & /*Object*/ 0) {
-                        dom_toggle_class(div, "battle-pass-quests__categories-item--premium", /*cat*/ ctx[29] === CATEGORIES.Premium);
+                        dom_toggle_class(div, "battle-pass-quests__categories-item--premium", /*cat*/ ctx[32] === CATEGORIES.Premium);
                     }
                 },
                 d(detaching) {
@@ -153206,10 +154419,10 @@
             };
         }
 
-        // (180:28) {#if !isEmpty($battlePassData)}
+        // (203:28) {#if !isEmpty($battlePassData)}
         function index_svelte_create_if_block_5(ctx) {
             let div;
-            let t_value = /*calculateDaysLeft*/ ctx[6]( /*$battlePassData*/ ctx[4].timestampMissionTime) + "";
+            let t_value = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[6].timestampMissionTime) + "";
             let t;
 
             return {
@@ -153223,7 +154436,7 @@
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$battlePassData*/ 16 && t_value !== (t_value = /*calculateDaysLeft*/ ctx[6]( /*$battlePassData*/ ctx[4].timestampMissionTime) + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$battlePassData*/ 64 && t_value !== (t_value = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[6].timestampMissionTime) + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -153233,28 +154446,28 @@
             };
         }
 
-        // (190:28) {#if quest.visible}
+        // (213:28) {#if quest.visible}
         function quests_index_svelte_create_if_block_3(ctx) {
             let div14;
             let div10;
             let div0;
-            let t0_value = /*quest*/ ctx[26].title + "";
+            let t0_value = /*quest*/ ctx[29].title + "";
             let t0;
             let t1;
             let div1;
-            let t2_value = /*quest*/ ctx[26].description + "";
+            let t2_value = /*quest*/ ctx[29].description + "";
             let t2;
             let t3;
             let div9;
             let div6;
             let div4;
             let div2;
-            let t4_value = formatMoney(Math.min( /*quest*/ ctx[26].currentProgress, /*quest*/ ctx[26].totalProgress)) + "";
+            let t4_value = formatMoney(Math.min( /*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress)) + "";
             let t4;
             let t5;
             let div3;
             let t6;
-            let t7_value = formatMoney( /*quest*/ ctx[26].totalProgress) + "";
+            let t7_value = formatMoney( /*quest*/ ctx[29].totalProgress) + "";
             let t7;
             let t8;
             let div5;
@@ -153267,7 +154480,7 @@
             let t11;
             let div12;
             let t12;
-            let t13_value = /*quest*/ ctx[26].prizeValue + "";
+            let t13_value = /*quest*/ ctx[29].prizeValue + "";
             let t13;
             let t14;
             let t15;
@@ -153275,7 +154488,7 @@
             let dispose;
 
             function select_block_type_1(ctx, dirty) {
-                if ( /*quest*/ ctx[26].currentProgress < /*quest*/ ctx[26].totalProgress) return quests_index_svelte_create_if_block_4;
+                if ( /*quest*/ ctx[29].currentProgress < /*quest*/ ctx[29].totalProgress) return quests_index_svelte_create_if_block_4;
                 return quests_index_svelte_create_else_block_1;
             }
 
@@ -153283,7 +154496,7 @@
             let if_block = current_block_type(ctx);
 
             function click_handler_2() {
-                return /*click_handler_2*/ ctx[12]( /*quest*/ ctx[26]);
+                return /*click_handler_2*/ ctx[14]( /*quest*/ ctx[29]);
             }
 
             return {
@@ -153328,18 +154541,18 @@
                     dom_attr(div4, "class", "battle-pass-quests__progress-count");
                     dom_attr(div5, "class", "battle-pass-quests__progress-percents");
                     dom_attr(div6, "class", "battle-pass-quests__progress-marks");
-                    dom_toggle_class(div6, "battle-pass-quests__progress-marks--complete", /*quest*/ ctx[26].currentProgress >= /*quest*/ ctx[26].totalProgress);
+                    dom_toggle_class(div6, "battle-pass-quests__progress-marks--complete", /*quest*/ ctx[29].currentProgress >= /*quest*/ ctx[29].totalProgress);
                     dom_attr(div7, "class", "battle-pass-quests__progress-bar battle-pass-quests__progress-bar--current");
-                    dom_toggle_class(div7, "battle-pass-quests__progress-bar--complete", /*quest*/ ctx[26].currentProgress >= /*quest*/ ctx[26].totalProgress);
+                    dom_toggle_class(div7, "battle-pass-quests__progress-bar--complete", /*quest*/ ctx[29].currentProgress >= /*quest*/ ctx[29].totalProgress);
                     dom_attr(div8, "class", "battle-pass-quests__progress-bar");
-                    set_style(div8, "--progress-percents", `${Math.floor(countPercents(/*quest*/ ctx[26].currentProgress, /*quest*/ ctx[26].totalProgress))}%`);
+                    set_style(div8, "--progress-percents", `${Math.floor(countPercents(/*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress))}%`);
                     dom_attr(div9, "class", "battle-pass-quests__progress-wrapper");
                     dom_attr(div10, "class", "battle-pass-quests__item-info");
                     dom_attr(div11, "class", "battle-pass-quests__item-reward-image-wrapper");
                     dom_attr(div12, "class", "battle-pass-quests__item-reward-name");
                     dom_attr(div13, "class", "battle-pass-quests__item-reward");
                     dom_attr(div14, "class", "battle-pass-quests__item");
-                    dom_toggle_class(div14, "battle-pass-quests__item--active", /*selectedQuest*/ ctx[3].id === /*quest*/ ctx[26].id);
+                    dom_toggle_class(div14, "battle-pass-quests__item--active", /*selectedQuest*/ ctx[3].id === /*quest*/ ctx[29].id);
                 },
                 m(target, anchor) {
                     dom_insert(target, div14, anchor);
@@ -153382,10 +154595,10 @@
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t0_value !== (t0_value = /*quest*/ ctx[26].title + "")) dom_set_data(t0, t0_value);
-                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t2_value !== (t2_value = /*quest*/ ctx[26].description + "")) dom_set_data(t2, t2_value);
-                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t4_value !== (t4_value = formatMoney(Math.min( /*quest*/ ctx[26].currentProgress, /*quest*/ ctx[26].totalProgress)) + "")) dom_set_data(t4, t4_value);
-                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t7_value !== (t7_value = formatMoney( /*quest*/ ctx[26].totalProgress) + "")) dom_set_data(t7, t7_value);
+                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t0_value !== (t0_value = /*quest*/ ctx[29].title + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t2_value !== (t2_value = /*quest*/ ctx[29].description + "")) dom_set_data(t2, t2_value);
+                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t4_value !== (t4_value = formatMoney(Math.min( /*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress)) + "")) dom_set_data(t4, t4_value);
+                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t7_value !== (t7_value = formatMoney( /*quest*/ ctx[29].totalProgress) + "")) dom_set_data(t7, t7_value);
 
                     if (current_block_type === (current_block_type = select_block_type_1(ctx, dirty)) && if_block) {
                         if_block.p(ctx, dirty);
@@ -153400,21 +154613,21 @@
                     }
 
                     if (dirty[0] & /*$quests, selectedCategory*/ 3) {
-                        dom_toggle_class(div6, "battle-pass-quests__progress-marks--complete", /*quest*/ ctx[26].currentProgress >= /*quest*/ ctx[26].totalProgress);
+                        dom_toggle_class(div6, "battle-pass-quests__progress-marks--complete", /*quest*/ ctx[29].currentProgress >= /*quest*/ ctx[29].totalProgress);
                     }
 
                     if (dirty[0] & /*$quests, selectedCategory*/ 3) {
-                        dom_toggle_class(div7, "battle-pass-quests__progress-bar--complete", /*quest*/ ctx[26].currentProgress >= /*quest*/ ctx[26].totalProgress);
+                        dom_toggle_class(div7, "battle-pass-quests__progress-bar--complete", /*quest*/ ctx[29].currentProgress >= /*quest*/ ctx[29].totalProgress);
                     }
 
                     if (dirty[0] & /*$quests, selectedCategory*/ 3) {
-                        set_style(div8, "--progress-percents", `${Math.floor(countPercents(/*quest*/ ctx[26].currentProgress, /*quest*/ ctx[26].totalProgress))}%`);
+                        set_style(div8, "--progress-percents", `${Math.floor(countPercents(/*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress))}%`);
                     }
 
-                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t13_value !== (t13_value = /*quest*/ ctx[26].prizeValue + "")) dom_set_data(t13, t13_value);
+                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t13_value !== (t13_value = /*quest*/ ctx[29].prizeValue + "")) dom_set_data(t13, t13_value);
 
                     if (dirty[0] & /*selectedQuest, $quests, selectedCategory*/ 11) {
-                        dom_toggle_class(div14, "battle-pass-quests__item--active", /*selectedQuest*/ ctx[3].id === /*quest*/ ctx[26].id);
+                        dom_toggle_class(div14, "battle-pass-quests__item--active", /*selectedQuest*/ ctx[3].id === /*quest*/ ctx[29].id);
                     }
                 },
                 d(detaching) {
@@ -153429,7 +154642,7 @@
             };
         }
 
-        // (213:52) {:else}
+        // (236:52) {:else}
         function quests_index_svelte_create_else_block_1(ctx) {
             let i;
             let div;
@@ -153456,9 +154669,9 @@
             };
         }
 
-        // (211:52) {#if quest.currentProgress < quest.totalProgress}
+        // (234:52) {#if quest.currentProgress < quest.totalProgress}
         function quests_index_svelte_create_if_block_4(ctx) {
-            let t_value = `${Math.floor(countPercents(/*quest*/ ctx[26].currentProgress, /*quest*/ ctx[26].totalProgress))}%` + "";
+            let t_value = `${Math.floor(countPercents(/*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress))}%` + "";
             let t;
 
             return {
@@ -153469,7 +154682,7 @@
                     dom_insert(target, t, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t_value !== (t_value = `${Math.floor(countPercents(/*quest*/ ctx[26].currentProgress, /*quest*/ ctx[26].totalProgress))}%` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$quests, selectedCategory*/ 3 && t_value !== (t_value = `${Math.floor(countPercents(/*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress))}%` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -153479,10 +154692,10 @@
             };
         }
 
-        // (189:24) {#each $quests[selectedCategory] as quest}
+        // (212:24) {#each $quests[selectedCategory] as quest}
         function quests_index_svelte_create_each_block_1(ctx) {
             let if_block_anchor;
-            let if_block = /*quest*/ ctx[26].visible && quests_index_svelte_create_if_block_3(ctx);
+            let if_block = /*quest*/ ctx[29].visible && quests_index_svelte_create_if_block_3(ctx);
 
             return {
                 c() {
@@ -153494,7 +154707,7 @@
                     dom_insert(target, if_block_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if ( /*quest*/ ctx[26].visible) {
+                    if ( /*quest*/ ctx[29].visible) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -153517,7 +154730,7 @@
             };
         }
 
-        // (253:36) {:else}
+        // (276:36) {:else}
         function quests_index_svelte_create_else_block(ctx) {
             let i;
             let div;
@@ -153544,7 +154757,7 @@
             };
         }
 
-        // (251:36) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
+        // (274:36) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
         function quests_index_svelte_create_if_block_2(ctx) {
             let t_value = `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%` + "";
             let t;
@@ -153567,7 +154780,7 @@
             };
         }
 
-        // (264:32) {#each selectedQuest.rewards as reward}
+        // (287:32) {#each selectedQuest.rewards as reward}
         function quests_index_svelte_create_each_block(ctx) {
             let div2;
             let div0;
@@ -153575,7 +154788,7 @@
             let img_src_value;
             let t0;
             let div1;
-            let t1_value = /*reward*/ ctx[23].name + "";
+            let t1_value = /*reward*/ ctx[26].name + "";
             let t1;
             let t2;
 
@@ -153588,7 +154801,7 @@
                     div1 = dom_element("div");
                     t1 = dom_text(t1_value);
                     t2 = dom_space();
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[23].item}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[26].item}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward");
                     dom_attr(img, "class", "battle-pass-quests__details-reward-image");
                     dom_attr(div0, "class", "battle-pass-quests__details-reward-image-wrapper");
@@ -153605,11 +154818,11 @@
                     dom_append(div2, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*selectedQuest*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[23].item}.webp`)) {
+                    if (dirty[0] & /*selectedQuest*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[26].item}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if (dirty[0] & /*selectedQuest*/ 8 && t1_value !== (t1_value = /*reward*/ ctx[23].name + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*selectedQuest*/ 8 && t1_value !== (t1_value = /*reward*/ ctx[26].name + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -153619,7 +154832,7 @@
             };
         }
 
-        // (281:20) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
+        // (304:20) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
         function quests_index_svelte_create_if_block_1(ctx) {
             let div0;
             let t0;
@@ -153634,7 +154847,7 @@
 
             premiumbutton = new premium_button_index_svelte({
                 props: {
-                    onClick: /*func*/ ctx[13],
+                    onClick: /*func*/ ctx[15],
                     text: 'Купить Premium'
                 }
             });
@@ -153671,7 +154884,7 @@
                 },
                 p(ctx, dirty) {
                     const premiumbutton_changes = {};
-                    if (dirty[0] & /*$currentPage*/ 32) premiumbutton_changes.onClick = /*func*/ ctx[13];
+                    if (dirty[0] & /*$currentPage*/ 32) premiumbutton_changes.onClick = /*func*/ ctx[15];
                     premiumbutton.$set(premiumbutton_changes);
                 },
                 i(local) {
@@ -153701,12 +154914,13 @@
             let if_block;
             let div_intro;
             let current;
-            const if_block_creators = [quests_index_svelte_create_if_block, index_svelte_create_else_block_2];
+            const if_block_creators = [quests_index_svelte_create_if_block, index_svelte_create_if_block_6, index_svelte_create_else_block_2];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
                 if ( /*initializeComplete*/ ctx[2]) return 0;
-                return 1;
+                if ( /*apiUnavailable*/ ctx[4]) return 1;
+                return 2;
             }
 
             current_block_type_index = select_block_type(ctx, [-1, -1]);
@@ -153782,21 +154996,27 @@
         function quests_index_svelte_instance($$self, $$props, $$invalidate) {
             let $quests;
             let $questsProgress;
+            let $currentPage;
             let $serverApiToken;
             let $serverApiServerId;
             let $battlePassData;
-            let $currentPage;
             utils_component_subscribe($$self, quests, $$value => $$invalidate(0, $quests = $$value));
-            utils_component_subscribe($$self, questsProgress, $$value => $$invalidate(9, $questsProgress = $$value));
-            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(16, $serverApiToken = $$value));
-            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(17, $serverApiServerId = $$value));
-            utils_component_subscribe($$self, store_battlePassData, $$value => $$invalidate(4, $battlePassData = $$value));
+            utils_component_subscribe($$self, questsProgress, $$value => $$invalidate(11, $questsProgress = $$value));
             utils_component_subscribe($$self, store_currentPage, $$value => $$invalidate(5, $currentPage = $$value));
+            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(19, $serverApiToken = $$value));
+            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(20, $serverApiServerId = $$value));
+            utils_component_subscribe($$self, store_battlePassData, $$value => $$invalidate(6, $battlePassData = $$value));
             let selectedCategory = CATEGORIES.Daily;
             let initializeComplete = false;
             let selectedQuest = {};
             let timerIntervalId = null;
             let time = $battlePassData.timestampTaskTime - Math.ceil(new Date().getTime() / 1000);
+            let apiUnavailable = false;
+
+            const retryCounts = {
+                [CATEGORIES.Daily]: 0,
+                [CATEGORIES.Premium]: 0
+            };
 
             const calculateDaysLeft = unix => {
                 const diff = unix - moment_default()().unix();
@@ -153829,14 +155049,12 @@
                 );
             }
 
-            const getReward = () => {
-                if (selectedQuest.currentProgress !== selectedQuest.totalProgress) {
-                    return;
-                }
-
-                cef_sendClientMessage('battlePass.quests.getReward', selectedQuest.categoryId, selectedQuest.id);
-            };
-
+            // const getReward = () => {
+            //     if (selectedQuest.currentProgress !== selectedQuest.totalProgress) {
+            //         return;
+            //     }
+            //     sendClientMessage('battlePass.quests.getReward', selectedQuest.categoryId, selectedQuest.id);
+            // };
             const updateselectedQuest = detailsDto => {
                 $$invalidate(3, selectedQuest = detailsDto);
             };
@@ -153850,10 +155068,26 @@
                     }
                 }).then(response => {
                     utils_set_store_value(quests, $quests[type] = response.data, $quests);
+                    $$invalidate(4, apiUnavailable = false);
+                    retryCounts[type] = 0;
                 }).catch(error => {
-                    console.log(`error from getTasks ${entity}`, JSON.stringify(error));
+                    if (retryCounts[type] < 3) {
+                        setTimeout(
+                            () => {
+                                retryCounts[type] += 1;
+                                getTasks(type, entity);
+                            },
+                            1500
+                        );
+                    } else {
+                        $$invalidate(4, apiUnavailable = true);
+                        retryCounts[type] = 0;
+                        console.log(`error from getTasks ${entity}`, JSON.stringify(error));
+                    }
                 });
             };
+
+            const backToMain = () => utils_set_store_value(store_currentPage, $currentPage = constants_MenuIds.Main, $currentPage);
 
             const getSortWeight = el => {
                 if (el.currentProgress > el.totalProgress) {
@@ -153867,13 +155101,19 @@
                 return 1;
             };
 
-            if ((0, lodash.isNil)($quests[CATEGORIES.Daily])) {
-                getTasks(CATEGORIES.Daily, 'battlepass_mission_default');
-            }
+            const initializeApiData = () => {
+                $$invalidate(4, apiUnavailable = false);
 
-            if ((0, lodash.isNil)($quests[CATEGORIES.Premium])) {
-                getTasks(CATEGORIES.Premium, 'battlepass_mission_premium');
-            }
+                if ((0, lodash.isNil)($quests[CATEGORIES.Daily])) {
+                    getTasks(CATEGORIES.Daily, MAP_CATEGORY_TO_ENTITY[CATEGORIES.Daily]);
+                }
+
+                if ((0, lodash.isNil)($quests[CATEGORIES.Premium])) {
+                    getTasks(CATEGORIES.Premium, MAP_CATEGORY_TO_ENTITY[CATEGORIES.Premium]);
+                }
+            };
+
+            initializeApiData();
 
             onDestroy(() => {
                 unregisterUpdateselectedQuest();
@@ -153893,7 +155133,7 @@
             };
 
             $$self.$$.update = () => {
-                if ($$self.$$.dirty[0] & /*$quests, $questsProgress*/ 513) {
+                if ($$self.$$.dirty[0] & /*$quests, $questsProgress*/ 2049) {
                     $: {
                         if (!(0, lodash.isNil)($quests[CATEGORIES.Daily]) && !(0, lodash.isNil)($quests[CATEGORIES.Premium]) && !(0, lodash.isEmpty)($questsProgress)) {
                             $questsProgress.forEach(item => {
@@ -153919,11 +155159,13 @@
                 selectedCategory,
                 initializeComplete,
                 selectedQuest,
-                $battlePassData,
+                apiUnavailable,
                 $currentPage,
+                $battlePassData,
                 calculateDaysLeft,
                 selectCategory,
                 selectQuest,
+                initializeApiData,
                 $questsProgress,
                 click_handler,
                 click_handler_1,
@@ -153942,8 +155184,7 @@
         /* harmony default export */
         const quests_index_svelte = (Quests);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/clock.svg
         const clock_namespaceObject = __webpack_require__.p + "assets/a436c038822b8f252124.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/thunder.svg
-        const thunder_namespaceObject = __webpack_require__.p + "assets/39402a929bcb859ff553.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/ticket.svg
-        const ticket_namespaceObject = __webpack_require__.p + "assets/131bdace72c1a6266b47.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/reset-black.svg
+        const thunder_namespaceObject = __webpack_require__.p + "assets/39402a929bcb859ff553.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/reset-black.svg
         const reset_black_namespaceObject = __webpack_require__.p + "assets/fe7ea7485ec3a68c392d.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-over.png
         const logo_over_namespaceObject = __webpack_require__.p + "assets/db222783cd8a4ae84764.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/main/rewards.js
         var COMMON_REWARDS = [{
@@ -155162,9 +156403,13 @@
 
 
 
+        // import TicketImage from '../../img/ticket.svg';
+
+
 
 
         // import premiumCar from '../../img/premium-car.png';
+        // import Promo from '../promo/index.svelte';
 
 
 
@@ -155181,28 +156426,125 @@
 
         function main_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[28] = list[i];
-            child_ctx[30] = i;
+            child_ctx[31] = list[i];
+            child_ctx[33] = i;
             return child_ctx;
         }
 
         function main_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[31] = list[i];
-            child_ctx[30] = i;
+            child_ctx[34] = list[i];
+            child_ctx[33] = i;
             return child_ctx;
         }
 
         function main_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[28] = list[i];
-            child_ctx[30] = i;
+            child_ctx[31] = list[i];
+            child_ctx[33] = i;
             return child_ctx;
         }
 
-        // (138:0) {#if !isEmpty($battlePassData) && !isEmpty(commonRewards) && !isEmpty(premiumRewards)}
+        // (388:4) {:else}
+        function create_else_block_4(ctx) {
+            let div;
+            let loader;
+            let current;
+            loader = new loader_index_svelte({
+                props: {
+                    style: 'fade'
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(loader.$$.fragment);
+                    dom_attr(div, "class", "battle-pass-main__loader-wrapper");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(loader, div, null);
+                    current = true;
+                },
+                p: utils_noop,
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(loader.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(loader.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(loader);
+                }
+            };
+        }
+
+        // (381:29) 
+        function create_if_block_16(ctx) {
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let premiumbutton;
+            let current;
+
+            premiumbutton = new premium_button_index_svelte({
+                props: {
+                    onClick: /*initializeApiData*/ ctx[15],
+                    text: 'Повторить'
+                }
+            });
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "Ошибка загрузки данных. Попробуйте позже или проверьте интернет-соединение.";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    create_component(premiumbutton.$$.fragment);
+                    dom_attr(div0, "class", "battle-pass-main__api-problem-message");
+                    dom_attr(div1, "class", "battle-pass-main__api-problem-button");
+                    dom_attr(div2, "class", "battle-pass-main__api-problem");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    mount_component(premiumbutton, div1, null);
+                    current = true;
+                },
+                p: utils_noop,
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(premiumbutton.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(premiumbutton.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+
+                    destroy_component(premiumbutton);
+                }
+            };
+        }
+
+        // (160:4) {#if !isEmpty($battlePassData) && !isEmpty(commonRewards) && !isEmpty(premiumRewards)}
         function main_index_svelte_create_if_block(ctx) {
-            let div29;
             let div0;
             let show_if_2;
             let t0;
@@ -155229,7 +156571,7 @@
             let t10;
             let div12;
             let t11;
-            let show_if_1 = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) > 0;
+            let show_if_1 = /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) > 0;
             let t12;
             let div17;
             let div16;
@@ -155239,7 +156581,7 @@
             let div27;
             let div20;
             let div18;
-            let t14_value = /*$battlePassData*/ ctx[5].level + /*$battlePassData*/ ctx[5].completed * 100 + "";
+            let t14_value = /*$battlePassData*/ ctx[6].level + /*$battlePassData*/ ctx[6].completed * 100 + "";
             let t14;
             let t15;
             let div19;
@@ -155248,7 +156590,7 @@
             let div21;
             let t19;
             let div22;
-            let t20_value = `${/*$battlePassData*/ ctx[5].exp} / ${/*$battlePassData*/ ctx[5].maxExp}` + "";
+            let t20_value = `${/*$battlePassData*/ ctx[6].exp} / ${/*$battlePassData*/ ctx[6].maxExp}` + "";
             let t20;
             let t21;
             let img;
@@ -155262,14 +156604,14 @@
             let mounted;
             let dispose;
 
-            function select_block_type(ctx, dirty) {
-                if (dirty[0] & /*$battlePassData*/ 32) show_if_2 = null;
-                if (show_if_2 == null) show_if_2 = !!( /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) <= 0);
+            function select_block_type_1(ctx, dirty) {
+                if (dirty[0] & /*$battlePassData*/ 64) show_if_2 = null;
+                if (show_if_2 == null) show_if_2 = !!( /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) <= 0);
                 if (show_if_2) return create_if_block_15;
                 return create_else_block_3;
             }
 
-            let current_block_type = select_block_type(ctx, [-1, -1]);
+            let current_block_type = select_block_type_1(ctx, [-1, -1]);
             let if_block0 = current_block_type(ctx);
             let each_value_2 = each_ensure_array_like( /*commonRewards*/ ctx[4]);
             let each_blocks_2 = [];
@@ -155298,19 +156640,18 @@
 
             let if_block1 = show_if_1 && main_index_svelte_create_if_block_2(ctx);
 
-            function select_block_type_3(ctx, dirty) {
-                if (dirty[0] & /*$battlePassData*/ 32) show_if = null;
-                if (show_if == null) show_if = !!( /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) <= 0);
+            function select_block_type_4(ctx, dirty) {
+                if (dirty[0] & /*$battlePassData*/ 64) show_if = null;
+                if (show_if == null) show_if = !!( /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) <= 0);
                 if (show_if) return main_index_svelte_create_if_block_1;
                 return main_index_svelte_create_else_block;
             }
 
-            let current_block_type_1 = select_block_type_3(ctx, [-1, -1]);
+            let current_block_type_1 = select_block_type_4(ctx, [-1, -1]);
             let if_block2 = current_block_type_1(ctx);
 
             return {
                 c() {
-                    div29 = dom_element("div");
                     div0 = dom_element("div");
                     if_block0.c();
                     t0 = dom_space();
@@ -155409,21 +156750,19 @@
                     dom_attr(img, "class", "battle-pass-main__level-counter-icon");
                     dom_attr(div22, "class", "battle-pass-main__level-counter-current");
                     dom_attr(div23, "class", "battle-pass-main__level-counter-progress-bar-current");
-                    set_style(div23, "--currentProgress", countPercents( /*$battlePassData*/ ctx[5].exp, /*$battlePassData*/ ctx[5].maxExp) + "%");
+                    set_style(div23, "--currentProgress", countPercents( /*$battlePassData*/ ctx[6].exp, /*$battlePassData*/ ctx[6].maxExp) + "%");
                     dom_attr(div24, "class", "battle-pass-main__level-counter-progress-bar");
                     dom_attr(div25, "class", "battle-pass-main__level-counter");
                     dom_attr(div26, "class", "battle-pass-main__level-purchase-button");
-                    dom_toggle_class(div26, "battle-pass-main__level-purchase-button--disabled", /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) <= 0);
+                    dom_toggle_class(div26, "battle-pass-main__level-purchase-button--disabled", /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) <= 0);
                     dom_attr(div27, "class", "battle-pass-main__level");
                     dom_attr(div28, "class", "battle-pass-main__left-bar");
-                    dom_attr(div29, "class", "battle-pass-main");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div29, anchor);
-                    dom_append(div29, div0);
+                    dom_insert(target, div0, anchor);
                     if_block0.m(div0, null);
-                    dom_append(div29, t0);
-                    dom_append(div29, div15);
+                    dom_insert(target, t0, anchor);
+                    dom_insert(target, div15, anchor);
                     dom_append(div15, div14);
                     dom_append(div14, div9);
                     dom_append(div9, div3);
@@ -155465,14 +156804,14 @@
                     dom_append(div11, t9);
                     dom_append(div13, t10);
                     dom_append(div13, div12);
-                    dom_append(div29, t11);
-                    if (if_block1) if_block1.m(div29, null);
-                    dom_append(div29, t12);
-                    dom_append(div29, div17);
+                    dom_insert(target, t11, anchor);
+                    if (if_block1) if_block1.m(target, anchor);
+                    dom_insert(target, t12, anchor);
+                    dom_insert(target, div17, anchor);
                     dom_append(div17, div16);
                     if_block2.m(div16, null);
-                    dom_append(div29, t13);
-                    dom_append(div29, div28);
+                    dom_insert(target, t13, anchor);
+                    dom_insert(target, div28, anchor);
                     dom_append(div28, div27);
                     dom_append(div27, div20);
                     dom_append(div20, div18);
@@ -155496,16 +156835,16 @@
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div10, "click", /*click_handler_3*/ ctx[19]),
-                            dom_listen(div12, "click", /*click_handler_4*/ ctx[20]),
-                            dom_listen(div26, "click", /*click_handler_5*/ ctx[22])
+                            dom_listen(div10, "click", /*click_handler_3*/ ctx[21]),
+                            dom_listen(div12, "click", /*click_handler_4*/ ctx[22]),
+                            dom_listen(div26, "click", /*click_handler_5*/ ctx[24])
                         ];
 
                         mounted = true;
                     }
                 },
                 p(ctx, dirty) {
-                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block0) {
+                    if (current_block_type === (current_block_type = select_block_type_1(ctx, dirty)) && if_block0) {
                         if_block0.p(ctx, dirty);
                     } else {
                         if_block0.d(1);
@@ -155517,7 +156856,7 @@
                         }
                     }
 
-                    if (dirty[0] & /*$battlePassData, commonRewards, getCommonReward*/ 2096) {
+                    if (dirty[0] & /*$battlePassData, commonRewards, getCommonReward*/ 4176) {
                         each_value_2 = each_ensure_array_like( /*commonRewards*/ ctx[4]);
                         let i;
 
@@ -155540,7 +156879,7 @@
                         each_blocks_2.length = each_value_2.length;
                     }
 
-                    if (dirty[0] & /*$battlePassData, currentLevelPage, $allPremiumRewards, premiumRewards, getResetLevel, $currentPage*/ 4205) {
+                    if (dirty[0] & /*$battlePassData, currentLevelPage, $allPremiumRewards, premiumRewards, getResetLevel, $currentPage*/ 8397) {
                         each_value_1 = each_ensure_array_like( /*premiumRewards*/ ctx[3]);
                         let i;
 
@@ -155563,7 +156902,7 @@
                         each_blocks_1.length = each_value_1.length;
                     }
 
-                    if (dirty[0] & /*$battlePassData, premiumRewards, getPremiumReward, calculateDaysLeft*/ 1192) {
+                    if (dirty[0] & /*$battlePassData, premiumRewards, getPremiumReward, calculateDaysLeft*/ 2376) {
                         each_value = each_ensure_array_like( /*premiumRewards*/ ctx[3]);
                         let i;
 
@@ -155591,20 +156930,20 @@
                     }
 
                     if ((!current || dirty[0] & /*currentLevelPage, PAGES_COUNT*/ 6) && t9_value !== (t9_value = `${/*currentLevelPage*/ ctx[2]} / ${/*PAGES_COUNT*/ ctx[1]}` + "")) dom_set_data(t9, t9_value);
-                    if (dirty[0] & /*$battlePassData*/ 32) show_if_1 = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) > 0;
+                    if (dirty[0] & /*$battlePassData*/ 64) show_if_1 = /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) > 0;
 
                     if (show_if_1) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
 
-                            if (dirty[0] & /*$battlePassData*/ 32) {
+                            if (dirty[0] & /*$battlePassData*/ 64) {
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
                             if_block1 = main_index_svelte_create_if_block_2(ctx);
                             if_block1.c();
                             transitions_transition_in(if_block1, 1);
-                            if_block1.m(div29, t12);
+                            if_block1.m(t12.parentNode, t12);
                         }
                     } else if (if_block1) {
                         transitions_group_outros();
@@ -155616,7 +156955,7 @@
                         transitions_check_outros();
                     }
 
-                    if (current_block_type_1 === (current_block_type_1 = select_block_type_3(ctx, dirty)) && if_block2) {
+                    if (current_block_type_1 === (current_block_type_1 = select_block_type_4(ctx, dirty)) && if_block2) {
                         if_block2.p(ctx, dirty);
                     } else {
                         if_block2.d(1);
@@ -155628,15 +156967,15 @@
                         }
                     }
 
-                    if ((!current || dirty[0] & /*$battlePassData*/ 32) && t14_value !== (t14_value = /*$battlePassData*/ ctx[5].level + /*$battlePassData*/ ctx[5].completed * 100 + "")) dom_set_data(t14, t14_value);
-                    if ((!current || dirty[0] & /*$battlePassData*/ 32) && t20_value !== (t20_value = `${/*$battlePassData*/ ctx[5].exp} / ${/*$battlePassData*/ ctx[5].maxExp}` + "")) dom_set_data(t20, t20_value);
+                    if ((!current || dirty[0] & /*$battlePassData*/ 64) && t14_value !== (t14_value = /*$battlePassData*/ ctx[6].level + /*$battlePassData*/ ctx[6].completed * 100 + "")) dom_set_data(t14, t14_value);
+                    if ((!current || dirty[0] & /*$battlePassData*/ 64) && t20_value !== (t20_value = `${/*$battlePassData*/ ctx[6].exp} / ${/*$battlePassData*/ ctx[6].maxExp}` + "")) dom_set_data(t20, t20_value);
 
-                    if (!current || dirty[0] & /*$battlePassData*/ 32) {
-                        set_style(div23, "--currentProgress", countPercents( /*$battlePassData*/ ctx[5].exp, /*$battlePassData*/ ctx[5].maxExp) + "%");
+                    if (!current || dirty[0] & /*$battlePassData*/ 64) {
+                        set_style(div23, "--currentProgress", countPercents( /*$battlePassData*/ ctx[6].exp, /*$battlePassData*/ ctx[6].maxExp) + "%");
                     }
 
-                    if (!current || dirty[0] & /*calculateDaysLeft, $battlePassData*/ 160) {
-                        dom_toggle_class(div26, "battle-pass-main__level-purchase-button--disabled", /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) <= 0);
+                    if (!current || dirty[0] & /*calculateDaysLeft, $battlePassData*/ 320) {
+                        dom_toggle_class(div26, "battle-pass-main__level-purchase-button--disabled", /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) <= 0);
                     }
                 },
                 i(local) {
@@ -155661,14 +157000,21 @@
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div29);
+                        dom_detach(div0);
+                        dom_detach(t0);
+                        dom_detach(div15);
+                        dom_detach(t11);
+                        dom_detach(t12);
+                        dom_detach(div17);
+                        dom_detach(t13);
+                        dom_detach(div28);
                     }
 
                     if_block0.d();
                     destroy_each(each_blocks_2, detaching);
                     destroy_each(each_blocks_1, detaching);
                     destroy_each(each_blocks, detaching);
-                    if (if_block1) if_block1.d();
+                    if (if_block1) if_block1.d(detaching);
                     if_block2.d();
                     mounted = false;
                     utils_run_all(dispose);
@@ -155676,7 +157022,7 @@
             };
         }
 
-        // (143:12) {:else}
+        // (164:12) {:else}
         function create_else_block_3(ctx) {
             let img;
             let img_src_value;
@@ -155684,7 +157030,7 @@
             return {
                 c() {
                     img = dom_element("img");
-                    if (!utils_src_url_equal(img.src, img_src_value = MAP_PREMIUM_TO_LOGO[ /*$battlePassData*/ ctx[5].premium])) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = MAP_PREMIUM_TO_LOGO[ /*$battlePassData*/ ctx[6].premium])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "logo");
                     dom_attr(img, "class", "battle-pass-main__logo-image");
                 },
@@ -155692,7 +157038,7 @@
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$battlePassData*/ 32 && !utils_src_url_equal(img.src, img_src_value = MAP_PREMIUM_TO_LOGO[ /*$battlePassData*/ ctx[5].premium])) {
+                    if (dirty[0] & /*$battlePassData*/ 64 && !utils_src_url_equal(img.src, img_src_value = MAP_PREMIUM_TO_LOGO[ /*$battlePassData*/ ctx[6].premium])) {
                         dom_attr(img, "src", img_src_value);
                     }
                 },
@@ -155704,7 +157050,7 @@
             };
         }
 
-        // (141:12) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
+        // (162:12) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
         function create_if_block_15(ctx) {
             let img;
             let img_src_value;
@@ -155728,10 +157074,10 @@
             };
         }
 
-        // (163:32) {#if reward.sysName && reward.sysName !== ''}
+        // (184:32) {#if reward.sysName && reward.sysName !== ''}
         function create_if_block_11(ctx) {
             let div;
-            let t0_value = /*reward*/ ctx[28].title + "";
+            let t0_value = /*reward*/ ctx[31].title + "";
             let t0;
             let t1;
             let img;
@@ -155739,15 +157085,15 @@
             let t2;
             let t3;
             let if_block1_anchor;
-            let if_block0 = /*reward*/ ctx[28].count > 0 && create_if_block_14(ctx);
+            let if_block0 = /*reward*/ ctx[31].count > 0 && create_if_block_14(ctx);
 
-            function select_block_type_1(ctx, dirty) {
-                if (! /*$battlePassData*/ ctx[5].availableToReceive[ /*reward*/ ctx[28].level - 1][0] && /*$battlePassData*/ ctx[5].level >= /*reward*/ ctx[28].level) return create_if_block_12;
-                if ( /*$battlePassData*/ ctx[5].availableToReceive[ /*reward*/ ctx[28].level - 1][0] && /*$battlePassData*/ ctx[5].level >= /*reward*/ ctx[28].level) return create_if_block_13;
+            function select_block_type_2(ctx, dirty) {
+                if (! /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][0] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level) return create_if_block_12;
+                if ( /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][0] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level) return create_if_block_13;
                 return main_index_svelte_create_else_block_2;
             }
 
-            let current_block_type = select_block_type_1(ctx, [-1, -1]);
+            let current_block_type = select_block_type_2(ctx, [-1, -1]);
             let if_block1 = current_block_type(ctx);
 
             return {
@@ -155762,7 +157108,7 @@
                     if_block1.c();
                     if_block1_anchor = empty();
                     dom_attr(div, "class", "battle-pass-main__reward-title");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[28].sysName}`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward-icon");
                     dom_attr(img, "class", "battle-pass-main__reward-image");
                 },
@@ -155778,13 +157124,13 @@
                     dom_insert(target, if_block1_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*commonRewards*/ 16 && t0_value !== (t0_value = /*reward*/ ctx[28].title + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*commonRewards*/ 16 && t0_value !== (t0_value = /*reward*/ ctx[31].title + "")) dom_set_data(t0, t0_value);
 
-                    if (dirty[0] & /*commonRewards*/ 16 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[28].sysName}`)) {
+                    if (dirty[0] & /*commonRewards*/ 16 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if ( /*reward*/ ctx[28].count > 0) {
+                    if ( /*reward*/ ctx[31].count > 0) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -155797,7 +157143,7 @@
                         if_block0 = null;
                     }
 
-                    if (current_block_type === (current_block_type = select_block_type_1(ctx, dirty)) && if_block1) {
+                    if (current_block_type === (current_block_type = select_block_type_2(ctx, dirty)) && if_block1) {
                         if_block1.p(ctx, dirty);
                     } else {
                         if_block1.d(1);
@@ -155825,10 +157171,10 @@
             };
         }
 
-        // (166:36) {#if reward.count > 0}
+        // (187:36) {#if reward.count > 0}
         function create_if_block_14(ctx) {
             let div;
-            let t_value = `${/*reward*/ ctx[28].count} шт.` + "";
+            let t_value = `${/*reward*/ ctx[31].count} шт.` + "";
             let t;
 
             return {
@@ -155842,7 +157188,7 @@
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*commonRewards*/ 16 && t_value !== (t_value = `${/*reward*/ ctx[28].count} шт.` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*commonRewards*/ 16 && t_value !== (t_value = `${/*reward*/ ctx[31].count} шт.` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -155852,7 +157198,7 @@
             };
         }
 
-        // (182:36) {:else}
+        // (203:36) {:else}
         function main_index_svelte_create_else_block_2(ctx) {
             let i;
 
@@ -155873,7 +157219,7 @@
             };
         }
 
-        // (176:143) 
+        // (197:143) 
         function create_if_block_13(ctx) {
             let div2;
 
@@ -155895,14 +157241,14 @@
             };
         }
 
-        // (169:36) {#if !$battlePassData.availableToReceive[reward.level - 1][0] && $battlePassData.level >= reward.level}
+        // (190:36) {#if !$battlePassData.availableToReceive[reward.level - 1][0] && $battlePassData.level >= reward.level}
         function create_if_block_12(ctx) {
             let div;
             let mounted;
             let dispose;
 
             function click_handler() {
-                return /*click_handler*/ ctx[15]( /*reward*/ ctx[28]);
+                return /*click_handler*/ ctx[17]( /*reward*/ ctx[31]);
             }
 
             return {
@@ -155933,11 +157279,11 @@
             };
         }
 
-        // (158:24) {#each commonRewards as reward, index}
+        // (179:24) {#each commonRewards as reward, index}
         function main_index_svelte_create_each_block_2(ctx) {
             let div;
             let t;
-            let if_block = /*reward*/ ctx[28].sysName && /*reward*/ ctx[28].sysName !== '' && create_if_block_11(ctx);
+            let if_block = /*reward*/ ctx[31].sysName && /*reward*/ ctx[31].sysName !== '' && create_if_block_11(ctx);
 
             return {
                 c() {
@@ -155945,7 +157291,7 @@
                     if (if_block) if_block.c();
                     t = dom_space();
                     dom_attr(div, "class", "battle-pass-main__reward");
-                    dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[5].level < /*reward*/ ctx[28].level);
+                    dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -155953,7 +157299,7 @@
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if ( /*reward*/ ctx[28].sysName && /*reward*/ ctx[28].sysName !== '') {
+                    if ( /*reward*/ ctx[31].sysName && /*reward*/ ctx[31].sysName !== '') {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -155966,8 +157312,8 @@
                         if_block = null;
                     }
 
-                    if (dirty[0] & /*$battlePassData, commonRewards*/ 48) {
-                        dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[5].level < /*reward*/ ctx[28].level);
+                    if (dirty[0] & /*$battlePassData, commonRewards*/ 80) {
+                        dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
                     }
                 },
                 d(detaching) {
@@ -155980,7 +157326,7 @@
             };
         }
 
-        // (199:36) {#if (index + 1 + (currentLevelPage - 1) * PAGE_SIZE === $battlePassData.level || $battlePassData.level === 0 && index === 0 && currentLevelPage === 1) && $battlePassData.level != ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
+        // (220:36) {#if (index + 1 + (currentLevelPage - 1) * PAGE_SIZE === $battlePassData.level || $battlePassData.level === 0 && index === 0 && currentLevelPage === 1) && $battlePassData.level != ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
         function create_if_block_10(ctx) {
             let div;
             let img;
@@ -155997,25 +157343,25 @@
                     if (!utils_src_url_equal(img.src, img_src_value = thunder_namespaceObject)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "thunder-img");
                     dom_attr(div, "class", "battle-pass-main__experience-line-level-wrapper-button");
-                    dom_attr(div, "style", div_style_value = `right: ${(/*$battlePassData*/ ctx[5].level % 1 - 0.8) * (100 / PAGE_SIZE)}%`);
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper-button--first", /*$battlePassData*/ ctx[5].level === 0);
+                    dom_attr(div, "style", div_style_value = `right: ${(/*$battlePassData*/ ctx[6].level % 1 - 0.8) * (100 / PAGE_SIZE)}%`);
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper-button--first", /*$battlePassData*/ ctx[6].level === 0);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
                     dom_append(div, img);
 
                     if (!mounted) {
-                        dispose = dom_listen(div, "click", /*click_handler_1*/ ctx[16]);
+                        dispose = dom_listen(div, "click", /*click_handler_1*/ ctx[18]);
                         mounted = true;
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$battlePassData*/ 32 && div_style_value !== (div_style_value = `right: ${(/*$battlePassData*/ ctx[5].level % 1 - 0.8) * (100 / PAGE_SIZE)}%`)) {
+                    if (dirty[0] & /*$battlePassData*/ 64 && div_style_value !== (div_style_value = `right: ${(/*$battlePassData*/ ctx[6].level % 1 - 0.8) * (100 / PAGE_SIZE)}%`)) {
                         dom_attr(div, "style", div_style_value);
                     }
 
-                    if (dirty[0] & /*$battlePassData*/ 32) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper-button--first", /*$battlePassData*/ ctx[5].level === 0);
+                    if (dirty[0] & /*$battlePassData*/ 64) {
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper-button--first", /*$battlePassData*/ ctx[6].level === 0);
                     }
                 },
                 d(detaching) {
@@ -156029,7 +157375,7 @@
             };
         }
 
-        // (213:36) {#if index + 1 + (currentLevelPage - 1) * PAGE_SIZE === ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
+        // (234:36) {#if index + 1 + (currentLevelPage - 1) * PAGE_SIZE === ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
         function create_if_block_9(ctx) {
             let div1;
             let mounted;
@@ -156051,7 +157397,7 @@
                     dom_insert(target, div1, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(div1, "click", /*click_handler_2*/ ctx[17]);
+                        dispose = dom_listen(div1, "click", /*click_handler_2*/ ctx[19]);
                         mounted = true;
                     }
                 },
@@ -156067,12 +157413,12 @@
             };
         }
 
-        // (234:36) {#if item.sysName && item.sysName !== ''}
+        // (255:36) {#if item.sysName && item.sysName !== ''}
         function create_if_block_8(ctx) {
             let div2;
             let div1;
             let div0;
-            let t_value = /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "";
+            let t_value = /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "";
             let t;
 
             return {
@@ -156083,7 +157429,7 @@
                     t = dom_text(t_value);
                     dom_attr(div0, "class", "battle-pass-main__experience-line-level-value");
                     dom_attr(div1, "class", "battle-pass-main__experience-line-level");
-                    dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[5].level);
+                    dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[6].level);
                     dom_attr(div2, "class", "battle-pass-main__experience-line-level-value-wrapper");
                 },
                 m(target, anchor) {
@@ -156093,10 +157439,10 @@
                     dom_append(div0, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*currentLevelPage*/ 4 && t_value !== (t_value = /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*currentLevelPage*/ 4 && t_value !== (t_value = /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "")) dom_set_data(t, t_value);
 
-                    if (dirty[0] & /*currentLevelPage, $battlePassData*/ 36) {
-                        dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[5].level);
+                    if (dirty[0] & /*currentLevelPage, $battlePassData*/ 68) {
+                        dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[6].level);
                     }
                 },
                 d(detaching) {
@@ -156107,15 +157453,15 @@
             };
         }
 
-        // (191:28) {#each premiumRewards as item, index}
+        // (212:28) {#each premiumRewards as item, index}
         function main_index_svelte_create_each_block_1(ctx) {
             let div;
             let t0;
             let t1;
             let t2;
-            let if_block0 = ( /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[5].level || /*$battlePassData*/ ctx[5].level === 0 && /*index*/ ctx[30] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[5].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_10(ctx);
-            let if_block1 = /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_9(ctx);
-            let if_block2 = /*item*/ ctx[31].sysName && /*item*/ ctx[31].sysName !== '' && create_if_block_8(ctx);
+            let if_block0 = ( /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[6].level || /*$battlePassData*/ ctx[6].level === 0 && /*index*/ ctx[33] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[6].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_10(ctx);
+            let if_block1 = /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_9(ctx);
+            let if_block2 = /*item*/ ctx[34].sysName && /*item*/ ctx[34].sysName !== '' && create_if_block_8(ctx);
 
             return {
                 c() {
@@ -156127,10 +157473,10 @@
                     if (if_block2) if_block2.c();
                     t2 = dom_space();
                     dom_attr(div, "class", "battle-pass-main__experience-line-level-wrapper");
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[5].level > /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[5].level === /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[6].level > /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[6].level === /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -156142,7 +157488,7 @@
                     dom_append(div, t2);
                 },
                 p(ctx, dirty) {
-                    if (( /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[5].level || /*$battlePassData*/ ctx[5].level === 0 && /*index*/ ctx[30] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[5].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
+                    if (( /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[6].level || /*$battlePassData*/ ctx[6].level === 0 && /*index*/ ctx[33] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[6].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -156155,7 +157501,7 @@
                         if_block0 = null;
                     }
 
-                    if ( /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
+                    if ( /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
@@ -156168,7 +157514,7 @@
                         if_block1 = null;
                     }
 
-                    if ( /*item*/ ctx[31].sysName && /*item*/ ctx[31].sysName !== '') {
+                    if ( /*item*/ ctx[34].sysName && /*item*/ ctx[34].sysName !== '') {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
@@ -156181,20 +157527,20 @@
                         if_block2 = null;
                     }
 
-                    if (dirty[0] & /*$battlePassData, currentLevelPage*/ 36) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[5].level > /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                    if (dirty[0] & /*$battlePassData, currentLevelPage*/ 68) {
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[6].level > /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
                     }
 
-                    if (dirty[0] & /*$battlePassData, currentLevelPage*/ 36) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[5].level === /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                    if (dirty[0] & /*$battlePassData, currentLevelPage*/ 68) {
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[6].level === /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
                     }
 
                     if (dirty[0] & /*currentLevelPage*/ 4) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
                     }
 
                     if (dirty[0] & /*currentLevelPage, $allPremiumRewards*/ 5) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[30] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
                     }
                 },
                 d(detaching) {
@@ -156209,10 +157555,10 @@
             };
         }
 
-        // (263:32) {#if reward.count > 0}
+        // (284:32) {#if reward.count > 0}
         function create_if_block_7(ctx) {
             let div;
-            let t_value = `${/*reward*/ ctx[28].count} шт.` + "";
+            let t_value = `${/*reward*/ ctx[31].count} шт.` + "";
             let t;
 
             return {
@@ -156226,7 +157572,7 @@
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*premiumRewards*/ 8 && t_value !== (t_value = `${/*reward*/ ctx[28].count} шт.` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*premiumRewards*/ 8 && t_value !== (t_value = `${/*reward*/ ctx[31].count} шт.` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -156236,7 +157582,7 @@
             };
         }
 
-        // (281:32) {:else}
+        // (302:32) {:else}
         function main_index_svelte_create_else_block_1(ctx) {
             let i;
 
@@ -156259,8 +157605,8 @@
             };
         }
 
-        // (276:170) 
-        function index_svelte_create_if_block_6(ctx) {
+        // (297:170) 
+        function main_index_svelte_create_if_block_6(ctx) {
             let div2;
 
             return {
@@ -156283,9 +157629,9 @@
             };
         }
 
-        // (266:32) {#if !$battlePassData.availableToReceive[reward.level - 1][1] && $battlePassData.level >= reward.level}
+        // (287:32) {#if !$battlePassData.availableToReceive[reward.level - 1][1] && $battlePassData.level >= reward.level}
         function main_index_svelte_create_if_block_4(ctx) {
-            let show_if = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) > 0;
+            let show_if = /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) > 0;
             let if_block_anchor;
             let current;
             let if_block = show_if && main_index_svelte_create_if_block_5(ctx);
@@ -156301,13 +157647,13 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$battlePassData*/ 32) show_if = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[5].timestampTaskTime) > 0;
+                    if (dirty[0] & /*$battlePassData*/ 64) show_if = /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) > 0;
 
                     if (show_if) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
 
-                            if (dirty[0] & /*$battlePassData*/ 32) {
+                            if (dirty[0] & /*$battlePassData*/ 64) {
                                 transitions_transition_in(if_block, 1);
                             }
                         } else {
@@ -156345,20 +157691,20 @@
             };
         }
 
-        // (267:36) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
+        // (288:36) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
         function main_index_svelte_create_if_block_5(ctx) {
             let div;
             let premiumbutton;
             let current;
 
             function func() {
-                return /*func*/ ctx[18]( /*reward*/ ctx[28]);
+                return /*func*/ ctx[20]( /*reward*/ ctx[31]);
             }
 
             premiumbutton = new premium_button_index_svelte({
                 props: {
-                    icon: /*$battlePassData*/ ctx[5].premium ? '' : 'lock-wide',
-                    text: /*$battlePassData*/ ctx[5].premium ?
+                    icon: /*$battlePassData*/ ctx[6].premium ? '' : 'lock-wide',
+                    text: /*$battlePassData*/ ctx[6].premium ?
                         'Получить' :
                         'Купить Premium',
                     onClick: func
@@ -156379,9 +157725,9 @@
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
                     const premiumbutton_changes = {};
-                    if (dirty[0] & /*$battlePassData*/ 32) premiumbutton_changes.icon = /*$battlePassData*/ ctx[5].premium ? '' : 'lock-wide';
+                    if (dirty[0] & /*$battlePassData*/ 64) premiumbutton_changes.icon = /*$battlePassData*/ ctx[6].premium ? '' : 'lock-wide';
 
-                    if (dirty[0] & /*$battlePassData*/ 32) premiumbutton_changes.text = /*$battlePassData*/ ctx[5].premium ?
+                    if (dirty[0] & /*$battlePassData*/ 64) premiumbutton_changes.text = /*$battlePassData*/ ctx[6].premium ?
                         'Получить' :
                         'Купить Premium';
 
@@ -156407,11 +157753,11 @@
             };
         }
 
-        // (256:24) {#each premiumRewards as reward, index}
+        // (277:24) {#each premiumRewards as reward, index}
         function main_index_svelte_create_each_block(ctx) {
             let div1;
             let div0;
-            let t0_value = /*reward*/ ctx[28].title + "";
+            let t0_value = /*reward*/ ctx[31].title + "";
             let t0;
             let t1;
             let img;
@@ -156422,17 +157768,17 @@
             let if_block1;
             let t4;
             let current;
-            let if_block0 = /*reward*/ ctx[28].count > 0 && create_if_block_7(ctx);
-            const if_block_creators = [main_index_svelte_create_if_block_4, index_svelte_create_if_block_6, main_index_svelte_create_else_block_1];
+            let if_block0 = /*reward*/ ctx[31].count > 0 && create_if_block_7(ctx);
+            const if_block_creators = [main_index_svelte_create_if_block_4, main_index_svelte_create_if_block_6, main_index_svelte_create_else_block_1];
             const if_blocks = [];
 
-            function select_block_type_2(ctx, dirty) {
-                if (! /*$battlePassData*/ ctx[5].availableToReceive[ /*reward*/ ctx[28].level - 1][1] && /*$battlePassData*/ ctx[5].level >= /*reward*/ ctx[28].level) return 0;
-                if ( /*$battlePassData*/ ctx[5].availableToReceive[ /*reward*/ ctx[28].level - 1][1] && /*$battlePassData*/ ctx[5].level >= /*reward*/ ctx[28].level && /*$battlePassData*/ ctx[5].premium > 0) return 1;
+            function select_block_type_3(ctx, dirty) {
+                if (! /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][1] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level) return 0;
+                if ( /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][1] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level && /*$battlePassData*/ ctx[6].premium > 0) return 1;
                 return 2;
             }
 
-            current_block_type_index = select_block_type_2(ctx, [-1, -1]);
+            current_block_type_index = select_block_type_3(ctx, [-1, -1]);
             if_block1 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
             return {
@@ -156448,11 +157794,11 @@
                     if_block1.c();
                     t4 = dom_space();
                     dom_attr(div0, "class", "battle-pass-main__reward-title");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[28].sysName}`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward-icon");
                     dom_attr(img, "class", "battle-pass-main__reward-image");
                     dom_attr(div1, "class", "battle-pass-main__reward battle-pass-main__reward--premium");
-                    dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[5].level < /*reward*/ ctx[28].level);
+                    dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -156468,13 +157814,13 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ((!current || dirty[0] & /*premiumRewards*/ 8) && t0_value !== (t0_value = /*reward*/ ctx[28].title + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty[0] & /*premiumRewards*/ 8) && t0_value !== (t0_value = /*reward*/ ctx[31].title + "")) dom_set_data(t0, t0_value);
 
-                    if (!current || dirty[0] & /*premiumRewards*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[28].sysName}`)) {
+                    if (!current || dirty[0] & /*premiumRewards*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if ( /*reward*/ ctx[28].count > 0) {
+                    if ( /*reward*/ ctx[31].count > 0) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -156488,7 +157834,7 @@
                     }
 
                     let previous_block_index = current_block_type_index;
-                    current_block_type_index = select_block_type_2(ctx, dirty);
+                    current_block_type_index = select_block_type_3(ctx, dirty);
 
                     if (current_block_type_index === previous_block_index) {
                         if_blocks[current_block_type_index].p(ctx, dirty);
@@ -156513,8 +157859,8 @@
                         if_block1.m(div1, t4);
                     }
 
-                    if (!current || dirty[0] & /*$battlePassData, premiumRewards*/ 40) {
-                        dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[5].level < /*reward*/ ctx[28].level);
+                    if (!current || dirty[0] & /*$battlePassData, premiumRewards*/ 72) {
+                        dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
                     }
                 },
                 i(local) {
@@ -156537,11 +157883,11 @@
             };
         }
 
-        // (306:8) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
+        // (327:8) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
         function main_index_svelte_create_if_block_2(ctx) {
             let if_block_anchor;
             let current;
-            let if_block = /*$battlePassData*/ ctx[5].premium < 2 && main_index_svelte_create_if_block_3(ctx);
+            let if_block = /*$battlePassData*/ ctx[6].premium < 2 && main_index_svelte_create_if_block_3(ctx);
 
             return {
                 c() {
@@ -156554,11 +157900,11 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ( /*$battlePassData*/ ctx[5].premium < 2) {
+                    if ( /*$battlePassData*/ ctx[6].premium < 2) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
 
-                            if (dirty[0] & /*$battlePassData*/ 32) {
+                            if (dirty[0] & /*$battlePassData*/ 64) {
                                 transitions_transition_in(if_block, 1);
                             }
                         } else {
@@ -156596,7 +157942,7 @@
             };
         }
 
-        // (307:12) {#if $battlePassData.premium < 2}
+        // (328:12) {#if $battlePassData.premium < 2}
         function main_index_svelte_create_if_block_3(ctx) {
             let div;
             let premiumbutton;
@@ -156604,10 +157950,10 @@
 
             premiumbutton = new premium_button_index_svelte({
                 props: {
-                    text: /*$battlePassData*/ ctx[5].premium > 0 ?
+                    text: /*$battlePassData*/ ctx[6].premium > 0 ?
                         `Купить <b>Premium Plus</b>` :
                         `Купить <b>Premium</b>`,
-                    onClick: /*func_1*/ ctx[21]
+                    onClick: /*func_1*/ ctx[23]
                 }
             });
 
@@ -156625,11 +157971,11 @@
                 p(ctx, dirty) {
                     const premiumbutton_changes = {};
 
-                    if (dirty[0] & /*$battlePassData*/ 32) premiumbutton_changes.text = /*$battlePassData*/ ctx[5].premium > 0 ?
+                    if (dirty[0] & /*$battlePassData*/ 64) premiumbutton_changes.text = /*$battlePassData*/ ctx[6].premium > 0 ?
                         `Купить <b>Premium Plus</b>` :
                         `Купить <b>Premium</b>`;
 
-                    if (dirty[0] & /*$currentPage*/ 64) premiumbutton_changes.onClick = /*func_1*/ ctx[21];
+                    if (dirty[0] & /*$currentPage*/ 128) premiumbutton_changes.onClick = /*func_1*/ ctx[23];
                     premiumbutton.$set(premiumbutton_changes);
                 },
                 i(local) {
@@ -156651,7 +157997,7 @@
             };
         }
 
-        // (317:16) {:else}
+        // (338:16) {:else}
         function main_index_svelte_create_else_block(ctx) {
             let img;
             let img_src_value;
@@ -156660,7 +158006,7 @@
             let span0;
             let t2;
             let span1;
-            let t3_value = `${/*calculateDaysLeft*/ ctx[7](/*$battlePassData*/ ctx[5].timestampTaskTime)} дн.` + "";
+            let t3_value = `${/*calculateDaysLeft*/ ctx[8](/*$battlePassData*/ ctx[6].timestampTaskTime)} дн.` + "";
             let t3;
 
             return {
@@ -156690,7 +158036,7 @@
                     dom_append(span1, t3);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$battlePassData*/ 32 && t3_value !== (t3_value = `${/*calculateDaysLeft*/ ctx[7](/*$battlePassData*/ ctx[5].timestampTaskTime)} дн.` + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*$battlePassData*/ 64 && t3_value !== (t3_value = `${/*calculateDaysLeft*/ ctx[8](/*$battlePassData*/ ctx[6].timestampTaskTime)} дн.` + "")) dom_set_data(t3, t3_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -156702,7 +158048,7 @@
             };
         }
 
-        // (315:16) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
+        // (336:16) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
         function main_index_svelte_create_if_block_1(ctx) {
             let p;
 
@@ -156725,52 +158071,68 @@
         }
 
         function main_index_svelte_create_fragment(ctx) {
-            let show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[5]) && !(0, lodash.isEmpty)( /*commonRewards*/ ctx[4]) && !(0, lodash.isEmpty)( /*premiumRewards*/ ctx[3]);
-            let if_block_anchor;
+            let div;
+            let show_if;
+            let current_block_type_index;
+            let if_block;
             let current;
             let mounted;
             let dispose;
-            let if_block = show_if && main_index_svelte_create_if_block(ctx);
+            const if_block_creators = [main_index_svelte_create_if_block, create_if_block_16, create_else_block_4];
+            const if_blocks = [];
+
+            function select_block_type(ctx, dirty) {
+                if (dirty[0] & /*$battlePassData, commonRewards, premiumRewards*/ 88) show_if = null;
+                if (show_if == null) show_if = !!(!(0, lodash.isEmpty)( /*$battlePassData*/ ctx[6]) && !(0, lodash.isEmpty)( /*commonRewards*/ ctx[4]) && !(0, lodash.isEmpty)( /*premiumRewards*/ ctx[3]));
+                if (show_if) return 0;
+                if ( /*apiUnavailable*/ ctx[5]) return 1;
+                return 2;
+            }
+
+            current_block_type_index = select_block_type(ctx, [-1, -1]);
+            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
             return {
                 c() {
-                    if (if_block) if_block.c();
-                    if_block_anchor = empty();
+                    div = dom_element("div");
+                    if_block.c();
+                    dom_attr(div, "class", "battle-pass-main");
                 },
                 m(target, anchor) {
-                    if (if_block) if_block.m(target, anchor);
-                    dom_insert(target, if_block_anchor, anchor);
+                    dom_insert(target, div, anchor);
+                    if_blocks[current_block_type_index].m(div, null);
                     current = true;
 
                     if (!mounted) {
-                        dispose = dom_listen(window, "keyup", /*arrowsHandler*/ ctx[13]);
+                        dispose = dom_listen(window, "keyup", /*arrowsHandler*/ ctx[14]);
                         mounted = true;
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$battlePassData, commonRewards, premiumRewards*/ 56) show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[5]) && !(0, lodash.isEmpty)( /*commonRewards*/ ctx[4]) && !(0, lodash.isEmpty)( /*premiumRewards*/ ctx[3]);
+                    let previous_block_index = current_block_type_index;
+                    current_block_type_index = select_block_type(ctx, dirty);
 
-                    if (show_if) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
-
-                            if (dirty[0] & /*$battlePassData, commonRewards, premiumRewards*/ 56) {
-                                transitions_transition_in(if_block, 1);
-                            }
-                        } else {
-                            if_block = main_index_svelte_create_if_block(ctx);
-                            if_block.c();
-                            transitions_transition_in(if_block, 1);
-                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
-                        }
-                    } else if (if_block) {
+                    if (current_block_type_index === previous_block_index) {
+                        if_blocks[current_block_type_index].p(ctx, dirty);
+                    } else {
                         transitions_group_outros();
 
-                        transitions_transition_out(if_block, 1, 1, () => {
-                            if_block = null;
+                        transitions_transition_out(if_blocks[previous_block_index], 1, 1, () => {
+                            if_blocks[previous_block_index] = null;
                         });
 
                         transitions_check_outros();
+                        if_block = if_blocks[current_block_type_index];
+
+                        if (!if_block) {
+                            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+                            if_block.c();
+                        } else {
+                            if_block.p(ctx, dirty);
+                        }
+
+                        transitions_transition_in(if_block, 1);
+                        if_block.m(div, null);
                     }
                 },
                 i(local) {
@@ -156784,10 +158146,10 @@
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(if_block_anchor);
+                        dom_detach(div);
                     }
 
-                    if (if_block) if_block.d(detaching);
+                    if_blocks[current_block_type_index].d();
                     mounted = false;
                     dispose();
                 }
@@ -156805,12 +158167,12 @@
             let $serverApiServerId;
             let $currentPage;
             utils_component_subscribe($$self, allPremiumRewards, $$value => $$invalidate(0, $allPremiumRewards = $$value));
-            utils_component_subscribe($$self, allCommonRewards, $$value => $$invalidate(14, $allCommonRewards = $$value));
-            utils_component_subscribe($$self, store_battlePassData, $$value => $$invalidate(5, $battlePassData = $$value));
-            utils_component_subscribe($$self, rewardsPagesCount, $$value => $$invalidate(23, $rewardsPagesCount = $$value));
-            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(24, $serverApiToken = $$value));
-            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(25, $serverApiServerId = $$value));
-            utils_component_subscribe($$self, store_currentPage, $$value => $$invalidate(6, $currentPage = $$value));
+            utils_component_subscribe($$self, allCommonRewards, $$value => $$invalidate(16, $allCommonRewards = $$value));
+            utils_component_subscribe($$self, store_battlePassData, $$value => $$invalidate(6, $battlePassData = $$value));
+            utils_component_subscribe($$self, rewardsPagesCount, $$value => $$invalidate(26, $rewardsPagesCount = $$value));
+            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(27, $serverApiToken = $$value));
+            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(28, $serverApiServerId = $$value));
+            utils_component_subscribe($$self, store_currentPage, $$value => $$invalidate(7, $currentPage = $$value));
 
             let PAGES_COUNT = $battlePassData.level >= 100 ?
                 20 :
@@ -156819,6 +158181,12 @@
             let currentLevelPage = 1;
             let premiumRewards = [];
             let commonRewards = [];
+            let apiUnavailable = false;
+
+            let retryCounts = {
+                [RewardsType.Common]: 0,
+                [RewardsType.Premium]: 0
+            };
 
             const updateRewardsList = () => {
                 const premiumData = $allPremiumRewards.length > 0 ?
@@ -156900,7 +158268,7 @@
                         Authorization: `Bearer ${$serverApiToken}`
                     }
                 }).then(response => {
-                    if (type === 'common') {
+                    if (type === RewardsType.Common) {
                         utils_set_store_value(allCommonRewards, $allCommonRewards = response.data, $allCommonRewards);
 
                         utils_set_store_value(
@@ -156919,29 +158287,44 @@
                     }
 
                     if ($battlePassData.level > 0) {
-                        const dataLength = type === 'common' ?
-                            $allCommonRewards.length :
-                            $allPremiumRewards.length;
-
+                        // const dataLength = type === RewardsType.Common ? $allCommonRewards.length : $allPremiumRewards.length;
                         $$invalidate(2, currentLevelPage = $battlePassData.level >= 100 ?
                             20 :
                             Math.ceil($battlePassData.level / PAGE_SIZE));
                     }
 
                     updateRewardsList();
+                    $$invalidate(5, apiUnavailable = false);
                 }).catch(error => {
-                    console.log(`error from getRewards ${type}`, JSON.stringify(error));
+                    if (retryCounts[type] < 3) {
+                        setTimeout(
+                            () => {
+                                retryCounts[type] += 1;
+                                getRewards(type, entity);
+                            },
+                            1500
+                        );
+                    } else {
+                        retryCounts[type] = 0;
+                        $$invalidate(5, apiUnavailable = true);
+                        console.log(`error from getRewards ${type}`, JSON.stringify(error));
+                    }
                 });
             };
 
-            if ((0, lodash.isEmpty)($allCommonRewards)) {
-                getRewards('common', 'battlepass_awards_default');
-            }
+            const initializeApiData = (a = false) => {
+                $$invalidate(5, apiUnavailable = false);
 
-            if ((0, lodash.isEmpty)($allPremiumRewards)) {
-                getRewards('premium', 'battlepass_awards_gold');
-            }
+                if ((0, lodash.isEmpty)($allCommonRewards)) {
+                    getRewards(RewardsType.Common, MAP_REWARD_TYPE_TO_ENTITY[RewardsType.Common]);
+                }
 
+                if ((0, lodash.isEmpty)($allPremiumRewards)) {
+                    getRewards(RewardsType.Premium, MAP_REWARD_TYPE_TO_ENTITY[RewardsType.Premium]);
+                }
+            };
+
+            initializeApiData();
             const click_handler = reward => getCommonReward(reward.level);
 
             const click_handler_1 = () => {
@@ -156959,7 +158342,7 @@
             };
 
             $$self.$$.update = () => {
-                if ($$self.$$.dirty[0] & /*$allCommonRewards, $allPremiumRewards*/ 16385) {
+                if ($$self.$$.dirty[0] & /*$allCommonRewards, $allPremiumRewards*/ 65537) {
                     $: if ($allCommonRewards.length > 0 || $allPremiumRewards.length > 0) {
                         updateRewardsList();
                     }
@@ -156972,6 +158355,7 @@
                 currentLevelPage,
                 premiumRewards,
                 commonRewards,
+                apiUnavailable,
                 $battlePassData,
                 $currentPage,
                 calculateDaysLeft,
@@ -156981,6 +158365,7 @@
                 getCommonReward,
                 getResetLevel,
                 arrowsHandler,
+                initializeApiData,
                 $allCommonRewards,
                 click_handler,
                 click_handler_1,
@@ -158907,7 +160292,157 @@
         }
 
         /* harmony default export */
-        const purchase_premium_index_svelte = (Purchase_premium);; // CONCATENATED MODULE: ./src/views/arizona-pass/components/donate/index.svelte
+        const purchase_premium_index_svelte = (Purchase_premium);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/premium-car.png
+        const premium_car_namespaceObject = __webpack_require__.p + "assets/d29362dddb2a74d1f8c6.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/promo/index.svelte
+        /* src\views\arizona-pass\components\promo\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+        function promo_index_svelte_create_if_block(ctx) {
+            let div;
+            let t0;
+            let b;
+            let t1;
+            let t2_value = ( /*$battlePassData*/ ctx[0].premium === 1 ? '+' : '') + "";
+            let t2;
+            let mounted;
+            let dispose;
+
+            return {
+                c() {
+                    div = element("div");
+                    t0 = text("Купить ");
+                    b = element("b");
+                    t1 = text("Premium ");
+                    t2 = text(t2_value);
+                    attr(div, "class", "battle-pass-promo__button");
+                },
+                m(target, anchor) {
+                    insert(target, div, anchor);
+                    append(div, t0);
+                    append(div, b);
+                    append(b, t1);
+                    append(b, t2);
+
+                    if (!mounted) {
+                        dispose = listen(div, "click", /*click_handler*/ ctx[2]);
+                        mounted = true;
+                    }
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$battlePassData*/ 1 && t2_value !== (t2_value = ( /*$battlePassData*/ ctx[0].premium === 1 ? '+' : '') + "")) set_data(t2, t2_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        detach(div);
+                    }
+
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        function promo_index_svelte_create_fragment(ctx) {
+            let div3;
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let t4;
+            let img;
+            let img_src_value;
+            let t5;
+            let if_block = /*$battlePassData*/ ctx[0].premium < 2 && promo_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div3 = element("div");
+                    div2 = element("div");
+                    div0 = element("div");
+                    div0.textContent = "Lamborghini Huracan Off-Road";
+                    t1 = space();
+                    div1 = element("div");
+                    div1.innerHTML = `Доступно на 45 ур. с <span class="battle-pass-promo__premium">Premium</span>`;
+                    t4 = space();
+                    img = element("img");
+                    t5 = space();
+                    if (if_block) if_block.c();
+                    attr(div0, "class", "battle-pass-promo__title");
+                    attr(div1, "class", "battle-pass-promo__caption");
+                    if (!src_url_equal(img.src, img_src_value = premiumCar)) attr(img, "src", img_src_value);
+                    attr(img, "alt", "car");
+                    attr(img, "class", "battle-pass-promo__image");
+                    attr(div2, "class", "battle-pass-promo__content");
+                    attr(div3, "class", "battle-pass-promo");
+                },
+                m(target, anchor) {
+                    insert(target, div3, anchor);
+                    append(div3, div2);
+                    append(div2, div0);
+                    append(div2, t1);
+                    append(div2, div1);
+                    append(div2, t4);
+                    append(div2, img);
+                    append(div2, t5);
+                    if (if_block) if_block.m(div2, null);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*$battlePassData*/ ctx[0].premium < 2) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = promo_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            if_block.m(div2, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i: noop,
+                o: noop,
+                d(detaching) {
+                    if (detaching) {
+                        detach(div3);
+                    }
+
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        function promo_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $currentPage;
+            let $battlePassData;
+            component_subscribe($$self, currentPage, $$value => $$invalidate(3, $currentPage = $$value));
+            component_subscribe($$self, battlePassData, $$value => $$invalidate(0, $battlePassData = $$value));
+
+            const purchasePremium = () => {
+                sendClientMessage('battlePass.promo.purchasePremium');
+                set_store_value(currentPage, $currentPage = MenuIds.PurchasePremium, $currentPage);
+            };
+
+            const click_handler = () => purchasePremium();
+            return [$battlePassData, purchasePremium, click_handler];
+        }
+
+        class Promo extends( /* unused pure expression or super */ null && (SvelteComponent)) {
+            constructor(options) {
+                super();
+                init(this, options, promo_index_svelte_instance, promo_index_svelte_create_fragment, safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const promo_index_svelte = (( /* unused pure expression or super */ null && (Promo)));; // CONCATENATED MODULE: ./src/views/arizona-pass/components/donate/index.svelte
         /* src\views\arizona-pass\components\donate\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -166238,7 +167773,8 @@
         var radialPlayerKeyName = store_writable(null);
         var minimalizeHotkeys = store_writable(false);
         var battlepassButtonAnimation = store_writable(true);
-        var hotKeysNotificationInformation = store_writable({});; // CONCATENATED MODULE: ./src/views/hud/components/hotkeys-tips/index.svelte
+        var hotKeysNotificationInformation = store_writable({});
+        var bossHp = store_writable({});; // CONCATENATED MODULE: ./src/views/hud/components/hotkeys-tips/index.svelte
         /* src\views\hud\components\hotkeys-tips\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -166314,7 +167850,7 @@
                     div0.textContent = "B";
                     t1 = dom_space();
                     div1 = dom_element("div");
-                    div1.innerHTML = `ХЭЛЛОУИНСКИЕ ГРЁЗЫ<span class="hotkeys-tips__tip-text--emoji">🎃</span><span class="hotkeys-tips__tip-text--halloween-accent">(акции)</span>`;
+                    div1.innerHTML = `ДЕНЬ МЁРТВЫХ<span class="hotkeys-tips__tip-text--emoji">☠️</span><span class="hotkeys-tips__tip-text--halloween-accent">(акции)</span>`;
                     t5 = dom_space();
                     if (if_block0) if_block0.c();
                     t6 = dom_space();
@@ -169177,7 +170713,7 @@
             return child_ctx;
         }
 
-        // (104:0) {#if visible}
+        // (108:0) {#if visible}
         function arizona_pass_notification_index_svelte_create_if_block(ctx) {
             let div;
             let t0;
@@ -169333,7 +170869,7 @@
             };
         }
 
-        // (110:2) {#if withImage}
+        // (114:2) {#if withImage}
         function arizona_pass_notification_index_svelte_create_if_block_5(ctx) {
             let img;
             let img_src_value;
@@ -169361,7 +170897,7 @@
             };
         }
 
-        // (114:2) {#if title}
+        // (118:2) {#if title}
         function arizona_pass_notification_index_svelte_create_if_block_4(ctx) {
             let p;
             let t;
@@ -169372,7 +170908,6 @@
                     t = dom_text( /*title*/ ctx[3]);
                     dom_attr(p, "class", "arizona-pass-hud-notification__title");
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--ny", /*imageType*/ ctx[1] === 12);
-                    dom_toggle_class(p, "arizona-pass-hud-notification__title--space", /*imageType*/ ctx[1] === 16);
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--calendarnew", /*imageType*/ ctx[1] === 17);
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--battlepass", /*imageType*/ ctx[1] === 18);
                 },
@@ -169385,10 +170920,6 @@
 
                     if (dirty & /*imageType*/ 2) {
                         dom_toggle_class(p, "arizona-pass-hud-notification__title--ny", /*imageType*/ ctx[1] === 12);
-                    }
-
-                    if (dirty & /*imageType*/ 2) {
-                        dom_toggle_class(p, "arizona-pass-hud-notification__title--space", /*imageType*/ ctx[1] === 16);
                     }
 
                     if (dirty & /*imageType*/ 2) {
@@ -169407,7 +170938,7 @@
             };
         }
 
-        // (126:2) {#if description}
+        // (129:2) {#if description}
         function arizona_pass_notification_index_svelte_create_if_block_3(ctx) {
             let p;
             let t;
@@ -169433,7 +170964,7 @@
             };
         }
 
-        // (132:2) {#if !isEmpty(rewards)}
+        // (135:2) {#if !isEmpty(rewards)}
         function arizona_pass_notification_index_svelte_create_if_block_2(ctx) {
             let div;
             let each_value = each_ensure_array_like( /*rewards*/ ctx[0]);
@@ -169496,7 +171027,7 @@
             };
         }
 
-        // (136:6) {#key imageType}
+        // (139:6) {#key imageType}
         function index_svelte_create_key_block(ctx) {
             let div;
             let img;
@@ -169533,7 +171064,7 @@
             };
         }
 
-        // (134:4) {#each rewards as reward}
+        // (137:4) {#each rewards as reward}
         function arizona_pass_notification_index_svelte_create_each_block(ctx) {
             let div;
             let previous_key = /*imageType*/ ctx[1];
@@ -169585,7 +171116,7 @@
             };
         }
 
-        // (149:2) {#if imageType < 3 || imageType === 11}
+        // (152:2) {#if imageType < 3 || imageType === 11}
         function arizona_pass_notification_index_svelte_create_if_block_1(ctx) {
             let div;
             let p;
@@ -169704,7 +171235,7 @@
                 9: 'arizona-pass-hud-notification__reward-image-wrapper-red',
                 12: 'arizona-pass-hud-notification__reward-image-wrapper-blue',
                 14: 'arizona-pass-hud-notification__reward-image-wrapper-calendar',
-                16: 'arizona-pass-hud-notification__reward-image-wrapper-space',
+                // 16: 'arizona-pass-hud-notification__reward-image-wrapper-space',
                 17: 'arizona-pass-hud-notification__reward-image-wrapper-calendarnew',
                 18: 'arizona-pass-hud-notification__reward-image-wrapper-battlepass',
                 default: 'arizona-pass-hud-notification__reward-image-wrapper'
@@ -169712,7 +171243,7 @@
 
             const titleStyleMap = {
                 12: true, // для класса arizona-pass-hud-notification__title--ny
-                16: true, // для класса arizona-pass-hud-notification__title--space
+                // 16: true, // для класса arizona-pass-hud-notification__title--space
                 17: true, // для класса arizona-pass-hud-notification__title--calendarnew
                 18: true, // для класса arizona-pass-hud-notification__title--battlepass
 
@@ -169749,6 +171280,10 @@
                 {
                     types: [18],
                     getPath: sysName => `${CDN_URL}/systems/battlepass/image_prize/${sysName}.webp`
+                },
+                {
+                    types: [19],
+                    getPath: sysName => `${CDN_URL}/assets/images/donate/${sysName}.webp`
                 },
                 {
                     types: ['default'],
@@ -170557,7 +172092,14 @@
         const record_signal_bottom_decorative_namespaceObject = __webpack_require__.p + "assets/12625d224424f4adf794.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/data-interception-logo.png
         const data_interception_logo_namespaceObject = __webpack_require__.p + "assets/f6b3b396e23eb4b44ff1.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/data-interception-bg.png
         const data_interception_bg_namespaceObject = __webpack_require__.p + "assets/b3073c352170c04932f5.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/data-interception-decorative.png
-        const data_interception_decorative_namespaceObject = __webpack_require__.p + "assets/9a5c254a41bd67b627be.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/killingAliens/img/logo.png
+        const data_interception_decorative_namespaceObject = __webpack_require__.p + "assets/9a5c254a41bd67b627be.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/sound-level-logo.png
+        const sound_level_logo_namespaceObject = __webpack_require__.p + "assets/9dcb1940f991b28e8560.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/sound-level-bg.png
+        const sound_level_bg_namespaceObject = __webpack_require__.p + "assets/e43a297f0b5af74c65b6.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/stored-energy-logo.png
+        const stored_energy_logo_namespaceObject = __webpack_require__.p + "assets/800b94b9baf565b4199c.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/stored-energy-bg.png
+        const stored_energy_bg_namespaceObject = __webpack_require__.p + "assets/14a85b15e6ddc1ceda4d.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/stored-energy-bottom-decorative.png
+        const stored_energy_bottom_decorative_namespaceObject = __webpack_require__.p + "assets/ee5a190ae69998e19ecf.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/killed-zombies-bg.png
+        const killed_zombies_bg_namespaceObject = __webpack_require__.p + "assets/a970e6c4150686bc8aff.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/img/killed-zombies-bottom-decorative.png
+        const killed_zombies_bottom_decorative_namespaceObject = __webpack_require__.p + "assets/745619df7a276935ba02.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/killingAliens/img/logo.png
         const killingAliens_img_logo_namespaceObject = __webpack_require__.p + "assets/ef7c86d0fd77da41622a.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/killingAliens/img/decorative.png
         const decorative_namespaceObject = __webpack_require__.p + "assets/5b34d2c8119891ae5938.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/killingAliens/index.svelte
         /* src\views\hud\components\customized-counter\partials\killingAliens\index.svelte generated by Svelte v4.2.8 */
@@ -170996,7 +172538,732 @@
         }
 
         /* harmony default export */
-        const flightHeight_index_svelte = (FlightHeight);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/constants.js
+        const flightHeight_index_svelte = (FlightHeight);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/homeDistance/index.svelte
+        /* src\views\hud\components\customized-counter\partials\homeDistance\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function homeDistance_index_svelte_create_fragment(ctx) {
+            let div4;
+            let div1;
+            let p0;
+            let t1;
+            let div0;
+            let p1;
+            let t2;
+            let t3;
+            let span;
+            let t5;
+            let div3;
+            let div2;
+            let p2;
+            let t7;
+            let p3;
+            let t8_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t8;
+
+            return {
+                c() {
+                    div4 = dom_element("div");
+                    div1 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "Расстояние до дома";
+                    t1 = dom_space();
+                    div0 = dom_element("div");
+                    p1 = dom_element("p");
+                    t2 = dom_text( /*counter*/ ctx[1]);
+                    t3 = dom_space();
+                    span = dom_element("span");
+                    span.textContent = "M";
+                    t5 = dom_space();
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    p2 = dom_element("p");
+                    p2.textContent = "осталось времени";
+                    t7 = dom_space();
+                    p3 = dom_element("p");
+                    t8 = dom_text(t8_value);
+                    dom_attr(p0, "class", "home-distance__header-logo");
+                    dom_attr(span, "class", "home-distance__header-timer-value--decorative");
+                    dom_attr(p1, "class", "home-distance__header-timer-value");
+                    dom_attr(div0, "class", "home-distance__header-timer");
+                    dom_attr(div1, "class", "home-distance__header");
+                    dom_attr(p2, "class", "home-distance__bottom-progress-title");
+                    dom_attr(p3, "class", "home-distance__bottom-progress-value");
+                    dom_attr(div2, "class", "home-distance__bottom-progress");
+                    dom_attr(div3, "class", "home-distance__bottom");
+                    dom_attr(div4, "class", "home-distance");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div4, anchor);
+                    dom_append(div4, div1);
+                    dom_append(div1, p0);
+                    dom_append(div1, t1);
+                    dom_append(div1, div0);
+                    dom_append(div0, p1);
+                    dom_append(p1, t2);
+                    dom_append(p1, t3);
+                    dom_append(p1, span);
+                    dom_append(div4, t5);
+                    dom_append(div4, div3);
+                    dom_append(div3, div2);
+                    dom_append(div2, p2);
+                    dom_append(div2, t7);
+                    dom_append(div2, p3);
+                    dom_append(p3, t8);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 2) dom_set_data(t2, /*counter*/ ctx[1]);
+                    if (dirty & /*time*/ 1 && t8_value !== (t8_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t8, t8_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div4);
+                    }
+                }
+            };
+        }
+
+        function homeDistance_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+                if ('counter' in $$props) $$invalidate(1, counter = $$props.counter);
+            };
+
+            return [time, counter];
+        }
+
+        class HomeDistance extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, homeDistance_index_svelte_instance, homeDistance_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0,
+                    counter: 1
+                });
+            }
+        }
+
+        /* harmony default export */
+        const homeDistance_index_svelte = (HomeDistance);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/busCondition/img/logo.png
+        const busCondition_img_logo_namespaceObject = __webpack_require__.p + "assets/d43f491286003a4fddcd.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/busCondition/index.svelte
+        /* src\views\hud\components\customized-counter\partials\busCondition\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function busCondition_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "прочность";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text( /*counter*/ ctx[0]);
+                    dom_attr(img, "class", "bus-condition__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = busCondition_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "bus-condition__bottom-progress-title");
+                    dom_attr(p1, "class", "bus-condition__bottom-progress-value");
+                    dom_attr(div0, "class", "bus-condition__bottom-progress");
+                    dom_attr(div1, "class", "bus-condition__header");
+                    dom_attr(div2, "class", "bus-condition");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 1) dom_set_data(t3, /*counter*/ ctx[0]);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function busCondition_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('counter' in $$props) $$invalidate(0, counter = $$props.counter);
+            };
+
+            return [counter];
+        }
+
+        class BusCondition extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, busCondition_index_svelte_instance, busCondition_index_svelte_create_fragment, utils_safe_not_equal, {
+                    counter: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const busCondition_index_svelte = (BusCondition);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/zombieMode/img/logo.png
+        const zombieMode_img_logo_namespaceObject = __webpack_require__.p + "assets/082ea45a9d3caee86f20.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/zombieMode/index.svelte
+        /* src\views\hud\components\customized-counter\partials\zombieMode\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function zombieMode_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t3;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "осталось";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text(t3_value);
+                    dom_attr(img, "class", "zombie-mode__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = zombieMode_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "zombie-mode__header-title");
+                    dom_attr(p1, "class", "zombie-mode__header-timer-value");
+                    dom_attr(div0, "class", "zombie-mode__header-timer");
+                    dom_attr(div1, "class", "zombie-mode__header");
+                    dom_attr(div2, "class", "zombie-mode");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*time*/ 1 && t3_value !== (t3_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t3, t3_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function zombieMode_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+            };
+
+            return [time];
+        }
+
+        class ZombieMode extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, zombieMode_index_svelte_instance, zombieMode_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const zombieMode_index_svelte = (ZombieMode);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/halloweenCoins/img/timer-logo.png
+        const timer_logo_namespaceObject = __webpack_require__.p + "assets/747690011c73cb6e7afd.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/halloweenCoins/index.svelte
+        /* src\views\hud\components\customized-counter\partials\halloweenCoins\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function halloweenCoins_index_svelte_create_fragment(ctx) {
+            let div5;
+            let div2;
+            let p0;
+            let t1;
+            let div1;
+            let img;
+            let img_src_value;
+            let t2;
+            let div0;
+            let p1;
+            let t4;
+            let p2;
+            let t5;
+            let t6;
+            let div4;
+            let div3;
+            let p3;
+            let t8;
+            let p4;
+            let t9_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t9;
+
+            return {
+                c() {
+                    div5 = dom_element("div");
+                    div2 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "Хеллуинские монеты";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t2 = dom_space();
+                    div0 = dom_element("div");
+                    p1 = dom_element("p");
+                    p1.textContent = "Собрано";
+                    t4 = dom_space();
+                    p2 = dom_element("p");
+                    t5 = dom_text( /*counter*/ ctx[1]);
+                    t6 = dom_space();
+                    div4 = dom_element("div");
+                    div3 = dom_element("div");
+                    p3 = dom_element("p");
+                    p3.textContent = "осталось";
+                    t8 = dom_space();
+                    p4 = dom_element("p");
+                    t9 = dom_text(t9_value);
+                    dom_attr(p0, "class", "halloween-coins__header-logo");
+                    dom_attr(img, "class", "halloween-coins__header-timer-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = timer_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "timer-logo");
+                    dom_attr(p1, "class", "halloween-coins__header-timer-title");
+                    dom_attr(p2, "class", "halloween-coins__header-timer-value");
+                    dom_attr(div0, "class", "halloween-coins__header-timer-title-wrapper");
+                    dom_attr(div1, "class", "halloween-coins__header-timer");
+                    dom_attr(div2, "class", "halloween-coins__header");
+                    dom_attr(p3, "class", "halloween-coins__bottom-progress-title");
+                    dom_attr(p4, "class", "halloween-coins__bottom-progress-value");
+                    dom_attr(div3, "class", "halloween-coins__bottom-progress");
+                    dom_attr(div4, "class", "halloween-coins__bottom");
+                    dom_attr(div5, "class", "halloween-coins");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div5, anchor);
+                    dom_append(div5, div2);
+                    dom_append(div2, p0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t2);
+                    dom_append(div1, div0);
+                    dom_append(div0, p1);
+                    dom_append(div0, t4);
+                    dom_append(div0, p2);
+                    dom_append(p2, t5);
+                    dom_append(div5, t6);
+                    dom_append(div5, div4);
+                    dom_append(div4, div3);
+                    dom_append(div3, p3);
+                    dom_append(div3, t8);
+                    dom_append(div3, p4);
+                    dom_append(p4, t9);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 2) dom_set_data(t5, /*counter*/ ctx[1]);
+                    if (dirty & /*time*/ 1 && t9_value !== (t9_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t9, t9_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div5);
+                    }
+                }
+            };
+        }
+
+        function halloweenCoins_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+                if ('counter' in $$props) $$invalidate(1, counter = $$props.counter);
+            };
+
+            return [time, counter];
+        }
+
+        class HalloweenCoins extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, halloweenCoins_index_svelte_instance, halloweenCoins_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0,
+                    counter: 1
+                });
+            }
+        }
+
+        /* harmony default export */
+        const halloweenCoins_index_svelte = (HalloweenCoins);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/lordRingsSurvived/img/logo.png
+        const lordRingsSurvived_img_logo_namespaceObject = __webpack_require__.p + "assets/e2a992da7484bdd4e3e3.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/lordRingsSurvived/index.svelte
+        /* src\views\hud\components\customized-counter\partials\lordRingsSurvived\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function lordRingsSurvived_index_svelte_create_fragment(ctx) {
+            let div4;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t1;
+            let t2;
+            let div3;
+            let div2;
+            let p1;
+            let t4;
+            let p2;
+            let t5_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t5;
+
+            return {
+                c() {
+                    div4 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    t1 = dom_text( /*counter*/ ctx[1]);
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    p1 = dom_element("p");
+                    p1.textContent = "осталось";
+                    t4 = dom_space();
+                    p2 = dom_element("p");
+                    t5 = dom_text(t5_value);
+                    dom_attr(img, "class", "lord-rings__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = lordRingsSurvived_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "lord-rings__header-timer-value");
+                    dom_attr(div0, "class", "lord-rings__header-timer");
+                    dom_attr(div1, "class", "lord-rings__header");
+                    dom_attr(p1, "class", "lord-rings__bottom-progress-title");
+                    dom_attr(p2, "class", "lord-rings__bottom-progress-value");
+                    dom_attr(div2, "class", "lord-rings__bottom-progress");
+                    dom_attr(div3, "class", "lord-rings__bottom");
+                    dom_attr(div4, "class", "lord-rings");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div4, anchor);
+                    dom_append(div4, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(p0, t1);
+                    dom_append(div4, t2);
+                    dom_append(div4, div3);
+                    dom_append(div3, div2);
+                    dom_append(div2, p1);
+                    dom_append(div2, t4);
+                    dom_append(div2, p2);
+                    dom_append(p2, t5);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 2) dom_set_data(t1, /*counter*/ ctx[1]);
+                    if (dirty & /*time*/ 1 && t5_value !== (t5_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t5, t5_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div4);
+                    }
+                }
+            };
+        }
+
+        function lordRingsSurvived_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+                if ('counter' in $$props) $$invalidate(1, counter = $$props.counter);
+            };
+
+            return [time, counter];
+        }
+
+        class LordRingsSurvived extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, lordRingsSurvived_index_svelte_instance, lordRingsSurvived_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0,
+                    counter: 1
+                });
+            }
+        }
+
+        /* harmony default export */
+        const lordRingsSurvived_index_svelte = (LordRingsSurvived);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/ghostWorld/img/logo.png
+        const ghostWorld_img_logo_namespaceObject = __webpack_require__.p + "assets/9a274859b95268a4d1bb.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/ghostWorld/index.svelte
+        /* src\views\hud\components\customized-counter\partials\ghostWorld\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function ghostWorld_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t3;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "осталось";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text(t3_value);
+                    dom_attr(img, "class", "ghost-world__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = ghostWorld_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "ghost-world__bottom-progress-title");
+                    dom_attr(p1, "class", "ghost-world__bottom-progress-value");
+                    dom_attr(div0, "class", "ghost-world__bottom-progress");
+                    dom_attr(div1, "class", "ghost-world__header");
+                    dom_attr(div2, "class", "ghost-world");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*time*/ 1 && t3_value !== (t3_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t3, t3_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function ghostWorld_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+            };
+
+            return [time];
+        }
+
+        class GhostWorld extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, ghostWorld_index_svelte_instance, ghostWorld_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const ghostWorld_index_svelte = (GhostWorld);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/bossEnergy/img/logo.png
+        const bossEnergy_img_logo_namespaceObject = __webpack_require__.p + "assets/5302d430aa7c860fdb66.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/bossEnergy/index.svelte
+        /* src\views\hud\components\customized-counter\partials\bossEnergy\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function bossEnergy_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3;
+            let t4;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "энергия";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text( /*counter*/ ctx[0]);
+                    t4 = dom_text("%");
+                    dom_attr(img, "class", "boss-hp__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = bossEnergy_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "boss-hp__bottom-progress-title");
+                    dom_attr(p1, "class", "boss-hp__bottom-progress-value");
+                    dom_attr(div0, "class", "boss-hp__bottom-progress");
+                    dom_attr(div1, "class", "boss-hp__header");
+                    dom_attr(div2, "class", "boss-hp");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                    dom_append(p1, t4);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 1) dom_set_data(t3, /*counter*/ ctx[0]);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function bossEnergy_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('counter' in $$props) $$invalidate(0, counter = $$props.counter);
+            };
+
+            return [counter];
+        }
+
+        class BossEnergy extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, bossEnergy_index_svelte_instance, bossEnergy_index_svelte_create_fragment, utils_safe_not_equal, {
+                    counter: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const bossEnergy_index_svelte = (BossEnergy);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/constants.js
         var _MAP_TYPE_TO_INFORMAT;
 
         function customized_counter_constants_typeof(o) {
@@ -171062,6 +173329,20 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         var constants_Type = {
             Taxi: 'taxi',
             Bus: 'bus',
@@ -171081,7 +173362,17 @@
             KillingAliens: 'killingAliens',
             CosmoRace: 'cosmoRace',
             CosmoMan: 'cosmoMan',
-            FlightHeight: 'flightHeight'
+            FlightHeight: 'flightHeight',
+            SoundLevel: 'soundLevel',
+            StoredEnergy: 'storedEnergy',
+            HomeDistance: 'homeDistance',
+            BusCondition: 'busCondition',
+            KilledZombies: 'killedZombies',
+            ZombieMode: 'zombieMode',
+            HalloweenCoins: 'halloweenCoins',
+            LordRingsSurvived: 'lordRingsSurvived',
+            GhostWorld: 'ghostWorld',
+            BossEnergy: 'bossEnergy'
         };
         var MAP_TYPE_TO_INFORMATION = (_MAP_TYPE_TO_INFORMAT = {}, customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.Taxi, {
             logo: taximeter_logo_namespaceObject,
@@ -171117,7 +173408,7 @@
             background: easter_relay_bg_namespaceObject,
             decorative: easter_relay_decorative_namespaceObject,
             size: 'small'
-        }), customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.FarmerHealth, {
+        }), customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.FarmerHealth, {
             logo: farmer_hp_logo_namespaceObject,
             background: farmer_hp_bg_namespaceObject,
             counterTitle: 'Здоровье',
@@ -171148,6 +173439,33 @@
             component: cosmoMan_index_svelte
         }), constants_Type.FlightHeight, {
             component: flightHeight_index_svelte
+        }), constants_Type.SoundLevel, {
+            logo: sound_level_logo_namespaceObject,
+            background: sound_level_bg_namespaceObject,
+            counterTitle: 'DB'
+        }), customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.StoredEnergy, {
+            logo: stored_energy_logo_namespaceObject,
+            background: stored_energy_bg_namespaceObject,
+            counterTitle: 'ENERGY',
+            counterDecorative: stored_energy_bottom_decorative_namespaceObject
+        }), constants_Type.HomeDistance, {
+            component: homeDistance_index_svelte
+        }), constants_Type.BusCondition, {
+            component: busCondition_index_svelte
+        }), constants_Type.KilledZombies, {
+            background: killed_zombies_bg_namespaceObject,
+            counterTitle: 'Убито зомби',
+            counterDecorative: killed_zombies_bottom_decorative_namespaceObject
+        }), constants_Type.ZombieMode, {
+            component: zombieMode_index_svelte
+        }), constants_Type.HalloweenCoins, {
+            component: halloweenCoins_index_svelte
+        }), constants_Type.LordRingsSurvived, {
+            component: lordRingsSurvived_index_svelte
+        }), constants_Type.GhostWorld, {
+            component: ghostWorld_index_svelte
+        }), constants_Type.BossEnergy, {
+            component: bossEnergy_index_svelte
         }));; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/index.svelte
         /* src\views\hud\components\customized-counter\index.svelte generated by Svelte v4.2.8 */
 
@@ -171239,17 +173557,16 @@
             let div0;
             let t0;
             let t1;
-            let img;
-            let img_src_value;
             let t2;
             let div0_class_value;
             let t3;
             let div1_class_value;
             let div1_intro;
-            let if_block0 = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].background && customized_counter_index_svelte_create_if_block_7(ctx);
-            let if_block1 = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].decorative && customized_counter_index_svelte_create_if_block_6(ctx);
-            let if_block2 = /*selectedType*/ ctx[2] !== 'recordSignal' && customized_counter_index_svelte_create_if_block_5(ctx);
-            let if_block3 = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].size !== 'small' && customized_counter_index_svelte_create_if_block_2(ctx);
+            let if_block0 = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].background && customized_counter_index_svelte_create_if_block_8(ctx);
+            let if_block1 = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].decorative && customized_counter_index_svelte_create_if_block_7(ctx);
+            let if_block2 = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].logo && customized_counter_index_svelte_create_if_block_6(ctx);
+            let if_block3 = /*selectedType*/ ctx[2] !== 'recordSignal' && /*selectedType*/ ctx[2] !== 'soundLevel' && /*selectedType*/ ctx[2] !== 'storedEnergy' && customized_counter_index_svelte_create_if_block_5(ctx);
+            let if_block4 = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].size !== 'small' && customized_counter_index_svelte_create_if_block_2(ctx);
 
             return {
                 c() {
@@ -171259,14 +173576,11 @@
                     t0 = dom_space();
                     if (if_block1) if_block1.c();
                     t1 = dom_space();
-                    img = dom_element("img");
-                    t2 = dom_space();
                     if (if_block2) if_block2.c();
-                    t3 = dom_space();
+                    t2 = dom_space();
                     if (if_block3) if_block3.c();
-                    dom_attr(img, "class", "taximeter__main-logo");
-                    if (!utils_src_url_equal(img.src, img_src_value = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].logo)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "logo");
+                    t3 = dom_space();
+                    if (if_block4) if_block4.c();
                     dom_attr(div0, "class", div0_class_value = "taximeter__main taximeter__main--" + /*selectedType*/ ctx[2]);
                     dom_attr(div1, "class", div1_class_value = "taximeter taximeter--" + /*selectedType*/ ctx[2]);
                     dom_toggle_class(div1, "taximeter--small", MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].size === 'small');
@@ -171278,18 +173592,18 @@
                     dom_append(div0, t0);
                     if (if_block1) if_block1.m(div0, null);
                     dom_append(div0, t1);
-                    dom_append(div0, img);
-                    dom_append(div0, t2);
                     if (if_block2) if_block2.m(div0, null);
+                    dom_append(div0, t2);
+                    if (if_block3) if_block3.m(div0, null);
                     dom_append(div1, t3);
-                    if (if_block3) if_block3.m(div1, null);
+                    if (if_block4) if_block4.m(div1, null);
                 },
                 p(ctx, dirty) {
                     if (MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].background) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = customized_counter_index_svelte_create_if_block_7(ctx);
+                            if_block0 = customized_counter_index_svelte_create_if_block_8(ctx);
                             if_block0.c();
                             if_block0.m(div0, t0);
                         }
@@ -171302,7 +173616,7 @@
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = customized_counter_index_svelte_create_if_block_6(ctx);
+                            if_block1 = customized_counter_index_svelte_create_if_block_7(ctx);
                             if_block1.c();
                             if_block1.m(div0, t1);
                         }
@@ -171311,21 +173625,30 @@
                         if_block1 = null;
                     }
 
-                    if (dirty & /*selectedType*/ 4 && !utils_src_url_equal(img.src, img_src_value = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].logo)) {
-                        dom_attr(img, "src", img_src_value);
-                    }
-
-                    if ( /*selectedType*/ ctx[2] !== 'recordSignal') {
+                    if (MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].logo) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
-                            if_block2 = customized_counter_index_svelte_create_if_block_5(ctx);
+                            if_block2 = customized_counter_index_svelte_create_if_block_6(ctx);
                             if_block2.c();
-                            if_block2.m(div0, null);
+                            if_block2.m(div0, t2);
                         }
                     } else if (if_block2) {
                         if_block2.d(1);
                         if_block2 = null;
+                    }
+
+                    if ( /*selectedType*/ ctx[2] !== 'recordSignal' && /*selectedType*/ ctx[2] !== 'soundLevel' && /*selectedType*/ ctx[2] !== 'storedEnergy') {
+                        if (if_block3) {
+                            if_block3.p(ctx, dirty);
+                        } else {
+                            if_block3 = customized_counter_index_svelte_create_if_block_5(ctx);
+                            if_block3.c();
+                            if_block3.m(div0, null);
+                        }
+                    } else if (if_block3) {
+                        if_block3.d(1);
+                        if_block3 = null;
                     }
 
                     if (dirty & /*selectedType*/ 4 && div0_class_value !== (div0_class_value = "taximeter__main taximeter__main--" + /*selectedType*/ ctx[2])) {
@@ -171333,16 +173656,16 @@
                     }
 
                     if (MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].size !== 'small') {
-                        if (if_block3) {
-                            if_block3.p(ctx, dirty);
+                        if (if_block4) {
+                            if_block4.p(ctx, dirty);
                         } else {
-                            if_block3 = customized_counter_index_svelte_create_if_block_2(ctx);
-                            if_block3.c();
-                            if_block3.m(div1, null);
+                            if_block4 = customized_counter_index_svelte_create_if_block_2(ctx);
+                            if_block4.c();
+                            if_block4.m(div1, null);
                         }
-                    } else if (if_block3) {
-                        if_block3.d(1);
-                        if_block3 = null;
+                    } else if (if_block4) {
+                        if_block4.d(1);
+                        if_block4 = null;
                     }
 
                     if (dirty & /*selectedType*/ 4 && div1_class_value !== (div1_class_value = "taximeter taximeter--" + /*selectedType*/ ctx[2])) {
@@ -171373,6 +173696,7 @@
                     if (if_block1) if_block1.d();
                     if (if_block2) if_block2.d();
                     if (if_block3) if_block3.d();
+                    if (if_block4) if_block4.d();
                 }
             };
         }
@@ -171455,7 +173779,7 @@
         }
 
         // (79:16) {#if MAP_TYPE_TO_INFORMATION[selectedType].background}
-        function customized_counter_index_svelte_create_if_block_7(ctx) {
+        function customized_counter_index_svelte_create_if_block_8(ctx) {
             let img;
             let img_src_value;
 
@@ -171483,7 +173807,7 @@
         }
 
         // (86:16) {#if MAP_TYPE_TO_INFORMATION[selectedType].decorative}
-        function customized_counter_index_svelte_create_if_block_6(ctx) {
+        function customized_counter_index_svelte_create_if_block_7(ctx) {
             let img;
             let img_src_value;
 
@@ -171510,7 +173834,35 @@
             };
         }
 
-        // (98:16) {#if selectedType !== 'recordSignal'}
+        // (93:16) {#if MAP_TYPE_TO_INFORMATION[selectedType].logo}
+        function customized_counter_index_svelte_create_if_block_6(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    dom_attr(img, "class", "taximeter__main-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].logo)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*selectedType*/ 4 && !utils_src_url_equal(img.src, img_src_value = MAP_TYPE_TO_INFORMATION[ /*selectedType*/ ctx[2]].logo)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (100:16) {#if selectedType !== 'recordSignal' && selectedType !== 'soundLevel' && selectedType !== 'storedEnergy'}
         function customized_counter_index_svelte_create_if_block_5(ctx) {
             let div;
 
@@ -171548,7 +173900,7 @@
             };
         }
 
-        // (106:12) {#if MAP_TYPE_TO_INFORMATION[selectedType].size !== 'small'}
+        // (108:12) {#if MAP_TYPE_TO_INFORMATION[selectedType].size !== 'small'}
         function customized_counter_index_svelte_create_if_block_2(ctx) {
             let div2;
             let t0;
@@ -171635,7 +173987,7 @@
             };
         }
 
-        // (108:20) {#if MAP_TYPE_TO_INFORMATION[selectedType].counterDecorative}
+        // (110:20) {#if MAP_TYPE_TO_INFORMATION[selectedType].counterDecorative}
         function customized_counter_index_svelte_create_if_block_4(ctx) {
             let img;
             let img_src_value;
@@ -171663,7 +174015,7 @@
             };
         }
 
-        // (123:24) {:else}
+        // (125:24) {:else}
         function customized_counter_index_svelte_create_else_block_1(ctx) {
             let div;
             let t_value = `${/*counter*/ ctx[1]}` + "";
@@ -171690,7 +174042,7 @@
             };
         }
 
-        // (119:24) {#if selectedType === 'deliveryChickens' || selectedType === 'recordSignal' || selectedType === 'dataInterception'}
+        // (121:24) {#if selectedType === 'deliveryChickens' || selectedType === 'recordSignal' || selectedType === 'dataInterception'}
         function customized_counter_index_svelte_create_if_block_3(ctx) {
             let div;
             let t0_value = `${/*counter*/ ctx[1]}` + "";
@@ -175159,7 +177511,125 @@
         }
 
         /* harmony default export */
-        const case_banner_index_svelte = (Case_banner);; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/smile-invers.svg
+        const case_banner_index_svelte = (Case_banner);; // CONCATENATED MODULE: ./src/views/hud/components/boss-hp/img/logo.png
+        const boss_hp_img_logo_namespaceObject = __webpack_require__.p + "assets/055bbb434b45db208042.webp";; // CONCATENATED MODULE: ./src/views/hud/components/boss-hp/img/bg.png
+        const boss_hp_img_bg_namespaceObject = __webpack_require__.p + "assets/01487c814d079c6caa27.webp";; // CONCATENATED MODULE: ./src/views/hud/components/boss-hp/index.svelte
+        /* src\views\hud\components\boss-hp\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function boss_hp_index_svelte_add_css(target) {
+            append_styles(target, "svelte-au898i", ".hud-kraken.svelte-au898i{position:relative;display:flex;align-items:center;background-color:#1C0B24;border:2px solid rgba(255, 255, 255, 0.2);border-top-left-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-top-right-radius:max(calc((52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((52 * var(--global-scale) * var(--global-scale) * 0.44 - (52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-bottom-right-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-bottom-left-radius:max(calc((52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((52 * var(--global-scale) * var(--global-scale) * 0.44 - (52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((552 * var(--global-scale) * var(--global-scale) - 552 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((552 * var(--global-scale) * var(--global-scale) * 0.44 - (552 * var(--global-scale) * var(--global-scale) - 552 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((110 * var(--global-scale) * var(--global-scale) - 110 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((110 * var(--global-scale) * var(--global-scale) * 0.44 - (110 * var(--global-scale) * var(--global-scale) - 110 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-kraken__logo.svelte-au898i{z-index:2;position:absolute;left:0;bottom:0;height:max(calc((166 * var(--global-scale) * var(--global-scale) - 166 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((166 * var(--global-scale) * var(--global-scale) * 0.44 - (166 * var(--global-scale) * var(--global-scale) - 166 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-kraken__background.svelte-au898i{position:absolute;left:0;width:100%;height:100%}.hud-kraken__info.svelte-au898i{z-index:2;position:absolute;right:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-kraken__info-title.svelte-au898i{font-family:\"HeadingNowMedium\";color:#FFFFFF;text-transform:uppercase;font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-kraken__info-progress.svelte-au898i{display:flex;align-items:center;position:relative;background-color:rgba(178, 30, 45, 0.3);overflow:hidden;margin-top:max(calc((2 * var(--global-scale) * var(--global-scale) - 2 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((2 * var(--global-scale) * var(--global-scale) * 0.44 - (2 * var(--global-scale) * var(--global-scale) - 2 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((336 * var(--global-scale) * var(--global-scale) - 336 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((336 * var(--global-scale) * var(--global-scale) * 0.44 - (336 * var(--global-scale) * var(--global-scale) - 336 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-kraken__info-progress-value.svelte-au898i{background:linear-gradient(90deg, #B21E2D 0%, #E84C59 100%);position:absolute;left:0;height:100%;width:0;border-radius:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-kraken__info-value.svelte-au898i{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+        }
+
+        function boss_hp_index_svelte_create_fragment(ctx) {
+            let div3;
+            let img0;
+            let img0_src_value;
+            let t0;
+            let img1;
+            let img1_src_value;
+            let t1;
+            let div2;
+            let p0;
+            let t3;
+            let div1;
+            let div0;
+            let div0_style_value;
+            let t4;
+            let p1;
+            let t5_value = /*$bossHp*/ ctx[0].currentHp + "";
+            let t5;
+            let t6;
+            let t7_value = /*$bossHp*/ ctx[0].maxHp + "";
+            let t7;
+
+            return {
+                c() {
+                    div3 = dom_element("div");
+                    img0 = dom_element("img");
+                    t0 = dom_space();
+                    img1 = dom_element("img");
+                    t1 = dom_space();
+                    div2 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "Франкенштейн";
+                    t3 = dom_space();
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    t4 = dom_space();
+                    p1 = dom_element("p");
+                    t5 = dom_text(t5_value);
+                    t6 = dom_text(" / ");
+                    t7 = dom_text(t7_value);
+                    dom_attr(img0, "class", "hud-kraken__logo svelte-au898i");
+                    if (!utils_src_url_equal(img0.src, img0_src_value = boss_hp_img_logo_namespaceObject)) dom_attr(img0, "src", img0_src_value);
+                    dom_attr(img0, "alt", "kraken");
+                    dom_attr(img1, "class", "hud-kraken__background svelte-au898i");
+                    if (!utils_src_url_equal(img1.src, img1_src_value = boss_hp_img_bg_namespaceObject)) dom_attr(img1, "src", img1_src_value);
+                    dom_attr(img1, "alt", "background");
+                    dom_attr(p0, "class", "hud-kraken__info-title svelte-au898i");
+                    dom_attr(div0, "class", "hud-kraken__info-progress-value svelte-au898i");
+                    dom_attr(div0, "style", div0_style_value = `width: ${/*$bossHp*/ ctx[0].currentHp / (/*$bossHp*/ ctx[0].maxHp / 100)}%;`);
+                    dom_attr(div1, "class", "hud-kraken__info-progress svelte-au898i");
+                    dom_attr(p1, "class", "hud-kraken__info-value svelte-au898i");
+                    dom_attr(div2, "class", "hud-kraken__info svelte-au898i");
+                    dom_attr(div3, "class", "hud-kraken svelte-au898i");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div3, anchor);
+                    dom_append(div3, img0);
+                    dom_append(div3, t0);
+                    dom_append(div3, img1);
+                    dom_append(div3, t1);
+                    dom_append(div3, div2);
+                    dom_append(div2, p0);
+                    dom_append(div2, t3);
+                    dom_append(div2, div1);
+                    dom_append(div1, div0);
+                    dom_append(div2, t4);
+                    dom_append(div2, p1);
+                    dom_append(p1, t5);
+                    dom_append(p1, t6);
+                    dom_append(p1, t7);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*$bossHp*/ 1 && div0_style_value !== (div0_style_value = `width: ${/*$bossHp*/ ctx[0].currentHp / (/*$bossHp*/ ctx[0].maxHp / 100)}%;`)) {
+                        dom_attr(div0, "style", div0_style_value);
+                    }
+
+                    if (dirty & /*$bossHp*/ 1 && t5_value !== (t5_value = /*$bossHp*/ ctx[0].currentHp + "")) dom_set_data(t5, t5_value);
+                    if (dirty & /*$bossHp*/ 1 && t7_value !== (t7_value = /*$bossHp*/ ctx[0].maxHp + "")) dom_set_data(t7, t7_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div3);
+                    }
+                }
+            };
+        }
+
+        function boss_hp_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $bossHp;
+            utils_component_subscribe($$self, bossHp, $$value => $$invalidate(0, $bossHp = $$value));
+            return [$bossHp];
+        }
+
+        class Boss_hp extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, boss_hp_index_svelte_instance, boss_hp_index_svelte_create_fragment, utils_safe_not_equal, {}, boss_hp_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const boss_hp_index_svelte = (Boss_hp);; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/smile-invers.svg
         const smile_invers_namespaceObject = __webpack_require__.p + "assets/81b09e54634b4ac82793.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/shaking-hand.svg
         const shaking_hand_namespaceObject = __webpack_require__.p + "assets/9357df67a188ef3c0d9e.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/shushing.svg
         const shushing_namespaceObject = __webpack_require__.p + "assets/4f04498e4a2de8f674bf.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/hourglass.svg
@@ -179422,7 +181892,8 @@
 
 
 
-        function index_svelte_create_if_block_15(ctx) {
+
+        function index_svelte_create_if_block_16(ctx) {
             let div;
             let promo;
             let current;
@@ -179434,9 +181905,9 @@
                     create_component(promo.$$.fragment);
                     dom_attr(div, "class", "hud__promo");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[14].left}px`);
+                        `${/*$radarRect*/ ctx[15].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -179444,10 +181915,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[14].left}px`);
+                            `${/*$radarRect*/ ctx[15].left}px`);
                     }
                 },
                 i(local) {
@@ -179469,8 +181940,8 @@
             };
         }
 
-        // (199:1) {#if bannerVisible}
-        function index_svelte_create_if_block_14(ctx) {
+        // (205:1) {#if bannerVisible}
+        function index_svelte_create_if_block_15(ctx) {
             let div;
             let azbanner;
             let current;
@@ -179482,9 +181953,9 @@
                     create_component(azbanner.$$.fragment);
                     dom_attr(div, "class", "hud__banner");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[14].left}px`);
+                        `${/*$radarRect*/ ctx[15].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -179492,10 +181963,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[14].left}px`);
+                            `${/*$radarRect*/ ctx[15].left}px`);
                     }
                 },
                 i(local) {
@@ -179517,8 +181988,8 @@
             };
         }
 
-        // (204:1) {#if customizedCounterVisible}
-        function index_svelte_create_if_block_13(ctx) {
+        // (210:1) {#if customizedCounterVisible}
+        function index_svelte_create_if_block_14(ctx) {
             let div;
             let customizedcounter;
             let current;
@@ -179530,13 +182001,13 @@
                     create_component(customizedcounter.$$.fragment);
                     dom_attr(div, "class", "hud__customized-counter");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[14].left}px`);
+                        `${/*$radarRect*/ ctx[15].left}px`);
 
-                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[14].bottom) ?
+                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
                         '' :
-                        `${window.innerHeight - /*$radarRect*/ ctx[14].top + 30}px`);
+                        `${window.innerHeight - /*$radarRect*/ ctx[15].top + 30}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -179544,16 +182015,16 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[14].left}px`);
+                            `${/*$radarRect*/ ctx[15].left}px`);
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[14].bottom) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
                             '' :
-                            `${window.innerHeight - /*$radarRect*/ ctx[14].top + 30}px`);
+                            `${window.innerHeight - /*$radarRect*/ ctx[15].top + 30}px`);
                     }
                 },
                 i(local) {
@@ -179575,8 +182046,8 @@
             };
         }
 
-        // (211:1) {#if trainVisible}
-        function index_svelte_create_if_block_12(ctx) {
+        // (217:1) {#if trainVisible}
+        function index_svelte_create_if_block_13(ctx) {
             let div;
             let train;
             let current;
@@ -179612,13 +182083,13 @@
             };
         }
 
-        // (216:1) {#if activeQuestVisible || (hotkeysVisible && hotkeysInitialized)}
-        function hud_index_svelte_create_if_block_9(ctx) {
+        // (222:1) {#if activeQuestVisible || (hotkeysVisible && hotkeysInitialized)}
+        function hud_index_svelte_create_if_block_10(ctx) {
             let div;
             let t;
             let current;
-            let if_block0 = /*activeQuestVisible*/ ctx[2] && hud_index_svelte_create_if_block_11(ctx);
-            let if_block1 = /*hotkeysVisible*/ ctx[3] && hud_index_svelte_create_if_block_10(ctx);
+            let if_block0 = /*activeQuestVisible*/ ctx[2] && index_svelte_create_if_block_12(ctx);
+            let if_block1 = /*hotkeysVisible*/ ctx[3] && hud_index_svelte_create_if_block_11(ctx);
 
             return {
                 c() {
@@ -179628,13 +182099,13 @@
                     if (if_block1) if_block1.c();
                     dom_attr(div, "class", "hud__behind-map-information");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].right) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].right) ?
                         '' :
-                        `${/*$radarRect*/ ctx[14].left + /*$radarRect*/ ctx[14].width}px`);
+                        `${/*$radarRect*/ ctx[15].left + /*$radarRect*/ ctx[15].width}px`);
 
-                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[14].bottom) ?
+                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
                         '' :
-                        `${window.innerHeight - /*$radarRect*/ ctx[14].bottom}px`);
+                        `${window.innerHeight - /*$radarRect*/ ctx[15].bottom}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -179650,7 +182121,7 @@
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = hud_index_svelte_create_if_block_11(ctx);
+                            if_block0 = index_svelte_create_if_block_12(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(div, t);
@@ -179671,7 +182142,7 @@
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
-                            if_block1 = hud_index_svelte_create_if_block_10(ctx);
+                            if_block1 = hud_index_svelte_create_if_block_11(ctx);
                             if_block1.c();
                             transitions_transition_in(if_block1, 1);
                             if_block1.m(div, null);
@@ -179686,16 +182157,16 @@
                         transitions_check_outros();
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].right) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].right) ?
                             '' :
-                            `${/*$radarRect*/ ctx[14].left + /*$radarRect*/ ctx[14].width}px`);
+                            `${/*$radarRect*/ ctx[15].left + /*$radarRect*/ ctx[15].width}px`);
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[14].bottom) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
                             '' :
-                            `${window.innerHeight - /*$radarRect*/ ctx[14].bottom}px`);
+                            `${window.innerHeight - /*$radarRect*/ ctx[15].bottom}px`);
                     }
                 },
                 i(local) {
@@ -179720,8 +182191,8 @@
             };
         }
 
-        // (224:3) {#if activeQuestVisible}
-        function hud_index_svelte_create_if_block_11(ctx) {
+        // (230:3) {#if activeQuestVisible}
+        function index_svelte_create_if_block_12(ctx) {
             let activequest;
             let current;
             activequest = new active_quest_index_svelte({});
@@ -179749,8 +182220,8 @@
             };
         }
 
-        // (227:3) {#if hotkeysVisible}
-        function hud_index_svelte_create_if_block_10(ctx) {
+        // (233:3) {#if hotkeysVisible}
+        function hud_index_svelte_create_if_block_11(ctx) {
             let hotkeystips;
             let current;
             hotkeystips = new hotkeys_tips_index_svelte({});
@@ -179778,15 +182249,15 @@
             };
         }
 
-        // (233:1) {#if $playerIsDriver}
-        function hud_index_svelte_create_if_block_8(ctx) {
+        // (239:1) {#if $playerIsDriver}
+        function hud_index_svelte_create_if_block_9(ctx) {
             let div;
             let speedometer;
             let current;
 
             speedometer = new speedometer_index_svelte({
                 props: {
-                    type: /*$speedometerType*/ ctx[15]
+                    type: /*$speedometerType*/ ctx[16]
                 }
             });
 
@@ -179803,7 +182274,7 @@
                 },
                 p(ctx, dirty) {
                     const speedometer_changes = {};
-                    if (dirty[0] & /*$speedometerType*/ 32768) speedometer_changes.type = /*$speedometerType*/ ctx[15];
+                    if (dirty[0] & /*$speedometerType*/ 65536) speedometer_changes.type = /*$speedometerType*/ ctx[16];
                     speedometer.$set(speedometer_changes);
                 },
                 i(local) {
@@ -179825,8 +182296,8 @@
             };
         }
 
-        // (238:1) {#if pubgBannerVisible}
-        function hud_index_svelte_create_if_block_7(ctx) {
+        // (244:1) {#if pubgBannerVisible}
+        function hud_index_svelte_create_if_block_8(ctx) {
             let pubgbanner;
             let current;
             pubgbanner = new pubg_banner_index_svelte({});
@@ -179854,15 +182325,15 @@
             };
         }
 
-        // (241:1) {#if $messengerNotificationsVisible && !isEmpty($messengerStoreNotification)}
-        function hud_index_svelte_create_if_block_6(ctx) {
+        // (247:1) {#if $messengerNotificationsVisible && !isEmpty($messengerStoreNotification)}
+        function hud_index_svelte_create_if_block_7(ctx) {
             let messengernotifications;
             let current;
 
             messengernotifications = new messenger_notifications_index_svelte({
                 props: {
-                    notification: /*$messengerStoreNotification*/ ctx[19],
-                    phoneOpened: /*$messengerStore*/ ctx[20].phoneOpened
+                    notification: /*$messengerStoreNotification*/ ctx[20],
+                    phoneOpened: /*$messengerStore*/ ctx[21].phoneOpened
                 }
             });
 
@@ -179876,8 +182347,8 @@
                 },
                 p(ctx, dirty) {
                     const messengernotifications_changes = {};
-                    if (dirty[0] & /*$messengerStoreNotification*/ 524288) messengernotifications_changes.notification = /*$messengerStoreNotification*/ ctx[19];
-                    if (dirty[0] & /*$messengerStore*/ 1048576) messengernotifications_changes.phoneOpened = /*$messengerStore*/ ctx[20].phoneOpened;
+                    if (dirty[0] & /*$messengerStoreNotification*/ 1048576) messengernotifications_changes.notification = /*$messengerStoreNotification*/ ctx[20];
+                    if (dirty[0] & /*$messengerStore*/ 2097152) messengernotifications_changes.phoneOpened = /*$messengerStore*/ ctx[21].phoneOpened;
                     messengernotifications.$set(messengernotifications_changes);
                 },
                 i(local) {
@@ -179895,8 +182366,8 @@
             };
         }
 
-        // (244:1) {#if geoPositionVisible}
-        function hud_index_svelte_create_if_block_5(ctx) {
+        // (250:1) {#if geoPositionVisible}
+        function hud_index_svelte_create_if_block_6(ctx) {
             let div;
             let geoposition;
             let current;
@@ -179908,13 +182379,13 @@
                     create_component(geoposition.$$.fragment);
                     dom_attr(div, "class", "hud__geo-position");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[14].left}px`);
+                        `${/*$radarRect*/ ctx[15].left}px`);
 
-                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[14].bottom) ?
+                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
                         '' :
-                        `${window.innerHeight - /*$radarRect*/ ctx[14].top}px`);
+                        `${window.innerHeight - /*$radarRect*/ ctx[15].top}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -179922,16 +182393,16 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[14].left}px`);
+                            `${/*$radarRect*/ ctx[15].left}px`);
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[14].bottom) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
                             '' :
-                            `${window.innerHeight - /*$radarRect*/ ctx[14].top}px`);
+                            `${window.innerHeight - /*$radarRect*/ ctx[15].top}px`);
                     }
                 },
                 i(local) {
@@ -179953,8 +182424,8 @@
             };
         }
 
-        // (253:1) {#if groupVisible}
-        function hud_index_svelte_create_if_block_4(ctx) {
+        // (259:1) {#if groupVisible}
+        function hud_index_svelte_create_if_block_5(ctx) {
             let div;
             let group;
             let current;
@@ -179966,9 +182437,9 @@
                     create_component(group.$$.fragment);
                     dom_attr(div, "class", "hud__group");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[14].left}px`);
+                        `${/*$radarRect*/ ctx[15].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -179976,10 +182447,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[14].left}px`);
+                            `${/*$radarRect*/ ctx[15].left}px`);
                     }
                 },
                 i(local) {
@@ -180001,8 +182472,8 @@
             };
         }
 
-        // (258:1) {#if warStatsVisible}
-        function hud_index_svelte_create_if_block_3(ctx) {
+        // (264:1) {#if warStatsVisible}
+        function hud_index_svelte_create_if_block_4(ctx) {
             let div;
             let warstats;
             let current;
@@ -180014,9 +182485,9 @@
                     create_component(warstats.$$.fragment);
                     dom_attr(div, "class", "hud__war-stats");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[14].left}px`);
+                        `${/*$radarRect*/ ctx[15].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -180024,10 +182495,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 16384) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[14].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[14].left}px`);
+                            `${/*$radarRect*/ ctx[15].left}px`);
                     }
                 },
                 i(local) {
@@ -180049,8 +182520,8 @@
             };
         }
 
-        // (263:1) {#if hotKeysNotificationVisible}
-        function hud_index_svelte_create_if_block_2(ctx) {
+        // (269:1) {#if hotKeysNotificationVisible}
+        function hud_index_svelte_create_if_block_3(ctx) {
             let div;
             let hotkeysnotification;
             let current;
@@ -180086,8 +182557,8 @@
             };
         }
 
-        // (268:1) {#if simpleLogoHudVisible}
-        function views_hud_index_svelte_create_if_block_1(ctx) {
+        // (274:1) {#if simpleLogoHudVisible}
+        function hud_index_svelte_create_if_block_2(ctx) {
             let div;
             let simplelogo;
             let current;
@@ -180123,8 +182594,8 @@
             };
         }
 
-        // (273:1) {#if caseBannerVisible}
-        function views_hud_index_svelte_create_if_block(ctx) {
+        // (279:1) {#if caseBannerVisible}
+        function views_hud_index_svelte_create_if_block_1(ctx) {
             let div;
             let casebanner;
             let current;
@@ -180160,6 +182631,43 @@
             };
         }
 
+        // (284:1) {#if bossHpVisible}
+        function views_hud_index_svelte_create_if_block(ctx) {
+            let div;
+            let bosshp;
+            let current;
+            bosshp = new boss_hp_index_svelte({});
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(bosshp.$$.fragment);
+                    dom_attr(div, "class", "hud__boss-hp");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(bosshp, div, null);
+                    current = true;
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(bosshp.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(bosshp.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(bosshp);
+                }
+            };
+        }
+
         function views_hud_index_svelte_create_fragment(ctx) {
             let div;
             let t0;
@@ -180171,29 +182679,31 @@
             let t5;
             let t6;
             let t7;
-            let show_if = /*$messengerNotificationsVisible*/ ctx[18] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[19]);
+            let show_if = /*$messengerNotificationsVisible*/ ctx[19] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[20]);
             let t8;
             let t9;
             let t10;
             let t11;
             let t12;
             let t13;
+            let t14;
             let current;
-            let if_block0 = /*promoVisible*/ ctx[12] && index_svelte_create_if_block_15(ctx);
-            let if_block1 = /*bannerVisible*/ ctx[0] && index_svelte_create_if_block_14(ctx);
-            let if_block2 = /*customizedCounterVisible*/ ctx[1] && index_svelte_create_if_block_13(ctx);
-            let if_block3 = /*trainVisible*/ ctx[4] && index_svelte_create_if_block_12(ctx);
-            let if_block4 = ( /*activeQuestVisible*/ ctx[2] || /*hotkeysVisible*/ ctx[3] && /*hotkeysInitialized*/ ctx[7]) && hud_index_svelte_create_if_block_9(ctx);
+            let if_block0 = /*promoVisible*/ ctx[13] && index_svelte_create_if_block_16(ctx);
+            let if_block1 = /*bannerVisible*/ ctx[0] && index_svelte_create_if_block_15(ctx);
+            let if_block2 = /*customizedCounterVisible*/ ctx[1] && index_svelte_create_if_block_14(ctx);
+            let if_block3 = /*trainVisible*/ ctx[4] && index_svelte_create_if_block_13(ctx);
+            let if_block4 = ( /*activeQuestVisible*/ ctx[2] || /*hotkeysVisible*/ ctx[3] && /*hotkeysInitialized*/ ctx[7]) && hud_index_svelte_create_if_block_10(ctx);
             arizonapassnotification = new arizona_pass_notification_index_svelte({});
-            let if_block5 = /*$playerIsDriver*/ ctx[17] && hud_index_svelte_create_if_block_8(ctx);
-            let if_block6 = /*pubgBannerVisible*/ ctx[5] && hud_index_svelte_create_if_block_7(ctx);
-            let if_block7 = show_if && hud_index_svelte_create_if_block_6(ctx);
-            let if_block8 = /*geoPositionVisible*/ ctx[6] && hud_index_svelte_create_if_block_5(ctx);
-            let if_block9 = /*groupVisible*/ ctx[8] && hud_index_svelte_create_if_block_4(ctx);
-            let if_block10 = /*warStatsVisible*/ ctx[9] && hud_index_svelte_create_if_block_3(ctx);
-            let if_block11 = /*hotKeysNotificationVisible*/ ctx[10] && hud_index_svelte_create_if_block_2(ctx);
-            let if_block12 = /*simpleLogoHudVisible*/ ctx[11] && views_hud_index_svelte_create_if_block_1(ctx);
-            let if_block13 = /*caseBannerVisible*/ ctx[13] && views_hud_index_svelte_create_if_block(ctx);
+            let if_block5 = /*$playerIsDriver*/ ctx[18] && hud_index_svelte_create_if_block_9(ctx);
+            let if_block6 = /*pubgBannerVisible*/ ctx[5] && hud_index_svelte_create_if_block_8(ctx);
+            let if_block7 = show_if && hud_index_svelte_create_if_block_7(ctx);
+            let if_block8 = /*geoPositionVisible*/ ctx[6] && hud_index_svelte_create_if_block_6(ctx);
+            let if_block9 = /*groupVisible*/ ctx[8] && hud_index_svelte_create_if_block_5(ctx);
+            let if_block10 = /*warStatsVisible*/ ctx[9] && hud_index_svelte_create_if_block_4(ctx);
+            let if_block11 = /*hotKeysNotificationVisible*/ ctx[10] && hud_index_svelte_create_if_block_3(ctx);
+            let if_block12 = /*simpleLogoHudVisible*/ ctx[11] && hud_index_svelte_create_if_block_2(ctx);
+            let if_block13 = /*caseBannerVisible*/ ctx[14] && views_hud_index_svelte_create_if_block_1(ctx);
+            let if_block14 = /*bossHpVisible*/ ctx[12] && views_hud_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
@@ -180227,11 +182737,13 @@
                     if (if_block12) if_block12.c();
                     t13 = dom_space();
                     if (if_block13) if_block13.c();
+                    t14 = dom_space();
+                    if (if_block14) if_block14.c();
                     dom_attr(div, "class", "hud");
 
                     set_style(div, "opacity", /*simpleLogoHudVisible*/ ctx[11] ?
                         1 :
-                        /*$hudOpacity*/ ctx[16]);
+                        /*$hudOpacity*/ ctx[17]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -180264,18 +182776,20 @@
                     if (if_block12) if_block12.m(div, null);
                     dom_append(div, t13);
                     if (if_block13) if_block13.m(div, null);
+                    dom_append(div, t14);
+                    if (if_block14) if_block14.m(div, null);
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ( /*promoVisible*/ ctx[12]) {
+                    if ( /*promoVisible*/ ctx[13]) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
 
-                            if (dirty[0] & /*promoVisible*/ 4096) {
+                            if (dirty[0] & /*promoVisible*/ 8192) {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = index_svelte_create_if_block_15(ctx);
+                            if_block0 = index_svelte_create_if_block_16(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(div, t0);
@@ -180298,7 +182812,7 @@
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
-                            if_block1 = index_svelte_create_if_block_14(ctx);
+                            if_block1 = index_svelte_create_if_block_15(ctx);
                             if_block1.c();
                             transitions_transition_in(if_block1, 1);
                             if_block1.m(div, t1);
@@ -180321,7 +182835,7 @@
                                 transitions_transition_in(if_block2, 1);
                             }
                         } else {
-                            if_block2 = index_svelte_create_if_block_13(ctx);
+                            if_block2 = index_svelte_create_if_block_14(ctx);
                             if_block2.c();
                             transitions_transition_in(if_block2, 1);
                             if_block2.m(div, t2);
@@ -180342,7 +182856,7 @@
                                 transitions_transition_in(if_block3, 1);
                             }
                         } else {
-                            if_block3 = index_svelte_create_if_block_12(ctx);
+                            if_block3 = index_svelte_create_if_block_13(ctx);
                             if_block3.c();
                             transitions_transition_in(if_block3, 1);
                             if_block3.m(div, t3);
@@ -180365,7 +182879,7 @@
                                 transitions_transition_in(if_block4, 1);
                             }
                         } else {
-                            if_block4 = hud_index_svelte_create_if_block_9(ctx);
+                            if_block4 = hud_index_svelte_create_if_block_10(ctx);
                             if_block4.c();
                             transitions_transition_in(if_block4, 1);
                             if_block4.m(div, t4);
@@ -180380,15 +182894,15 @@
                         transitions_check_outros();
                     }
 
-                    if ( /*$playerIsDriver*/ ctx[17]) {
+                    if ( /*$playerIsDriver*/ ctx[18]) {
                         if (if_block5) {
                             if_block5.p(ctx, dirty);
 
-                            if (dirty[0] & /*$playerIsDriver*/ 131072) {
+                            if (dirty[0] & /*$playerIsDriver*/ 262144) {
                                 transitions_transition_in(if_block5, 1);
                             }
                         } else {
-                            if_block5 = hud_index_svelte_create_if_block_8(ctx);
+                            if_block5 = hud_index_svelte_create_if_block_9(ctx);
                             if_block5.c();
                             transitions_transition_in(if_block5, 1);
                             if_block5.m(div, t6);
@@ -180409,7 +182923,7 @@
                                 transitions_transition_in(if_block6, 1);
                             }
                         } else {
-                            if_block6 = hud_index_svelte_create_if_block_7(ctx);
+                            if_block6 = hud_index_svelte_create_if_block_8(ctx);
                             if_block6.c();
                             transitions_transition_in(if_block6, 1);
                             if_block6.m(div, t7);
@@ -180424,17 +182938,17 @@
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 786432) show_if = /*$messengerNotificationsVisible*/ ctx[18] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[19]);
+                    if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 1572864) show_if = /*$messengerNotificationsVisible*/ ctx[19] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[20]);
 
                     if (show_if) {
                         if (if_block7) {
                             if_block7.p(ctx, dirty);
 
-                            if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 786432) {
+                            if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 1572864) {
                                 transitions_transition_in(if_block7, 1);
                             }
                         } else {
-                            if_block7 = hud_index_svelte_create_if_block_6(ctx);
+                            if_block7 = hud_index_svelte_create_if_block_7(ctx);
                             if_block7.c();
                             transitions_transition_in(if_block7, 1);
                             if_block7.m(div, t8);
@@ -180457,7 +182971,7 @@
                                 transitions_transition_in(if_block8, 1);
                             }
                         } else {
-                            if_block8 = hud_index_svelte_create_if_block_5(ctx);
+                            if_block8 = hud_index_svelte_create_if_block_6(ctx);
                             if_block8.c();
                             transitions_transition_in(if_block8, 1);
                             if_block8.m(div, t9);
@@ -180480,7 +182994,7 @@
                                 transitions_transition_in(if_block9, 1);
                             }
                         } else {
-                            if_block9 = hud_index_svelte_create_if_block_4(ctx);
+                            if_block9 = hud_index_svelte_create_if_block_5(ctx);
                             if_block9.c();
                             transitions_transition_in(if_block9, 1);
                             if_block9.m(div, t10);
@@ -180503,7 +183017,7 @@
                                 transitions_transition_in(if_block10, 1);
                             }
                         } else {
-                            if_block10 = hud_index_svelte_create_if_block_3(ctx);
+                            if_block10 = hud_index_svelte_create_if_block_4(ctx);
                             if_block10.c();
                             transitions_transition_in(if_block10, 1);
                             if_block10.m(div, t11);
@@ -180524,7 +183038,7 @@
                                 transitions_transition_in(if_block11, 1);
                             }
                         } else {
-                            if_block11 = hud_index_svelte_create_if_block_2(ctx);
+                            if_block11 = hud_index_svelte_create_if_block_3(ctx);
                             if_block11.c();
                             transitions_transition_in(if_block11, 1);
                             if_block11.m(div, t12);
@@ -180545,7 +183059,7 @@
                                 transitions_transition_in(if_block12, 1);
                             }
                         } else {
-                            if_block12 = views_hud_index_svelte_create_if_block_1(ctx);
+                            if_block12 = hud_index_svelte_create_if_block_2(ctx);
                             if_block12.c();
                             transitions_transition_in(if_block12, 1);
                             if_block12.m(div, t13);
@@ -180560,16 +183074,16 @@
                         transitions_check_outros();
                     }
 
-                    if ( /*caseBannerVisible*/ ctx[13]) {
+                    if ( /*caseBannerVisible*/ ctx[14]) {
                         if (if_block13) {
-                            if (dirty[0] & /*caseBannerVisible*/ 8192) {
+                            if (dirty[0] & /*caseBannerVisible*/ 16384) {
                                 transitions_transition_in(if_block13, 1);
                             }
                         } else {
-                            if_block13 = views_hud_index_svelte_create_if_block(ctx);
+                            if_block13 = views_hud_index_svelte_create_if_block_1(ctx);
                             if_block13.c();
                             transitions_transition_in(if_block13, 1);
-                            if_block13.m(div, null);
+                            if_block13.m(div, t14);
                         }
                     } else if (if_block13) {
                         transitions_group_outros();
@@ -180581,10 +183095,31 @@
                         transitions_check_outros();
                     }
 
-                    if (!current || dirty[0] & /*simpleLogoHudVisible, $hudOpacity*/ 67584) {
+                    if ( /*bossHpVisible*/ ctx[12]) {
+                        if (if_block14) {
+                            if (dirty[0] & /*bossHpVisible*/ 4096) {
+                                transitions_transition_in(if_block14, 1);
+                            }
+                        } else {
+                            if_block14 = views_hud_index_svelte_create_if_block(ctx);
+                            if_block14.c();
+                            transitions_transition_in(if_block14, 1);
+                            if_block14.m(div, null);
+                        }
+                    } else if (if_block14) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block14, 1, 1, () => {
+                            if_block14 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if (!current || dirty[0] & /*simpleLogoHudVisible, $hudOpacity*/ 133120) {
                         set_style(div, "opacity", /*simpleLogoHudVisible*/ ctx[11] ?
                             1 :
-                            /*$hudOpacity*/ ctx[16]);
+                            /*$hudOpacity*/ ctx[17]);
                     }
                 },
                 i(local) {
@@ -180604,6 +183139,7 @@
                     transitions_transition_in(if_block11);
                     transitions_transition_in(if_block12);
                     transitions_transition_in(if_block13);
+                    transitions_transition_in(if_block14);
                     current = true;
                 },
                 o(local) {
@@ -180622,6 +183158,7 @@
                     transitions_transition_out(if_block11);
                     transitions_transition_out(if_block12);
                     transitions_transition_out(if_block13);
+                    transitions_transition_out(if_block14);
                     current = false;
                 },
                 d(detaching) {
@@ -180644,12 +183181,14 @@
                     if (if_block11) if_block11.d();
                     if (if_block12) if_block12.d();
                     if (if_block13) if_block13.d();
+                    if (if_block14) if_block14.d();
                 }
             };
         }
 
         function views_hud_index_svelte_instance($$self, $$props, $$invalidate) {
             let $radarRect;
+            let $bossHp;
             let $battlepassButtonAnimation;
             let $minimalizeHotkeys;
             let $radialPlayerKeyName;
@@ -180673,30 +183212,31 @@
             let $messengerNotificationsVisible;
             let $messengerStoreNotification;
             let $messengerStore;
-            utils_component_subscribe($$self, radarRect, $$value => $$invalidate(14, $radarRect = $$value));
-            utils_component_subscribe($$self, battlepassButtonAnimation, $$value => $$invalidate(21, $battlepassButtonAnimation = $$value));
-            utils_component_subscribe($$self, minimalizeHotkeys, $$value => $$invalidate(22, $minimalizeHotkeys = $$value));
-            utils_component_subscribe($$self, radialPlayerKeyName, $$value => $$invalidate(23, $radialPlayerKeyName = $$value));
-            utils_component_subscribe($$self, radioPlayerKeyName, $$value => $$invalidate(24, $radioPlayerKeyName = $$value));
-            utils_component_subscribe($$self, workbookKeyName, $$value => $$invalidate(25, $workbookKeyName = $$value));
-            utils_component_subscribe($$self, workbookItemName, $$value => $$invalidate(26, $workbookItemName = $$value));
-            utils_component_subscribe($$self, hotKeysNotificationInformation, $$value => $$invalidate(27, $hotKeysNotificationInformation = $$value));
-            utils_component_subscribe($$self, playerUnreadStats, $$value => $$invalidate(28, $playerUnreadStats = $$value));
-            utils_component_subscribe($$self, phonePlayerKeyName, $$value => $$invalidate(29, $phonePlayerKeyName = $$value));
-            utils_component_subscribe($$self, familyRadioKeyName, $$value => $$invalidate(30, $familyRadioKeyName = $$value));
-            utils_component_subscribe($$self, fractionRadioKeyName, $$value => $$invalidate(31, $fractionRadioKeyName = $$value));
-            utils_component_subscribe($$self, speedometerType, $$value => $$invalidate(15, $speedometerType = $$value));
-            utils_component_subscribe($$self, nearBoomBox, $$value => $$invalidate(32, $nearBoomBox = $$value));
-            utils_component_subscribe($$self, vehicleFuelType, $$value => $$invalidate(33, $vehicleFuelType = $$value));
-            utils_component_subscribe($$self, vehicleMileage, $$value => $$invalidate(34, $vehicleMileage = $$value));
-            utils_component_subscribe($$self, vehicleLiters, $$value => $$invalidate(35, $vehicleLiters = $$value));
-            utils_component_subscribe($$self, vehiclePowerIsActive, $$value => $$invalidate(36, $vehiclePowerIsActive = $$value));
-            utils_component_subscribe($$self, vehiclePower, $$value => $$invalidate(37, $vehiclePower = $$value));
-            utils_component_subscribe($$self, hudOpacity, $$value => $$invalidate(16, $hudOpacity = $$value));
-            utils_component_subscribe($$self, playerIsDriver, $$value => $$invalidate(17, $playerIsDriver = $$value));
-            utils_component_subscribe($$self, messengerNotificationsVisible, $$value => $$invalidate(18, $messengerNotificationsVisible = $$value));
-            utils_component_subscribe($$self, messengerStoreNotification, $$value => $$invalidate(19, $messengerStoreNotification = $$value));
-            utils_component_subscribe($$self, messengerStore, $$value => $$invalidate(20, $messengerStore = $$value));
+            utils_component_subscribe($$self, radarRect, $$value => $$invalidate(15, $radarRect = $$value));
+            utils_component_subscribe($$self, bossHp, $$value => $$invalidate(22, $bossHp = $$value));
+            utils_component_subscribe($$self, battlepassButtonAnimation, $$value => $$invalidate(23, $battlepassButtonAnimation = $$value));
+            utils_component_subscribe($$self, minimalizeHotkeys, $$value => $$invalidate(24, $minimalizeHotkeys = $$value));
+            utils_component_subscribe($$self, radialPlayerKeyName, $$value => $$invalidate(25, $radialPlayerKeyName = $$value));
+            utils_component_subscribe($$self, radioPlayerKeyName, $$value => $$invalidate(26, $radioPlayerKeyName = $$value));
+            utils_component_subscribe($$self, workbookKeyName, $$value => $$invalidate(27, $workbookKeyName = $$value));
+            utils_component_subscribe($$self, workbookItemName, $$value => $$invalidate(28, $workbookItemName = $$value));
+            utils_component_subscribe($$self, hotKeysNotificationInformation, $$value => $$invalidate(29, $hotKeysNotificationInformation = $$value));
+            utils_component_subscribe($$self, playerUnreadStats, $$value => $$invalidate(30, $playerUnreadStats = $$value));
+            utils_component_subscribe($$self, phonePlayerKeyName, $$value => $$invalidate(31, $phonePlayerKeyName = $$value));
+            utils_component_subscribe($$self, familyRadioKeyName, $$value => $$invalidate(32, $familyRadioKeyName = $$value));
+            utils_component_subscribe($$self, fractionRadioKeyName, $$value => $$invalidate(33, $fractionRadioKeyName = $$value));
+            utils_component_subscribe($$self, speedometerType, $$value => $$invalidate(16, $speedometerType = $$value));
+            utils_component_subscribe($$self, nearBoomBox, $$value => $$invalidate(34, $nearBoomBox = $$value));
+            utils_component_subscribe($$self, vehicleFuelType, $$value => $$invalidate(35, $vehicleFuelType = $$value));
+            utils_component_subscribe($$self, vehicleMileage, $$value => $$invalidate(36, $vehicleMileage = $$value));
+            utils_component_subscribe($$self, vehicleLiters, $$value => $$invalidate(37, $vehicleLiters = $$value));
+            utils_component_subscribe($$self, vehiclePowerIsActive, $$value => $$invalidate(38, $vehiclePowerIsActive = $$value));
+            utils_component_subscribe($$self, vehiclePower, $$value => $$invalidate(39, $vehiclePower = $$value));
+            utils_component_subscribe($$self, hudOpacity, $$value => $$invalidate(17, $hudOpacity = $$value));
+            utils_component_subscribe($$self, playerIsDriver, $$value => $$invalidate(18, $playerIsDriver = $$value));
+            utils_component_subscribe($$self, messengerNotificationsVisible, $$value => $$invalidate(19, $messengerNotificationsVisible = $$value));
+            utils_component_subscribe($$self, messengerStoreNotification, $$value => $$invalidate(20, $messengerStoreNotification = $$value));
+            utils_component_subscribe($$self, messengerStore, $$value => $$invalidate(21, $messengerStore = $$value));
             let bannerVisible = true;
             let customizedCounterVisible = false;
             let activeQuestVisible = false;
@@ -180709,11 +183249,12 @@
             let warStatsVisible = false;
             let hotKeysNotificationVisible = false;
             let simpleLogoHudVisible = false;
+            let bossHpVisible = false;
             let promoVisible = false;
 
             // let promoVisibleTimer = null;
             const updatePromoVisibility = status => {
-                $$invalidate(12, promoVisible = status);
+                $$invalidate(13, promoVisible = status);
             };
             /*if (!isNil(promoVisibleTimer)) {
 	clearTimeout(promoVisibleTimer);
@@ -180765,7 +183306,9 @@ setTimeout(() => {
             const unregisterBattlepassButtonAnimation = registerEvent('event.arizonahud.battlepassButtonAnimation', value => utils_set_store_value(battlepassButtonAnimation, $battlepassButtonAnimation = value, $battlepassButtonAnimation));
             const unregisterSimpleLogoHud = registerEvent('event.arizonahud.simpleLogoHudVisible', value => $$invalidate(11, simpleLogoHudVisible = value));
             const unregisterUpdatePromoVisibility = registerEvent('event.arizonahud.promoVisible', updatePromoVisibility);
-            const unregisterCaseBannerVisibility = registerEvent('event.arizonahud.caseBannerVisible', value => $$invalidate(13, caseBannerVisible = value));
+            const unregisterCaseBannerVisibility = registerEvent('event.arizonahud.caseBannerVisible', value => $$invalidate(14, caseBannerVisible = value));
+            const unregisterBossHpVisibility = registerEvent('event.arizonahud.bossHpVisible', value => $$invalidate(12, bossHpVisible = value));
+            const unregisterSetBossHpStats = registerEvent('event.arizonahud.setBossHpStats', value => utils_set_store_value(bossHp, $bossHp = value, $bossHp));
 
             const triggerRadarRectUpdate = () => {
                 if (!window.cef || !window.cef.GetRadarRect) {
@@ -180836,6 +183379,7 @@ setTimeout(() => {
                 unregisterSimpleLogoHud();
                 unregisterUpdatePromoVisibility();
                 unregisterCaseBannerVisibility();
+                unregisterBossHpVisibility();
             });
 
             return [
@@ -180851,6 +183395,7 @@ setTimeout(() => {
                 warStatsVisible,
                 hotKeysNotificationVisible,
                 simpleLogoHudVisible,
+                bossHpVisible,
                 promoVisible,
                 caseBannerVisible,
                 $radarRect,
@@ -203669,11 +206214,16 @@ setTimeout(() => {
         const scene4_namespaceObject = __webpack_require__.p + "assets/203682aeedc4442d82b3.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene5.webm
         const scene5_namespaceObject = __webpack_require__.p + "assets/cb06ba0444710b717989.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene6.webm
         const scene6_namespaceObject = __webpack_require__.p + "assets/31203e98d5fa24d87984.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene7.webm
-        const scene7_namespaceObject = __webpack_require__.p + "assets/552dca20b39e0329888e.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/kat1.webm
-        const kat1_namespaceObject = __webpack_require__.p + "assets/f7e06faa54a80dc4014d.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/kat2.webm
-        const kat2_namespaceObject = __webpack_require__.p + "assets/27e8bdb099001ff8f5d4.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/kat3.webm
-        const kat3_namespaceObject = __webpack_require__.p + "assets/4d8a647cd468ca1c161d.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/kat4.webm
-        const kat4_namespaceObject = __webpack_require__.p + "assets/b82ec3bd7942d2fb7e40.webm";; // CONCATENATED MODULE: ./src/views/video-background/constants.js
+        const scene7_namespaceObject = __webpack_require__.p + "assets/552dca20b39e0329888e.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/graves_video_1.webm
+        const graves_video_1_namespaceObject = __webpack_require__.p + "assets/4210258de9866bfdc2f9.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/graves_video_2.webm
+        const graves_video_2_namespaceObject = __webpack_require__.p + "assets/8efbc434214c9ddaf8f4.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/graves_video_3.webm
+        const graves_video_3_namespaceObject = __webpack_require__.p + "assets/21963b3082d9a9f4cf48.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hld_ghost_world/ghost_world_1.webm
+        const ghost_world_1_namespaceObject = __webpack_require__.p + "assets/846a0e67600d5a557332.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/portal_effect.webm
+        const portal_effect_namespaceObject = __webpack_require__.p + "assets/e359fa7739dd34874bf5.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq8_1.webm
+        const hq8_1_namespaceObject = __webpack_require__.p + "assets/71a5f41d2881a6d199dd.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq8_2.webm
+        const hq8_2_namespaceObject = __webpack_require__.p + "assets/a6b0cea30c340c88662d.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq9_1.webm
+        const hq9_1_namespaceObject = __webpack_require__.p + "assets/846a0e67600d5a557332.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq10_1.webm
+        const hq10_1_namespaceObject = __webpack_require__.p + "assets/4c0fdd2cd95ae4b086de.webm";; // CONCATENATED MODULE: ./src/views/video-background/constants.js
         var _MAP_NAME_TO_VIDEO_SR, _MAP_VIDEO_IS_CONTROL, _MAP_NAME_TO_CLASS;
 
         function video_background_constants_typeof(o) {
@@ -203735,6 +206285,12 @@ setTimeout(() => {
 
 
 
+
+
+
+
+
+
         var PlayerStates = {
             Pause: 'pause',
             Play: 'play',
@@ -203765,14 +206321,20 @@ setTimeout(() => {
             armyQuestScene5: 'QuestArmyVideo5',
             armyQuestScene6: 'QuestArmyVideo6',
             armyQuestScene7: 'QuestArmyVideo7',
-            easterQuestScene1: 'QuestEasterVideo1',
-            easterQuestScene2: 'QuestEasterVideo2',
-            easterQuestScene3: 'QuestEasterVideo3',
-            easterQuestScene4: 'QuestEasterVideo4'
+            gravesEventScene1: 'graves_video_1',
+            gravesEventScene2: 'graves_video_2',
+            gravesEventScene3: 'graves_video_3',
+            ghostWorldScene1: 'ghost_world_1',
+            halloweenQuestScene1: 'QuestHalloweenVideo1',
+            halloweenQuestScene2: 'QuestHalloweenVideo2',
+            halloweenQuestScene3: 'QuestHalloweenVideo3',
+            halloweenQuestScene4: 'QuestHalloweenVideo4',
+            halloweenQuestScene5: 'QuestHalloweenVideo5',
+            halloweenQuestScene6: 'QuestHalloweenVideo6'
         };
-        var MAP_NAME_TO_VIDEO_SRC = (_MAP_NAME_TO_VIDEO_SR = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.Signin, auth_video_namespaceObject), Names.Signup, registration_video_namespaceObject), Names.SituationVideo1, situation_1_namespaceObject), Names.SituationVideo2, situation_2_namespaceObject), Names.CourtProcessVideo, court_process_namespaceObject), Names.CourtProcessVideo_2, court_process_2_namespaceObject), Names.halloweenScene1, video_1_namespaceObject), Names.halloweenScene2, video_2_namespaceObject), Names.halloweenScene3, video_3_namespaceObject), Names.halloweenScene4, video_4_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.halloweenScene5, video_5_namespaceObject), Names.halloweenScene6, video_6_namespaceObject), Names.halloweenScene7, video_7_namespaceObject), Names.halloweenScene8, video_8_namespaceObject), Names.halloweenScene9, video_9_namespaceObject), Names.armyQuestScene1, scene1_namespaceObject), Names.armyQuestScene2, scene2_namespaceObject), Names.armyQuestScene3, scene3_namespaceObject), Names.armyQuestScene4, scene4_namespaceObject), Names.armyQuestScene5, scene5_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.armyQuestScene6, scene6_namespaceObject), Names.armyQuestScene7, scene7_namespaceObject), Names.easterQuestScene1, kat1_namespaceObject), Names.easterQuestScene2, kat2_namespaceObject), Names.easterQuestScene3, kat3_namespaceObject), Names.easterQuestScene4, kat4_namespaceObject));
-        var MAP_VIDEO_IS_CONTROLABLE = (_MAP_VIDEO_IS_CONTROL = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.Signin, true), Names.Signup, true), Names.SituationVideo1, false), Names.SituationVideo2, false), Names.CourtProcessVideo, false), Names.CourtProcessVideo_2, false), Names.halloweenScene1, false), Names.halloweenScene2, false), Names.halloweenScene3, false), Names.halloweenScene4, false), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.halloweenScene5, false), Names.halloweenScene6, false), Names.halloweenScene7, false), Names.halloweenScene8, false), Names.halloweenScene9, false), Names.armyQuestScene1, false), Names.armyQuestScene2, false), Names.armyQuestScene3, false), Names.armyQuestScene4, false), Names.armyQuestScene5, false), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.armyQuestScene6, false), Names.armyQuestScene7, false), Names.easterQuestScene1, false), Names.easterQuestScene2, false), Names.easterQuestScene3, false), Names.easterQuestScene4, false));
-        var MAP_NAME_TO_CLASS = (_MAP_NAME_TO_CLASS = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.Signin, ''), Names.Signup, ''), Names.SituationVideo1, ''), Names.SituationVideo2, ''), Names.CourtProcessVideo, ''), Names.CourtProcessVideo_2, ''), Names.halloweenScene1, ''), Names.halloweenScene2, ''), Names.halloweenScene3, ''), Names.halloweenScene4, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.halloweenScene5, ''), Names.halloweenScene6, ''), Names.halloweenScene7, ''), Names.halloweenScene8, ''), Names.halloweenScene9, ''), Names.armyQuestScene1, ''), Names.armyQuestScene2, ''), Names.armyQuestScene3, ''), Names.armyQuestScene4, ''), Names.armyQuestScene5, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.armyQuestScene6, ''), Names.armyQuestScene7, ''), Names.easterQuestScene1, ''), Names.easterQuestScene2, ''), Names.easterQuestScene3, ''), Names.easterQuestScene4, ''));; // CONCATENATED MODULE: ./src/views/auth/components/sign-in-form/index.svelte
+        var MAP_NAME_TO_VIDEO_SRC = (_MAP_NAME_TO_VIDEO_SR = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.Signin, auth_video_namespaceObject), Names.Signup, registration_video_namespaceObject), Names.SituationVideo1, situation_1_namespaceObject), Names.SituationVideo2, situation_2_namespaceObject), Names.CourtProcessVideo, court_process_namespaceObject), Names.CourtProcessVideo_2, court_process_2_namespaceObject), Names.halloweenScene1, video_1_namespaceObject), Names.halloweenScene2, video_2_namespaceObject), Names.halloweenScene3, video_3_namespaceObject), Names.halloweenScene4, video_4_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.halloweenScene5, video_5_namespaceObject), Names.halloweenScene6, video_6_namespaceObject), Names.halloweenScene7, video_7_namespaceObject), Names.halloweenScene8, video_8_namespaceObject), Names.halloweenScene9, video_9_namespaceObject), Names.armyQuestScene1, scene1_namespaceObject), Names.armyQuestScene2, scene2_namespaceObject), Names.armyQuestScene3, scene3_namespaceObject), Names.armyQuestScene4, scene4_namespaceObject), Names.armyQuestScene5, scene5_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.armyQuestScene6, scene6_namespaceObject), Names.armyQuestScene7, scene7_namespaceObject), Names.gravesEventScene1, graves_video_1_namespaceObject), Names.gravesEventScene2, graves_video_2_namespaceObject), Names.gravesEventScene3, graves_video_3_namespaceObject), Names.ghostWorldScene1, ghost_world_1_namespaceObject), Names.halloweenQuestScene1, portal_effect_namespaceObject), Names.halloweenQuestScene2, hq8_1_namespaceObject), Names.halloweenQuestScene3, hq8_2_namespaceObject), Names.halloweenQuestScene4, hq9_1_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.halloweenQuestScene5, hq10_1_namespaceObject), Names.halloweenQuestScene6, hq10_1_namespaceObject));
+        var MAP_VIDEO_IS_CONTROLABLE = (_MAP_VIDEO_IS_CONTROL = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.Signin, true), Names.Signup, true), Names.SituationVideo1, false), Names.SituationVideo2, false), Names.CourtProcessVideo, false), Names.CourtProcessVideo_2, false), Names.halloweenScene1, false), Names.halloweenScene2, false), Names.halloweenScene3, false), Names.halloweenScene4, false), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.halloweenScene5, false), Names.halloweenScene6, false), Names.halloweenScene7, false), Names.halloweenScene8, false), Names.halloweenScene9, false), Names.armyQuestScene1, false), Names.armyQuestScene2, false), Names.armyQuestScene3, false), Names.armyQuestScene4, false), Names.armyQuestScene5, false), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.armyQuestScene6, false), Names.armyQuestScene7, false), Names.gravesEventScene1, false), Names.gravesEventScene2, false), Names.gravesEventScene3, false), Names.ghostWorldScene1, false), Names.halloweenQuestScene1, false), Names.halloweenQuestScene2, false), Names.halloweenQuestScene3, false), Names.halloweenQuestScene4, false), video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.halloweenQuestScene5, false), Names.halloweenQuestScene6, false));
+        var MAP_NAME_TO_CLASS = (_MAP_NAME_TO_CLASS = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.Signin, ''), Names.Signup, ''), Names.SituationVideo1, ''), Names.SituationVideo2, ''), Names.CourtProcessVideo, ''), Names.CourtProcessVideo_2, ''), Names.halloweenScene1, ''), Names.halloweenScene2, ''), Names.halloweenScene3, ''), Names.halloweenScene4, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.halloweenScene5, ''), Names.halloweenScene6, ''), Names.halloweenScene7, ''), Names.halloweenScene8, ''), Names.halloweenScene9, ''), Names.armyQuestScene1, ''), Names.armyQuestScene2, ''), Names.armyQuestScene3, ''), Names.armyQuestScene4, ''), Names.armyQuestScene5, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.armyQuestScene6, ''), Names.armyQuestScene7, ''), Names.gravesEventScene1, ''), Names.gravesEventScene2, ''), Names.gravesEventScene3, ''), Names.ghostWorldScene1, ''), Names.halloweenQuestScene1, ''), Names.halloweenQuestScene2, ''), Names.halloweenQuestScene3, ''), Names.halloweenQuestScene4, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.halloweenQuestScene5, ''), Names.halloweenQuestScene6, ''));; // CONCATENATED MODULE: ./src/views/auth/components/sign-in-form/index.svelte
         /* src\views\auth\components\sign-in-form\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -212456,7 +215018,21 @@ setTimeout(() => {
         const battle_drugs_start_namespaceObject = __webpack_require__.p + "assets/4145ab51debf20cc00a8.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/battle_drugs_end.png
         const battle_drugs_end_namespaceObject = __webpack_require__.p + "assets/4ba20b49ebadf4bd9f65.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/battle_oilrigs_start.png
         const battle_oilrigs_start_namespaceObject = __webpack_require__.p + "assets/23bed76d8a4bf89e1e21.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/battle_oilrigs_end.png
-        const battle_oilrigs_end_namespaceObject = __webpack_require__.p + "assets/8d3b478a366f33a21aca.webp";; // CONCATENATED MODULE: ./src/views/screamer/constants.js
+        const battle_oilrigs_end_namespaceObject = __webpack_require__.p + "assets/8d3b478a366f33a21aca.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/lord_ring_1.png
+        const lord_ring_1_namespaceObject = __webpack_require__.p + "assets/d37a0e382623a83c5a61.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/lord_ring_2.png
+        const lord_ring_2_namespaceObject = __webpack_require__.p + "assets/af3e722c03feaf7de025.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/zombie_event_start.png
+        const zombie_event_start_namespaceObject = __webpack_require__.p + "assets/613025a8a6eb31992b2d.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/zombie_event_finish.png
+        const zombie_event_finish_namespaceObject = __webpack_require__.p + "assets/4f85e99df4dec684b025.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_1.png
+        const scream_1_namespaceObject = __webpack_require__.p + "assets/60ec79698f4baed94012.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_2.png
+        const scream_2_namespaceObject = __webpack_require__.p + "assets/d1f1f044395c73b4a470.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_3.png
+        const scream_3_namespaceObject = __webpack_require__.p + "assets/87481f9f4d1be7b633ae.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_4.png
+        const scream_4_namespaceObject = __webpack_require__.p + "assets/d9c53553252155705e69.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_5.png
+        const scream_5_namespaceObject = __webpack_require__.p + "assets/7b6204a03444244ff69d.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_6.png
+        const scream_6_namespaceObject = __webpack_require__.p + "assets/fe5930a067b838765137.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_7.png
+        const scream_7_namespaceObject = __webpack_require__.p + "assets/c6f18e3e32971384ffd3.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_8.png
+        const scream_8_namespaceObject = __webpack_require__.p + "assets/04912594e312b23908bd.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_9.png
+        const scream_9_namespaceObject = __webpack_require__.p + "assets/f1ff75979d3c02f6d2a8.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_10.png
+        const scream_10_namespaceObject = __webpack_require__.p + "assets/631dc1969b55eb6cfe8c.webp";; // CONCATENATED MODULE: ./src/views/screamer/constants.js
         var _MAP_TYPE_TO_IMAGE;
 
         function screamer_constants_typeof(o) {
@@ -212512,6 +215088,20 @@ setTimeout(() => {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         var ScreamerId = {
             None: null,
             Halloween_1: 1,
@@ -212533,9 +215123,23 @@ setTimeout(() => {
             BattleGhettoStart: 17,
             BattleGhettoEnd: 18,
             BattleOilRigsStart: 19,
-            BattleOilRigsEnd: 20
+            BattleOilRigsEnd: 20,
+            LordRingStart: 21,
+            LordRingFinish: 22,
+            ZombieEventStart: 23,
+            ZombieEventFinish: 24,
+            Screamer_1: 25,
+            Screamer_2: 26,
+            Screamer_3: 27,
+            Screamer_4: 28,
+            Screamer_5: 29,
+            Screamer_6: 30,
+            Screamer_7: 31,
+            Screamer_8: 32,
+            Screamer_9: 33,
+            Screamer_10: 34
         };
-        var constants_MAP_TYPE_TO_IMAGE = (_MAP_TYPE_TO_IMAGE = {}, screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.Halloween_1, halloween_1_namespaceObject), ScreamerId.Halloween_2, halloween_2_namespaceObject), ScreamerId.Halloween_3, halloween_3_namespaceObject), ScreamerId.Halloween_4, halloween_4_namespaceObject), ScreamerId.Halloween_5, halloween_5_namespaceObject), ScreamerId.Halloween_6, halloween_6_namespaceObject), ScreamerId.Halloween_7, halloween_7_namespaceObject), ScreamerId.Halloween_8, halloween_8_namespaceObject), ScreamerId.Halloween_9, halloween_9_namespaceObject), ScreamerId.Slender, slender_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.DangeonStart, dng_start_namespaceObject), ScreamerId.DangeonLeave, dng_leave_namespaceObject), ScreamerId.CollectorStart, collector_start_namespaceObject), ScreamerId.CollectorLeave, collector_end_namespaceObject), ScreamerId.MadHuntStart, crazy_hunt_start_namespaceObject), ScreamerId.MadHuntLeave, crazy_hunt_end_namespaceObject), ScreamerId.BattleGhettoStart, battle_drugs_start_namespaceObject), ScreamerId.BattleGhettoEnd, battle_drugs_end_namespaceObject), ScreamerId.BattleOilRigsStart, battle_oilrigs_start_namespaceObject), ScreamerId.BattleOilRigsEnd, battle_oilrigs_end_namespaceObject));; // CONCATENATED MODULE: ./src/views/screamer/index.svelte
+        var constants_MAP_TYPE_TO_IMAGE = (_MAP_TYPE_TO_IMAGE = {}, screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.Halloween_1, halloween_1_namespaceObject), ScreamerId.Halloween_2, halloween_2_namespaceObject), ScreamerId.Halloween_3, halloween_3_namespaceObject), ScreamerId.Halloween_4, halloween_4_namespaceObject), ScreamerId.Halloween_5, halloween_5_namespaceObject), ScreamerId.Halloween_6, halloween_6_namespaceObject), ScreamerId.Halloween_7, halloween_7_namespaceObject), ScreamerId.Halloween_8, halloween_8_namespaceObject), ScreamerId.Halloween_9, halloween_9_namespaceObject), ScreamerId.Slender, slender_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.DangeonStart, dng_start_namespaceObject), ScreamerId.DangeonLeave, dng_leave_namespaceObject), ScreamerId.CollectorStart, collector_start_namespaceObject), ScreamerId.CollectorLeave, collector_end_namespaceObject), ScreamerId.MadHuntStart, crazy_hunt_start_namespaceObject), ScreamerId.MadHuntLeave, crazy_hunt_end_namespaceObject), ScreamerId.BattleGhettoStart, battle_drugs_start_namespaceObject), ScreamerId.BattleGhettoEnd, battle_drugs_end_namespaceObject), ScreamerId.BattleOilRigsStart, battle_oilrigs_start_namespaceObject), ScreamerId.BattleOilRigsEnd, battle_oilrigs_end_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.LordRingStart, lord_ring_1_namespaceObject), ScreamerId.LordRingFinish, lord_ring_2_namespaceObject), ScreamerId.ZombieEventStart, zombie_event_start_namespaceObject), ScreamerId.ZombieEventFinish, zombie_event_finish_namespaceObject), ScreamerId.Screamer_1, scream_1_namespaceObject), ScreamerId.Screamer_2, scream_2_namespaceObject), ScreamerId.Screamer_3, scream_3_namespaceObject), ScreamerId.Screamer_4, scream_4_namespaceObject), ScreamerId.Screamer_5, scream_5_namespaceObject), ScreamerId.Screamer_6, scream_6_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.Screamer_7, scream_7_namespaceObject), ScreamerId.Screamer_8, scream_8_namespaceObject), ScreamerId.Screamer_9, scream_9_namespaceObject), ScreamerId.Screamer_10, scream_10_namespaceObject));; // CONCATENATED MODULE: ./src/views/screamer/index.svelte
         /* src\views\screamer\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -212546,7 +215150,7 @@ setTimeout(() => {
 
 
         function screamer_index_svelte_add_css(target) {
-            append_styles(target, "svelte-a5amyb", ".screamer.svelte-a5amyb{display:flex;align-items:center;width:100vw;height:100vh;background-color:#111111}.screamer__img.svelte-a5amyb{width:100vw;min-height:100vh;opacity:1}@keyframes svelte-a5amyb-visibility{0%{opacity:0;transform:scale(1)}100%{opacity:1;transform:scale(1.1)}}@keyframes svelte-a5amyb-blind{0%{background-color:#FFFFFF}100%{background-color:#111111}}");
+            append_styles(target, "svelte-1gsblsn", ".screamer.svelte-1gsblsn{display:flex;align-items:center;justify-content:center;width:100vw;height:100vh;background-color:#111111}.screamer__img.svelte-1gsblsn{width:100vw;min-height:100vh;opacity:1}.screamer__img--full-height.svelte-1gsblsn{width:auto}@keyframes svelte-1gsblsn-visibility{0%{opacity:0;transform:scale(1)}100%{opacity:1;transform:scale(1.1)}}@keyframes svelte-1gsblsn-blind{0%{background-color:#FFFFFF}100%{background-color:#111111}}");
         }
 
         function screamer_index_svelte_create_fragment(ctx) {
@@ -212558,10 +215162,11 @@ setTimeout(() => {
                 c() {
                     div = dom_element("div");
                     img = dom_element("img");
-                    dom_attr(img, "class", "screamer__img svelte-a5amyb");
+                    dom_attr(img, "class", "screamer__img svelte-1gsblsn");
                     if (!utils_src_url_equal(img.src, img_src_value = constants_MAP_TYPE_TO_IMAGE[ /*selectedScreamerId*/ ctx[0]])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "screamer");
-                    dom_attr(div, "class", "screamer svelte-a5amyb");
+                    dom_toggle_class(img, "screamer__img--full-height", /*selectedScreamerId*/ ctx[0] >= 20 && /*selectedScreamerId*/ ctx[0] <= 34);
+                    dom_attr(div, "class", "screamer svelte-1gsblsn");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -212570,6 +215175,10 @@ setTimeout(() => {
                 p(ctx, [dirty]) {
                     if (dirty & /*selectedScreamerId*/ 1 && !utils_src_url_equal(img.src, img_src_value = constants_MAP_TYPE_TO_IMAGE[ /*selectedScreamerId*/ ctx[0]])) {
                         dom_attr(img, "src", img_src_value);
+                    }
+
+                    if (dirty & /*selectedScreamerId*/ 1) {
+                        dom_toggle_class(img, "screamer__img--full-height", /*selectedScreamerId*/ ctx[0] >= 20 && /*selectedScreamerId*/ ctx[0] <= 34);
                     }
                 },
                 i: utils_noop,
@@ -214792,7 +217401,7 @@ setTimeout(() => {
                 if ( /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]].progress !== /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]].maxProgress) return quests_index_svelte_create_if_block_6;
                 if (show_if_1 == null) show_if_1 = !! /*isNeedToTakeReward*/ ctx[10]( /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]]);
                 if (show_if_1) return quests_index_svelte_create_if_block_7;
-                return create_else_block_4;
+                return index_svelte_create_else_block_4;
             }
 
             let current_block_type = select_block_type(ctx, -1);
@@ -215035,7 +217644,7 @@ setTimeout(() => {
         }
 
         // (152:12) {:else}
-        function create_else_block_4(ctx) {
+        function index_svelte_create_else_block_4(ctx) {
             let div;
 
             return {
@@ -244458,7 +247067,11 @@ setTimeout(() => {
         const fire_namespaceObject = __webpack_require__.p + "assets/071d0f48593dbed4491e.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/berserkEffect.png
         const berserkEffect_namespaceObject = __webpack_require__.p + "assets/422d5d7323116e80e503.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/druidEffect.gif
         const druidEffect_namespaceObject = __webpack_require__.p + "assets/2bdce9e7564af13586a1.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/whiteFire.gif
-        const whiteFire_namespaceObject = __webpack_require__.p + "assets/08a359647d8dd0cda054.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/constants.js
+        const whiteFire_namespaceObject = __webpack_require__.p + "assets/08a359647d8dd0cda054.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/blueFire.gif
+        const blueFire_namespaceObject = __webpack_require__.p + "assets/7d8389cbf8b20cc1628a.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/greenFire.gif
+        const greenFire_namespaceObject = __webpack_require__.p + "assets/aab8544286ee11579491.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/constants.js
+
+
 
 
 
@@ -244509,7 +247122,51 @@ setTimeout(() => {
             9352: whiteFire_namespaceObject,
             9353: whiteFire_namespaceObject,
             9354: whiteFire_namespaceObject,
-            9355: whiteFire_namespaceObject
+            9355: whiteFire_namespaceObject,
+            9420: greenFire_namespaceObject,
+            9423: greenFire_namespaceObject,
+            9426: greenFire_namespaceObject,
+            9429: greenFire_namespaceObject,
+            9432: greenFire_namespaceObject,
+            9435: greenFire_namespaceObject,
+            9438: greenFire_namespaceObject,
+            9441: greenFire_namespaceObject,
+            9444: greenFire_namespaceObject,
+            9447: greenFire_namespaceObject,
+            9450: greenFire_namespaceObject,
+            9453: blueFire_namespaceObject,
+            9456: blueFire_namespaceObject,
+            9459: blueFire_namespaceObject,
+            9462: blueFire_namespaceObject,
+            9465: blueFire_namespaceObject,
+            9468: blueFire_namespaceObject,
+            9471: blueFire_namespaceObject,
+            9474: blueFire_namespaceObject,
+            9477: blueFire_namespaceObject,
+            9480: blueFire_namespaceObject,
+            9483: blueFire_namespaceObject,
+            9484: whiteFire_namespaceObject,
+            9485: whiteFire_namespaceObject,
+            9486: whiteFire_namespaceObject,
+            9487: whiteFire_namespaceObject,
+            9488: whiteFire_namespaceObject,
+            9489: whiteFire_namespaceObject,
+            9490: whiteFire_namespaceObject,
+            9491: whiteFire_namespaceObject,
+            9492: whiteFire_namespaceObject,
+            9493: whiteFire_namespaceObject,
+            9494: whiteFire_namespaceObject,
+            9495: whiteFire_namespaceObject,
+            9496: whiteFire_namespaceObject,
+            9497: whiteFire_namespaceObject,
+            9498: whiteFire_namespaceObject,
+            9499: whiteFire_namespaceObject,
+            9500: whiteFire_namespaceObject,
+            9501: whiteFire_namespaceObject,
+            9502: whiteFire_namespaceObject,
+            9503: whiteFire_namespaceObject,
+            9504: whiteFire_namespaceObject,
+            9505: whiteFire_namespaceObject
         };; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/index.svelte
         /* src\views\inventory\components\inventory-item\index.svelte generated by Svelte v4.2.8 */
 
@@ -252188,7 +254845,7 @@ setTimeout(() => {
         }
 
         // (414:7) {#if ($workshopCurrentTab !== WorkshopTabs.Repair && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer)}
-        function create_if_block_16(ctx) {
+        function workshop_index_svelte_create_if_block_16(ctx) {
             let div2;
             let div0;
 
@@ -253089,7 +255746,7 @@ setTimeout(() => {
 
             let current_block_type = select_block_type(ctx, [-1, -1]);
             let if_block0 = current_block_type && current_block_type(ctx);
-            let if_block1 = /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Repair && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer && create_if_block_16(ctx);
+            let if_block1 = /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Repair && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_16(ctx);
             let if_block2 = show_if_3 && workshop_index_svelte_create_if_block_12(ctx);
 
             function select_block_type_1(ctx, dirty) {
@@ -253411,7 +256068,7 @@ setTimeout(() => {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = create_if_block_16(ctx);
+                            if_block1 = workshop_index_svelte_create_if_block_16(ctx);
                             if_block1.c();
                             if_block1.m(div10, null);
                         }
@@ -254354,7 +257011,7 @@ setTimeout(() => {
             let show_if;
             let current_block_type_index;
             let if_block;
-            const if_block_creators = [craft_index_svelte_create_if_block_15, index_svelte_create_if_block_16, craft_index_svelte_create_else_block_1];
+            const if_block_creators = [craft_index_svelte_create_if_block_15, craft_index_svelte_create_if_block_16, craft_index_svelte_create_else_block_1];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
@@ -254464,7 +257121,7 @@ setTimeout(() => {
         }
 
         // (317:29) 
-        function index_svelte_create_if_block_16(ctx) {
+        function craft_index_svelte_create_if_block_16(ctx) {
             let div;
             let div_transition;
             let current;
@@ -270927,8 +273584,7 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const rewards_new_year_index_svelte = (Rewards_new_year);; // CONCATENATED MODULE: ./src/views/blueprint/img/drafts.svg
-        const drafts_namespaceObject = __webpack_require__.p + "assets/7ca26975f70796cb1981.svg";; // CONCATENATED MODULE: ./src/views/blueprint/components/rpg/index.svelte
+        const rewards_new_year_index_svelte = (Rewards_new_year);; // CONCATENATED MODULE: ./src/views/blueprint/components/rpg/index.svelte
         /* src\views\blueprint\components\rpg\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -274570,7 +277226,628 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const pipeFive_index_svelte = (PipeFive);; // CONCATENATED MODULE: ./src/views/blueprint/constants.js
+        const pipeFive_index_svelte = (PipeFive);; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/contour/pumpkin.svg
+        const pumpkin_namespaceObject = __webpack_require__.p + "assets/f8fda578625a069e3e5d.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/fullColor/pumpkin.svg
+        const fullColor_pumpkin_namespaceObject = __webpack_require__.p + "assets/fd74f9b7940695b1f864.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/contour/hand-left.svg
+        const hand_left_namespaceObject = __webpack_require__.p + "assets/9d6fbb7cbb9c771b1c83.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/fullColor/hand-left.svg
+        const fullColor_hand_left_namespaceObject = __webpack_require__.p + "assets/8ab78b060a817d0eacd1.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/contour/hand-right.svg
+        const hand_right_namespaceObject = __webpack_require__.p + "assets/2c0de9f55e08825ed421.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/fullColor/hand-right.svg
+        const fullColor_hand_right_namespaceObject = __webpack_require__.p + "assets/f7e76126d2717316dd71.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/contour/leg-left.svg
+        const leg_left_namespaceObject = __webpack_require__.p + "assets/1a9102e86bced8f2c766.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/fullColor/leg-left.svg
+        const fullColor_leg_left_namespaceObject = __webpack_require__.p + "assets/343c50b2d67412aeab0e.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/contour/leg-right.svg
+        const leg_right_namespaceObject = __webpack_require__.p + "assets/b6df673264075bf5632c.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/fullColor/leg-right.svg
+        const fullColor_leg_right_namespaceObject = __webpack_require__.p + "assets/57be3f90d274a2a757d2.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/contour/ribs.svg
+        const ribs_namespaceObject = __webpack_require__.p + "assets/5b553a88a46a6c8683c9.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/halloween/fullColor/ribs.svg
+        const fullColor_ribs_namespaceObject = __webpack_require__.p + "assets/0d70372e25c03e64170f.svg";; // CONCATENATED MODULE: ./node_modules/@elron/svelte-audio-store/dist/AudioStore.js
+
+        function createAudioStore(sounds) {
+            const {
+                subscribe,
+                set,
+                update
+            } = store_writable([]);
+            /**
+             * A utility function to fade an audio element in or out.
+             * @param audio - The HTML audio element to fade.
+             * @param fadeIn - Whether to fade in (true) or out (false).
+             * @param duration - The duration over which the fade should occur.
+             */
+            const fadeAudio = (audio, fadeIn, duration) => {
+                const step = 0.05;
+                const interval = duration * step;
+                if (fadeIn) {
+                    audio.volume = 0;
+                    let volume = 0;
+                    const fadeInterval = setInterval(() => {
+                        volume += step;
+                        audio.volume = volume;
+                        if (volume >= 1)
+                            clearInterval(fadeInterval);
+                    }, interval);
+                } else {
+                    let volume = 1;
+                    const fadeInterval = setInterval(() => {
+                        volume -= step;
+                        audio.volume = volume;
+                        if (volume <= 0) {
+                            audio.pause();
+                            clearInterval(fadeInterval);
+                        }
+                    }, interval);
+                }
+            };
+            return {
+                /**
+                 * Subscribe to the audio store to be notified of changes.
+                 */
+                subscribe,
+                /**
+                 * Preloads all the sounds specified during the store's creation.
+                 * This ensures sounds are loaded into memory for faster playbacks.
+                 */
+                preload: () => {
+                    // Preload sounds based on provided dictionary
+                    Object.values(sounds).forEach((src) => {
+                        const audio = new Audio(src);
+                        audio.preload = 'auto';
+                        audio.load();
+                    });
+                },
+                /**
+                 * Play a specific sound by its key with optional playback settings.
+                 * @param key - The key of the sound to play.
+                 * @param options - Playback settings such as volume, pitch, and trimming.
+                 */
+                play: (key, options = {}) => {
+                    const src = sounds[key];
+                    if (!src) {
+                        console.error(`Sound "${key}" not found.`);
+                        return;
+                    }
+                    const audio = new Audio(src);
+                    audio.loop = options.loop || false;
+                    if (options.volume !== undefined) {
+                        audio.volume = options.volume;
+                    }
+                    if (options.pitch) {
+                        audio.playbackRate = options.pitch; // Adjusting the pitch (and speed) of the sound
+                    }
+                    // Adjust the preservesPitch property based on the option provided
+                    if (typeof audio.preservesPitch !== 'undefined') {
+                        audio.preservesPitch = options.preservesPitch || false;
+                    } else if (typeof audio.mozPreservesPitch !== 'undefined') {
+                        // For Firefox
+                        audio.mozPreservesPitch = options.preservesPitch || false;
+                    }
+                    if (options.trim) {
+                        if (options.trim.start) {
+                            audio.currentTime = options.trim.start;
+                        }
+                        if (options.trim.stop !== undefined) {
+                            audio.addEventListener('timeupdate', function checkTime() {
+                                if (audio.currentTime >= options.trim.stop) {
+                                    // We can safely use the non-null assertion here because we're inside the `if (options.trim)` check
+                                    audio.pause();
+                                    audio.removeEventListener('timeupdate', checkTime);
+                                    if (!options.fade) {
+                                        update((instances) => instances.filter((instance) => instance.audio !== audio));
+                                    } else {
+                                        fadeAudio(audio, false, options.fade);
+                                    }
+                                }
+                            });
+                        }
+                    }
+                    if (options.fade) {
+                        fadeAudio(audio, true, options.fade);
+                    }
+                    audio.onended = () => {
+                        update((instances) => instances.filter((instance) => instance.audio !== audio));
+                    };
+                    audio.play();
+                    update((instances) => [...instances, {
+                        audio,
+                        key
+                    }]);
+                },
+                /**
+                 * Stop a specific sound by its key with optional settings.
+                 * @param key - The key of the sound to stop.
+                 * @param options - Settings such as fade out duration.
+                 */
+                stop: (key, options = {}) => {
+                    update((instances) => {
+                        const toStop = instances.filter((instance) => instance.key === key);
+                        toStop.forEach((instance) => {
+                            if (options.fade) {
+                                fadeAudio(instance.audio, false, options.fade);
+                                setTimeout(() => instance.audio.pause(), options.fade);
+                            } else {
+                                instance.audio.pause();
+                            }
+                        });
+                        return instances.filter((instance) => !toStop.includes(instance));
+                    });
+                },
+                /**
+                 * Set the volume for all currently playing sounds.
+                 * @param volume - The volume level to set (0.0 to 1.0).
+                 */
+                setVolume: (volume) => {
+                    update((instances) => {
+                        instances.forEach((instance) => (instance.audio.volume = volume));
+                        return instances;
+                    });
+                }
+            };
+        }
+
+        ; // CONCATENATED MODULE: ./node_modules/@elron/svelte-audio-store/dist/index.js
+        // Reexport your entry components here
+
+
+        ; // CONCATENATED MODULE: ./src/views/blueprint/components/halloweenBox/sounds/click.mp3
+        const sounds_click_namespaceObject = __webpack_require__.p + "assets/c841cf38e4178dd363cc.mp3";; // CONCATENATED MODULE: ./src/views/blueprint/components/halloweenBox/sounds.js
+
+
+        var soundManager = createAudioStore({
+            click: sounds_click_namespaceObject
+        });; // CONCATENATED MODULE: ./src/views/blueprint/components/halloweenBox/index.svelte
+        /* src\views\blueprint\components\halloweenBox\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function halloweenBox_index_svelte_add_css(target) {
+            append_styles(target, "svelte-1b2v0x5", ".blueprint-halloween-box.svelte-1b2v0x5{height:100%}.blueprint-halloween-box__images.svelte-1b2v0x5{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;min-width:max(calc((1100 * var(--global-scale) * var(--global-scale) - 1100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((1100 * var(--global-scale) * var(--global-scale) * 0.44 - (1100 * var(--global-scale) * var(--global-scale) - 1100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-halloween-box__image.svelte-1b2v0x5{place-self:center;height:max(calc((200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((200 * var(--global-scale) * var(--global-scale) * 0.44 - (200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-halloween-box__image--pull-top.svelte-1b2v0x5{height:max(calc((300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((300 * var(--global-scale) * var(--global-scale) * 0.44 - (300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:min(calc((-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-50 * var(--global-scale) * var(--global-scale) * 0.44 - (-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.blueprint-halloween-box__image--pull-bottom.svelte-1b2v0x5{height:max(calc((300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((300 * var(--global-scale) * var(--global-scale) * 0.44 - (300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:min(calc((-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-50 * var(--global-scale) * var(--global-scale) * 0.44 - (-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.blueprint-halloween-box__target-zone.svelte-1b2v0x5{position:absolute;background:rgba(255, 219, 108, 0.2);border-width:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-halloween-box__target-zone-icon.svelte-1b2v0x5{position:absolute;color:#FFDB6C;animation-name:pulse;animation-duration:0.7s;animation-timing-function:linear;animation-iteration-count:infinite;animation-direction:alternate;top:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((44 * var(--global-scale) * var(--global-scale) - 44 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((44 * var(--global-scale) * var(--global-scale) * 0.44 - (44 * var(--global-scale) * var(--global-scale) - 44 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-halloween-box__target-zone-border.svelte-1b2v0x5{stroke:#FFDB6C;stroke-width:max(calc((3 * var(--global-scale) * var(--global-scale) - 3 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((3 * var(--global-scale) * var(--global-scale) * 0.44 - (3 * var(--global-scale) * var(--global-scale) - 3 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+        }
+
+        function halloweenBox_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[11] = list[i];
+            child_ctx[13] = i;
+            return child_ctx;
+        }
+
+        // (158:12) {#if index === 2}
+        function halloweenBox_index_svelte_create_if_block_1(ctx) {
+            let br;
+
+            return {
+                c() {
+                    br = dom_element("br");
+                },
+                m(target, anchor) {
+                    dom_insert(target, br, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(br);
+                    }
+                }
+            };
+        }
+
+        // (148:8) {#each imagesOrder as imageKey, index}
+        function halloweenBox_index_svelte_create_each_block(ctx) {
+            let img;
+            let img_src_value;
+            let img_alt_value;
+            let img_id_value;
+            let img_draggable_value;
+            let t;
+            let if_block_anchor;
+            let if_block = /*index*/ ctx[13] === 2 && halloweenBox_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    t = dom_space();
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+
+                    if (!utils_src_url_equal(img.src, img_src_value = /*highlightParts*/ ctx[0][ /*imageKey*/ ctx[11]] ?
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[11]].fullColor :
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[11]].contour)) dom_attr(img, "src", img_src_value);
+
+                    dom_attr(img, "alt", img_alt_value = /*imageKey*/ ctx[11]);
+                    dom_attr(img, "id", img_id_value = `image-${/*imageKey*/ ctx[11]}`);
+                    dom_attr(img, "class", "blueprint-halloween-box__image svelte-1b2v0x5");
+                    dom_attr(img, "draggable", img_draggable_value = 'false');
+                    dom_toggle_class(img, "blueprint-halloween-box__image--pull-top", /*imageKey*/ ctx[11] === /*Zones*/ ctx[4].Ribs && /*index*/ ctx[13] < 3);
+                    dom_toggle_class(img, "blueprint-halloween-box__image--pull-bottom", /*imageKey*/ ctx[11] === /*Zones*/ ctx[4].Ribs && /*index*/ ctx[13] > 2);
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                    dom_insert(target, t, anchor);
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*highlightParts*/ 1 && !utils_src_url_equal(img.src, img_src_value = /*highlightParts*/ ctx[0][ /*imageKey*/ ctx[11]] ?
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[11]].fullColor :
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[11]].contour)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                        dom_detach(t);
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        // (163:4) {#if currentZoneIndex >= 0 && !isEmpty(targetPosition)}
+        function halloweenBox_index_svelte_create_if_block(ctx) {
+            let div;
+            let i;
+            let t;
+            let svg;
+            let rect;
+            let rect_width_value;
+            let rect_height_value;
+            let rect_viewBox_value;
+            let svg_width_value;
+            let svg_height_value;
+            let svg_viewBox_value;
+            let div_class_value;
+            let div_intro;
+            let mounted;
+            let dispose;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    i = dom_element("i");
+                    t = dom_space();
+                    svg = svg_element("svg");
+                    rect = svg_element("rect");
+                    dom_attr(i, "class", "blueprint-halloween-box__target-zone-icon icon-click svelte-1b2v0x5");
+                    dom_attr(rect, "x", "0");
+                    dom_attr(rect, "y", "0");
+                    dom_attr(rect, "width", rect_width_value = /*targetPosition*/ ctx[3].width);
+                    dom_attr(rect, "height", rect_height_value = /*targetPosition*/ ctx[3].height);
+                    dom_attr(rect, "viewBox", rect_viewBox_value = "0 0 " + /*targetPosition*/ ctx[3].width + " " + /*targetPosition*/ ctx[3].height);
+                    dom_attr(rect, "stroke", "#FFDB6C");
+                    dom_attr(rect, "stroke-width", "3");
+                    dom_attr(rect, "stroke-dasharray", "16 16");
+                    dom_attr(svg, "class", "blueprint-halloween-box__target-zone-border svelte-1b2v0x5");
+                    dom_attr(svg, "width", svg_width_value = /*targetPosition*/ ctx[3].width);
+                    dom_attr(svg, "height", svg_height_value = /*targetPosition*/ ctx[3].height);
+                    dom_attr(svg, "viewBox", svg_viewBox_value = "0 0 " + /*targetPosition*/ ctx[3].width + " " + /*targetPosition*/ ctx[3].height);
+                    dom_attr(svg, "fill", "none");
+                    dom_attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+                    dom_attr(div, "class", div_class_value = "blueprint-halloween-box__target-zone blueprint-halloween-box__target-zone--" + /*zonesOrder*/ ctx[6][ /*currentZoneIndex*/ ctx[2]] + " svelte-1b2v0x5");
+                    set_style(div, "left", /*targetPosition*/ ctx[3].left + "px");
+                    set_style(div, "top", /*targetPosition*/ ctx[3].top + "px");
+                    set_style(div, "width", /*targetPosition*/ ctx[3].width + "px");
+                    set_style(div, "height", /*targetPosition*/ ctx[3].height + "px");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, i);
+                    dom_append(div, t);
+                    dom_append(div, svg);
+                    dom_append(svg, rect);
+                    /*div_binding*/
+                    ctx[9](div);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div, "click", /*fillZone*/ ctx[8]);
+                        mounted = true;
+                    }
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*targetPosition*/ 8 && rect_width_value !== (rect_width_value = /*targetPosition*/ ctx[3].width)) {
+                        dom_attr(rect, "width", rect_width_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 8 && rect_height_value !== (rect_height_value = /*targetPosition*/ ctx[3].height)) {
+                        dom_attr(rect, "height", rect_height_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 8 && rect_viewBox_value !== (rect_viewBox_value = "0 0 " + /*targetPosition*/ ctx[3].width + " " + /*targetPosition*/ ctx[3].height)) {
+                        dom_attr(rect, "viewBox", rect_viewBox_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 8 && svg_width_value !== (svg_width_value = /*targetPosition*/ ctx[3].width)) {
+                        dom_attr(svg, "width", svg_width_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 8 && svg_height_value !== (svg_height_value = /*targetPosition*/ ctx[3].height)) {
+                        dom_attr(svg, "height", svg_height_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 8 && svg_viewBox_value !== (svg_viewBox_value = "0 0 " + /*targetPosition*/ ctx[3].width + " " + /*targetPosition*/ ctx[3].height)) {
+                        dom_attr(svg, "viewBox", svg_viewBox_value);
+                    }
+
+                    if (dirty & /*currentZoneIndex*/ 4 && div_class_value !== (div_class_value = "blueprint-halloween-box__target-zone blueprint-halloween-box__target-zone--" + /*zonesOrder*/ ctx[6][ /*currentZoneIndex*/ ctx[2]] + " svelte-1b2v0x5")) {
+                        dom_attr(div, "class", div_class_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 8) {
+                        set_style(div, "left", /*targetPosition*/ ctx[3].left + "px");
+                    }
+
+                    if (dirty & /*targetPosition*/ 8) {
+                        set_style(div, "top", /*targetPosition*/ ctx[3].top + "px");
+                    }
+
+                    if (dirty & /*targetPosition*/ 8) {
+                        set_style(div, "width", /*targetPosition*/ ctx[3].width + "px");
+                    }
+
+                    if (dirty & /*targetPosition*/ 8) {
+                        set_style(div, "height", /*targetPosition*/ ctx[3].height + "px");
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div_intro) {
+                            add_render_callback(() => {
+                                div_intro = create_in_transition(div, fade, {});
+                                div_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    /*div_binding*/
+                    ctx[9](null);
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        function halloweenBox_index_svelte_create_fragment(ctx) {
+            let div1;
+            let div0;
+            let t;
+            let show_if = /*currentZoneIndex*/ ctx[2] >= 0 && !(0, lodash.isEmpty)( /*targetPosition*/ ctx[3]);
+            let each_value = each_ensure_array_like( /*imagesOrder*/ ctx[7]);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = halloweenBox_index_svelte_create_each_block(halloweenBox_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            let if_block = show_if && halloweenBox_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    t = dom_space();
+                    if (if_block) if_block.c();
+                    dom_attr(div0, "class", "blueprint-halloween-box__images svelte-1b2v0x5");
+                    dom_attr(div1, "class", "blueprint-halloween-box svelte-1b2v0x5");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div0, null);
+                        }
+                    }
+
+                    dom_append(div1, t);
+                    if (if_block) if_block.m(div1, null);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*highlightParts, imagesOrder, Images, Zones*/ 177) {
+                        each_value = each_ensure_array_like( /*imagesOrder*/ ctx[7]);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = halloweenBox_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = halloweenBox_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div0, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+
+                    if (dirty & /*currentZoneIndex, targetPosition*/ 12) show_if = /*currentZoneIndex*/ ctx[2] >= 0 && !(0, lodash.isEmpty)( /*targetPosition*/ ctx[3]);
+
+                    if (show_if) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*currentZoneIndex, targetPosition*/ 12) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = halloweenBox_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(div1, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        let zoneWidth = 0;
+        let zoneHeight = 0;
+
+        function halloweenBox_index_svelte_instance($$self, $$props, $$invalidate) {
+            const Zones = {
+                Pumpkin: 'pumpkin',
+                HandLeft: 'handLeft',
+                HandRight: 'handRight',
+                LegLeft: 'legLeft',
+                LegRight: 'legRight',
+                Ribs: 'ribs'
+            };
+
+            const Images = {
+                [Zones.Pumpkin]: {
+                    contour: pumpkin_namespaceObject,
+                    fullColor: fullColor_pumpkin_namespaceObject
+                },
+                [Zones.HandLeft]: {
+                    contour: hand_left_namespaceObject,
+                    fullColor: fullColor_hand_left_namespaceObject
+                },
+                [Zones.HandRight]: {
+                    contour: hand_right_namespaceObject,
+                    fullColor: fullColor_hand_right_namespaceObject
+                },
+                [Zones.LegLeft]: {
+                    contour: leg_left_namespaceObject,
+                    fullColor: fullColor_leg_left_namespaceObject
+                },
+                [Zones.LegRight]: {
+                    contour: leg_right_namespaceObject,
+                    fullColor: fullColor_leg_right_namespaceObject
+                },
+                [Zones.Ribs]: {
+                    contour: ribs_namespaceObject,
+                    fullColor: fullColor_ribs_namespaceObject
+                }
+            };
+
+            const highlightParts = {
+                [Zones.Pumpkin]: 0,
+                [Zones.HandLeft]: 0,
+                [Zones.HandRight]: 0,
+                [Zones.LegLeft]: 0,
+                [Zones.LegRight]: 0,
+                [Zones.Ribs]: 0
+            };
+
+            const zonesOrder = (0, lodash.shuffle)(Object.values(Zones));
+            const imagesOrder = (0, lodash.shuffle)(Object.values(Zones));
+            let zoneNode = null;
+            let currentZoneIndex = 0;
+            let targetPosition = {};
+
+            const nextZone = () => {
+                const baseRect = document.querySelector('.blueprint-halloween-box').getBoundingClientRect();
+                const containerRect = document.querySelector(`#image-${zonesOrder[currentZoneIndex]}`).getBoundingClientRect();
+
+                $$invalidate(3, targetPosition = {
+                    left: containerRect.left - baseRect.left,
+                    top: containerRect.top - baseRect.top,
+                    width: containerRect.width,
+                    height: containerRect.height
+                });
+            };
+
+            const fillZone = () => {
+                $$invalidate(0, highlightParts[zonesOrder[currentZoneIndex]] = 1, highlightParts);
+
+                if (currentZoneIndex + 1 >= zonesOrder.length) {
+                    $$invalidate(2, currentZoneIndex = -1);
+                    cef_sendClientMessage('blueprint.complete');
+                    soundManager.play('click');
+                    return;
+                }
+
+                $$invalidate(2, currentZoneIndex += 1);
+                nextZone();
+            };
+
+            onMount(() => {
+                setTimeout(
+                    () => {
+                        nextZone();
+                    },
+                    50
+                );
+            });
+
+            function div_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    zoneNode = $$value;
+                    $$invalidate(1, zoneNode);
+                });
+            }
+
+            return [
+                highlightParts,
+                zoneNode,
+                currentZoneIndex,
+                targetPosition,
+                Zones,
+                Images,
+                zonesOrder,
+                imagesOrder,
+                fillZone,
+                div_binding
+            ];
+        }
+
+        class HalloweenBox extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, halloweenBox_index_svelte_instance, halloweenBox_index_svelte_create_fragment, utils_safe_not_equal, {}, halloweenBox_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const halloweenBox_index_svelte = (HalloweenBox);; // CONCATENATED MODULE: ./src/views/blueprint/constants.js
         function blueprint_constants_typeof(o) {
             "@babel/helpers - typeof";
             return blueprint_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -274612,6 +277889,7 @@ const getRandomTableNumber = () => {
 
 
 
+
         var BlueprintWeaponId = {
             Rpg: 'rpg',
             Pm: 'pm',
@@ -274620,9 +277898,10 @@ const getRandomTableNumber = () => {
             PipeTwo: 'pipeTwo',
             PipeThree: 'pipeThree',
             PipeFour: 'pipeFour',
-            PipeFive: 'pipeFive'
+            PipeFive: 'pipeFive',
+            HalloweenBox: 'halloweenBox'
         };
-        var MAP_WEAPON_ID_TO_SVG = blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty({}, BlueprintWeaponId.Rpg, rpg_index_svelte), BlueprintWeaponId.Pm, pm_index_svelte), BlueprintWeaponId.Ak, ak_index_svelte), BlueprintWeaponId.Pipe, pipe_index_svelte), BlueprintWeaponId.PipeTwo, pipeTwo_index_svelte), BlueprintWeaponId.PipeThree, pipeThree_index_svelte), BlueprintWeaponId.PipeFour, pipeFour_index_svelte), BlueprintWeaponId.PipeFive, pipeFive_index_svelte);; // CONCATENATED MODULE: ./src/views/blueprint/index.svelte
+        var MAP_WEAPON_ID_TO_SVG = blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty({}, BlueprintWeaponId.Rpg, rpg_index_svelte), BlueprintWeaponId.Pm, pm_index_svelte), BlueprintWeaponId.Ak, ak_index_svelte), BlueprintWeaponId.Pipe, pipe_index_svelte), BlueprintWeaponId.PipeTwo, pipeTwo_index_svelte), BlueprintWeaponId.PipeThree, pipeThree_index_svelte), BlueprintWeaponId.PipeFour, pipeFour_index_svelte), BlueprintWeaponId.PipeFive, pipeFive_index_svelte), BlueprintWeaponId.HalloweenBox, halloweenBox_index_svelte);; // CONCATENATED MODULE: ./src/views/blueprint/index.svelte
         /* src\views\blueprint\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -274632,9 +277911,153 @@ const getRandomTableNumber = () => {
 
 
 
+        // import draftsImage from './img/drafts.svg';
+
+
+        // import { INFORMATION_MOCK } from './mock';
 
 
         function blueprint_index_svelte_create_if_block(ctx) {
+            let div7;
+            let div0;
+            let t0_value = /*information*/ ctx[0].title + "";
+            let t0;
+            let div0_class_value;
+            let t1;
+            let div4;
+            let t6;
+            let div6;
+            let div5;
+            let switch_instance;
+            let div5_class_value;
+            let div6_class_value;
+            let t7;
+            let div7_class_value;
+            let current;
+            var switch_value = MAP_WEAPON_ID_TO_SVG[ /*information*/ ctx[0].weaponId];
+
+            function switch_props(ctx, dirty) {
+                return {};
+            }
+
+            if (switch_value) {
+                switch_instance = construct_svelte_component(switch_value, switch_props(ctx));
+            }
+
+            let if_block = /*information*/ ctx[0].money > 0 && blueprint_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    div7 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    div4 = dom_element("div");
+                    div4.innerHTML = `<div class="blueprint__info-title"><i class="blueprint__info-title-icon icon-information-cirlce"></i> <div class="blueprint__info-title-caption">ИНФОРМАЦИЯ</div></div> <div class="blueprint__info-description">Кликайте на выделенную область для восстановления чертежа</div>`;
+                    t6 = dom_space();
+                    div6 = dom_element("div");
+                    div5 = dom_element("div");
+                    if (switch_instance) create_component(switch_instance.$$.fragment);
+                    t7 = dom_space();
+                    if (if_block) if_block.c();
+                    dom_attr(div0, "class", div0_class_value = "blueprint__title blueprint__title--" + /*information*/ ctx[0].type);
+                    dom_attr(div4, "class", "blueprint__info");
+                    dom_attr(div5, "class", div5_class_value = "blueprint__weapon blueprint__weapon--" + /*information*/ ctx[0].weaponId);
+                    dom_attr(div6, "class", div6_class_value = "blueprint__cells blueprint__cells--" + /*information*/ ctx[0].type);
+                    dom_attr(div7, "class", div7_class_value = "blueprint blueprint--" + /*information*/ ctx[0].type);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div7, anchor);
+                    dom_append(div7, div0);
+                    dom_append(div0, t0);
+                    dom_append(div7, t1);
+                    dom_append(div7, div4);
+                    dom_append(div7, t6);
+                    dom_append(div7, div6);
+                    dom_append(div6, div5);
+                    if (switch_instance) mount_component(switch_instance, div5, null);
+                    dom_append(div7, t7);
+                    if (if_block) if_block.m(div7, null);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    if ((!current || dirty & /*information*/ 1) && t0_value !== (t0_value = /*information*/ ctx[0].title + "")) dom_set_data(t0, t0_value);
+
+                    if (!current || dirty & /*information*/ 1 && div0_class_value !== (div0_class_value = "blueprint__title blueprint__title--" + /*information*/ ctx[0].type)) {
+                        dom_attr(div0, "class", div0_class_value);
+                    }
+
+                    if (dirty & /*information*/ 1 && switch_value !== (switch_value = MAP_WEAPON_ID_TO_SVG[ /*information*/ ctx[0].weaponId])) {
+                        if (switch_instance) {
+                            transitions_group_outros();
+                            const old_component = switch_instance;
+
+                            transitions_transition_out(old_component.$$.fragment, 1, 0, () => {
+                                destroy_component(old_component, 1);
+                            });
+
+                            transitions_check_outros();
+                        }
+
+                        if (switch_value) {
+                            switch_instance = construct_svelte_component(switch_value, switch_props(ctx, dirty));
+                            create_component(switch_instance.$$.fragment);
+                            transitions_transition_in(switch_instance.$$.fragment, 1);
+                            mount_component(switch_instance, div5, null);
+                        } else {
+                            switch_instance = null;
+                        }
+                    } else if (switch_value) {
+
+                    }
+
+                    if (!current || dirty & /*information*/ 1 && div5_class_value !== (div5_class_value = "blueprint__weapon blueprint__weapon--" + /*information*/ ctx[0].weaponId)) {
+                        dom_attr(div5, "class", div5_class_value);
+                    }
+
+                    if (!current || dirty & /*information*/ 1 && div6_class_value !== (div6_class_value = "blueprint__cells blueprint__cells--" + /*information*/ ctx[0].type)) {
+                        dom_attr(div6, "class", div6_class_value);
+                    }
+
+                    if ( /*information*/ ctx[0].money > 0) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = blueprint_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            if_block.m(div7, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (!current || dirty & /*information*/ 1 && div7_class_value !== (div7_class_value = "blueprint blueprint--" + /*information*/ ctx[0].type)) {
+                        dom_attr(div7, "class", div7_class_value);
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    if (switch_instance) transitions_transition_in(switch_instance.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    if (switch_instance) transitions_transition_out(switch_instance.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div7);
+                    }
+
+                    if (switch_instance) destroy_component(switch_instance);
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        // (44:8) {#if information.money > 0}
+        function blueprint_index_svelte_create_if_block_1(ctx) {
             let div4;
             let div0;
             let t1;
@@ -274688,125 +278111,62 @@ const getRandomTableNumber = () => {
         }
 
         function blueprint_index_svelte_create_fragment(ctx) {
-            let div7;
-            let div0;
-            let t0_value = /*information*/ ctx[0].title + "";
-            let t0;
-            let t1;
-            let div4;
-            let t6;
-            let div6;
-            let div5;
-            let switch_instance;
-            let div5_class_value;
-            let t7;
+            let show_if = !(0, lodash.isEmpty)( /*information*/ ctx[0]);
+            let if_block_anchor;
             let current;
-            var switch_value = MAP_WEAPON_ID_TO_SVG[ /*information*/ ctx[0].weaponId];
-
-            function switch_props(ctx, dirty) {
-                return {};
-            }
-
-            if (switch_value) {
-                switch_instance = construct_svelte_component(switch_value, switch_props(ctx));
-            }
-
-            let if_block = /*information*/ ctx[0].money > 0 && blueprint_index_svelte_create_if_block(ctx);
+            let if_block = show_if && blueprint_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
-                    div7 = dom_element("div");
-                    div0 = dom_element("div");
-                    t0 = dom_text(t0_value);
-                    t1 = dom_space();
-                    div4 = dom_element("div");
-                    div4.innerHTML = `<div class="blueprint__info-title"><i class="blueprint__info-title-icon icon-information-cirlce"></i> <div class="blueprint__info-title-caption">ИНФОРМАЦИЯ</div></div> <div class="blueprint__info-description">Кликайте на выделенную область для восстановления чертежа</div>`;
-                    t6 = dom_space();
-                    div6 = dom_element("div");
-                    div5 = dom_element("div");
-                    if (switch_instance) create_component(switch_instance.$$.fragment);
-                    t7 = dom_space();
                     if (if_block) if_block.c();
-                    dom_attr(div0, "class", "blueprint__title");
-                    dom_attr(div4, "class", "blueprint__info");
-                    dom_attr(div5, "class", div5_class_value = "blueprint__weapon blueprint__weapon--" + /*information*/ ctx[0].weaponId);
-                    dom_attr(div6, "class", "blueprint__cells");
-                    dom_attr(div7, "class", "blueprint");
+                    if_block_anchor = empty();
                 },
                 m(target, anchor) {
-                    dom_insert(target, div7, anchor);
-                    dom_append(div7, div0);
-                    dom_append(div0, t0);
-                    dom_append(div7, t1);
-                    dom_append(div7, div4);
-                    dom_append(div7, t6);
-                    dom_append(div7, div6);
-                    dom_append(div6, div5);
-                    if (switch_instance) mount_component(switch_instance, div5, null);
-                    dom_append(div7, t7);
-                    if (if_block) if_block.m(div7, null);
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
                     current = true;
                 },
                 p(ctx, [dirty]) {
-                    if ((!current || dirty & /*information*/ 1) && t0_value !== (t0_value = /*information*/ ctx[0].title + "")) dom_set_data(t0, t0_value);
+                    if (dirty & /*information*/ 1) show_if = !(0, lodash.isEmpty)( /*information*/ ctx[0]);
 
-                    if (dirty & /*information*/ 1 && switch_value !== (switch_value = MAP_WEAPON_ID_TO_SVG[ /*information*/ ctx[0].weaponId])) {
-                        if (switch_instance) {
-                            transitions_group_outros();
-                            const old_component = switch_instance;
-
-                            transitions_transition_out(old_component.$$.fragment, 1, 0, () => {
-                                destroy_component(old_component, 1);
-                            });
-
-                            transitions_check_outros();
-                        }
-
-                        if (switch_value) {
-                            switch_instance = construct_svelte_component(switch_value, switch_props(ctx, dirty));
-                            create_component(switch_instance.$$.fragment);
-                            transitions_transition_in(switch_instance.$$.fragment, 1);
-                            mount_component(switch_instance, div5, null);
-                        } else {
-                            switch_instance = null;
-                        }
-                    } else if (switch_value) {
-
-                    }
-
-                    if (!current || dirty & /*information*/ 1 && div5_class_value !== (div5_class_value = "blueprint__weapon blueprint__weapon--" + /*information*/ ctx[0].weaponId)) {
-                        dom_attr(div5, "class", div5_class_value);
-                    }
-
-                    if ( /*information*/ ctx[0].money > 0) {
+                    if (show_if) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
+
+                            if (dirty & /*information*/ 1) {
+                                transitions_transition_in(if_block, 1);
+                            }
                         } else {
                             if_block = blueprint_index_svelte_create_if_block(ctx);
                             if_block.c();
-                            if_block.m(div7, null);
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
                         }
                     } else if (if_block) {
-                        if_block.d(1);
-                        if_block = null;
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
                     }
                 },
                 i(local) {
                     if (current) return;
-                    if (switch_instance) transitions_transition_in(switch_instance.$$.fragment, local);
+                    transitions_transition_in(if_block);
                     current = true;
                 },
                 o(local) {
-                    if (switch_instance) transitions_transition_out(switch_instance.$$.fragment, local);
+                    transitions_transition_out(if_block);
                     current = false;
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div7);
+                        dom_detach(if_block_anchor);
                     }
 
-                    if (switch_instance) destroy_component(switch_instance);
-                    if (if_block) if_block.d();
+                    if (if_block) if_block.d(detaching);
                 }
             };
         }
@@ -274820,6 +278180,8 @@ const getRandomTableNumber = () => {
 
             const unregisterFadeScreenInitialize = registerEvent('event.blueprint.initializeInformation', initializeInformation);
 
+            // initializeInformation(INFORMATION_MOCK);
+            // setTimeout(() => { initializeInformation(INFORMATION_MOCK); }, 2000);
             onDestroy(() => {
                 unregisterFadeScreenInitialize();
             });
@@ -280605,8 +283967,8 @@ const getRandomTableNumber = () => {
             mainBackground: signal_background_namespaceObject,
             containerBackground: signal_container_namespaceObject
         }), GameType.Skeleton, {
-            regularImages: [skeleton_firstRegular_namespaceObject, skeleton_secondRegular_namespaceObject, skeleton_thirdRegular_namespaceObject, skeleton_fourthRegular_namespaceObject, skeleton_fifthRegular_namespaceObject],
-            defaultImages: [skeleton_firstSuccess_namespaceObject, skeleton_secondSuccess_namespaceObject, skeleton_thirdSuccess_namespaceObject, skeleton_fourthSuccess_namespaceObject],
+            regularImages: [skeleton_firstRegular_namespaceObject, skeleton_secondRegular_namespaceObject, skeleton_thirdRegular_namespaceObject, skeleton_fourthRegular_namespaceObject],
+            defaultImages: [skeleton_firstSuccess_namespaceObject, skeleton_secondSuccess_namespaceObject, skeleton_thirdSuccess_namespaceObject, skeleton_fourthSuccess_namespaceObject, skeleton_fifthRegular_namespaceObject],
             wrongImage: default_error_image_namespaceObject,
             mainBackground: skeleton_background_namespaceObject,
             containerBackground: skeleton_container_namespaceObject
@@ -280638,7 +284000,7 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (125:5) {#if winItemsIndexes.includes(index)}
+        // (128:5) {#if winItemsIndexes.includes(index)}
         function find_game_index_svelte_create_if_block_1(ctx) {
             let div;
 
@@ -280659,7 +284021,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (123:3) {#each items as item, index}
+        // (126:3) {#each items as item, index}
         function find_game_index_svelte_create_each_block(ctx) {
             let div;
             let show_if = /*winItemsIndexes*/ ctx[5].includes( /*index*/ ctx[14]);
@@ -280742,7 +284104,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (145:2) {#if MAP_GAME_TYPE_TO_CONFIG[type].titleIcon}
+        // (148:2) {#if MAP_GAME_TYPE_TO_CONFIG[type].titleIcon}
         function find_game_index_svelte_create_if_block(ctx) {
             let img;
             let img_src_value;
@@ -281007,6 +284369,7 @@ const getRandomTableNumber = () => {
 
                 // console.log(`[revile:3] index: ${index}, items[index]: winIds.includes(index) = ${winIds.includes(index)}`);
                 if (winIds.includes(index)) {
+                    if (winItemsIndexes.includes(index)) return;
                     winItemsIndexes.push(index);
                     $$invalidate(5, winItemsIndexes);
 
@@ -281030,7 +284393,7 @@ const getRandomTableNumber = () => {
 
             const unregisterInitializeEvent = registerEvent('event.findGame.initialize', initialize);
 
-            // initialize("treasure", "title", "caption", [1,2,4]);
+            // initialize("skeleton", "title", "caption", [1,2,4]);
             onDestroy(() => {
                 unregisterInitializeEvent();
             });
@@ -282416,190 +285779,209 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const battle_pass_chose_index_svelte = (Battle_pass_chose);; // CONCATENATED MODULE: ./src/views/event-pass/img/coin.svg
-        const coin_namespaceObject = __webpack_require__.p + "assets/0257ebf92954fbfed713.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/logo.png
-        const event_pass_img_logo_namespaceObject = __webpack_require__.p + "assets/e32449b8cfb74632deb7.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/star.svg
-        const event_pass_img_star_namespaceObject = __webpack_require__.p + "assets/a95efd2afd7dfb583c98.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/time.svg
-        const time_namespaceObject = __webpack_require__.p + "assets/fc1d76219c2c1e04e356.svg";; // CONCATENATED MODULE: ./src/views/event-pass/components/main/rewards.js
+        const coin_namespaceObject = __webpack_require__.p + "assets/3d4063559acfbcda8814.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/logo.png
+        const event_pass_img_logo_namespaceObject = __webpack_require__.p + "assets/5d4396f927e3117f7993.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/star.svg
+        const event_pass_img_star_namespaceObject = __webpack_require__.p + "assets/03d0577e9a94b5d6d221.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/time.svg
+        const time_namespaceObject = __webpack_require__.p + "assets/b268872c6bcf8fe5900c.svg";; // CONCATENATED MODULE: ./src/views/event-pass/components/main/rewards.js
         var REWARDS = [{
             "level": 1,
-            "title": "Космические наушники",
-            "sysName": 9000000,
+            "title": "Объект: Мультяшная могила",
+            "sysName": 1,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 2,
-            "title": "Скин: Бомж Космонавт №1",
-            "sysName": 9000001,
+            "title": "AZ-Coins (120 шт)",
+            "sysName": 2,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 3,
-            "title": "Инструкция для разбора аксессуара",
-            "sysName": 9000002,
+            "title": "Скин: Скелет",
+            "sysName": 3,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 4,
-            "title": "Красный шлем десантника",
-            "sysName": 9000003,
+            "title": "Кейс Дня Мёртвых (2 шт)",
+            "sysName": 4,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 5,
-            "title": "Космическая коса",
-            "sysName": 9000004,
+            "title": "Запечатанный: Сердце Лича",
+            "sysName": 5,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 6,
-            "title": "Рулетка космоса",
-            "sysName": 9000005,
+            "title": "AZ-Coins (140 шт)",
+            "sysName": 2,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 7,
-            "title": "Желтая инструкция для разбора аксессуара",
-            "sysName": 9000006,
+            "title": "Запечатанный: Перчатка Лича",
+            "sysName": 6,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 8,
-            "title": "Скин: Райден",
-            "sysName": 9000007,
+            "title": "Тюнинг-пак для LADA Priora",
+            "sysName": 7,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 9,
-            "title": "Рулетка космоса",
-            "sysName": 9000005,
+            "title": "Запечатанный: Меч Лича",
+            "sysName": 8,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 10,
-            "title": "Белый шлем пришельца",
-            "sysName": 9000008,
+            "title": "Кейс Дня Мёртвых (2 шт)",
+            "sysName": 4,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 11,
-            "title": "Тюнинг-пак для Nissan Silvia S14",
-            "sysName": 9000009,
+            "title": "Запечатанный: Нимб Лича",
+            "sysName": 9,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 12,
-            "title": "Инструкция для разбора аксессуара",
-            "sysName": 9000002,
+            "title": "Диски (Паутина)",
+            "sysName": 10,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 13,
-            "title": "Красные меха-крылья",
-            "sysName": 9000010,
+            "title": "Запечатанный: Наплечник Лича",
+            "sysName": 11,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 14,
-            "title": "Меч Думгая",
-            "sysName": 9000011,
+            "title": "Набор для реставрации аксессуара (2 шт)",
+            "sysName": 12,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 15,
-            "title": "Сертификат Космический байк",
-            "sysName": 9000012,
+            "title": "Запечатанный: Шлем Лича",
+            "sysName": 13,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 16,
-            "title": "Инструкция для разбора аксессуара",
-            "sysName": 9000002,
+            "title": "Новый VIN номер (2 шт)",
+            "sysName": 14,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 17,
-            "title": "Красный бронежилет десантника",
-            "sysName": 9000013,
+            "title": "Запечатанный: Метла ведьмы",
+            "sysName": 15,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 18,
-            "title": "Космическое сердце",
-            "sysName": 9000014,
+            "title": "Объект: Скелет-маг",
+            "sysName": 16,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 19,
-            "title": "Желтая инструкция для разбора аксессуара",
-            "sysName": 9000006,
+            "title": "AZ-Coins (400 шт)",
+            "sysName": 2,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 20,
-            "title": "Тюнинг-пак для Mitsubishi Eclipse 1995",
-            "sysName": 9000015,
+            "title": "Запечатанный: Котелок Ведьмы",
+            "sysName": 17,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 21,
-            "title": "Красные наплечники десантника",
-            "sysName": 9000016,
+            "title": "Скин: Дракула",
+            "sysName": 18,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 22,
-            "title": "Инструкция для разбора аксессуара",
-            "sysName": 9000002,
+            "title": "Запечатанный: Летающий кот Ведьмы",
+            "sysName": 19,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 23,
-            "title": "Щит Думгая",
-            "sysName": 9000017,
+            "title": "Тюнинг-пак для Toyota Camry XV70",
+            "sysName": 20,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 24,
-            "title": "Охранник Бейби Йода",
-            "sysName": 9000018,
+            "title": "Запечатанный: Шляпа ведьмы",
+            "sysName": 21,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 25,
-            "title": "Инструкция для разбора аксессуара",
-            "sysName": 9000002,
+            "title": "Сертификат Такси Оборотня",
+            "sysName": 22,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 26,
-            "title": "Рулетка космоса",
-            "sysName": 9000005,
+            "title": "Кейс Дня Мёртвых (2 шт)",
+            "sysName": 4,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 27,
-            "title": "Скин: Дум",
-            "sysName": 9000019,
+            "title": "Запечатанный: Нимб Ведьмы",
+            "sysName": 23,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 28,
-            "title": "Желтая инструкция для разбора аксессуара",
-            "sysName": 9000006,
+            "title": "Золотой VIN номер",
+            "sysName": 24,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 29,
-            "title": "Космический воздушный шар корабль",
-            "sysName": 9000020,
+            "title": "Запечатанный: Ожерелье Ведьмы",
+            "sysName": 25,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }, {
             "level": 30,
-            "title": "Сертификат Titan Macro 1390",
-            "sysName": 9000021,
+            "title": "Сертификат Deadline Express",
+            "sysName": 26,
             "sellPrice": 50,
-            "availableToReceive": false
+            "availableToReceive": false,
+            "gifImage": true
         }];; // CONCATENATED MODULE: ./src/views/event-pass/store.js
         function event_pass_store_typeof(o) {
             "@babel/helpers - typeof";
@@ -282774,7 +286156,7 @@ const getRandomTableNumber = () => {
 
 
         function button_index_svelte_add_css(target) {
-            append_styles(target, "svelte-t5nps6", ".event-pass-button.svelte-t5nps6{width:100%;height:100%;background-color:#FFFFFF;color:#131516;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:0.1s ease-out;transition-property:box-shadow, background-color, transform;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button.svelte-t5nps6:hover{background-color:rgba(255, 255, 255, 0.9)}.event-pass-button.svelte-t5nps6:active{transform:translateY(5%);background-color:rgba(255, 255, 255, 0.6)}.event-pass-button--yellow.svelte-t5nps6{background-color:#D68FFF;color:#131516}.event-pass-button--yellow.svelte-t5nps6:hover{background-color:#9452BA}.event-pass-button--yellow.svelte-t5nps6:active{transform:translateY(5%);background-color:#8946AF}.event-pass-button--disabled.svelte-t5nps6{opacity:0.5}.event-pass-button--disabled.svelte-t5nps6:hover{background-color:#FFFFFF}.event-pass-button--disabled.svelte-t5nps6:active{transform:unset;background-color:#FFFFFF}.event-pass-button--yellow.event-pass-button--disabled.svelte-t5nps6{background-color:#D68FFF}.event-pass-button__icon.svelte-t5nps6{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button__text.svelte-t5nps6{font-family:PFDinDisplayProRegular;color:inherit;font-size:inherit}");
+            append_styles(target, "svelte-1mru7hm", ".event-pass-button.svelte-1mru7hm{width:100%;height:100%;background-color:#FFFFFF;color:#131516;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:0.1s ease-out;transition-property:box-shadow, background-color, transform;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button.svelte-1mru7hm:hover{background-color:rgba(255, 255, 255, 0.9)}.event-pass-button.svelte-1mru7hm:active{transform:translateY(5%);background-color:rgba(255, 255, 255, 0.6)}.event-pass-button--yellow.svelte-1mru7hm{background-color:#8C95FF;color:#131516}.event-pass-button--yellow.svelte-1mru7hm:hover{background-color:#9452BA}.event-pass-button--yellow.svelte-1mru7hm:active{transform:translateY(5%);background-color:#8946AF}.event-pass-button--disabled.svelte-1mru7hm{opacity:0.5}.event-pass-button--disabled.svelte-1mru7hm:hover{background-color:#FFFFFF}.event-pass-button--disabled.svelte-1mru7hm:active{transform:unset;background-color:#FFFFFF}.event-pass-button--yellow.event-pass-button--disabled.svelte-1mru7hm{background-color:#8C95FF}.event-pass-button__icon.svelte-1mru7hm{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button__text.svelte-1mru7hm{font-family:PFDinDisplayProRegular;color:inherit;font-size:inherit}");
         }
 
         // (70:4) {#if !isEmpty(icon)}
@@ -282785,13 +286167,13 @@ const getRandomTableNumber = () => {
             return {
                 c() {
                     i = dom_element("i");
-                    dom_attr(i, "class", i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-t5nps6");
+                    dom_attr(i, "class", i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-1mru7hm");
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*icon*/ 1 && i_class_value !== (i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-t5nps6")) {
+                    if (dirty & /*icon*/ 1 && i_class_value !== (i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-1mru7hm")) {
                         dom_attr(i, "class", i_class_value);
                     }
                 },
@@ -282812,7 +286194,7 @@ const getRandomTableNumber = () => {
                 c() {
                     div = dom_element("div");
                     t = dom_text( /*text*/ ctx[2]);
-                    dom_attr(div, "class", "event-pass-button__text svelte-t5nps6");
+                    dom_attr(div, "class", "event-pass-button__text svelte-1mru7hm");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -282846,7 +286228,7 @@ const getRandomTableNumber = () => {
                     if (if_block0) if_block0.c();
                     t = dom_space();
                     if (if_block1) if_block1.c();
-                    dom_attr(div, "class", div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-t5nps6");
+                    dom_attr(div, "class", div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-1mru7hm");
                     dom_toggle_class(div, "event-pass-button--disabled", /*disabled*/ ctx[3]);
                 },
                 m(target, anchor) {
@@ -282895,7 +286277,7 @@ const getRandomTableNumber = () => {
                         if_block1 = null;
                     }
 
-                    if (dirty & /*style*/ 2 && div_class_value !== (div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-t5nps6")) {
+                    if (dirty & /*style*/ 2 && div_class_value !== (div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-1mru7hm")) {
                         dom_attr(div, "class", div_class_value);
                     }
 
@@ -283026,7 +286408,7 @@ const getRandomTableNumber = () => {
                     t7 = dom_space();
                     div3 = dom_element("div");
                     div3.textContent = "ВЕРНУТЬСЯ НАЗАД";
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/redwards/${/*$modal*/ ctx[0].image}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*$modal*/ ctx[0].image}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "modal");
                     dom_attr(img, "class", "event-pass-modal__image");
                     dom_attr(div0, "class", "event-pass-modal__name");
@@ -283061,7 +286443,7 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, [dirty]) {
-                    if (dirty & /*$modal*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/redwards/${/*$modal*/ ctx[0].image}.webp`)) {
+                    if (dirty & /*$modal*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*$modal*/ ctx[0].image}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
@@ -283112,7 +286494,9 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const event_pass_components_modal_index_svelte = (modal_index_svelte_Modal);; // CONCATENATED MODULE: ./src/views/event-pass/constants.js
+        const event_pass_components_modal_index_svelte = (modal_index_svelte_Modal);; // CONCATENATED MODULE: ./src/views/event-pass/img/az-icon.svg
+        const az_icon_namespaceObject = __webpack_require__.p + "assets/05075edfd41572174b43.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/ruble.svg
+        const ruble_namespaceObject = __webpack_require__.p + "assets/645c2cc361e4a7ab29f3.svg";; // CONCATENATED MODULE: ./src/views/event-pass/constants.js
         function event_pass_constants_typeof(o) {
             "@babel/helpers - typeof";
             return event_pass_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -283146,15 +286530,24 @@ const getRandomTableNumber = () => {
             }
             return ("string" === r ? String : Number)(t);
         }
+
+
+
         var NAVIGATION_BITS = {
             Main: 1,
             Quests: 2,
             Events: 4,
             Shop: 8,
-            Guide: 16
+            Guide: 16,
+            Cases: 32
         };
-        var constants_MENU_ITEMS = [NAVIGATION_BITS.Main, NAVIGATION_BITS.Quests, NAVIGATION_BITS.Events, NAVIGATION_BITS.Shop];
-        var constants_MAP_BIT_TO_NAME = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, NAVIGATION_BITS.Main, 'Главная'), NAVIGATION_BITS.Quests, 'Задания'), NAVIGATION_BITS.Events, 'Мероприятия'), NAVIGATION_BITS.Shop, 'Магазин');
+        var CoinsType = {
+            AzCoin: 'az-coin',
+            Ruble: 'ruble',
+            Coin: 'coin'
+        };
+        var constants_MENU_ITEMS = [NAVIGATION_BITS.Main, NAVIGATION_BITS.Quests, NAVIGATION_BITS.Events, NAVIGATION_BITS.Shop, NAVIGATION_BITS.Cases];
+        var constants_MAP_BIT_TO_NAME = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, NAVIGATION_BITS.Main, 'Главная'), NAVIGATION_BITS.Quests, 'Задания'), NAVIGATION_BITS.Events, 'Игры'), NAVIGATION_BITS.Shop, 'Магазин'), NAVIGATION_BITS.Cases, 'Кейсы');
         var Buttons = {
             Accept: 'accept',
             Help: 'help',
@@ -283167,7 +286560,8 @@ const getRandomTableNumber = () => {
         };
         var MAP_BUTTON_TO_NAME = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, Buttons.Accept, 'Принять задание'), Buttons.Help, 'Отслеживать'), Buttons.Reward, 'Получить награду'), Buttons.Done, 'Получено'), Buttons.Join, 'Присоединиться'), Buttons.PlayersLimit, 'Достигнут лимит комнат'), Buttons.Cancel, 'Отказаться от участия'), Buttons.EventStarted, 'Мероприятие началось');
         var MAP_BUTTON_TO_ICON = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, Buttons.Accept, ''), Buttons.Help, ''), Buttons.Reward, ''), Buttons.Done, 'icon-check'), Buttons.Join, ''), Buttons.PlayersLimit, ''), Buttons.Cancel, ''), Buttons.EventStarted, '');
-        var MAP_BUTTON_TO_STYLE = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, Buttons.Accept, ''), Buttons.Help, ''), Buttons.Reward, 'yellow'), Buttons.Done, ''), Buttons.Join, 'yellow'), Buttons.PlayersLimit, 'yellow'), Buttons.Cancel, ''), Buttons.EventStarted, '');; // CONCATENATED MODULE: ./src/views/event-pass/components/main/index.svelte
+        var MAP_BUTTON_TO_STYLE = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, Buttons.Accept, ''), Buttons.Help, ''), Buttons.Reward, 'yellow'), Buttons.Done, ''), Buttons.Join, 'yellow'), Buttons.PlayersLimit, 'yellow'), Buttons.Cancel, ''), Buttons.EventStarted, '');
+        var MAP_COINS_TYPE_TO_ICON = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, CoinsType.AzCoin, az_icon_namespaceObject), CoinsType.Ruble, ruble_namespaceObject), CoinsType.Coin, coin_namespaceObject);; // CONCATENATED MODULE: ./src/views/event-pass/components/main/index.svelte
         /* src\views\event-pass\components\main\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -283191,19 +286585,19 @@ const getRandomTableNumber = () => {
 
         function components_main_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[19] = list[i];
-            child_ctx[21] = i;
+            child_ctx[18] = list[i];
+            child_ctx[20] = i;
             return child_ctx;
         }
 
         function components_main_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[22] = list[i];
-            child_ctx[21] = i;
+            child_ctx[21] = list[i];
+            child_ctx[20] = i;
             return child_ctx;
         }
 
-        // (100:4) {#if !isEmpty($battlePassData)}
+        // (103:4) {#if !isEmpty($battlePassData)}
         function event_pass_components_main_index_svelte_create_if_block_1(ctx) {
             let div12;
             let div8;
@@ -283522,102 +286916,113 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (135:36) {#if reward.sysName >= 0}
+        // (138:36) {#if reward.sysName >= 0}
         function event_pass_components_main_index_svelte_create_if_block_3(ctx) {
             let div;
-            let t0_value = /*reward*/ ctx[22].title + "";
+            let t0_value = /*reward*/ ctx[21].title + "";
             let t0;
             let t1;
-            let img;
-            let img_src_value;
             let t2;
             let t3;
             let t4;
             let current_block_type_index;
-            let if_block2;
-            let if_block2_anchor;
+            let if_block3;
+            let if_block3_anchor;
             let current;
-            let if_block0 = /*reward*/ ctx[22].count > 0 && main_index_svelte_create_if_block_7(ctx);
-            let if_block1 = ( /*$battlePassData*/ ctx[2].level < /*reward*/ ctx[22].level || /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[22].level - 1]) && main_index_svelte_create_if_block_6(ctx);
+
+            function select_block_type(ctx, dirty) {
+                if ( /*reward*/ ctx[21].gifImage === true) return main_index_svelte_create_if_block_8;
+                return components_main_index_svelte_create_else_block_1;
+            }
+
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block0 = current_block_type(ctx);
+            let if_block1 = /*reward*/ ctx[21].count > 0 && main_index_svelte_create_if_block_7(ctx);
+            let if_block2 = ( /*$battlePassData*/ ctx[2].level < /*reward*/ ctx[21].level || /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[21].level - 1]) && components_main_index_svelte_create_if_block_6(ctx);
             const if_block_creators = [components_main_index_svelte_create_if_block_4, components_main_index_svelte_create_if_block_5, components_main_index_svelte_create_else_block];
             const if_blocks = [];
 
-            function select_block_type(ctx, dirty) {
-                if (! /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[22].level - 1] && /*$battlePassData*/ ctx[2].level >= /*reward*/ ctx[22].level) return 0;
-                if ( /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[22].level - 1] && /*$battlePassData*/ ctx[2].level >= /*reward*/ ctx[22].level) return 1;
+            function select_block_type_1(ctx, dirty) {
+                if (! /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[21].level - 1] && /*$battlePassData*/ ctx[2].level >= /*reward*/ ctx[21].level) return 0;
+                if ( /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[21].level - 1] && /*$battlePassData*/ ctx[2].level >= /*reward*/ ctx[21].level) return 1;
                 return 2;
             }
 
-            current_block_type_index = select_block_type(ctx, -1);
-            if_block2 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+            current_block_type_index = select_block_type_1(ctx, -1);
+            if_block3 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
             return {
                 c() {
                     div = dom_element("div");
                     t0 = dom_text(t0_value);
                     t1 = dom_space();
-                    img = dom_element("img");
+                    if_block0.c();
                     t2 = dom_space();
-                    if (if_block0) if_block0.c();
-                    t3 = dom_space();
                     if (if_block1) if_block1.c();
+                    t3 = dom_space();
+                    if (if_block2) if_block2.c();
                     t4 = dom_space();
-                    if_block2.c();
-                    if_block2_anchor = empty();
+                    if_block3.c();
+                    if_block3_anchor = empty();
                     dom_attr(div, "class", "event-pass-main__reward-title");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/redwards/${/*reward*/ ctx[22].sysName}.webp`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "reward-icon");
-                    dom_attr(img, "class", "event-pass-main__reward-image");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
                     dom_append(div, t0);
                     dom_insert(target, t1, anchor);
-                    dom_insert(target, img, anchor);
+                    if_block0.m(target, anchor);
                     dom_insert(target, t2, anchor);
-                    if (if_block0) if_block0.m(target, anchor);
-                    dom_insert(target, t3, anchor);
                     if (if_block1) if_block1.m(target, anchor);
+                    dom_insert(target, t3, anchor);
+                    if (if_block2) if_block2.m(target, anchor);
                     dom_insert(target, t4, anchor);
                     if_blocks[current_block_type_index].m(target, anchor);
-                    dom_insert(target, if_block2_anchor, anchor);
+                    dom_insert(target, if_block3_anchor, anchor);
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ((!current || dirty & /*commonRewards*/ 2) && t0_value !== (t0_value = /*reward*/ ctx[22].title + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty & /*commonRewards*/ 2) && t0_value !== (t0_value = /*reward*/ ctx[21].title + "")) dom_set_data(t0, t0_value);
 
-                    if (!current || dirty & /*commonRewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/redwards/${/*reward*/ ctx[22].sysName}.webp`)) {
-                        dom_attr(img, "src", img_src_value);
-                    }
-
-                    if ( /*reward*/ ctx[22].count > 0) {
-                        if (if_block0) {
-                            if_block0.p(ctx, dirty);
-                        } else {
-                            if_block0 = main_index_svelte_create_if_block_7(ctx);
-                            if_block0.c();
-                            if_block0.m(t3.parentNode, t3);
-                        }
-                    } else if (if_block0) {
+                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block0) {
+                        if_block0.p(ctx, dirty);
+                    } else {
                         if_block0.d(1);
-                        if_block0 = null;
+                        if_block0 = current_block_type(ctx);
+
+                        if (if_block0) {
+                            if_block0.c();
+                            if_block0.m(t2.parentNode, t2);
+                        }
                     }
 
-                    if ( /*$battlePassData*/ ctx[2].level < /*reward*/ ctx[22].level || /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[22].level - 1]) {
+                    if ( /*reward*/ ctx[21].count > 0) {
                         if (if_block1) {
-
+                            if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = main_index_svelte_create_if_block_6(ctx);
+                            if_block1 = main_index_svelte_create_if_block_7(ctx);
                             if_block1.c();
-                            if_block1.m(t4.parentNode, t4);
+                            if_block1.m(t3.parentNode, t3);
                         }
                     } else if (if_block1) {
                         if_block1.d(1);
                         if_block1 = null;
                     }
 
+                    if ( /*$battlePassData*/ ctx[2].level < /*reward*/ ctx[21].level || /*$battlePassData*/ ctx[2].availableToReceive[ /*reward*/ ctx[21].level - 1]) {
+                        if (if_block2) {
+
+                        } else {
+                            if_block2 = components_main_index_svelte_create_if_block_6(ctx);
+                            if_block2.c();
+                            if_block2.m(t4.parentNode, t4);
+                        }
+                    } else if (if_block2) {
+                        if_block2.d(1);
+                        if_block2 = null;
+                    }
+
                     let previous_block_index = current_block_type_index;
-                    current_block_type_index = select_block_type(ctx, dirty);
+                    current_block_type_index = select_block_type_1(ctx, dirty);
 
                     if (current_block_type_index === previous_block_index) {
                         if_blocks[current_block_type_index].p(ctx, dirty);
@@ -283629,50 +287034,106 @@ const getRandomTableNumber = () => {
                         });
 
                         transitions_check_outros();
-                        if_block2 = if_blocks[current_block_type_index];
+                        if_block3 = if_blocks[current_block_type_index];
 
-                        if (!if_block2) {
-                            if_block2 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-                            if_block2.c();
+                        if (!if_block3) {
+                            if_block3 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+                            if_block3.c();
                         } else {
-                            if_block2.p(ctx, dirty);
+                            if_block3.p(ctx, dirty);
                         }
 
-                        transitions_transition_in(if_block2, 1);
-                        if_block2.m(if_block2_anchor.parentNode, if_block2_anchor);
+                        transitions_transition_in(if_block3, 1);
+                        if_block3.m(if_block3_anchor.parentNode, if_block3_anchor);
                     }
                 },
                 i(local) {
                     if (current) return;
-                    transitions_transition_in(if_block2);
+                    transitions_transition_in(if_block3);
                     current = true;
                 },
                 o(local) {
-                    transitions_transition_out(if_block2);
+                    transitions_transition_out(if_block3);
                     current = false;
                 },
                 d(detaching) {
                     if (detaching) {
                         dom_detach(div);
                         dom_detach(t1);
-                        dom_detach(img);
                         dom_detach(t2);
                         dom_detach(t3);
                         dom_detach(t4);
-                        dom_detach(if_block2_anchor);
+                        dom_detach(if_block3_anchor);
                     }
 
-                    if (if_block0) if_block0.d(detaching);
+                    if_block0.d(detaching);
                     if (if_block1) if_block1.d(detaching);
+                    if (if_block2) if_block2.d(detaching);
                     if_blocks[current_block_type_index].d(detaching);
                 }
             };
         }
 
-        // (144:40) {#if reward.count > 0}
+        // (149:40) {:else}
+        function components_main_index_svelte_create_else_block_1(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*reward*/ ctx[21].sysName}.webp`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "reward-icon");
+                    dom_attr(img, "class", "event-pass-main__reward-image");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*commonRewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*reward*/ ctx[21].sysName}.webp`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (143:40) {#if reward.gifImage === true}
+        function main_index_svelte_create_if_block_8(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*reward*/ ctx[21].sysName}.gif`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "reward-icon");
+                    dom_attr(img, "class", "event-pass-main__reward-image");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*commonRewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*reward*/ ctx[21].sysName}.gif`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (156:40) {#if reward.count > 0}
         function main_index_svelte_create_if_block_7(ctx) {
             let div;
-            let t_value = `${formatMoney(/*reward*/ ctx[22].count)} шт.` + "";
+            let t_value = `${formatMoney(/*reward*/ ctx[21].count)} шт.` + "";
             let t;
 
             return {
@@ -283686,7 +287147,7 @@ const getRandomTableNumber = () => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*commonRewards*/ 2 && t_value !== (t_value = `${formatMoney(/*reward*/ ctx[22].count)} шт.` + "")) dom_set_data(t, t_value);
+                    if (dirty & /*commonRewards*/ 2 && t_value !== (t_value = `${formatMoney(/*reward*/ ctx[21].count)} шт.` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -283696,8 +287157,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (147:40) {#if ($battlePassData.level < reward.level) || $battlePassData.availableToReceive[reward.level - 1]}
-        function main_index_svelte_create_if_block_6(ctx) {
+        // (159:40) {#if ($battlePassData.level < reward.level) || $battlePassData.availableToReceive[reward.level - 1]}
+        function components_main_index_svelte_create_if_block_6(ctx) {
             let div;
 
             return {
@@ -283716,7 +287177,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (164:40) {:else}
+        // (176:40) {:else}
         function components_main_index_svelte_create_else_block(ctx) {
             let i;
 
@@ -283739,7 +287200,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (157:144) 
+        // (169:144) 
         function components_main_index_svelte_create_if_block_5(ctx) {
             let div2;
 
@@ -283763,7 +287224,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (150:40) {#if !$battlePassData.availableToReceive[reward.level - 1] && $battlePassData.level >= reward.level}
+        // (162:40) {#if !$battlePassData.availableToReceive[reward.level - 1] && $battlePassData.level >= reward.level}
         function components_main_index_svelte_create_if_block_4(ctx) {
             let div;
             let button;
@@ -283772,7 +287233,7 @@ const getRandomTableNumber = () => {
             let dispose;
 
             function func() {
-                return /*func*/ ctx[11]( /*reward*/ ctx[22]);
+                return /*func*/ ctx[11]( /*reward*/ ctx[21]);
             }
 
             button = new button_index_svelte({
@@ -283784,7 +287245,7 @@ const getRandomTableNumber = () => {
             });
 
             function click_handler() {
-                return /*click_handler*/ ctx[12]( /*reward*/ ctx[22]);
+                return /*click_handler*/ ctx[12]( /*reward*/ ctx[21]);
             }
 
             return {
@@ -283830,13 +287291,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (128:24) {#each commonRewards as reward, index}
+        // (131:24) {#each commonRewards as reward, index}
         function components_main_index_svelte_create_each_block_1(ctx) {
             let div1;
             let div0;
             let t;
             let current;
-            let if_block = /*reward*/ ctx[22].sysName >= 0 && event_pass_components_main_index_svelte_create_if_block_3(ctx);
+            let if_block = /*reward*/ ctx[21].sysName >= 0 && event_pass_components_main_index_svelte_create_if_block_3(ctx);
 
             return {
                 c() {
@@ -283857,7 +287318,7 @@ const getRandomTableNumber = () => {
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ( /*reward*/ ctx[22].sysName >= 0) {
+                    if ( /*reward*/ ctx[21].sysName >= 0) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
 
@@ -283899,12 +287360,12 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (182:36) {#if item.sysName >= 0}
+        // (194:36) {#if item.sysName >= 0}
         function event_pass_components_main_index_svelte_create_if_block_2(ctx) {
             let div2;
             let div1;
             let div0;
-            let t_value = /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE + "";
+            let t_value = /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE + "";
             let t;
 
             return {
@@ -283914,9 +287375,9 @@ const getRandomTableNumber = () => {
                     div0 = dom_element("div");
                     t = dom_text(t_value);
                     dom_attr(div0, "class", "event-pass-main__experience-line-level-value");
-                    dom_toggle_class(div0, "event-pass-main__experience-line-level-value--unreached", /*$battlePassData*/ ctx[2].level < /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
+                    dom_toggle_class(div0, "event-pass-main__experience-line-level-value--unreached", /*$battlePassData*/ ctx[2].level < /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
                     dom_attr(div1, "class", "event-pass-main__experience-line-level");
-                    dom_toggle_class(div1, "event-pass-main__experience-line-level--red", /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE <= /*$battlePassData*/ ctx[2].level);
+                    dom_toggle_class(div1, "event-pass-main__experience-line-level--red", /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE <= /*$battlePassData*/ ctx[2].level);
                     dom_attr(div2, "class", "event-pass-main__experience-line-level-value-wrapper");
                 },
                 m(target, anchor) {
@@ -283926,14 +287387,14 @@ const getRandomTableNumber = () => {
                     dom_append(div0, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*currentLevelPage*/ 1 && t_value !== (t_value = /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE + "")) dom_set_data(t, t_value);
+                    if (dirty & /*currentLevelPage*/ 1 && t_value !== (t_value = /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE + "")) dom_set_data(t, t_value);
 
                     if (dirty & /*$battlePassData, currentLevelPage, PAGE_SIZE*/ 5) {
-                        dom_toggle_class(div0, "event-pass-main__experience-line-level-value--unreached", /*$battlePassData*/ ctx[2].level < /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
+                        dom_toggle_class(div0, "event-pass-main__experience-line-level-value--unreached", /*$battlePassData*/ ctx[2].level < /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
                     }
 
                     if (dirty & /*currentLevelPage, PAGE_SIZE, $battlePassData*/ 5) {
-                        dom_toggle_class(div1, "event-pass-main__experience-line-level--red", /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE <= /*$battlePassData*/ ctx[2].level);
+                        dom_toggle_class(div1, "event-pass-main__experience-line-level--red", /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE <= /*$battlePassData*/ ctx[2].level);
                     }
                 },
                 d(detaching) {
@@ -283944,11 +287405,11 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (174:28) {#each commonRewards as item, index}
+        // (186:28) {#each commonRewards as item, index}
         function components_main_index_svelte_create_each_block(ctx) {
             let div;
             let t;
-            let if_block = /*item*/ ctx[19].sysName >= 0 && event_pass_components_main_index_svelte_create_if_block_2(ctx);
+            let if_block = /*item*/ ctx[18].sysName >= 0 && event_pass_components_main_index_svelte_create_if_block_2(ctx);
 
             return {
                 c() {
@@ -283956,10 +287417,10 @@ const getRandomTableNumber = () => {
                     if (if_block) if_block.c();
                     t = dom_space();
                     dom_attr(div, "class", "event-pass-main__experience-line-level-wrapper");
-                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[2].level > /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
-                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[2].level === /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
-                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === 1);
-                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === REWARDS.length);
+                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[2].level > /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
+                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[2].level === /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
+                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === 1);
+                    dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === REWARDS.length);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -283967,7 +287428,7 @@ const getRandomTableNumber = () => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if ( /*item*/ ctx[19].sysName >= 0) {
+                    if ( /*item*/ ctx[18].sysName >= 0) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -283981,19 +287442,19 @@ const getRandomTableNumber = () => {
                     }
 
                     if (dirty & /*$battlePassData, currentLevelPage, PAGE_SIZE*/ 5) {
-                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[2].level > /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
+                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[2].level > /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
                     }
 
                     if (dirty & /*$battlePassData, currentLevelPage, PAGE_SIZE*/ 5) {
-                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[2].level === /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
+                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[2].level === /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE);
                     }
 
                     if (dirty & /*currentLevelPage, PAGE_SIZE*/ 1) {
-                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === 1);
+                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === 1);
                     }
 
                     if (dirty & /*currentLevelPage, PAGE_SIZE*/ 1) {
-                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[21] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === REWARDS.length);
+                        dom_toggle_class(div, "event-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[20] + 1 + ( /*currentLevelPage*/ ctx[0] - 1) * main_index_svelte_PAGE_SIZE === REWARDS.length);
                     }
                 },
                 d(detaching) {
@@ -284006,7 +287467,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (221:4) {#if !isEmpty($modal)}
+        // (233:4) {#if !isEmpty($modal)}
         function event_pass_components_main_index_svelte_create_if_block(ctx) {
             let div;
             let modal_1;
@@ -284169,15 +287630,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        const finishUnix = 1757210705;
+        const finishUnix = 1765764305;
         const main_index_svelte_PAGE_SIZE = 4;
 
         function event_pass_components_main_index_svelte_instance($$self, $$props, $$invalidate) {
             let $battlePassData;
-            let $selectedPageBit;
             let $modal;
             utils_component_subscribe($$self, event_pass_store_battlePassData, $$value => $$invalidate(2, $battlePassData = $$value));
-            utils_component_subscribe($$self, selectedPageBit, $$value => $$invalidate(16, $selectedPageBit = $$value));
             utils_component_subscribe($$self, store_modal, $$value => $$invalidate(3, $modal = $$value));
             const audio = new Audio(happ_sound_click_namespaceObject);
             const MAX_REWARD_LEVEL = REWARDS.length;
@@ -284214,14 +287673,16 @@ const getRandomTableNumber = () => {
             };
 
             const getCommonReward = level => {
+                audio.currentTime = 0;
                 audio.play();
                 utils_set_store_value(event_pass_store_battlePassData, $battlePassData.availableToReceive[level - 1] = 1, $battlePassData);
                 cef_sendClientMessage('battlePass.holiday.getCommonReward', level);
             };
 
             const openGuide = () => {
+                audio.currentTime = 0;
                 audio.play();
-                utils_set_store_value(selectedPageBit, $selectedPageBit = NAVIGATION_BITS.Guide, $selectedPageBit);
+                cef_sendClientMessage('battlePass.holiday.openGuide');
             };
 
             const arrowsHandler = event => {
@@ -284578,24 +288039,24 @@ const getRandomTableNumber = () => {
         const components_prize_image_index_svelte = (index_svelte_Prize_image);; // CONCATENATED MODULE: ./src/views/event-pass/img/schedule.svg
         const schedule_namespaceObject = __webpack_require__.p + "assets/075f556b2c69fb279131.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/controller.svg
         const controller_namespaceObject = __webpack_require__.p + "assets/e95e10bd387f5102fe66.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest1.png
-        const quest1_namespaceObject = __webpack_require__.p + "assets/a3e03312a6763956f334.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest2.png
-        const quest2_namespaceObject = __webpack_require__.p + "assets/ed42de58295e50489197.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest3.png
-        const quest3_namespaceObject = __webpack_require__.p + "assets/68addac5505259917662.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest4.png
-        const quest4_namespaceObject = __webpack_require__.p + "assets/df8533b8bb84522935ba.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest5.png
-        const quest5_namespaceObject = __webpack_require__.p + "assets/4d57c09469e90ac7c368.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest6.png
-        const quest6_namespaceObject = __webpack_require__.p + "assets/38c4c264f66623e5a9c4.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest7.png
-        const quest7_namespaceObject = __webpack_require__.p + "assets/ff2a540f9a4c4cb1b8d4.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest8.png
-        const quest8_namespaceObject = __webpack_require__.p + "assets/91308d8bae4f83a61052.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest9.png
-        const quest9_namespaceObject = __webpack_require__.p + "assets/fb7a56a786cec2eedb5c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest10.png
-        const quest10_namespaceObject = __webpack_require__.p + "assets/2607c3443c5f57aa3af8.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest11.png
+        const quest1_namespaceObject = __webpack_require__.p + "assets/6fedc2d38c7b268b7d70.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest2.png
+        const quest2_namespaceObject = __webpack_require__.p + "assets/ac0e0f9215e0aa1689f8.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest3.png
+        const quest3_namespaceObject = __webpack_require__.p + "assets/f4750103679f41e10c52.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest4.png
+        const quest4_namespaceObject = __webpack_require__.p + "assets/99320d52b0b1e8f431f1.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest5.png
+        const quest5_namespaceObject = __webpack_require__.p + "assets/c1a001de83e9473e0d2a.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest6.png
+        const quest6_namespaceObject = __webpack_require__.p + "assets/133c0c1440046333f7eb.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest7.png
+        const quest7_namespaceObject = __webpack_require__.p + "assets/9130fca0b3b4a1b819b1.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest8.png
+        const quest8_namespaceObject = __webpack_require__.p + "assets/1b8e051ae8892381457c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest9.png
+        const quest9_namespaceObject = __webpack_require__.p + "assets/47856193fe29133773bf.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest10.png
+        const quest10_namespaceObject = __webpack_require__.p + "assets/3c60f1d598a2aa4fa13c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest11.png
         const quest11_namespaceObject = __webpack_require__.p + "assets/6b3629f00abdcad7be9c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest12.png
         const quest12_namespaceObject = __webpack_require__.p + "assets/7ec83d7d75453bb453d3.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest13.png
         const quest13_namespaceObject = __webpack_require__.p + "assets/3969973a1cb51a47612c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest14.png
         const quest14_namespaceObject = __webpack_require__.p + "assets/07488d6a8273b9f5452c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest15.png
         const quest15_namespaceObject = __webpack_require__.p + "assets/8f3df5ff8527006d7466.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event1.png
-        const event1_namespaceObject = __webpack_require__.p + "assets/ea36f380843d04947f33.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event2.png
-        const event2_namespaceObject = __webpack_require__.p + "assets/788f7b19b559e1032d39.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event3.png
-        const event3_namespaceObject = __webpack_require__.p + "assets/a285fad620cc4a1f10f4.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/top1.png
+        const event1_namespaceObject = __webpack_require__.p + "assets/305db456dcb6bbdcfe8c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event2.png
+        const event2_namespaceObject = __webpack_require__.p + "assets/e401f8eb343679a8476b.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event3.png
+        const event3_namespaceObject = __webpack_require__.p + "assets/eefaa6a9836ce022e01d.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/top1.png
         const top1_namespaceObject = __webpack_require__.p + "assets/0c92baebbff516ff3104.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/top2.png
         const top2_namespaceObject = __webpack_require__.p + "assets/a6b91c0a2a1b2e00968b.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/box1.png
         const box1_namespaceObject = __webpack_require__.p + "assets/f2ff02fc9f91c132bec6.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/rewards/1234.png
@@ -285540,7 +289001,7 @@ const getRandomTableNumber = () => {
         }
 
         // (78:3) {#if event.available_after > 0}
-        function events_index_svelte_create_if_block_3(ctx) {
+        function events_index_svelte_create_if_block_4(ctx) {
             let div2;
             let i;
             let t0;
@@ -285585,7 +289046,28 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (97:5) {#each event.items as reward}
+        // (89:12) {#if event.adultOnly}
+        function events_index_svelte_create_if_block_3(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.innerHTML = `<p class="event-pass-events__event-adult-title">18+</p>`;
+                    dom_attr(div, "class", "event-pass-events__event-adult");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (104:5) {#each event.items as reward}
         function events_index_svelte_create_each_block_1(ctx) {
             let div;
             let prizeimage;
@@ -285639,7 +289121,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (116:59) 
+        // (123:59) 
         function events_index_svelte_create_if_block_2(ctx) {
             let div;
 
@@ -285661,7 +289143,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (109:6) {#if !isNil(event.players)}
+        // (116:6) {#if !isNil(event.players)}
         function events_index_svelte_create_if_block_1(ctx) {
             let div0;
             let t1;
@@ -285698,7 +289180,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (122:5) {#if !isNil(event.attempts)}
+        // (129:5) {#if !isNil(event.attempts)}
         function events_index_svelte_create_if_block(ctx) {
             let div2;
             let div0;
@@ -285741,28 +289223,30 @@ const getRandomTableNumber = () => {
         function events_index_svelte_create_each_block(ctx) {
             let div7;
             let t0;
+            let t1;
             let div6;
             let div0;
-            let t1_value = /*event*/ ctx[10].name + "";
-            let t1;
+            let t2_value = /*event*/ ctx[10].name + "";
             let t2;
-            let div1;
-            let t3_value = /*event*/ ctx[10].description + "";
             let t3;
+            let div1;
+            let t4_value = /*event*/ ctx[10].description + "";
             let t4;
-            let div2;
             let t5;
+            let div2;
+            let t6;
             let div4;
             let div3;
             let show_if_1;
-            let t6;
-            let show_if = !(0, lodash.isNil)( /*event*/ ctx[10].attempts);
             let t7;
+            let show_if = !(0, lodash.isNil)( /*event*/ ctx[10].attempts);
+            let t8;
             let div5;
             let button;
-            let t8;
+            let t9;
             let current;
-            let if_block0 = /*event*/ ctx[10].available_after > 0 && events_index_svelte_create_if_block_3(ctx);
+            let if_block0 = /*event*/ ctx[10].available_after > 0 && events_index_svelte_create_if_block_4(ctx);
+            let if_block1 = /*event*/ ctx[10].adultOnly && events_index_svelte_create_if_block_3(ctx);
             let each_value_1 = each_ensure_array_like( /*event*/ ctx[10].items);
             let each_blocks = [];
 
@@ -285782,8 +289266,8 @@ const getRandomTableNumber = () => {
             }
 
             let current_block_type = select_block_type(ctx, -1);
-            let if_block1 = current_block_type && current_block_type(ctx);
-            let if_block2 = show_if && events_index_svelte_create_if_block(ctx);
+            let if_block2 = current_block_type && current_block_type(ctx);
+            let if_block3 = show_if && events_index_svelte_create_if_block(ctx);
 
             function func() {
                 return /*func*/ ctx[5]( /*event*/ ctx[10]);
@@ -285804,29 +289288,31 @@ const getRandomTableNumber = () => {
                     div7 = dom_element("div");
                     if (if_block0) if_block0.c();
                     t0 = dom_space();
+                    if (if_block1) if_block1.c();
+                    t1 = dom_space();
                     div6 = dom_element("div");
                     div0 = dom_element("div");
-                    t1 = dom_text(t1_value);
-                    t2 = dom_space();
+                    t2 = dom_text(t2_value);
+                    t3 = dom_space();
                     div1 = dom_element("div");
-                    t3 = dom_text(t3_value);
-                    t4 = dom_space();
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
                     div2 = dom_element("div");
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
                     }
 
-                    t5 = dom_space();
+                    t6 = dom_space();
                     div4 = dom_element("div");
                     div3 = dom_element("div");
-                    if (if_block1) if_block1.c();
-                    t6 = dom_space();
                     if (if_block2) if_block2.c();
                     t7 = dom_space();
+                    if (if_block3) if_block3.c();
+                    t8 = dom_space();
                     div5 = dom_element("div");
                     create_component(button.$$.fragment);
-                    t8 = dom_space();
+                    t9 = dom_space();
                     dom_attr(div0, "class", "event-pass-events__event-name");
                     dom_attr(div1, "class", "event-pass-events__event-description");
                     dom_attr(div2, "class", "event-pass-events__event-prizes");
@@ -285841,13 +289327,15 @@ const getRandomTableNumber = () => {
                     dom_insert(target, div7, anchor);
                     if (if_block0) if_block0.m(div7, null);
                     dom_append(div7, t0);
+                    if (if_block1) if_block1.m(div7, null);
+                    dom_append(div7, t1);
                     dom_append(div7, div6);
                     dom_append(div6, div0);
-                    dom_append(div0, t1);
-                    dom_append(div6, t2);
+                    dom_append(div0, t2);
+                    dom_append(div6, t3);
                     dom_append(div6, div1);
-                    dom_append(div1, t3);
-                    dom_append(div6, t4);
+                    dom_append(div1, t4);
+                    dom_append(div6, t5);
                     dom_append(div6, div2);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
@@ -285856,16 +289344,16 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    dom_append(div6, t5);
+                    dom_append(div6, t6);
                     dom_append(div6, div4);
                     dom_append(div4, div3);
-                    if (if_block1) if_block1.m(div3, null);
-                    dom_append(div4, t6);
-                    if (if_block2) if_block2.m(div4, null);
-                    dom_append(div6, t7);
+                    if (if_block2) if_block2.m(div3, null);
+                    dom_append(div4, t7);
+                    if (if_block3) if_block3.m(div4, null);
+                    dom_append(div6, t8);
                     dom_append(div6, div5);
                     mount_component(button, div5, null);
-                    dom_append(div7, t8);
+                    dom_append(div7, t9);
                     current = true;
                 },
                 p(new_ctx, dirty) {
@@ -285875,7 +289363,7 @@ const getRandomTableNumber = () => {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = events_index_svelte_create_if_block_3(ctx);
+                            if_block0 = events_index_svelte_create_if_block_4(ctx);
                             if_block0.c();
                             if_block0.m(div7, t0);
                         }
@@ -285884,8 +289372,21 @@ const getRandomTableNumber = () => {
                         if_block0 = null;
                     }
 
-                    if ((!current || dirty & /*localEvents*/ 1) && t1_value !== (t1_value = /*event*/ ctx[10].name + "")) dom_set_data(t1, t1_value);
-                    if ((!current || dirty & /*localEvents*/ 1) && t3_value !== (t3_value = /*event*/ ctx[10].description + "")) dom_set_data(t3, t3_value);
+                    if ( /*event*/ ctx[10].adultOnly) {
+                        if (if_block1) {
+
+                        } else {
+                            if_block1 = events_index_svelte_create_if_block_3(ctx);
+                            if_block1.c();
+                            if_block1.m(div7, t1);
+                        }
+                    } else if (if_block1) {
+                        if_block1.d(1);
+                        if_block1 = null;
+                    }
+
+                    if ((!current || dirty & /*localEvents*/ 1) && t2_value !== (t2_value = /*event*/ ctx[10].name + "")) dom_set_data(t2, t2_value);
+                    if ((!current || dirty & /*localEvents*/ 1) && t4_value !== (t4_value = /*event*/ ctx[10].description + "")) dom_set_data(t4, t4_value);
 
                     if (dirty & /*localEvents*/ 1) {
                         each_value_1 = each_ensure_array_like( /*event*/ ctx[10].items);
@@ -285914,31 +289415,31 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block1) {
-                        if_block1.p(ctx, dirty);
+                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block2) {
+                        if_block2.p(ctx, dirty);
                     } else {
-                        if (if_block1) if_block1.d(1);
-                        if_block1 = current_block_type && current_block_type(ctx);
+                        if (if_block2) if_block2.d(1);
+                        if_block2 = current_block_type && current_block_type(ctx);
 
-                        if (if_block1) {
-                            if_block1.c();
-                            if_block1.m(div3, null);
+                        if (if_block2) {
+                            if_block2.c();
+                            if_block2.m(div3, null);
                         }
                     }
 
                     if (dirty & /*localEvents*/ 1) show_if = !(0, lodash.isNil)( /*event*/ ctx[10].attempts);
 
                     if (show_if) {
-                        if (if_block2) {
-                            if_block2.p(ctx, dirty);
+                        if (if_block3) {
+                            if_block3.p(ctx, dirty);
                         } else {
-                            if_block2 = events_index_svelte_create_if_block(ctx);
-                            if_block2.c();
-                            if_block2.m(div4, null);
+                            if_block3 = events_index_svelte_create_if_block(ctx);
+                            if_block3.c();
+                            if_block3.m(div4, null);
                         }
-                    } else if (if_block2) {
-                        if_block2.d(1);
-                        if_block2 = null;
+                    } else if (if_block3) {
+                        if_block3.d(1);
+                        if_block3 = null;
                     }
 
                     const button_changes = {};
@@ -285979,13 +289480,14 @@ const getRandomTableNumber = () => {
                     }
 
                     if (if_block0) if_block0.d();
+                    if (if_block1) if_block1.d();
                     destroy_each(each_blocks, detaching);
 
-                    if (if_block1) {
-                        if_block1.d();
+                    if (if_block2) {
+                        if_block2.d();
                     }
 
-                    if (if_block2) if_block2.d();
+                    if (if_block3) if_block3.d();
                     destroy_component(button);
                 }
             };
@@ -286163,13 +289665,8 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const events_index_svelte = (Events);; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/first.svg
-        const first_namespaceObject = __webpack_require__.p + "assets/4f9057845ee87384c741.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/second.svg
-        const second_namespaceObject = __webpack_require__.p + "assets/a16af5469e4fa2290b43.svg";; // CONCATENATED MODULE: ./src/views/event-pass/components/shop/index.svelte
+        const events_index_svelte = (Events);; // CONCATENATED MODULE: ./src/views/event-pass/components/shop/index.svelte
         /* src\views\event-pass\components\shop\index.svelte generated by Svelte v4.2.8 */
-
-
-
 
 
 
@@ -286190,223 +289687,57 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        function shop_index_svelte_get_each_context_1(ctx, list, i) {
-            const child_ctx = ctx.slice();
-            child_ctx[9] = list[i];
-            child_ctx[8] = i;
-            return child_ctx;
-        }
-
-        // (25:0) {#if !isEmpty($shop)}
+        // (22:0) {#if !isEmpty($shop)}
         function event_pass_components_shop_index_svelte_create_if_block(ctx) {
-            let div1;
-            let div0;
-            let t;
+            let div;
             let show_if;
-            let current_block_type_index;
-            let if_block;
-            let current;
-            let each_value_1 = each_ensure_array_like( /*$shop*/ ctx[1].top);
-            let each_blocks = [];
-
-            for (let i = 0; i < each_value_1.length; i += 1) {
-                each_blocks[i] = shop_index_svelte_create_each_block_1(shop_index_svelte_get_each_context_1(ctx, each_value_1, i));
-            }
-
-            const if_block_creators = [event_pass_components_shop_index_svelte_create_if_block_1, shop_index_svelte_create_else_block_1];
-            const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
                 if (dirty & /*$purchaseItem*/ 1) show_if = null;
                 if (show_if == null) show_if = !!(0, lodash.isEmpty)( /*$purchaseItem*/ ctx[0]);
-                if (show_if) return 0;
-                return 1;
+                if (show_if) return event_pass_components_shop_index_svelte_create_if_block_1;
+                return shop_index_svelte_create_else_block;
             }
 
-            current_block_type_index = select_block_type(ctx, -1);
-            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block = current_block_type(ctx);
 
             return {
                 c() {
-                    div1 = dom_element("div");
-                    div0 = dom_element("div");
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        each_blocks[i].c();
-                    }
-
-                    t = dom_space();
+                    div = dom_element("div");
                     if_block.c();
-                    dom_attr(div0, "class", "event-pass-shop__sidebar");
-                    dom_attr(div1, "class", "event-pass-shop");
+                    dom_attr(div, "class", "event-pass-shop");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div1, anchor);
-                    dom_append(div1, div0);
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        if (each_blocks[i]) {
-                            each_blocks[i].m(div0, null);
-                        }
-                    }
-
-                    dom_append(div1, t);
-                    if_blocks[current_block_type_index].m(div1, null);
-                    current = true;
+                    dom_insert(target, div, anchor);
+                    if_block.m(div, null);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$shop*/ 2) {
-                        each_value_1 = each_ensure_array_like( /*$shop*/ ctx[1].top);
-                        let i;
-
-                        for (i = 0; i < each_value_1.length; i += 1) {
-                            const child_ctx = shop_index_svelte_get_each_context_1(ctx, each_value_1, i);
-
-                            if (each_blocks[i]) {
-                                each_blocks[i].p(child_ctx, dirty);
-                            } else {
-                                each_blocks[i] = shop_index_svelte_create_each_block_1(child_ctx);
-                                each_blocks[i].c();
-                                each_blocks[i].m(div0, null);
-                            }
-                        }
-
-                        for (; i < each_blocks.length; i += 1) {
-                            each_blocks[i].d(1);
-                        }
-
-                        each_blocks.length = each_value_1.length;
-                    }
-
-                    let previous_block_index = current_block_type_index;
-                    current_block_type_index = select_block_type(ctx, dirty);
-
-                    if (current_block_type_index === previous_block_index) {
-                        if_blocks[current_block_type_index].p(ctx, dirty);
+                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block) {
+                        if_block.p(ctx, dirty);
                     } else {
-                        transitions_group_outros();
+                        if_block.d(1);
+                        if_block = current_block_type(ctx);
 
-                        transitions_transition_out(if_blocks[previous_block_index], 1, 1, () => {
-                            if_blocks[previous_block_index] = null;
-                        });
-
-                        transitions_check_outros();
-                        if_block = if_blocks[current_block_type_index];
-
-                        if (!if_block) {
-                            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+                        if (if_block) {
                             if_block.c();
-                        } else {
-                            if_block.p(ctx, dirty);
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(div, null);
                         }
-
-                        transitions_transition_in(if_block, 1);
-                        if_block.m(div1, null);
                     }
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    current = false;
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div1);
+                        dom_detach(div);
                     }
 
-                    destroy_each(each_blocks, detaching);
-                    if_blocks[current_block_type_index].d();
+                    if_block.d();
                 }
             };
         }
 
-        // (28:3) {#each $shop.top as top, index}
-        function shop_index_svelte_create_each_block_1(ctx) {
-            let div4;
-            let img0;
-            let img0_src_value;
-            let t0;
-            let img1;
-            let img1_src_value;
-            let t1;
-            let div0;
-            let t2;
-            let div3;
-            let div1;
-            let t3_value = /*top*/ ctx[9].name + "";
-            let t3;
-            let t4;
-            let div2;
-            let t5_value = /*top*/ ctx[9].description + "";
-            let t5;
-            let t6;
-
-            return {
-                c() {
-                    div4 = dom_element("div");
-                    img0 = dom_element("img");
-                    t0 = dom_space();
-                    img1 = dom_element("img");
-                    t1 = dom_space();
-                    div0 = dom_element("div");
-                    t2 = dom_space();
-                    div3 = dom_element("div");
-                    div1 = dom_element("div");
-                    t3 = dom_text(t3_value);
-                    t4 = dom_space();
-                    div2 = dom_element("div");
-                    t5 = dom_text(t5_value);
-                    t6 = dom_space();
-                    if (!utils_src_url_equal(img0.src, img0_src_value = `${CDN_URL}/systems/battlepass_holiday/shop_image/${/*top*/ ctx[9].image}.webp`)) dom_attr(img0, "src", img0_src_value);
-                    dom_attr(img0, "alt", "top");
-                    dom_attr(img0, "class", "event-pass-shop__top-image");
-                    if (!utils_src_url_equal(img1.src, img1_src_value = /*index*/ ctx[8] === 0 ? first_namespaceObject : second_namespaceObject)) dom_attr(img1, "src", img1_src_value);
-                    dom_attr(img1, "alt", "top");
-                    dom_attr(img1, "class", "event-pass-shop__top-badge");
-                    dom_attr(div0, "class", "event-pass-shop__top-overlay");
-                    dom_attr(div1, "class", "event-pass-shop__top-name");
-                    dom_attr(div2, "class", "event-pass-shop__top-caption");
-                    dom_attr(div3, "class", "event-pass-shop__top-name-wrapper");
-                    dom_attr(div4, "class", "event-pass-shop__top");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div4, anchor);
-                    dom_append(div4, img0);
-                    dom_append(div4, t0);
-                    dom_append(div4, img1);
-                    dom_append(div4, t1);
-                    dom_append(div4, div0);
-                    dom_append(div4, t2);
-                    dom_append(div4, div3);
-                    dom_append(div3, div1);
-                    dom_append(div1, t3);
-                    dom_append(div3, t4);
-                    dom_append(div3, div2);
-                    dom_append(div2, t5);
-                    dom_append(div4, t6);
-                },
-                p(ctx, dirty) {
-                    if (dirty & /*$shop*/ 2 && !utils_src_url_equal(img0.src, img0_src_value = `${CDN_URL}/systems/battlepass_holiday/shop_image/${/*top*/ ctx[9].image}.webp`)) {
-                        dom_attr(img0, "src", img0_src_value);
-                    }
-
-                    if (dirty & /*$shop*/ 2 && t3_value !== (t3_value = /*top*/ ctx[9].name + "")) dom_set_data(t3, t3_value);
-                    if (dirty & /*$shop*/ 2 && t5_value !== (t5_value = /*top*/ ctx[9].description + "")) dom_set_data(t5, t5_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div4);
-                    }
-                }
-            };
-        }
-
-        // (65:2) {:else}
-        function shop_index_svelte_create_else_block_1(ctx) {
+        // (59:8) {:else}
+        function shop_index_svelte_create_else_block(ctx) {
             let div5;
             let img;
             let img_src_value;
@@ -286450,7 +289781,7 @@ const getRandomTableNumber = () => {
                     t7 = dom_space();
                     div3 = dom_element("div");
                     div3.textContent = "ВЕРНУТЬСЯ НАЗАД";
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/shop_image/${/*$purchaseItem*/ ctx[0].image}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*$purchaseItem*/ ctx[0].image}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "purchaseItem");
                     dom_attr(img, "class", "event-pass-shop__purchase-item-image");
                     dom_attr(div0, "class", "event-pass-shop__purchase-item-name");
@@ -286485,7 +289816,7 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$purchaseItem*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/shop_image/${/*$purchaseItem*/ ctx[0].image}.webp`)) {
+                    if (dirty & /*$purchaseItem*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*$purchaseItem*/ ctx[0].image}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
@@ -286517,20 +289848,15 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (40:2) {#if isEmpty($purchaseItem)}
+        // (24:8) {#if isEmpty($purchaseItem)}
         function event_pass_components_shop_index_svelte_create_if_block_1(ctx) {
             let div;
-            let current;
-            let each_value = each_ensure_array_like( /*$shop*/ ctx[1].items);
+            let each_value = each_ensure_array_like( /*$shop*/ ctx[1]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value.length; i += 1) {
                 each_blocks[i] = components_shop_index_svelte_create_each_block(components_shop_index_svelte_get_each_context(ctx, each_value, i));
             }
-
-            const out = i => transitions_transition_out(each_blocks[i], 1, 1, () => {
-                each_blocks[i] = null;
-            });
 
             return {
                 c() {
@@ -286550,12 +289876,10 @@ const getRandomTableNumber = () => {
                             each_blocks[i].m(div, null);
                         }
                     }
-
-                    current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$shop, purchase*/ 10) {
-                        each_value = each_ensure_array_like( /*$shop*/ ctx[1].items);
+                    if (dirty & /*purchase, $shop*/ 10) {
+                        each_value = each_ensure_array_like( /*$shop*/ ctx[1]);
                         let i;
 
                         for (i = 0; i < each_value.length; i += 1) {
@@ -286563,42 +289887,22 @@ const getRandomTableNumber = () => {
 
                             if (each_blocks[i]) {
                                 each_blocks[i].p(child_ctx, dirty);
-                                transitions_transition_in(each_blocks[i], 1);
                             } else {
                                 each_blocks[i] = components_shop_index_svelte_create_each_block(child_ctx);
                                 each_blocks[i].c();
-                                transitions_transition_in(each_blocks[i], 1);
                                 each_blocks[i].m(div, null);
                             }
                         }
 
-                        transitions_group_outros();
-
-                        for (i = each_value.length; i < each_blocks.length; i += 1) {
-                            out(i);
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
                         }
 
-                        transitions_check_outros();
+                        each_blocks.length = each_value.length;
                     }
                 },
-                i(local) {
-                    if (current) return;
-
-                    for (let i = 0; i < each_value.length; i += 1) {
-                        transitions_transition_in(each_blocks[i]);
-                    }
-
-                    current = true;
-                },
-                o(local) {
-                    each_blocks = each_blocks.filter(Boolean);
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        transitions_transition_out(each_blocks[i]);
-                    }
-
-                    current = false;
-                },
+                i: utils_noop,
+                o: utils_noop,
                 d(detaching) {
                     if (detaching) {
                         dom_detach(div);
@@ -286609,221 +289913,108 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (52:7) {:else}
-        function shop_index_svelte_create_else_block(ctx) {
-            let div1;
-            let div0;
-            let t0_value = formatMoney( /*item*/ ctx[6].price) + "";
-            let t0;
-            let t1;
-            let img;
-            let img_src_value;
-            let t2;
-            let div2;
-            let button;
-            let current;
-
-            function func() {
-                return /*func*/ ctx[4]( /*item*/ ctx[6]);
-            }
-
-            button = new button_index_svelte({
-                props: {
-                    style: 'yellow',
-                    text: 'Купить',
-                    onClick: func
-                }
-            });
-
-            return {
-                c() {
-                    div1 = dom_element("div");
-                    div0 = dom_element("div");
-                    t0 = dom_text(t0_value);
-                    t1 = dom_space();
-                    img = dom_element("img");
-                    t2 = dom_space();
-                    div2 = dom_element("div");
-                    create_component(button.$$.fragment);
-                    dom_attr(div0, "class", "event-pass-shop__item-price-value");
-                    if (!utils_src_url_equal(img.src, img_src_value = coin_namespaceObject)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "azCoin");
-                    dom_attr(img, "class", "event-pass-shop__item-price-icon");
-                    dom_attr(div1, "class", "event-pass-shop__item-price");
-                    dom_attr(div2, "class", "event-pass-shop__item-button");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div1, anchor);
-                    dom_append(div1, div0);
-                    dom_append(div0, t0);
-                    dom_append(div1, t1);
-                    dom_append(div1, img);
-                    dom_insert(target, t2, anchor);
-                    dom_insert(target, div2, anchor);
-                    mount_component(button, div2, null);
-                    current = true;
-                },
-                p(new_ctx, dirty) {
-                    ctx = new_ctx;
-                    if ((!current || dirty & /*$shop*/ 2) && t0_value !== (t0_value = formatMoney( /*item*/ ctx[6].price) + "")) dom_set_data(t0, t0_value);
-                    const button_changes = {};
-                    if (dirty & /*$shop*/ 2) button_changes.onClick = func;
-                    button.$set(button_changes);
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(button.$$.fragment, local);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(button.$$.fragment, local);
-                    current = false;
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div1);
-                        dom_detach(t2);
-                        dom_detach(div2);
-                    }
-
-                    destroy_component(button);
-                }
-            };
-        }
-
-        // (47:7) {#if item.recived}
-        function components_shop_index_svelte_create_if_block_2(ctx) {
-            let div1;
-
-            return {
-                c() {
-                    div1 = dom_element("div");
-                    div1.innerHTML = `<i class="event-pass-shop__item-recived-icon icon-check"></i> <div class="event-pass-shop__item-recived-text">Открыто</div>`;
-                    dom_attr(div1, "class", "event-pass-shop__item-recived");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div1, anchor);
-                },
-                p: utils_noop,
-                i: utils_noop,
-                o: utils_noop,
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div1);
-                    }
-                }
-            };
-        }
-
-        // (42:4) {#each $shop.items as item, index}
+        // (26:16) {#each $shop as item, index}
         function components_shop_index_svelte_create_each_block(ctx) {
-            let div2;
-            let div0;
+            let div3;
+            let p0;
             let t0_value = /*item*/ ctx[6].name + "";
             let t0;
             let t1;
-            let img;
-            let img_src_value;
+            let img0;
+            let img0_src_value;
             let t2;
-            let div1;
-            let current_block_type_index;
-            let if_block;
+            let div2;
+            let div0;
+            let p1;
+            let t3_value = formatMoney( /*item*/ ctx[6].price) + "";
             let t3;
-            let current;
-            const if_block_creators = [components_shop_index_svelte_create_if_block_2, shop_index_svelte_create_else_block];
-            const if_blocks = [];
+            let t4;
+            let img1;
+            let img1_src_value;
+            let t5;
+            let div1;
+            let t7;
+            let mounted;
+            let dispose;
 
-            function select_block_type_1(ctx, dirty) {
-                if ( /*item*/ ctx[6].recived) return 0;
-                return 1;
+            function click_handler() {
+                return /*click_handler*/ ctx[4]( /*item*/ ctx[6]);
             }
-
-            current_block_type_index = select_block_type_1(ctx, -1);
-            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
             return {
                 c() {
-                    div2 = dom_element("div");
-                    div0 = dom_element("div");
+                    div3 = dom_element("div");
+                    p0 = dom_element("p");
                     t0 = dom_text(t0_value);
                     t1 = dom_space();
-                    img = dom_element("img");
+                    img0 = dom_element("img");
                     t2 = dom_space();
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    p1 = dom_element("p");
+                    t3 = dom_text(t3_value);
+                    t4 = dom_space();
+                    img1 = dom_element("img");
+                    t5 = dom_space();
                     div1 = dom_element("div");
-                    if_block.c();
-                    t3 = dom_space();
-                    dom_attr(div0, "class", "event-pass-shop__item-name");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/shop_image/${/*item*/ ctx[6].image}.webp`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "item");
-                    dom_attr(img, "class", "event-pass-shop__item-image");
-                    dom_attr(div1, "class", "event-pass-shop__item-controls");
-                    dom_attr(div2, "class", "event-pass-shop__item");
-                    dom_toggle_class(div2, "event-pass-shop__item--yellow", ! /*item*/ ctx[6].recived);
+                    div1.innerHTML = `<p class="event-pass-shop__item-button-title">Купить</p>`;
+                    t7 = dom_space();
+                    dom_attr(p0, "class", "event-pass-shop__item-name");
+                    dom_attr(img0, "class", "event-pass-shop__item-image");
+                    if (!utils_src_url_equal(img0.src, img0_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*item*/ ctx[6].image}.gif`)) dom_attr(img0, "src", img0_src_value);
+                    dom_attr(img0, "alt", "case");
+                    dom_attr(p1, "class", "event-pass-shop__item-button-price");
+                    dom_attr(img1, "class", "event-pass-shop__item-button-currency");
+                    if (!utils_src_url_equal(img1.src, img1_src_value = MAP_COINS_TYPE_TO_ICON[ /*item*/ ctx[6].currency])) dom_attr(img1, "src", img1_src_value);
+                    dom_attr(img1, "alt", "currency");
+                    dom_attr(div0, "class", "event-pass-shop__item-button");
+                    dom_attr(div1, "class", "event-pass-shop__item-button event-pass-shop__item-button--buy");
+                    dom_attr(div2, "class", "event-pass-shop__item-buttons");
+                    dom_attr(div3, "class", "event-pass-shop__item");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div2, anchor);
+                    dom_insert(target, div3, anchor);
+                    dom_append(div3, p0);
+                    dom_append(p0, t0);
+                    dom_append(div3, t1);
+                    dom_append(div3, img0);
+                    dom_append(div3, t2);
+                    dom_append(div3, div2);
                     dom_append(div2, div0);
-                    dom_append(div0, t0);
-                    dom_append(div2, t1);
-                    dom_append(div2, img);
-                    dom_append(div2, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                    dom_append(div0, t4);
+                    dom_append(div0, img1);
+                    dom_append(div2, t5);
                     dom_append(div2, div1);
-                    if_blocks[current_block_type_index].m(div1, null);
-                    dom_append(div2, t3);
-                    current = true;
-                },
-                p(ctx, dirty) {
-                    if ((!current || dirty & /*$shop*/ 2) && t0_value !== (t0_value = /*item*/ ctx[6].name + "")) dom_set_data(t0, t0_value);
+                    dom_append(div3, t7);
 
-                    if (!current || dirty & /*$shop*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass_holiday/shop_image/${/*item*/ ctx[6].image}.webp`)) {
-                        dom_attr(img, "src", img_src_value);
-                    }
-
-                    let previous_block_index = current_block_type_index;
-                    current_block_type_index = select_block_type_1(ctx, dirty);
-
-                    if (current_block_type_index === previous_block_index) {
-                        if_blocks[current_block_type_index].p(ctx, dirty);
-                    } else {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_blocks[previous_block_index], 1, 1, () => {
-                            if_blocks[previous_block_index] = null;
-                        });
-
-                        transitions_check_outros();
-                        if_block = if_blocks[current_block_type_index];
-
-                        if (!if_block) {
-                            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-                            if_block.c();
-                        } else {
-                            if_block.p(ctx, dirty);
-                        }
-
-                        transitions_transition_in(if_block, 1);
-                        if_block.m(div1, null);
-                    }
-
-                    if (!current || dirty & /*$shop*/ 2) {
-                        dom_toggle_class(div2, "event-pass-shop__item--yellow", ! /*item*/ ctx[6].recived);
+                    if (!mounted) {
+                        dispose = dom_listen(div1, "click", click_handler);
+                        mounted = true;
                     }
                 },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    current = false;
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+                    if (dirty & /*$shop*/ 2 && t0_value !== (t0_value = /*item*/ ctx[6].name + "")) dom_set_data(t0, t0_value);
+
+                    if (dirty & /*$shop*/ 2 && !utils_src_url_equal(img0.src, img0_src_value = `${CDN_URL}/systems/event_battlepass/rewards/${/*item*/ ctx[6].image}.gif`)) {
+                        dom_attr(img0, "src", img0_src_value);
+                    }
+
+                    if (dirty & /*$shop*/ 2 && t3_value !== (t3_value = formatMoney( /*item*/ ctx[6].price) + "")) dom_set_data(t3, t3_value);
+
+                    if (dirty & /*$shop*/ 2 && !utils_src_url_equal(img1.src, img1_src_value = MAP_COINS_TYPE_TO_ICON[ /*item*/ ctx[6].currency])) {
+                        dom_attr(img1, "src", img1_src_value);
+                    }
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div2);
+                        dom_detach(div3);
                     }
 
-                    if_blocks[current_block_type_index].d();
+                    mounted = false;
+                    dispose();
                 }
             };
         }
@@ -286831,7 +290022,6 @@ const getRandomTableNumber = () => {
         function event_pass_components_shop_index_svelte_create_fragment(ctx) {
             let show_if = !(0, lodash.isEmpty)( /*$shop*/ ctx[1]);
             let if_block_anchor;
-            let current;
             let if_block = show_if && event_pass_components_shop_index_svelte_create_if_block(ctx);
 
             return {
@@ -286842,7 +290032,6 @@ const getRandomTableNumber = () => {
                 m(target, anchor) {
                     if (if_block) if_block.m(target, anchor);
                     dom_insert(target, if_block_anchor, anchor);
-                    current = true;
                 },
                 p(ctx, [dirty]) {
                     if (dirty & /*$shop*/ 2) show_if = !(0, lodash.isEmpty)( /*$shop*/ ctx[1]);
@@ -286850,35 +290039,18 @@ const getRandomTableNumber = () => {
                     if (show_if) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
-
-                            if (dirty & /*$shop*/ 2) {
-                                transitions_transition_in(if_block, 1);
-                            }
                         } else {
                             if_block = event_pass_components_shop_index_svelte_create_if_block(ctx);
                             if_block.c();
-                            transitions_transition_in(if_block, 1);
                             if_block.m(if_block_anchor.parentNode, if_block_anchor);
                         }
                     } else if (if_block) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block, 1, 1, () => {
-                            if_block = null;
-                        });
-
-                        transitions_check_outros();
+                        if_block.d(1);
+                        if_block = null;
                     }
                 },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    current = false;
-                },
+                i: utils_noop,
+                o: utils_noop,
                 d(detaching) {
                     if (detaching) {
                         dom_detach(if_block_anchor);
@@ -286902,8 +290074,8 @@ const getRandomTableNumber = () => {
                 audio.play();
             };
 
-            const func = item => purchase(item.id);
-            return [$purchaseItem, $shop, backToShop, purchase, func];
+            const click_handler = item => purchase(item.id);
+            return [$purchaseItem, $shop, backToShop, purchase, click_handler];
         }
 
         class shop_index_svelte_Shop extends Component_SvelteComponent {
@@ -286949,7 +290121,7 @@ const getRandomTableNumber = () => {
                     div1.innerHTML = `<i class="event-pass-guide__back-icon icon-chevron-left-quad"></i> <div class="event-pass-guide__back-text">Назад</div>`;
                     t2 = dom_space();
                     div2 = dom_element("div");
-                    div2.textContent = "ДЕНЬ НЕЗАВИСИМОСТИ - 11 ЛЕТ";
+                    div2.textContent = "ГАЙД “ДЕНЬ МЕРТВЫХ”";
                     t4 = dom_space();
                     div5 = dom_element("div");
                     div4 = dom_element("div");
@@ -287408,7 +290580,35 @@ const getRandomTableNumber = () => {
         const documents_boxes_blue_namespaceObject = __webpack_require__.p + "assets/2336a39edca2af59ec93.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/documents/boxes/yellow.svg
         const documents_boxes_yellow_namespaceObject = __webpack_require__.p + "assets/c850b64f6513b7fc1cc4.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/documents/boxes/orange.svg
         const documents_boxes_orange_namespaceObject = __webpack_require__.p + "assets/4cf72453879e45c41273.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/documents/boxes/pink.svg
-        const documents_boxes_pink_namespaceObject = __webpack_require__.p + "assets/92aba13aa09c885971ad.svg";; // CONCATENATED MODULE: ./src/views/sort-game/base-game/mocks.js
+        const documents_boxes_pink_namespaceObject = __webpack_require__.p + "assets/92aba13aa09c885971ad.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/items/red.svg
+        const bodies_items_red_namespaceObject = __webpack_require__.p + "assets/3fb6ec17895e45fcc9d1.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/items/green.svg
+        const bodies_items_green_namespaceObject = __webpack_require__.p + "assets/d1f3cf9f333011b444d5.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/items/blue.svg
+        const bodies_items_blue_namespaceObject = __webpack_require__.p + "assets/944f22babe2d9fa3972b.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/items/yellow.svg
+        const bodies_items_yellow_namespaceObject = __webpack_require__.p + "assets/9cd63f255257c16e2780.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/items/orange.svg
+        const bodies_items_orange_namespaceObject = __webpack_require__.p + "assets/3b0622879fa1bed8dad9.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/items/pink.svg
+        const bodies_items_pink_namespaceObject = __webpack_require__.p + "assets/03640a52c43868013842.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/items/white.svg
+        const white_namespaceObject = __webpack_require__.p + "assets/8f9157dd69702a3ce57f.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/red.svg
+        const bodies_boxes_red_namespaceObject = __webpack_require__.p + "assets/eb14300a28de32aceefc.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/green.svg
+        const bodies_boxes_green_namespaceObject = __webpack_require__.p + "assets/0e4773dafb93e0cf2dce.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/blue.svg
+        const bodies_boxes_blue_namespaceObject = __webpack_require__.p + "assets/e8b7e6d772806ec3c039.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/yellow.svg
+        const bodies_boxes_yellow_namespaceObject = __webpack_require__.p + "assets/3a7c11767a66672b9377.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/orange.svg
+        const bodies_boxes_orange_namespaceObject = __webpack_require__.p + "assets/1b8f09a3086a205a7a35.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/pink.svg
+        const bodies_boxes_pink_namespaceObject = __webpack_require__.p + "assets/03305f71105fbe30a2b6.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/white.svg
+        const boxes_white_namespaceObject = __webpack_require__.p + "assets/cf57899448e002b0bcc1.svg";; // CONCATENATED MODULE: ./src/views/sort-game/base-game/mocks.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -287434,7 +290634,7 @@ const getRandomTableNumber = () => {
 
 
         function getGameDetailsMock() {
-            var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'crystals';
+            var type = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'bodies';
             if (type === 'documents') {
                 return [{
                     id: 'red',
@@ -287460,6 +290660,36 @@ const getRandomTableNumber = () => {
                     id: 'pink',
                     image: documents_items_pink_namespaceObject,
                     destinationImage: documents_boxes_pink_namespaceObject
+                }];
+            } else if (type === 'bodies') {
+                return [{
+                    id: 'red',
+                    image: bodies_items_red_namespaceObject,
+                    destinationImage: bodies_boxes_red_namespaceObject
+                }, {
+                    id: 'green',
+                    image: bodies_items_green_namespaceObject,
+                    destinationImage: bodies_boxes_green_namespaceObject
+                }, {
+                    id: 'blue',
+                    image: bodies_items_blue_namespaceObject,
+                    destinationImage: bodies_boxes_blue_namespaceObject
+                }, {
+                    id: 'yellow',
+                    image: bodies_items_yellow_namespaceObject,
+                    destinationImage: bodies_boxes_yellow_namespaceObject
+                }, {
+                    id: 'orange',
+                    image: bodies_items_orange_namespaceObject,
+                    destinationImage: bodies_boxes_orange_namespaceObject
+                }, {
+                    id: 'pink',
+                    image: bodies_items_pink_namespaceObject,
+                    destinationImage: bodies_boxes_pink_namespaceObject
+                }, {
+                    id: 'white',
+                    image: white_namespaceObject,
+                    destinationImage: boxes_white_namespaceObject
                 }];
             }
             return [{
@@ -287487,8 +290717,21 @@ const getRandomTableNumber = () => {
                 image: pink_namespaceObject,
                 destinationImage: boxes_pink_namespaceObject
             }];
-        }; // CONCATENATED MODULE: ./src/views/sort-game/base-game/index.svelte
+        }; // CONCATENATED MODULE: ./src/views/sort-game/base-game/sounds/correct-click.mp3
+        const correct_click_namespaceObject = __webpack_require__.p + "assets/07aff98023233ce121ec.mp3";; // CONCATENATED MODULE: ./src/views/sort-game/base-game/sounds/wrong-click.mp3
+        const wrong_click_namespaceObject = __webpack_require__.p + "assets/5b4396b7153413521302.mp3";; // CONCATENATED MODULE: ./src/views/sort-game/base-game/sounds/theme.mp3
+        const theme_namespaceObject = __webpack_require__.p + "assets/b1812e5633dddc18b8c6.mp3";; // CONCATENATED MODULE: ./src/views/sort-game/base-game/sounds.js
+
+
+
+
+        var sounds_soundManager = createAudioStore({
+            correctClick: correct_click_namespaceObject,
+            wrongClick: wrong_click_namespaceObject,
+            theme: theme_namespaceObject
+        });; // CONCATENATED MODULE: ./src/views/sort-game/base-game/index.svelte
         /* src\views\sort-game\base-game\index.svelte generated by Svelte v4.2.8 */
+
 
 
 
@@ -287510,17 +290753,17 @@ const getRandomTableNumber = () => {
 
         function base_game_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[45] = list[i];
+            child_ctx[42] = list[i];
             return child_ctx;
         }
 
         function base_game_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[48] = list[i];
+            child_ctx[45] = list[i];
             return child_ctx;
         }
 
-        // (271:8) {#if titleIcon}
+        // (262:8) {#if titleIcon}
         function base_game_index_svelte_create_if_block_2(ctx) {
             let img;
             let img_src_value;
@@ -287548,7 +290791,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (301:12) {#each items as item}
+        // (292:12) {#each items as item}
         function base_game_index_svelte_create_each_block_1(ctx) {
             let div;
             let img;
@@ -287558,7 +290801,7 @@ const getRandomTableNumber = () => {
             let dispose;
 
             function mousedown_handler(...args) {
-                return /*mousedown_handler*/ ctx[22]( /*item*/ ctx[48], ...args);
+                return /*mousedown_handler*/ ctx[22]( /*item*/ ctx[45], ...args);
             }
 
             return {
@@ -287566,14 +290809,14 @@ const getRandomTableNumber = () => {
                     div = dom_element("div");
                     img = dom_element("img");
                     t = dom_space();
-                    if (!utils_src_url_equal(img.src, img_src_value = /*item*/ ctx[48].image)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = /*item*/ ctx[45].image)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "item");
                     dom_attr(img, "draggable", "false");
                     dom_attr(img, "class", "sort-game__egg-image");
                     dom_attr(div, "class", "sort-game__egg");
-                    set_style(div, "left", /*item*/ ctx[48].x + "px");
-                    set_style(div, "top", /*item*/ ctx[48].y + "px");
-                    dom_toggle_class(div, "sort-game__egg--hide", /*item*/ ctx[48].hide);
+                    set_style(div, "left", /*item*/ ctx[45].x + "px");
+                    set_style(div, "top", /*item*/ ctx[45].y + "px");
+                    dom_toggle_class(div, "sort-game__egg--hide", /*item*/ ctx[45].hide);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -287588,20 +290831,20 @@ const getRandomTableNumber = () => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if (dirty[0] & /*items*/ 8192 && !utils_src_url_equal(img.src, img_src_value = /*item*/ ctx[48].image)) {
+                    if (dirty[0] & /*items*/ 8192 && !utils_src_url_equal(img.src, img_src_value = /*item*/ ctx[45].image)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
                     if (dirty[0] & /*items*/ 8192) {
-                        set_style(div, "left", /*item*/ ctx[48].x + "px");
+                        set_style(div, "left", /*item*/ ctx[45].x + "px");
                     }
 
                     if (dirty[0] & /*items*/ 8192) {
-                        set_style(div, "top", /*item*/ ctx[48].y + "px");
+                        set_style(div, "top", /*item*/ ctx[45].y + "px");
                     }
 
                     if (dirty[0] & /*items*/ 8192) {
-                        dom_toggle_class(div, "sort-game__egg--hide", /*item*/ ctx[48].hide);
+                        dom_toggle_class(div, "sort-game__egg--hide", /*item*/ ctx[45].hide);
                     }
                 },
                 d(detaching) {
@@ -287615,7 +290858,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (320:8) {#each gameDetails as itemBox}
+        // (311:8) {#each gameDetails as itemBox}
         function base_game_index_svelte_create_each_block(ctx) {
             let div;
             let img;
@@ -287628,14 +290871,14 @@ const getRandomTableNumber = () => {
                     div = dom_element("div");
                     img = dom_element("img");
                     t = dom_space();
-                    if (!utils_src_url_equal(img.src, img_src_value = /*itemBox*/ ctx[45].destinationImage)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = /*itemBox*/ ctx[42].destinationImage)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "box");
                     dom_attr(img, "draggable", "false");
                     dom_attr(img, "class", "sort-game__box-image");
-                    dom_attr(div, "id", div_id_value = "box-" + /*itemBox*/ ctx[45].id);
+                    dom_attr(div, "id", div_id_value = "box-" + /*itemBox*/ ctx[42].id);
                     dom_attr(div, "class", "sort-game__box");
                     dom_toggle_class(div, "sort-game__box--shaking", false);
-                    dom_toggle_class(div, "sort-game__box--jumping", /*draggingItem*/ ctx[12].color === /*itemBox*/ ctx[45].id);
+                    dom_toggle_class(div, "sort-game__box--jumping", /*draggingItem*/ ctx[12].color === /*itemBox*/ ctx[42].id);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -287643,16 +290886,16 @@ const getRandomTableNumber = () => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*gameDetails*/ 1024 && !utils_src_url_equal(img.src, img_src_value = /*itemBox*/ ctx[45].destinationImage)) {
+                    if (dirty[0] & /*gameDetails*/ 1024 && !utils_src_url_equal(img.src, img_src_value = /*itemBox*/ ctx[42].destinationImage)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if (dirty[0] & /*gameDetails*/ 1024 && div_id_value !== (div_id_value = "box-" + /*itemBox*/ ctx[45].id)) {
+                    if (dirty[0] & /*gameDetails*/ 1024 && div_id_value !== (div_id_value = "box-" + /*itemBox*/ ctx[42].id)) {
                         dom_attr(div, "id", div_id_value);
                     }
 
                     if (dirty[0] & /*draggingItem, gameDetails*/ 5120) {
-                        dom_toggle_class(div, "sort-game__box--jumping", /*draggingItem*/ ctx[12].color === /*itemBox*/ ctx[45].id);
+                        dom_toggle_class(div, "sort-game__box--jumping", /*draggingItem*/ ctx[12].color === /*itemBox*/ ctx[42].id);
                     }
                 },
                 d(detaching) {
@@ -287663,7 +290906,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (336:4) {#if conveyorBottomImage}
+        // (327:4) {#if conveyorBottomImage}
         function base_game_index_svelte_create_if_block_1(ctx) {
             let div;
             let div_style_value;
@@ -287690,7 +290933,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (350:4) {#if !isEmpty(draggingItem)}
+        // (341:4) {#if !isEmpty(draggingItem)}
         function base_game_index_svelte_create_if_block(ctx) {
             let portal;
             let current;
@@ -287717,7 +290960,7 @@ const getRandomTableNumber = () => {
                 p(ctx, dirty) {
                     const portal_changes = {};
 
-                    if (dirty[0] & /*draggingItem*/ 4096 | dirty[1] & /*$$scope*/ 1048576) {
+                    if (dirty[0] & /*draggingItem*/ 4096 | dirty[1] & /*$$scope*/ 131072) {
                         portal_changes.$$scope = {
                             dirty,
                             ctx
@@ -287741,7 +290984,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (351:8) <Portal>
+        // (342:8) <Portal>
         function base_game_index_svelte_create_default_slot(ctx) {
             let div;
             let img;
@@ -288194,7 +291437,7 @@ const getRandomTableNumber = () => {
                 conveyorBottomImage
             } = $$props;
             let gameDetails = [];
-            let gameType = 'crystals'; // тип игры по умолчанию
+            let gameType = 'bodies'; // тип игры по умолчанию
             let generatorInterval = null;
             let moveInterval = null;
             let draggingItem = {};
@@ -288208,8 +291451,6 @@ const getRandomTableNumber = () => {
             let boxesCoords = [];
             const innerOffsets = {};
             let speed = 0;
-            const failSound = new Audio(fail_namespaceObject);
-            const successSound = new Audio(success_namespaceObject);
             const grabSound = new Audio(grab_namespaceObject);
             const musicSound = new Audio(sound_music_namespaceObject);
 
@@ -288315,8 +291556,7 @@ const getRandomTableNumber = () => {
                         );
 
                         cef_sendClientMessage('sortBaseGame.correctMove');
-                        successSound.currentTime = 0;
-                        successSound.play();
+                        sounds_soundManager.play('correctClick');
                     } else if (dropResultStatus === DropStatus.Wrong) {
                         $$invalidate(13, items = items.map(udpateItem => {
                             if (udpateItem.id === draggingItem.id) {
@@ -288326,8 +291566,7 @@ const getRandomTableNumber = () => {
                                 };
                             }
 
-                            failSound.currentTime = 0;
-                            failSound.play();
+                            sounds_soundManager.play('wrongClick');
                             return udpateItem;
                         }));
                     } else {
@@ -288348,10 +291587,6 @@ const getRandomTableNumber = () => {
                 }
             };
 
-            const closeWarning = () => {
-                warningShow = !warningShow;
-            };
-
             const unregisterInitializeTotal = registerEvent('event.sortBaseGame.total', value => {
                 $$invalidate(16, total = value);
             });
@@ -288367,9 +291602,7 @@ const getRandomTableNumber = () => {
             }
 
             onMount(() => {
-                // musicSound.loop = true;
-                // musicSound.currentTime = 0;
-                // musicSound.play();
+                sounds_soundManager.play('theme');
                 offsetTop = itemsNode.getBoundingClientRect().y;
 
                 boxesCoords = COLORS_POOL.map(color => {
@@ -288430,7 +291663,7 @@ const getRandomTableNumber = () => {
                     clearInterval(generatorInterval);
                 }
 
-                musicSound.pause();
+                sounds_soundManager.stop('theme');
             });
 
             const mousedown_handler = (item, event) => handleMouseDown(event, item);
@@ -289058,159 +292291,11 @@ const getRandomTableNumber = () => {
         var layoutTemplate = store_writable(LayoutTemplate[0]);
         var donateSettings = store_writable({});
         var modalSettings = store_writable(MODAL_SETTINGS_DEFAULT);
-        var categoriesDisabled = store_writable(false);; // CONCATENATED MODULE: ./node_modules/@elron/svelte-audio-store/dist/AudioStore.js
-
-        function createAudioStore(sounds) {
-            const {
-                subscribe,
-                set,
-                update
-            } = store_writable([]);
-            /**
-             * A utility function to fade an audio element in or out.
-             * @param audio - The HTML audio element to fade.
-             * @param fadeIn - Whether to fade in (true) or out (false).
-             * @param duration - The duration over which the fade should occur.
-             */
-            const fadeAudio = (audio, fadeIn, duration) => {
-                const step = 0.05;
-                const interval = duration * step;
-                if (fadeIn) {
-                    audio.volume = 0;
-                    let volume = 0;
-                    const fadeInterval = setInterval(() => {
-                        volume += step;
-                        audio.volume = volume;
-                        if (volume >= 1)
-                            clearInterval(fadeInterval);
-                    }, interval);
-                } else {
-                    let volume = 1;
-                    const fadeInterval = setInterval(() => {
-                        volume -= step;
-                        audio.volume = volume;
-                        if (volume <= 0) {
-                            audio.pause();
-                            clearInterval(fadeInterval);
-                        }
-                    }, interval);
-                }
-            };
-            return {
-                /**
-                 * Subscribe to the audio store to be notified of changes.
-                 */
-                subscribe,
-                /**
-                 * Preloads all the sounds specified during the store's creation.
-                 * This ensures sounds are loaded into memory for faster playbacks.
-                 */
-                preload: () => {
-                    // Preload sounds based on provided dictionary
-                    Object.values(sounds).forEach((src) => {
-                        const audio = new Audio(src);
-                        audio.preload = 'auto';
-                        audio.load();
-                    });
-                },
-                /**
-                 * Play a specific sound by its key with optional playback settings.
-                 * @param key - The key of the sound to play.
-                 * @param options - Playback settings such as volume, pitch, and trimming.
-                 */
-                play: (key, options = {}) => {
-                    const src = sounds[key];
-                    if (!src) {
-                        console.error(`Sound "${key}" not found.`);
-                        return;
-                    }
-                    const audio = new Audio(src);
-                    audio.loop = options.loop || false;
-                    if (options.volume !== undefined) {
-                        audio.volume = options.volume;
-                    }
-                    if (options.pitch) {
-                        audio.playbackRate = options.pitch; // Adjusting the pitch (and speed) of the sound
-                    }
-                    // Adjust the preservesPitch property based on the option provided
-                    if (typeof audio.preservesPitch !== 'undefined') {
-                        audio.preservesPitch = options.preservesPitch || false;
-                    } else if (typeof audio.mozPreservesPitch !== 'undefined') {
-                        // For Firefox
-                        audio.mozPreservesPitch = options.preservesPitch || false;
-                    }
-                    if (options.trim) {
-                        if (options.trim.start) {
-                            audio.currentTime = options.trim.start;
-                        }
-                        if (options.trim.stop !== undefined) {
-                            audio.addEventListener('timeupdate', function checkTime() {
-                                if (audio.currentTime >= options.trim.stop) {
-                                    // We can safely use the non-null assertion here because we're inside the `if (options.trim)` check
-                                    audio.pause();
-                                    audio.removeEventListener('timeupdate', checkTime);
-                                    if (!options.fade) {
-                                        update((instances) => instances.filter((instance) => instance.audio !== audio));
-                                    } else {
-                                        fadeAudio(audio, false, options.fade);
-                                    }
-                                }
-                            });
-                        }
-                    }
-                    if (options.fade) {
-                        fadeAudio(audio, true, options.fade);
-                    }
-                    audio.onended = () => {
-                        update((instances) => instances.filter((instance) => instance.audio !== audio));
-                    };
-                    audio.play();
-                    update((instances) => [...instances, {
-                        audio,
-                        key
-                    }]);
-                },
-                /**
-                 * Stop a specific sound by its key with optional settings.
-                 * @param key - The key of the sound to stop.
-                 * @param options - Settings such as fade out duration.
-                 */
-                stop: (key, options = {}) => {
-                    update((instances) => {
-                        const toStop = instances.filter((instance) => instance.key === key);
-                        toStop.forEach((instance) => {
-                            if (options.fade) {
-                                fadeAudio(instance.audio, false, options.fade);
-                                setTimeout(() => instance.audio.pause(), options.fade);
-                            } else {
-                                instance.audio.pause();
-                            }
-                        });
-                        return instances.filter((instance) => !toStop.includes(instance));
-                    });
-                },
-                /**
-                 * Set the volume for all currently playing sounds.
-                 * @param volume - The volume level to set (0.0 to 1.0).
-                 */
-                setVolume: (volume) => {
-                    update((instances) => {
-                        instances.forEach((instance) => (instance.audio.volume = volume));
-                        return instances;
-                    });
-                }
-            };
-        }
-
-        ; // CONCATENATED MODULE: ./node_modules/@elron/svelte-audio-store/dist/index.js
-        // Reexport your entry components here
-
-
-        ; // CONCATENATED MODULE: ./src/views/donate-shop/audio/click.mp3
+        var categoriesDisabled = store_writable(false);; // CONCATENATED MODULE: ./src/views/donate-shop/audio/click.mp3
         const donate_shop_audio_click_namespaceObject = __webpack_require__.p + "assets/1d0e6ee583e9bb9d1702.mp3";; // CONCATENATED MODULE: ./src/views/donate-shop/sounds.js
 
 
-        var soundManager = createAudioStore({
+        var donate_shop_sounds_soundManager = createAudioStore({
             click: donate_shop_audio_click_namespaceObject
         });; // CONCATENATED MODULE: ./src/views/donate-shop/component/modal/index.svelte
         /* src\views\donate-shop\component\modal\index.svelte generated by Svelte v4.2.8 */
@@ -290157,7 +293242,7 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage(`donateShop.modal.${$modalSettings.mode}`, inputValue);
                 utils_set_store_value(modalSettings, $modalSettings.loading = false, $modalSettings);
             };
@@ -292681,7 +295766,7 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.purchase', product.key);
             };
 
@@ -293119,7 +296204,7 @@ const getRandomTableNumber = () => {
                     utils_set_store_value(modalSettings, $modalSettings.theme = ModalStyle.Green, $modalSettings);
                     utils_set_store_value(modalSettings, $modalSettings.rate = $donateSettings.totalEarnings, $modalSettings);
                     utils_set_store_value(modalSettings, $modalSettings.visibility = true, $modalSettings);
-                    soundManager.play('click');
+                    donate_shop_sounds_soundManager.play('click');
                     cef_sendClientMessage('donateShop.openModal', ModalMode.Exchange);
                     return;
                 }
@@ -293129,12 +296214,12 @@ const getRandomTableNumber = () => {
                     utils_set_store_value(modalSettings, $modalSettings.theme = ModalStyle.Add, $modalSettings);
                     utils_set_store_value(modalSettings, $modalSettings.rate = product.price, $modalSettings);
                     utils_set_store_value(modalSettings, $modalSettings.visibility = true, $modalSettings);
-                    soundManager.play('click');
+                    donate_shop_sounds_soundManager.play('click');
                     cef_sendClientMessage('donateShop.openModal', ModalMode.Add);
                     return;
                 }
 
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.purchase', product.key);
             };
 
@@ -294500,7 +297585,7 @@ const getRandomTableNumber = () => {
                 );
 
                 utils_set_store_value(layoutTemplate, $layoutTemplate = LayoutTemplate[category.gridTemplate], $layoutTemplate);
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.selectCategory', category.key);
             };
 
@@ -294513,7 +297598,7 @@ const getRandomTableNumber = () => {
                 utils_set_store_value(modalSettings, $modalSettings.mode = mode, $modalSettings);
                 utils_set_store_value(modalSettings, $modalSettings.theme = style, $modalSettings);
                 utils_set_store_value(modalSettings, $modalSettings.visibility = true, $modalSettings);
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.openModal', mode);
             };
 
@@ -294524,7 +297609,7 @@ const getRandomTableNumber = () => {
 
                 utils_set_store_value(modalSettings, $modalSettings.visibility = false, $modalSettings);
                 utils_set_store_value(modalSettings, $modalSettings = MODAL_SETTINGS_DEFAULT, $modalSettings);
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
             };
 
             const getProducts = () => {
@@ -294699,17 +297784,17 @@ const getRandomTableNumber = () => {
 
             // initializeMainInfo(SERVER_MOCK);
             const exit = () => {
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.exit');
             };
 
             const openAzPurchasing = () => {
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.openAzPurchasing');
             };
 
             const openBattlePass = () => {
-                soundManager.play('click');
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.battlePass');
             };
 
@@ -299075,7 +302160,7 @@ const getRandomTableNumber = () => {
         }
 
         // (402:12) {:else}
-        function components_main_index_svelte_create_else_block_1(ctx) {
+        function war_components_main_index_svelte_create_else_block_1(ctx) {
             let each_1_anchor;
             let each_value_1 = each_ensure_array_like( /*familyCaptures*/ ctx[0]);
             let each_blocks = [];
@@ -299518,7 +302603,7 @@ const getRandomTableNumber = () => {
             let mounted;
             let dispose;
             let if_block0 = show_if_4 && war_components_main_index_svelte_create_if_block_4(ctx);
-            const if_block_creators = [war_components_main_index_svelte_create_if_block_2, war_components_main_index_svelte_create_if_block_3, components_main_index_svelte_create_else_block_1];
+            const if_block_creators = [war_components_main_index_svelte_create_if_block_2, war_components_main_index_svelte_create_if_block_3, war_components_main_index_svelte_create_else_block_1];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
@@ -355882,8 +358967,8 @@ const getRandomTableNumber = () => {
 
             basegame = new base_game_index_svelte({
                 props: {
-                    title: "Сортировка космических артефактов",
-                    description: "Нажмите на кристал с помощью ЛКМ и перенесите в нужный кейс",
+                    title: "Сортировка частей тела",
+                    description: "Нажмите на часть тела с помощью ЛКМ и перенесите в нужную коробку",
                     descriptionIcon: "icon-filled-info",
                     counterIcon: counter_skull_namespaceObject,
                     counterColor: "linear-gradient(90deg, #FF0D0D 0%, #700000 100%);",
@@ -358544,11 +361629,11 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const components_button_index_svelte = (button_index_svelte_Button);; // CONCATENATED MODULE: ./src/views/open-case/video/standart.webm
-        const standart_namespaceObject = __webpack_require__.p + "assets/ab755cb88b8ec3707bf9.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/auto.webm
-        const auto_namespaceObject = __webpack_require__.p + "assets/6f65ce27a97d79d3e81f.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/gold.webm
+        const standart_namespaceObject = __webpack_require__.p + "assets/ab755cb88b8ec3707bf9.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/gold.webm
         const video_gold_namespaceObject = __webpack_require__.p + "assets/81c88c729f80fb56685d.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/pirate.webm
-        const pirate_namespaceObject = __webpack_require__.p + "assets/ff86ec413ea2765fd8c6.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/legendary.webm
-        const legendary_namespaceObject = __webpack_require__.p + "assets/4490c3a9d3fa3042cc2a.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
+        const pirate_namespaceObject = __webpack_require__.p + "assets/ff86ec413ea2765fd8c6.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/dead_day.webm
+        const dead_day_namespaceObject = __webpack_require__.p + "assets/04824454039c6dd9d997.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/fear_flame.webm
+        const fear_flame_namespaceObject = __webpack_require__.p + "assets/91be39f0371a0138ee59.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
 
 
 
@@ -358565,10 +361650,10 @@ const getRandomTableNumber = () => {
         };
         var MAP_ID_TO_VIDEO_SRC = {
             standart: standart_namespaceObject,
-            auto: auto_namespaceObject,
             gold: video_gold_namespaceObject,
-            legendary: legendary_namespaceObject,
-            pirate: pirate_namespaceObject
+            pirate: pirate_namespaceObject,
+            dead_day: dead_day_namespaceObject,
+            fear_flame: fear_flame_namespaceObject
         };
         var RarityWeight = {
             common: 0,
@@ -359819,7 +362904,7 @@ const getRandomTableNumber = () => {
         }
 
         // (385:12) {#if !isEmpty($mainCase.similar)}
-        function main_index_svelte_create_if_block_8(ctx) {
+        function components_main_index_svelte_create_if_block_8(ctx) {
             let div;
             let current;
             let each_value_2 = each_ensure_array_like( /*$mainCase*/ ctx[1].similar);
@@ -360114,7 +363199,7 @@ const getRandomTableNumber = () => {
             let div4_intro;
             let current;
             let if_block0 = /*$mainCase*/ ctx[1].unix > 0 && components_main_index_svelte_create_if_block_7(ctx);
-            let if_block1 = /*$mainInfo*/ ctx[2].count === 0 && /*$mainCase*/ ctx[1].price !== 0 && components_main_index_svelte_create_if_block_6(ctx);
+            let if_block1 = /*$mainInfo*/ ctx[2].count === 0 && /*$mainCase*/ ctx[1].price !== 0 && open_case_components_main_index_svelte_create_if_block_6(ctx);
 
             button = new components_button_index_svelte({
                 props: {
@@ -360226,7 +363311,7 @@ const getRandomTableNumber = () => {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = components_main_index_svelte_create_if_block_6(ctx);
+                            if_block1 = open_case_components_main_index_svelte_create_if_block_6(ctx);
                             if_block1.c();
                             if_block1.m(div2, t5);
                         }
@@ -360356,7 +363441,7 @@ const getRandomTableNumber = () => {
         }
 
         // (417:20) {#if $mainInfo.count === 0 && $mainCase.price !== 0}
-        function components_main_index_svelte_create_if_block_6(ctx) {
+        function open_case_components_main_index_svelte_create_if_block_6(ctx) {
             let div;
             let mounted;
             let dispose;
@@ -360888,7 +363973,7 @@ const getRandomTableNumber = () => {
             let current;
             let mounted;
             let dispose;
-            let if_block0 = show_if_2 && main_index_svelte_create_if_block_8(ctx);
+            let if_block0 = show_if_2 && components_main_index_svelte_create_if_block_8(ctx);
             const if_block_creators = [open_case_components_main_index_svelte_create_if_block_3, open_case_components_main_index_svelte_create_else_block];
             const if_blocks = [];
 
@@ -360967,7 +364052,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = main_index_svelte_create_if_block_8(ctx);
+                            if_block0 = components_main_index_svelte_create_if_block_8(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(div1, null);
@@ -363223,20 +366308,20 @@ const getRandomTableNumber = () => {
 
         function base_rating_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[43] = list[i];
+            child_ctx[42] = list[i];
             return child_ctx;
         }
 
         function base_rating_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[46] = list[i];
-            child_ctx[48] = i;
+            child_ctx[45] = list[i];
+            child_ctx[47] = i;
             return child_ctx;
         }
 
         function base_rating_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[49] = list[i];
+            child_ctx[48] = list[i];
             return child_ctx;
         }
 
@@ -363244,13 +366329,13 @@ const getRandomTableNumber = () => {
         function base_rating_index_svelte_create_if_block_11(ctx) {
             let div;
             let p;
-            let t_value = /*quality*/ ctx[49].name + "";
+            let t_value = /*quality*/ ctx[48].name + "";
             let t;
             let mounted;
             let dispose;
 
             function click_handler_2() {
-                return /*click_handler_2*/ ctx[26]( /*quality*/ ctx[49]);
+                return /*click_handler_2*/ ctx[26]( /*quality*/ ctx[48]);
             }
 
             return {
@@ -363260,7 +366345,7 @@ const getRandomTableNumber = () => {
                     t = dom_text(t_value);
                     dom_attr(p, "class", "transport-interaction-rating__sort-item-title");
                     dom_attr(div, "class", "transport-interaction-rating__sort-item");
-                    dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[49].id);
+                    dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[48].id);
                     dom_toggle_class(div, "transport-interaction-rating__sort-item--disabled", /*loaderVisible*/ ctx[9]);
                 },
                 m(target, anchor) {
@@ -363275,10 +366360,10 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if (dirty[0] & /*$qualityApiData, qualityKey*/ 4097 && t_value !== (t_value = /*quality*/ ctx[49].name + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$qualityApiData, qualityKey*/ 4097 && t_value !== (t_value = /*quality*/ ctx[48].name + "")) dom_set_data(t, t_value);
 
                     if (dirty[0] & /*filterType, $qualityApiData, qualityKey*/ 4113) {
-                        dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[49].id);
+                        dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[48].id);
                     }
 
                     if (dirty[0] & /*loaderVisible*/ 512) {
@@ -363299,7 +366384,7 @@ const getRandomTableNumber = () => {
         // (255:8) {#each $qualityApiData[qualityKey] as quality}
         function base_rating_index_svelte_create_each_block_2(ctx) {
             let if_block_anchor;
-            let if_block = /*quality*/ ctx[49].id > 0 && base_rating_index_svelte_create_if_block_11(ctx);
+            let if_block = /*quality*/ ctx[48].id > 0 && base_rating_index_svelte_create_if_block_11(ctx);
 
             return {
                 c() {
@@ -363311,7 +366396,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, if_block_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if ( /*quality*/ ctx[49].id > 0) {
+                    if ( /*quality*/ ctx[48].id > 0) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -363596,7 +366681,7 @@ const getRandomTableNumber = () => {
             let div4;
             let div0;
             let p0;
-            let t0_value = /*item*/ ctx[46].id + "";
+            let t0_value = /*item*/ ctx[45].id + "";
             let t0;
             let t1;
             let img;
@@ -363607,19 +366692,19 @@ const getRandomTableNumber = () => {
             let t3;
             let div3;
             let p1;
-            let t4_value = /*item*/ ctx[46].subName + "";
+            let t4_value = /*item*/ ctx[45].subName + "";
             let t4;
             let t5;
             let p2;
-            let t6_value = /*item*/ ctx[46].name + "";
+            let t6_value = /*item*/ ctx[45].name + "";
             let t6;
             let t7;
             let div2;
             let p3;
-            let t8_value = /*item*/ ctx[46].quality.name + "";
+            let t8_value = /*item*/ ctx[45].quality.name + "";
             let t8;
             let t9;
-            let t10_value = /*item*/ ctx[46].qualityValue + "";
+            let t10_value = /*item*/ ctx[45].qualityValue + "";
             let t10;
             let t11;
             let current;
@@ -363628,14 +366713,14 @@ const getRandomTableNumber = () => {
 
             imagewithfallback = new imageWithFallback_index_svelte({
                 props: {
-                    src: `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`,
+                    src: `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`,
                     fallbackImageUrl: `${CDN_URL}/assets/images/inventory/vehicles/512/none.webp`,
                     alt: "car"
                 }
             });
 
             function click_handler_6() {
-                return /*click_handler_6*/ ctx[33]( /*i*/ ctx[48]);
+                return /*click_handler_6*/ ctx[33]( /*i*/ ctx[47]);
             }
 
             return {
@@ -363665,7 +366750,7 @@ const getRandomTableNumber = () => {
                     t11 = dom_text(")");
                     dom_attr(p0, "class", "transport-interaction-rating__side-left-item-number-value");
                     dom_attr(div0, "class", "transport-interaction-rating__side-left-item-number");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "blur");
                     dom_attr(img, "class", "transport-interaction-rating__side-left-item-image-blur");
                     dom_attr(div1, "class", "transport-interaction-rating__side-left-item-image");
@@ -363673,11 +366758,11 @@ const getRandomTableNumber = () => {
                     dom_attr(p2, "class", "transport-interaction-rating__side-left-item-title-car");
                     dom_attr(p3, "class", "transport-interaction-rating__side-left-item-title-rarity-value");
                     dom_attr(div2, "class", "transport-interaction-rating__side-left-item-title-rarity");
-                    set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[46].quality.colors[0] + " 50%, " + /*item*/ ctx[46].quality.colors[1] + " 100%)");
+                    set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[45].quality.colors[0] + " 50%, " + /*item*/ ctx[45].quality.colors[1] + " 100%)");
                     dom_attr(div3, "class", "transport-interaction-rating__side-left-item-titles");
                     dom_attr(div4, "class", "transport-interaction-rating__side-left-item");
-                    set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[46].quality.colors[0] + "AA 0%, transparent 100%)");
-                    dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[48]);
+                    set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[45].quality.colors[0] + "AA 0%, transparent 100%)");
+                    dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[47]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div4, anchor);
@@ -363712,30 +366797,30 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if ((!current || dirty[0] & /*list*/ 4) && t0_value !== (t0_value = /*item*/ ctx[46].id + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t0_value !== (t0_value = /*item*/ ctx[45].id + "")) dom_set_data(t0, t0_value);
 
-                    if (!current || dirty[0] & /*list*/ 4 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`)) {
+                    if (!current || dirty[0] & /*list*/ 4 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
                     const imagewithfallback_changes = {};
-                    if (dirty[0] & /*list*/ 4) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`;
+                    if (dirty[0] & /*list*/ 4) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`;
                     imagewithfallback.$set(imagewithfallback_changes);
-                    if ((!current || dirty[0] & /*list*/ 4) && t4_value !== (t4_value = /*item*/ ctx[46].subName + "")) dom_set_data(t4, t4_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t6_value !== (t6_value = /*item*/ ctx[46].name + "")) dom_set_data(t6, t6_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t8_value !== (t8_value = /*item*/ ctx[46].quality.name + "")) dom_set_data(t8, t8_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t10_value !== (t10_value = /*item*/ ctx[46].qualityValue + "")) dom_set_data(t10, t10_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t4_value !== (t4_value = /*item*/ ctx[45].subName + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t6_value !== (t6_value = /*item*/ ctx[45].name + "")) dom_set_data(t6, t6_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t8_value !== (t8_value = /*item*/ ctx[45].quality.name + "")) dom_set_data(t8, t8_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t10_value !== (t10_value = /*item*/ ctx[45].qualityValue + "")) dom_set_data(t10, t10_value);
 
                     if (!current || dirty[0] & /*list*/ 4) {
-                        set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[46].quality.colors[0] + " 50%, " + /*item*/ ctx[46].quality.colors[1] + " 100%)");
+                        set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[45].quality.colors[0] + " 50%, " + /*item*/ ctx[45].quality.colors[1] + " 100%)");
                     }
 
                     if (!current || dirty[0] & /*list*/ 4) {
-                        set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[46].quality.colors[0] + "AA 0%, transparent 100%)");
+                        set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[45].quality.colors[0] + "AA 0%, transparent 100%)");
                     }
 
                     if (!current || dirty[0] & /*selectedItemIndex*/ 8) {
-                        dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[48]);
+                        dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[47]);
                     }
                 },
                 i(local) {
@@ -364376,7 +367461,7 @@ const getRandomTableNumber = () => {
 
             let t_value = ( /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.id === 0 ?
                 '???' :
-                `${/*bonus*/ ctx[43].valueString}`) + "";
+                `${/*bonus*/ ctx[42].valueString}`) + "";
 
             let t;
 
@@ -364394,7 +367479,7 @@ const getRandomTableNumber = () => {
                 p(ctx, dirty) {
                     if (dirty[0] & /*list, selectedItemIndex*/ 12 && t_value !== (t_value = ( /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.id === 0 ?
                             '???' :
-                            `${/*bonus*/ ctx[43].valueString}`) + "")) dom_set_data(t, t_value);
+                            `${/*bonus*/ ctx[42].valueString}`) + "")) dom_set_data(t, t_value);
 
                     if (dirty[0] & /*list, selectedItemIndex*/ 12) {
                         set_style(span, "background", /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.colors[0]);
@@ -364412,10 +367497,10 @@ const getRandomTableNumber = () => {
         function base_rating_index_svelte_create_each_block(ctx) {
             let div;
             let span;
-            let t0_value = /*bonus*/ ctx[43].name + "";
+            let t0_value = /*bonus*/ ctx[42].name + "";
             let t0;
             let t1;
-            let show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[43].valueString);
+            let show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[42].valueString);
             let t2;
             let if_block = show_if && base_rating_index_svelte_create_if_block_2(ctx);
 
@@ -364439,8 +367524,8 @@ const getRandomTableNumber = () => {
                     dom_append(div, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*list, selectedItemIndex*/ 12 && t0_value !== (t0_value = /*bonus*/ ctx[43].name + "")) dom_set_data(t0, t0_value);
-                    if (dirty[0] & /*list, selectedItemIndex*/ 12) show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[43].valueString);
+                    if (dirty[0] & /*list, selectedItemIndex*/ 12 && t0_value !== (t0_value = /*bonus*/ ctx[42].name + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*list, selectedItemIndex*/ 12) show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[42].valueString);
 
                     if (show_if) {
                         if (if_block) {
@@ -364807,10 +367892,8 @@ const getRandomTableNumber = () => {
 
         function base_rating_index_svelte_instance($$self, $$props, $$invalidate) {
             let $serverApiServerId;
-            let $serverApiToken;
             let $qualityApiData;
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(40, $serverApiServerId = $$value));
-            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(41, $serverApiToken = $$value));
             utils_component_subscribe($$self, qualityApiData, $$value => $$invalidate(12, $qualityApiData = $$value));
             let {
                 qualityKey = ''
@@ -364884,9 +367967,8 @@ const getRandomTableNumber = () => {
 
                 lib_axios.get(`${SERVER_API_URL}/client/${entity}/getRatingList`, {
                     params: requestParams,
-                    headers: {
-                        Authorization: `Bearer ${$serverApiToken}`
-                    }
+                    headers: {}, // Authorization: `Bearer ${$serverApiToken}`,
+
                 }).then(response => {
                     requestParams.page += 1;
                     $$invalidate(9, loaderVisible = false);
@@ -366519,7 +369601,7 @@ const getRandomTableNumber = () => {
         const promo_audio_click_namespaceObject = __webpack_require__.p + "assets/6154b621b41810c7f1c5.mp3";; // CONCATENATED MODULE: ./src/views/promo/sounds.js
 
 
-        var sounds_soundManager = createAudioStore({
+        var promo_sounds_soundManager = createAudioStore({
             click: promo_audio_click_namespaceObject
         });; // CONCATENATED MODULE: ./src/views/promo/img/banner.png
         const banner_namespaceObject = __webpack_require__.p + "assets/fdd41079245e45eee824.webp";; // CONCATENATED MODULE: ./src/views/promo/store.js
@@ -368786,38 +371868,38 @@ const getRandomTableNumber = () => {
             };
 
             const clickItem = index => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.activation.selectPromo', index);
             };
 
             const selectItem = index => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 $$invalidate(1, selectedItemIndex = index);
             };
 
             const back = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 $$invalidate(1, selectedItemIndex = null);
             };
 
             const moreDetails = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.activation.details');
             };
 
             const takeReward = id => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.activation.takeReward', selectedItemIndex, id);
             };
 
             const activatePromo = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.activation.activatePromo', promoValue);
             }; // pushNewCode(NEW_CODE_MOCK);
 
@@ -369615,14 +372697,14 @@ const getRandomTableNumber = () => {
 
             // initializePlayerInfo(PLAYER_INFO_MOCKS);
             const openInfo = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.control.openInfo');
             };
 
             const change = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.control.change');
             };
 
@@ -369633,8 +372715,8 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 copyToClipboard($controlInfo.promo);
                 $$invalidate(0, copyButtonText = copiedText);
 
@@ -369647,20 +372729,20 @@ const getRandomTableNumber = () => {
             };
 
             const improve = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.control.upgrade');
             };
 
             const getCoin = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.control.getCoin');
             };
 
             const actiovationsInfo = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.control.actiovationsInfo');
             };
 
@@ -370226,26 +373308,26 @@ const getRandomTableNumber = () => {
             };
 
             const openInfo = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.referrals.openInfo');
             };
 
             const openReferralsList = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.referrals.openReferralsList');
             };
 
             const edit = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.referrals.edit');
             };
 
             const takeReward = id => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.referrals.takeReward', id);
             };
 
@@ -370574,14 +373656,14 @@ const getRandomTableNumber = () => {
             let selectedNavId = PromoTabId.Activation;
 
             const selectNav = id => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 $$invalidate(0, selectedNavId = id);
             }; // sendClientMessage('promo.onChangeTab', id);
 
             const handleClose = () => {
-                sounds_soundManager.currentTime = 0;
-                sounds_soundManager.play('click');
+                promo_sounds_soundManager.currentTime = 0;
+                promo_sounds_soundManager.play('click');
                 cef_sendClientMessage('promo.exit');
             };
 
@@ -371075,7 +374157,7 @@ const getRandomTableNumber = () => {
         }
 
         // (248:9) {#if !isEmpty(item.desc)}
-        function components_modal_index_svelte_create_if_block_5(ctx) {
+        function components_modal_index_svelte_create_if_block_6(ctx) {
             let div1;
             let i;
             let t0;
@@ -371128,7 +374210,7 @@ const getRandomTableNumber = () => {
         }
 
         // (269:37) 
-        function components_modal_index_svelte_create_if_block_4(ctx) {
+        function components_modal_index_svelte_create_if_block_5(ctx) {
             let img;
             let img_src_value;
 
@@ -371156,7 +374238,7 @@ const getRandomTableNumber = () => {
         }
 
         // (267:37) 
-        function components_modal_index_svelte_create_if_block_3(ctx) {
+        function components_modal_index_svelte_create_if_block_4(ctx) {
             let img;
             let img_src_value;
 
@@ -371184,7 +374266,7 @@ const getRandomTableNumber = () => {
         }
 
         // (265:37) 
-        function employment_center_components_modal_index_svelte_create_if_block_2(ctx) {
+        function components_modal_index_svelte_create_if_block_3(ctx) {
             let img;
             let img_src_value;
 
@@ -371212,7 +374294,7 @@ const getRandomTableNumber = () => {
         }
 
         // (263:24) {#if item.imageType === 0}
-        function employment_center_components_modal_index_svelte_create_if_block_1(ctx) {
+        function employment_center_components_modal_index_svelte_create_if_block_2(ctx) {
             let img;
             let img_src_value;
 
@@ -371239,32 +374321,45 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (279:6) {#if item.value > 0}
+        // (279:6) {#if item.value > 0 || !isEmpty(item.valueString)}
         function employment_center_components_modal_index_svelte_create_if_block(ctx) {
             let div;
+            let show_if;
 
-            let t_value = `+${/*item*/ ctx[3].value} ${/*item*/ ctx[3].valueMax > /*item*/ ctx[3].value
-	? `- ${/*item*/ ctx[3].valueMax}`
-	: ''}%` + "";
+            function select_block_type_1(ctx, dirty) {
+                if (dirty & /*items*/ 1) show_if = null;
+                if (show_if == null) show_if = !!!(0, lodash.isEmpty)( /*item*/ ctx[3].valueString);
+                if (show_if) return employment_center_components_modal_index_svelte_create_if_block_1;
+                return components_modal_index_svelte_create_else_block;
+            }
 
-            let t;
+            let current_block_type = select_block_type_1(ctx, -1);
+            let if_block = current_block_type(ctx);
 
             return {
                 c() {
                     div = dom_element("div");
-                    t = dom_text(t_value);
+                    if_block.c();
                     dom_attr(div, "class", "employment-center-modal__item-value svelte-10ndmww");
                     dom_toggle_class(div, "employment-center-modal__item-value--pink", /*currencyType*/ ctx[2]);
                     dom_toggle_class(div, "employment-center-modal__item-value--grey", ! /*item*/ ctx[3].isShow);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
-                    dom_append(div, t);
+                    if_block.m(div, null);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*items*/ 1 && t_value !== (t_value = `+${/*item*/ ctx[3].value} ${/*item*/ ctx[3].valueMax > /*item*/ ctx[3].value
-			? `- ${/*item*/ ctx[3].valueMax}`
-			: ''}%` + "")) dom_set_data(t, t_value);
+                    if (current_block_type === (current_block_type = select_block_type_1(ctx, dirty)) && if_block) {
+                        if_block.p(ctx, dirty);
+                    } else {
+                        if_block.d(1);
+                        if_block = current_block_type(ctx);
+
+                        if (if_block) {
+                            if_block.c();
+                            if_block.m(div, null);
+                        }
+                    }
 
                     if (dirty & /*currencyType*/ 4) {
                         dom_toggle_class(div, "employment-center-modal__item-value--pink", /*currencyType*/ ctx[2]);
@@ -371278,6 +374373,59 @@ const getRandomTableNumber = () => {
                     if (detaching) {
                         dom_detach(div);
                     }
+
+                    if_block.d();
+                }
+            };
+        }
+
+        // (287:8) {:else}
+        function components_modal_index_svelte_create_else_block(ctx) {
+            let t_value = `+${/*item*/ ctx[3].value} ${/*item*/ ctx[3].valueMax > /*item*/ ctx[3].value
+	? `- ${/*item*/ ctx[3].valueMax}`
+	: ''}%` + "";
+
+            let t;
+
+            return {
+                c() {
+                    t = dom_text(t_value);
+                },
+                m(target, anchor) {
+                    dom_insert(target, t, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*items*/ 1 && t_value !== (t_value = `+${/*item*/ ctx[3].value} ${/*item*/ ctx[3].valueMax > /*item*/ ctx[3].value
+			? `- ${/*item*/ ctx[3].valueMax}`
+			: ''}%` + "")) dom_set_data(t, t_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t);
+                    }
+                }
+            };
+        }
+
+        // (285:8) {#if !isEmpty(item.valueString)}
+        function employment_center_components_modal_index_svelte_create_if_block_1(ctx) {
+            let t_value = `${/*item*/ ctx[3].valueString}` + "";
+            let t;
+
+            return {
+                c() {
+                    t = dom_text(t_value);
+                },
+                m(target, anchor) {
+                    dom_insert(target, t, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*items*/ 1 && t_value !== (t_value = `${/*item*/ ctx[3].valueString}` + "")) dom_set_data(t, t_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t);
+                    }
                 }
             };
         }
@@ -371286,7 +374434,7 @@ const getRandomTableNumber = () => {
         function components_modal_index_svelte_create_each_block(ctx) {
             let div3;
             let div0;
-            let show_if = !(0, lodash.isEmpty)( /*item*/ ctx[3].desc);
+            let show_if_1 = !(0, lodash.isEmpty)( /*item*/ ctx[3].desc);
             let t0;
             let t1;
             let div2;
@@ -371294,19 +374442,20 @@ const getRandomTableNumber = () => {
             let t2_value = /*item*/ ctx[3].name + "";
             let t2;
             let t3;
+            let show_if = /*item*/ ctx[3].value > 0 || !(0, lodash.isEmpty)( /*item*/ ctx[3].valueString);
             let t4;
-            let if_block0 = show_if && components_modal_index_svelte_create_if_block_5(ctx);
+            let if_block0 = show_if_1 && components_modal_index_svelte_create_if_block_6(ctx);
 
             function select_block_type(ctx, dirty) {
-                if ( /*item*/ ctx[3].imageType === 0) return employment_center_components_modal_index_svelte_create_if_block_1;
-                if ( /*item*/ ctx[3].imageType === 1) return employment_center_components_modal_index_svelte_create_if_block_2;
-                if ( /*item*/ ctx[3].imageType === 2) return components_modal_index_svelte_create_if_block_3;
-                if ( /*item*/ ctx[3].imageType === 3) return components_modal_index_svelte_create_if_block_4;
+                if ( /*item*/ ctx[3].imageType === 0) return employment_center_components_modal_index_svelte_create_if_block_2;
+                if ( /*item*/ ctx[3].imageType === 1) return components_modal_index_svelte_create_if_block_3;
+                if ( /*item*/ ctx[3].imageType === 2) return components_modal_index_svelte_create_if_block_4;
+                if ( /*item*/ ctx[3].imageType === 3) return components_modal_index_svelte_create_if_block_5;
             }
 
             let current_block_type = select_block_type(ctx, -1);
             let if_block1 = current_block_type && current_block_type(ctx);
-            let if_block2 = /*item*/ ctx[3].value > 0 && employment_center_components_modal_index_svelte_create_if_block(ctx);
+            let if_block2 = show_if && employment_center_components_modal_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
@@ -371345,9 +374494,9 @@ const getRandomTableNumber = () => {
                     dom_append(div3, t4);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*items*/ 1) show_if = !(0, lodash.isEmpty)( /*item*/ ctx[3].desc);
+                    if (dirty & /*items*/ 1) show_if_1 = !(0, lodash.isEmpty)( /*item*/ ctx[3].desc);
 
-                    if (show_if) {
+                    if (show_if_1) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
 
@@ -371355,7 +374504,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = components_modal_index_svelte_create_if_block_5(ctx);
+                            if_block0 = components_modal_index_svelte_create_if_block_6(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(div0, t0);
@@ -371386,8 +374535,9 @@ const getRandomTableNumber = () => {
                     }
 
                     if (dirty & /*items*/ 1 && t2_value !== (t2_value = /*item*/ ctx[3].name + "")) dom_set_data(t2, t2_value);
+                    if (dirty & /*items*/ 1) show_if = /*item*/ ctx[3].value > 0 || !(0, lodash.isEmpty)( /*item*/ ctx[3].valueString);
 
-                    if ( /*item*/ ctx[3].value > 0) {
+                    if (show_if) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
@@ -373439,7 +376589,623 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const employment_center_index_svelte = (Employment_center);; // CONCATENATED MODULE: ./src/App.svelte
+        const employment_center_index_svelte = (Employment_center);; // CONCATENATED MODULE: ./src/views/countdown/index.svelte
+        /* src\views\countdown\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function countdown_index_svelte_add_css(target) {
+            append_styles(target, "svelte-7xbwfp", "@import url(\"https://fonts.googleapis.com/css?family=Bangers\");.countdown-overlay.svelte-7xbwfp{position:fixed;top:0;left:0;width:100vw;height:100vh;pointer-events:none;z-index:99999;background:transparent}.countdown-wrap.svelte-7xbwfp{display:flex;align-items:center;justify-content:center;height:100%;width:100%}.countdown-content.svelte-7xbwfp{text-align:center;font-family:\"Bangers\", cursive;color:white;text-shadow:0 0 10px rgba(0, 0, 0, 0.8), 0 0 20px rgba(0, 0, 0, 0.6), 2px 2px 4px rgba(0, 0, 0, 0.9)}.countdown-text.svelte-7xbwfp{font-size:35px;letter-spacing:2px;margin-bottom:10px;animation:svelte-7xbwfp-pulse 2s ease-in-out infinite}.countdown-timer.svelte-7xbwfp{font-size:80px;color:#ff0000;font-weight:bold;animation:svelte-7xbwfp-glow 1.5s ease-in-out infinite alternate}@keyframes svelte-7xbwfp-pulse{0%,100%{transform:scale(1)}50%{transform:scale(1.05)}}@keyframes svelte-7xbwfp-glow{from{text-shadow:0 0 10px #ff0000, 0 0 20px #ff0000, 0 0 30px #ff0000, 0 0 40px #ff0000, 2px 2px 4px rgba(0, 0, 0, 0.9)}to{text-shadow:0 0 20px #ff0000, 0 0 30px #ff4444, 0 0 40px #ff4444, 0 0 50px #ff4444, 0 0 60px #ff4444, 2px 2px 4px rgba(0, 0, 0, 0.9)}}");
+        }
+
+        // (22:3) {#if text}
+        function countdown_index_svelte_create_if_block_1(ctx) {
+            let div;
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text( /*text*/ ctx[0]);
+                    dom_attr(div, "class", "countdown-text svelte-7xbwfp");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*text*/ 1) dom_set_data(t, /*text*/ ctx[0]);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (25:3) {#if timer}
+        function countdown_index_svelte_create_if_block(ctx) {
+            let div;
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text( /*timer*/ ctx[1]);
+                    dom_attr(div, "class", "countdown-timer svelte-7xbwfp");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*timer*/ 2) dom_set_data(t, /*timer*/ ctx[1]);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        function countdown_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let div0;
+            let t;
+            let if_block0 = /*text*/ ctx[0] && countdown_index_svelte_create_if_block_1(ctx);
+            let if_block1 = /*timer*/ ctx[1] && countdown_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    if (if_block0) if_block0.c();
+                    t = dom_space();
+                    if (if_block1) if_block1.c();
+                    dom_attr(div0, "class", "countdown-content svelte-7xbwfp");
+                    dom_attr(div1, "class", "countdown-wrap svelte-7xbwfp");
+                    dom_attr(div2, "class", "countdown-overlay svelte-7xbwfp");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, div0);
+                    if (if_block0) if_block0.m(div0, null);
+                    dom_append(div0, t);
+                    if (if_block1) if_block1.m(div0, null);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*text*/ ctx[0]) {
+                        if (if_block0) {
+                            if_block0.p(ctx, dirty);
+                        } else {
+                            if_block0 = countdown_index_svelte_create_if_block_1(ctx);
+                            if_block0.c();
+                            if_block0.m(div0, t);
+                        }
+                    } else if (if_block0) {
+                        if_block0.d(1);
+                        if_block0 = null;
+                    }
+
+                    if ( /*timer*/ ctx[1]) {
+                        if (if_block1) {
+                            if_block1.p(ctx, dirty);
+                        } else {
+                            if_block1 = countdown_index_svelte_create_if_block(ctx);
+                            if_block1.c();
+                            if_block1.m(div0, null);
+                        }
+                    } else if (if_block1) {
+                        if_block1.d(1);
+                        if_block1 = null;
+                    }
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+
+                    if (if_block0) if_block0.d();
+                    if (if_block1) if_block1.d();
+                }
+            };
+        }
+
+        function countdown_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                text = 'НАЧАЛО МЕРОПРИЯТИЯ'
+            } = $$props;
+            let {
+                timer = ''
+            } = $$props;
+
+            const updateCountdownData = data => {
+                $$invalidate(0, text = String(data.text));
+                $$invalidate(1, timer = String(data.timer));
+            };
+
+            const unregisterUpdateCountdownData = registerEvent('event.countdown.updateCountdownData', updateCountdownData);
+
+            onDestroy(() => {
+                unregisterUpdateCountdownData();
+            });
+
+            $$self.$$set = $$props => {
+                if ('text' in $$props) $$invalidate(0, text = $$props.text);
+                if ('timer' in $$props) $$invalidate(1, timer = $$props.timer);
+            };
+
+            return [text, timer];
+        }
+
+        class Countdown extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, countdown_index_svelte_instance, countdown_index_svelte_create_fragment, utils_safe_not_equal, {
+                    text: 0,
+                    timer: 1
+                }, countdown_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const countdown_index_svelte = (Countdown);; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-firstSuccess.png
+        const find_treasures_img_treasure_firstSuccess_namespaceObject = __webpack_require__.p + "assets/a5c3231f098e5dff5e18.webp";; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-secondSuccess.png
+        const find_treasures_img_treasure_secondSuccess_namespaceObject = __webpack_require__.p + "assets/a7def8b4a79b19a586b8.webp";; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-thirdSuccess.png
+        const find_treasures_img_treasure_thirdSuccess_namespaceObject = __webpack_require__.p + "assets/7d27049f282cbcd3c3fe.webp";; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-default.png
+        const find_treasures_img_treasure_default_namespaceObject = __webpack_require__.p + "assets/9b000da12eb2a55e3455.webp";; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-wrong.png
+        const find_treasures_img_treasure_wrong_namespaceObject = __webpack_require__.p + "assets/d8c7b7db1c0db45ed190.webp";; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-container.png
+        const find_treasures_img_treasure_container_namespaceObject = __webpack_require__.p + "assets/aee30ac1a4b6bbebad38.webp";; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-background.png
+        const find_treasures_img_treasure_background_namespaceObject = __webpack_require__.p + "assets/ab56fdccd2fb0da215d9.webp";; // CONCATENATED MODULE: ./src/views/find-treasures/img/treasure-icon.svg
+        const find_treasures_img_treasure_icon_namespaceObject = __webpack_require__.p + "assets/ed48b966275f416f806a.svg";; // CONCATENATED MODULE: ./src/views/find-treasures/constants.js
+        function find_treasures_constants_typeof(o) {
+            "@babel/helpers - typeof";
+            return find_treasures_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, find_treasures_constants_typeof(o);
+        }
+
+        function find_treasures_constants_defineProperty(e, r, t) {
+            return (r = find_treasures_constants_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function find_treasures_constants_toPropertyKey(t) {
+            var i = find_treasures_constants_toPrimitive(t, "string");
+            return "symbol" == find_treasures_constants_typeof(i) ? i : i + "";
+        }
+
+        function find_treasures_constants_toPrimitive(t, r) {
+            if ("object" != find_treasures_constants_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != find_treasures_constants_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+
+
+
+
+
+
+
+        var constants_GameType = {
+            Treasure: 'treasure'
+        };
+        var constants_MAP_GAME_TYPE_TO_CONFIG = find_treasures_constants_defineProperty({}, constants_GameType.Treasure, {
+            defaultImage: find_treasures_img_treasure_default_namespaceObject,
+            mainBackground: find_treasures_img_treasure_background_namespaceObject,
+            containerBackground: find_treasures_img_treasure_container_namespaceObject,
+            titleIcon: find_treasures_img_treasure_icon_namespaceObject,
+            images: {
+                0: find_treasures_img_treasure_wrong_namespaceObject,
+                1: find_treasures_img_treasure_firstSuccess_namespaceObject,
+                2: find_treasures_img_treasure_secondSuccess_namespaceObject,
+                3: find_treasures_img_treasure_thirdSuccess_namespaceObject
+            }
+        });; // CONCATENATED MODULE: ./src/views/find-treasures/index.svelte
+        /* src\views\find-treasures\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+        function find_treasures_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[13] = list[i];
+            child_ctx[15] = i;
+            return child_ctx;
+        }
+
+        // (85:3) {#each items as item, index}
+        function find_treasures_index_svelte_create_each_block(ctx) {
+            let div;
+            let img;
+            let img_src_value;
+            let t;
+            let mounted;
+            let dispose;
+
+            function click_handler() {
+                return /*click_handler*/ ctx[6]( /*index*/ ctx[15]);
+            }
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    img = dom_element("img");
+                    t = dom_space();
+                    if (!utils_src_url_equal(img.src, img_src_value = /*item*/ ctx[13].image)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", /*type*/ ctx[0]);
+                    dom_attr(img, "class", "find-treasure__item-image");
+                    dom_attr(img, "draggable", "false");
+                    dom_toggle_class(img, "find-treasure__item-image--unreviled", ! /*item*/ ctx[13].opened);
+                    dom_attr(div, "class", "find-treasure__item");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, img);
+                    dom_append(div, t);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div, "click", click_handler);
+                        mounted = true;
+                    }
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+
+                    if (dirty & /*items*/ 8 && !utils_src_url_equal(img.src, img_src_value = /*item*/ ctx[13].image)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+
+                    if (dirty & /*type*/ 1) {
+                        dom_attr(img, "alt", /*type*/ ctx[0]);
+                    }
+
+                    if (dirty & /*items*/ 8) {
+                        dom_toggle_class(img, "find-treasure__item-image--unreviled", ! /*item*/ ctx[13].opened);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        // (102:2) {#if MAP_GAME_TYPE_TO_CONFIG[type].titleIcon}
+        function find_treasures_index_svelte_create_if_block(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    dom_attr(img, "class", "find-treasure__title-icon");
+                    if (!utils_src_url_equal(img.src, img_src_value = constants_MAP_GAME_TYPE_TO_CONFIG[ /*type*/ ctx[0]].titleIcon)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "title-icon");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*type*/ 1 && !utils_src_url_equal(img.src, img_src_value = constants_MAP_GAME_TYPE_TO_CONFIG[ /*type*/ ctx[0]].titleIcon)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        function find_treasures_index_svelte_create_fragment(ctx) {
+            let div9;
+            let div0;
+            let actionbutton;
+            let t0;
+            let div3;
+            let div1;
+            let t1;
+            let div2;
+            let div3_style_value;
+            let t2;
+            let div4;
+            let t3;
+            let div5;
+            let t4;
+            let div6;
+            let t5;
+            let t6;
+            let t7;
+            let div8;
+            let i;
+            let t8;
+            let div7;
+            let t9;
+            let div9_style_value;
+            let current;
+
+            actionbutton = new shared_action_button_index_svelte({
+                props: {
+                    keycapText: "Esc",
+                    code: "escape",
+                    onPressed: /*handleClose*/ ctx[5]
+                }
+            });
+
+            let each_value = each_ensure_array_like( /*items*/ ctx[3]);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = find_treasures_index_svelte_create_each_block(find_treasures_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            let if_block = constants_MAP_GAME_TYPE_TO_CONFIG[ /*type*/ ctx[0]].titleIcon && find_treasures_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div9 = dom_element("div");
+                    div0 = dom_element("div");
+                    create_component(actionbutton.$$.fragment);
+                    t0 = dom_space();
+                    div3 = dom_element("div");
+                    div1 = dom_element("div");
+                    t1 = dom_space();
+                    div2 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    t2 = dom_space();
+                    div4 = dom_element("div");
+                    t3 = dom_space();
+                    div5 = dom_element("div");
+                    t4 = dom_space();
+                    div6 = dom_element("div");
+                    t5 = dom_text( /*title*/ ctx[1]);
+                    t6 = dom_space();
+                    if (if_block) if_block.c();
+                    t7 = dom_space();
+                    div8 = dom_element("div");
+                    i = dom_element("i");
+                    t8 = dom_space();
+                    div7 = dom_element("div");
+                    t9 = dom_text( /*caption*/ ctx[2]);
+                    dom_attr(div0, "class", "find-treasure__exit-button");
+                    dom_attr(div1, "class", "find-treasure__bottom-fade");
+                    dom_attr(div2, "class", "find-treasure__grid");
+                    dom_attr(div3, "class", "find-treasure__grid-wrapper");
+                    dom_attr(div3, "style", div3_style_value = `background-image: url(${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].containerBackground})`);
+                    dom_toggle_class(div3, "find-treasure__grid-wrapper--treasure", /*type*/ ctx[0] === 'treasure');
+                    dom_attr(div4, "class", "find-treasure__bg-container");
+                    dom_attr(div5, "class", "find-treasure__top-fade");
+                    dom_attr(div6, "class", "find-treasure__title");
+                    dom_attr(i, "class", "find-treasure__caption-icon ui-info");
+                    dom_attr(div7, "class", "find-treasure__caption-text");
+                    dom_attr(div8, "class", "find-treasure__caption");
+                    dom_attr(div9, "class", "find-treasure");
+
+                    dom_attr(div9, "style", div9_style_value = `background-image: url(${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].mainBackground}) ${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].secondBackground
+			? `, url(${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].secondBackground})`
+			: ''}`);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div9, anchor);
+                    dom_append(div9, div0);
+                    mount_component(actionbutton, div0, null);
+                    dom_append(div9, t0);
+                    dom_append(div9, div3);
+                    dom_append(div3, div1);
+                    dom_append(div3, t1);
+                    dom_append(div3, div2);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div2, null);
+                        }
+                    }
+
+                    dom_append(div9, t2);
+                    dom_append(div9, div4);
+                    dom_append(div9, t3);
+                    dom_append(div9, div5);
+                    dom_append(div9, t4);
+                    dom_append(div9, div6);
+                    dom_append(div6, t5);
+                    dom_append(div6, t6);
+                    if (if_block) if_block.m(div6, null);
+                    dom_append(div9, t7);
+                    dom_append(div9, div8);
+                    dom_append(div8, i);
+                    dom_append(div8, t8);
+                    dom_append(div8, div7);
+                    dom_append(div7, t9);
+                    current = true;
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*revile, items, type*/ 25) {
+                        each_value = each_ensure_array_like( /*items*/ ctx[3]);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = find_treasures_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = find_treasures_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div2, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+
+                    if (!current || dirty & /*type*/ 1 && div3_style_value !== (div3_style_value = `background-image: url(${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].containerBackground})`)) {
+                        dom_attr(div3, "style", div3_style_value);
+                    }
+
+                    if (!current || dirty & /*type*/ 1) {
+                        dom_toggle_class(div3, "find-treasure__grid-wrapper--treasure", /*type*/ ctx[0] === 'treasure');
+                    }
+
+                    if (!current || dirty & /*title*/ 2) dom_set_data(t5, /*title*/ ctx[1]);
+
+                    if (constants_MAP_GAME_TYPE_TO_CONFIG[ /*type*/ ctx[0]].titleIcon) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = find_treasures_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            if_block.m(div6, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (!current || dirty & /*caption*/ 4) dom_set_data(t9, /*caption*/ ctx[2]);
+
+                    if (!current || dirty & /*type*/ 1 && div9_style_value !== (div9_style_value = `background-image: url(${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].mainBackground}) ${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].secondBackground
+			? `, url(${constants_MAP_GAME_TYPE_TO_CONFIG[/*type*/ ctx[0]].secondBackground})`
+			: ''}`)) {
+                        dom_attr(div9, "style", div9_style_value);
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(actionbutton.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(actionbutton.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div9);
+                    }
+
+                    destroy_component(actionbutton);
+                    destroy_each(each_blocks, detaching);
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        let disabled = false;
+
+        function find_treasures_index_svelte_instance($$self, $$props, $$invalidate) {
+            let cells = [];
+            let type = 'treasure';
+            let title;
+            let caption;
+            let successCounter = -1;
+            let items = [];
+
+            const initialize = (typeDto, titleDto, captionDto, cellsDto) => {
+                $$invalidate(0, type = typeDto);
+                $$invalidate(1, title = titleDto);
+                $$invalidate(2, caption = captionDto);
+                cells = cellsDto;
+                successCounter = 0;
+
+                $$invalidate(3, items = (cells || []).map((cell, index) => ({
+                    id: index,
+                    imageId: cell[0],
+                    image: cell[0] !== -1 ?
+                        constants_MAP_GAME_TYPE_TO_CONFIG[type].images[cell[0]] :
+                        constants_MAP_GAME_TYPE_TO_CONFIG[type].defaultImage,
+                    opened: cell[0] !== -1
+                })));
+            };
+
+            const updateCells = cellsDto => {
+                cells = cellsDto;
+
+                $$invalidate(3, items = items.map((item, index) => ({
+                    ...item,
+                    imageId: cells[index][0],
+                    image: cells[index][0] !== -1 ?
+                        constants_MAP_GAME_TYPE_TO_CONFIG[type].images[cells[index][0]] :
+                        constants_MAP_GAME_TYPE_TO_CONFIG[type].defaultImage,
+                    opened: cells[index][0] !== -1
+                })));
+            };
+
+            const revile = index => {
+                if (disabled || items[index].opened) return;
+                $$invalidate(3, items[index].opened = true, items);
+                cef_sendClientMessage('findGame.Click', index);
+            };
+
+            const handleClose = () => {
+                cef_sendClientMessage('findGameTreasures.exit');
+            };
+
+            const unregisterInitializeEvent = registerEvent('event.findGame.initialize', initialize);
+            const unregisterUpdateCellsEvent = registerEvent('event.findGame.updateCells', updateCells);
+
+            // initialize("treasure", "title", "caption", [0,1,2], [[1],[2],[3],[0],[0],[0],[0],[0],[0],[0],[0],[1],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0],[0]]);
+            onDestroy(() => {
+                unregisterInitializeEvent();
+                unregisterUpdateCellsEvent();
+            });
+
+            const click_handler = index => revile(index);
+            return [type, title, caption, items, revile, handleClose, click_handler];
+        }
+
+        class Find_treasures extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, find_treasures_index_svelte_instance, find_treasures_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const find_treasures_index_svelte = (Find_treasures);; // CONCATENATED MODULE: ./src/App.svelte
         /* src\App.svelte generated by Svelte v4.2.8 */
 
 
@@ -373539,7 +377305,9 @@ const getRandomTableNumber = () => {
 
 
 
-        function App_svelte_create_if_block_11(ctx) {
+
+
+        function App_svelte_create_if_block_12(ctx) {
             let vicecityhud;
             let current;
             vicecityhud = new vice_city_hud_index_svelte({});
@@ -373567,8 +377335,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (308:0) {#if arizonaHudVisible}
-        function App_svelte_create_if_block_10(ctx) {
+        // (319:0) {#if arizonaHudVisible}
+        function App_svelte_create_if_block_11(ctx) {
             let arizonahud;
             let current;
             arizonahud = new arizona_hud_index_svelte({});
@@ -373596,8 +377364,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (312:0) {#if hudVisible}
-        function App_svelte_create_if_block_9(ctx) {
+        // (323:0) {#if hudVisible}
+        function App_svelte_create_if_block_10(ctx) {
             let hud;
             let current;
             hud = new views_hud_index_svelte({});
@@ -373625,8 +377393,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (315:0) {#if radioVisible}
-        function App_svelte_create_if_block_8(ctx) {
+        // (326:0) {#if radioVisible}
+        function App_svelte_create_if_block_9(ctx) {
             let radio;
             let current;
             radio = new radio_index_svelte({});
@@ -373654,8 +377422,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (319:0) {#if battleroyaleHudVisible}
-        function App_svelte_create_if_block_7(ctx) {
+        // (330:0) {#if battleroyaleHudVisible}
+        function App_svelte_create_if_block_8(ctx) {
             let battleroyalehud;
             let current;
             battleroyalehud = new hud_index_svelte({});
@@ -373683,8 +377451,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (323:0) {#if $battleroyaleMapVisible}
-        function App_svelte_create_if_block_6(ctx) {
+        // (334:0) {#if $battleroyaleMapVisible}
+        function App_svelte_create_if_block_7(ctx) {
             let battleroyalemap;
             let current;
             battleroyalemap = new map_index_svelte({});
@@ -373712,8 +377480,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (326:0) {#if horizontalPhoneVisible}
-        function App_svelte_create_if_block_5(ctx) {
+        // (337:0) {#if horizontalPhoneVisible}
+        function App_svelte_create_if_block_6(ctx) {
             let horizontalphone;
             let current;
             horizontalphone = new horizontal_phone_index_svelte({});
@@ -373741,8 +377509,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (330:0) {#if phoneVisible}
-        function App_svelte_create_if_block_4(ctx) {
+        // (341:0) {#if phoneVisible}
+        function App_svelte_create_if_block_5(ctx) {
             let phone;
             let current;
             phone = new phone_index_svelte({});
@@ -373770,8 +377538,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (334:0) {#if $videoBackgroundVisible}
-        function App_svelte_create_if_block_3(ctx) {
+        // (345:0) {#if $videoBackgroundVisible}
+        function App_svelte_create_if_block_4(ctx) {
             let videobackground;
             let current;
             videobackground = new video_background_index_svelte({});
@@ -373799,12 +377567,12 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (338:0) {#if !isNil(views[$selectedView])}
-        function App_svelte_create_if_block_2(ctx) {
+        // (349:0) {#if !isNil(views[$selectedView])}
+        function App_svelte_create_if_block_3(ctx) {
             let switch_instance;
             let switch_instance_anchor;
             let current;
-            var switch_value = /*views*/ ctx[12][ /*$selectedView*/ ctx[11]];
+            var switch_value = /*views*/ ctx[13][ /*$selectedView*/ ctx[12]];
 
             function switch_props(ctx, dirty) {
                 return {};
@@ -373825,7 +377593,7 @@ const getRandomTableNumber = () => {
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$selectedView*/ 2048 && switch_value !== (switch_value = /*views*/ ctx[12][ /*$selectedView*/ ctx[11]])) {
+                    if (dirty[0] & /*$selectedView*/ 4096 && switch_value !== (switch_value = /*views*/ ctx[13][ /*$selectedView*/ ctx[12]])) {
                         if (switch_instance) {
                             transitions_group_outros();
                             const old_component = switch_instance;
@@ -373868,8 +377636,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (342:0) {#if actionProgressBarVisible}
-        function App_svelte_create_if_block_1(ctx) {
+        // (353:0) {#if actionProgressBarVisible}
+        function App_svelte_create_if_block_2(ctx) {
             let actionprogressbar;
             let current;
             actionprogressbar = new action_progress_bar_index_svelte({});
@@ -373897,8 +377665,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (346:0) {#if clickerVisible}
-        function App_svelte_create_if_block(ctx) {
+        // (357:0) {#if clickerVisible}
+        function App_svelte_create_if_block_1(ctx) {
             let clicker;
             let current;
             clicker = new clicker_index_svelte({});
@@ -373926,6 +377694,35 @@ const getRandomTableNumber = () => {
             };
         }
 
+        // (361:0) {#if countdownVisible}
+        function App_svelte_create_if_block(ctx) {
+            let countdown;
+            let current;
+            countdown = new countdown_index_svelte({});
+
+            return {
+                c() {
+                    create_component(countdown.$$.fragment);
+                },
+                m(target, anchor) {
+                    mount_component(countdown, target, anchor);
+                    current = true;
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(countdown.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(countdown.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    destroy_component(countdown, detaching);
+                }
+            };
+        }
+
         function App_svelte_create_fragment(ctx) {
             let t0;
             let t1;
@@ -373936,28 +377733,30 @@ const getRandomTableNumber = () => {
             let t6;
             let t7;
             let t8;
-            let show_if = !(0, lodash.isNil)( /*views*/ ctx[12][ /*$selectedView*/ ctx[11]]);
+            let show_if = !(0, lodash.isNil)( /*views*/ ctx[13][ /*$selectedView*/ ctx[12]]);
             let t9;
             let t10;
             let t11;
-            let portalscontainer;
             let t12;
-            let modalsroot;
+            let portalscontainer;
             let t13;
+            let modalsroot;
+            let t14;
             let toast;
             let current;
-            let if_block0 = /*viceCityHudVisible*/ ctx[0] && App_svelte_create_if_block_11(ctx);
-            let if_block1 = /*arizonaHudVisible*/ ctx[1] && App_svelte_create_if_block_10(ctx);
-            let if_block2 = /*hudVisible*/ ctx[2] && App_svelte_create_if_block_9(ctx);
-            let if_block3 = /*radioVisible*/ ctx[4] && App_svelte_create_if_block_8(ctx);
-            let if_block4 = /*battleroyaleHudVisible*/ ctx[8] && App_svelte_create_if_block_7(ctx);
-            let if_block5 = /*$battleroyaleMapVisible*/ ctx[10] && App_svelte_create_if_block_6(ctx);
-            let if_block6 = /*horizontalPhoneVisible*/ ctx[6] && App_svelte_create_if_block_5(ctx);
-            let if_block7 = /*phoneVisible*/ ctx[5] && App_svelte_create_if_block_4(ctx);
-            let if_block8 = /*$videoBackgroundVisible*/ ctx[9] && App_svelte_create_if_block_3(ctx);
-            let if_block9 = show_if && App_svelte_create_if_block_2(ctx);
-            let if_block10 = /*actionProgressBarVisible*/ ctx[3] && App_svelte_create_if_block_1(ctx);
-            let if_block11 = /*clickerVisible*/ ctx[7] && App_svelte_create_if_block(ctx);
+            let if_block0 = /*viceCityHudVisible*/ ctx[0] && App_svelte_create_if_block_12(ctx);
+            let if_block1 = /*arizonaHudVisible*/ ctx[1] && App_svelte_create_if_block_11(ctx);
+            let if_block2 = /*hudVisible*/ ctx[2] && App_svelte_create_if_block_10(ctx);
+            let if_block3 = /*radioVisible*/ ctx[4] && App_svelte_create_if_block_9(ctx);
+            let if_block4 = /*battleroyaleHudVisible*/ ctx[9] && App_svelte_create_if_block_8(ctx);
+            let if_block5 = /*$battleroyaleMapVisible*/ ctx[11] && App_svelte_create_if_block_7(ctx);
+            let if_block6 = /*horizontalPhoneVisible*/ ctx[6] && App_svelte_create_if_block_6(ctx);
+            let if_block7 = /*phoneVisible*/ ctx[5] && App_svelte_create_if_block_5(ctx);
+            let if_block8 = /*$videoBackgroundVisible*/ ctx[10] && App_svelte_create_if_block_4(ctx);
+            let if_block9 = show_if && App_svelte_create_if_block_3(ctx);
+            let if_block10 = /*actionProgressBarVisible*/ ctx[3] && App_svelte_create_if_block_2(ctx);
+            let if_block11 = /*clickerVisible*/ ctx[7] && App_svelte_create_if_block_1(ctx);
+            let if_block12 = /*countdownVisible*/ ctx[8] && App_svelte_create_if_block(ctx);
             portalscontainer = new container_svelte({});
             modalsroot = new modals_root_index_svelte({});
             toast = new toast_index_svelte({});
@@ -373988,10 +377787,12 @@ const getRandomTableNumber = () => {
                     t10 = dom_space();
                     if (if_block11) if_block11.c();
                     t11 = dom_space();
-                    create_component(portalscontainer.$$.fragment);
+                    if (if_block12) if_block12.c();
                     t12 = dom_space();
-                    create_component(modalsroot.$$.fragment);
+                    create_component(portalscontainer.$$.fragment);
                     t13 = dom_space();
+                    create_component(modalsroot.$$.fragment);
+                    t14 = dom_space();
                     create_component(toast.$$.fragment);
                 },
                 m(target, anchor) {
@@ -374019,10 +377820,12 @@ const getRandomTableNumber = () => {
                     dom_insert(target, t10, anchor);
                     if (if_block11) if_block11.m(target, anchor);
                     dom_insert(target, t11, anchor);
-                    mount_component(portalscontainer, target, anchor);
+                    if (if_block12) if_block12.m(target, anchor);
                     dom_insert(target, t12, anchor);
-                    mount_component(modalsroot, target, anchor);
+                    mount_component(portalscontainer, target, anchor);
                     dom_insert(target, t13, anchor);
+                    mount_component(modalsroot, target, anchor);
+                    dom_insert(target, t14, anchor);
                     mount_component(toast, target, anchor);
                     current = true;
                 },
@@ -374033,7 +377836,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = App_svelte_create_if_block_11(ctx);
+                            if_block0 = App_svelte_create_if_block_12(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(t0.parentNode, t0);
@@ -374054,7 +377857,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
-                            if_block1 = App_svelte_create_if_block_10(ctx);
+                            if_block1 = App_svelte_create_if_block_11(ctx);
                             if_block1.c();
                             transitions_transition_in(if_block1, 1);
                             if_block1.m(t1.parentNode, t1);
@@ -374075,7 +377878,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block2, 1);
                             }
                         } else {
-                            if_block2 = App_svelte_create_if_block_9(ctx);
+                            if_block2 = App_svelte_create_if_block_10(ctx);
                             if_block2.c();
                             transitions_transition_in(if_block2, 1);
                             if_block2.m(t2.parentNode, t2);
@@ -374096,7 +377899,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block3, 1);
                             }
                         } else {
-                            if_block3 = App_svelte_create_if_block_8(ctx);
+                            if_block3 = App_svelte_create_if_block_9(ctx);
                             if_block3.c();
                             transitions_transition_in(if_block3, 1);
                             if_block3.m(t3.parentNode, t3);
@@ -374111,13 +377914,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ( /*battleroyaleHudVisible*/ ctx[8]) {
+                    if ( /*battleroyaleHudVisible*/ ctx[9]) {
                         if (if_block4) {
-                            if (dirty[0] & /*battleroyaleHudVisible*/ 256) {
+                            if (dirty[0] & /*battleroyaleHudVisible*/ 512) {
                                 transitions_transition_in(if_block4, 1);
                             }
                         } else {
-                            if_block4 = App_svelte_create_if_block_7(ctx);
+                            if_block4 = App_svelte_create_if_block_8(ctx);
                             if_block4.c();
                             transitions_transition_in(if_block4, 1);
                             if_block4.m(t4.parentNode, t4);
@@ -374132,13 +377935,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ( /*$battleroyaleMapVisible*/ ctx[10]) {
+                    if ( /*$battleroyaleMapVisible*/ ctx[11]) {
                         if (if_block5) {
-                            if (dirty[0] & /*$battleroyaleMapVisible*/ 1024) {
+                            if (dirty[0] & /*$battleroyaleMapVisible*/ 2048) {
                                 transitions_transition_in(if_block5, 1);
                             }
                         } else {
-                            if_block5 = App_svelte_create_if_block_6(ctx);
+                            if_block5 = App_svelte_create_if_block_7(ctx);
                             if_block5.c();
                             transitions_transition_in(if_block5, 1);
                             if_block5.m(t5.parentNode, t5);
@@ -374159,7 +377962,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block6, 1);
                             }
                         } else {
-                            if_block6 = App_svelte_create_if_block_5(ctx);
+                            if_block6 = App_svelte_create_if_block_6(ctx);
                             if_block6.c();
                             transitions_transition_in(if_block6, 1);
                             if_block6.m(t6.parentNode, t6);
@@ -374180,7 +377983,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block7, 1);
                             }
                         } else {
-                            if_block7 = App_svelte_create_if_block_4(ctx);
+                            if_block7 = App_svelte_create_if_block_5(ctx);
                             if_block7.c();
                             transitions_transition_in(if_block7, 1);
                             if_block7.m(t7.parentNode, t7);
@@ -374195,13 +377998,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ( /*$videoBackgroundVisible*/ ctx[9]) {
+                    if ( /*$videoBackgroundVisible*/ ctx[10]) {
                         if (if_block8) {
-                            if (dirty[0] & /*$videoBackgroundVisible*/ 512) {
+                            if (dirty[0] & /*$videoBackgroundVisible*/ 1024) {
                                 transitions_transition_in(if_block8, 1);
                             }
                         } else {
-                            if_block8 = App_svelte_create_if_block_3(ctx);
+                            if_block8 = App_svelte_create_if_block_4(ctx);
                             if_block8.c();
                             transitions_transition_in(if_block8, 1);
                             if_block8.m(t8.parentNode, t8);
@@ -374216,17 +378019,17 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$selectedView*/ 2048) show_if = !(0, lodash.isNil)( /*views*/ ctx[12][ /*$selectedView*/ ctx[11]]);
+                    if (dirty[0] & /*$selectedView*/ 4096) show_if = !(0, lodash.isNil)( /*views*/ ctx[13][ /*$selectedView*/ ctx[12]]);
 
                     if (show_if) {
                         if (if_block9) {
                             if_block9.p(ctx, dirty);
 
-                            if (dirty[0] & /*$selectedView*/ 2048) {
+                            if (dirty[0] & /*$selectedView*/ 4096) {
                                 transitions_transition_in(if_block9, 1);
                             }
                         } else {
-                            if_block9 = App_svelte_create_if_block_2(ctx);
+                            if_block9 = App_svelte_create_if_block_3(ctx);
                             if_block9.c();
                             transitions_transition_in(if_block9, 1);
                             if_block9.m(t9.parentNode, t9);
@@ -374247,7 +378050,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block10, 1);
                             }
                         } else {
-                            if_block10 = App_svelte_create_if_block_1(ctx);
+                            if_block10 = App_svelte_create_if_block_2(ctx);
                             if_block10.c();
                             transitions_transition_in(if_block10, 1);
                             if_block10.m(t10.parentNode, t10);
@@ -374268,7 +378071,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block11, 1);
                             }
                         } else {
-                            if_block11 = App_svelte_create_if_block(ctx);
+                            if_block11 = App_svelte_create_if_block_1(ctx);
                             if_block11.c();
                             transitions_transition_in(if_block11, 1);
                             if_block11.m(t11.parentNode, t11);
@@ -374278,6 +378081,27 @@ const getRandomTableNumber = () => {
 
                         transitions_transition_out(if_block11, 1, 1, () => {
                             if_block11 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if ( /*countdownVisible*/ ctx[8]) {
+                        if (if_block12) {
+                            if (dirty[0] & /*countdownVisible*/ 256) {
+                                transitions_transition_in(if_block12, 1);
+                            }
+                        } else {
+                            if_block12 = App_svelte_create_if_block(ctx);
+                            if_block12.c();
+                            transitions_transition_in(if_block12, 1);
+                            if_block12.m(t12.parentNode, t12);
+                        }
+                    } else if (if_block12) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block12, 1, 1, () => {
+                            if_block12 = null;
                         });
 
                         transitions_check_outros();
@@ -374297,6 +378121,7 @@ const getRandomTableNumber = () => {
                     transitions_transition_in(if_block9);
                     transitions_transition_in(if_block10);
                     transitions_transition_in(if_block11);
+                    transitions_transition_in(if_block12);
                     transitions_transition_in(portalscontainer.$$.fragment, local);
                     transitions_transition_in(modalsroot.$$.fragment, local);
                     transitions_transition_in(toast.$$.fragment, local);
@@ -374315,6 +378140,7 @@ const getRandomTableNumber = () => {
                     transitions_transition_out(if_block9);
                     transitions_transition_out(if_block10);
                     transitions_transition_out(if_block11);
+                    transitions_transition_out(if_block12);
                     transitions_transition_out(portalscontainer.$$.fragment, local);
                     transitions_transition_out(modalsroot.$$.fragment, local);
                     transitions_transition_out(toast.$$.fragment, local);
@@ -374336,6 +378162,7 @@ const getRandomTableNumber = () => {
                         dom_detach(t11);
                         dom_detach(t12);
                         dom_detach(t13);
+                        dom_detach(t14);
                     }
 
                     if (if_block0) if_block0.d(detaching);
@@ -374350,6 +378177,7 @@ const getRandomTableNumber = () => {
                     if (if_block9) if_block9.d(detaching);
                     if (if_block10) if_block10.d(detaching);
                     if (if_block11) if_block11.d(detaching);
+                    if (if_block12) if_block12.d(detaching);
                     destroy_component(portalscontainer, detaching);
                     destroy_component(modalsroot, detaching);
                     destroy_component(toast, detaching);
@@ -374367,13 +378195,13 @@ const getRandomTableNumber = () => {
             let $browserId;
             let $battleroyaleMapVisible;
             let $selectedView;
-            utils_component_subscribe($$self, videoBackgroundVisible, $$value => $$invalidate(9, $videoBackgroundVisible = $$value));
-            utils_component_subscribe($$self, videoRegPaused, $$value => $$invalidate(14, $videoRegPaused = $$value));
-            utils_component_subscribe($$self, videoRegMuted, $$value => $$invalidate(15, $videoRegMuted = $$value));
-            utils_component_subscribe($$self, videoRegBlockByTime, $$value => $$invalidate(16, $videoRegBlockByTime = $$value));
-            utils_component_subscribe($$self, browserId, $$value => $$invalidate(17, $browserId = $$value));
-            utils_component_subscribe($$self, battleroyaleMapVisible, $$value => $$invalidate(10, $battleroyaleMapVisible = $$value));
-            utils_component_subscribe($$self, selectedView, $$value => $$invalidate(11, $selectedView = $$value));
+            utils_component_subscribe($$self, videoBackgroundVisible, $$value => $$invalidate(10, $videoBackgroundVisible = $$value));
+            utils_component_subscribe($$self, videoRegPaused, $$value => $$invalidate(15, $videoRegPaused = $$value));
+            utils_component_subscribe($$self, videoRegMuted, $$value => $$invalidate(16, $videoRegMuted = $$value));
+            utils_component_subscribe($$self, videoRegBlockByTime, $$value => $$invalidate(17, $videoRegBlockByTime = $$value));
+            utils_component_subscribe($$self, browserId, $$value => $$invalidate(18, $browserId = $$value));
+            utils_component_subscribe($$self, battleroyaleMapVisible, $$value => $$invalidate(11, $battleroyaleMapVisible = $$value));
+            utils_component_subscribe($$self, selectedView, $$value => $$invalidate(12, $selectedView = $$value));
             let viceCityHudVisible = false;
             let arizonaHudVisible = false;
             let hudVisible = true;
@@ -374383,6 +378211,9 @@ const getRandomTableNumber = () => {
             let horizontalPhoneVisible = false;
             let clickerVisible = false;
             let isBackgroundVideoCanShow = true;
+
+            // countdown
+            let countdownVisible = false;
 
             // battleroyale
             let battleroyaleHudVisible = false;
@@ -374454,7 +378285,8 @@ const getRandomTableNumber = () => {
                 AccessoryInteractionCertificate: accessory_certificate_index_svelte,
                 Promo: views_promo_index_svelte,
                 EmploymentCenter: employment_center_index_svelte,
-                BodiesSortGame: bodies_index_svelte
+                BodiesSortGame: bodies_index_svelte,
+                FindTreasures: find_treasures_index_svelte
             };
 
             const updateVideoBackgroundVisible = visible => {
@@ -374481,11 +378313,13 @@ const getRandomTableNumber = () => {
             const unregisterUpdateActionProgressBarVisible = registerEvent('event.actionProgressBar.updateActionProgressBarVisible', updateActionProgressBarVisible);
             const updateClickerVisible = visible => $$invalidate(7, clickerVisible = visible);
             const unregisterUpdateClickerVisible = registerEvent('event.clicker.updateClickerVisible', updateClickerVisible);
+            const updateCountdownVisible = visible => $$invalidate(8, countdownVisible = visible);
+            const unregisterUpdateCountdownVisible = registerEvent('event.countdown.updateCountdownVisible', updateCountdownVisible);
             const updateHorizontalPhoneVisible = visible => $$invalidate(6, horizontalPhoneVisible = visible);
             const unregisterUpdateHorizontalPhoneVisible = registerEvent('event.horizontalPhone.updateHorizontalPhoneVisible', updateHorizontalPhoneVisible);
 
             // battleroyale
-            const updateBattleroyaleHudVisible = visible => $$invalidate(8, battleroyaleHudVisible = visible);
+            const updateBattleroyaleHudVisible = visible => $$invalidate(9, battleroyaleHudVisible = visible);
 
             const unregisterupdateBattleroyaleHudVisible = registerEvent('event.hud.updateBattleroyaleHudVisible', updateBattleroyaleHudVisible);
             const updateBattleroyaleMapVisible = visible => utils_set_store_value(battleroyaleMapVisible, $battleroyaleMapVisible = visible, $battleroyaleMapVisible);
@@ -374501,12 +378335,13 @@ const getRandomTableNumber = () => {
                 unregisterUpdateVideoBackgroundVisible();
                 unregisterUpdateHorizontalPhoneVisible();
                 unregisterUpdateClickerVisible();
+                unregisterUpdateCountdownVisible();
                 unregisterupdateBattleroyaleHudVisible();
                 unregisterupdateBattleroyaleMapVisible();
             });
 
             onMount(() => {
-                getQualityData();
+                getAllQualityData();
                 getInventoryData();
 
                 if (window.cef) {
@@ -374574,7 +378409,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "cdbf90b1");
+                    console.log(`[debug] app init`, "1021", "8e828bf5");
                 }
             });
 
@@ -374587,6 +378422,7 @@ const getRandomTableNumber = () => {
                 phoneVisible,
                 horizontalPhoneVisible,
                 clickerVisible,
+                countdownVisible,
                 battleroyaleHudVisible,
                 $videoBackgroundVisible,
                 $battleroyaleMapVisible,
@@ -374629,6 +378465,7 @@ const getRandomTableNumber = () => {
 
 
 
+
         document.oncontextmenu = function() {
             return false;
         };
@@ -374639,7 +378476,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "cdbf90b1");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "8e828bf5");
     })();
 
     /******/

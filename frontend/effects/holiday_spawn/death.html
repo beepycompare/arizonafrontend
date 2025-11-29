@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dead World Overlay</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body,
+        html {
+            width: 100vw;
+            height: 100vh;
+            overflow: hidden;
+        }
+
+        /* FX слой мёртвого мира */
+        #deathOverlay {
+            position: fixed;
+            inset: 0;
+            background-color: rgba(80, 80, 100, 0.4);
+            pointer-events: none;
+            z-index: 99999;
+        }
+
+        /* Кино-полосы */
+        .cine-bar {
+            position: fixed;
+            width: 100%;
+            height: 8vh;
+            left: 0;
+            background: rgba(0, 0, 0, 0.92);
+            z-index: 100000;
+        }
+
+        .cine-bar.top {
+            top: 0;
+        }
+
+        .cine-bar.bottom {
+            bottom: 0;
+        }
+
+        /* Фразы духов */
+        #soulsTextContainer {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 100001;
+        }
+
+        .soul-phrase {
+            position: absolute;
+            color: rgba(230, 230, 230, 0.7);
+            font-family: "Palatino Linotype", Palatino, serif;
+            font-weight: bold;
+            /* Жирный шрифт */
+            pointer-events: none;
+            transition: opacity 1s ease;
+            white-space: nowrap;
+            text-shadow: 0 0 4px rgba(255, 255, 255, 0.2);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="game"></div>
+
+    <div id="deathOverlay"></div>
+
+    <div class="cine-bar top"></div>
+    <div class="cine-bar bottom"></div>
+
+    <div id="soulsTextContainer"></div>
+
+    <script>
+        // ===== 100 фраз духов =====
+        const soulPhrases = [
+            "Не бойся...", "Ты слышишь меня?", "Иди дальше...", "Мы рядом...",
+            "Вечность зовёт...", "Твоя тьма близка...", "Слушай сердца...", "Мы тебя видим...",
+            "Тишина — это наша песня...", "Ты не один...", "Смотри внимательнее...",
+            "Мы помним всё...", "Ты чувствуешь холод?", "Дорога длинна...", "Следуй за светом...",
+            "Стены шепчут...", "Твои страхи наши...", "Вспомни меня...", "Мы потеряны вместе...",
+            "Сквозь тьму...", "Ты слышишь их?", "Слушай...", "Не смотри назад...",
+            "Тьма мягкая...", "Мы здесь...", "Ты видел нас?", "Не сопротивляйся...",
+            "Шепот ветра...", "Мы ждём тебя...", "Смотри в глаза...", "Мы следим...",
+            "Холод обжигает...", "Мы часть тебя...", "Свет затихает...", "Ты слышишь плач?",
+            "Твои шаги — наши шаги...", "Мы растворяемся...", "Ты один среди нас...", "Вечность рядом...",
+            "Смотри на пустоту...", "Мы шепчем твоё имя...", "Хочешь увидеть нас?", "Мы рядом с тобой...",
+            "Не закрывай глаза...", "Ветер несёт нас...", "Ты чувствуешь нас?", "Твой путь наш путь...",
+            "Мы видим всё...", "Слушай тишину...", "Ты слышишь шёпот?", "Мы никогда не уйдём...",
+            "Сквозь время...", "Мы помним всё...", "Ты готов?", "Следуй за нами...",
+            "Ты слышишь сердца?", "Мы рядом...", "Смотри, как мы движемся...", "Мы твоё эхо...",
+            "Тени зовут...", "Ты не один...", "Мы ждём...", "Свет погаснет...",
+            "Мы говорим с тобой...", "Слушай звуки...", "Ты видишь нас?", "Мы вокруг тебя...",
+            "Не сопротивляйся...", "Мы растворяемся в тебе...", "Ты слышишь плач?", "Мы шепчем тебе...",
+            "Смотри в глаза...", "Мы рядом с тобой...", "Холод обжигает...", "Ты слышишь ветер...",
+            "Мы часть твоего пути...", "Следуй за светом...", "Ты готов?", "Мы твоя тень...",
+            "Твоя память — наша...", "Сквозь мрак...", "Мы с тобой...", "Ты слышишь нас?",
+            "Не закрывай глаза...", "Слушай шепот...", "Мы рядом...", "Ты видишь их?",
+            "Твои шаги — наши...", "Мы никогда не забудем...", "Следуй за нами...", "Ты слышишь сердце?",
+            "Сквозь тьму...", "Мы растворяемся...", "Ты один среди нас...", "Мы зовём тебя...",
+            "Тишина — наш голос...", "Ты чувствуешь холод?", "Мы помним всё...", "Следуй за тенью...",
+            "Ты слышишь нас?", "Мы рядом...", "Смотри вокруг...", "Мы шепчем тебе..."
+        ];
+
+        // ===== Контейнер =====
+        const container = document.getElementById('soulsTextContainer');
+
+        function showSoulPhrase() {
+            const phrase = soulPhrases[Math.floor(Math.random() * soulPhrases.length)];
+
+            const div = document.createElement('div');
+            div.textContent = phrase;
+            div.className = 'soul-phrase';
+
+            // Размер текста: ровно 2 раза базовый (32px)
+            const fontSize = 32;
+            div.style.fontSize = `${fontSize}px`;
+
+            // вертикальная позиция с учётом высоты текста, чтобы не перекрывать кино-полосы
+            const topMin = window.innerHeight * 0.08;
+            const topMax = window.innerHeight * 0.92 - fontSize;
+            div.style.top = `${topMin + Math.random() * (topMax - topMin)}px`;
+
+            // горизонтальная позиция
+            div.style.left = `${Math.random() * (window.innerWidth - 250)}px`;
+
+            div.style.opacity = '0';
+            container.appendChild(div);
+
+            requestAnimationFrame(() => div.style.opacity = '1');
+
+            // исчезание через 4-5 секунд
+            setTimeout(() => {
+                div.style.opacity = '0';
+                setTimeout(() => container.removeChild(div), 1000);
+            }, 4000 + Math.random() * 1000);
+
+            // следующее появление через 5-10 секунд
+            setTimeout(showSoulPhrase, 5000 + Math.random() * 5000);
+        }
+
+        // запуск
+        showSoulPhrase();
+    </script>
+
+</body>
+
+</html>

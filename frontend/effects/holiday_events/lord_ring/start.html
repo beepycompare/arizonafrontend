@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Epic Countdown with Cinematic Bars</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: transparent;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            font-family: "Palatino Linotype", Palatino, Georgia, serif;
+        }
+
+        /* Киношные рамки */
+        .cine-bar {
+            position: fixed;
+            left: 0;
+            width: 100%;
+            height: 8vh;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 50;
+            opacity: 0;
+            transition: opacity 1s ease;
+        }
+
+        .cine-bar.show {
+            opacity: 1;
+        }
+
+        .cine-bar.top {
+            top: 0;
+        }
+
+        .cine-bar.bottom {
+            bottom: 0;
+        }
+
+        /* Текст */
+        #countdownText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 7rem;
+            color: #f6e7c6;
+            text-shadow: 0 0 15px rgba(255, 180, 80, 0.9), 0 0 25px rgba(255, 120, 40, 0.7);
+            white-space: nowrap;
+            opacity: 0;
+            z-index: 30;
+            transition: opacity 0.3s ease, transform 0.3s ease, text-shadow 2s ease;
+        }
+
+        #countdownText.show {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        #countdownText.hide {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(1.15);
+        }
+
+        /* Пепел */
+        .particle {
+            position: absolute;
+            pointer-events: none;
+            border-radius: 50%;
+            opacity: 0.95;
+            background: linear-gradient(#fff9aa, #ffd166, #ff9f1c);
+            box-shadow: 0 0 4px rgba(255, 255, 200, 0.9);
+            animation: ashFloat var(--duration) linear;
+            z-index: 20;
+        }
+
+        @keyframes ashFloat {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+
+            100% {
+                transform: translateY(var(--offsetY)) translateX(var(--xoffset));
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cine-bar top show" id="barTop"></div>
+    <div class="cine-bar bottom show" id="barBottom"></div>
+    <div id="countdownText"></div>
+
+    <script>
+        const text = document.getElementById("countdownText");
+        const barTop = document.getElementById("barTop");
+        const barBottom = document.getElementById("barBottom");
+
+        /* ПЕПЕЛ */
+        function createAshParticle() {
+            const p = document.createElement("div");
+            p.classList.add("particle");
+            const size = Math.random() * 3 + 2;
+            const duration = Math.random() * 4 + 3;
+            const xoffset = (Math.random() - 0.5) * 80;
+            const offsetY = -(Math.random() * 120 + 100) + "vh";
+            p.style.width = size + "px";
+            p.style.height = size + "px";
+            p.style.setProperty("--duration", `${duration}s`);
+            p.style.setProperty("--xoffset", `${xoffset}px`);
+            p.style.setProperty("--offsetY", offsetY);
+            p.style.left = Math.random() * window.innerWidth + "px";
+            p.style.bottom = "-25px";
+            document.body.appendChild(p);
+            setTimeout(() => p.remove(), duration * 1000);
+        }
+        let ashInterval = setInterval(() => {
+            for (let i = 0; i < 4; i++) createAshParticle();
+        }, 150);
+
+        /* ОБРАТНЫЙ ОТСЧЁТ */
+        const sequence = ["10", "9", "8", "7", "6", "5", "4", "НА СТАРТ", "ВНИМАНИЕ", "СИЛА ПРОБУЖДАЕТСЯ"];
+        let index = 0;
+
+        // новые тайминги
+        const numberDuration = 857; // мс на цифры
+        const phraseDuration = 1333; // мс на фразы
+
+        function showNext() {
+            if (index < sequence.length) {
+                text.textContent = sequence[index];
+                text.classList.remove("hide");
+                text.classList.add("show");
+
+                if (index === sequence.length - 1) {
+                    // останавливаем генерацию пепла
+                    clearInterval(ashInterval);
+
+                    // исчезновение рамок
+                    barTop.style.transition = "opacity 2s ease";
+                    barBottom.style.transition = "opacity 2s ease";
+                    barTop.style.opacity = "0";
+                    barBottom.style.opacity = "0";
+
+                    // плавное исчезновение всех существующих частиц
+                    document.querySelectorAll(".particle").forEach(p => {
+                        p.style.transition = "opacity 2s ease";
+                        p.style.opacity = "0";
+                        setTimeout(() => p.remove(), 2000);
+                    });
+
+                    // эпичный финал текста
+                    text.style.transition = "transform 2s ease, text-shadow 2s ease";
+                    text.style.transform = "translate(-50%, -50%) scale(1.2)";
+                    text.style.textShadow = "0 0 30px rgba(255,220,100,1), 0 0 50px rgba(255,160,60,0.9)";
+                }
+
+                const delay = (index < 7) ? numberDuration : phraseDuration;
+                index++;
+                setTimeout(() => {
+                    text.classList.add("hide");
+                    setTimeout(showNext, 0);
+                }, delay);
+            }
+        }
+
+        /* СТАРТ */
+        barTop.classList.add("show");
+        barBottom.classList.add("show");
+        showNext();
+    </script>
+
+</body>
+
+</html>

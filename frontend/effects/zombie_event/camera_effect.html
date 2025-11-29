@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CCTV TV Effect - Зомби режим</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            overflow: hidden;
+            font-family: 'Courier New', monospace;
+            background: transparent;
+        }
+
+        /* Контейнер для демо-контента */
+        .demo-content {
+            width: 100%;
+            height: 100vh;
+            background: linear-gradient(135deg, #2d2d2d 0%, #1a1a1a 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-size: 2em;
+        }
+
+        /* Основной контейнер эффектов */
+        .tv-effect-container {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: 9999;
+            will-change: auto;
+        }
+
+        /* Эффект виньетки (затемнение по краям) - ОБЛЕГЧЁННАЯ */
+        .vignette {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: radial-gradient(ellipse at center,
+                    transparent 0%,
+                    transparent 55%,
+                    rgba(0, 0, 0, 0.6) 85%,
+                    rgba(0, 0, 0, 0.85) 100%);
+        }
+
+        /* Статичные сканлайны БЕЗ анимации */
+        .scanlines {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: repeating-linear-gradient(0deg,
+                    rgba(0, 0, 0, 0.12),
+                    rgba(0, 0, 0, 0.12) 1px,
+                    transparent 1px,
+                    transparent 3px);
+            opacity: 0.5;
+            mask-image: radial-gradient(ellipse at center,
+                    transparent 0%,
+                    transparent 55%,
+                    black 100%);
+            -webkit-mask-image: radial-gradient(ellipse at center,
+                    transparent 0%,
+                    transparent 55%,
+                    black 100%);
+        }
+
+        /* Лёгкий статичный шум */
+        .noise {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-image:
+                repeating-linear-gradient(0deg, transparent, transparent 1px, rgba(255, 255, 255, 0.015) 2px),
+                repeating-linear-gradient(90deg, transparent, transparent 1px, rgba(255, 255, 255, 0.015) 2px);
+            opacity: 0.5;
+            mask-image: radial-gradient(ellipse at center,
+                    transparent 0%,
+                    transparent 55%,
+                    black 100%);
+            -webkit-mask-image: radial-gradient(ellipse at center,
+                    transparent 0%,
+                    transparent 55%,
+                    black 100%);
+        }
+
+        /* Тёмные углы */
+        .dark-corners {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background:
+                radial-gradient(circle at top left, transparent 0%, transparent 25%, rgba(0, 0, 0, 0.6) 65%),
+                radial-gradient(circle at top right, transparent 0%, transparent 25%, rgba(0, 0, 0, 0.6) 65%),
+                radial-gradient(circle at bottom left, transparent 0%, transparent 25%, rgba(0, 0, 0, 0.6) 65%),
+                radial-gradient(circle at bottom right, transparent 0%, transparent 25%, rgba(0, 0, 0, 0.6) 65%);
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Контейнер эффектов -->
+    <div class="tv-effect-container">
+        <!-- Тёмные углы -->
+        <div class="dark-corners"></div>
+
+        <!-- Виньетка -->
+        <div class="vignette"></div>
+
+        <!-- Статичный шум -->
+        <div class="noise"></div>
+
+        <!-- Сканлайны -->
+        <div class="scanlines"></div>
+    </div>
+
+    <script>
+        // Лёгкая анимация помех через opacity
+        const noise = document.querySelector('.noise');
+        let opacity = 0.5;
+        let direction = 1;
+
+        setInterval(() => {
+            opacity += direction * 0.05;
+            if (opacity >= 0.7) direction = -1;
+            if (opacity <= 0.3) direction = 1;
+            noise.style.opacity = opacity;
+        }, 100);
+    </script>
+</body>
+
+</html>

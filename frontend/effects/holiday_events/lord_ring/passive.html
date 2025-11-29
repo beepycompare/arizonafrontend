@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Active Phase</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: transparent;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            font-family: "Palatino Linotype", Palatino, Georgia, serif;
+        }
+
+        /* Текст */
+        #phaseText {
+            position: absolute;
+            top: 20%;
+            left: 50%;
+            transform: translate(-50%, -50%) scale(0.9);
+            font-size: 6rem;
+            color: #f6e7c6;
+            text-shadow:
+                0 0 15px rgba(255, 180, 80, 0.9),
+                0 0 25px rgba(255, 120, 40, 0.7);
+            opacity: 0;
+            transition: opacity 2s ease, transform 2s ease;
+        }
+
+        #phaseText.show {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        #phaseText.hide {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(1.15);
+        }
+
+        /* Киношные рамки */
+        .cine-bar {
+            position: fixed;
+            left: 0;
+            width: 100%;
+            height: 8vh;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 50;
+            opacity: 0;
+            transition: opacity 1.2s ease;
+        }
+
+        .cine-bar.top {
+            top: 0;
+        }
+
+        .cine-bar.bottom {
+            bottom: 0;
+        }
+
+        .cine-bar.show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Киношные рамки -->
+    <div class="cine-bar top" id="barTop"></div>
+    <div class="cine-bar bottom" id="barBottom"></div>
+
+    <div id="phaseText">ПАССИВНАЯ ФАЗА</div>
+
+    <script>
+        const text = document.getElementById("phaseText");
+        const barTop = document.getElementById("barTop");
+        const barBottom = document.getElementById("barBottom");
+        ("phaseText");
+
+        // Плавное появление 2с и исчезновение 2с — всего 4 секунды
+        // Плавное появление текста и рамок
+        setTimeout(() => {
+            barTop.classList.add("show");
+            barBottom.classList.add("show");
+            text.classList.add("show");
+            ("show");
+        }, 100);
+
+        setTimeout(() => {
+            text.classList.remove("show");
+            text.classList.add("hide");
+            barTop.classList.remove("show");
+            barBottom.classList.remove("show");
+            ("show");
+            text.classList.add("hide");
+        }, 2100);
+
+        setTimeout(() => {
+            text.remove();
+        }, 4200);
+    </script>
+
+</body>
+
+</html>
