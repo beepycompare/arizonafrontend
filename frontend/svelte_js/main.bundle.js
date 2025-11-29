@@ -119197,7 +119197,7 @@
             "active": 1
         }, {
             "id": 9321,
-            "name": "Энергетический диск",
+            "name": "Кольцо Tron на спину",
             "icon": "9321.webp",
             "acs_slot": 4,
             "type": 3,
@@ -119606,7 +119606,7 @@
             "id": 9376,
             "name": "Накопитель энергии (квест)",
             "icon": "9376.webp",
-            "acs_slot": 0,
+            "acs_slot": 5,
             "type": 3,
             "active": 0
         }, {
@@ -119618,14 +119618,14 @@
             "active": 0
         }, {
             "id": 9378,
-            "name": "Сертификат Limozeen Hot-Wheels",
+            "name": "Сертификат Death Limozeen",
             "icon": "9378.webp",
             "acs_slot": -1,
             "type": 2,
             "active": 0
         }, {
             "id": 9379,
-            "name": "Сертификат Seymoor Creeps School Bus Hot-Wheels",
+            "name": "Сертификат Deadline Express",
             "icon": "9379.webp",
             "acs_slot": -1,
             "type": 2,
@@ -119653,7 +119653,7 @@
             "active": 0
         }, {
             "id": 9383,
-            "name": "Сертификат Dream Halloween Blown Delivery Hot-Wheels",
+            "name": "Сертификат NecroVan Turbo",
             "icon": "9383.webp",
             "acs_slot": -1,
             "type": 2,
@@ -119688,7 +119688,7 @@
             "active": 0
         }, {
             "id": 9388,
-            "name": "Скин: Королевская нежить (ID: 1057)",
+            "name": "Скин: Монтгомери (ID: 1057)",
             "icon": "9388.webp",
             "acs_slot": 0,
             "type": 10,
@@ -119709,7 +119709,7 @@
             "active": 0
         }, {
             "id": 9391,
-            "name": "Скин: Дракула (ID: 1060)",
+            "name": "Скин: Влад Дракула (ID: 1060)",
             "icon": "9391.webp",
             "acs_slot": 0,
             "type": 10,
@@ -119723,7 +119723,7 @@
             "active": 0
         }, {
             "id": 9393,
-            "name": "Скин: Ван Хелсинг (ID: 1062)",
+            "name": "Скин: Ван Хельсинг (ID: 1062)",
             "icon": "9393.webp",
             "acs_slot": 0,
             "type": 10,
@@ -119737,14 +119737,14 @@
             "active": 0
         }, {
             "id": 9395,
-            "name": "Скин: Петух Ван Хелсинга (ID: 1064)",
+            "name": "Скин: Петух Ван Хельсинга (ID: 1064)",
             "icon": "9395.webp",
             "acs_slot": 0,
             "type": 10,
             "active": 0
         }, {
             "id": 9396,
-            "name": "Скин: Сабрина ведьмочка (ID: 1065)",
+            "name": "Скин: Сабрина (ID: 1065)",
             "icon": "9396.webp",
             "acs_slot": 0,
             "type": 10,
@@ -119807,14 +119807,14 @@
             "active": 0
         }, {
             "id": 9405,
-            "name": "Кенгурятник для Limozeen Hot-Wheels",
+            "name": "Кенгурятник для Death Limozeen",
             "icon": "9405.webp",
             "acs_slot": 11,
             "type": 23,
             "active": 0
         }, {
             "id": 9406,
-            "name": "Кенгурятник для Seymoor Creeps School Bus Hot-Wheels",
+            "name": "Кенгурятник для Deadline Express",
             "icon": "9406.webp",
             "acs_slot": 11,
             "type": 23,
@@ -119842,7 +119842,7 @@
             "active": 0
         }, {
             "id": 9410,
-            "name": "Кенгурятник для Dream Halloween Blown Delivery Hot-Wheels",
+            "name": "Кенгурятник для NecroVan Turbo",
             "icon": "9410.webp",
             "acs_slot": 11,
             "type": 23,
@@ -119917,7 +119917,7 @@
             "acs_slot": 3,
             "type": 3,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9421,
             "name": "Кинжал Лича (Хлам)",
@@ -119939,7 +119939,7 @@
             "acs_slot": -1,
             "type": 73,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9424,
             "name": "Перчатка Лича (Хлам)",
@@ -119961,7 +119961,7 @@
             "acs_slot": 2,
             "type": 3,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9427,
             "name": "Сапоги лича L (Хлам)",
@@ -119983,7 +119983,7 @@
             "acs_slot": -1,
             "type": 73,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9430,
             "name": "Сапоги лича R (Хлам)",
@@ -120005,7 +120005,7 @@
             "acs_slot": -1,
             "type": 73,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9433,
             "name": "Меч Лича (Хлам)",
@@ -120027,7 +120027,7 @@
             "acs_slot": 5,
             "type": 3,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9436,
             "name": "Чемодан Лича (Хлам)",
@@ -120049,11 +120049,11 @@
             "acs_slot": 1,
             "type": 6,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9439,
             "name": "Нимб Лича (Хлам)",
-            "icon": "12538.webp",
+            "icon": "9439.webp",
             "acs_slot": 0,
             "type": 3,
             "active": 0
@@ -120071,40 +120071,40 @@
             "acs_slot": 0,
             "type": 3,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9442,
             "name": "Наплечник Лича (Хлам)",
-            "icon": "12542.webp",
+            "icon": "9442.webp",
             "acs_slot": 4,
             "type": 3,
             "active": 0
         }, {
             "id": 9443,
             "name": "Наплечник Лича (Обычный)",
-            "icon": "12545.webp",
+            "icon": "9443.webp",
             "acs_slot": 4,
             "type": 3,
             "active": 0
         }, {
             "id": 9444,
             "name": "Наплечник Лича (Легендарный)",
-            "icon": "12546.webp",
+            "icon": "9444.webp",
             "acs_slot": 4,
             "type": 3,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9445,
             "name": "Бронежилет Лича (Хлам)",
-            "icon": "12547.webp",
+            "icon": "9445.webp",
             "acs_slot": 0,
             "type": 6,
             "active": 0
         }, {
             "id": 9446,
             "name": "Бронежилет Лича (Обычный)",
-            "icon": "12548.webp",
+            "icon": "9446.webp",
             "acs_slot": 0,
             "type": 6,
             "active": 0
@@ -120115,7 +120115,7 @@
             "acs_slot": 0,
             "type": 6,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9448,
             "name": "Шлем Лича (Хлам)",
@@ -120137,7 +120137,7 @@
             "acs_slot": 1,
             "type": 3,
             "active": 0,
-            "effect": "berserk"
+            "effect": "blue-fire"
         }, {
             "id": 9451,
             "name": "Бронежилет Ведьмы (Хлам)",
@@ -120159,7 +120159,7 @@
             "acs_slot": 0,
             "type": 6,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9454,
             "name": "Метла ведьмы (Хлам)",
@@ -120181,7 +120181,7 @@
             "acs_slot": 5,
             "type": 3,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9457,
             "name": "Чемодан Ведьмы (Хлам)",
@@ -120203,7 +120203,7 @@
             "acs_slot": 1,
             "type": 6,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9460,
             "name": "Котелок Ведьмы (Хлам)",
@@ -120225,29 +120225,29 @@
             "acs_slot": 2,
             "type": 3,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9463,
-            "name": "Летающий кот у плеча (Хлам)",
+            "name": "Летающий кот Ведьмы (Хлам)",
             "icon": "9463.webp",
             "acs_slot": 4,
             "type": 3,
             "active": 0
         }, {
             "id": 9464,
-            "name": "Летающий кот у плеча (Обычный)",
+            "name": "Летающий кот Ведьмы (Обычный)",
             "icon": "9464.webp",
             "acs_slot": 4,
             "type": 3,
             "active": 0
         }, {
             "id": 9465,
-            "name": "Летающий кот у плеча (Легендарный)",
+            "name": "Летающий кот Ведьмы (Легендарный)",
             "icon": "9465.webp",
             "acs_slot": 4,
             "type": 3,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9466,
             "name": "Палка Сейлор Мун (Хлам)",
@@ -120269,7 +120269,7 @@
             "acs_slot": -1,
             "type": 73,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9469,
             "name": "Ботинки ведьмы L (Хлам)",
@@ -120291,7 +120291,7 @@
             "acs_slot": -1,
             "type": 73,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9472,
             "name": "Ботинки ведьмы R (Хлам)",
@@ -120313,7 +120313,7 @@
             "acs_slot": -1,
             "type": 73,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9475,
             "name": "Шляпа ведьмы (Хлам)",
@@ -120331,15 +120331,15 @@
         }, {
             "id": 9477,
             "name": "Шляпа ведьмы (Легендарный)",
-            "icon": "12536.webp",
+            "icon": "9477.webp",
             "acs_slot": 1,
             "type": 3,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9478,
             "name": "Нимб ведьмы (Хлам)",
-            "icon": "12537.webp",
+            "icon": "9478.webp",
             "acs_slot": 0,
             "type": 3,
             "active": 0
@@ -120357,29 +120357,29 @@
             "acs_slot": 0,
             "type": 3,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9481,
             "name": "Ожерелье ведьмы (Хлам)",
-            "icon": "12539.webp",
+            "icon": "9481.webp",
             "acs_slot": 3,
             "type": 3,
             "active": 0
         }, {
             "id": 9482,
             "name": "Ожерелье ведьмы (Обычный)",
-            "icon": "12540.webp",
+            "icon": "9482.webp",
             "acs_slot": 3,
             "type": 3,
             "active": 0
         }, {
             "id": 9483,
             "name": "Ожерелье ведьмы (Легендарный)",
-            "icon": "12541.webp",
+            "icon": "9483.webp",
             "acs_slot": 3,
             "type": 3,
             "active": 0,
-            "effect": "druid"
+            "effect": "green-fire"
         }, {
             "id": 9484,
             "name": "Запечатанный: Сердце Лича",
@@ -120406,7 +120406,7 @@
             "effect": "white-fire"
         }, {
             "id": 9487,
-            "name": "Запечатанный: Сапоги лича(ЛегендарныйSealed )",
+            "name": "Запечатанный: Сапоги лича L",
             "icon": "9487.webp",
             "acs_slot": -1,
             "type": 75,
@@ -120414,7 +120414,7 @@
             "effect": "white-fire"
         }, {
             "id": 9488,
-            "name": "Запечатанный: Сапоги лича(ЛегендарныйSealed )",
+            "name": "Запечатанный: Сапоги лича R",
             "icon": "9488.webp",
             "acs_slot": -1,
             "type": 75,
@@ -120502,7 +120502,7 @@
             "effect": "white-fire"
         }, {
             "id": 9499,
-            "name": "Запечатанный: Летающий коплеча (Sealed Легендарный)",
+            "name": "Запечатанный: Летающий кот Ведьмы",
             "icon": "9499.webp",
             "acs_slot": -1,
             "type": 75,
@@ -120510,7 +120510,7 @@
             "effect": "white-fire"
         }, {
             "id": 9500,
-            "name": "Запечатанный: Палка Сейло(ЛегендарныйSealed )",
+            "name": "Запечатанный: Палка Сейлор Мун",
             "icon": "9500.webp",
             "acs_slot": -1,
             "type": 75,
@@ -120518,7 +120518,7 @@
             "effect": "white-fire"
         }, {
             "id": 9501,
-            "name": "Запечатанный: Ботинки ведьм(ЛегендарныйSealed )",
+            "name": "Запечатанный: Ботинки ведьмы L",
             "icon": "9501.webp",
             "acs_slot": -1,
             "type": 75,
@@ -120526,7 +120526,7 @@
             "effect": "white-fire"
         }, {
             "id": 9502,
-            "name": "Запечатанный: Ботинки ведьм(ЛегендарныйSealed )",
+            "name": "Запечатанный: Ботинки ведьмы R",
             "icon": "9502.webp",
             "acs_slot": -1,
             "type": 75,
@@ -120558,7 +120558,7 @@
             "effect": "white-fire"
         }, {
             "id": 9506,
-            "name": "Сертификат охранника Петух Ван Хелсинга",
+            "name": "Сертификат охранника Петух Ван Хельсинга",
             "icon": "9506.webp",
             "acs_slot": -1,
             "type": 15,
@@ -120726,15 +120726,22 @@
             "active": 0
         }, {
             "id": 9530,
-            "name": "Осколок Сабрина ведьмочка",
+            "name": "Осколок скина Сабрина",
             "icon": "9530.webp",
             "acs_slot": -1,
             "type": 15,
             "active": 0
         }, {
             "id": 9531,
-            "name": "Осколок Королевская нежить",
+            "name": "Осколок скина Королевская нежить",
             "icon": "9531.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9532,
+            "name": "Осколки для кейсов (передаваемые)",
+            "icon": "9532.webp",
             "acs_slot": -1,
             "type": 15,
             "active": 0
@@ -214999,7 +215006,7 @@ setTimeout(() => {
 
         /* harmony default export */
         const car_numbers_index_svelte = (Car_numbers);; // CONCATENATED MODULE: ./src/views/screamer/img/slender.png
-        const slender_namespaceObject = __webpack_require__.p + "assets/49d543cc5505de05d98e.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_1.png
+        const slender_namespaceObject = __webpack_require__.p + "assets/7fd5fd4c91344ef40c72.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_1.png
         const halloween_1_namespaceObject = __webpack_require__.p + "assets/3867b7eeaa5752b67c1d.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_2.png
         const halloween_2_namespaceObject = __webpack_require__.p + "assets/df20c33e82bcecadc228.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_3.png
         const halloween_3_namespaceObject = __webpack_require__.p + "assets/a93c42c8db32a4f9a54c.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_4.png
@@ -378409,7 +378416,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "8e828bf5");
+                    console.log(`[debug] app init`, "1021", "ad93b478");
                 }
             });
 
@@ -378476,7 +378483,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "8e828bf5");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "ad93b478");
     })();
 
     /******/
