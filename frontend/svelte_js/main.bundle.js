@@ -247076,7 +247076,11 @@ setTimeout(() => {
         const druidEffect_namespaceObject = __webpack_require__.p + "assets/2bdce9e7564af13586a1.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/whiteFire.gif
         const whiteFire_namespaceObject = __webpack_require__.p + "assets/08a359647d8dd0cda054.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/blueFire.gif
         const blueFire_namespaceObject = __webpack_require__.p + "assets/7d8389cbf8b20cc1628a.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/greenFire.gif
-        const greenFire_namespaceObject = __webpack_require__.p + "assets/aab8544286ee11579491.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/constants.js
+        const greenFire_namespaceObject = __webpack_require__.p + "assets/aab8544286ee11579491.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/witchEffect.png
+        const witchEffect_namespaceObject = __webpack_require__.p + "assets/9a6c5b28e15746fdd497.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/lichEffect.png
+        const lichEffect_namespaceObject = __webpack_require__.p + "assets/5e006bfa85eb6f6317c6.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/constants.js
+
+
 
 
 
@@ -247130,28 +247134,28 @@ setTimeout(() => {
             9353: whiteFire_namespaceObject,
             9354: whiteFire_namespaceObject,
             9355: whiteFire_namespaceObject,
-            9420: greenFire_namespaceObject,
-            9423: greenFire_namespaceObject,
-            9426: greenFire_namespaceObject,
-            9429: greenFire_namespaceObject,
-            9432: greenFire_namespaceObject,
-            9435: greenFire_namespaceObject,
-            9438: greenFire_namespaceObject,
-            9441: greenFire_namespaceObject,
-            9444: greenFire_namespaceObject,
-            9447: greenFire_namespaceObject,
-            9450: greenFire_namespaceObject,
-            9453: blueFire_namespaceObject,
-            9456: blueFire_namespaceObject,
-            9459: blueFire_namespaceObject,
-            9462: blueFire_namespaceObject,
-            9465: blueFire_namespaceObject,
-            9468: blueFire_namespaceObject,
-            9471: blueFire_namespaceObject,
-            9474: blueFire_namespaceObject,
-            9477: blueFire_namespaceObject,
-            9480: blueFire_namespaceObject,
-            9483: blueFire_namespaceObject,
+            9420: lichEffect_namespaceObject,
+            9423: lichEffect_namespaceObject,
+            9426: lichEffect_namespaceObject,
+            9429: lichEffect_namespaceObject,
+            9432: lichEffect_namespaceObject,
+            9435: lichEffect_namespaceObject,
+            9438: lichEffect_namespaceObject,
+            9441: lichEffect_namespaceObject,
+            9444: lichEffect_namespaceObject,
+            9447: lichEffect_namespaceObject,
+            9450: lichEffect_namespaceObject,
+            9453: witchEffect_namespaceObject,
+            9456: witchEffect_namespaceObject,
+            9459: witchEffect_namespaceObject,
+            9462: witchEffect_namespaceObject,
+            9465: witchEffect_namespaceObject,
+            9468: witchEffect_namespaceObject,
+            9471: witchEffect_namespaceObject,
+            9474: witchEffect_namespaceObject,
+            9477: witchEffect_namespaceObject,
+            9480: witchEffect_namespaceObject,
+            9483: witchEffect_namespaceObject,
             9484: whiteFire_namespaceObject,
             9485: whiteFire_namespaceObject,
             9486: whiteFire_namespaceObject,
@@ -378416,7 +378420,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "ad93b478");
+                    console.log(`[debug] app init`, "1021", "e7ccb62b");
                 }
             });
 
@@ -378483,7 +378487,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "ad93b478");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "e7ccb62b");
     })();
 
     /******/
