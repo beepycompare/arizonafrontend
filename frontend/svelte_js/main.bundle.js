@@ -202673,7 +202673,8 @@ setTimeout(() => {
         const phone_nickname_namespaceObject = __webpack_require__.p + "assets/0dac6aad439db5ca5548.webp";; // CONCATENATED MODULE: ./src/views/phone/img/icons/december-action.png
         const december_action_namespaceObject = __webpack_require__.p + "assets/fa41519bfb910ecd0c79.webp";; // CONCATENATED MODULE: ./src/views/phone/img/icons/marketplace-property.png
         const marketplace_property_namespaceObject = __webpack_require__.p + "assets/620f85516a3bfe79b23a.webp";; // CONCATENATED MODULE: ./src/views/phone/img/icons/storage.svg
-        const storage_namespaceObject = __webpack_require__.p + "assets/29bd84c544b70e7b35ec.svg";; // CONCATENATED MODULE: ./src/views/phone/img/bg/phone-bg_1.png
+        const storage_namespaceObject = __webpack_require__.p + "assets/29bd84c544b70e7b35ec.svg";; // CONCATENATED MODULE: ./src/views/phone/img/icons/rating-bp.png
+        const rating_bp_namespaceObject = __webpack_require__.p + "assets/0d0f35ddb255f6fa91ba.webp";; // CONCATENATED MODULE: ./src/views/phone/img/bg/phone-bg_1.png
         const phone_bg_1_namespaceObject = __webpack_require__.p + "assets/3f53b88335149a4f168d.webp";; // CONCATENATED MODULE: ./src/views/phone/img/bg/phone-bg_2.png
         const phone_bg_2_namespaceObject = __webpack_require__.p + "assets/19f3a465048445bbb755.webp";; // CONCATENATED MODULE: ./src/views/phone/img/bg/phone-bg_3.png
         const phone_bg_3_namespaceObject = __webpack_require__.p + "assets/659e8c6151413c0f1e80.webp";; // CONCATENATED MODULE: ./src/views/phone/img/bg/phone-bg_4.png
@@ -202896,6 +202897,7 @@ setTimeout(() => {
 
 
 
+
         var Apps = {
             Driver: 'driver',
             Uber: 'uber',
@@ -202938,12 +202940,13 @@ setTimeout(() => {
             AirplaneMode: 'airplane-mode',
             ArizonaRent: 'arizona-rent',
             RatingAccessory: 'rating-accessory',
-            RatingTransport: 'rating-transport'
+            RatingTransport: 'rating-transport',
+            RatingBp: 'rating-bp'
         };
-        var MAP_APP_TAG_TO_ICON = (_MAP_APP_TAG_TO_ICON = {}, phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.Call, call_namespaceObject), Apps.Uber, taxi_namespaceObject), Apps.Driver, driver_namespaceObject), Apps.Anim, anim_namespaceObject), Apps.Shop, shop_namespaceObject), Apps.Help, help_namespaceObject), Apps.Menu, menu_namespaceObject), Apps.Setting, setting_namespaceObject), Apps.Call, call_namespaceObject), Apps.Sms, sms_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.Contact, contact_namespaceObject), Apps.Quest, quest_namespaceObject), Apps.Reward, reward_namespaceObject), Apps.Blockchain, blockchain_namespaceObject), Apps.Med, med_namespaceObject), Apps.Pass, pass_namespaceObject), Apps.Report, report_namespaceObject), Apps.Galery, galery_namespaceObject), Apps.Youtube, youtube_namespaceObject), Apps.Biz, biz_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.Cars, cars_namespaceObject), Apps.House, house_namespaceObject), Apps.Gps, gps_namespaceObject), Apps.Trade, trade_namespaceObject), Apps.Bilboard, bilboard_namespaceObject), Apps.Azpotify, music_namespaceObject), Apps.MyFamily, myfamily_namespaceObject), Apps.Music, sound_settings_namespaceObject), Apps.CopChase, copchase_namespaceObject), Apps.SoberDriver, soberdriver_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.PropertyWar, propertyWar_namespaceObject), Apps.SelfieCamera, selfie_camera_namespaceObject), Apps.PhoneNumberList, phone_number_namespaceObject), Apps.PhoneNicknameList, phone_nickname_namespaceObject), Apps.PhoneDecemberAction, december_action_namespaceObject), Apps.MarketplaceProperty, marketplace_property_namespaceObject), Apps.Storage, storage_namespaceObject), Apps.GunGame, gungame_namespaceObject), Apps.Promo, promo_namespaceObject), Apps.AirplaneMode, airplane_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.ArizonaRent, arizona_rent_namespaceObject), Apps.RatingAccessory, rating_accessory_namespaceObject), Apps.RatingTransport, rating_transport_namespaceObject));
-        var MAP_APP_TAG_TO_TITLE = (_MAP_APP_TAG_TO_TITLE = {}, phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.Driver, 'Driver'), Apps.Uber, 'Uber'), Apps.Anim, 'Анимации'), Apps.Shop, 'Магазин'), Apps.Help, 'Помощь'), Apps.Menu, 'Меню'), Apps.Setting, 'Настройки'), Apps.Call, 'Звонки'), Apps.Sms, 'СМС'), Apps.Contact, 'Контакты'), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.Quest, 'Квесты'), Apps.Reward, 'Достижения'), Apps.Blockchain, 'Криптовалюта'), Apps.Azpotify, 'AZpotify'), Apps.Med, 'Мед.карта'), Apps.Pass, 'Паспорт'), Apps.Report, 'Репорт'), Apps.Galery, 'Галерея'), Apps.Youtube, 'Youtube'), Apps.Biz, 'Бизнесы'), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.Cars, 'Авто'), Apps.House, 'Дома'), Apps.Gps, 'Навигатор'), Apps.Trade, 'Банковское меню'), Apps.Bilboard, 'Аренда билборда'), Apps.MyFamily, 'Моя семья'), Apps.Music, 'Звуки'), Apps.CopChase, 'Режим погони'), Apps.SoberDriver, 'Трезвый водитель'), Apps.PropertyWar, 'Ловля'), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.SelfieCamera, 'Селфи'), Apps.PhoneNumberList, 'Телефонный справочник'), Apps.PhoneNicknameList, 'История ник-неймов'), Apps.PhoneDecemberAction, 'Календарь'), Apps.MarketplaceProperty, 'Лог продаж'), Apps.Storage, 'Хранилище'), Apps.GunGame, 'Гонка вооружений'), Apps.Promo, 'Мой промокод'), Apps.AirplaneMode, 'Режим в полете'), Apps.ArizonaRent, 'Arizona Rent'), phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.RatingAccessory, 'Рейтинг аксессуаров'), Apps.RatingTransport, 'Рейтинг транспорта'));
+        var MAP_APP_TAG_TO_ICON = (_MAP_APP_TAG_TO_ICON = {}, phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.Call, call_namespaceObject), Apps.Uber, taxi_namespaceObject), Apps.Driver, driver_namespaceObject), Apps.Anim, anim_namespaceObject), Apps.Shop, shop_namespaceObject), Apps.Help, help_namespaceObject), Apps.Menu, menu_namespaceObject), Apps.Setting, setting_namespaceObject), Apps.Call, call_namespaceObject), Apps.Sms, sms_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.Contact, contact_namespaceObject), Apps.Quest, quest_namespaceObject), Apps.Reward, reward_namespaceObject), Apps.Blockchain, blockchain_namespaceObject), Apps.Med, med_namespaceObject), Apps.Pass, pass_namespaceObject), Apps.Report, report_namespaceObject), Apps.Galery, galery_namespaceObject), Apps.Youtube, youtube_namespaceObject), Apps.Biz, biz_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.Cars, cars_namespaceObject), Apps.House, house_namespaceObject), Apps.Gps, gps_namespaceObject), Apps.Trade, trade_namespaceObject), Apps.Bilboard, bilboard_namespaceObject), Apps.Azpotify, music_namespaceObject), Apps.MyFamily, myfamily_namespaceObject), Apps.Music, sound_settings_namespaceObject), Apps.CopChase, copchase_namespaceObject), Apps.SoberDriver, soberdriver_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.PropertyWar, propertyWar_namespaceObject), Apps.SelfieCamera, selfie_camera_namespaceObject), Apps.PhoneNumberList, phone_number_namespaceObject), Apps.PhoneNicknameList, phone_nickname_namespaceObject), Apps.PhoneDecemberAction, december_action_namespaceObject), Apps.MarketplaceProperty, marketplace_property_namespaceObject), Apps.Storage, storage_namespaceObject), Apps.GunGame, gungame_namespaceObject), Apps.Promo, promo_namespaceObject), Apps.AirplaneMode, airplane_namespaceObject), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ICON, Apps.ArizonaRent, arizona_rent_namespaceObject), Apps.RatingAccessory, rating_accessory_namespaceObject), Apps.RatingTransport, rating_transport_namespaceObject), Apps.RatingBp, rating_bp_namespaceObject));
+        var MAP_APP_TAG_TO_TITLE = (_MAP_APP_TAG_TO_TITLE = {}, phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.Driver, 'Driver'), Apps.Uber, 'Uber'), Apps.Anim, 'Анимации'), Apps.Shop, 'Магазин'), Apps.Help, 'Помощь'), Apps.Menu, 'Меню'), Apps.Setting, 'Настройки'), Apps.Call, 'Звонки'), Apps.Sms, 'СМС'), Apps.Contact, 'Контакты'), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.Quest, 'Квесты'), Apps.Reward, 'Достижения'), Apps.Blockchain, 'Криптовалюта'), Apps.Azpotify, 'AZpotify'), Apps.Med, 'Мед.карта'), Apps.Pass, 'Паспорт'), Apps.Report, 'Репорт'), Apps.Galery, 'Галерея'), Apps.Youtube, 'Youtube'), Apps.Biz, 'Бизнесы'), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.Cars, 'Авто'), Apps.House, 'Дома'), Apps.Gps, 'Навигатор'), Apps.Trade, 'Банковское меню'), Apps.Bilboard, 'Аренда билборда'), Apps.MyFamily, 'Моя семья'), Apps.Music, 'Звуки'), Apps.CopChase, 'Режим погони'), Apps.SoberDriver, 'Трезвый водитель'), Apps.PropertyWar, 'Ловля'), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.SelfieCamera, 'Селфи'), Apps.PhoneNumberList, 'Телефонный справочник'), Apps.PhoneNicknameList, 'История ник-неймов'), Apps.PhoneDecemberAction, 'Календарь'), Apps.MarketplaceProperty, 'Лог продаж'), Apps.Storage, 'Хранилище'), Apps.GunGame, 'Гонка вооружений'), Apps.Promo, 'Мой промокод'), Apps.AirplaneMode, 'Режим в полете'), Apps.ArizonaRent, 'Arizona Rent'), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_TITLE, Apps.RatingAccessory, 'Рейтинг аксессуаров'), Apps.RatingTransport, 'Рейтинг транспорта'), Apps.RatingBp, 'Рейтинг BP'));
         var MAP_APP_TAG_TO_COMPONENT = phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty({}, Apps.Uber, arizona_uber_index_svelte), Apps.Driver, driver_index_svelte), Apps.Call, call_index_svelte), Apps.Azpotify, azpotify_index_svelte), Apps.PropertyWar, property_war_index_svelte), Apps.Sms, messenger_index_svelte), Apps.GunGame, gungame_index_svelte), Apps.ArizonaRent, arizona_rent_index_svelte);
-        var MAP_APP_TAG_TO_ID = (_MAP_APP_TAG_TO_ID = {}, phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.Menu, 1), Apps.Promo, 2), Apps.Quest, 3), Apps.Report, 4), Apps.Azpotify, 5), Apps.Driver, 6), Apps.Uber, 7), Apps.Gps, 8), Apps.Setting, 9), Apps.Call, 10), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.Sms, 11), Apps.Contact, 12), Apps.Reward, 13), Apps.Shop, 14), Apps.Help, 15), Apps.Med, 16), Apps.Pass, 17), Apps.Anim, 18), Apps.MyFamily, 19), Apps.Youtube, 20), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.Biz, 21), Apps.Cars, 22), Apps.House, 23), Apps.Trade, 24), Apps.Bilboard, 25), Apps.Galery, 26), Apps.Music, 27), Apps.CopChase, 28), Apps.SoberDriver, 29), Apps.PropertyWar, 30), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.SelfieCamera, 31), Apps.PhoneNumberList, 32), Apps.PhoneNicknameList, 33), Apps.PhoneDecemberAction, 34), Apps.MarketplaceProperty, 35), Apps.Storage, 36), Apps.GunGame, 37), Apps.AirplaneMode, 38), Apps.Blockchain, 39), Apps.ArizonaRent, 40), phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.RatingAccessory, 41), Apps.RatingTransport, 42));
+        var MAP_APP_TAG_TO_ID = (_MAP_APP_TAG_TO_ID = {}, phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.Menu, 1), Apps.Promo, 2), Apps.Quest, 3), Apps.Report, 4), Apps.Azpotify, 5), Apps.Driver, 6), Apps.Uber, 7), Apps.Gps, 8), Apps.Setting, 9), Apps.Call, 10), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.Sms, 11), Apps.Contact, 12), Apps.Reward, 13), Apps.Shop, 14), Apps.Help, 15), Apps.Med, 16), Apps.Pass, 17), Apps.Anim, 18), Apps.MyFamily, 19), Apps.Youtube, 20), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.Biz, 21), Apps.Cars, 22), Apps.House, 23), Apps.Trade, 24), Apps.Bilboard, 25), Apps.Galery, 26), Apps.Music, 27), Apps.CopChase, 28), Apps.SoberDriver, 29), Apps.PropertyWar, 30), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.SelfieCamera, 31), Apps.PhoneNumberList, 32), Apps.PhoneNicknameList, 33), Apps.PhoneDecemberAction, 34), Apps.MarketplaceProperty, 35), Apps.Storage, 36), Apps.GunGame, 37), Apps.AirplaneMode, 38), Apps.Blockchain, 39), Apps.ArizonaRent, 40), phone_constants_defineProperty(phone_constants_defineProperty(phone_constants_defineProperty(_MAP_APP_TAG_TO_ID, Apps.RatingAccessory, 41), Apps.RatingTransport, 42), Apps.RatingBp, 43));
         var ALOOWING_FROM_SERVER = [Apps.ArizonaRent];
         var constants_Types = {
             border_a_light_blue: 1,
@@ -203052,7 +203055,7 @@ setTimeout(() => {
         var displayGridMaxItems = 12;
         var defaultPhoneBg = PHONE_BG.phoneBgImage_24;
         var defaultPhoneBorder = constants_Types.border_b_red;; // CONCATENATED MODULE: ./src/views/phone/mock.js
-        var AppsData = ['menu', 'promo', 'quest', 'help', 'azpotify', 'driver', 'uber', 'gps', 'setting', 'call', 'sms', 'contact', 'reward', 'arizona-rent', 'shop', 'med', 'pass', 'anim', 'myfamily', 'youtube', 'biz', 'cars', 'house', 'trade', 'bilboard', 'galery', 'music', 'copchase', 'soberdriver', 'property-war', 'selfie-camera', 'phone-number-list', 'phone-nickname-list', 'phone-december-action', 'marketplace-property', 'storage', 'gungame', 'airplane-mode', 'rating-accessory', 'rating-transport', 'blockchain'];
+        var AppsData = ['menu', 'promo', 'quest', 'help', 'azpotify', 'driver', 'uber', 'gps', 'setting', 'call', 'sms', 'contact', 'reward', 'arizona-rent', 'shop', 'med', 'pass', 'anim', 'myfamily', 'youtube', 'biz', 'cars', 'house', 'trade', 'bilboard', 'galery', 'music', 'copchase', 'soberdriver', 'property-war', 'selfie-camera', 'phone-number-list', 'phone-nickname-list', 'phone-december-action', 'marketplace-property', 'storage', 'gungame', 'airplane-mode', 'rating-accessory', 'rating-transport', 'blockchain', 'rating-bp'];
         var ServerNameExample = 'Saint-Rose';; // CONCATENATED MODULE: ./src/views/phone/components/app-grid-item/index.svelte
         /* src\views\phone\components\app-grid-item\index.svelte generated by Svelte v4.2.8 */
 
@@ -215006,7 +215009,7 @@ setTimeout(() => {
 
         /* harmony default export */
         const car_numbers_index_svelte = (Car_numbers);; // CONCATENATED MODULE: ./src/views/screamer/img/slender.png
-        const slender_namespaceObject = __webpack_require__.p + "assets/7fd5fd4c91344ef40c72.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_1.png
+        const slender_namespaceObject = __webpack_require__.p + "assets/49d543cc5505de05d98e.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_1.png
         const halloween_1_namespaceObject = __webpack_require__.p + "assets/3867b7eeaa5752b67c1d.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_2.png
         const halloween_2_namespaceObject = __webpack_require__.p + "assets/df20c33e82bcecadc228.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_3.png
         const halloween_3_namespaceObject = __webpack_require__.p + "assets/a93c42c8db32a4f9a54c.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/halloween_4.png
@@ -285477,7 +285480,7 @@ const getRandomTableNumber = () => {
                     t3 = dom_space();
                     p1 = dom_element("p");
 
-                    p1.innerHTML = `Чтобы начать капать данную местность
+                    p1.innerHTML = `Чтобы начать копать данную местность
         <span class="excavations__description--bold">нажимайте на мышку</span>`;
 
                     t6 = dom_space();
@@ -366319,20 +366322,20 @@ const getRandomTableNumber = () => {
 
         function base_rating_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[42] = list[i];
+            child_ctx[43] = list[i];
             return child_ctx;
         }
 
         function base_rating_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[45] = list[i];
-            child_ctx[47] = i;
+            child_ctx[46] = list[i];
+            child_ctx[48] = i;
             return child_ctx;
         }
 
         function base_rating_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[48] = list[i];
+            child_ctx[49] = list[i];
             return child_ctx;
         }
 
@@ -366340,13 +366343,13 @@ const getRandomTableNumber = () => {
         function base_rating_index_svelte_create_if_block_11(ctx) {
             let div;
             let p;
-            let t_value = /*quality*/ ctx[48].name + "";
+            let t_value = /*quality*/ ctx[49].name + "";
             let t;
             let mounted;
             let dispose;
 
             function click_handler_2() {
-                return /*click_handler_2*/ ctx[26]( /*quality*/ ctx[48]);
+                return /*click_handler_2*/ ctx[26]( /*quality*/ ctx[49]);
             }
 
             return {
@@ -366356,7 +366359,7 @@ const getRandomTableNumber = () => {
                     t = dom_text(t_value);
                     dom_attr(p, "class", "transport-interaction-rating__sort-item-title");
                     dom_attr(div, "class", "transport-interaction-rating__sort-item");
-                    dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[48].id);
+                    dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[49].id);
                     dom_toggle_class(div, "transport-interaction-rating__sort-item--disabled", /*loaderVisible*/ ctx[9]);
                 },
                 m(target, anchor) {
@@ -366371,10 +366374,10 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if (dirty[0] & /*$qualityApiData, qualityKey*/ 4097 && t_value !== (t_value = /*quality*/ ctx[48].name + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$qualityApiData, qualityKey*/ 4097 && t_value !== (t_value = /*quality*/ ctx[49].name + "")) dom_set_data(t, t_value);
 
                     if (dirty[0] & /*filterType, $qualityApiData, qualityKey*/ 4113) {
-                        dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[48].id);
+                        dom_toggle_class(div, "transport-interaction-rating__sort-item--selected", /*filterType*/ ctx[4] === /*quality*/ ctx[49].id);
                     }
 
                     if (dirty[0] & /*loaderVisible*/ 512) {
@@ -366395,7 +366398,7 @@ const getRandomTableNumber = () => {
         // (255:8) {#each $qualityApiData[qualityKey] as quality}
         function base_rating_index_svelte_create_each_block_2(ctx) {
             let if_block_anchor;
-            let if_block = /*quality*/ ctx[48].id > 0 && base_rating_index_svelte_create_if_block_11(ctx);
+            let if_block = /*quality*/ ctx[49].id > 0 && base_rating_index_svelte_create_if_block_11(ctx);
 
             return {
                 c() {
@@ -366407,7 +366410,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, if_block_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if ( /*quality*/ ctx[48].id > 0) {
+                    if ( /*quality*/ ctx[49].id > 0) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -366692,7 +366695,7 @@ const getRandomTableNumber = () => {
             let div4;
             let div0;
             let p0;
-            let t0_value = /*item*/ ctx[45].id + "";
+            let t0_value = /*item*/ ctx[46].id + "";
             let t0;
             let t1;
             let img;
@@ -366703,19 +366706,19 @@ const getRandomTableNumber = () => {
             let t3;
             let div3;
             let p1;
-            let t4_value = /*item*/ ctx[45].subName + "";
+            let t4_value = /*item*/ ctx[46].subName + "";
             let t4;
             let t5;
             let p2;
-            let t6_value = /*item*/ ctx[45].name + "";
+            let t6_value = /*item*/ ctx[46].name + "";
             let t6;
             let t7;
             let div2;
             let p3;
-            let t8_value = /*item*/ ctx[45].quality.name + "";
+            let t8_value = /*item*/ ctx[46].quality.name + "";
             let t8;
             let t9;
-            let t10_value = /*item*/ ctx[45].qualityValue + "";
+            let t10_value = /*item*/ ctx[46].qualityValue + "";
             let t10;
             let t11;
             let current;
@@ -366724,14 +366727,14 @@ const getRandomTableNumber = () => {
 
             imagewithfallback = new imageWithFallback_index_svelte({
                 props: {
-                    src: `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`,
+                    src: `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`,
                     fallbackImageUrl: `${CDN_URL}/assets/images/inventory/vehicles/512/none.webp`,
                     alt: "car"
                 }
             });
 
             function click_handler_6() {
-                return /*click_handler_6*/ ctx[33]( /*i*/ ctx[47]);
+                return /*click_handler_6*/ ctx[33]( /*i*/ ctx[48]);
             }
 
             return {
@@ -366761,7 +366764,7 @@ const getRandomTableNumber = () => {
                     t11 = dom_text(")");
                     dom_attr(p0, "class", "transport-interaction-rating__side-left-item-number-value");
                     dom_attr(div0, "class", "transport-interaction-rating__side-left-item-number");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "blur");
                     dom_attr(img, "class", "transport-interaction-rating__side-left-item-image-blur");
                     dom_attr(div1, "class", "transport-interaction-rating__side-left-item-image");
@@ -366769,11 +366772,11 @@ const getRandomTableNumber = () => {
                     dom_attr(p2, "class", "transport-interaction-rating__side-left-item-title-car");
                     dom_attr(p3, "class", "transport-interaction-rating__side-left-item-title-rarity-value");
                     dom_attr(div2, "class", "transport-interaction-rating__side-left-item-title-rarity");
-                    set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[45].quality.colors[0] + " 50%, " + /*item*/ ctx[45].quality.colors[1] + " 100%)");
+                    set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[46].quality.colors[0] + " 50%, " + /*item*/ ctx[46].quality.colors[1] + " 100%)");
                     dom_attr(div3, "class", "transport-interaction-rating__side-left-item-titles");
                     dom_attr(div4, "class", "transport-interaction-rating__side-left-item");
-                    set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[45].quality.colors[0] + "AA 0%, transparent 100%)");
-                    dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[47]);
+                    set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[46].quality.colors[0] + "AA 0%, transparent 100%)");
+                    dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[48]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div4, anchor);
@@ -366808,30 +366811,30 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if ((!current || dirty[0] & /*list*/ 4) && t0_value !== (t0_value = /*item*/ ctx[45].id + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t0_value !== (t0_value = /*item*/ ctx[46].id + "")) dom_set_data(t0, t0_value);
 
-                    if (!current || dirty[0] & /*list*/ 4 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`)) {
+                    if (!current || dirty[0] & /*list*/ 4 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
                     const imagewithfallback_changes = {};
-                    if (dirty[0] & /*list*/ 4) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[45].imageIndex}.webp`;
+                    if (dirty[0] & /*list*/ 4) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[46].imageIndex}.webp`;
                     imagewithfallback.$set(imagewithfallback_changes);
-                    if ((!current || dirty[0] & /*list*/ 4) && t4_value !== (t4_value = /*item*/ ctx[45].subName + "")) dom_set_data(t4, t4_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t6_value !== (t6_value = /*item*/ ctx[45].name + "")) dom_set_data(t6, t6_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t8_value !== (t8_value = /*item*/ ctx[45].quality.name + "")) dom_set_data(t8, t8_value);
-                    if ((!current || dirty[0] & /*list*/ 4) && t10_value !== (t10_value = /*item*/ ctx[45].qualityValue + "")) dom_set_data(t10, t10_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t4_value !== (t4_value = /*item*/ ctx[46].subName + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t6_value !== (t6_value = /*item*/ ctx[46].name + "")) dom_set_data(t6, t6_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t8_value !== (t8_value = /*item*/ ctx[46].quality.name + "")) dom_set_data(t8, t8_value);
+                    if ((!current || dirty[0] & /*list*/ 4) && t10_value !== (t10_value = /*item*/ ctx[46].qualityValue + "")) dom_set_data(t10, t10_value);
 
                     if (!current || dirty[0] & /*list*/ 4) {
-                        set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[45].quality.colors[0] + " 50%, " + /*item*/ ctx[45].quality.colors[1] + " 100%)");
+                        set_style(div2, "background", "linear-gradient(90deg, " + /*item*/ ctx[46].quality.colors[0] + " 50%, " + /*item*/ ctx[46].quality.colors[1] + " 100%)");
                     }
 
                     if (!current || dirty[0] & /*list*/ 4) {
-                        set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[45].quality.colors[0] + "AA 0%, transparent 100%)");
+                        set_style(div4, "--qualityLight", "radial-gradient(50% 70.91% at 50% 100%, " + /*item*/ ctx[46].quality.colors[0] + "AA 0%, transparent 100%)");
                     }
 
                     if (!current || dirty[0] & /*selectedItemIndex*/ 8) {
-                        dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[47]);
+                        dom_toggle_class(div4, "transport-interaction-rating__side-left-item--active", /*selectedItemIndex*/ ctx[3] === /*i*/ ctx[48]);
                     }
                 },
                 i(local) {
@@ -367472,7 +367475,7 @@ const getRandomTableNumber = () => {
 
             let t_value = ( /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.id === 0 ?
                 '???' :
-                `${/*bonus*/ ctx[42].valueString}`) + "";
+                `${/*bonus*/ ctx[43].valueString}`) + "";
 
             let t;
 
@@ -367490,7 +367493,7 @@ const getRandomTableNumber = () => {
                 p(ctx, dirty) {
                     if (dirty[0] & /*list, selectedItemIndex*/ 12 && t_value !== (t_value = ( /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.id === 0 ?
                             '???' :
-                            `${/*bonus*/ ctx[42].valueString}`) + "")) dom_set_data(t, t_value);
+                            `${/*bonus*/ ctx[43].valueString}`) + "")) dom_set_data(t, t_value);
 
                     if (dirty[0] & /*list, selectedItemIndex*/ 12) {
                         set_style(span, "background", /*list*/ ctx[2][ /*selectedItemIndex*/ ctx[3]].quality.colors[0]);
@@ -367508,10 +367511,10 @@ const getRandomTableNumber = () => {
         function base_rating_index_svelte_create_each_block(ctx) {
             let div;
             let span;
-            let t0_value = /*bonus*/ ctx[42].name + "";
+            let t0_value = /*bonus*/ ctx[43].name + "";
             let t0;
             let t1;
-            let show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[42].valueString);
+            let show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[43].valueString);
             let t2;
             let if_block = show_if && base_rating_index_svelte_create_if_block_2(ctx);
 
@@ -367535,8 +367538,8 @@ const getRandomTableNumber = () => {
                     dom_append(div, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*list, selectedItemIndex*/ 12 && t0_value !== (t0_value = /*bonus*/ ctx[42].name + "")) dom_set_data(t0, t0_value);
-                    if (dirty[0] & /*list, selectedItemIndex*/ 12) show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[42].valueString);
+                    if (dirty[0] & /*list, selectedItemIndex*/ 12 && t0_value !== (t0_value = /*bonus*/ ctx[43].name + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*list, selectedItemIndex*/ 12) show_if = !(0, lodash.isEmpty)( /*bonus*/ ctx[43].valueString);
 
                     if (show_if) {
                         if (if_block) {
@@ -367903,8 +367906,10 @@ const getRandomTableNumber = () => {
 
         function base_rating_index_svelte_instance($$self, $$props, $$invalidate) {
             let $serverApiServerId;
+            let $serverApiToken;
             let $qualityApiData;
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(40, $serverApiServerId = $$value));
+            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(41, $serverApiToken = $$value));
             utils_component_subscribe($$self, qualityApiData, $$value => $$invalidate(12, $qualityApiData = $$value));
             let {
                 qualityKey = ''
@@ -367978,8 +367983,9 @@ const getRandomTableNumber = () => {
 
                 lib_axios.get(`${SERVER_API_URL}/client/${entity}/getRatingList`, {
                     params: requestParams,
-                    headers: {}, // Authorization: `Bearer ${$serverApiToken}`,
-
+                    headers: {
+                        Authorization: `Bearer ${$serverApiToken}`
+                    }
                 }).then(response => {
                     requestParams.page += 1;
                     $$invalidate(9, loaderVisible = false);
@@ -378420,7 +378426,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "e7ccb62b");
+                    console.log(`[debug] app init`, "1021", "78fa8321");
                 }
             });
 
@@ -378487,7 +378493,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "e7ccb62b");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "78fa8321");
     })();
 
     /******/
