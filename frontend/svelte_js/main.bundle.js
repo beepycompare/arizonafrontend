@@ -72109,35 +72109,35 @@
             "id": 2597,
             "name": "Капот для BMW i8 (STOCK)",
             "icon": "2597.webp",
-            "acs_slot": -1,
+            "acs_slot": 1,
             "type": 23,
             "active": 0
         }, {
             "id": 2598,
             "name": "Капот для BMW i8 (FOUR-SLOT)",
             "icon": "2598.webp",
-            "acs_slot": -1,
+            "acs_slot": 1,
             "type": 23,
             "active": 0
         }, {
             "id": 2599,
             "name": "Капот для BMW i8 (SPEEDLINE)",
             "icon": "2599.webp",
-            "acs_slot": -1,
+            "acs_slot": 1,
             "type": 23,
             "active": 0
         }, {
             "id": 2600,
             "name": "Капот для BMW i8 (TREMOR)",
             "icon": "2600.webp",
-            "acs_slot": -1,
+            "acs_slot": 1,
             "type": 23,
             "active": 0
         }, {
             "id": 2601,
             "name": "Капот для BMW i8 (DOUBLE-V)",
             "icon": "2601.webp",
-            "acs_slot": -1,
+            "acs_slot": 1,
             "type": 23,
             "active": 0
         }, {
@@ -76253,35 +76253,35 @@
             "id": 3189,
             "name": "Спойлер для BMW i8 (STOCK)",
             "icon": "3189.webp",
-            "acs_slot": -1,
+            "acs_slot": 0,
             "type": 23,
             "active": 0
         }, {
             "id": 3190,
             "name": "Спойлер для BMW i8 (DUCKTAIL)",
             "icon": "3190.webp",
-            "acs_slot": -1,
+            "acs_slot": 0,
             "type": 23,
             "active": 0
         }, {
             "id": 3191,
             "name": "Спойлер для BMW i8 (REAPER)",
             "icon": "3191.webp",
-            "acs_slot": -1,
+            "acs_slot": 0,
             "type": 23,
             "active": 0
         }, {
             "id": 3192,
             "name": "Спойлер для BMW i8 (DAYTONA)",
             "icon": "3192.webp",
-            "acs_slot": -1,
+            "acs_slot": 0,
             "type": 23,
             "active": 0
         }, {
             "id": 3193,
             "name": "Спойлер для BMW i8 (CURSE)",
             "icon": "3193.webp",
-            "acs_slot": -1,
+            "acs_slot": 0,
             "type": 23,
             "active": 0
         }, {
@@ -118272,7 +118272,7 @@
             "active": 0
         }, {
             "id": 9192,
-            "name": "BattlePass День Мёртвых (10 EXP)",
+            "name": "BattlePass День Независимости (10 EXP)",
             "icon": "9192.webp",
             "acs_slot": -1,
             "type": 15,
@@ -119751,7 +119751,7 @@
             "active": 0
         }, {
             "id": 9397,
-            "name": "Скин: Безумный Дракула [Истинная форма] (ID: 1066)",
+            "name": "Скин: Безумный Дракула (ID: 1066)",
             "icon": "9397.webp",
             "acs_slot": 0,
             "type": 10,
@@ -119849,10 +119849,10 @@
             "active": 0
         }, {
             "id": 9411,
-            "name": "Мимик",
+            "name": "Объект: Мимик",
             "icon": "9411.webp",
-            "acs_slot": 5,
-            "type": 3,
+            "acs_slot": -1,
+            "type": 21,
             "active": 0
         }, {
             "id": 9412,
@@ -120677,14 +120677,14 @@
             "active": 0
         }, {
             "id": 9523,
-            "name": "Скин: Воинственная нежить (ID: 1068)",
+            "name": "Скин: Воинственная нежить (босс) (ID: 1068)",
             "icon": "9523.webp",
             "acs_slot": 0,
             "type": 10,
             "active": 0
         }, {
             "id": 9524,
-            "name": "Скин: Франкенштейн (ID: 1069)",
+            "name": "Скин: Франкенштейн (босс) (ID: 1069)",
             "icon": "9524.webp",
             "acs_slot": 0,
             "type": 10,
@@ -120744,111 +120744,6 @@
             "icon": "9532.webp",
             "acs_slot": -1,
             "type": 15,
-            "active": 0
-        }, {
-            "id": 9533,
-            "name": "Скин: T-60 Power Armor Base (ID: 1073)",
-            "icon": "9533.webp",
-            "acs_slot": 0,
-            "type": 10,
-            "active": 0
-        }, {
-            "id": 9534,
-            "name": "Скин: T-60 Black Ops (ID: 1074)",
-            "icon": "9534.webp",
-            "acs_slot": 0,
-            "type": 10,
-            "active": 0
-        }, {
-            "id": 9535,
-            "name": "Скин: T-60 Red Rocket (ID: 1075)",
-            "icon": "9535.webp",
-            "acs_slot": 0,
-            "type": 10,
-            "active": 0
-        }, {
-            "id": 9536,
-            "name": "Скин: Глент (ID: 1076)",
-            "icon": "9536.webp",
-            "acs_slot": 0,
-            "type": 10,
-            "active": 0
-        }, {
-            "id": 9537,
-            "name": "Винил Глента",
-            "icon": "9537.webp",
-            "acs_slot": 0,
-            "type": 7,
-            "active": 0
-        }, {
-            "id": 9538,
-            "name": "Кейс Глента",
-            "icon": "9538.webp",
-            "acs_slot": -1,
-            "type": 74,
-            "active": 0
-        }, {
-            "id": 9539,
-            "name": "Сертификат охранника T-60 Power Armor Base",
-            "icon": "9539.webp",
-            "acs_slot": -1,
-            "type": 15,
-            "active": 0
-        }, {
-            "id": 9540,
-            "name": "Сертификат охранника T-60 Red Rocket",
-            "icon": "9540.webp",
-            "acs_slot": -1,
-            "type": 15,
-            "active": 0
-        }, {
-            "id": 9541,
-            "name": "Сертификат охранника T-60 Black Ops",
-            "icon": "9541.webp",
-            "acs_slot": -1,
-            "type": 15,
-            "active": 0
-        }, {
-            "id": 9542,
-            "name": "Маска Глента из Роблокса",
-            "icon": "9542.webp",
-            "acs_slot": 1,
-            "type": 3,
-            "active": 0
-        }, {
-            "id": 9543,
-            "name": "Цепь Глента",
-            "icon": "9543.webp",
-            "acs_slot": 3,
-            "type": 3,
-            "active": 0
-        }, {
-            "id": 9544,
-            "name": "Серебренная кнопка",
-            "icon": "9544.webp",
-            "acs_slot": 4,
-            "type": 3,
-            "active": 0
-        }, {
-            "id": 9545,
-            "name": "Золотая кнопка",
-            "icon": "9545.webp",
-            "acs_slot": 4,
-            "type": 3,
-            "active": 0
-        }, {
-            "id": 9546,
-            "name": "Бриллиантовая кнопка",
-            "icon": "9546.webp",
-            "acs_slot": 4,
-            "type": 3,
-            "active": 0
-        }, {
-            "id": 9547,
-            "name": "Сертификат BMW I8 Глента",
-            "icon": "9547.webp",
-            "acs_slot": -1,
-            "type": 2,
             "active": 0
         }];; // CONCATENATED MODULE: ./src/store/inventory.js
 
@@ -305103,7 +304998,6 @@ const getRandomTableNumber = () => {
          * @param {Array<*>} arr The array to sort (modifies original).
          * @param {!function(*, *): number} compareFnc Comparison function.
          * @api
-         * @deprecated
          */
         function stableSort(arr, compareFnc) {
             const length = arr.length;
@@ -305330,7 +305224,7 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const events_Event = (BaseEvent);
+        const Event = (BaseEvent);
 
         ; // CONCATENATED MODULE: ./node_modules/ol/events/Target.js
         /**
@@ -305425,7 +305319,7 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                const evt = isString ? new events_Event(event) : /** @type {Event} */ (event);
+                const evt = isString ? new Event(event) : /** @type {Event} */ (event);
                 if (!evt.target) {
                     evt.target = this.eventTarget_ || this;
                 }
@@ -305872,7 +305766,7 @@ const getRandomTableNumber = () => {
          * OpenLayers version.
          * @type {string}
          */
-        const util_VERSION = '10.7.0';
+        const util_VERSION = '10.5.0';
 
         ; // CONCATENATED MODULE: ./node_modules/ol/Object.js
         /**
@@ -305888,7 +305782,7 @@ const getRandomTableNumber = () => {
          * @classdesc
          * Events emitted by {@link module:ol/Object~BaseObject} instances are instances of this type.
          */
-        class ObjectEvent extends events_Event {
+        class ObjectEvent extends Event {
             /**
              * @param {string} type The event type.
              * @param {string} key The property name.
@@ -313063,7 +312957,7 @@ const getRandomTableNumber = () => {
             x,
             y,
         ) {
-            // https://web.archive.org/web/20210504233957/http://geomalgorithms.com/a03-_inclusion.html
+            // https://geomalgorithms.com/a03-_inclusion.html
             // Copyright 2000 softSurfer, 2012 Dan Sunday
             // This code may be freely used and modified for any purpose
             // providing that this copyright notice is included with it.
@@ -316837,7 +316731,7 @@ const getRandomTableNumber = () => {
          * type.
          * @template T
          */
-        class CollectionEvent extends events_Event {
+        class CollectionEvent extends Event {
             /**
              * @param {import("./CollectionEventType.js").default} type Type.
              * @param {T} element Element.
@@ -316926,10 +316820,10 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {!Array<T>}
                  */
-                this.array_ = array ?? [];
+                this.array_ = array ? array : [];
 
                 if (this.unique_) {
-                    for (let i = 1, ii = this.array_.length; i < ii; ++i) {
+                    for (let i = 0, ii = this.array_.length; i < ii; ++i) {
                         this.assertUnique_(this.array_[i], i);
                     }
                 }
@@ -317044,6 +316938,9 @@ const getRandomTableNumber = () => {
              * @api
              */
             push(elem) {
+                if (this.unique_) {
+                    this.assertUnique_(elem);
+                }
                 const n = this.getLength();
                 this.insertAt(n, elem);
                 return this.getLength();
@@ -317135,9 +317032,8 @@ const getRandomTableNumber = () => {
              * @param {number} [except] Optional index to ignore.
              */
             assertUnique_(elem, except) {
-                const array = this.array_;
-                for (let i = 0, ii = array.length; i < ii; ++i) {
-                    if (array[i] === elem && i !== except) {
+                for (let i = 0, ii = this.array_.length; i < ii; ++i) {
+                    if (this.array_[i] === elem && i !== except) {
                         throw new Error('Duplicate item added to a unique collection');
                     }
                 }
@@ -317158,7 +317054,7 @@ const getRandomTableNumber = () => {
          * Events emitted as map events are instances of this type.
          * See {@link module:ol/Map~Map} for which events trigger a map event.
          */
-        class MapEvent extends events_Event {
+        class MapEvent extends Event {
             /**
              * @param {string} type Event type.
              * @param {import("./Map.js").default} map Map.
@@ -318517,12 +318413,6 @@ const getRandomTableNumber = () => {
             'family',
         ];
 
-        /** @type {Object<string|number, number>} */
-        const fontWeights = {
-            normal: 400,
-            bold: 700,
-        };
-
         /**
          * Get the list of font families from a font spec.  Note that this doesn't work
          * for font families that have commas in them.
@@ -318538,22 +318428,16 @@ const getRandomTableNumber = () => {
                 lineHeight: 'normal',
                 size: '1.2em',
                 style: 'normal',
-                weight: '400',
+                weight: 'normal',
                 variant: 'normal',
             });
             for (let i = 0, ii = fontRegExMatchIndex.length; i < ii; ++i) {
                 const value = match[i + 1];
                 if (value !== undefined) {
-                    style[fontRegExMatchIndex[i]] =
-                        typeof value === 'string' ? value.trim() : value;
+                    style[fontRegExMatchIndex[i]] = value;
                 }
             }
-            if (isNaN(Number(style.weight)) && style.weight in fontWeights) {
-                style.weight = fontWeights[style.weight];
-            }
-            style.families = style.family
-                .split(/,\s?/)
-                .map((f) => f.trim().replace(/^['"]|['"]$/g, ''));
+            style.families = style.family.split(/,\s?/);
             return style;
         };
 
@@ -318569,9 +318453,9 @@ const getRandomTableNumber = () => {
          * Create an html canvas element and returns its 2d context.
          * @param {number} [width] Canvas width.
          * @param {number} [height] Canvas height.
-         * @param {Array<HTMLCanvasElement|OffscreenCanvas>} [canvasPool] Canvas pool to take existing canvas from.
+         * @param {Array<HTMLCanvasElement>} [canvasPool] Canvas pool to take existing canvas from.
          * @param {CanvasRenderingContext2DSettings} [settings] CanvasRenderingContext2DSettings
-         * @return {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} The context.
+         * @return {CanvasRenderingContext2D} The context.
          */
         function dom_createCanvasContext2D(width, height, canvasPool, settings) {
             /** @type {HTMLCanvasElement|OffscreenCanvas} */
@@ -318579,9 +318463,7 @@ const getRandomTableNumber = () => {
             if (canvasPool && canvasPool.length) {
                 canvas = /** @type {HTMLCanvasElement} */ (canvasPool.shift());
             } else if (WORKER_OFFSCREEN_CANVAS) {
-                canvas = new(class extends OffscreenCanvas {
-                    style = {};
-                })(width ?? 300, height ?? 150);
+                canvas = new OffscreenCanvas(width || 300, height || 300);
             } else {
                 canvas = document.createElement('canvas');
             }
@@ -318591,18 +318473,17 @@ const getRandomTableNumber = () => {
             if (height) {
                 canvas.height = height;
             }
-            return /** @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} */ (
+            //FIXME Allow OffscreenCanvasRenderingContext2D as return type
+            return /** @type {CanvasRenderingContext2D} */ (
                 canvas.getContext('2d', settings)
             );
         }
 
-        /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
-         */
+        /** @type {CanvasRenderingContext2D} */
         let sharedCanvasContext;
 
         /**
-         * @return {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} Shared canvas context.
+         * @return {CanvasRenderingContext2D} Shared canvas context.
          */
         function getSharedCanvasContext2D() {
             if (!sharedCanvasContext) {
@@ -318614,7 +318495,7 @@ const getRandomTableNumber = () => {
         /**
          * Releases canvas memory to avoid exceeding memory limits in Safari.
          * See https://pqina.nl/blog/total-canvas-memory-use-exceeds-the-maximum-limit/
-         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+         * @param {CanvasRenderingContext2D} context Context.
          */
         function releaseCanvas(context) {
             const canvas = context.canvas;
@@ -318714,78 +318595,6 @@ const getRandomTableNumber = () => {
                 // reorder
                 node.insertBefore(newChild, oldChild);
             }
-        }
-
-        /**
-         * Creates a minimal structure that mocks a DIV to be used by the composite and
-         * layer renderer in a worker environment
-         * @return {HTMLDivElement} mocked DIV
-         */
-        function createMockDiv() {
-            const mockedDiv = new Proxy({
-                /**
-                 * @type {Array<HTMLElement>}
-                 */
-                childNodes: [],
-                /**
-                 * @param {HTMLElement} node html node.
-                 * @return {HTMLElement} html node.
-                 */
-                appendChild: function(node) {
-                    this.childNodes.push(node);
-                    return node;
-                },
-                /**
-                 * dummy function, as this structure is not supposed to have a parent.
-                 */
-                remove: function() {},
-                /**
-                 * @param {HTMLElement} node html node.
-                 * @return {HTMLElement} html node.
-                 */
-                removeChild: function(node) {
-                    const index = this.childNodes.indexOf(node);
-                    if (index === -1) {
-                        throw new Error('Node to remove was not found');
-                    }
-                    this.childNodes.splice(index, 1);
-                    return node;
-                },
-                /**
-                 * @param {HTMLElement} newNode new html node.
-                 * @param {HTMLElement} referenceNode reference html node.
-                 * @return {HTMLElement} new html node.
-                 */
-                insertBefore: function(newNode, referenceNode) {
-                    const index = this.childNodes.indexOf(referenceNode);
-                    if (index === -1) {
-                        throw new Error('Reference node not found');
-                    }
-                    this.childNodes.splice(index, 0, newNode);
-                    return newNode;
-                },
-                style: {},
-            }, {
-                get(target, prop, receiver) {
-                    if (prop === 'firstElementChild') {
-                        return target.childNodes.length > 0 ? target.childNodes[0] : null;
-                    }
-                    return Reflect.get(target, prop, receiver);
-                },
-            }, );
-            return /** @type {HTMLDivElement} */ ( /** @type {*} */ (mockedDiv));
-        }
-
-        /***
-         * @param {*} obj The object to check.
-         * @return {obj is (HTMLCanvasElement | OffscreenCanvas)} The object is a canvas.
-         */
-        function isCanvas(obj) {
-            return (
-                (typeof HTMLCanvasElement !== 'undefined' &&
-                    obj instanceof HTMLCanvasElement) ||
-                (typeof OffscreenCanvas !== 'undefined' && obj instanceof OffscreenCanvas)
-            );
         }
 
         ; // CONCATENATED MODULE: ./node_modules/ol/control/Control.js
@@ -318989,11 +318798,7 @@ const getRandomTableNumber = () => {
          * the control should be re-rendered. This is called in a `requestAnimationFrame`
          * callback.
          * @property {string|Array<string>|undefined} [attributions] Optional attribution(s) that will always be
-         * displayed regardless of the layers rendered.
-         * **Caution:** Attributions are rendered dynamically using `innerHTML`, which can lead to potential
-         * [**XSS (Cross-Site Scripting)**](https://en.wikipedia.org/wiki/Cross-site_scripting) vulnerabilities.
-         * Use this feature only for trusted content
-         * or ensure that the content is properly sanitized before inserting it.
+         * displayed regardless of the layers rendered
          */
 
         /**
@@ -320238,7 +320043,7 @@ const getRandomTableNumber = () => {
         const mouseActionButton = function(mapBrowserEvent) {
             const originalEvent = mapBrowserEvent.originalEvent;
             return (
-                'pointerId' in originalEvent &&
+                originalEvent instanceof PointerEvent &&
                 originalEvent.button == 0 &&
                 !(WEBKIT && has_MAC && originalEvent.ctrlKey)
             );
@@ -320387,7 +320192,9 @@ const getRandomTableNumber = () => {
         const mouseOnly = function(mapBrowserEvent) {
             const pointerEvent = mapBrowserEvent.originalEvent;
             // see https://www.w3.org/TR/pointerevents/#widl-PointerEvent-pointerType
-            return 'pointerId' in pointerEvent && pointerEvent.pointerType == 'mouse';
+            return (
+                pointerEvent instanceof PointerEvent && pointerEvent.pointerType == 'mouse'
+            );
         };
 
         /**
@@ -320400,7 +320207,9 @@ const getRandomTableNumber = () => {
         const touchOnly = function(mapBrowserEvent) {
             const pointerEvt = mapBrowserEvent.originalEvent;
             // see https://www.w3.org/TR/pointerevents/#widl-PointerEvent-pointerType
-            return 'pointerId' in pointerEvt && pointerEvt.pointerType === 'touch';
+            return (
+                pointerEvt instanceof PointerEvent && pointerEvt.pointerType === 'touch'
+            );
         };
 
         /**
@@ -320413,7 +320222,7 @@ const getRandomTableNumber = () => {
         const penOnly = function(mapBrowserEvent) {
             const pointerEvt = mapBrowserEvent.originalEvent;
             // see https://www.w3.org/TR/pointerevents/#widl-PointerEvent-pointerType
-            return 'pointerId' in pointerEvt && pointerEvt.pointerType === 'pen';
+            return pointerEvt instanceof PointerEvent && pointerEvt.pointerType === 'pen';
         };
 
         /**
@@ -320428,7 +320237,7 @@ const getRandomTableNumber = () => {
         const primaryAction = function(mapBrowserEvent) {
             const pointerEvent = mapBrowserEvent.originalEvent;
             return (
-                'pointerId' in pointerEvent &&
+                pointerEvent instanceof PointerEvent &&
                 pointerEvent.isPrimary &&
                 pointerEvent.button === 0
             );
@@ -321170,7 +320979,7 @@ const getRandomTableNumber = () => {
          * Events emitted by {@link module:ol/interaction/DragBox~DragBox} instances are instances of
          * this type.
          */
-        class DragBoxEvent extends events_Event {
+        class DragBoxEvent extends Event {
             /**
              * @param {string} type The event type.
              * @param {import("../coordinate.js").Coordinate} coordinate The event coordinate.
@@ -321799,18 +321608,6 @@ const getRandomTableNumber = () => {
          */
 
         /**
-         * Mutliplier for the DOM_DELTA_LINE delta value.
-         * @type {number}
-         */
-        const DELTA_LINE_MULTIPLIER = 40;
-
-        /**
-         * Mutliplier for the DOM_DELTA_PAGE delta value.
-         * @type {number}
-         */
-        const DELTA_PAGE_MULTIPLIER = 300;
-
-        /**
          * @classdesc
          * Allows the user to zoom the map by scrolling the mouse wheel.
          * @api
@@ -321974,17 +321771,12 @@ const getRandomTableNumber = () => {
 
                 // Delta normalisation inspired by
                 // https://github.com/mapbox/mapbox-gl-js/blob/001c7b9/js/ui/handler/scroll_zoom.js
-                let delta = wheelEvent.deltaY;
-
-                switch (wheelEvent.deltaMode) {
-                    case WheelEvent.DOM_DELTA_LINE:
-                        delta *= DELTA_LINE_MULTIPLIER;
-                        break;
-                    case WheelEvent.DOM_DELTA_PAGE:
-                        delta *= DELTA_PAGE_MULTIPLIER;
-                        break;
-                    default:
-                        // pass
+                let delta;
+                if (mapBrowserEvent.type == events_EventType.WHEEL) {
+                    delta = wheelEvent.deltaY;
+                    if (wheelEvent.deltaMode === WheelEvent.DOM_DELTA_LINE) {
+                        delta *= 40;
+                    }
                 }
 
                 if (delta === 0) {
@@ -322990,22 +322782,8 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @enum {string}
+         * @typedef {'addlayer'|'removelayer'} GroupEventType
          */
-        const GroupEventType = {
-            /**
-             * Triggered when a layer is added
-             * @event GroupEvent#addlayer
-             * @api
-             */
-            ADDLAYER: 'addlayer',
-            /**
-             * Triggered when a layer is removed
-             * @event GroupEvent#removelayer
-             * @api
-             */
-            REMOVELAYER: 'removelayer',
-        };
 
         /**
          * @classdesc
@@ -323013,7 +322791,7 @@ const getRandomTableNumber = () => {
          * the group or one of its child groups.  When a layer group is added to or removed from another layer group,
          * a single event will be triggered (instead of one per layer in the group added or removed).
          */
-        class GroupEvent extends events_Event {
+        class GroupEvent extends Event {
             /**
              * @param {GroupEventType} type The event type.
              * @param {BaseLayer} layer The layer.
@@ -323035,8 +322813,7 @@ const getRandomTableNumber = () => {
          * @typedef {import("../Observable").OnSignature<import("../Observable").EventTypes, import("../events/Event.js").default, Return> &
          *   import("../Observable").OnSignature<import("./Base").BaseLayerObjectEventTypes|
          *     'change:layers', import("../Object").ObjectEvent, Return> &
-         *   import("../Observable").OnSignature<'addlayer'|'removelayer', GroupEvent, Return> &
-         *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|'addlayer'|'removelayer'|'change:layers', Return>} GroupOnSignature
+         *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|'change:layers', Return>} GroupOnSignature
          */
 
         /**
@@ -323075,7 +322852,6 @@ const getRandomTableNumber = () => {
          *
          * A generic `change` event is triggered when the group/Collection changes.
          *
-         * @fires GroupEvent
          * @api
          */
         class LayerGroup extends Base {
@@ -323174,7 +322950,7 @@ const getRandomTableNumber = () => {
                 for (let i = 0, ii = layersArray.length; i < ii; i++) {
                     const layer = layersArray[i];
                     this.registerLayerListeners_(layer);
-                    this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, layer));
+                    this.dispatchEvent(new GroupEvent('addlayer', layer));
                 }
                 this.changed();
             }
@@ -323195,13 +322971,8 @@ const getRandomTableNumber = () => {
 
                 if (layer instanceof LayerGroup) {
                     listenerKeys.push(
-                        events_listen(layer, GroupEventType.ADDLAYER, this.handleLayerGroupAdd_, this),
-                        events_listen(
-                            layer,
-                            GroupEventType.REMOVELAYER,
-                            this.handleLayerGroupRemove_,
-                            this,
-                        ),
+                        events_listen(layer, 'addlayer', this.handleLayerGroupAdd_, this),
+                        events_listen(layer, 'removelayer', this.handleLayerGroupRemove_, this),
                     );
                 }
 
@@ -323212,14 +322983,14 @@ const getRandomTableNumber = () => {
              * @param {GroupEvent} event The layer group event.
              */
             handleLayerGroupAdd_(event) {
-                this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, event.layer));
+                this.dispatchEvent(new GroupEvent('addlayer', event.layer));
             }
 
             /**
              * @param {GroupEvent} event The layer group event.
              */
             handleLayerGroupRemove_(event) {
-                this.dispatchEvent(new GroupEvent(GroupEventType.REMOVELAYER, event.layer));
+                this.dispatchEvent(new GroupEvent('removelayer', event.layer));
             }
 
             /**
@@ -323229,7 +323000,7 @@ const getRandomTableNumber = () => {
             handleLayersAdd_(collectionEvent) {
                 const layer = collectionEvent.element;
                 this.registerLayerListeners_(layer);
-                this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, layer));
+                this.dispatchEvent(new GroupEvent('addlayer', layer));
                 this.changed();
             }
 
@@ -323242,7 +323013,7 @@ const getRandomTableNumber = () => {
                 const key = getUid(layer);
                 this.listenerKeys_[key].forEach(unlistenByKey);
                 delete this.listenerKeys_[key];
-                this.dispatchEvent(new GroupEvent(GroupEventType.REMOVELAYER, layer));
+                this.dispatchEvent(new GroupEvent('removelayer', layer));
                 this.changed();
             }
 
@@ -323273,9 +323044,7 @@ const getRandomTableNumber = () => {
                 if (collection) {
                     const currentLayers = collection.getArray();
                     for (let i = 0, ii = currentLayers.length; i < ii; ++i) {
-                        this.dispatchEvent(
-                            new GroupEvent(GroupEventType.REMOVELAYER, currentLayers[i]),
-                        );
+                        this.dispatchEvent(new GroupEvent('removelayer', currentLayers[i]));
                     }
                 }
 
@@ -323686,6 +323455,7 @@ const getRandomTableNumber = () => {
                             this.dispatchEvent('sourceready');
                         }, 0);
                     }
+                    this.clearRenderer();
                 }
                 this.changed();
             }
@@ -325026,38 +324796,38 @@ const getRandomTableNumber = () => {
          * See below for details on the available operators (with notes for those that are WebGL or Canvas only).
          *
          * Reading operators:
-         *   * `['band', bandIndex, xOffset, yOffset]` For tile layers only. Fetches pixel values from band
+         *   `['band', bandIndex, xOffset, yOffset]` For tile layers only. Fetches pixel values from band
          *     `bandIndex` of the source's data. The first `bandIndex` of the source data is `1`. Fetched values
          *     are in the 0..1 range. {@link import("../source/TileImage.js").default} sources have 4 bands: red,
          *     green, blue and alpha. {@link import("../source/DataTile.js").default} sources can have any number
          *     of bands, depending on the underlying data source and
          *     {@link import("../source/GeoTIFF.js").Options configuration}. `xOffset` and `yOffset` are optional
          *     and allow specifying pixel offsets for x and y. This is used for sampling data from neighboring pixels (WebGL only).
-         *   * `['get', attributeName]` fetches a feature property value, similar to `feature.get('attributeName')`.
-         *   * `['get', attributeName, keyOrArrayIndex, ...]` (Canvas only) Access nested properties and array items of a
+         *   `['get', attributeName]` fetches a feature property value, similar to `feature.get('attributeName')`.
+         *   `['get', attributeName, keyOrArrayIndex, ...]` (Canvas only) Access nested properties and array items of a
          *     feature property. The result is `undefined` when there is nothing at the specified key or index.
-         *   * `['geometry-type']` returns a feature's geometry type as string, either: 'LineString', 'Point' or 'Polygon'
+         *   `['geometry-type']` returns a feature's geometry type as string, either: 'LineString', 'Point' or 'Polygon'
          *     `Multi*` values are returned as their singular equivalent
          *     `Circle` geometries are returned as 'Polygon'
          *     `GeometryCollection` geometries are returned as the type of the first geometry found in the collection (WebGL only).
-         *   * `['resolution']` returns the current resolution
-         *   * `['time']` The time in seconds since the creation of the layer (WebGL only).
-         *   * `['var', 'varName']` fetches a value from the style variables; will throw an error if that variable is undefined
-         *   * `['zoom']` The current zoom level (WebGL only).
-         *   * `['line-metric']` returns the M component of the current point on a line (WebGL only); in case where the geometry layout of the line
+         *   `['resolution']` returns the current resolution
+         *   `['time']` The time in seconds since the creation of the layer (WebGL only).
+         *   `['var', 'varName']` fetches a value from the style variables; will throw an error if that variable is undefined
+         *   `['zoom']` The current zoom level (WebGL only).
+         *   `['line-metric']` returns the M component of the current point on a line (WebGL only); in case where the geometry layout of the line
          *      does not contain an M component (e.g. XY or XYZ), 0 is returned; 0 is also returned for geometries other than lines.
          *      Please note that the M component will be linearly interpolated between the two points composing a segment.
          *
          * Math operators:
-         *   * `['*', value1, value2, ...]` multiplies the values (either numbers or colors)
-         *   * `['/', value1, value2]` divides `value1` by `value2`
-         *   * `['+', value1, value2, ...]` adds the values
-         *   * `['-', value1, value2]` subtracts `value2` from `value1`
-         *   * `['clamp', value, low, high]` clamps `value` between `low` and `high`
-         *   * `['%', value1, value2]` returns the result of `value1 % value2` (modulo)
-         *   * `['^', value1, value2]` returns the value of `value1` raised to the `value2` power
-         *   * `['abs', value1]` returns the absolute value of `value1`
-         *   * `['floor', value1]` returns the nearest integer less than or equal to `value1`
+         *   `['*', value1, value2, ...]` multiplies the values (either numbers or colors)
+         *   `['/', value1, value2]` divides `value1` by `value2`
+         *   `['+', value1, value2, ...]` adds the values
+         *   `['-', value1, value2]` subtracts `value2` from `value1`
+         *   `['clamp', value, low, high]` clamps `value` between `low` and `high`
+         *   `['%', value1, value2]` returns the result of `value1 % value2` (modulo)
+         *   `['^', value1, value2]` returns the value of `value1` raised to the `value2` power
+         *   `['abs', value1]` returns the absolute value of `value1`
+         *   `['floor', value1]` returns the nearest integer less than or equal to `value1`
          *   * `['round', value1]` returns the nearest integer to `value1`
          *   * `['ceil', value1]` returns the nearest integer greater than or equal to `value1`
          *   * `['sin', value1]` returns the sine of `value1`
@@ -327249,13 +327019,13 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D}
          */
         let taintedTestContext = null;
 
         class IconImage extends events_Target {
             /**
-             * @param {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null} image Image.
+             * @param {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null} image Image.
              * @param {string|undefined} src Src.
              * @param {?string} crossOrigin Cross origin.
              * @param {import("../ImageState.js").default|undefined} imageState Image state.
@@ -327266,13 +327036,13 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|OffscreenCanvas|HTMLCanvasElement|ImageBitmap}
+                 * @type {HTMLImageElement|HTMLCanvasElement|ImageBitmap}
                  */
                 this.hitDetectionImage_ = null;
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null}
+                 * @type {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null}
                  */
                 this.image_ = image;
 
@@ -327284,7 +327054,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {Object<number, HTMLCanvasElement|OffscreenCanvas>}
+                 * @type {Object<number, HTMLCanvasElement>}
                  */
                 this.canvas_ = {};
 
@@ -327384,7 +327154,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image or Canvas element or image bitmap.
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image or Canvas element or image bitmap.
              */
             getImage(pixelRatio) {
                 if (!this.image_) {
@@ -327411,7 +327181,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image element.
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image element.
              */
             getHitDetectionImage() {
                 if (!this.image_) {
@@ -327539,7 +327309,7 @@ const getRandomTableNumber = () => {
         }
 
         /**
-         * @param {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null} image Image.
+         * @param {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null} image Image.
          * @param {string|undefined} cacheKey Src.
          * @param {?string} crossOrigin Cross origin.
          * @param {import("../ImageState.js").default|undefined} imageState Image state.
@@ -327844,7 +327614,7 @@ const getRandomTableNumber = () => {
         const checkedFonts = new ol_Object();
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D}
          */
         let measureContext = null;
 
@@ -327858,123 +327628,98 @@ const getRandomTableNumber = () => {
          */
         const textHeights = {};
 
-        const genericFontFamilies = new Set([
-            'serif',
-            'sans-serif',
-            'monospace',
-            'cursive',
-            'fantasy',
-            'system-ui',
-            'ui-serif',
-            'ui-sans-serif',
-            'ui-monospace',
-            'ui-rounded',
-            'emoji',
-            'math',
-            'fangsong',
-        ]);
-
-        /**
-         * @param {string} style Css font-style
-         * @param {string} weight Css font-weight
-         * @param {string} family Css font-family
-         * @return {string} Font key.
-         */
-        function getFontKey(style, weight, family) {
-            return `${style} ${weight} 16px "${family}"`;
-        }
-
         /**
          * Clears the label cache when a font becomes available.
          * @param {string} fontSpec CSS font spec.
          */
         const registerFont = (function() {
             const retries = 100;
-            let timeout, fontFaceSet;
+            const size = '32px ';
+            const referenceFonts = ['monospace', 'serif'];
+            const len = referenceFonts.length;
+            const text = 'wmytzilWMYTZIL@#/&?$%10\uF013';
+            let interval, referenceWidth;
 
             /**
-             * @param {string} fontSpec Css font spec
-             * @return {Promise<boolean>} Font with style and weight is available
+             * @param {string} fontStyle Css font-style
+             * @param {string} fontWeight Css font-weight
+             * @param {*} fontFamily Css font-family
+             * @return {boolean} Font with style and weight is available
              */
-            async function isAvailable(fontSpec) {
-                await fontFaceSet.ready;
-                const fontFaces = await fontFaceSet.load(fontSpec);
-                if (fontFaces.length === 0) {
-                    return false;
-                }
-                const font = getFontParameters(fontSpec);
-                const checkFamily = font.families[0].toLowerCase();
-                const checkWeight = font.weight;
-                return fontFaces.some(
-                    /**
-                     * @param {import('../css.js').FontParameters} f Font.
-                     * @return {boolean} Font matches.
-                     */
-                    (f) => {
-                        const family = f.family.replace(/^['"]|['"]$/g, '').toLowerCase();
-                        const weight = fontWeights[f.weight] || f.weight;
-                        return (
-                            family === checkFamily &&
-                            f.style === font.style &&
-                            weight == checkWeight
+            function isAvailable(fontStyle, fontWeight, fontFamily) {
+                let available = true;
+                for (let i = 0; i < len; ++i) {
+                    const referenceFont = referenceFonts[i];
+                    referenceWidth = measureTextWidth(
+                        fontStyle + ' ' + fontWeight + ' ' + size + referenceFont,
+                        text,
+                    );
+                    if (fontFamily != referenceFont) {
+                        const width = measureTextWidth(
+                            fontStyle +
+                            ' ' +
+                            fontWeight +
+                            ' ' +
+                            size +
+                            fontFamily +
+                            ',' +
+                            referenceFont,
+                            text,
                         );
-                    },
-                );
+                        // If width and referenceWidth are the same, then the fallback was used
+                        // instead of the font we wanted, so the font is not available.
+                        available = available && width != referenceWidth;
+                    }
+                }
+                if (available) {
+                    return true;
+                }
+                return false;
             }
 
-            async function check() {
-                await fontFaceSet.ready;
+            function check() {
                 let done = true;
-                const checkedFontsProperties = checkedFonts.getProperties();
-                const fonts = Object.keys(checkedFontsProperties).filter(
-                    (key) => checkedFontsProperties[key] < retries,
-                );
-                for (let i = fonts.length - 1; i >= 0; --i) {
+                const fonts = checkedFonts.getKeys();
+                for (let i = 0, ii = fonts.length; i < ii; ++i) {
                     const font = fonts[i];
-                    let currentRetries = checkedFontsProperties[font];
-                    if (currentRetries < retries) {
-                        if (await isAvailable(font)) {
+                    if (checkedFonts.get(font) < retries) {
+                        const [style, weight, family] = font.split('\n');
+                        if (isAvailable(style, weight, family)) {
                             clear(textHeights);
+                            // Make sure that loaded fonts are picked up by Safari
+                            measureContext = null;
+                            measureFont = undefined;
                             checkedFonts.set(font, retries);
                         } else {
-                            currentRetries += 10;
-                            checkedFonts.set(font, currentRetries, true);
-                            if (currentRetries < retries) {
-                                done = false;
-                            }
+                            checkedFonts.set(font, checkedFonts.get(font) + 1, true);
+                            done = false;
                         }
                     }
                 }
-                timeout = undefined;
-                if (!done) {
-                    timeout = setTimeout(check, 100);
+                if (done) {
+                    clearInterval(interval);
+                    interval = undefined;
                 }
             }
 
-            return async function(fontSpec) {
-                if (!fontFaceSet) {
-                    fontFaceSet = WORKER_OFFSCREEN_CANVAS ? self.fonts : document.fonts;
-                }
+            return function(fontSpec) {
                 const font = getFontParameters(fontSpec);
                 if (!font) {
                     return;
                 }
                 const families = font.families;
-                let needCheck = false;
-                for (const family of families) {
-                    if (genericFontFamilies.has(family)) {
-                        continue;
+                for (let i = 0, ii = families.length; i < ii; ++i) {
+                    const family = families[i];
+                    const key = font.style + '\n' + font.weight + '\n' + family;
+                    if (checkedFonts.get(key) === undefined) {
+                        checkedFonts.set(key, retries, true);
+                        if (!isAvailable(font.style, font.weight, family)) {
+                            checkedFonts.set(key, 0, true);
+                            if (interval === undefined) {
+                                interval = setInterval(check, 32);
+                            }
+                        }
                     }
-                    const key = getFontKey(font.style, font.weight, family);
-                    if (checkedFonts.get(key) !== undefined) {
-                        continue;
-                    }
-                    checkedFonts.set(key, 0, true);
-                    needCheck = true;
-                }
-                if (needCheck) {
-                    clearTimeout(timeout);
-                    timeout = setTimeout(check, 100);
                 }
             };
         })();
@@ -328206,7 +327951,7 @@ const getRandomTableNumber = () => {
 
         /**
          * @param {Label} label Label.
-         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+         * @param {CanvasRenderingContext2D} context Context.
          */
         function executeLabelInstructions(label, context) {
             const contextInstructions = label.contextInstructions;
@@ -328599,7 +328344,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLCanvasElement|OffscreenCanvas|null}
+                 * @type {HTMLCanvasElement|null}
                  */
                 this.hitDetectionCanvas_ = null;
 
@@ -328743,7 +328488,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLCanvasElement|OffscreenCanvas} Image element.
+             * @return {HTMLCanvasElement} Image element.
              * @override
              */
             getHitDetectionImage() {
@@ -328758,7 +328503,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image icon.
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLCanvasElement|OffscreenCanvas} Image or Canvas element.
+             * @return {HTMLCanvasElement} Image or Canvas element.
              * @api
              * @override
              */
@@ -328767,7 +328512,7 @@ const getRandomTableNumber = () => {
                 const cacheKey =
                     `${pixelRatio},${this.angle_},${this.radius},${this.radius2_},${this.points_},${fillKey}` +
                     Object.values(this.renderOptions_).join(',');
-                let image = /** @type {HTMLCanvasElement|OffscreenCanvas} */ (
+                let image = /** @type {HTMLCanvasElement} */ (
                     shared.get(cacheKey, null, null)?.getImage(1)
                 );
                 if (!image) {
@@ -329039,7 +328784,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The rendering context.
+             * @param {CanvasRenderingContext2D} context The rendering context.
              * @param {number} pixelRatio The pixel ratio.
              */
             draw_(renderOptions, context, pixelRatio) {
@@ -329074,7 +328819,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @return {HTMLCanvasElement|OffscreenCanvas} Canvas containing the icon
+             * @return {HTMLCanvasElement} Canvas containing the icon
              */
             createHitDetectionCanvas_(renderOptions) {
                 let context;
@@ -329103,7 +328848,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The context to draw in.
+             * @param {CanvasRenderingContext2D} context The context to draw in.
              */
             createPath_(context) {
                 let points = this.points_;
@@ -329129,7 +328874,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The context.
+             * @param {CanvasRenderingContext2D} context The context.
              */
             drawHitDetectionCanvas_(renderOptions, context) {
                 // set origin to canvas center
@@ -329417,7 +329162,7 @@ const getRandomTableNumber = () => {
          * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images. Note that you must provide a
          * `crossOrigin` value if you want to access pixel data with the Canvas renderer.
          * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
-         * @property {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} [img] Image object for the icon.
+         * @property {HTMLImageElement|HTMLCanvasElement|ImageBitmap} [img] Image object for the icon.
          * @property {Array<number>} [displacement=[0, 0]] Displacement of the icon in pixels.
          * Positive values will shift the icon right and up.
          * @property {number} [opacity=1] Opacity of the icon.
@@ -329790,7 +329535,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image icon.
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image or Canvas element. If the Icon
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image or Canvas element. If the Icon
              * style was configured with `src` or with a not let loaded `img`, an `ImageBitmap` will be returned.
              * @api
              * @override
@@ -329827,7 +329572,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image element.
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image element.
              * @override
              */
             getHitDetectionImage() {
@@ -329877,21 +329622,6 @@ const getRandomTableNumber = () => {
              */
             getSrc() {
                 return this.iconImage_.getSrc();
-            }
-
-            /**
-             * Set the image URI
-             * @param {string} src Image source URI
-             * @api
-             */
-            setSrc(src) {
-                this.iconImage_ = IconImage_get(
-                    null,
-                    src,
-                    this.crossOrigin_,
-                    ol_ImageState.IDLE,
-                    this.color_,
-                );
             }
 
             /**
@@ -331046,9 +330776,7 @@ const getRandomTableNumber = () => {
                     textAlign: this.getTextAlign(),
                     justify: this.getJustify(),
                     textBaseline: this.getTextBaseline(),
-                    fill: this.getFill() instanceof style_Fill ?
-                        this.getFill().clone() :
-                        this.getFill(),
+                    fill: this.getFill() ? this.getFill().clone() : undefined,
                     stroke: this.getStroke() ? this.getStroke().clone() : undefined,
                     offsetX: this.getOffsetX(),
                     offsetY: this.getOffsetY(),
@@ -333177,13 +332905,13 @@ const getRandomTableNumber = () => {
 
 
 
-        class RenderEvent extends events_Event {
+        class RenderEvent extends Event {
             /**
              * @param {import("./EventType.js").default} type Type.
              * @param {import("../transform.js").Transform} [inversePixelTransform] Transform for
              *     CSS pixels to rendered pixels.
              * @param {import("../Map.js").FrameState} [frameState] Frame state.
-             * @param {?(CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|WebGLRenderingContext)} [context] Context.
+             * @param {?(CanvasRenderingContext2D|WebGLRenderingContext)} [context] Context.
              */
             constructor(type, inversePixelTransform, frameState, context) {
                 super(type);
@@ -333207,7 +332935,7 @@ const getRandomTableNumber = () => {
                  * Canvas context. Not available when the event is dispatched by the map. For Canvas 2D layers,
                  * the context will be the 2D rendering context.  For WebGL layers, the context will be the WebGL
                  * context.
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|WebGLRenderingContext|undefined}
+                 * @type {CanvasRenderingContext2D|WebGLRenderingContext|undefined}
                  * @api
                  */
                 this.context = context;
@@ -333480,8 +333208,6 @@ const getRandomTableNumber = () => {
 
 
 
-
-
         /**
          * @classdesc
          * Canvas map renderer.
@@ -333509,9 +333235,7 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {HTMLDivElement}
                  */
-                this.element_ = WORKER_OFFSCREEN_CANVAS ?
-                    createMockDiv() :
-                    document.createElement('div');
+                this.element_ = document.createElement('div');
                 const style = this.element_.style;
                 style.position = 'absolute';
                 style.width = '100%';
@@ -333521,10 +333245,7 @@ const getRandomTableNumber = () => {
                 this.element_.className = CLASS_UNSELECTABLE + ' ol-layers';
 
                 const container = map.getViewport();
-                if (container) {
-                    // maps in a worker do not have a viewport.
-                    container.insertBefore(this.element_, container.firstChild || null);
-                }
+                container.insertBefore(this.element_, container.firstChild || null);
 
                 /**
                  * @private
@@ -333626,41 +333347,6 @@ const getRandomTableNumber = () => {
 
                 replaceChildren(this.element_, this.children_);
 
-                const map = this.getMap();
-                const mapCanvas = map.getTargetElement();
-                if (isCanvas(mapCanvas)) {
-                    // Canvas composition when container is a canvas
-                    const mapContext = mapCanvas.getContext('2d');
-                    for (const container of this.children_) {
-                        const canvas = container.firstElementChild || container;
-                        const backgroundColor = container.style.backgroundColor;
-                        if (backgroundColor && (!isCanvas(canvas) || canvas.width > 0)) {
-                            mapContext.fillStyle = backgroundColor;
-                            mapContext.fillRect(0, 0, mapCanvas.width, mapCanvas.height);
-                        }
-                        if (isCanvas(canvas) && canvas.width > 0) {
-                            const opacity = container.style.opacity || canvas.style.opacity;
-                            mapContext.globalAlpha = opacity === '' ? 1 : Number(opacity);
-                            const transform = canvas.style.transform;
-                            if (transform) {
-                                // Get the transform parameters from the style's transform matrix
-                                mapContext.setTransform(
-                                    ... /** @type {[number, number, number, number, number, number]} */ (
-                                        fromString(transform)
-                                    ),
-                                );
-                            } else {
-                                const w = parseFloat(canvas.style.width) / canvas.width;
-                                const h = parseFloat(canvas.style.height) / canvas.height;
-                                mapContext.setTransform(w, 0, 0, h, 0, 0);
-                            }
-                            mapContext.drawImage(canvas, 0, 0);
-                        }
-                    }
-                    mapContext.globalAlpha = 1;
-                    mapContext.setTransform(1, 0, 0, 1, 0, 0);
-                }
-
                 this.dispatchRenderEvent(render_EventType.POSTCOMPOSE, frameState);
 
                 if (!this.renderedVisible_) {
@@ -333699,7 +333385,6 @@ const getRandomTableNumber = () => {
         /**
          * @module ol/Map
          */
-
 
 
 
@@ -333808,12 +333493,12 @@ const getRandomTableNumber = () => {
          * @typedef {Object} MapOptions
          * @property {Collection<import("./control/Control.js").default>|Array<import("./control/Control.js").default>} [controls]
          * Controls initially added to the map. If not specified,
-         * {@link module:ol/control/defaults.defaults} is used. In a worker, no controls are added by default.
+         * {@link module:ol/control/defaults.defaults} is used.
          * @property {number} [pixelRatio=window.devicePixelRatio] The ratio between
          * physical pixels and device-independent pixels (dips) on the device.
          * @property {Collection<import("./interaction/Interaction.js").default>|Array<import("./interaction/Interaction.js").default>} [interactions]
          * Interactions that are initially added to the map. If not specified,
-         * {@link module:ol/interaction/defaults.defaults} is used. In a worker, no interactions are added by default.
+         * {@link module:ol/interaction/defaults.defaults} is used.
          * @property {HTMLElement|Document|string} [keyboardEventTarget] The element to
          * listen to keyboard events on. This determines when the `KeyboardPan` and
          * `KeyboardZoom` interactions trigger. For example, if this option is set to
@@ -333834,11 +333519,10 @@ const getRandomTableNumber = () => {
          * Increasing this value can make it easier to click on the map.
          * @property {Collection<import("./Overlay.js").default>|Array<import("./Overlay.js").default>} [overlays]
          * Overlays initially added to the map. By default, no overlays are added.
-         * @property {HTMLElement|string|HTMLCanvasElement|OffscreenCanvas} [target] The container for the map, either the
+         * @property {HTMLElement|string} [target] The container for the map, either the
          * element itself or the `id` of the element. If not specified at construction
          * time, {@link module:ol/Map~Map#setTarget} must be called for the map to be
          * rendered. If passed by element, the container can be in a secondary document.
-         * For use in workers or when exporting a map, use an `OffscreenCanvas` or `HTMLCanvasElement` as target.
          * For accessibility (focus and keyboard events for map navigation), the `target` element must have a
          *  properly configured `tabindex` attribute. If the `target` element is inside a Shadow DOM, the
          *  `tabindex` atribute must be set on the custom element's host element.
@@ -334057,42 +333741,39 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {!HTMLElement}
                  */
-                if (!WORKER_OFFSCREEN_CANVAS) {
-                    this.viewport_ = document.createElement('div');
-                    this.viewport_.className =
-                        'ol-viewport' + ('ontouchstart' in window ? ' ol-touch' : '');
-                    this.viewport_.style.position = 'relative';
-                    this.viewport_.style.overflow = 'hidden';
-                    this.viewport_.style.width = '100%';
-                    this.viewport_.style.height = '100%';
+                this.viewport_ = document.createElement('div');
+                this.viewport_.className =
+                    'ol-viewport' + ('ontouchstart' in window ? ' ol-touch' : '');
+                this.viewport_.style.position = 'relative';
+                this.viewport_.style.overflow = 'hidden';
+                this.viewport_.style.width = '100%';
+                this.viewport_.style.height = '100%';
 
-                    /**
-                     * @private
-                     * @type {!HTMLElement}
-                     */
-                    this.overlayContainer_ = document.createElement('div');
-                    this.overlayContainer_.style.position = 'absolute';
-                    this.overlayContainer_.style.zIndex = '0';
-                    this.overlayContainer_.style.width = '100%';
-                    this.overlayContainer_.style.height = '100%';
-                    this.overlayContainer_.style.pointerEvents = 'none';
-                    this.overlayContainer_.className = 'ol-overlaycontainer';
-                    this.viewport_.appendChild(this.overlayContainer_);
+                /**
+                 * @private
+                 * @type {!HTMLElement}
+                 */
+                this.overlayContainer_ = document.createElement('div');
+                this.overlayContainer_.style.position = 'absolute';
+                this.overlayContainer_.style.zIndex = '0';
+                this.overlayContainer_.style.width = '100%';
+                this.overlayContainer_.style.height = '100%';
+                this.overlayContainer_.style.pointerEvents = 'none';
+                this.overlayContainer_.className = 'ol-overlaycontainer';
+                this.viewport_.appendChild(this.overlayContainer_);
 
-                    /**
-                     * @private
-                     * @type {!HTMLElement}
-                     */
-                    this.overlayContainerStopEvent_ = document.createElement('div');
-                    this.overlayContainerStopEvent_.style.position = 'absolute';
-                    this.overlayContainerStopEvent_.style.zIndex = '0';
-                    this.overlayContainerStopEvent_.style.width = '100%';
-                    this.overlayContainerStopEvent_.style.height = '100%';
-                    this.overlayContainerStopEvent_.style.pointerEvents = 'none';
-                    this.overlayContainerStopEvent_.className =
-                        'ol-overlaycontainer-stopevent';
-                    this.viewport_.appendChild(this.overlayContainerStopEvent_);
-                }
+                /**
+                 * @private
+                 * @type {!HTMLElement}
+                 */
+                this.overlayContainerStopEvent_ = document.createElement('div');
+                this.overlayContainerStopEvent_.style.position = 'absolute';
+                this.overlayContainerStopEvent_.style.zIndex = '0';
+                this.overlayContainerStopEvent_.style.width = '100%';
+                this.overlayContainerStopEvent_.style.height = '100%';
+                this.overlayContainerStopEvent_.style.pointerEvents = 'none';
+                this.overlayContainerStopEvent_.className = 'ol-overlaycontainer-stopevent';
+                this.viewport_.appendChild(this.overlayContainerStopEvent_);
 
                 /**
                  * @private
@@ -334124,21 +333805,17 @@ const getRandomTableNumber = () => {
                  */
                 this.targetElement_ = null;
 
-                if (!WORKER_OFFSCREEN_CANVAS) {
-                    /**
-                     * @private
-                     * @type {ResizeObserver}
-                     */
-                    this.resizeObserver_ = new ResizeObserver(() => this.updateSize());
-                }
+                /**
+                 * @private
+                 * @type {ResizeObserver}
+                 */
+                this.resizeObserver_ = new ResizeObserver(() => this.updateSize());
 
                 /**
                  * @type {Collection<import("./control/Control.js").default>}
                  * @protected
                  */
-                this.controls =
-                    optionsInternal.controls ||
-                    (WORKER_OFFSCREEN_CANVAS ? new ol_Collection() : defaults_defaults());
+                this.controls = optionsInternal.controls || defaults_defaults();
 
                 /**
                  * @type {Collection<import("./interaction/Interaction.js").default>}
@@ -334146,11 +333823,9 @@ const getRandomTableNumber = () => {
                  */
                 this.interactions =
                     optionsInternal.interactions ||
-                    (WORKER_OFFSCREEN_CANVAS ?
-                        new ol_Collection() :
-                        interaction_defaults_defaults({
-                            onFocusOnly: true,
-                        }));
+                    interaction_defaults_defaults({
+                        onFocusOnly: true,
+                    });
 
                 /**
                  * @type {Collection<import("./Overlay.js").default>}
@@ -334363,7 +334038,7 @@ const getRandomTableNumber = () => {
                 this.controls.clear();
                 this.interactions.clear();
                 this.overlays_.clear();
-                this.resizeObserver_?.disconnect();
+                this.resizeObserver_.disconnect();
                 this.setTarget(null);
                 super.disposeInternal();
             }
@@ -334978,8 +334653,8 @@ const getRandomTableNumber = () => {
                     this.viewport_.remove();
                 }
 
-                if (this.targetElement_ && !isCanvas(this.targetElement_)) {
-                    this.resizeObserver_?.unobserve(this.targetElement_);
+                if (this.targetElement_) {
+                    this.resizeObserver_.unobserve(this.targetElement_);
                     const rootNode = this.targetElement_.getRootNode();
                     if (rootNode instanceof ShadowRoot) {
                         this.resizeObserver_.unobserve(rootNode.host);
@@ -335009,73 +334684,67 @@ const getRandomTableNumber = () => {
                         this.animationDelayKey_ = undefined;
                     }
                 } else {
-                    if (!isCanvas(targetElement)) {
-                        targetElement.appendChild(this.viewport_);
-                    }
+                    targetElement.appendChild(this.viewport_);
                     if (!this.renderer_) {
                         this.renderer_ = new Composite(this);
                     }
 
-                    if (!isCanvas(targetElement)) {
-                        this.mapBrowserEventHandler_ = new ol_MapBrowserEventHandler(
-                            this,
-                            this.moveTolerance_,
+                    this.mapBrowserEventHandler_ = new ol_MapBrowserEventHandler(
+                        this,
+                        this.moveTolerance_,
+                    );
+                    for (const key in ol_MapBrowserEventType) {
+                        this.mapBrowserEventHandler_.addEventListener(
+                            ol_MapBrowserEventType[key],
+                            this.handleMapBrowserEvent.bind(this),
                         );
-                        for (const key in ol_MapBrowserEventType) {
-                            this.mapBrowserEventHandler_.addEventListener(
-                                ol_MapBrowserEventType[key],
-                                this.handleMapBrowserEvent.bind(this),
-                            );
-                        }
-                        this.viewport_.addEventListener(
-                            events_EventType.CONTEXTMENU,
-                            this.boundHandleBrowserEvent_,
-                            false,
-                        );
-                        this.viewport_.addEventListener(
-                            events_EventType.WHEEL,
-                            this.boundHandleBrowserEvent_,
-                            PASSIVE_EVENT_LISTENERS ? {
-                                passive: false
-                            } : false,
-                        );
+                    }
+                    this.viewport_.addEventListener(
+                        events_EventType.CONTEXTMENU,
+                        this.boundHandleBrowserEvent_,
+                        false,
+                    );
+                    this.viewport_.addEventListener(
+                        events_EventType.WHEEL,
+                        this.boundHandleBrowserEvent_,
+                        PASSIVE_EVENT_LISTENERS ? {
+                            passive: false
+                        } : false,
+                    );
 
-                        let keyboardEventTarget;
-                        if (!this.keyboardEventTarget_) {
-                            // check if map target is in shadowDOM, if yes use host element as target
-                            const targetRoot = targetElement.getRootNode();
-                            const targetCandidate =
-                                targetRoot instanceof ShadowRoot ? targetRoot.host : targetElement;
-                            keyboardEventTarget = targetCandidate;
-                        } else {
-                            keyboardEventTarget = this.keyboardEventTarget_;
-                        }
-
-                        this.targetChangeHandlerKeys_ = [
-                            events_listen(
-                                keyboardEventTarget,
-                                events_EventType.KEYDOWN,
-                                this.handleBrowserEvent,
-                                this,
-                            ),
-                            events_listen(
-                                keyboardEventTarget,
-                                events_EventType.KEYPRESS,
-                                this.handleBrowserEvent,
-                                this,
-                            ),
-                        ];
-                        if (targetElement instanceof HTMLElement) {
-                            const rootNode = targetElement.getRootNode();
-                            if (rootNode instanceof ShadowRoot) {
-                                this.resizeObserver_.observe(rootNode.host);
-                            }
-                            this.resizeObserver_?.observe(targetElement);
-                        }
+                    let keyboardEventTarget;
+                    if (!this.keyboardEventTarget_) {
+                        // check if map target is in shadowDOM, if yes use host element as target
+                        const targetRoot = targetElement.getRootNode();
+                        const targetCandidate =
+                            targetRoot instanceof ShadowRoot ? targetRoot.host : targetElement;
+                        keyboardEventTarget = targetCandidate;
+                    } else {
+                        keyboardEventTarget = this.keyboardEventTarget_;
                     }
 
-                    this.updateSize();
+                    this.targetChangeHandlerKeys_ = [
+                        events_listen(
+                            keyboardEventTarget,
+                            events_EventType.KEYDOWN,
+                            this.handleBrowserEvent,
+                            this,
+                        ),
+                        events_listen(
+                            keyboardEventTarget,
+                            events_EventType.KEYPRESS,
+                            this.handleBrowserEvent,
+                            this,
+                        ),
+                    ];
+                    const rootNode = targetElement.getRootNode();
+                    if (rootNode instanceof ShadowRoot) {
+                        this.resizeObserver_.observe(rootNode.host);
+                    }
+                    this.resizeObserver_.observe(targetElement);
                 }
+
+                this.updateSize();
                 // updateSize calls setSize, so no need to call this.render
                 // ourselves here.
             }
@@ -335179,10 +334848,7 @@ const getRandomTableNumber = () => {
              * Redraws all text after new fonts have loaded
              */
             redrawText() {
-                if (!this.frameState_) {
-                    return;
-                }
-                const layerStates = this.frameState_.layerStatesArray;
+                const layerStates = this.getLayerGroup().getLayerStatesArray();
                 for (let i = 0, ii = layerStates.length; i < ii; ++i) {
                     const layer = layerStates[i].layer;
                     if (layer.hasRenderer()) {
@@ -335435,25 +335101,19 @@ const getRandomTableNumber = () => {
 
                 let size = undefined;
                 if (targetElement) {
-                    let width, height;
-                    if (isCanvas(targetElement)) {
-                        width = targetElement.width;
-                        height = targetElement.height;
-                    } else {
-                        const computedStyle = getComputedStyle(targetElement);
-                        width =
-                            targetElement.offsetWidth -
-                            parseFloat(computedStyle['borderLeftWidth']) -
-                            parseFloat(computedStyle['paddingLeft']) -
-                            parseFloat(computedStyle['paddingRight']) -
-                            parseFloat(computedStyle['borderRightWidth']);
-                        height =
-                            targetElement.offsetHeight -
-                            parseFloat(computedStyle['borderTopWidth']) -
-                            parseFloat(computedStyle['paddingTop']) -
-                            parseFloat(computedStyle['paddingBottom']) -
-                            parseFloat(computedStyle['borderBottomWidth']);
-                    }
+                    const computedStyle = getComputedStyle(targetElement);
+                    const width =
+                        targetElement.offsetWidth -
+                        parseFloat(computedStyle['borderLeftWidth']) -
+                        parseFloat(computedStyle['paddingLeft']) -
+                        parseFloat(computedStyle['paddingRight']) -
+                        parseFloat(computedStyle['borderRightWidth']);
+                    const height =
+                        targetElement.offsetHeight -
+                        parseFloat(computedStyle['borderTopWidth']) -
+                        parseFloat(computedStyle['paddingTop']) -
+                        parseFloat(computedStyle['paddingBottom']) -
+                        parseFloat(computedStyle['borderBottomWidth']);
                     if (!isNaN(width) && !isNaN(height)) {
                         size = [Math.max(0, width), Math.max(0, height)];
                         if (
@@ -336122,8 +335782,8 @@ const getRandomTableNumber = () => {
 
                 this.setVisible(true);
 
-                const x = `${pixel[0] + offset[0]}px`;
-                const y = `${pixel[1] + offset[1]}px`;
+                const x = Math.round(pixel[0] + offset[0]) + 'px';
+                const y = Math.round(pixel[1] + offset[1]) + 'px';
                 let posX = '0%';
                 let posY = '0%';
                 if (
@@ -336332,8 +335992,6 @@ const getRandomTableNumber = () => {
          * @module ol/tilecoord
          */
 
-
-
         /**
          * An array of three numbers representing the location of a tile in a tile
          * grid. The order is `z` (zoom level), `x` (column), and `y` (row).
@@ -336388,18 +336046,6 @@ const getRandomTableNumber = () => {
                 .split(',')
                 .map(Number);
             return getKeyZXY(z, x, y);
-        }
-
-        /**
-         * @param {import("./source/Tile.js").default} source The tile source.
-         * @param {string} sourceKey The source key.
-         * @param {number} z The tile z level.
-         * @param {number} x The tile x level.
-         * @param {number} y The tile y level.
-         * @return {string} The cache key.
-         */
-        function tilecoord_getCacheKey(source, sourceKey, z, x, y) {
-            return `${getUid(source)},${sourceKey},${getKeyZXY(z, x, y)}`;
         }
 
         /**
@@ -337559,7 +337205,6 @@ const getRandomTableNumber = () => {
 
 
 
-
         class ImageTile extends ol_Tile {
             /**
              * @param {import("./tilecoord.js").TileCoord} tileCoord Tile coordinate.
@@ -337590,17 +337235,11 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas}
+                 * @type {HTMLImageElement|HTMLCanvasElement}
                  */
-                this.image_;
-
-                if (WORKER_OFFSCREEN_CANVAS) {
-                    this.image_ = new OffscreenCanvas(1, 1);
-                } else {
-                    this.image_ = new Image();
-                    if (crossOrigin !== null) {
-                        this.image_.crossOrigin = crossOrigin;
-                    }
+                this.image_ = new Image();
+                if (crossOrigin !== null) {
+                    this.image_.crossOrigin = crossOrigin;
                 }
 
                 /**
@@ -337617,8 +337256,8 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * Get the HTML image element for this tile (may be a Canvas, OffscreenCanvas, Image, or Video).
-             * @return {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement|HTMLVideoElement} Image.
+             * Get the HTML image element for this tile (may be a Canvas, Image, or Video).
+             * @return {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement} Image.
              * @api
              */
             getImage() {
@@ -337627,21 +337266,13 @@ const getRandomTableNumber = () => {
 
             /**
              * Sets an HTML image element for this tile (may be a Canvas or preloaded Image).
-             * @param {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement} element Element.
+             * @param {HTMLCanvasElement|HTMLImageElement} element Element.
              */
             setImage(element) {
                 this.image_ = element;
                 this.state = TileState.LOADED;
                 this.unlistenImage_();
                 this.changed();
-            }
-
-            /**
-             * Get the cross origin of the ImageTile.
-             * @return {string} Cross origin.
-             */
-            getCrossOrigin() {
-                return this.crossOrigin_;
             }
 
             /**
@@ -337662,16 +337293,11 @@ const getRandomTableNumber = () => {
              * @private
              */
             handleImageLoad_() {
-                if (WORKER_OFFSCREEN_CANVAS) {
-                    // OffscreenCanvas does not have naturalWidth and naturalHeight
+                const image = /** @type {HTMLImageElement} */ (this.image_);
+                if (image.naturalWidth && image.naturalHeight) {
                     this.state = TileState.LOADED;
                 } else {
-                    const image = /** @type {HTMLImageElement} */ (this.image_);
-                    if (image.naturalWidth && image.naturalHeight) {
-                        this.state = TileState.LOADED;
-                    } else {
-                        this.state = TileState.EMPTY;
-                    }
+                    this.state = TileState.EMPTY;
                 }
                 this.unlistenImage_();
                 this.changed();
@@ -337758,7 +337384,7 @@ const getRandomTableNumber = () => {
 
         /**
          * Get a 1-pixel blank image.
-         * @return {HTMLCanvasElement|OffscreenCanvas} Blank image.
+         * @return {HTMLCanvasElement} Blank image.
          */
         function getBlankImage() {
             const ctx = dom_createCanvasContext2D(1, 1);
@@ -337782,7 +337408,7 @@ const getRandomTableNumber = () => {
         let brokenDiagonalRendering_;
 
         /**
-         * @type {Array<HTMLCanvasElement|OffscreenCanvas>}
+         * @type {Array<HTMLCanvasElement>}
          */
         const canvasPool = [];
 
@@ -337790,7 +337416,7 @@ const getRandomTableNumber = () => {
          * This draws a small triangle into a canvas by setting the triangle as the clip region
          * and then drawing a (too large) rectangle
          *
-         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} ctx The context in which to draw the triangle
+         * @param {CanvasRenderingContext2D} ctx The context in which to draw the triangle
          * @param {number} u1 The x-coordinate of the second point. The first point is 0,0.
          * @param {number} v1 The y-coordinate of the second point.
          * @param {number} u2 The x-coordinate of the third point.
@@ -337971,7 +337597,7 @@ const getRandomTableNumber = () => {
          * @param {boolean} [interpolate] Use linear interpolation when resampling.
          * @param {boolean} [drawSingle] Draw single source images directly without stitchContext.
          * @param {boolean} [clipExtent] Clip stitchContext to sourceExtent.
-         * @return {HTMLCanvasElement|OffscreenCanvas} Canvas with reprojected data.
+         * @return {HTMLCanvasElement} Canvas with reprojected data.
          */
         function render(
             width,
@@ -338852,7 +338478,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLCanvasElement|OffscreenCanvas}
+                 * @type {HTMLCanvasElement}
                  */
                 this.canvas_ = null;
 
@@ -339032,7 +338658,7 @@ const getRandomTableNumber = () => {
 
             /**
              * Get the HTML Canvas element for this tile.
-             * @return {HTMLCanvasElement|OffscreenCanvas} Canvas.
+             * @return {HTMLCanvasElement} Canvas.
              */
             getImage() {
                 return this.canvas_;
@@ -339166,12 +338792,7 @@ const getRandomTableNumber = () => {
              */
             release() {
                 if (this.canvas_) {
-                    releaseCanvas(
-                        /** @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} */
-                        (
-                            this.canvas_.getContext('2d')
-                        ),
-                    );
+                    releaseCanvas(this.canvas_.getContext('2d'));
                     canvasPool.push(this.canvas_);
                     this.canvas_ = null;
                 }
@@ -339790,10 +339411,9 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../proj/Projection.js").default} projection Projection.
-             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {TileType|null} Tile.
              */
-            getTile(z, x, y, pixelRatio, projection, tileCache) {
+            getTile(z, x, y, pixelRatio, projection) {
                 return util_abstract();
             }
 
@@ -339886,7 +339506,7 @@ const getRandomTableNumber = () => {
          * Events emitted by {@link module:ol/source/Tile~TileSource} instances are instances of this
          * type.
          */
-        class TileSourceEvent extends events_Event {
+        class TileSourceEvent extends Event {
             /**
              * @param {string} type Type.
              * @param {import("../Tile.js").default} tile The tile.
@@ -340181,8 +339801,6 @@ const getRandomTableNumber = () => {
 
 
 
-
-
         /**
          * @typedef {Object} Options
          * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
@@ -340385,11 +340003,10 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../proj/Projection.js").default} projection Projection.
-             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {!(ImageTile|ReprojTile)} Tile.
              * @override
              */
-            getTile(z, x, y, pixelRatio, projection, tileCache) {
+            getTile(z, x, y, pixelRatio, projection) {
                 const sourceProjection = this.getProjection();
                 if (
                     !sourceProjection ||
@@ -340422,7 +340039,7 @@ const getRandomTableNumber = () => {
                     this.getTilePixelRatio(pixelRatio),
                     this.getGutter(),
                     (z, x, y, pixelRatio) =>
-                    this.getTileInternal(z, x, y, pixelRatio, sourceProjection, tileCache),
+                    this.getTileInternal(z, x, y, pixelRatio, sourceProjection),
                     this.reprojectionErrorThreshold_,
                     this.renderReprojectionEdges_,
                     this.tileOptions,
@@ -340437,20 +340054,12 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {!import("../proj/Projection.js").default} projection Projection.
-             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {!ImageTile} Tile.
              * @protected
              */
-            getTileInternal(z, x, y, pixelRatio, projection, tileCache) {
+            getTileInternal(z, x, y, pixelRatio, projection) {
                 const key = this.getKey();
-                const cacheKey = tilecoord_getCacheKey(this, key, z, x, y);
-                if (tileCache && tileCache.containsKey(cacheKey)) {
-                    const tile = /** @type {!ImageTile} */ (tileCache.get(cacheKey));
-                    return tile;
-                }
-                const tile = this.createTile_(z, x, y, pixelRatio, projection, key);
-                tileCache?.set(cacheKey, tile);
-                return tile;
+                return this.createTile_(z, x, y, pixelRatio, projection, key);
             }
 
             /**
@@ -340494,52 +340103,6 @@ const getRandomTableNumber = () => {
          * @param {string} src Source.
          */
         function defaultTileLoadFunction(imageTile, src) {
-            if (WORKER_OFFSCREEN_CANVAS) {
-                // special treatment for offscreen canvas
-                const crossOrigin = imageTile.getCrossOrigin();
-
-                /** @type {RequestMode} */
-                let mode = 'same-origin';
-                /** @type {RequestCredentials} */
-                let credentials = 'same-origin';
-                if (crossOrigin === 'anonymous' || crossOrigin === '') {
-                    mode = 'cors';
-                    credentials = 'omit';
-                } else if (crossOrigin === 'use-credentials') {
-                    mode = 'cors';
-                    credentials = 'include';
-                }
-
-                fetch(src, {
-                        mode,
-                        credentials,
-                    })
-                    .then((response) => {
-                        if (!response.ok) {
-                            throw new Error(`HTTP ${response.status}`);
-                        }
-                        return response.blob();
-                    })
-                    .then((blob) => {
-                        return createImageBitmap(blob);
-                    })
-                    .then((imageBitmap) => {
-                        const canvas = imageTile.getImage();
-                        canvas.width = imageBitmap.width;
-                        canvas.height = imageBitmap.height;
-                        const ctx = /** @type {OffscreenCanvas} */ (canvas).getContext('2d');
-                        ctx.drawImage(imageBitmap, 0, 0);
-                        imageBitmap.close?.();
-                        // mock the image 'load' event
-                        canvas.dispatchEvent(new Event('load'));
-                    })
-                    .catch(() => {
-                        const canvas = imageTile.getImage();
-                        canvas.dispatchEvent(new Event('error'));
-                    });
-                return;
-            }
-
             /** @type {HTMLImageElement|HTMLVideoElement} */
             (imageTile.getImage()).src =
                 src;
@@ -341468,7 +341031,9 @@ const getRandomTableNumber = () => {
             updateFillStyle(state, createFill) {
                 const fillStyle = state.fillStyle;
                 if (typeof fillStyle !== 'string' || state.currentFillStyle != fillStyle) {
-                    this.instructions.push(createFill.call(this, state));
+                    if (fillStyle !== undefined) {
+                        this.instructions.push(createFill.call(this, state));
+                    }
                     state.currentFillStyle = fillStyle;
                 }
             }
@@ -341495,7 +341060,9 @@ const getRandomTableNumber = () => {
                     state.currentLineWidth != lineWidth ||
                     state.currentMiterLimit != miterLimit
                 ) {
-                    applyStroke.call(this, state);
+                    if (strokeStyle !== undefined) {
+                        applyStroke.call(this, state);
+                    }
                     state.currentStrokeStyle = strokeStyle;
                     state.currentLineCap = lineCap;
                     state.currentLineDash = lineDash;
@@ -342259,8 +341826,13 @@ const getRandomTableNumber = () => {
              */
             setFillStrokeStyles_() {
                 const state = this.state;
-                this.updateFillStyle(state, this.createFill);
-                this.updateStrokeStyle(state, this.applyStroke);
+                const fillStyle = state.fillStyle;
+                if (fillStyle !== undefined) {
+                    this.updateFillStyle(state, this.createFill);
+                }
+                if (state.strokeStyle !== undefined) {
+                    this.updateStrokeStyle(state, this.applyStroke);
+                }
             }
         }
 
@@ -343368,7 +342940,7 @@ const getRandomTableNumber = () => {
 
 
 
-        /** @typedef {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D & {globalAlpha: any}} ZIndexContextProxy */
+        /** @typedef {CanvasRenderingContext2D & {globalAlpha: any}} ZIndexContextProxy */
 
         /**
          * @extends {CanvasRenderingContext2D}
@@ -343458,7 +343030,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              */
             draw(context) {
                 this.instructions_.forEach((instructionsAtIndex) => {
@@ -343537,7 +343109,7 @@ const getRandomTableNumber = () => {
          */
 
         /**
-         * @typedef {{0: CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D, 1: import('../../size.js').Size, 2: import("../canvas.js").Label|HTMLImageElement|HTMLCanvasElement|HTMLVideoElement, 3: ImageOrLabelDimensions, 4: number, 5: Array<*>, 6: Array<*>}} ReplayImageOrLabelArgs
+         * @typedef {{0: CanvasRenderingContext2D, 1: import('../../size.js').Size, 2: import("../canvas.js").Label|HTMLImageElement|HTMLCanvasElement|HTMLVideoElement, 3: ImageOrLabelDimensions, 4: number, 5: Array<*>, 6: Array<*>}} ReplayImageOrLabelArgs
          */
 
         /**
@@ -344087,7 +343659,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              */
             fill_(context) {
                 const alignAndScale = this.alignAndScaleFill_;
@@ -344109,16 +343681,13 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {Array<*>} instruction Instruction.
              */
             setStrokeStyle_(context, instruction) {
                 context.strokeStyle =
                     /** @type {import("../../colorlike.js").ColorLike} */
                     (instruction[1]);
-                if (!instruction[1]) {
-                    return;
-                }
                 context.lineWidth = /** @type {number} */ (instruction[2]);
                 context.lineCap = /** @type {CanvasLineCap} */ (instruction[3]);
                 context.lineJoin = /** @type {CanvasLineJoin} */ (instruction[4]);
@@ -344166,7 +343735,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scaled canvas size
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {Array<*>} instructions Instructions array.
@@ -344772,7 +344341,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scaled canvas size.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
@@ -344801,7 +344370,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
              * @param {FeatureCallback<T>} [featureCallback] Feature callback.
@@ -344934,7 +344503,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.hitDetectionContext_ = null;
 
@@ -344946,7 +344515,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.renderedContext_ = null;
 
@@ -344960,7 +344529,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../transform.js").Transform} transform Transform.
              */
             clip(context, transform) {
@@ -345049,11 +344618,6 @@ const getRandomTableNumber = () => {
 
                 const newContext = !this.hitDetectionContext_;
                 if (newContext) {
-                    // Refrain from adding a 'willReadFrequently' hint in the options here.
-                    // While it will remove the "Canvas2D: Multiple readback operations using
-                    // getImageData are faster with the willReadFrequently attribute set
-                    // to true" warnings in the console, it makes hitDetection extremely
-                    // slow in Chrome when there are many features on the map
                     this.hitDetectionContext_ = dom_createCanvasContext2D(
                         contextSize,
                         contextSize,
@@ -345178,7 +344742,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} targetContext Context.
+             * @param {CanvasRenderingContext2D} targetContext Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scale of the context.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
@@ -345254,7 +344818,7 @@ const getRandomTableNumber = () => {
                             }
                             if (zIndexContext) {
                                 zIndexContext.offset();
-                                const index = zs[i] * maxBuilderTypes + ALL.indexOf(builderType);
+                                const index = zs[i] * maxBuilderTypes + j;
                                 if (!this.deferredZIndexContexts_[index]) {
                                     this.deferredZIndexContexts_[index] = [];
                                 }
@@ -345378,7 +344942,7 @@ const getRandomTableNumber = () => {
          */
         class CanvasImmediateRenderer extends render_VectorContext {
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../../extent.js").Extent} extent Extent.
              * @param {import("../../transform.js").Transform} transform Transform.
@@ -345399,7 +344963,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.context_ = context;
 
@@ -347395,14 +346959,13 @@ const getRandomTableNumber = () => {
 
 
 
-
         /**
-         * @type {Array<HTMLCanvasElement|OffscreenCanvas>}
+         * @type {Array<HTMLCanvasElement>}
          */
         const Layer_canvasPool = [];
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D}
          */
         let pixelContext = null;
 
@@ -347425,7 +346988,6 @@ const getRandomTableNumber = () => {
                 super(layer);
 
                 /**
-                 * HTMLElement container for the layer to be rendered in.
                  * @protected
                  * @type {HTMLElement}
                  */
@@ -347462,7 +347024,7 @@ const getRandomTableNumber = () => {
                 this.inversePixelTransform = create();
 
                 /**
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.context = null;
 
@@ -347473,7 +347035,6 @@ const getRandomTableNumber = () => {
                 this.deferredContext_ = null;
 
                 /**
-                 * true if the container has been reused from the previous renderer
                  * @type {boolean}
                  */
                 this.containerReused = false;
@@ -347528,7 +347089,6 @@ const getRandomTableNumber = () => {
              * @param {string} [backgroundColor] Background color.
              */
             useContainer(target, transform, backgroundColor) {
-                // renderer canvas to target canvas
                 const layerClassName = this.getLayer().getClassName();
                 let container, context;
                 if (
@@ -347543,7 +347103,7 @@ const getRandomTableNumber = () => {
                             )))
                 ) {
                     const canvas = target.firstElementChild;
-                    if (isCanvas(canvas)) {
+                    if (canvas instanceof HTMLCanvasElement) {
                         context = canvas.getContext('2d');
                     }
                 }
@@ -347561,16 +347121,14 @@ const getRandomTableNumber = () => {
                     this.container.style.backgroundColor = null;
                 }
                 if (!this.container) {
-                    container = WORKER_OFFSCREEN_CANVAS ?
-                        createMockDiv() :
-                        document.createElement('div');
+                    container = document.createElement('div');
                     container.className = layerClassName;
                     let style = container.style;
                     style.position = 'absolute';
                     style.width = '100%';
                     style.height = '100%';
                     context = dom_createCanvasContext2D();
-                    const canvas = /** @type {HTMLCanvasElement} */ (context.canvas);
+                    const canvas = context.canvas;
                     container.appendChild(canvas);
                     style = canvas.style;
                     style.position = 'absolute';
@@ -347589,7 +347147,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @param {import("../../extent.js").Extent} extent Clip extent.
              * @protected
@@ -347647,6 +347205,7 @@ const getRandomTableNumber = () => {
 
                 const canvasTransform = transform_toString(this.pixelTransform);
                 this.useContainer(target, canvasTransform, this.getBackground(frameState));
+
                 if (!this.containerReused) {
                     const canvas = this.context.canvas;
                     if (canvas.width != width || canvas.height != height) {
@@ -347655,21 +347214,15 @@ const getRandomTableNumber = () => {
                     } else {
                         this.context.clearRect(0, 0, width, height);
                     }
-                    if (
-                        canvasTransform !==
-                        /** @type {HTMLCanvasElement} */
-                        (canvas).style.transform
-                    ) {
-                        /** @type {HTMLCanvasElement} */
-                        (canvas).style.transform =
-                            canvasTransform;
+                    if (canvasTransform !== canvas.style.transform) {
+                        canvas.style.transform = canvasTransform;
                     }
                 }
             }
 
             /**
              * @param {import("../../render/EventType.js").default} type Event type.
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @private
              */
@@ -347687,7 +347240,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @protected
              */
@@ -347700,7 +347253,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @protected
              */
@@ -347943,7 +347496,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.targetContext_ = null;
 
@@ -348036,7 +347589,7 @@ const getRandomTableNumber = () => {
              * @private
              */
             resetDrawContext_() {
-                if (this.opacity_ !== 1 && this.targetContext_) {
+                if (this.opacity_ !== 1) {
                     const alpha = this.targetContext_.globalAlpha;
                     this.targetContext_.globalAlpha = this.opacity_;
                     this.targetContext_.drawImage(this.context.canvas, 0, 0);
@@ -348696,7 +348249,7 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @typedef {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|HTMLVideoElement|ImageBitmap} ImageLike
+         * @typedef {HTMLImageElement|HTMLCanvasElement|HTMLVideoElement|ImageBitmap} ImageLike
          */
 
         /**
@@ -348740,7 +348293,7 @@ const getRandomTableNumber = () => {
         const disposedError = new Error('disposed');
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|null}
+         * @type {CanvasRenderingContext2D|null}
          */
         let sharedContext = null;
 
@@ -349233,6 +348786,17 @@ const getRandomTableNumber = () => {
 
 
         /**
+         * @param {string} sourceKey The source key.
+         * @param {number} z The tile z level.
+         * @param {number} x The tile x level.
+         * @param {number} y The tile y level.
+         * @return {string} The cache key.
+         */
+        function TileLayer_getCacheKey(sourceKey, z, x, y) {
+            return `${sourceKey},${getKeyZXY(z, x, y)}`;
+        }
+
+        /**
          * @typedef {Object<number, Set<import("../../Tile.js").default>>} TileLookup
          */
 
@@ -349351,6 +348915,12 @@ const getRandomTableNumber = () => {
                 this.renderedProjection = null;
 
                 /**
+                 * @private
+                 * @type {number}
+                 */
+                this.renderedRevision_;
+
+                /**
                  * @protected
                  * @type {!Array<import("../../Tile.js").default>}
                  */
@@ -349394,12 +348964,6 @@ const getRandomTableNumber = () => {
                  */
                 this.tileCache_ = new structs_LRUCache(cacheSize);
 
-                /**
-                 * @type {import("../../structs/LRUCache.js").default<import("../../Tile.js").default|null>}
-                 * @private
-                 */
-                this.sourceTileCache_ = null;
-
                 this.maxStaleKeys = cacheSize * 0.5;
             }
 
@@ -349408,16 +348972,6 @@ const getRandomTableNumber = () => {
              */
             getTileCache() {
                 return this.tileCache_;
-            }
-
-            /**
-             * @return {LRUCache} Tile cache.
-             */
-            getSourceTileCache() {
-                if (!this.sourceTileCache_) {
-                    this.sourceTileCache_ = new structs_LRUCache(512);
-                }
-                return this.sourceTileCache_;
             }
 
             /**
@@ -349434,7 +348988,7 @@ const getRandomTableNumber = () => {
                 const tileCache = this.tileCache_;
                 const tileLayer = this.getLayer();
                 const tileSource = tileLayer.getSource();
-                const cacheKey = tilecoord_getCacheKey(tileSource, tileSource.getKey(), z, x, y);
+                const cacheKey = TileLayer_getCacheKey(tileSource.getKey(), z, x, y);
 
                 /** @type {import("../../Tile.js").default} */
                 let tile;
@@ -349442,17 +348996,12 @@ const getRandomTableNumber = () => {
                 if (tileCache.containsKey(cacheKey)) {
                     tile = tileCache.get(cacheKey);
                 } else {
-                    const projection = frameState.viewState.projection;
-                    const sourceProjection = tileSource.getProjection();
                     tile = tileSource.getTile(
                         z,
                         x,
                         y,
                         frameState.pixelRatio,
-                        projection,
-                        !sourceProjection || equivalent(sourceProjection, projection) ?
-                        undefined :
-                        this.getSourceTileCache(),
+                        frameState.viewState.projection,
                     );
                     if (!tile) {
                         return null;
@@ -349577,24 +349126,14 @@ const getRandomTableNumber = () => {
                     return false;
                 }
                 const sourceRevision = source.getRevision();
-                if (!this.renderedSourceRevision_) {
-                    this.renderedSourceRevision_ = sourceRevision;
-                } else if (this.renderedSourceRevision_ !== sourceRevision) {
-                    this.renderedSourceRevision_ = sourceRevision;
+                if (!this.renderedRevision_) {
+                    this.renderedRevision_ = sourceRevision;
+                } else if (this.renderedRevision_ !== sourceRevision) {
+                    this.renderedRevision_ = sourceRevision;
                     if (this.renderedSourceKey_ === source.getKey()) {
                         this.tileCache_.clear();
-                        this.sourceTileCache_?.clear();
                     }
                 }
-                return true;
-            }
-
-            /**
-             * Determine whether tiles for next extent should be enqueued for rendering.
-             * @return {boolean} Rendering tiles for next extent is supported.
-             * @protected
-             */
-            enqueueTilesForNextExtent() {
                 return true;
             }
 
@@ -349703,13 +349242,7 @@ const getRandomTableNumber = () => {
                 const y = tileCoord[2];
                 const staleKeys = this.getStaleKeys();
                 for (let i = 0; i < staleKeys.length; ++i) {
-                    const cacheKey = tilecoord_getCacheKey(
-                        this.getLayer().getSource(),
-                        staleKeys[i],
-                        z,
-                        x,
-                        y,
-                    );
+                    const cacheKey = TileLayer_getCacheKey(staleKeys[i], z, x, y);
                     if (tileCache.containsKey(cacheKey)) {
                         const tile = tileCache.peek(cacheKey);
                         if (tile.getState() === TileState.LOADED) {
@@ -349749,7 +349282,7 @@ const getRandomTableNumber = () => {
                 const sourceKey = source.getKey();
                 for (let x = tileRange.minX; x <= tileRange.maxX; ++x) {
                     for (let y = tileRange.minY; y <= tileRange.maxY; ++y) {
-                        const cacheKey = tilecoord_getCacheKey(source, sourceKey, altZ, x, y);
+                        const cacheKey = TileLayer_getCacheKey(sourceKey, altZ, x, y);
                         let loaded = false;
                         if (tileCache.containsKey(cacheKey)) {
                             const tile = tileCache.peek(cacheKey);
@@ -349782,6 +349315,7 @@ const getRandomTableNumber = () => {
              */
             renderFrame(frameState, target) {
                 this.renderComplete = true;
+
                 /**
                  * TODO:
                  *  maybe skip transition when not fully opaque
@@ -349848,7 +349382,7 @@ const getRandomTableNumber = () => {
                  */
 
                 const preload = tileLayer.getPreload();
-                if (frameState.nextExtent && this.enqueueTilesForNextExtent()) {
+                if (frameState.nextExtent) {
                     const targetZ = tileGrid.getZForResolution(
                         viewState.nextResolution,
                         tileSource.zDirection,
@@ -350086,13 +349620,11 @@ const getRandomTableNumber = () => {
                         const tilesCount = wantedTiles ? Object.keys(wantedTiles).length : 0;
                         this.updateCacheSize(tilesCount);
                         this.tileCache_.expireCache();
-                        this.sourceTileCache_?.expireCache();
                     };
 
                     frameState.postRenderFunctions.push(postRenderFunction);
                 }
 
-                // this normally is `div.ol-layer` and is a mocked div in worker
                 return this.container;
             }
 
@@ -350131,7 +349663,6 @@ const getRandomTableNumber = () => {
                         (tile),
                     );
                 }
-
                 if (!image) {
                     return;
                 }
@@ -350169,7 +349700,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLCanvasElement|OffscreenCanvas} Image
+             * @return {HTMLCanvasElement} Image
              */
             getImage() {
                 const context = this.context;
@@ -350179,7 +349710,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image from a tile.
              * @param {import("../../ImageTile.js").default} tile Tile.
-             * @return {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement|HTMLVideoElement} Image.
+             * @return {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement} Image.
              * @protected
              */
             getTileImage(tile) {
@@ -351786,7 +351317,7 @@ const getRandomTableNumber = () => {
          * type.
          * @template {import("../Feature.js").FeatureLike} [FeatureType=import("../Feature.js").default]
          */
-        class VectorSourceEvent extends events_Event {
+        class VectorSourceEvent extends Event {
             /**
              * @param {string} type Type.
              * @param {FeatureType} [feature] Feature.
@@ -352539,7 +352070,7 @@ const getRandomTableNumber = () => {
              * @param {function(FeatureType):boolean} [filter] Feature filter function.
              *     The filter function will receive one argument, the {@link module:ol/Feature~Feature feature}
              *     and it should return a boolean value. By default, no filtering is made.
-             * @return {FeatureType|null} Closest feature (or `null` if none found).
+             * @return {FeatureType} Closest feature.
              * @api
              */
             getClosestFeatureToCoordinate(coordinate, filter) {
@@ -362116,9 +361647,7 @@ const getRandomTableNumber = () => {
         const video_gold_namespaceObject = __webpack_require__.p + "assets/81c88c729f80fb56685d.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/pirate.webm
         const pirate_namespaceObject = __webpack_require__.p + "assets/ff86ec413ea2765fd8c6.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/dead_day.webm
         const dead_day_namespaceObject = __webpack_require__.p + "assets/04824454039c6dd9d997.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/fear_flame.webm
-        const fear_flame_namespaceObject = __webpack_require__.p + "assets/91be39f0371a0138ee59.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/glen_case.webm
-        const glen_case_namespaceObject = __webpack_require__.p + "assets/5c5d12c18732e7078d43.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
-
+        const fear_flame_namespaceObject = __webpack_require__.p + "assets/91be39f0371a0138ee59.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
 
 
 
@@ -362138,8 +361667,7 @@ const getRandomTableNumber = () => {
             gold: video_gold_namespaceObject,
             pirate: pirate_namespaceObject,
             dead_day: dead_day_namespaceObject,
-            fear_flame: fear_flame_namespaceObject,
-            glen: glen_case_namespaceObject
+            fear_flame: fear_flame_namespaceObject
         };
         var RarityWeight = {
             common: 0,
@@ -378898,7 +378426,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "7278482c");
+                    console.log(`[debug] app init`, "1021", "78fa8321");
                 }
             });
 
@@ -378965,7 +378493,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "7278482c");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "78fa8321");
     })();
 
     /******/
