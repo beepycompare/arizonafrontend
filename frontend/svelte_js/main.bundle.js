@@ -153846,7 +153846,7 @@
             return child_ctx;
         }
 
-        // (325:4) {:else}
+        // (327:4) {:else}
         function index_svelte_create_else_block_2(ctx) {
             let div;
             let loader;
@@ -153888,7 +153888,7 @@
             };
         }
 
-        // (318:29) 
+        // (320:29) 
         function index_svelte_create_if_block_6(ctx) {
             let div2;
             let div0;
@@ -153944,7 +153944,7 @@
             };
         }
 
-        // (162:4) {#if initializeComplete}
+        // (164:4) {#if initializeComplete}
         function quests_index_svelte_create_if_block(ctx) {
             let div10;
             let div2;
@@ -154476,7 +154476,7 @@
             };
         }
 
-        // (188:24) {#each Object.values(CATEGORIES) as cat}
+        // (190:24) {#each Object.values(CATEGORIES) as cat}
         function index_svelte_create_each_block_2(ctx) {
             let div;
             let html_tag;
@@ -154531,7 +154531,7 @@
             };
         }
 
-        // (203:28) {#if !isEmpty($battlePassData)}
+        // (205:28) {#if !isEmpty($battlePassData)}
         function index_svelte_create_if_block_5(ctx) {
             let div;
             let t_value = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[6].timestampMissionTime) + "";
@@ -154558,7 +154558,7 @@
             };
         }
 
-        // (213:28) {#if quest.visible}
+        // (215:28) {#if quest.visible}
         function quests_index_svelte_create_if_block_3(ctx) {
             let div14;
             let div10;
@@ -154754,7 +154754,7 @@
             };
         }
 
-        // (236:52) {:else}
+        // (238:52) {:else}
         function quests_index_svelte_create_else_block_1(ctx) {
             let i;
             let div;
@@ -154781,7 +154781,7 @@
             };
         }
 
-        // (234:52) {#if quest.currentProgress < quest.totalProgress}
+        // (236:52) {#if quest.currentProgress < quest.totalProgress}
         function quests_index_svelte_create_if_block_4(ctx) {
             let t_value = `${Math.floor(countPercents(/*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress))}%` + "";
             let t;
@@ -154804,7 +154804,7 @@
             };
         }
 
-        // (212:24) {#each $quests[selectedCategory] as quest}
+        // (214:24) {#each $quests[selectedCategory] as quest}
         function quests_index_svelte_create_each_block_1(ctx) {
             let if_block_anchor;
             let if_block = /*quest*/ ctx[29].visible && quests_index_svelte_create_if_block_3(ctx);
@@ -154842,7 +154842,7 @@
             };
         }
 
-        // (276:36) {:else}
+        // (278:36) {:else}
         function quests_index_svelte_create_else_block(ctx) {
             let i;
             let div;
@@ -154869,7 +154869,7 @@
             };
         }
 
-        // (274:36) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
+        // (276:36) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
         function quests_index_svelte_create_if_block_2(ctx) {
             let t_value = `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%` + "";
             let t;
@@ -154892,7 +154892,7 @@
             };
         }
 
-        // (287:32) {#each selectedQuest.rewards as reward}
+        // (289:32) {#each selectedQuest.rewards as reward}
         function quests_index_svelte_create_each_block(ctx) {
             let div2;
             let div0;
@@ -154944,7 +154944,7 @@
             };
         }
 
-        // (304:20) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
+        // (306:20) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
         function quests_index_svelte_create_if_block_1(ctx) {
             let div0;
             let t0;
@@ -155250,10 +155250,13 @@
                         if (!(0, lodash.isNil)($quests[CATEGORIES.Daily]) && !(0, lodash.isNil)($quests[CATEGORIES.Premium]) && !(0, lodash.isEmpty)($questsProgress)) {
                             $questsProgress.forEach(item => {
                                 const findedIndex = $quests[item.categoryId].findIndex(questItem => questItem.id === item.id);
-                                utils_set_store_value(quests, $quests[item.categoryId][findedIndex].currentProgress = item.progress, $quests);
-                                utils_set_store_value(quests, $quests[item.categoryId][findedIndex].visible = item.visible, $quests);
-                                utils_set_store_value(quests, $quests[item.categoryId][findedIndex].order = Number($quests[item.categoryId][findedIndex].currentProgress.totalProgress === item.progress), $quests);
-                                $quests[item.categoryId].sort((a, b) => getSortWeight(a) - getSortWeight(b));
+
+                                if (!(0, lodash.isNil)($quests[item.categoryId][findedIndex])) {
+                                    utils_set_store_value(quests, $quests[item.categoryId][findedIndex].currentProgress = item.progress, $quests);
+                                    utils_set_store_value(quests, $quests[item.categoryId][findedIndex].visible = item.visible, $quests);
+                                    utils_set_store_value(quests, $quests[item.categoryId][findedIndex].order = Number($quests[item.categoryId][findedIndex].currentProgress.totalProgress === item.progress), $quests);
+                                    $quests[item.categoryId].sort((a, b) => getSortWeight(a) - getSortWeight(b));
+                                }
                             });
 
                             selectCategory(CATEGORIES.Daily);
@@ -156538,27 +156541,27 @@
 
         function main_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[31] = list[i];
-            child_ctx[33] = i;
+            child_ctx[32] = list[i];
+            child_ctx[34] = i;
             return child_ctx;
         }
 
         function main_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[34] = list[i];
-            child_ctx[33] = i;
+            child_ctx[35] = list[i];
+            child_ctx[34] = i;
             return child_ctx;
         }
 
         function main_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[31] = list[i];
-            child_ctx[33] = i;
+            child_ctx[32] = list[i];
+            child_ctx[34] = i;
             return child_ctx;
         }
 
-        // (388:4) {:else}
-        function create_else_block_4(ctx) {
+        // (399:4) {:else}
+        function create_else_block_5(ctx) {
             let div;
             let loader;
             let current;
@@ -156599,7 +156602,7 @@
             };
         }
 
-        // (381:29) 
+        // (392:29) 
         function create_if_block_16(ctx) {
             let div2;
             let div0;
@@ -156655,7 +156658,7 @@
             };
         }
 
-        // (160:4) {#if !isEmpty($battlePassData) && !isEmpty(commonRewards) && !isEmpty(premiumRewards)}
+        // (163:4) {#if !isEmpty($battlePassData) && !isEmpty(commonRewards) && !isEmpty(premiumRewards)}
         function main_index_svelte_create_if_block(ctx) {
             let div0;
             let show_if_2;
@@ -156720,7 +156723,7 @@
                 if (dirty[0] & /*$battlePassData*/ 64) show_if_2 = null;
                 if (show_if_2 == null) show_if_2 = !!( /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) <= 0);
                 if (show_if_2) return create_if_block_15;
-                return create_else_block_3;
+                return create_else_block_4;
             }
 
             let current_block_type = select_block_type_1(ctx, [-1, -1]);
@@ -156752,14 +156755,14 @@
 
             let if_block1 = show_if_1 && main_index_svelte_create_if_block_2(ctx);
 
-            function select_block_type_4(ctx, dirty) {
+            function select_block_type_5(ctx, dirty) {
                 if (dirty[0] & /*$battlePassData*/ 64) show_if = null;
                 if (show_if == null) show_if = !!( /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) <= 0);
                 if (show_if) return main_index_svelte_create_if_block_1;
                 return main_index_svelte_create_else_block;
             }
 
-            let current_block_type_1 = select_block_type_4(ctx, [-1, -1]);
+            let current_block_type_1 = select_block_type_5(ctx, [-1, -1]);
             let if_block2 = current_block_type_1(ctx);
 
             return {
@@ -156947,9 +156950,9 @@
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div10, "click", /*click_handler_3*/ ctx[21]),
-                            dom_listen(div12, "click", /*click_handler_4*/ ctx[22]),
-                            dom_listen(div26, "click", /*click_handler_5*/ ctx[24])
+                            dom_listen(div10, "click", /*click_handler_3*/ ctx[22]),
+                            dom_listen(div12, "click", /*click_handler_4*/ ctx[23]),
+                            dom_listen(div26, "click", /*click_handler_5*/ ctx[25])
                         ];
 
                         mounted = true;
@@ -157067,7 +157070,7 @@
                         transitions_check_outros();
                     }
 
-                    if (current_block_type_1 === (current_block_type_1 = select_block_type_4(ctx, dirty)) && if_block2) {
+                    if (current_block_type_1 === (current_block_type_1 = select_block_type_5(ctx, dirty)) && if_block2) {
                         if_block2.p(ctx, dirty);
                     } else {
                         if_block2.d(1);
@@ -157134,8 +157137,8 @@
             };
         }
 
-        // (164:12) {:else}
-        function create_else_block_3(ctx) {
+        // (167:12) {:else}
+        function create_else_block_4(ctx) {
             let img;
             let img_src_value;
 
@@ -157162,7 +157165,7 @@
             };
         }
 
-        // (162:12) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
+        // (165:12) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
         function create_if_block_15(ctx) {
             let img;
             let img_src_value;
@@ -157186,10 +157189,10 @@
             };
         }
 
-        // (184:32) {#if reward.sysName && reward.sysName !== ''}
+        // (187:32) {#if reward.sysName && reward.sysName !== ''}
         function create_if_block_11(ctx) {
             let div;
-            let t0_value = /*reward*/ ctx[31].title + "";
+            let t0_value = /*reward*/ ctx[32].title + "";
             let t0;
             let t1;
             let img;
@@ -157197,12 +157200,12 @@
             let t2;
             let t3;
             let if_block1_anchor;
-            let if_block0 = /*reward*/ ctx[31].count > 0 && create_if_block_14(ctx);
+            let if_block0 = /*reward*/ ctx[32].count > 0 && create_if_block_14(ctx);
 
             function select_block_type_2(ctx, dirty) {
-                if (! /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][0] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level) return create_if_block_12;
-                if ( /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][0] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level) return create_if_block_13;
-                return main_index_svelte_create_else_block_2;
+                if (! /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[32].level - 1][0] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[32].level) return create_if_block_12;
+                if ( /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[32].level - 1][0] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[32].level) return create_if_block_13;
+                return create_else_block_3;
             }
 
             let current_block_type = select_block_type_2(ctx, [-1, -1]);
@@ -157220,7 +157223,7 @@
                     if_block1.c();
                     if_block1_anchor = empty();
                     dom_attr(div, "class", "battle-pass-main__reward-title");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward-icon");
                     dom_attr(img, "class", "battle-pass-main__reward-image");
                 },
@@ -157236,13 +157239,13 @@
                     dom_insert(target, if_block1_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*commonRewards*/ 16 && t0_value !== (t0_value = /*reward*/ ctx[31].title + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*commonRewards*/ 16 && t0_value !== (t0_value = /*reward*/ ctx[32].title + "")) dom_set_data(t0, t0_value);
 
-                    if (dirty[0] & /*commonRewards*/ 16 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) {
+                    if (dirty[0] & /*commonRewards*/ 16 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if ( /*reward*/ ctx[31].count > 0) {
+                    if ( /*reward*/ ctx[32].count > 0) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -157283,10 +157286,10 @@
             };
         }
 
-        // (187:36) {#if reward.count > 0}
+        // (190:36) {#if reward.count > 0}
         function create_if_block_14(ctx) {
             let div;
-            let t_value = `${/*reward*/ ctx[31].count} шт.` + "";
+            let t_value = `${/*reward*/ ctx[32].count} шт.` + "";
             let t;
 
             return {
@@ -157300,7 +157303,7 @@
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*commonRewards*/ 16 && t_value !== (t_value = `${/*reward*/ ctx[31].count} шт.` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*commonRewards*/ 16 && t_value !== (t_value = `${/*reward*/ ctx[32].count} шт.` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -157310,8 +157313,8 @@
             };
         }
 
-        // (203:36) {:else}
-        function main_index_svelte_create_else_block_2(ctx) {
+        // (206:36) {:else}
+        function create_else_block_3(ctx) {
             let i;
 
             return {
@@ -157331,7 +157334,7 @@
             };
         }
 
-        // (197:143) 
+        // (200:143) 
         function create_if_block_13(ctx) {
             let div2;
 
@@ -157353,14 +157356,14 @@
             };
         }
 
-        // (190:36) {#if !$battlePassData.availableToReceive[reward.level - 1][0] && $battlePassData.level >= reward.level}
+        // (193:36) {#if !$battlePassData.availableToReceive[reward.level - 1][0] && $battlePassData.level >= reward.level}
         function create_if_block_12(ctx) {
             let div;
             let mounted;
             let dispose;
 
             function click_handler() {
-                return /*click_handler*/ ctx[17]( /*reward*/ ctx[31]);
+                return /*click_handler*/ ctx[17]( /*reward*/ ctx[32]);
             }
 
             return {
@@ -157391,11 +157394,11 @@
             };
         }
 
-        // (179:24) {#each commonRewards as reward, index}
+        // (182:24) {#each commonRewards as reward, index}
         function main_index_svelte_create_each_block_2(ctx) {
             let div;
             let t;
-            let if_block = /*reward*/ ctx[31].sysName && /*reward*/ ctx[31].sysName !== '' && create_if_block_11(ctx);
+            let if_block = /*reward*/ ctx[32].sysName && /*reward*/ ctx[32].sysName !== '' && create_if_block_11(ctx);
 
             return {
                 c() {
@@ -157403,7 +157406,7 @@
                     if (if_block) if_block.c();
                     t = dom_space();
                     dom_attr(div, "class", "battle-pass-main__reward");
-                    dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
+                    dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[32].level);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -157411,7 +157414,7 @@
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if ( /*reward*/ ctx[31].sysName && /*reward*/ ctx[31].sysName !== '') {
+                    if ( /*reward*/ ctx[32].sysName && /*reward*/ ctx[32].sysName !== '') {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -157425,7 +157428,7 @@
                     }
 
                     if (dirty[0] & /*$battlePassData, commonRewards*/ 80) {
-                        dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
+                        dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[32].level);
                     }
                 },
                 d(detaching) {
@@ -157438,7 +157441,7 @@
             };
         }
 
-        // (220:36) {#if (index + 1 + (currentLevelPage - 1) * PAGE_SIZE === $battlePassData.level || $battlePassData.level === 0 && index === 0 && currentLevelPage === 1) && $battlePassData.level != ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
+        // (223:36) {#if (index + 1 + (currentLevelPage - 1) * PAGE_SIZE === $battlePassData.level || $battlePassData.level === 0 && index === 0 && currentLevelPage === 1) && $battlePassData.level != ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
         function create_if_block_10(ctx) {
             let div;
             let img;
@@ -157487,7 +157490,7 @@
             };
         }
 
-        // (234:36) {#if index + 1 + (currentLevelPage - 1) * PAGE_SIZE === ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
+        // (237:36) {#if index + 1 + (currentLevelPage - 1) * PAGE_SIZE === ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
         function create_if_block_9(ctx) {
             let div1;
             let mounted;
@@ -157525,12 +157528,12 @@
             };
         }
 
-        // (255:36) {#if item.sysName && item.sysName !== ''}
+        // (258:36) {#if item.sysName && item.sysName !== ''}
         function create_if_block_8(ctx) {
             let div2;
             let div1;
             let div0;
-            let t_value = /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "";
+            let t_value = /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "";
             let t;
 
             return {
@@ -157541,7 +157544,7 @@
                     t = dom_text(t_value);
                     dom_attr(div0, "class", "battle-pass-main__experience-line-level-value");
                     dom_attr(div1, "class", "battle-pass-main__experience-line-level");
-                    dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[6].level);
+                    dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[6].level);
                     dom_attr(div2, "class", "battle-pass-main__experience-line-level-value-wrapper");
                 },
                 m(target, anchor) {
@@ -157551,10 +157554,10 @@
                     dom_append(div0, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*currentLevelPage*/ 4 && t_value !== (t_value = /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*currentLevelPage*/ 4 && t_value !== (t_value = /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE + "")) dom_set_data(t, t_value);
 
                     if (dirty[0] & /*currentLevelPage, $battlePassData*/ 68) {
-                        dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[6].level);
+                        dom_toggle_class(div1, "battle-pass-main__experience-line-level--red", /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE <= /*$battlePassData*/ ctx[6].level);
                     }
                 },
                 d(detaching) {
@@ -157565,15 +157568,15 @@
             };
         }
 
-        // (212:28) {#each premiumRewards as item, index}
+        // (215:28) {#each premiumRewards as item, index}
         function main_index_svelte_create_each_block_1(ctx) {
             let div;
             let t0;
             let t1;
             let t2;
-            let if_block0 = ( /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[6].level || /*$battlePassData*/ ctx[6].level === 0 && /*index*/ ctx[33] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[6].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_10(ctx);
-            let if_block1 = /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_9(ctx);
-            let if_block2 = /*item*/ ctx[34].sysName && /*item*/ ctx[34].sysName !== '' && create_if_block_8(ctx);
+            let if_block0 = ( /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[6].level || /*$battlePassData*/ ctx[6].level === 0 && /*index*/ ctx[34] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[6].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_10(ctx);
+            let if_block1 = /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length) && create_if_block_9(ctx);
+            let if_block2 = /*item*/ ctx[35].sysName && /*item*/ ctx[35].sysName !== '' && create_if_block_8(ctx);
 
             return {
                 c() {
@@ -157585,10 +157588,10 @@
                     if (if_block2) if_block2.c();
                     t2 = dom_space();
                     dom_attr(div, "class", "battle-pass-main__experience-line-level-wrapper");
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[6].level > /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[6].level === /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
-                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[6].level > /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[6].level === /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
+                    dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -157600,7 +157603,7 @@
                     dom_append(div, t2);
                 },
                 p(ctx, dirty) {
-                    if (( /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[6].level || /*$battlePassData*/ ctx[6].level === 0 && /*index*/ ctx[33] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[6].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
+                    if (( /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === /*$battlePassData*/ ctx[6].level || /*$battlePassData*/ ctx[6].level === 0 && /*index*/ ctx[34] === 0 && /*currentLevelPage*/ ctx[2] === 1) && /*$battlePassData*/ ctx[6].level != ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -157613,7 +157616,7 @@
                         if_block0 = null;
                     }
 
-                    if ( /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
+                    if ( /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length)) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
@@ -157626,7 +157629,7 @@
                         if_block1 = null;
                     }
 
-                    if ( /*item*/ ctx[34].sysName && /*item*/ ctx[34].sysName !== '') {
+                    if ( /*item*/ ctx[35].sysName && /*item*/ ctx[35].sysName !== '') {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
@@ -157640,19 +157643,19 @@
                     }
 
                     if (dirty[0] & /*$battlePassData, currentLevelPage*/ 68) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[6].level > /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--filled", /*$battlePassData*/ ctx[6].level > /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
                     }
 
                     if (dirty[0] & /*$battlePassData, currentLevelPage*/ 68) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[6].level === /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--current", /*$battlePassData*/ ctx[6].level === /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE);
                     }
 
                     if (dirty[0] & /*currentLevelPage*/ 4) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--first", /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === 1);
                     }
 
                     if (dirty[0] & /*currentLevelPage, $allPremiumRewards*/ 5) {
-                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[33] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
+                        dom_toggle_class(div, "battle-pass-main__experience-line-level-wrapper--last", /*index*/ ctx[34] + 1 + ( /*currentLevelPage*/ ctx[2] - 1) * PAGE_SIZE === ( /*$allPremiumRewards*/ ctx[0].length || PREMIUM_REWARDS.length));
                     }
                 },
                 d(detaching) {
@@ -157667,10 +157670,10 @@
             };
         }
 
-        // (284:32) {#if reward.count > 0}
+        // (287:32) {#if reward.count > 0}
         function create_if_block_7(ctx) {
             let div;
-            let t_value = `${/*reward*/ ctx[31].count} шт.` + "";
+            let t_value = `${/*reward*/ ctx[32].count} шт.` + "";
             let t;
 
             return {
@@ -157684,7 +157687,7 @@
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*premiumRewards*/ 8 && t_value !== (t_value = `${/*reward*/ ctx[31].count} шт.` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*premiumRewards*/ 8 && t_value !== (t_value = `${/*reward*/ ctx[32].count} шт.` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -157694,8 +157697,8 @@
             };
         }
 
-        // (302:32) {:else}
-        function main_index_svelte_create_else_block_1(ctx) {
+        // (313:32) {:else}
+        function main_index_svelte_create_else_block_2(ctx) {
             let i;
 
             return {
@@ -157717,7 +157720,7 @@
             };
         }
 
-        // (297:170) 
+        // (308:170) 
         function main_index_svelte_create_if_block_6(ctx) {
             let div2;
 
@@ -157741,47 +157744,61 @@
             };
         }
 
-        // (287:32) {#if !$battlePassData.availableToReceive[reward.level - 1][1] && $battlePassData.level >= reward.level}
+        // (290:32) {#if !$battlePassData.availableToReceive[reward.level - 1][1] && $battlePassData.level >= reward.level}
         function main_index_svelte_create_if_block_4(ctx) {
-            let show_if = /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) > 0;
+            let show_if;
+            let current_block_type_index;
+            let if_block;
             let if_block_anchor;
             let current;
-            let if_block = show_if && main_index_svelte_create_if_block_5(ctx);
+            const if_block_creators = [main_index_svelte_create_if_block_5, main_index_svelte_create_else_block_1];
+            const if_blocks = [];
+
+            function select_block_type_4(ctx, dirty) {
+                if (dirty[0] & /*$battlePassData*/ 64) show_if = null;
+                if (show_if == null) show_if = !!( /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) > 0);
+                if (show_if) return 0;
+                return 1;
+            }
+
+            current_block_type_index = select_block_type_4(ctx, [-1, -1]);
+            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
 
             return {
                 c() {
-                    if (if_block) if_block.c();
+                    if_block.c();
                     if_block_anchor = empty();
                 },
                 m(target, anchor) {
-                    if (if_block) if_block.m(target, anchor);
+                    if_blocks[current_block_type_index].m(target, anchor);
                     dom_insert(target, if_block_anchor, anchor);
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$battlePassData*/ 64) show_if = /*calculateDaysLeft*/ ctx[8]( /*$battlePassData*/ ctx[6].timestampTaskTime) > 0;
+                    let previous_block_index = current_block_type_index;
+                    current_block_type_index = select_block_type_4(ctx, dirty);
 
-                    if (show_if) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
-
-                            if (dirty[0] & /*$battlePassData*/ 64) {
-                                transitions_transition_in(if_block, 1);
-                            }
-                        } else {
-                            if_block = main_index_svelte_create_if_block_5(ctx);
-                            if_block.c();
-                            transitions_transition_in(if_block, 1);
-                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
-                        }
-                    } else if (if_block) {
+                    if (current_block_type_index === previous_block_index) {
+                        if_blocks[current_block_type_index].p(ctx, dirty);
+                    } else {
                         transitions_group_outros();
 
-                        transitions_transition_out(if_block, 1, 1, () => {
-                            if_block = null;
+                        transitions_transition_out(if_blocks[previous_block_index], 1, 1, () => {
+                            if_blocks[previous_block_index] = null;
                         });
 
                         transitions_check_outros();
+                        if_block = if_blocks[current_block_type_index];
+
+                        if (!if_block) {
+                            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+                            if_block.c();
+                        } else {
+                            if_block.p(ctx, dirty);
+                        }
+
+                        transitions_transition_in(if_block, 1);
+                        if_block.m(if_block_anchor.parentNode, if_block_anchor);
                     }
                 },
                 i(local) {
@@ -157798,19 +157815,81 @@
                         dom_detach(if_block_anchor);
                     }
 
-                    if (if_block) if_block.d(detaching);
+                    if_blocks[current_block_type_index].d(detaching);
                 }
             };
         }
 
-        // (288:36) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
+        // (299:36) {:else}
+        function main_index_svelte_create_else_block_1(ctx) {
+            let div;
+            let premiumbutton;
+            let current;
+
+            function func_1() {
+                return /*func_1*/ ctx[21]( /*reward*/ ctx[32]);
+            }
+
+            premiumbutton = new premium_button_index_svelte({
+                props: {
+                    icon: /*$battlePassData*/ ctx[6].premium ? '' : 'lock-wide',
+                    text: /*$battlePassData*/ ctx[6].premium ?
+                        'Получить' :
+                        'Недоступно',
+                    onClick: func_1
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(premiumbutton.$$.fragment);
+                    dom_attr(div, "class", "battle-pass-main__reward-button battle-pass-main__reward-button--premium");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(premiumbutton, div, null);
+                    current = true;
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+                    const premiumbutton_changes = {};
+                    if (dirty[0] & /*$battlePassData*/ 64) premiumbutton_changes.icon = /*$battlePassData*/ ctx[6].premium ? '' : 'lock-wide';
+
+                    if (dirty[0] & /*$battlePassData*/ 64) premiumbutton_changes.text = /*$battlePassData*/ ctx[6].premium ?
+                        'Получить' :
+                        'Недоступно';
+
+                    if (dirty[0] & /*premiumRewards*/ 8) premiumbutton_changes.onClick = func_1;
+                    premiumbutton.$set(premiumbutton_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(premiumbutton.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(premiumbutton.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(premiumbutton);
+                }
+            };
+        }
+
+        // (291:36) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
         function main_index_svelte_create_if_block_5(ctx) {
             let div;
             let premiumbutton;
             let current;
 
             function func() {
-                return /*func*/ ctx[20]( /*reward*/ ctx[31]);
+                return /*func*/ ctx[20]( /*reward*/ ctx[32]);
             }
 
             premiumbutton = new premium_button_index_svelte({
@@ -157865,11 +157944,11 @@
             };
         }
 
-        // (277:24) {#each premiumRewards as reward, index}
+        // (280:24) {#each premiumRewards as reward, index}
         function main_index_svelte_create_each_block(ctx) {
             let div1;
             let div0;
-            let t0_value = /*reward*/ ctx[31].title + "";
+            let t0_value = /*reward*/ ctx[32].title + "";
             let t0;
             let t1;
             let img;
@@ -157880,13 +157959,13 @@
             let if_block1;
             let t4;
             let current;
-            let if_block0 = /*reward*/ ctx[31].count > 0 && create_if_block_7(ctx);
-            const if_block_creators = [main_index_svelte_create_if_block_4, main_index_svelte_create_if_block_6, main_index_svelte_create_else_block_1];
+            let if_block0 = /*reward*/ ctx[32].count > 0 && create_if_block_7(ctx);
+            const if_block_creators = [main_index_svelte_create_if_block_4, main_index_svelte_create_if_block_6, main_index_svelte_create_else_block_2];
             const if_blocks = [];
 
             function select_block_type_3(ctx, dirty) {
-                if (! /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][1] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level) return 0;
-                if ( /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[31].level - 1][1] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[31].level && /*$battlePassData*/ ctx[6].premium > 0) return 1;
+                if (! /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[32].level - 1][1] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[32].level) return 0;
+                if ( /*$battlePassData*/ ctx[6].availableToReceive[ /*reward*/ ctx[32].level - 1][1] && /*$battlePassData*/ ctx[6].level >= /*reward*/ ctx[32].level && /*$battlePassData*/ ctx[6].premium > 0) return 1;
                 return 2;
             }
 
@@ -157906,11 +157985,11 @@
                     if_block1.c();
                     t4 = dom_space();
                     dom_attr(div0, "class", "battle-pass-main__reward-title");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward-icon");
                     dom_attr(img, "class", "battle-pass-main__reward-image");
                     dom_attr(div1, "class", "battle-pass-main__reward battle-pass-main__reward--premium");
-                    dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
+                    dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[32].level);
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -157926,13 +158005,13 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ((!current || dirty[0] & /*premiumRewards*/ 8) && t0_value !== (t0_value = /*reward*/ ctx[31].title + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty[0] & /*premiumRewards*/ 8) && t0_value !== (t0_value = /*reward*/ ctx[32].title + "")) dom_set_data(t0, t0_value);
 
-                    if (!current || dirty[0] & /*premiumRewards*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[31].sysName}`)) {
+                    if (!current || dirty[0] & /*premiumRewards*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if ( /*reward*/ ctx[31].count > 0) {
+                    if ( /*reward*/ ctx[32].count > 0) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -157972,7 +158051,7 @@
                     }
 
                     if (!current || dirty[0] & /*$battlePassData, premiumRewards*/ 72) {
-                        dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[31].level);
+                        dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[32].level);
                     }
                 },
                 i(local) {
@@ -157995,7 +158074,7 @@
             };
         }
 
-        // (327:8) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
+        // (338:8) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
         function main_index_svelte_create_if_block_2(ctx) {
             let if_block_anchor;
             let current;
@@ -158054,7 +158133,7 @@
             };
         }
 
-        // (328:12) {#if $battlePassData.premium < 2}
+        // (339:12) {#if $battlePassData.premium < 2}
         function main_index_svelte_create_if_block_3(ctx) {
             let div;
             let premiumbutton;
@@ -158065,7 +158144,7 @@
                     text: /*$battlePassData*/ ctx[6].premium > 0 ?
                         `Купить <b>Premium Plus</b>` :
                         `Купить <b>Premium</b>`,
-                    onClick: /*func_1*/ ctx[23]
+                    onClick: /*func_2*/ ctx[24]
                 }
             });
 
@@ -158087,7 +158166,7 @@
                         `Купить <b>Premium Plus</b>` :
                         `Купить <b>Premium</b>`;
 
-                    if (dirty[0] & /*$currentPage*/ 128) premiumbutton_changes.onClick = /*func_1*/ ctx[23];
+                    if (dirty[0] & /*$currentPage*/ 128) premiumbutton_changes.onClick = /*func_2*/ ctx[24];
                     premiumbutton.$set(premiumbutton_changes);
                 },
                 i(local) {
@@ -158109,7 +158188,7 @@
             };
         }
 
-        // (338:16) {:else}
+        // (349:16) {:else}
         function main_index_svelte_create_else_block(ctx) {
             let img;
             let img_src_value;
@@ -158160,7 +158239,7 @@
             };
         }
 
-        // (336:16) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
+        // (347:16) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
         function main_index_svelte_create_if_block_1(ctx) {
             let p;
 
@@ -158190,7 +158269,7 @@
             let current;
             let mounted;
             let dispose;
-            const if_block_creators = [main_index_svelte_create_if_block, create_if_block_16, create_else_block_4];
+            const if_block_creators = [main_index_svelte_create_if_block, create_if_block_16, create_else_block_5];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
@@ -158281,9 +158360,9 @@
             utils_component_subscribe($$self, allPremiumRewards, $$value => $$invalidate(0, $allPremiumRewards = $$value));
             utils_component_subscribe($$self, allCommonRewards, $$value => $$invalidate(16, $allCommonRewards = $$value));
             utils_component_subscribe($$self, store_battlePassData, $$value => $$invalidate(6, $battlePassData = $$value));
-            utils_component_subscribe($$self, rewardsPagesCount, $$value => $$invalidate(26, $rewardsPagesCount = $$value));
-            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(27, $serverApiToken = $$value));
-            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(28, $serverApiServerId = $$value));
+            utils_component_subscribe($$self, rewardsPagesCount, $$value => $$invalidate(27, $rewardsPagesCount = $$value));
+            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(28, $serverApiToken = $$value));
+            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(29, $serverApiServerId = $$value));
             utils_component_subscribe($$self, store_currentPage, $$value => $$invalidate(7, $currentPage = $$value));
 
             let PAGES_COUNT = $battlePassData.level >= 100 ?
@@ -158317,7 +158396,7 @@
                     Math.ceil(premiumData.length / PAGE_SIZE));
             };
 
-            const calculateDaysLeft = unix => Math.round((unix - moment_default()().unix()) / 86400);
+            const calculateDaysLeft = unix => Math.max(0, Math.ceil((unix - moment_default()().unix()) / 86400));
 
             const nextPage = () => {
                 if (currentLevelPage + 1 > PAGES_COUNT) {
@@ -158338,12 +158417,14 @@
             };
 
             const getPremiumReward = level => {
-                if ($battlePassData.premium === 0) {
+                if ($battlePassData.premium === 0 && calculateDaysLeft($battlePassData.timestampTaskTime) > 0) {
                     utils_set_store_value(store_currentPage, $currentPage = constants_MenuIds.PurchasePremium, $currentPage);
                 }
 
-                utils_set_store_value(store_battlePassData, $battlePassData.availableToReceive[level - 1][1] = 1, $battlePassData);
-                cef_sendClientMessage('battlePass.main.getPremiumReward', level);
+                if ($battlePassData.premium > 0) {
+                    utils_set_store_value(store_battlePassData, $battlePassData.availableToReceive[level - 1][1] = 1, $battlePassData);
+                    cef_sendClientMessage('battlePass.main.getPremiumReward', level);
+                }
             };
 
             const getCommonReward = level => {
@@ -158445,9 +158526,10 @@
 
             const click_handler_2 = () => getResetLevel();
             const func = reward => getPremiumReward(reward.level);
+            const func_1 = reward => getPremiumReward(reward.level);
             const click_handler_3 = () => prevPage();
             const click_handler_4 = () => nextPage();
-            const func_1 = () => utils_set_store_value(store_currentPage, $currentPage = constants_MenuIds.PurchasePremium, $currentPage);
+            const func_2 = () => utils_set_store_value(store_currentPage, $currentPage = constants_MenuIds.PurchasePremium, $currentPage);
 
             const click_handler_5 = () => {
                 utils_set_store_value(store_currentPage, $currentPage = 'purchase-level', $currentPage);
@@ -158483,9 +158565,10 @@
                 click_handler_1,
                 click_handler_2,
                 func,
+                func_1,
                 click_handler_3,
                 click_handler_4,
-                func_1,
+                func_2,
                 click_handler_5
             ];
         }
@@ -161826,7 +161909,7 @@
             utils_component_subscribe($$self, store_battlePassData, $$value => $$invalidate(3, $battlePassData = $$value));
             utils_component_subscribe($$self, modalVisible, $$value => $$invalidate(4, $modalVisible = $$value));
             utils_set_store_value(store_currentPage, $currentPage = constants_MenuIds.Main, $currentPage);
-            const calculateDaysLeft = unix => Math.round((unix - moment_default()().unix()) / 86400);
+            const calculateDaysLeft = unix => Math.max(0, Math.ceil((unix - moment_default()().unix()) / 86400));
 
             const selectPage = pageId => {
                 if ($rouletteActive) {
@@ -248379,32 +248462,34 @@ setTimeout(() => {
 
 
 
+
+
         function inventory_grid_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
+            child_ctx[24] = list[i];
             return child_ctx;
         }
 
         function inventory_grid_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
+            child_ctx[24] = list[i];
             return child_ctx;
         }
 
         function inventory_grid_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
+            child_ctx[24] = list[i];
             return child_ctx;
         }
 
         function inventory_grid_index_svelte_get_each_context_3(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
-            child_ctx[31] = i;
+            child_ctx[24] = list[i];
+            child_ctx[32] = i;
             return child_ctx;
         }
 
-        // (85:1) {#if searchEnabled}
+        // (88:1) {#if searchEnabled}
         function inventory_grid_index_svelte_create_if_block_4(ctx) {
             let search;
             let updating_loading;
@@ -248496,7 +248581,7 @@ setTimeout(() => {
             };
         }
 
-        // (108:4) {:else}
+        // (111:4) {:else}
         function inventory_grid_index_svelte_create_else_block(ctx) {
             let inventoryitem;
             let current;
@@ -248504,10 +248589,10 @@ setTimeout(() => {
             inventoryitem = new inventory_item_index_svelte({
                 props: {
                     item: {
-                        slot: /*slotId*/ ctx[31]
+                        slot: /*slotId*/ ctx[32]
                     },
                     availableItemsIds: /*availableItemsIds*/ ctx[3],
-                    slotId: /*slotId*/ ctx[31],
+                    slotId: /*slotId*/ ctx[32],
                     withContextMenu: /*withContextMenu*/ ctx[4],
                     inventoryId: /*inventoryId*/ ctx[2],
                     disabled: /*disableAllItems*/ ctx[5],
@@ -248516,7 +248601,7 @@ setTimeout(() => {
                     showIndex: /*showSlotsIndex*/ ctx[9],
                     itemTypeHighlight: /*itemTypeHighlight*/ ctx[10],
                     blockTypeHighlight: /*blockTypeHighlight*/ ctx[11],
-                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31]
+                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32]
                 }
             });
 
@@ -248539,7 +248624,7 @@ setTimeout(() => {
                     if (dirty[0] & /*showSlotsIndex*/ 512) inventoryitem_changes.showIndex = /*showSlotsIndex*/ ctx[9];
                     if (dirty[0] & /*itemTypeHighlight*/ 1024) inventoryitem_changes.itemTypeHighlight = /*itemTypeHighlight*/ ctx[10];
                     if (dirty[0] & /*blockTypeHighlight*/ 2048) inventoryitem_changes.blockTypeHighlight = /*blockTypeHighlight*/ ctx[11];
-                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31];
+                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32];
                     inventoryitem.$set(inventoryitem_changes);
                 },
                 i(local) {
@@ -248557,16 +248642,16 @@ setTimeout(() => {
             };
         }
 
-        // (93:4) {#if !isNil(actualItems[slotId])}
+        // (96:4) {#if !isNil(actualItems[slotId])}
         function inventory_grid_index_svelte_create_if_block_3(ctx) {
             let inventoryitem;
             let current;
 
             inventoryitem = new inventory_item_index_svelte({
                 props: {
-                    item: /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]],
+                    item: /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]],
                     availableItemsIds: /*availableItemsIds*/ ctx[3],
-                    slotId: /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]].slot || /*slotId*/ ctx[31],
+                    slotId: /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot || /*slotId*/ ctx[32],
                     withContextMenu: /*withContextMenu*/ ctx[4],
                     inventoryId: /*inventoryId*/ ctx[2],
                     disabled: /*disableAllItems*/ ctx[5],
@@ -248575,7 +248660,7 @@ setTimeout(() => {
                     showIndex: /*showSlotsIndex*/ ctx[9],
                     itemTypeHighlight: /*itemTypeHighlight*/ ctx[10],
                     blockTypeHighlight: /*blockTypeHighlight*/ ctx[11],
-                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31]
+                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32]
                 }
             });
 
@@ -248589,9 +248674,9 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventoryitem_changes = {};
-                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.item = /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]];
+                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.item = /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]];
                     if (dirty[0] & /*availableItemsIds*/ 8) inventoryitem_changes.availableItemsIds = /*availableItemsIds*/ ctx[3];
-                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.slotId = /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]].slot || /*slotId*/ ctx[31];
+                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.slotId = /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot || /*slotId*/ ctx[32];
                     if (dirty[0] & /*withContextMenu*/ 16) inventoryitem_changes.withContextMenu = /*withContextMenu*/ ctx[4];
                     if (dirty[0] & /*inventoryId*/ 4) inventoryitem_changes.inventoryId = /*inventoryId*/ ctx[2];
                     if (dirty[0] & /*disableAllItems*/ 32) inventoryitem_changes.disabled = /*disableAllItems*/ ctx[5];
@@ -248600,7 +248685,7 @@ setTimeout(() => {
                     if (dirty[0] & /*showSlotsIndex*/ 512) inventoryitem_changes.showIndex = /*showSlotsIndex*/ ctx[9];
                     if (dirty[0] & /*itemTypeHighlight*/ 1024) inventoryitem_changes.itemTypeHighlight = /*itemTypeHighlight*/ ctx[10];
                     if (dirty[0] & /*blockTypeHighlight*/ 2048) inventoryitem_changes.blockTypeHighlight = /*blockTypeHighlight*/ ctx[11];
-                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31];
+                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32];
                     inventoryitem.$set(inventoryitem_changes);
                 },
                 i(local) {
@@ -248618,7 +248703,7 @@ setTimeout(() => {
             };
         }
 
-        // (92:2) {#each new Array(slotsCount) as slot, slotId}
+        // (95:2) {#each new Array(slotsCount) as slot, slotId}
         function inventory_grid_index_svelte_create_each_block_3(ctx) {
             let show_if;
             let current_block_type_index;
@@ -248630,7 +248715,7 @@ setTimeout(() => {
 
             function select_block_type(ctx, dirty) {
                 if (dirty[0] & /*actualItems*/ 65536) show_if = null;
-                if (show_if == null) show_if = !!!(0, lodash.isNil)( /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]]);
+                if (show_if == null) show_if = !!!(0, lodash.isNil)( /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]]);
                 if (show_if) return 0;
                 return 1;
             }
@@ -248694,7 +248779,7 @@ setTimeout(() => {
             };
         }
 
-        // (125:3) {#if searchRestSlotsCount !== 0}
+        // (128:3) {#if searchRestSlotsCount !== 0}
         function inventory_grid_index_svelte_create_if_block_2(ctx) {
             let each_1_anchor;
             let each_value_2 = each_ensure_array_like(new Array( /*searchRestSlotsCount*/ ctx[14]));
@@ -248755,7 +248840,7 @@ setTimeout(() => {
             };
         }
 
-        // (126:4) {#each new Array(searchRestSlotsCount) as slot}
+        // (129:4) {#each new Array(searchRestSlotsCount) as slot}
         function inventory_grid_index_svelte_create_each_block_2(ctx) {
             let div1;
 
@@ -248777,7 +248862,7 @@ setTimeout(() => {
             };
         }
 
-        // (138:75) 
+        // (141:75) 
         function inventory_grid_index_svelte_create_if_block_1(ctx) {
             let each_1_anchor;
             let each_value_1 = each_ensure_array_like(new Array(Math.ceil( /*slotsCount*/ ctx[1] / /*columnsCount*/ ctx[0]) * /*columnsCount*/ ctx[0] - /*slotsCount*/ ctx[1]));
@@ -248838,7 +248923,7 @@ setTimeout(() => {
             };
         }
 
-        // (132:3) {#if fillWholeColumn && inventoryId === BLOCK_TYPE.BLOCK_TYPE_MENU}
+        // (135:3) {#if fillWholeColumn && inventoryId === BLOCK_TYPE.BLOCK_TYPE_MENU}
         function inventory_grid_index_svelte_create_if_block(ctx) {
             let each_1_anchor;
             let each_value = each_ensure_array_like(new Array(Math.ceil( /*slotsCount*/ ctx[1] / /*columnsCount*/ ctx[0]) * /*columnsCount*/ ctx[0] - /*slotsCount*/ ctx[1]));
@@ -248899,7 +248984,7 @@ setTimeout(() => {
             };
         }
 
-        // (139:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
+        // (142:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
         function inventory_grid_index_svelte_create_each_block_1(ctx) {
             let div1;
 
@@ -248921,7 +249006,7 @@ setTimeout(() => {
             };
         }
 
-        // (133:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
+        // (136:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
         function inventory_grid_index_svelte_create_each_block(ctx) {
             let div1;
 
@@ -249140,11 +249225,13 @@ setTimeout(() => {
         function inventory_grid_index_svelte_instance($$self, $$props, $$invalidate) {
             let actualItems;
             let $searchQuery;
+            let $securityHovered;
             let $inventoryCurrentItem;
             let $inventories;
             utils_component_subscribe($$self, store_searchQuery, $$value => $$invalidate(19, $searchQuery = $$value));
-            utils_component_subscribe($$self, store_inventoryCurrentItem, $$value => $$invalidate(21, $inventoryCurrentItem = $$value));
-            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(22, $inventories = $$value));
+            utils_component_subscribe($$self, securityHovered, $$value => $$invalidate(21, $securityHovered = $$value));
+            utils_component_subscribe($$self, store_inventoryCurrentItem, $$value => $$invalidate(22, $inventoryCurrentItem = $$value));
+            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(23, $inventories = $$value));
             let {
                 items = []
             } = $$props;
@@ -249213,6 +249300,10 @@ setTimeout(() => {
 
                 if (!(0, lodash.isEmpty)($inventoryCurrentItem)) {
                     utils_set_store_value(store_inventoryCurrentItem, $inventoryCurrentItem = {}, $inventoryCurrentItem);
+                }
+
+                if ($securityHovered) {
+                    utils_set_store_value(securityHovered, $securityHovered = false, $securityHovered);
                 }
             });
 
@@ -253365,7 +253456,7 @@ setTimeout(() => {
                 props: {
                     item: /*$inventories*/ ctx[1][BLOCK_TYPE.BLOCK_TYPE_VIEW_SKIN][0],
                     placeholderIcon: 'clothes',
-                    slot: 0,
+                    slotId: 0,
                     placeholderText: 'Скин',
                     inventoryId: BLOCK_TYPE.BLOCK_TYPE_VIEW_SKIN
                 }
@@ -253375,7 +253466,7 @@ setTimeout(() => {
                 props: {
                     item: /*$inventories*/ ctx[1][BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV][1],
                     placeholderIcon: 'case',
-                    slot: 0,
+                    slotId: 1,
                     placeholderText: 'Кейс',
                     inventoryId: BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV
                 }
@@ -253385,7 +253476,7 @@ setTimeout(() => {
                 props: {
                     item: /*$inventories*/ ctx[1][BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV][0],
                     placeholderIcon: 'armour',
-                    slot: 1,
+                    slotId: 0,
                     placeholderText: 'Броня',
                     inventoryId: BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV
                 }
@@ -260117,6 +260208,7 @@ setTimeout(() => {
 
 
 
+
         // import { ITEMS } from './items';
 
 
@@ -260127,15 +260219,15 @@ setTimeout(() => {
 
             inventorywindow = new inventory_window_index_svelte({
                 props: {
-                    title: /*$characterInventorySelectedTab*/ ctx[12] === constants_NavigationTabs.Warehouse ?
-                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[13]] :
-                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[12]],
-                    headerIcon: MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[12]],
-                    onClose: /*closeInventory*/ ctx[18],
+                    title: /*$characterInventorySelectedTab*/ ctx[13] === constants_NavigationTabs.Warehouse ?
+                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[14]] :
+                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[13]],
+                    headerIcon: MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[13]],
+                    onClose: /*closeInventory*/ ctx[19],
                     inventoryId: 'character',
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Character,
-                    onFocus: /*func*/ ctx[22],
+                    onFocus: /*func*/ ctx[23],
                     exitButtonVisibility: false,
                     sortingButtonVisibility: false,
                     $$slots: {
@@ -260161,14 +260253,14 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
 
-                    if (dirty[0] & /*$characterInventorySelectedTab, $warehouseTypeId*/ 12288) inventorywindow_changes.title = /*$characterInventorySelectedTab*/ ctx[12] === constants_NavigationTabs.Warehouse ?
-                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[13]] :
-                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[12]];
+                    if (dirty[0] & /*$characterInventorySelectedTab, $warehouseTypeId*/ 24576) inventorywindow_changes.title = /*$characterInventorySelectedTab*/ ctx[13] === constants_NavigationTabs.Warehouse ?
+                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[14]] :
+                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[13]];
 
-                    if (dirty[0] & /*$characterInventorySelectedTab*/ 4096) inventorywindow_changes.headerIcon = MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[12]];
+                    if (dirty[0] & /*$characterInventorySelectedTab*/ 8192) inventorywindow_changes.headerIcon = MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[13]];
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260196,7 +260288,7 @@ setTimeout(() => {
             };
         }
 
-        // (241:2) <InventoryWindow     title={$characterInventorySelectedTab === NavigationTabs.Warehouse ? MAP_WAREHOUSE_TO_NAME[$warehouseTypeId] : MAP_TAB_ID_TO_NAME[$characterInventorySelectedTab]}     headerIcon={MAP_TAB_ID_TO_ICON[$characterInventorySelectedTab]}     onClose={closeInventory}     inventoryId={'character'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Character}     onFocus={() => setPriority(WindowsIds.Character)}     exitButtonVisibility={false}     sortingButtonVisibility={false}    >
+        // (271:2) <InventoryWindow     title={$characterInventorySelectedTab === NavigationTabs.Warehouse ? MAP_WAREHOUSE_TO_NAME[$warehouseTypeId] : MAP_TAB_ID_TO_NAME[$characterInventorySelectedTab]}     headerIcon={MAP_TAB_ID_TO_ICON[$characterInventorySelectedTab]}     onClose={closeInventory}     inventoryId={'character'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Character}     onFocus={() => setPriority(WindowsIds.Character)}     exitButtonVisibility={false}     sortingButtonVisibility={false}    >
         function create_default_slot_8(ctx) {
             let character;
             let current;
@@ -260225,7 +260317,7 @@ setTimeout(() => {
             };
         }
 
-        // (257:0) {#if mainInventoryVisible && !isNil($inventories[BLOCK_TYPE.BLOCK_TYPE_MENU])}
+        // (287:0) {#if mainInventoryVisible && !isNil($inventories[BLOCK_TYPE.BLOCK_TYPE_MENU])}
         function inventory_index_svelte_create_if_block_7(ctx) {
             let div;
             let inventorywindow;
@@ -260235,11 +260327,11 @@ setTimeout(() => {
                 props: {
                     title: 'Инвентарь',
                     headerIcon: 'bag',
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     inventoryId: 'main',
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Main,
-                    onFocus: /*func_1*/ ctx[23],
+                    onFocus: /*func_1*/ ctx[24],
                     sortingButtonVisibility: true,
                     infoButtonEnabled: true,
                     $$slots: {
@@ -260266,7 +260358,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[0] & /*$inventories*/ 1 | dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[0] & /*$inventories*/ 1 | dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260294,7 +260386,7 @@ setTimeout(() => {
             };
         }
 
-        // (259:2) <InventoryWindow     title={'Инвентарь'}     headerIcon={'bag'}     onClose={closeInventory}     inventoryId={'main'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Main}     onFocus={() => setPriority(WindowsIds.Main)}     sortingButtonVisibility={true}     infoButtonEnabled    >
+        // (289:2) <InventoryWindow     title={'Инвентарь'}     headerIcon={'bag'}     onClose={closeInventory}     inventoryId={'main'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Main}     onFocus={() => setPriority(WindowsIds.Main)}     sortingButtonVisibility={true}     infoButtonEnabled    >
         function create_default_slot_7(ctx) {
             let inventorymain;
             let current;
@@ -260336,7 +260428,7 @@ setTimeout(() => {
             };
         }
 
-        // (280:0) {#if overviewVisible}
+        // (310:0) {#if overviewVisible}
         function inventory_index_svelte_create_if_block_6(ctx) {
             let div;
             let inventorywindow;
@@ -260348,7 +260440,7 @@ setTimeout(() => {
                     headerIcon: 'character',
                     centeredX: true,
                     centeredY: true,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     inventoryId: 'overview',
                     $$slots: {
                         default: [create_default_slot_6]
@@ -260373,7 +260465,7 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260401,7 +260493,7 @@ setTimeout(() => {
             };
         }
 
-        // (282:2) <InventoryWindow title={'Обзор'} headerIcon={'character'} centeredX={true} centeredY={true} onClose={closeInventory} inventoryId={'overview'}>
+        // (312:2) <InventoryWindow title={'Обзор'} headerIcon={'character'} centeredX={true} centeredY={true} onClose={closeInventory} inventoryId={'overview'}>
         function create_default_slot_6(ctx) {
             let overview;
             let current;
@@ -260430,7 +260522,7 @@ setTimeout(() => {
             };
         }
 
-        // (288:0) {#if walletVisible && $bagBlockType > -1}
+        // (318:0) {#if walletVisible && $bagBlockType > -1}
         function inventory_index_svelte_create_if_block_5(ctx) {
             let div;
             let inventorywindow;
@@ -260438,12 +260530,12 @@ setTimeout(() => {
 
             inventorywindow = new inventory_window_index_svelte({
                 props: {
-                    title: MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[14]],
+                    title: MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[15]],
                     headerIcon: 'wallet',
-                    onClose: /*closeWallet*/ ctx[17],
+                    onClose: /*closeWallet*/ ctx[18],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Wallet,
-                    onFocus: /*func_2*/ ctx[24],
+                    onFocus: /*func_2*/ ctx[25],
                     $$slots: {
                         default: [create_default_slot_5]
                     },
@@ -260466,10 +260558,10 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
-                    if (dirty[0] & /*$bagBlockType*/ 16384) inventorywindow_changes.title = MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[14]];
+                    if (dirty[0] & /*$bagBlockType*/ 32768) inventorywindow_changes.title = MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[15]];
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[0] & /*$bagBlockType, $inventories*/ 16385 | dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[0] & /*$bagBlockType, $inventories*/ 32769 | dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260497,15 +260589,15 @@ setTimeout(() => {
             };
         }
 
-        // (290:2) <InventoryWindow title={MAP_BAG_TO_NAME[$bagBlockType]} headerIcon={'wallet'} onClose={closeWallet}      selectedWindow={selectedWindow}      windowId={WindowsIds.Wallet}      onFocus={() => setPriority(WindowsIds.Wallet)}>
+        // (320:2) <InventoryWindow title={MAP_BAG_TO_NAME[$bagBlockType]} headerIcon={'wallet'} onClose={closeWallet}      selectedWindow={selectedWindow}      windowId={WindowsIds.Wallet}      onFocus={() => setPriority(WindowsIds.Wallet)}>
         function create_default_slot_5(ctx) {
             let wallet;
             let current;
 
             wallet = new wallet_index_svelte({
                 props: {
-                    inventoryId: /*$bagBlockType*/ ctx[14],
-                    slotsCount: /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[14]].length || 6,
+                    inventoryId: /*$bagBlockType*/ ctx[15],
+                    slotsCount: /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[15]].length || 6,
                     fillWholeColumn: true,
                     columnsCount: 6
                 }
@@ -260521,8 +260613,8 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const wallet_changes = {};
-                    if (dirty[0] & /*$bagBlockType*/ 16384) wallet_changes.inventoryId = /*$bagBlockType*/ ctx[14];
-                    if (dirty[0] & /*$inventories, $bagBlockType*/ 16385) wallet_changes.slotsCount = /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[14]].length || 6;
+                    if (dirty[0] & /*$bagBlockType*/ 32768) wallet_changes.inventoryId = /*$bagBlockType*/ ctx[15];
+                    if (dirty[0] & /*$inventories, $bagBlockType*/ 32769) wallet_changes.slotsCount = /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[15]].length || 6;
                     wallet.$set(wallet_changes);
                 },
                 i(local) {
@@ -260540,7 +260632,7 @@ setTimeout(() => {
             };
         }
 
-        // (304:0) {#if shopVisible}
+        // (334:0) {#if shopVisible}
         function inventory_index_svelte_create_if_block_4(ctx) {
             let div;
             let inventorywindow;
@@ -260549,13 +260641,13 @@ setTimeout(() => {
             inventorywindow = new inventory_window_index_svelte({
                 props: {
                     headerIcon: 'shop-spot',
-                    title: /*$additionalInfo*/ ctx[15].name,
+                    title: /*$additionalInfo*/ ctx[16].name,
                     centeredX: false,
                     centeredY: false,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Shop,
-                    onFocus: /*func_3*/ ctx[25],
+                    onFocus: /*func_3*/ ctx[26],
                     $$slots: {
                         default: [create_default_slot_4]
                     },
@@ -260578,10 +260670,10 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
-                    if (dirty[0] & /*$additionalInfo*/ 32768) inventorywindow_changes.title = /*$additionalInfo*/ ctx[15].name;
+                    if (dirty[0] & /*$additionalInfo*/ 65536) inventorywindow_changes.title = /*$additionalInfo*/ ctx[16].name;
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[0] & /*$isLavka*/ 2048 | dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[0] & /*$isLavka*/ 4096 | dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260609,7 +260701,7 @@ setTimeout(() => {
             };
         }
 
-        // (306:2) <InventoryWindow     headerIcon={'shop-spot'}     title={$additionalInfo.name}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Shop}     onFocus={() => setPriority(WindowsIds.Shop)}    >
+        // (336:2) <InventoryWindow     headerIcon={'shop-spot'}     title={$additionalInfo.name}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Shop}     onFocus={() => setPriority(WindowsIds.Shop)}    >
         function create_default_slot_4(ctx) {
             let shop;
             let current;
@@ -260620,7 +260712,7 @@ setTimeout(() => {
                     columnsCount: 5,
                     centeredX: false,
                     centeredY: true,
-                    isLavka: /*$isLavka*/ ctx[11]
+                    isLavka: /*$isLavka*/ ctx[12]
                 }
             });
 
@@ -260634,7 +260726,7 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const shop_changes = {};
-                    if (dirty[0] & /*$isLavka*/ 2048) shop_changes.isLavka = /*$isLavka*/ ctx[11];
+                    if (dirty[0] & /*$isLavka*/ 4096) shop_changes.isLavka = /*$isLavka*/ ctx[12];
                     shop.$set(shop_changes);
                 },
                 i(local) {
@@ -260652,7 +260744,7 @@ setTimeout(() => {
             };
         }
 
-        // (327:0) {#if tradeVisible}
+        // (357:0) {#if tradeVisible}
         function inventory_index_svelte_create_if_block_3(ctx) {
             let div;
             let inventorywindow;
@@ -260661,13 +260753,13 @@ setTimeout(() => {
             inventorywindow = new inventory_window_index_svelte({
                 props: {
                     headerIcon: 'list',
-                    title: `Обмен с ${/*$additionalInfo*/ ctx[15].name}`,
+                    title: `Обмен с ${/*$additionalInfo*/ ctx[16].name}`,
                     centeredX: true,
                     centeredY: false,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Trade,
-                    onFocus: /*func_4*/ ctx[26],
+                    onFocus: /*func_4*/ ctx[27],
                     $$slots: {
                         default: [create_default_slot_3]
                     },
@@ -260690,10 +260782,10 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
-                    if (dirty[0] & /*$additionalInfo*/ 32768) inventorywindow_changes.title = `Обмен с ${/*$additionalInfo*/ ctx[15].name}`;
+                    if (dirty[0] & /*$additionalInfo*/ 65536) inventorywindow_changes.title = `Обмен с ${/*$additionalInfo*/ ctx[16].name}`;
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260721,7 +260813,7 @@ setTimeout(() => {
             };
         }
 
-        // (329:2) <InventoryWindow     headerIcon={'list'}     title={`Обмен с ${$additionalInfo.name}`}     centeredX={true}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Trade}     onFocus={() => setPriority(WindowsIds.Trade)}    >
+        // (359:2) <InventoryWindow     headerIcon={'list'}     title={`Обмен с ${$additionalInfo.name}`}     centeredX={true}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Trade}     onFocus={() => setPriority(WindowsIds.Trade)}    >
         function create_default_slot_3(ctx) {
             let trade;
             let current;
@@ -260759,7 +260851,7 @@ setTimeout(() => {
             };
         }
 
-        // (349:0) {#if workshopVisible}
+        // (379:0) {#if workshopVisible}
         function inventory_index_svelte_create_if_block_2(ctx) {
             let div;
             let inventorywindow;
@@ -260771,10 +260863,10 @@ setTimeout(() => {
                     title: 'Верстак',
                     centeredX: false,
                     centeredY: false,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Workshop,
-                    onFocus: /*func_5*/ ctx[27],
+                    onFocus: /*func_5*/ ctx[28],
                     $$slots: {
                         default: [create_default_slot_2]
                     },
@@ -260799,7 +260891,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260827,7 +260919,7 @@ setTimeout(() => {
             };
         }
 
-        // (351:2) <InventoryWindow     headerIcon={'workbrench'}     title={'Верстак'}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Workshop}     onFocus={() => setPriority(WindowsIds.Workshop)}    >
+        // (381:2) <InventoryWindow     headerIcon={'workbrench'}     title={'Верстак'}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Workshop}     onFocus={() => setPriority(WindowsIds.Workshop)}    >
         function create_default_slot_2(ctx) {
             let workshop;
             let current;
@@ -260856,7 +260948,7 @@ setTimeout(() => {
             };
         }
 
-        // (366:0) {#if craftVisible}
+        // (396:0) {#if craftVisible}
         function inventory_index_svelte_create_if_block_1(ctx) {
             let div;
             let inventorywindow;
@@ -260868,10 +260960,10 @@ setTimeout(() => {
                     title: 'Создание',
                     centeredX: true,
                     centeredY: true,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Craft,
-                    onFocus: /*func_6*/ ctx[28],
+                    onFocus: /*func_6*/ ctx[29],
                     $$slots: {
                         default: [inventory_index_svelte_create_default_slot_1]
                     },
@@ -260896,7 +260988,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260924,7 +261016,7 @@ setTimeout(() => {
             };
         }
 
-        // (368:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Craft}     onFocus={() => setPriority(WindowsIds.Craft)}    >
+        // (398:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Craft}     onFocus={() => setPriority(WindowsIds.Craft)}    >
         function inventory_index_svelte_create_default_slot_1(ctx) {
             let craft;
             let current;
@@ -260953,7 +261045,7 @@ setTimeout(() => {
             };
         }
 
-        // (383:0) {#if potionsVisible}
+        // (413:0) {#if potionsVisible}
         function inventory_index_svelte_create_if_block(ctx) {
             let div;
             let inventorywindow;
@@ -260965,10 +261057,10 @@ setTimeout(() => {
                     title: 'Создание',
                     centeredX: true,
                     centeredY: true,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Potions,
-                    onFocus: /*func_7*/ ctx[29],
+                    onFocus: /*func_7*/ ctx[30],
                     $$slots: {
                         default: [inventory_index_svelte_create_default_slot]
                     },
@@ -260993,7 +261085,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -261021,7 +261113,7 @@ setTimeout(() => {
             };
         }
 
-        // (385:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Potions}     onFocus={() => setPriority(WindowsIds.Potions)}    >
+        // (415:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Potions}     onFocus={() => setPriority(WindowsIds.Potions)}    >
         function inventory_index_svelte_create_default_slot(ctx) {
             let potions;
             let current;
@@ -261066,7 +261158,7 @@ setTimeout(() => {
             let if_block0 = /*characterVisible*/ ctx[2] && inventory_index_svelte_create_if_block_8(ctx);
             let if_block1 = show_if && inventory_index_svelte_create_if_block_7(ctx);
             let if_block2 = /*overviewVisible*/ ctx[3] && inventory_index_svelte_create_if_block_6(ctx);
-            let if_block3 = /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[14] > -1 && inventory_index_svelte_create_if_block_5(ctx);
+            let if_block3 = /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[15] > -1 && inventory_index_svelte_create_if_block_5(ctx);
             let if_block4 = /*shopVisible*/ ctx[5] && inventory_index_svelte_create_if_block_4(ctx);
             let if_block5 = /*tradeVisible*/ ctx[6] && inventory_index_svelte_create_if_block_3(ctx);
             let if_block6 = /*workshopVisible*/ ctx[7] && inventory_index_svelte_create_if_block_2(ctx);
@@ -261116,6 +261208,8 @@ setTimeout(() => {
                     if (if_block8) if_block8.m(target, anchor);
                     dom_insert(target, t8, anchor);
                     dom_insert(target, div, anchor);
+                    /*div_binding*/
+                    ctx[31](div);
                     current = true;
                 },
                 p(ctx, dirty) {
@@ -261190,11 +261284,11 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if ( /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[14] > -1) {
+                    if ( /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[15] > -1) {
                         if (if_block3) {
                             if_block3.p(ctx, dirty);
 
-                            if (dirty[0] & /*walletVisible, $bagBlockType*/ 16400) {
+                            if (dirty[0] & /*walletVisible, $bagBlockType*/ 32784) {
                                 transitions_transition_in(if_block3, 1);
                             }
                         } else {
@@ -261376,6 +261470,8 @@ setTimeout(() => {
                     if (if_block6) if_block6.d(detaching);
                     if (if_block7) if_block7.d(detaching);
                     if (if_block8) if_block8.d(detaching);
+                    /*div_binding*/
+                    ctx[31](null);
                 }
             };
         }
@@ -261383,9 +261479,11 @@ setTimeout(() => {
         let infoWindowNode = null;
 
         function views_inventory_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $browserId;
+            let $inventoryHoveredSlot;
+            let $inventoryCurrentItem;
             let $itemsInInterval;
             let $inventories;
-            let $inventoryCurrentItem;
             let $potionsOpened;
             let $workShopOpened;
             let $shopOpened;
@@ -261394,17 +261492,19 @@ setTimeout(() => {
             let $warehouseTypeId;
             let $bagBlockType;
             let $additionalInfo;
-            utils_component_subscribe($$self, itemsInInterval, $$value => $$invalidate(20, $itemsInInterval = $$value));
-            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(0, $inventories = $$value));
+            utils_component_subscribe($$self, browserId, $$value => $$invalidate(34, $browserId = $$value));
+            utils_component_subscribe($$self, store_inventoryHoveredSlot, $$value => $$invalidate(35, $inventoryHoveredSlot = $$value));
             utils_component_subscribe($$self, store_inventoryCurrentItem, $$value => $$invalidate(21, $inventoryCurrentItem = $$value));
-            utils_component_subscribe($$self, potionsOpened, $$value => $$invalidate(31, $potionsOpened = $$value));
-            utils_component_subscribe($$self, workShopOpened, $$value => $$invalidate(32, $workShopOpened = $$value));
-            utils_component_subscribe($$self, shopOpened, $$value => $$invalidate(33, $shopOpened = $$value));
-            utils_component_subscribe($$self, isLavka, $$value => $$invalidate(11, $isLavka = $$value));
-            utils_component_subscribe($$self, characterInventorySelectedTab, $$value => $$invalidate(12, $characterInventorySelectedTab = $$value));
-            utils_component_subscribe($$self, warehouseTypeId, $$value => $$invalidate(13, $warehouseTypeId = $$value));
-            utils_component_subscribe($$self, bagBlockType, $$value => $$invalidate(14, $bagBlockType = $$value));
-            utils_component_subscribe($$self, additionalInfo, $$value => $$invalidate(15, $additionalInfo = $$value));
+            utils_component_subscribe($$self, itemsInInterval, $$value => $$invalidate(22, $itemsInInterval = $$value));
+            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(0, $inventories = $$value));
+            utils_component_subscribe($$self, potionsOpened, $$value => $$invalidate(36, $potionsOpened = $$value));
+            utils_component_subscribe($$self, workShopOpened, $$value => $$invalidate(37, $workShopOpened = $$value));
+            utils_component_subscribe($$self, shopOpened, $$value => $$invalidate(38, $shopOpened = $$value));
+            utils_component_subscribe($$self, isLavka, $$value => $$invalidate(12, $isLavka = $$value));
+            utils_component_subscribe($$self, characterInventorySelectedTab, $$value => $$invalidate(13, $characterInventorySelectedTab = $$value));
+            utils_component_subscribe($$self, warehouseTypeId, $$value => $$invalidate(14, $warehouseTypeId = $$value));
+            utils_component_subscribe($$self, bagBlockType, $$value => $$invalidate(15, $bagBlockType = $$value));
+            utils_component_subscribe($$self, additionalInfo, $$value => $$invalidate(16, $additionalInfo = $$value));
             let mainInventoryVisible = false;
             let characterVisible = false;
             let overviewVisible = false;
@@ -261524,10 +261624,42 @@ setTimeout(() => {
             };
 
             const unregisterUpdateOverviewVisible = registerEvent('event.inventory.setPlayerViewVisible', updateOverviewVisible);
+            let inventoryEl;
+            let cursorHided = false;
+
+            const handleMouseDown = e => {
+                if (e.button !== 2 || e.target !== inventoryEl) {
+                    return;
+                }
+
+                ;
+
+                if (!(0, lodash.isEmpty)($inventoryCurrentItem)) {
+                    utils_set_store_value(store_inventoryCurrentItem, $inventoryCurrentItem = {}, $inventoryCurrentItem);
+                }
+
+                if (!(0, lodash.isEmpty)($inventoryHoveredSlot)) {
+                    utils_set_store_value(store_inventoryHoveredSlot, $inventoryHoveredSlot = {}, $inventoryHoveredSlot);
+                }
+
+                window.cef.ToggleCursor($browserId, false);
+                cursorHided = true;
+            };
+
+            const handleMouseUp = e => {
+                if (e.button !== 2 || !cursorHided) return;
+                window.cef.ToggleCursor($browserId, true);
+            };
+
+            onMount(() => {
+                window.addEventListener("mousedown", handleMouseDown);
+                window.addEventListener("mouseup", handleMouseUp);
+                window.cef.BlockKey(17);
+            });
 
             onDestroy(() => {
                 clearInterval(interval);
-                $$invalidate(19, interval = null);
+                $$invalidate(20, interval = null);
                 unregisterUpdateMainmainInventoryVisible();
                 unregisterUpdateWalletVisibleVisible();
                 unregisterUpdatePlayerAmunitionTab();
@@ -261539,6 +261671,9 @@ setTimeout(() => {
                 unregisterUpdateShopVisible();
                 unregisterUpdateLavkaVisible();
                 unregisterUpdatePotionsVisible();
+                window.removeEventListener("mousedown", handleMouseDown);
+                window.removeEventListener("mouseup", handleMouseUp);
+                window.cef.UnblockKey(17);
             });
 
             const func = () => setPriority(WindowsIds.Character);
@@ -261549,6 +261684,13 @@ setTimeout(() => {
             const func_5 = () => setPriority(WindowsIds.Workshop);
             const func_6 = () => setPriority(WindowsIds.Craft);
             const func_7 = () => setPriority(WindowsIds.Potions);
+
+            function div_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    inventoryEl = $$value;
+                    $$invalidate(11, inventoryEl);
+                });
+            }
 
             $$self.$$.update = () => {
                 if ($$self.$$.dirty[0] & /*$inventoryCurrentItem*/ 2097152) {
@@ -261568,13 +261710,13 @@ setTimeout(() => {
                     }
                 }
 
-                if ($$self.$$.dirty[0] & /*$itemsInInterval, interval, $inventories*/ 1572865) {
+                if ($$self.$$.dirty[0] & /*$itemsInInterval, interval, $inventories*/ 5242881) {
                     $: {
                         if (!(0, lodash.isEmpty)($itemsInInterval)) {
                             let slotPath = [];
 
                             if ((0, lodash.isNil)(interval)) {
-                                $$invalidate(19, interval = setInterval(
+                                $$invalidate(20, interval = setInterval(
                                     () => {
                                         $itemsInInterval.forEach((item, index) => {
                                             const timeString = calculateTime(item.timeDifference);
@@ -261613,7 +261755,7 @@ setTimeout(() => {
                             }
                         } else {
                             clearInterval(interval);
-                            $$invalidate(19, interval = null);
+                            $$invalidate(20, interval = null);
                         }
                     }
                 }
@@ -261631,6 +261773,7 @@ setTimeout(() => {
                 craftVisible,
                 potionsVisible,
                 selectedWindow,
+                inventoryEl,
                 $isLavka,
                 $characterInventorySelectedTab,
                 $warehouseTypeId,
@@ -261640,8 +261783,8 @@ setTimeout(() => {
                 closeWallet,
                 closeInventory,
                 interval,
-                $itemsInInterval,
                 $inventoryCurrentItem,
+                $itemsInInterval,
                 func,
                 func_1,
                 func_2,
@@ -261649,14 +261792,15 @@ setTimeout(() => {
                 func_4,
                 func_5,
                 func_6,
-                func_7
+                func_7,
+                div_binding
             ];
         }
 
         class index_svelte_Inventory extends Component_SvelteComponent {
             constructor(options) {
                 super();
-                Component_init(this, options, views_inventory_index_svelte_instance, views_inventory_index_svelte_create_fragment, utils_safe_not_equal, {}, null, [-1, -1]);
+                Component_init(this, options, views_inventory_index_svelte_instance, views_inventory_index_svelte_create_fragment, utils_safe_not_equal, {}, null, [-1, -1, -1]);
             }
         }
 
@@ -377694,7 +377838,530 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const find_treasures_index_svelte = (Find_treasures);; // CONCATENATED MODULE: ./src/App.svelte
+        const find_treasures_index_svelte = (Find_treasures);; // CONCATENATED MODULE: ./src/views/sync-packets-log/store.js
+        function sync_packets_log_store_typeof(o) {
+            "@babel/helpers - typeof";
+            return sync_packets_log_store_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, sync_packets_log_store_typeof(o);
+        }
+
+        function sync_packets_log_store_toConsumableArray(r) {
+            return sync_packets_log_store_arrayWithoutHoles(r) || sync_packets_log_store_iterableToArray(r) || sync_packets_log_store_unsupportedIterableToArray(r) || sync_packets_log_store_nonIterableSpread();
+        }
+
+        function sync_packets_log_store_nonIterableSpread() {
+            throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+        }
+
+        function sync_packets_log_store_unsupportedIterableToArray(r, a) {
+            if (r) {
+                if ("string" == typeof r) return sync_packets_log_store_arrayLikeToArray(r, a);
+                var t = {}.toString.call(r).slice(8, -1);
+                return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? sync_packets_log_store_arrayLikeToArray(r, a) : void 0;
+            }
+        }
+
+        function sync_packets_log_store_iterableToArray(r) {
+            if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r);
+        }
+
+        function sync_packets_log_store_arrayWithoutHoles(r) {
+            if (Array.isArray(r)) return sync_packets_log_store_arrayLikeToArray(r);
+        }
+
+        function sync_packets_log_store_arrayLikeToArray(r, a) {
+            (null == a || a > r.length) && (a = r.length);
+            for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e];
+            return n;
+        }
+
+        function sync_packets_log_store_ownKeys(e, r) {
+            var t = Object.keys(e);
+            if (Object.getOwnPropertySymbols) {
+                var o = Object.getOwnPropertySymbols(e);
+                r && (o = o.filter(function(r) {
+                    return Object.getOwnPropertyDescriptor(e, r).enumerable;
+                })), t.push.apply(t, o);
+            }
+            return t;
+        }
+
+        function sync_packets_log_store_objectSpread(e) {
+            for (var r = 1; r < arguments.length; r++) {
+                var t = null != arguments[r] ? arguments[r] : {};
+                r % 2 ? sync_packets_log_store_ownKeys(Object(t), !0).forEach(function(r) {
+                    sync_packets_log_store_defineProperty(e, r, t[r]);
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : sync_packets_log_store_ownKeys(Object(t)).forEach(function(r) {
+                    Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
+                });
+            }
+            return e;
+        }
+
+        function sync_packets_log_store_defineProperty(e, r, t) {
+            return (r = sync_packets_log_store_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function sync_packets_log_store_toPropertyKey(t) {
+            var i = sync_packets_log_store_toPrimitive(t, "string");
+            return "symbol" == sync_packets_log_store_typeof(i) ? i : i + "";
+        }
+
+        function sync_packets_log_store_toPrimitive(t, r) {
+            if ("object" != sync_packets_log_store_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != sync_packets_log_store_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+
+        var MAX_PACKETS = 30;
+
+        function createPacketsStore() {
+            var _writable = store_writable([]),
+                subscribe = _writable.subscribe,
+                set = _writable.set,
+                update = _writable.update;
+            return {
+                subscribe: subscribe,
+                set: set,
+                addPacket: function addPacket(time, data, onTimeout) {
+                    update(function(packets) {
+                        var newPacket = {
+                            time: time,
+                            data: data,
+                            isNew: true
+                        };
+                        if (onTimeout) {
+                            newPacket.timeout = setTimeout(function() {
+                                update(function(p) {
+                                    return p.map(function(packet) {
+                                        return packet === newPacket ? sync_packets_log_store_objectSpread(sync_packets_log_store_objectSpread({}, packet), {}, {
+                                            isNew: false
+                                        }) : packet;
+                                    });
+                                });
+                                onTimeout(newPacket);
+                            }, 2500);
+                        }
+                        var updatedPackets = [newPacket].concat(sync_packets_log_store_toConsumableArray(packets));
+                        if (updatedPackets.length > MAX_PACKETS) {
+                            var removed = updatedPackets.pop();
+                            if (removed && removed.timeout) {
+                                clearTimeout(removed.timeout);
+                            }
+                        }
+                        return updatedPackets;
+                    });
+                },
+                clear: function clear() {
+                    return set([]);
+                },
+                reset: function reset() {
+                    return set([]);
+                }
+            };
+        }
+        var syncPackets = createPacketsStore();
+        var syncPacketsLogVisible = store_writable(false);
+        var toggleVisible = function toggleVisible(visible) {
+            return syncPacketsLogVisible.set(visible);
+        };
+        registerEvent('event.syncPacketsLog.toggleVisible', toggleVisible);; // CONCATENATED MODULE: ./src/views/sync-packets-log/index.svelte
+        /* src\views\sync-packets-log\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+        function sync_packets_log_index_svelte_add_css(target) {
+            append_styles(target, "svelte-4d0ecm", ".sync-packets-log.svelte-4d0ecm{position:fixed;bottom:56px;left:50%;transform:translateX(-50%);height:500px;width:1400px;max-width:1400px;max-height:500px;background:rgba(0, 0, 0, 0.4);border:1px solid rgba(255, 255, 255, 0.2);border-radius:4px;padding:8px;font-family:\"Courier New\", monospace;font-size:12px;color:#00ff00;z-index:100;overflow:hidden;display:flex;flex-direction:column}.sync-packets-log__header.svelte-4d0ecm{font-weight:bold;color:#00ff00;margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid rgba(255, 255, 255, 0.2);font-size:13px}.sync-packets-log__packets-container.svelte-4d0ecm{overflow-y:visible;flex:1;max-height:none}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar{width:6px}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar-track{background:rgba(255, 255, 255, 0.05)}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar-thumb{background:rgba(255, 255, 255, 0.2);border-radius:3px}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar-thumb:hover{background:rgba(255, 255, 255, 0.3)}.sync-packets-log__packet.svelte-4d0ecm{line-height:1;padding:4px 6px;white-space:pre-wrap;word-break:break-all;font-size:20px}.sync-packets-log__packet__time.svelte-4d0ecm{color:#ffff00;margin-right:8px;font-weight:bold}.sync-packets-log__packet__data.svelte-4d0ecm{color:#00ff00}.sync-packets-log--empty.svelte-4d0ecm{color:#ff6666;text-align:center;padding:16px 8px;font-size:12px}");
+        }
+
+        function sync_packets_log_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[8] = list[i];
+            child_ctx[10] = i;
+            return child_ctx;
+        }
+
+        // (113:0) {#if $syncPacketsLogVisible}
+        function sync_packets_log_index_svelte_create_if_block(ctx) {
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let div2_intro;
+
+            function select_block_type(ctx, dirty) {
+                if ( /*$syncPackets*/ ctx[2].length === 0) return sync_packets_log_index_svelte_create_if_block_1;
+                return sync_packets_log_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block = current_block_type(ctx);
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "Sync Packets Log";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    if_block.c();
+                    dom_attr(div0, "class", "sync-packets-log__header svelte-4d0ecm");
+                    dom_attr(div1, "class", "sync-packets-log__packets-container svelte-4d0ecm");
+                    dom_attr(div2, "class", "sync-packets-log svelte-4d0ecm");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    if_block.m(div1, null);
+                    /*div1_binding*/
+                    ctx[3](div1);
+                },
+                p(ctx, dirty) {
+                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block) {
+                        if_block.p(ctx, dirty);
+                    } else {
+                        if_block.d(1);
+                        if_block = current_block_type(ctx);
+
+                        if (if_block) {
+                            if_block.c();
+                            if_block.m(div1, null);
+                        }
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div2_intro) {
+                            add_render_callback(() => {
+                                div2_intro = create_in_transition(div2, fade, {
+                                    duration: 200
+                                });
+                                div2_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+
+                    if_block.d();
+                    /*div1_binding*/
+                    ctx[3](null);
+                }
+            };
+        }
+
+        // (124:3) {:else}
+        function sync_packets_log_index_svelte_create_else_block(ctx) {
+            let each_blocks = [];
+            let each_1_lookup = new Map();
+            let each_1_anchor;
+            let each_value = each_ensure_array_like( /*$syncPackets*/ ctx[2]);
+            const get_key = ctx => /*index*/ ctx[10];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                let child_ctx = sync_packets_log_index_svelte_get_each_context(ctx, each_value, i);
+                let key = get_key(child_ctx);
+                each_1_lookup.set(key, each_blocks[i] = sync_packets_log_index_svelte_create_each_block(key, child_ctx));
+            }
+
+            return {
+                c() {
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    each_1_anchor = empty();
+                },
+                m(target, anchor) {
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(target, anchor);
+                        }
+                    }
+
+                    dom_insert(target, each_1_anchor, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$syncPackets*/ 4) {
+                        each_value = each_ensure_array_like( /*$syncPackets*/ ctx[2]);
+                        each_blocks = update_keyed_each(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, each_1_anchor.parentNode, destroy_block, sync_packets_log_index_svelte_create_each_block, each_1_anchor, sync_packets_log_index_svelte_get_each_context);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(each_1_anchor);
+                    }
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].d(detaching);
+                    }
+                }
+            };
+        }
+
+        // (120:3) {#if $syncPackets.length === 0}
+        function sync_packets_log_index_svelte_create_if_block_1(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.textContent = "No packets";
+                    dom_attr(div, "class", "sync-packets-log--empty svelte-4d0ecm");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (128:7) {#if packet.isNew}
+        function sync_packets_log_index_svelte_create_if_block_2(ctx) {
+            let t;
+
+            return {
+                c() {
+                    t = dom_text("🆕");
+                },
+                m(target, anchor) {
+                    dom_insert(target, t, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t);
+                    }
+                }
+            };
+        }
+
+        // (125:4) {#each $syncPackets as packet, index (index)}
+        function sync_packets_log_index_svelte_create_each_block(key_1, ctx) {
+            let div;
+            let span0;
+            let t0;
+            let t1_value = /*packet*/ ctx[8].time + "";
+            let t1;
+            let t2;
+            let t3;
+            let span1;
+            let t4_value = /*packet*/ ctx[8].data + "";
+            let t4;
+            let t5;
+            let div_intro;
+            let if_block = /*packet*/ ctx[8].isNew && sync_packets_log_index_svelte_create_if_block_2(ctx);
+
+            return {
+                key: key_1,
+                first: null,
+                c() {
+                    div = dom_element("div");
+                    span0 = dom_element("span");
+                    if (if_block) if_block.c();
+                    t0 = dom_text("[");
+                    t1 = dom_text(t1_value);
+                    t2 = dom_text("]");
+                    t3 = dom_space();
+                    span1 = dom_element("span");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    dom_attr(span0, "class", "sync-packets-log__packet__time svelte-4d0ecm");
+                    dom_attr(span1, "class", "sync-packets-log__packet__data svelte-4d0ecm");
+                    dom_attr(div, "class", "sync-packets-log__packet svelte-4d0ecm");
+                    this.first = div;
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, span0);
+                    if (if_block) if_block.m(span0, null);
+                    dom_append(span0, t0);
+                    dom_append(span0, t1);
+                    dom_append(span0, t2);
+                    dom_append(div, t3);
+                    dom_append(div, span1);
+                    dom_append(span1, t4);
+                    dom_append(div, t5);
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+
+                    if ( /*packet*/ ctx[8].isNew) {
+                        if (if_block) {
+
+                        } else {
+                            if_block = sync_packets_log_index_svelte_create_if_block_2(ctx);
+                            if_block.c();
+                            if_block.m(span0, t0);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (dirty & /*$syncPackets*/ 4 && t1_value !== (t1_value = /*packet*/ ctx[8].time + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*$syncPackets*/ 4 && t4_value !== (t4_value = /*packet*/ ctx[8].data + "")) dom_set_data(t4, t4_value);
+                },
+                i(local) {
+                    if (local) {
+                        if (!div_intro) {
+                            add_render_callback(() => {
+                                div_intro = create_in_transition(div, fade, {
+                                    duration: 250
+                                });
+                                div_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        function sync_packets_log_index_svelte_create_fragment(ctx) {
+            let if_block_anchor;
+            let if_block = /*$syncPacketsLogVisible*/ ctx[1] && sync_packets_log_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*$syncPacketsLogVisible*/ ctx[1]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*$syncPacketsLogVisible*/ 2) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = sync_packets_log_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function sync_packets_log_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $syncPacketsLogVisible;
+            let $syncPackets;
+            utils_component_subscribe($$self, syncPacketsLogVisible, $$value => $$invalidate(1, $syncPacketsLogVisible = $$value));
+            utils_component_subscribe($$self, syncPackets, $$value => $$invalidate(2, $syncPackets = $$value));
+            let packetsContainer;
+
+            const addPacket = (time, data) => {
+                syncPackets.addPacket(time, data, () => {
+
+                }); //
+
+                setTimeout(
+                    () => {
+                        if (packetsContainer) {
+                            $$invalidate(0, packetsContainer.scrollTop = packetsContainer.scrollHeight, packetsContainer);
+                        }
+                    },
+                    0
+                );
+            };
+
+            const clearPackets = () => {
+                syncPackets.clear();
+            };
+
+            const unregisterAddPacket = registerEvent('event.syncPacketsLog.addPacket', addPacket);
+            const unregisterClear = registerEvent('event.syncPacketsLog.clear', clearPackets);
+
+            /*setTimeout(() => {
+	addPacket( '13:37:45',  'Packet #17 - Player sync received' );
+}, 1500);
+setTimeout(() => {
+	addPacket( '13:37:48',  'Packet #18 - Player sync received' );
+}, 3000);
+setTimeout(() => {
+	addPacket( '13:38:48',  'SetPlayerAttachCustomObject(index: %i, modelid: %i, bone: %i, result: %i)' );
+}, 4500);*/
+            onDestroy(() => {
+                unregisterAddPacket();
+                unregisterClear();
+            });
+
+            function div1_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    packetsContainer = $$value;
+                    $$invalidate(0, packetsContainer);
+                });
+            }
+
+            return [packetsContainer, $syncPacketsLogVisible, $syncPackets, div1_binding];
+        }
+
+        class Sync_packets_log extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, sync_packets_log_index_svelte_instance, sync_packets_log_index_svelte_create_fragment, utils_safe_not_equal, {}, sync_packets_log_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const sync_packets_log_index_svelte = (Sync_packets_log);; // CONCATENATED MODULE: ./src/App.svelte
         /* src\App.svelte generated by Svelte v4.2.8 */
 
 
@@ -377796,6 +378463,7 @@ const getRandomTableNumber = () => {
 
 
 
+
         function App_svelte_create_if_block_12(ctx) {
             let vicecityhud;
             let current;
@@ -377824,7 +378492,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (319:0) {#if arizonaHudVisible}
+        // (320:0) {#if arizonaHudVisible}
         function App_svelte_create_if_block_11(ctx) {
             let arizonahud;
             let current;
@@ -377853,7 +378521,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (323:0) {#if hudVisible}
+        // (324:0) {#if hudVisible}
         function App_svelte_create_if_block_10(ctx) {
             let hud;
             let current;
@@ -377882,7 +378550,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (326:0) {#if radioVisible}
+        // (327:0) {#if radioVisible}
         function App_svelte_create_if_block_9(ctx) {
             let radio;
             let current;
@@ -377911,7 +378579,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (330:0) {#if battleroyaleHudVisible}
+        // (331:0) {#if battleroyaleHudVisible}
         function App_svelte_create_if_block_8(ctx) {
             let battleroyalehud;
             let current;
@@ -377940,7 +378608,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (334:0) {#if $battleroyaleMapVisible}
+        // (335:0) {#if $battleroyaleMapVisible}
         function App_svelte_create_if_block_7(ctx) {
             let battleroyalemap;
             let current;
@@ -377969,7 +378637,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (337:0) {#if horizontalPhoneVisible}
+        // (338:0) {#if horizontalPhoneVisible}
         function App_svelte_create_if_block_6(ctx) {
             let horizontalphone;
             let current;
@@ -377998,7 +378666,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (341:0) {#if phoneVisible}
+        // (342:0) {#if phoneVisible}
         function App_svelte_create_if_block_5(ctx) {
             let phone;
             let current;
@@ -378027,7 +378695,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (345:0) {#if $videoBackgroundVisible}
+        // (346:0) {#if $videoBackgroundVisible}
         function App_svelte_create_if_block_4(ctx) {
             let videobackground;
             let current;
@@ -378056,7 +378724,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (349:0) {#if !isNil(views[$selectedView])}
+        // (350:0) {#if !isNil(views[$selectedView])}
         function App_svelte_create_if_block_3(ctx) {
             let switch_instance;
             let switch_instance_anchor;
@@ -378125,7 +378793,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (353:0) {#if actionProgressBarVisible}
+        // (354:0) {#if actionProgressBarVisible}
         function App_svelte_create_if_block_2(ctx) {
             let actionprogressbar;
             let current;
@@ -378154,7 +378822,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (357:0) {#if clickerVisible}
+        // (358:0) {#if clickerVisible}
         function App_svelte_create_if_block_1(ctx) {
             let clicker;
             let current;
@@ -378183,7 +378851,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (361:0) {#if countdownVisible}
+        // (362:0) {#if countdownVisible}
         function App_svelte_create_if_block(ctx) {
             let countdown;
             let current;
@@ -378227,10 +378895,12 @@ const getRandomTableNumber = () => {
             let t10;
             let t11;
             let t12;
-            let portalscontainer;
+            let syncpacketslog;
             let t13;
-            let modalsroot;
+            let portalscontainer;
             let t14;
+            let modalsroot;
+            let t15;
             let toast;
             let current;
             let if_block0 = /*viceCityHudVisible*/ ctx[0] && App_svelte_create_if_block_12(ctx);
@@ -378246,6 +378916,7 @@ const getRandomTableNumber = () => {
             let if_block10 = /*actionProgressBarVisible*/ ctx[3] && App_svelte_create_if_block_2(ctx);
             let if_block11 = /*clickerVisible*/ ctx[7] && App_svelte_create_if_block_1(ctx);
             let if_block12 = /*countdownVisible*/ ctx[8] && App_svelte_create_if_block(ctx);
+            syncpacketslog = new sync_packets_log_index_svelte({});
             portalscontainer = new container_svelte({});
             modalsroot = new modals_root_index_svelte({});
             toast = new toast_index_svelte({});
@@ -378278,10 +378949,12 @@ const getRandomTableNumber = () => {
                     t11 = dom_space();
                     if (if_block12) if_block12.c();
                     t12 = dom_space();
-                    create_component(portalscontainer.$$.fragment);
+                    create_component(syncpacketslog.$$.fragment);
                     t13 = dom_space();
-                    create_component(modalsroot.$$.fragment);
+                    create_component(portalscontainer.$$.fragment);
                     t14 = dom_space();
+                    create_component(modalsroot.$$.fragment);
+                    t15 = dom_space();
                     create_component(toast.$$.fragment);
                 },
                 m(target, anchor) {
@@ -378311,10 +378984,12 @@ const getRandomTableNumber = () => {
                     dom_insert(target, t11, anchor);
                     if (if_block12) if_block12.m(target, anchor);
                     dom_insert(target, t12, anchor);
-                    mount_component(portalscontainer, target, anchor);
+                    mount_component(syncpacketslog, target, anchor);
                     dom_insert(target, t13, anchor);
-                    mount_component(modalsroot, target, anchor);
+                    mount_component(portalscontainer, target, anchor);
                     dom_insert(target, t14, anchor);
+                    mount_component(modalsroot, target, anchor);
+                    dom_insert(target, t15, anchor);
                     mount_component(toast, target, anchor);
                     current = true;
                 },
@@ -378611,6 +379286,7 @@ const getRandomTableNumber = () => {
                     transitions_transition_in(if_block10);
                     transitions_transition_in(if_block11);
                     transitions_transition_in(if_block12);
+                    transitions_transition_in(syncpacketslog.$$.fragment, local);
                     transitions_transition_in(portalscontainer.$$.fragment, local);
                     transitions_transition_in(modalsroot.$$.fragment, local);
                     transitions_transition_in(toast.$$.fragment, local);
@@ -378630,6 +379306,7 @@ const getRandomTableNumber = () => {
                     transitions_transition_out(if_block10);
                     transitions_transition_out(if_block11);
                     transitions_transition_out(if_block12);
+                    transitions_transition_out(syncpacketslog.$$.fragment, local);
                     transitions_transition_out(portalscontainer.$$.fragment, local);
                     transitions_transition_out(modalsroot.$$.fragment, local);
                     transitions_transition_out(toast.$$.fragment, local);
@@ -378652,6 +379329,7 @@ const getRandomTableNumber = () => {
                         dom_detach(t12);
                         dom_detach(t13);
                         dom_detach(t14);
+                        dom_detach(t15);
                     }
 
                     if (if_block0) if_block0.d(detaching);
@@ -378667,6 +379345,7 @@ const getRandomTableNumber = () => {
                     if (if_block10) if_block10.d(detaching);
                     if (if_block11) if_block11.d(detaching);
                     if (if_block12) if_block12.d(detaching);
+                    destroy_component(syncpacketslog, detaching);
                     destroy_component(portalscontainer, detaching);
                     destroy_component(modalsroot, detaching);
                     destroy_component(toast, detaching);
@@ -378898,7 +379577,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "7278482c");
+                    console.log(`[debug] app init`, "1021", "35ff5cc8");
                 }
             });
 
@@ -378965,7 +379644,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "7278482c");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "35ff5cc8");
     })();
 
     /******/

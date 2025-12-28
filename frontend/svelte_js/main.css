@@ -29074,11 +29074,10 @@
     background-size: cover;
     height: 100vh;
     left: 0;
-    pointer-events: none;
     position: absolute;
     top: 0;
     width: 100%;
-    z-index: -1
+    z-index: 0
 }
 
 .inventory__main-inventory-wrapper {
@@ -29088,7 +29087,8 @@
 .inventory__character-wrapper,
 .inventory__main-inventory-wrapper {
     position: absolute;
-    top: max(calc((var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*113*var(--global-scale)*0.44 - (var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px)
+    top: max(calc((var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*113*var(--global-scale)*0.44 - (var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
+    z-index: 1
 }
 
 .inventory__character-wrapper {
@@ -29102,7 +29102,8 @@
 .inventory__info-wrapper,
 .inventory__wallet-wrapper {
     left: max(calc((var(--global-scale)*75*var(--global-scale) - var(--global-scale)*75*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*75*var(--global-scale)*0.44 - (var(--global-scale)*75*var(--global-scale) - var(--global-scale)*75*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
-    position: absolute
+    position: absolute;
+    z-index: 1
 }
 
 .inventory__info-wrapper {
@@ -29111,14 +29112,16 @@
 
 .inventory__trunk-wrapper {
     position: absolute;
-    top: max(calc((var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*113*var(--global-scale)*0.44 - (var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px)
+    top: max(calc((var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*113*var(--global-scale)*0.44 - (var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
+    z-index: 1
 }
 
 .inventory__shop-wrapper,
 .inventory__trade-wrapper {
     left: max(calc((var(--global-scale)*460*var(--global-scale) - var(--global-scale)*460*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*460*var(--global-scale)*0.44 - (var(--global-scale)*460*var(--global-scale) - var(--global-scale)*460*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     position: absolute;
-    top: max(calc((var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*113*var(--global-scale)*0.44 - (var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px)
+    top: max(calc((var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*113*var(--global-scale)*0.44 - (var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
+    z-index: 1
 }
 
 .inventory__trade-wrapper {
@@ -29129,7 +29132,8 @@
     left: max(calc((var(--global-scale)*460*var(--global-scale) - var(--global-scale)*460*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*460*var(--global-scale)*0.44 - (var(--global-scale)*460*var(--global-scale) - var(--global-scale)*460*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     position: absolute;
     top: max(calc((var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*113*var(--global-scale)*0.44 - (var(--global-scale)*113*var(--global-scale) - var(--global-scale)*113*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
-    width: auto
+    width: auto;
+    z-index: 1
 }
 
 .property-list {
