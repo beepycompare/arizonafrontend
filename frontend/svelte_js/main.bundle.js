@@ -118804,7 +118804,7 @@
             "active": 0
         }, {
             "id": 9265,
-            "name": "Обуfвь Друида R (Легендарный)",
+            "name": "Обувь Друида R (Легендарный)",
             "icon": "9265.webp",
             "acs_slot": -1,
             "type": 73,
@@ -121360,7 +121360,7 @@
             "acs_slot": -1,
             "type": 73,
             "active": 0,
-            "effect": "frierenEffe"
+            "effect": "bearEffect"
         }, {
             "id": 9618,
             "name": "Обувь Фрирен R (Хлам)",
@@ -121794,7 +121794,7 @@
             "id": 9676,
             "name": "Гари Помощник (Хлам)",
             "icon": "9676.webp",
-            "acs_slot": 0,
+            "acs_slot": 5,
             "type": 3,
             "active": 0
         }, {
@@ -121904,14 +121904,14 @@
             "id": 9691,
             "name": "Гари Помощник (Редкий)",
             "icon": "9691.webp",
-            "acs_slot": 0,
+            "acs_slot": 5,
             "type": 3,
             "active": 0
         }, {
             "id": 9692,
             "name": "Гари Помощник (Легендарный)",
             "icon": "9692.webp",
-            "acs_slot": 0,
+            "acs_slot": 5,
             "type": 3,
             "active": 0,
             "effect": "zootopiaEff"
@@ -121973,14 +121973,14 @@
             "active": 0
         }, {
             "id": 9701,
-            "name": "Диски (Пряня)",
+            "name": "Диски (Пряня 2k26)",
             "icon": "9701.webp",
             "acs_slot": 7,
             "type": 23,
             "active": 0
         }, {
             "id": 9702,
-            "name": "Диски (Ёлочка)",
+            "name": "Диски (Ёлочка 2k26)",
             "icon": "9702.webp",
             "acs_slot": 7,
             "type": 23,
@@ -122092,42 +122092,42 @@
             "active": 0
         }, {
             "id": 9718,
-            "name": "Тюнинг-пак для Фура 1",
+            "name": "Тюнинг-пак для Фура Зверя Tier 1",
             "icon": "9718.webp",
             "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 9719,
-            "name": "Тюнинг-пак для Фура 2",
+            "name": "Тюнинг-пак для Фура Зверя Tier 2",
             "icon": "9719.webp",
             "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 9720,
-            "name": "Тюнинг-пак для Фура 3",
+            "name": "Тюнинг-пак для Фура Зверя Tier 3",
             "icon": "9720.webp",
             "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 9721,
-            "name": "Кенгурятник для Фура 1",
+            "name": "Кенгурятник для Фура Зверя Tier 1",
             "icon": "9721.webp",
             "acs_slot": 11,
             "type": 23,
             "active": 0
         }, {
             "id": 9722,
-            "name": "Кенгурятник для Фура 2",
+            "name": "Кенгурятник для Фура Зверя Tier 2",
             "icon": "9722.webp",
             "acs_slot": 11,
             "type": 23,
             "active": 0
         }, {
             "id": 9723,
-            "name": "Кенгурятник для Фура 3",
+            "name": "Кенгурятник для Фура Зверя Tier 3",
             "icon": "9723.webp",
             "acs_slot": -1,
             "type": 23,
@@ -122136,6 +122136,127 @@
             "id": 9724,
             "name": "Подарочный бокс 2026",
             "icon": "9724.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9725,
+            "name": "Фейерверк 2026",
+            "icon": "9725.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9726,
+            "name": "ЛОТЕРЕЙНЫЙ БИЛЕТ 2к26",
+            "icon": "9726.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9727,
+            "name": "Кейс Код 26 (непередаваемый)",
+            "icon": "9727.webp",
+            "acs_slot": -1,
+            "type": 74,
+            "active": 0
+        }, {
+            "id": 9728,
+            "name": "Монета Петушка",
+            "icon": "9728.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9729,
+            "name": "Кенгурятник для BMW волшебника 2026",
+            "icon": "9729.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9730,
+            "name": "Кенгурятник для ЧубВоз 26",
+            "icon": "9730.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9731,
+            "name": "Сертификат Фура Зверя Tier 1",
+            "icon": "9731.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9732,
+            "name": "Сертификат Фура Зверя Tier 2",
+            "icon": "9732.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9733,
+            "name": "Сертификат Фура Зверя Tier 3",
+            "icon": "9733.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9734,
+            "name": "Сертификат Дирижабль Магната Tier 1",
+            "icon": "9734.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9735,
+            "name": "Сертификат Дирижабль Магната Tier 2",
+            "icon": "9735.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9736,
+            "name": "Сертификат Дирижабль Магната Tier 3",
+            "icon": "9736.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9737,
+            "name": "Tier 1 Обвес Дерижабль Магната",
+            "icon": "9737.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9738,
+            "name": "Tier 2 Обвес Дерижабль Магната",
+            "icon": "9738.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9739,
+            "name": "Tier 3 Обвес Дерижабль Магната",
+            "icon": "9739.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0,
+            "effect": "fire"
+        }, {
+            "id": 9740,
+            "name": "Сертификат охранника Чубрик",
+            "icon": "9740.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9741,
+            "name": "2к26 Монетный Ларец",
+            "icon": "9741.webp",
             "acs_slot": -1,
             "type": 15,
             "active": 0
@@ -289846,7 +289967,7 @@ const getRandomTableNumber = () => {
             "availableToReceive": false
         }, {
             "level": 2,
-            "title": "Волшебные шары Код 26",
+            "title": "Волшебные шары 'КОД 26' (На 24 часа)",
             "sysName": 9649,
             "sellPrice": 50,
             "availableToReceive": false
@@ -289924,7 +290045,7 @@ const getRandomTableNumber = () => {
             "availableToReceive": false
         }, {
             "level": 15,
-            "title": "Аксессуар: Вертолет протокола",
+            "title": "Аксессуар: Вертолет протокола (На 48 часов)",
             "sysName": 9650,
             "sellPrice": 50,
             "availableToReceive": false
@@ -290002,7 +290123,7 @@ const getRandomTableNumber = () => {
             "availableToReceive": false
         }, {
             "level": 28,
-            "title": "Скин: Новогодний Филип (ID: 1080)",
+            "title": "Новогодний Филип (ID: 1080)",
             "sysName": 9551,
             "sellPrice": 50,
             "availableToReceive": false
@@ -290098,7 +290219,7 @@ const getRandomTableNumber = () => {
             "availableToReceive": false
         }, {
             "level": 44,
-            "title": "Скин: Молодой лесоруб (ID: 1078)",
+            "title": "Молодой лесоруб",
             "sysName": 9549,
             "sellPrice": 50,
             "availableToReceive": false
@@ -290110,7 +290231,7 @@ const getRandomTableNumber = () => {
             "availableToReceive": false
         }, {
             "level": 46,
-            "title": "Скин: Викинг (ID: 1083)",
+            "title": "Викинг (На 60 часов)",
             "sysName": 9554,
             "sellPrice": 50,
             "availableToReceive": false
@@ -291811,7 +291932,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        const finishUnix = 1765764305;
+        const finishUnix = 1768964678;
         const main_index_svelte_PAGE_SIZE = 4;
 
         function event_pass_components_main_index_svelte_instance($$self, $$props, $$invalidate) {
@@ -384373,10 +384494,12 @@ const getRandomTableNumber = () => {
 
             onDestroy(() => {
                 subscribesManager.unsubscribe(PLAYER_METHODS);
-                unregisterPlayerSatiety();
-                unregisterPlayerPower();
-                unregisterPlayerWanted();
+
+                // unregisterPlayerSatiety();
+                // unregisterPlayerPower();
+                // unregisterPlayerWanted();
                 unregisterPlayersEventOnline();
+
                 unregisterPlayerChickensKilled();
                 unregisterTimeLeft();
                 unregisterPlayeCoins();
@@ -389524,7 +389647,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "bae2cb77");
+                    console.log(`[debug] app init`, "1021", "99d732ad");
                 }
             });
 
@@ -389592,7 +389715,7 @@ setTimeout(() => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "bae2cb77");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "99d732ad");
     })();
 
     /******/
