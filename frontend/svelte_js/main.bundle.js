@@ -53931,7 +53931,7 @@
             "name": " ",
             "icon": "0.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 1,
@@ -101251,203 +101251,203 @@
             "name": "Тренировочный COLT45",
             "icon": "6760.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6761,
             "name": "Тренировочный SILENCED",
             "icon": "6761.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6762,
             "name": "Тренировочный DEAGLE",
             "icon": "6762.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6763,
             "name": "Тренировочный SHOTGUN",
             "icon": "6763.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6764,
             "name": "Тренировочный SAWEDOFF",
             "icon": "6764.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6765,
             "name": "Тренировочный SHOTGSPA",
             "icon": "6765.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6766,
             "name": "Тренировочный UZI",
             "icon": "6766.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6767,
             "name": "Тренировочный MP5",
             "icon": "6767.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6768,
             "name": "Тренировочный AK47",
             "icon": "6768.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6769,
             "name": "Тренировочный M4",
             "icon": "6769.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6770,
             "name": "Тренировочный TEC9",
             "icon": "6770.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6771,
             "name": "Тренировочный RIFLE",
             "icon": "6771.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6772,
             "name": "Тренировочный SNIPER",
             "icon": "6772.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6773,
             "name": "Тренировочный DEAGLE_LONG",
             "icon": "6773.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6774,
             "name": "Тренировочный DEAGLE_GOLD_LONG",
             "icon": "6774.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6775,
             "name": "Тренировочный GLOCK_GRADIENT",
             "icon": "6775.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6776,
             "name": "Тренировочный DEAGLE_FLAME",
             "icon": "6776.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6777,
             "name": "Тренировочный PHYTON_ROYAL",
             "icon": "6777.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6778,
             "name": "Тренировочный PHYTON_SILVER",
             "icon": "6778.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6779,
             "name": "Тренировочный AK47_ROSES",
             "icon": "6779.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6780,
             "name": "Тренировочный AK47_GOLD",
             "icon": "6780.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6781,
             "name": "Тренировочный M249_GRAFFITI",
             "icon": "6781.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6782,
             "name": "Тренировочный SAIGA_GOLD",
             "icon": "6782.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6783,
             "name": "Тренировочный PPSH_STANDART",
             "icon": "6783.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6784,
             "name": "Тренировочный M249_STANDART",
             "icon": "6784.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6785,
             "name": "Тренировочный SKORP_STANDART",
             "icon": "6785.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6786,
             "name": "Тренировочный AKS74_CAMOUFLAGE1",
             "icon": "6786.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6787,
             "name": "Тренировочный AK47_CAMOUFLAGE1",
             "icon": "6787.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6788,
             "name": "Тренировочный REBECCA_SHOTGUN",
             "icon": "6788.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6789,
@@ -102308,7 +102308,7 @@
             "name": "DELETED",
             "icon": "6911.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6912,
@@ -102581,7 +102581,7 @@
             "name": "DELETED",
             "icon": "6950.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6951,
@@ -102707,7 +102707,7 @@
             "name": "DELETED",
             "icon": "6968.webp",
             "acs_slot": -1,
-            "type": 76,
+            "type": 78,
             "active": 0
         }, {
             "id": 6969,
@@ -109763,7 +109763,7 @@
             "name": "Пакет лицензий (1 год)",
             "icon": "7976.webp",
             "acs_slot": -1,
-            "type": 5,
+            "type": 15,
             "active": 0
         }, {
             "id": 7977,
@@ -118804,7 +118804,7 @@
             "active": 0
         }, {
             "id": 9265,
-            "name": "Обувь Друида R (Легендарный)",
+            "name": "Обуfвь Друида R (Легендарный)",
             "icon": "9265.webp",
             "acs_slot": -1,
             "type": 73,
@@ -120824,7 +120824,7 @@
             "active": 0
         }, {
             "id": 9544,
-            "name": "Серебренная кнопка",
+            "name": "Серебряная кнопка",
             "icon": "9544.webp",
             "acs_slot": 4,
             "type": 3,
@@ -120849,6 +120849,1295 @@
             "icon": "9547.webp",
             "acs_slot": -1,
             "type": 2,
+            "active": 0
+        }, {
+            "id": 9548,
+            "name": "Скин: Фрирен (ID: 1077)",
+            "icon": "9548.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9549,
+            "name": "Скин: Молодой лесоруб (ID: 1078)",
+            "icon": "9549.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9550,
+            "name": "Скин: Лепс (ID: 1079)",
+            "icon": "9550.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9551,
+            "name": "Скин: Новогодний Филип (ID: 1080)",
+            "icon": "9551.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9552,
+            "name": "Скин: Верка Сердючка (ID: 1081)",
+            "icon": "9552.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9553,
+            "name": "Скин: Боджек (ID: 1082)",
+            "icon": "9553.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9554,
+            "name": "Скин: Викинг (ID: 1083)",
+            "icon": "9554.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9555,
+            "name": "Обувь медведя L (Хлам)",
+            "icon": "9555.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9556,
+            "name": "Обувь медведя L (Обычный)",
+            "icon": "9556.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9557,
+            "name": "Обувь медведя L (Легендарный)",
+            "icon": "9557.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9558,
+            "name": "Броня медведя (Хлам)",
+            "icon": "9558.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9559,
+            "name": "Броня медведя (Обычный)",
+            "icon": "9559.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9560,
+            "name": "Броня медведя (Легендарный)",
+            "icon": "9560.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9561,
+            "name": "Наплечник медведя (Хлам)",
+            "icon": "9561.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9562,
+            "name": "Наплечник медведя (Обычный)",
+            "icon": "9562.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9563,
+            "name": "Наплечник медведя (Легендарный)",
+            "icon": "9563.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9564,
+            "name": "Шапка медведя (Хлам)",
+            "icon": "9564.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9565,
+            "name": "Шапка медведя (Обычный)",
+            "icon": "9565.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9566,
+            "name": "Шапка медведя (Легендарный)",
+            "icon": "9566.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9567,
+            "name": "Пояс медведя (Хлам)",
+            "icon": "9567.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9568,
+            "name": "Пояс медведя (Обычный)",
+            "icon": "9568.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9569,
+            "name": "Пояс медведя (Легендарный)",
+            "icon": "9569.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9570,
+            "name": "Наруч медведя (Хлам)",
+            "icon": "9570.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9571,
+            "name": "Наруч медведя (Обычный)",
+            "icon": "9571.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9572,
+            "name": "Наруч медведя (Легендарный)",
+            "icon": "9572.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9573,
+            "name": "Нимб медведя (Хлам)",
+            "icon": "9573.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9574,
+            "name": "Нимб медведя (Обычный)",
+            "icon": "9574.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9575,
+            "name": "Нимб медведя (Легендарный)",
+            "icon": "9575.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9576,
+            "name": "Плащ медведя (Хлам)",
+            "icon": "9576.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9577,
+            "name": "Плащ медведя (Обычный)",
+            "icon": "9577.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9578,
+            "name": "Плащ медведя (Легендарный)",
+            "icon": "9578.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9579,
+            "name": "Ожерелье медведя (Хлам)",
+            "icon": "9579.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9580,
+            "name": "Ожерелье медведя (Обычный)",
+            "icon": "9580.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9581,
+            "name": "Ожерелье медведя (Легендарный)",
+            "icon": "9581.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9582,
+            "name": "Топор медведя (Хлам)",
+            "icon": "9582.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9583,
+            "name": "Топор медведя (Обычный)",
+            "icon": "9583.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9584,
+            "name": "Топор медведя (Легендарный)",
+            "icon": "9584.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "bearEffect"
+        }, {
+            "id": 9585,
+            "name": "Мимик Фрирен (Хлам)",
+            "icon": "9585.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9586,
+            "name": "Мимик Фрирен (Обычный)",
+            "icon": "9586.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9587,
+            "name": "Мимик Фрирен (Легендарный)",
+            "icon": "9587.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9588,
+            "name": "Посох Фрирен (Хлам)",
+            "icon": "9588.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9589,
+            "name": "Посох Фрирен (Обычный)",
+            "icon": "9589.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9590,
+            "name": "Посох Фрирен (Легендарный)",
+            "icon": "9590.webp",
+            "acs_slot": 2,
+            "type": 3,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9591,
+            "name": "Нож Фрирен (Хлам)",
+            "icon": "9591.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9592,
+            "name": "Нож Фрирен (Обычный)",
+            "icon": "9592.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9593,
+            "name": "Нож Фрирен (Легендарный)",
+            "icon": "9593.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9594,
+            "name": "Весы Фрирен (Хлам)",
+            "icon": "9594.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9595,
+            "name": "Весы Фрирен (Обычный)",
+            "icon": "9595.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9596,
+            "name": "Весы Фрирен (Легендарный)",
+            "icon": "9596.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9597,
+            "name": "Обувь Фрирен L (Хлам)",
+            "icon": "9597.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9598,
+            "name": "Обувь Фрирен L (Обычный)",
+            "icon": "9598.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9599,
+            "name": "Обувь Фрирен L (Легендарный)",
+            "icon": "9599.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9600,
+            "name": "Венок Фрирен (Хлам)",
+            "icon": "9600.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9601,
+            "name": "Венок Фрирен (Обычный)",
+            "icon": "9601.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9602,
+            "name": "Венок Фрирен (Легендарный)",
+            "icon": "9602.webp",
+            "acs_slot": 1,
+            "type": 3,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9603,
+            "name": "Ожерелье Фрирен (Хлам)",
+            "icon": "9603.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9604,
+            "name": "Ожерелье Фрирен (Обычный)",
+            "icon": "9604.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9605,
+            "name": "Ожерелье Фрирен (Легендарный)",
+            "icon": "9605.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9606,
+            "name": "Щит Фрирен (Хлам)",
+            "icon": "9606.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9607,
+            "name": "Щит Фрирен (Обычный)",
+            "icon": "9607.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9608,
+            "name": "Щит Фрирен (Легендарный)",
+            "icon": "9608.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9609,
+            "name": "Гримуар Фрирен (Хлам)",
+            "icon": "9609.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9610,
+            "name": "Гримуар Фрирен (Обычный)",
+            "icon": "9610.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9611,
+            "name": "Гримуар Фрирен (Легендарный)",
+            "icon": "9611.webp",
+            "acs_slot": 4,
+            "type": 3,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9612,
+            "name": "Нимб Фрирен (Хлам)",
+            "icon": "9612.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9613,
+            "name": "Нимб Фрирен (Обычный)",
+            "icon": "9613.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9614,
+            "name": "Нимб Фрирен (Легендарный)",
+            "icon": "9614.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9615,
+            "name": "Обувь медведя R (Хлам)",
+            "icon": "9615.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9616,
+            "name": "Обувь медведя R (Обычный)",
+            "icon": "9616.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9617,
+            "name": "Обувь медведя R (Легендарный)",
+            "icon": "9617.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9618,
+            "name": "Обувь Фрирен R (Хлам)",
+            "icon": "9618.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9619,
+            "name": "Обувь Фрирен R (Обычный)",
+            "icon": "9619.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0
+        }, {
+            "id": 9620,
+            "name": "Обувь Фрирен R (Легендарный)",
+            "icon": "9620.webp",
+            "acs_slot": -1,
+            "type": 73,
+            "active": 0,
+            "effect": "frierenEffe"
+        }, {
+            "id": 9621,
+            "name": "Запечатанный: Обувь медведя L",
+            "icon": "9621.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9622,
+            "name": "Запечатанный: Броня медведя",
+            "icon": "9622.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9623,
+            "name": "Запечатанный: Наплечник медведя",
+            "icon": "9623.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9624,
+            "name": "Запечатанный: Шапка медведя",
+            "icon": "9624.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9625,
+            "name": "Запечатанный: Пояс медведя",
+            "icon": "9625.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9626,
+            "name": "Запечатанный: Наруч медведя",
+            "icon": "9626.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9627,
+            "name": "Запечатанный: Нимб медведя",
+            "icon": "9627.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9628,
+            "name": "Запечатанный: Плащ медведя",
+            "icon": "9628.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9629,
+            "name": "Запечатанный: Ожерелье медведя",
+            "icon": "9629.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9630,
+            "name": "Запечатанный: Топор медведя",
+            "icon": "9630.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9631,
+            "name": "Запечатанный: Мимик Фрирен",
+            "icon": "9631.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9632,
+            "name": "Запечатанный: Посох Фрирен",
+            "icon": "9632.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9633,
+            "name": "Запечатанный: Нож Фрирен",
+            "icon": "9633.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9634,
+            "name": "Запечатанный: Весы Фрирен",
+            "icon": "9634.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9635,
+            "name": "Запечатанный: Обувь Фрирен L",
+            "icon": "9635.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9636,
+            "name": "Запечатанный: Венок Фрирен",
+            "icon": "9636.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9637,
+            "name": "Запечатанный: Ожерелье Фрирен",
+            "icon": "9637.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9638,
+            "name": "Запечатанный: Щит Фрирен",
+            "icon": "9638.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9639,
+            "name": "Запечатанный: Гримуар Фрирен",
+            "icon": "9639.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9640,
+            "name": "Запечатанный: Нимб Фрирен",
+            "icon": "9640.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9641,
+            "name": "Запечатанный: Обувь медведя R",
+            "icon": "9641.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9642,
+            "name": "Запечатанный: Обувь Фрирен R",
+            "icon": "9642.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9643,
+            "name": "Жетон полиции зверополиса (Хлам)",
+            "icon": "9643.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9644,
+            "name": "Диктофон Джуди (Хлам)",
+            "icon": "9644.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9645,
+            "name": "Шарф Кошечки",
+            "icon": "9645.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9646,
+            "name": "Сумка бабушки",
+            "icon": "9646.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9647,
+            "name": "Теплая Шапка на год Лошади",
+            "icon": "9647.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9648,
+            "name": "Лавка Чубрика",
+            "icon": "9648.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 1
+        }, {
+            "id": 9649,
+            "name": "Волшебные шары Код 26",
+            "icon": "9649.webp",
+            "acs_slot": 0,
+            "type": 6,
+            "active": 1
+        }, {
+            "id": 9650,
+            "name": "Вертолет протокола",
+            "icon": "9650.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 1
+        }, {
+            "id": 9651,
+            "name": "Роблокс аксессуар",
+            "icon": "9651.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9652,
+            "name": "Сани",
+            "icon": "9652.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 1
+        }, {
+            "id": 9653,
+            "name": "Мешок с новогодними подарками",
+            "icon": "9653.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9654,
+            "name": "Красный новогодний сноуборд",
+            "icon": "9654.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 1
+        }, {
+            "id": 9655,
+            "name": "Сноуборд Протокола",
+            "icon": "9655.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 1
+        }, {
+            "id": 9656,
+            "name": "Объект: Мультяшная ёлка 1",
+            "icon": "9656.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9657,
+            "name": "Объект: Мультяшная ёлка 2",
+            "icon": "9657.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9658,
+            "name": "Объект: Новогодний кристалл",
+            "icon": "9658.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9659,
+            "name": "Объект: Стенд со снежинками",
+            "icon": "9659.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9660,
+            "name": "Объект: Новогодний фонарь",
+            "icon": "9660.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9661,
+            "name": "Объект: Снеговик",
+            "icon": "9661.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9662,
+            "name": "Объект: Морозный гриб",
+            "icon": "9662.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9663,
+            "name": "Объект: Морозные врата",
+            "icon": "9663.webp",
+            "acs_slot": -1,
+            "type": 21,
+            "active": 0
+        }, {
+            "id": 9664,
+            "name": "Сертификат Shorty",
+            "icon": "9664.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9665,
+            "name": "Сертификат Сани",
+            "icon": "9665.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9666,
+            "name": "Сертификат BMW волшебника 2026",
+            "icon": "9666.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9667,
+            "name": "Скин: Чубрик (ID: 1084)",
+            "icon": "9667.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9668,
+            "name": "Скин: Дед Мороз (ID: 1085)",
+            "icon": "9668.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9669,
+            "name": "Скин: Эльф (ID: 1086)",
+            "icon": "9669.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9670,
+            "name": "Скин: Джуди (ID: 1087)",
+            "icon": "9670.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9671,
+            "name": "Скин: Ник (ID: 1088)",
+            "icon": "9671.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9672,
+            "name": "Мороз на спину",
+            "icon": "9672.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9673,
+            "name": "Чубрик на спину",
+            "icon": "9673.webp",
+            "acs_slot": 5,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9674,
+            "name": "Скин: Киран Калкин (ID: 1089)",
+            "icon": "9674.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9675,
+            "name": "Скин: Заблокированный Роблокс (ID: 1090)",
+            "icon": "9675.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9676,
+            "name": "Гари Помощник (Хлам)",
+            "icon": "9676.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9677,
+            "name": "Карета(вокруг персонажа)",
+            "icon": "9677.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9678,
+            "name": "Тайник Медведя",
+            "icon": "9678.webp",
+            "acs_slot": -1,
+            "type": 0,
+            "active": 0
+        }, {
+            "id": 9679,
+            "name": "Тайник Сердючки",
+            "icon": "9679.webp",
+            "acs_slot": -1,
+            "type": 0,
+            "active": 0
+        }, {
+            "id": 9680,
+            "name": "Осколок Тайника Медведя",
+            "icon": "9680.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9681,
+            "name": "Осколок Тайника Сердючки",
+            "icon": "9681.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9682,
+            "name": "Запечатанный: Жетон полиции зверополиса",
+            "icon": "9682.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9683,
+            "name": "Запечатанный: Диктофон Джуди",
+            "icon": "9683.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9684,
+            "name": "Запечатанный: Гари Помощник",
+            "icon": "9684.webp",
+            "acs_slot": -1,
+            "type": 75,
+            "active": 0,
+            "effect": "white-fire"
+        }, {
+            "id": 9685,
+            "name": "Скин: Джуди Police (ID: 1091)",
+            "icon": "9685.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9686,
+            "name": "Скин: Ник Police (ID: 1092)",
+            "icon": "9686.webp",
+            "acs_slot": 0,
+            "type": 10,
+            "active": 0
+        }, {
+            "id": 9687,
+            "name": "Жетон полиции зверополиса (Редкий)",
+            "icon": "9687.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9688,
+            "name": "Жетон полиции зверополиса (Легендарный)",
+            "icon": "9688.webp",
+            "acs_slot": 3,
+            "type": 3,
+            "active": 0,
+            "effect": "zootopiaEff"
+        }, {
+            "id": 9689,
+            "name": "Диктофон Джуди (Редкий)",
+            "icon": "9689.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0
+        }, {
+            "id": 9690,
+            "name": "Диктофон Джуди (Легендарный)",
+            "icon": "9690.webp",
+            "acs_slot": 1,
+            "type": 6,
+            "active": 0,
+            "effect": "zootopiaEff"
+        }, {
+            "id": 9691,
+            "name": "Гари Помощник (Редкий)",
+            "icon": "9691.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0
+        }, {
+            "id": 9692,
+            "name": "Гари Помощник (Легендарный)",
+            "icon": "9692.webp",
+            "acs_slot": 0,
+            "type": 3,
+            "active": 0,
+            "effect": "zootopiaEff"
+        }, {
+            "id": 9693,
+            "name": "Форма полицейского из зверополиса",
+            "icon": "9693.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9694,
+            "name": "Печать нефтянника",
+            "icon": "9694.webp",
+            "acs_slot": -1,
+            "type": 76,
+            "active": 0
+        }, {
+            "id": 9695,
+            "name": "Печать нефтянника (непередаваемый)",
+            "icon": "9695.webp",
+            "acs_slot": -1,
+            "type": 76,
+            "active": 0
+        }, {
+            "id": 9696,
+            "name": "Оптовая декларация",
+            "icon": "9696.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9697,
+            "name": "Монета для НОВОГО ГОДА (2026)",
+            "icon": "9697.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9698,
+            "name": "Кейс Код 26",
+            "icon": "9698.webp",
+            "acs_slot": -1,
+            "type": 74,
+            "active": 0
+        }, {
+            "id": 9699,
+            "name": "Запчасти от Дирижабля Магната",
+            "icon": "9699.webp",
+            "acs_slot": -1,
+            "type": 77,
+            "active": 0
+        }, {
+            "id": 9700,
+            "name": "Осколок х4 PayDay",
+            "icon": "9700.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9701,
+            "name": "Диски (Пряня)",
+            "icon": "9701.webp",
+            "acs_slot": 7,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9702,
+            "name": "Диски (Ёлочка)",
+            "icon": "9702.webp",
+            "acs_slot": 7,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9703,
+            "name": "Запчасти от Фуры Зверя",
+            "icon": "9703.webp",
+            "acs_slot": -1,
+            "type": 77,
+            "active": 0
+        }, {
+            "id": 9704,
+            "name": "Набор переработки декораций",
+            "icon": "9704.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9705,
+            "name": "Набор творчества",
+            "icon": "9705.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9706,
+            "name": "Осколки Набора Творчества",
+            "icon": "9706.webp",
+            "acs_slot": -1,
+            "type": 76,
+            "active": 0
+        }, {
+            "id": 9707,
+            "name": "Сертификат ЧубВоз 26",
+            "icon": "9707.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0
+        }, {
+            "id": 9708,
+            "name": "Осколок Обуви Медведя",
+            "icon": "9708.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9709,
+            "name": "Запечатанный: Обувь Медведя",
+            "icon": "9709.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9710,
+            "name": "Осколок Топора Медведя",
+            "icon": "9710.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9711,
+            "name": "Осколок Вертолета Протокола",
+            "icon": "9711.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9712,
+            "name": "Осколок скина Викинг",
+            "icon": "9712.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9713,
+            "name": "Осколок скина Верка Сердючка",
+            "icon": "9713.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9714,
+            "name": "Осколок Волшебные Шары",
+            "icon": "9714.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9715,
+            "name": "Осколок Лавка Чубрика",
+            "icon": "9715.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9716,
+            "name": "Осколок Сноуборда Протокола",
+            "icon": "9716.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9717,
+            "name": "Осколок сертификата ЧубВоз 26",
+            "icon": "9717.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9718,
+            "name": "Тюнинг-пак для Фура 1",
+            "icon": "9718.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9719,
+            "name": "Тюнинг-пак для Фура 2",
+            "icon": "9719.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9720,
+            "name": "Тюнинг-пак для Фура 3",
+            "icon": "9720.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9721,
+            "name": "Кенгурятник для Фура 1",
+            "icon": "9721.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9722,
+            "name": "Кенгурятник для Фура 2",
+            "icon": "9722.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9723,
+            "name": "Кенгурятник для Фура 3",
+            "icon": "9723.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0
+        }, {
+            "id": 9724,
+            "name": "Подарочный бокс 2026",
+            "icon": "9724.webp",
+            "acs_slot": -1,
+            "type": 15,
             "active": 0
         }];; // CONCATENATED MODULE: ./src/store/inventory.js
 
@@ -121960,7 +123249,7 @@
          * @param {number} t
          * @returns {number}
          */
-        function easing_cubicOut(t) {
+        function cubicOut(t) {
             const f = t - 1.0;
             return f * f * f + 1.0;
         }
@@ -122210,7 +123499,7 @@
             node, {
                 delay = 0,
                 duration = 400,
-                easing = easing_cubicOut,
+                easing = cubicOut,
                 x = 0,
                 y = 0,
                 opacity = 0
@@ -122243,7 +123532,7 @@
         function slide(node, {
             delay = 0,
             duration = 400,
-            easing = easing_cubicOut,
+            easing = cubicOut,
             axis = 'y'
         } = {}) {
             const style = getComputedStyle(node);
@@ -122293,7 +123582,7 @@
             node, {
                 delay = 0,
                 duration = 400,
-                easing = easing_cubicOut,
+                easing = cubicOut,
                 start = 0,
                 opacity = 0
             } = {}
@@ -122381,7 +123670,7 @@
                     delay = 0,
                         duration = (d) => Math.sqrt(d) * 30,
                         easing = cubicOut
-                } = assign(assign({}, defaults), params);
+                } = utils_assign(utils_assign({}, defaults), params);
                 const from = from_node.getBoundingClientRect();
                 const to = node.getBoundingClientRect();
                 const dx = from.left - to.left;
@@ -122394,7 +123683,7 @@
                 const opacity = +style.opacity;
                 return {
                     delay,
-                    duration: is_function(duration) ? duration(d) : duration,
+                    duration: utils_is_function(duration) ? duration(d) : duration,
                     easing,
                     css: (t, u) => `
 				opacity: ${t * opacity};
@@ -130602,7 +131891,871 @@
         }
 
         /* harmony default export */
-        const vehicle_menu_index_svelte = (Vehicle_menu);; // CONCATENATED MODULE: ./src/constants/modals.js
+        const vehicle_menu_index_svelte = (Vehicle_menu);; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/img/title.png
+        const title_namespaceObject = __webpack_require__.p + "assets/dc28bc15bd83a7aabcd0.webp";; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/img/duck-left.png
+        const duck_left_namespaceObject = __webpack_require__.p + "assets/4fe69eaa7e9e20055b32.webp";; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/img/duck-right.png
+        const duck_right_namespaceObject = __webpack_require__.p + "assets/aa57ee300159836ec639.webp";; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/img/hotkey.svg
+        const hotkey_namespaceObject = __webpack_require__.p + "assets/cb5ac6cfdf21a9325059.svg";; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/img/tracker.svg
+        const tracker_namespaceObject = __webpack_require__.p + "assets/294868f6b904e158a4e7.svg";; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/img/animation.gif
+        const animation_namespaceObject = __webpack_require__.p + "assets/66a026af676ae290e8cb.gif";; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/img/duck-mate.svg
+        const duck_mate_namespaceObject = __webpack_require__.p + "assets/b1d36bbea992859e6720.svg";; // CONCATENATED MODULE: ./src/modals/mini-games/charge-game/index.svelte
+        /* src\modals\mini-games\charge-game\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // import { GAME_STATE_MOCK } from './mock';
+
+
+        function index_svelte_create_if_block_6(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = animation_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "charge-game__tracker-duck-image");
+                    dom_attr(img, "alt", "duckAnimation");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (212:28) {#if gameData.width > 0}
+        function index_svelte_create_if_block_5(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    dom_attr(div, "class", "charge-game__red-zone");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (219:12) {#if !gameData.isMyState}
+        function charge_game_index_svelte_create_if_block_4(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.textContent = "ОЖИДАйте хода напарника";
+                    dom_attr(div, "class", "charge-game__holder");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (247:28) {#if gameData.width > 0}
+        function charge_game_index_svelte_create_if_block_3(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    dom_attr(div, "class", "charge-game__red-zone");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (256:24) {#if !gameData.isMyState && player2.currentPosition > 0}
+        function charge_game_index_svelte_create_if_block_2(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = duck_mate_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "charge-game__tracker-mate-duck-image");
+                    dom_attr(img, "alt", "duckAnimation");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (266:12) {#if gameData.isMyState && isEmpty(result)}
+        function charge_game_index_svelte_create_if_block_1(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.textContent = "ОЖИДАЕТ ВАШЕГО ХОДА";
+                    dom_attr(div, "class", "charge-game__holder");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (278:4) {#if !isEmpty(result)}
+        function charge_game_index_svelte_create_if_block(ctx) {
+            let div2;
+            let div0;
+            let t0;
+            let t1_value = /*result*/ ctx[0].chance + "";
+            let t1;
+            let t2;
+            let t3;
+            let div1;
+            let t4_value = ( /*result*/ ctx[0].success ? 'УСПЕХ' : 'ПРОВАЛ') + "";
+            let t4;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_text("Общий шанс успеха - ");
+                    t1 = dom_text(t1_value);
+                    t2 = dom_text("%");
+                    t3 = dom_space();
+                    div1 = dom_element("div");
+                    t4 = dom_text(t4_value);
+                    dom_attr(div0, "class", "charge-game__result-caption");
+                    dom_attr(div1, "class", "charge-game__result-value");
+                    dom_toggle_class(div1, "charge-game__result-value--red", ! /*result*/ ctx[0].success);
+                    dom_attr(div2, "class", "charge-game__result");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div0, t0);
+                    dom_append(div0, t1);
+                    dom_append(div0, t2);
+                    dom_append(div2, t3);
+                    dom_append(div2, div1);
+                    dom_append(div1, t4);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*result*/ 1 && t1_value !== (t1_value = /*result*/ ctx[0].chance + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*result*/ 1 && t4_value !== (t4_value = ( /*result*/ ctx[0].success ? 'УСПЕХ' : 'ПРОВАЛ') + "")) dom_set_data(t4, t4_value);
+
+                    if (dirty & /*result*/ 1) {
+                        dom_toggle_class(div1, "charge-game__result-value--red", ! /*result*/ ctx[0].success);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function charge_game_index_svelte_create_fragment(ctx) {
+            let div30;
+            let img0;
+            let img0_src_value;
+            let t0;
+            let img1;
+            let img1_src_value;
+            let t1;
+            let div22;
+            let div11;
+            let div10;
+            let div5;
+            let div0;
+            let t3;
+            let div1;
+            let t4;
+            let t5_value = /*gameData*/ ctx[1].stage + "";
+            let t5;
+            let t6;
+            let t7_value = /*gameData*/ ctx[1].stageTotal + "";
+            let t7;
+            let t8;
+            let div3;
+            let t12;
+            let div4;
+            let t15;
+            let div9;
+            let div6;
+            let t16;
+            let img3;
+            let img3_src_value;
+            let t17;
+            let div8;
+            let div7;
+            let t18;
+            let t19;
+            let div21;
+            let div20;
+            let div15;
+            let div12;
+            let t20_value = /*player2*/ ctx[3].name + "";
+            let t20;
+            let t21;
+            let div14;
+            let t23;
+            let div19;
+            let div17;
+            let div16;
+            let t24;
+            let div18;
+            let t25;
+            let show_if_1 = /*gameData*/ ctx[1].isMyState && (0, lodash.isEmpty)( /*result*/ ctx[0]);
+            let t26;
+            let div26;
+            let div23;
+            let t27_value = /*player1*/ ctx[2].chance + "";
+            let t27;
+            let t28;
+            let t29;
+            let div24;
+            let t30;
+            let div25;
+            let t31_value = /*player2*/ ctx[3].chance + "";
+            let t31;
+            let t32;
+            let t33;
+            let show_if = !(0, lodash.isEmpty)( /*result*/ ctx[0]);
+            let t34;
+            let img4;
+            let img4_src_value;
+            let t35;
+            let div29;
+            let div30_intro;
+            let mounted;
+            let dispose;
+            let if_block0 = /*gameData*/ ctx[1].isMyState && /*player1*/ ctx[2].moving && /*gameData*/ ctx[1].speed > 0 && index_svelte_create_if_block_6(ctx);
+            let if_block1 = /*gameData*/ ctx[1].width > 0 && index_svelte_create_if_block_5(ctx);
+            let if_block2 = ! /*gameData*/ ctx[1].isMyState && charge_game_index_svelte_create_if_block_4(ctx);
+            let if_block3 = /*gameData*/ ctx[1].width > 0 && charge_game_index_svelte_create_if_block_3(ctx);
+            let if_block4 = ! /*gameData*/ ctx[1].isMyState && /*player2*/ ctx[3].currentPosition > 0 && charge_game_index_svelte_create_if_block_2(ctx);
+            let if_block5 = show_if_1 && charge_game_index_svelte_create_if_block_1(ctx);
+            let if_block6 = show_if && charge_game_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div30 = dom_element("div");
+                    img0 = dom_element("img");
+                    t0 = dom_space();
+                    img1 = dom_element("img");
+                    t1 = dom_space();
+                    div22 = dom_element("div");
+                    div11 = dom_element("div");
+                    div10 = dom_element("div");
+                    div5 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "ВЫ";
+                    t3 = dom_space();
+                    div1 = dom_element("div");
+                    t4 = dom_text("ЭТАП: ");
+                    t5 = dom_text(t5_value);
+                    t6 = dom_text("/");
+                    t7 = dom_text(t7_value);
+                    t8 = dom_space();
+                    div3 = dom_element("div");
+
+                    div3.innerHTML = `<div class="charge-game__tip-text">Зажмите ЛКМ, чтобы запустить прогресс <br/>
+                            Отпустите ЛКМ как можно ближе к центру зеленой зоны</div> <img src="${hotkey_namespaceObject}" class="charge-game__tip-icon" alt="lkm"/>`;
+
+                    t12 = dom_space();
+                    div4 = dom_element("div");
+
+                    div4.innerHTML = `ШАНС <br/>
+                        УСПЕХА`;
+
+                    t15 = dom_space();
+                    div9 = dom_element("div");
+                    div6 = dom_element("div");
+                    if (if_block0) if_block0.c();
+                    t16 = dom_space();
+                    img3 = dom_element("img");
+                    t17 = dom_space();
+                    div8 = dom_element("div");
+                    div7 = dom_element("div");
+                    if (if_block1) if_block1.c();
+                    t18 = dom_space();
+                    if (if_block2) if_block2.c();
+                    t19 = dom_space();
+                    div21 = dom_element("div");
+                    div20 = dom_element("div");
+                    div15 = dom_element("div");
+                    div12 = dom_element("div");
+                    t20 = dom_text(t20_value);
+                    t21 = dom_space();
+                    div14 = dom_element("div");
+                    div14.innerHTML = `<div class="charge-game__tip-text">Напарник должен выполнить аналогичные действия</div>`;
+                    t23 = dom_space();
+                    div19 = dom_element("div");
+                    div17 = dom_element("div");
+                    div16 = dom_element("div");
+                    if (if_block3) if_block3.c();
+                    t24 = dom_space();
+                    div18 = dom_element("div");
+                    if (if_block4) if_block4.c();
+                    t25 = dom_space();
+                    if (if_block5) if_block5.c();
+                    t26 = dom_space();
+                    div26 = dom_element("div");
+                    div23 = dom_element("div");
+                    t27 = dom_text(t27_value);
+                    t28 = dom_text("%");
+                    t29 = dom_space();
+                    div24 = dom_element("div");
+                    t30 = dom_space();
+                    div25 = dom_element("div");
+                    t31 = dom_text(t31_value);
+                    t32 = dom_text("%");
+                    t33 = dom_space();
+                    if (if_block6) if_block6.c();
+                    t34 = dom_space();
+                    img4 = dom_element("img");
+                    t35 = dom_space();
+                    div29 = dom_element("div");
+                    div29.innerHTML = `<div class="charge-game__exit-key">Esc</div> <div class="charge-game__exit-caption">Закрыть</div>`;
+                    if (!utils_src_url_equal(img0.src, img0_src_value = duck_left_namespaceObject)) dom_attr(img0, "src", img0_src_value);
+                    dom_attr(img0, "class", "charge-game__duck-left");
+                    dom_attr(img0, "alt", "duck-left");
+                    dom_attr(img0, "draggable", "false");
+                    if (!utils_src_url_equal(img1.src, img1_src_value = duck_right_namespaceObject)) dom_attr(img1, "src", img1_src_value);
+                    dom_attr(img1, "class", "charge-game__duck-right");
+                    dom_attr(img1, "alt", "duck-right");
+                    dom_attr(img1, "draggable", "false");
+                    dom_attr(div0, "class", "charge-game__you");
+                    dom_attr(div1, "class", "charge-game__stage");
+                    dom_attr(div3, "class", "charge-game__tip");
+                    dom_attr(div4, "class", "charge-game__chance-caption");
+                    dom_attr(div5, "class", "charge-game__info");
+                    if (!utils_src_url_equal(img3.src, img3_src_value = tracker_namespaceObject)) dom_attr(img3, "src", img3_src_value);
+                    dom_attr(img3, "class", "charge-game__tracker-arrow-image");
+                    dom_attr(img3, "alt", "tackerArrow");
+                    dom_attr(div6, "class", "charge-game__tracker");
+                    set_style(div6, "left", /*player1*/ ctx[2].currentPosition + "%");
+                    set_style(div6, "transition", 100 + "ms linear");
+                    set_style(div6, "transition-property", "left");
+                    dom_attr(div7, "class", "charge-game__green-zone");
+                    set_style(div7, "left", /*gameData*/ ctx[1].start + "%");
+                    set_style(div7, "width", /*gameData*/ ctx[1].width + "%");
+                    dom_attr(div8, "class", "charge-game__progress-bar");
+                    dom_attr(div9, "class", "charge-game__progress-bar-wrapper");
+                    dom_attr(div10, "class", "charge-game__content");
+                    dom_toggle_class(div10, "charge-game__content--fade", ! /*gameData*/ ctx[1].isMyState || !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    dom_attr(div11, "class", "charge-game__inner-top");
+                    dom_toggle_class(div11, "charge-game__inner-top--borderless", !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    dom_attr(div12, "class", "charge-game__nickname");
+                    dom_attr(div14, "class", "charge-game__tip charge-game__tip--mate");
+                    dom_attr(div15, "class", "charge-game__info charge-game__info--mate");
+                    dom_attr(div16, "class", "charge-game__green-zone");
+                    set_style(div16, "left", /*gameData*/ ctx[1].start + "%");
+                    set_style(div16, "width", /*gameData*/ ctx[1].width + "%");
+                    dom_attr(div17, "class", "charge-game__progress-bar");
+                    dom_attr(div18, "class", "charge-game__tracker charge-game__tracker--mate");
+                    set_style(div18, "left", /*player2*/ ctx[3].currentPosition + "%");
+                    set_style(div18, "transition", 100 + "ms linear");
+                    set_style(div18, "transition-property", "left");
+                    dom_attr(div19, "class", "charge-game__progress-bar-wrapper charge-game__progress-bar-wrapper--mate");
+                    dom_attr(div20, "class", "charge-game__content");
+                    dom_toggle_class(div20, "charge-game__content--fade", /*gameData*/ ctx[1].isMyState || !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    dom_attr(div21, "class", "charge-game__inner-bottom");
+                    dom_toggle_class(div21, "charge-game__inner-bottom--borderless", !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    dom_attr(div22, "class", "charge-game__container");
+                    dom_attr(div23, "class", "charge-game__chance");
+                    dom_attr(div24, "class", "charge-game__chances-separator");
+                    dom_attr(div25, "class", "charge-game__chance");
+                    dom_attr(div26, "class", "charge-game__chances");
+                    dom_toggle_class(div26, "charge-game__chances--fade", !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    if (!utils_src_url_equal(img4.src, img4_src_value = title_namespaceObject)) dom_attr(img4, "src", img4_src_value);
+                    dom_attr(img4, "class", "charge-game__title");
+                    dom_attr(img4, "draggable", "false");
+                    dom_attr(img4, "alt", "title");
+                    dom_attr(div29, "class", "charge-game__exit-wrapper");
+                    dom_attr(div30, "class", "charge-game");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div30, anchor);
+                    dom_append(div30, img0);
+                    dom_append(div30, t0);
+                    dom_append(div30, img1);
+                    dom_append(div30, t1);
+                    dom_append(div30, div22);
+                    dom_append(div22, div11);
+                    dom_append(div11, div10);
+                    dom_append(div10, div5);
+                    dom_append(div5, div0);
+                    dom_append(div5, t3);
+                    dom_append(div5, div1);
+                    dom_append(div1, t4);
+                    dom_append(div1, t5);
+                    dom_append(div1, t6);
+                    dom_append(div1, t7);
+                    dom_append(div5, t8);
+                    dom_append(div5, div3);
+                    dom_append(div5, t12);
+                    dom_append(div5, div4);
+                    dom_append(div10, t15);
+                    dom_append(div10, div9);
+                    dom_append(div9, div6);
+                    if (if_block0) if_block0.m(div6, null);
+                    dom_append(div6, t16);
+                    dom_append(div6, img3);
+                    dom_append(div9, t17);
+                    dom_append(div9, div8);
+                    dom_append(div8, div7);
+                    if (if_block1) if_block1.m(div7, null);
+                    dom_append(div11, t18);
+                    if (if_block2) if_block2.m(div11, null);
+                    dom_append(div22, t19);
+                    dom_append(div22, div21);
+                    dom_append(div21, div20);
+                    dom_append(div20, div15);
+                    dom_append(div15, div12);
+                    dom_append(div12, t20);
+                    dom_append(div15, t21);
+                    dom_append(div15, div14);
+                    dom_append(div20, t23);
+                    dom_append(div20, div19);
+                    dom_append(div19, div17);
+                    dom_append(div17, div16);
+                    if (if_block3) if_block3.m(div16, null);
+                    dom_append(div19, t24);
+                    dom_append(div19, div18);
+                    if (if_block4) if_block4.m(div18, null);
+                    dom_append(div21, t25);
+                    if (if_block5) if_block5.m(div21, null);
+                    dom_append(div30, t26);
+                    dom_append(div30, div26);
+                    dom_append(div26, div23);
+                    dom_append(div23, t27);
+                    dom_append(div23, t28);
+                    dom_append(div26, t29);
+                    dom_append(div26, div24);
+                    dom_append(div26, t30);
+                    dom_append(div26, div25);
+                    dom_append(div25, t31);
+                    dom_append(div25, t32);
+                    dom_append(div30, t33);
+                    if (if_block6) if_block6.m(div30, null);
+                    dom_append(div30, t34);
+                    dom_append(div30, img4);
+                    dom_append(div30, t35);
+                    dom_append(div30, div29);
+
+                    if (!mounted) {
+                        dispose = [
+                            dom_listen(window, "mousedown", /*mouseDownHandlng*/ ctx[5]),
+                            dom_listen(window, "mouseup", /*mouseUpHandling*/ ctx[6]),
+                            dom_listen(window, "keydown", /*escapeHandling*/ ctx[7]),
+                            dom_listen(div29, "keydown", /*exit*/ ctx[4])
+                        ];
+
+                        mounted = true;
+                    }
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*gameData*/ 2 && t5_value !== (t5_value = /*gameData*/ ctx[1].stage + "")) dom_set_data(t5, t5_value);
+                    if (dirty & /*gameData*/ 2 && t7_value !== (t7_value = /*gameData*/ ctx[1].stageTotal + "")) dom_set_data(t7, t7_value);
+
+                    if ( /*gameData*/ ctx[1].isMyState && /*player1*/ ctx[2].moving && /*gameData*/ ctx[1].speed > 0) {
+                        if (if_block0) {
+
+                        } else {
+                            if_block0 = index_svelte_create_if_block_6(ctx);
+                            if_block0.c();
+                            if_block0.m(div6, t16);
+                        }
+                    } else if (if_block0) {
+                        if_block0.d(1);
+                        if_block0 = null;
+                    }
+
+                    if (dirty & /*player1*/ 4) {
+                        set_style(div6, "left", /*player1*/ ctx[2].currentPosition + "%");
+                    }
+
+                    if ( /*gameData*/ ctx[1].width > 0) {
+                        if (if_block1) {
+
+                        } else {
+                            if_block1 = index_svelte_create_if_block_5(ctx);
+                            if_block1.c();
+                            if_block1.m(div7, null);
+                        }
+                    } else if (if_block1) {
+                        if_block1.d(1);
+                        if_block1 = null;
+                    }
+
+                    if (dirty & /*gameData*/ 2) {
+                        set_style(div7, "left", /*gameData*/ ctx[1].start + "%");
+                    }
+
+                    if (dirty & /*gameData*/ 2) {
+                        set_style(div7, "width", /*gameData*/ ctx[1].width + "%");
+                    }
+
+                    if (dirty & /*gameData, result*/ 3) {
+                        dom_toggle_class(div10, "charge-game__content--fade", ! /*gameData*/ ctx[1].isMyState || !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    }
+
+                    if (! /*gameData*/ ctx[1].isMyState) {
+                        if (if_block2) {
+
+                        } else {
+                            if_block2 = charge_game_index_svelte_create_if_block_4(ctx);
+                            if_block2.c();
+                            if_block2.m(div11, null);
+                        }
+                    } else if (if_block2) {
+                        if_block2.d(1);
+                        if_block2 = null;
+                    }
+
+                    if (dirty & /*result*/ 1) {
+                        dom_toggle_class(div11, "charge-game__inner-top--borderless", !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    }
+
+                    if (dirty & /*player2*/ 8 && t20_value !== (t20_value = /*player2*/ ctx[3].name + "")) dom_set_data(t20, t20_value);
+
+                    if ( /*gameData*/ ctx[1].width > 0) {
+                        if (if_block3) {
+
+                        } else {
+                            if_block3 = charge_game_index_svelte_create_if_block_3(ctx);
+                            if_block3.c();
+                            if_block3.m(div16, null);
+                        }
+                    } else if (if_block3) {
+                        if_block3.d(1);
+                        if_block3 = null;
+                    }
+
+                    if (dirty & /*gameData*/ 2) {
+                        set_style(div16, "left", /*gameData*/ ctx[1].start + "%");
+                    }
+
+                    if (dirty & /*gameData*/ 2) {
+                        set_style(div16, "width", /*gameData*/ ctx[1].width + "%");
+                    }
+
+                    if (! /*gameData*/ ctx[1].isMyState && /*player2*/ ctx[3].currentPosition > 0) {
+                        if (if_block4) {
+
+                        } else {
+                            if_block4 = charge_game_index_svelte_create_if_block_2(ctx);
+                            if_block4.c();
+                            if_block4.m(div18, null);
+                        }
+                    } else if (if_block4) {
+                        if_block4.d(1);
+                        if_block4 = null;
+                    }
+
+                    if (dirty & /*player2*/ 8) {
+                        set_style(div18, "left", /*player2*/ ctx[3].currentPosition + "%");
+                    }
+
+                    if (dirty & /*gameData, result*/ 3) {
+                        dom_toggle_class(div20, "charge-game__content--fade", /*gameData*/ ctx[1].isMyState || !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    }
+
+                    if (dirty & /*gameData, result*/ 3) show_if_1 = /*gameData*/ ctx[1].isMyState && (0, lodash.isEmpty)( /*result*/ ctx[0]);
+
+                    if (show_if_1) {
+                        if (if_block5) {
+
+                        } else {
+                            if_block5 = charge_game_index_svelte_create_if_block_1(ctx);
+                            if_block5.c();
+                            if_block5.m(div21, null);
+                        }
+                    } else if (if_block5) {
+                        if_block5.d(1);
+                        if_block5 = null;
+                    }
+
+                    if (dirty & /*result*/ 1) {
+                        dom_toggle_class(div21, "charge-game__inner-bottom--borderless", !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    }
+
+                    if (dirty & /*player1*/ 4 && t27_value !== (t27_value = /*player1*/ ctx[2].chance + "")) dom_set_data(t27, t27_value);
+                    if (dirty & /*player2*/ 8 && t31_value !== (t31_value = /*player2*/ ctx[3].chance + "")) dom_set_data(t31, t31_value);
+
+                    if (dirty & /*result*/ 1) {
+                        dom_toggle_class(div26, "charge-game__chances--fade", !(0, lodash.isEmpty)( /*result*/ ctx[0]));
+                    }
+
+                    if (dirty & /*result*/ 1) show_if = !(0, lodash.isEmpty)( /*result*/ ctx[0]);
+
+                    if (show_if) {
+                        if (if_block6) {
+                            if_block6.p(ctx, dirty);
+                        } else {
+                            if_block6 = charge_game_index_svelte_create_if_block(ctx);
+                            if_block6.c();
+                            if_block6.m(div30, t34);
+                        }
+                    } else if (if_block6) {
+                        if_block6.d(1);
+                        if_block6 = null;
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div30_intro) {
+                            add_render_callback(() => {
+                                div30_intro = create_in_transition(div30, fade, {});
+                                div30_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div30);
+                    }
+
+                    if (if_block0) if_block0.d();
+                    if (if_block1) if_block1.d();
+                    if (if_block2) if_block2.d();
+                    if (if_block3) if_block3.d();
+                    if (if_block4) if_block4.d();
+                    if (if_block5) if_block5.d();
+                    if (if_block6) if_block6.d();
+                    mounted = false;
+                    utils_run_all(dispose);
+                }
+            };
+        }
+
+        function charge_game_index_svelte_instance($$self, $$props, $$invalidate) {
+            let intervalId = null;
+            let result = {};
+
+            let gameData = {
+                stage: 1,
+                stageTotal: 5,
+                start: 20,
+                width: 11,
+                speed: 1,
+                isMyState: false,
+                turnEnded: false
+            };
+
+            let player1 = {
+                name: 'ВЫ',
+                chance: 0,
+                moving: false,
+                currentPosition: 0
+            };
+
+            let player2 = {
+                name: 'Напарник: отсутствует',
+                chance: 0,
+                moving: false,
+                currentPosition: 0
+            };
+
+            const exit = () => {
+                cef_sendClientMessage('charge-game.exit');
+            };
+
+            const removeInterval = () => {
+                if ((0, lodash.isNil)(intervalId)) {
+                    return;
+                }
+
+                clearInterval(intervalId);
+                intervalId = null;
+                $$invalidate(2, player1.moving = false, player1);
+                $$invalidate(3, player2.moving = false, player2);
+            };
+
+            const endTurn = () => {
+                // gameData.playState = false;
+                if (!gameData.turnEnded && gameData.isMyState) {
+                    const isInSector = player1.currentPosition >= gameData.start && player1.currentPosition <= gameData.start + gameData.width;
+
+                    const positionInSector = isInSector ?
+                        Math.round((player1.currentPosition - gameData.start) / gameData.width * 100) :
+                        0;
+
+                    cef_sendClientMessage('charge-game.turnEnd', player1.currentPosition, positionInSector);
+                }
+
+                $$invalidate(1, gameData.turnEnded = true, gameData);
+                removeInterval();
+            };
+
+            const moveTracker = () => {
+                if (player1.currentPosition >= 100 || player2.currentPosition >= 100) {
+                    endTurn();
+                    removeInterval();
+                    return;
+                }
+
+                if (gameData.isMyState) {
+                    $$invalidate(2, player1.currentPosition += gameData.speed, player1);
+                } else {
+                    $$invalidate(3, player2.currentPosition += gameData.speed, player2);
+                }
+            };
+
+            const startGame = () => {
+                // player1.move = true;
+                intervalId = setInterval(
+                    () => {
+                        moveTracker();
+                    },
+                    75
+                );
+            };
+
+            const mouseDownHandlng = event => {
+                if (event.which !== 1) {
+                    return;
+                }
+
+                if (event.target.classList.toString().includes('exit')) {
+                    exit();
+                    $$invalidate(1, gameData.turnEnded = true, gameData);
+                    return;
+                }
+
+                if (gameData.speed <= 0 || gameData.turnEnded || gameData.isMyState === 0) {
+                    return;
+                }
+
+                cef_sendClientMessage('charge-game.start');
+            }; // startGame();
+
+            const mouseUpHandling = event => {
+                if (event.which !== 1) {
+                    return;
+                }
+
+                if (gameData.speed <= 0 || gameData.turnEnded || gameData.isMyState === 0) {
+                    return;
+                }
+
+                endTurn();
+            };
+
+            const updateGameState = dto => {
+                // removeInterval();
+                // player1.currentPosition = 0;
+                // player2.currentPosition = 0;
+                $$invalidate(1, gameData = {
+                    ...gameData,
+                    ...dto,
+                    turnEnded: false
+                });
+
+                $$invalidate(2, player1 = {
+                    ...player1,
+                    ...dto.infoUser[0]
+                });
+                $$invalidate(3, player2 = {
+                    ...player2,
+                    ...dto.infoUser[1]
+                });
+
+                if (player1.moving === 1 || player2.moving === 1) {
+                    startGame();
+                } else {
+                    removeInterval();
+                }
+            };
+
+            const escapeHandling = event => {
+                if (event.keyCode === 27) {
+                    exit();
+                }
+            };
+
+            const unregisterUpdateUpdateGameData = registerEvent('event.mini-game.chargeGame.updateGameState', updateGameState);
+
+            const unregisterInitializeResult = registerEvent('event.mini-game.chargeGame.initializeResult', dto => {
+                $$invalidate(0, result = dto);
+            });
+
+            onDestroy(() => {
+                removeInterval();
+                unregisterUpdateUpdateGameData();
+                unregisterInitializeResult();
+            });
+
+            return [
+                result,
+                gameData,
+                player1,
+                player2,
+                exit,
+                mouseDownHandlng,
+                mouseUpHandling,
+                escapeHandling
+            ];
+        }
+
+        class Charge_game extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, charge_game_index_svelte_instance, charge_game_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const charge_game_index_svelte = (Charge_game);; // CONCATENATED MODULE: ./src/constants/modals.js
         function modals_typeof(o) {
             "@babel/helpers - typeof";
             return modals_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -130645,6 +132798,7 @@
 
 
 
+
         var ModalId = {
             Information: 'information',
             BusinessInfo: 'businessInfo',
@@ -130654,9 +132808,10 @@
             DialogTip: 'dialogTip',
             SecurityBanner: 'securityBanner',
             GiveawayPanel: 'giveawayPanel',
-            VehicleMenu: 'carMenu'
+            VehicleMenu: 'carMenu',
+            ChargeGame: 'chargeGame'
         };
-        var MODALS = modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty({}, ModalId.Information, index_svelte), ModalId.BusinessInfo, business_info_index_svelte), ModalId.InteractionSidebar, interaction_sidebar_index_svelte), ModalId.Dialog, dialog_index_svelte), ModalId.KeyReaction, key_reaction_index_svelte), ModalId.DialogTip, dialog_tip_index_svelte), ModalId.SecurityBanner, security_banner_index_svelte), ModalId.GiveawayPanel, giveaway_panel_index_svelte), ModalId.VehicleMenu, vehicle_menu_index_svelte);; // CONCATENATED MODULE: ./src/components/modals-root/store.js
+        var MODALS = modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty(modals_defineProperty({}, ModalId.Information, index_svelte), ModalId.BusinessInfo, business_info_index_svelte), ModalId.InteractionSidebar, interaction_sidebar_index_svelte), ModalId.Dialog, dialog_index_svelte), ModalId.KeyReaction, key_reaction_index_svelte), ModalId.DialogTip, dialog_tip_index_svelte), ModalId.SecurityBanner, security_banner_index_svelte), ModalId.GiveawayPanel, giveaway_panel_index_svelte), ModalId.VehicleMenu, vehicle_menu_index_svelte), ModalId.ChargeGame, charge_game_index_svelte);; // CONCATENATED MODULE: ./src/components/modals-root/store.js
         function store_toConsumableArray(r) {
             return store_arrayWithoutHoles(r) || store_iterableToArray(r) || store_unsupportedIterableToArray(r) || store_nonIterableSpread();
         }
@@ -140767,7 +142922,9 @@
         const _1111_namespaceObject = __webpack_require__.p + "assets/2b69c9a036bbc466f9bb.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1112.png
         const _1112_namespaceObject = __webpack_require__.p + "assets/9c22f648b4e16543c6e2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/zombie_apocalypse.png
         const zombie_apocalypse_namespaceObject = __webpack_require__.p + "assets/6c8407e7fb0fc0db3185.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/halloween_2025.png
-        const halloween_2025_namespaceObject = __webpack_require__.p + "assets/c48bb58aa30d6b8b86d2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_1.gif
+        const halloween_2025_namespaceObject = __webpack_require__.p + "assets/c48bb58aa30d6b8b86d2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/winter25_logo_2.png
+        const winter25_logo_2_namespaceObject = __webpack_require__.p + "assets/88eedc8936c9d50195c1.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/winter25_logo.png
+        const winter25_logo_namespaceObject = __webpack_require__.p + "assets/1a09f061e8fb73a50929.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_1.gif
         const gif_logo_custom_1_namespaceObject = __webpack_require__.p + "assets/0a737a74bcf743b77406.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_2.gif
         const gif_logo_custom_2_namespaceObject = __webpack_require__.p + "assets/b670b187f67ea1606de6.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_3.gif
         const gif_logo_custom_3_namespaceObject = __webpack_require__.p + "assets/d8737f41053986170e6a.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_4.gif
@@ -140893,6 +143050,8 @@
 
 
 
+
+
         var SERVERS = ['Test', 'Phoenix', 'Tucson ', 'Scottdale', 'Chandler ', 'Brainburg', 'SaintRose', 'Mesa ', 'Red-Rock ', 'Yuma ', 'Surprise ', 'Prescott ', 'Glendale ', 'Kingman', 'Winslow', 'Payson ', 'Gilbert', 'Show-Low ', 'Casa-Grande', 'Page ', 'Sun-City ', 'Queen-Creek', 'Sedona ', 'Holiday', 'Wednesday', 'Yava ', 'Faraway', 'Bumble Bee ', 'Christmas', 'Mirage ', 'Love ', 'Drake', 'Space', 'Mobile I', 'Mobile II', 'Mobile III', 'Vice City'];
         var hudLogotype = {
             HUD_LOGOTYPE_DEFAULT: 1,
@@ -140947,9 +143106,10 @@
             HUD_LOGOTYPE_CUSTOM_GIF_35: 50,
             HUD_LOGOTYPE_CUSTOM_GIF_36: 51,
             HUD_LOGOTYPE_CUSTOM_GIF_37: 52,
-            HUD_LOGOTYPE_HALLOWEEN_2025: 53
+            HUD_LOGOTYPE_HALLOWEEN_2025: 53,
+            HUD_LOGOTYPE_WINTER_2025: 54
         };
-        var MAP_HUDLOGOTYPE_TO_ICON = (_MAP_HUDLOGOTYPE_TO_I = {}, servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT, _111_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE, _222_namespaceObject), hudLogotype.HUD_LOGOTYPE_FIVE, _333_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN, _444_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR, gif_logo_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_VALENTINE, gif_logo_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_EASTER, _777_namespaceObject), hudLogotype.HUD_LOGOTYPE_DAY_WORK, _888_namespaceObject), hudLogotype.HUD_LOGOTYPE_SUMMER, _999_namespaceObject), hudLogotype.HUD_LOGOTYPE_HAPPY, _1000_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT_NEW, _1001_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE_NEW, _1002_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_NEW, _1111_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR_NEW, _1112_namespaceObject), hudLogotype.HUD_LOGOTYPE_ZOMBIE_APOCALYPSE, zombie_apocalypse_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_1, gif_logo_custom_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_2, gif_logo_custom_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_3, gif_logo_custom_3_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_4, gif_logo_custom_4_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_5, gif_logo_custom_5_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_6, gif_logo_custom_6_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_7, gif_logo_custom_7_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_8, gif_logo_custom_8_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_9, gif_logo_custom_9_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_10, gif_logo_custom_10_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_11, gif_logo_custom_11_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_12, gif_logo_custom_12_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_13, gif_logo_custom_13_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_14, gif_logo_custom_14_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_15, gif_logo_custom_15_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_16, gif_logo_custom_16_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_17, gif_logo_custom_17_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_18, gif_logo_custom_18_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_19, gif_logo_custom_19_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_20, gif_logo_custom_20_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_21, gif_logo_custom_21_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_22, gif_logo_custom_22_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_23, gif_logo_custom_23_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_24, gif_logo_custom_24_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_25, gif_logo_custom_25_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_26, gif_logo_custom_26_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_27, gif_logo_custom_27_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_28, gif_logo_custom_28_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_29, gif_logo_custom_29_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_30, gif_logo_custom_30_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_31, gif_logo_custom_31_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_32, gif_logo_custom_32_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_33, gif_logo_custom_33_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_34, gif_logo_custom_34_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_35, gif_logo_custom_35_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_36, gif_logo_custom_36_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_37, gif_logo_custom_37_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_2025, halloween_2025_namespaceObject));; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/0.png
+        var MAP_HUDLOGOTYPE_TO_ICON = (_MAP_HUDLOGOTYPE_TO_I = {}, servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT, _111_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE, _222_namespaceObject), hudLogotype.HUD_LOGOTYPE_FIVE, _333_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN, _444_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR, gif_logo_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_VALENTINE, gif_logo_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_EASTER, _777_namespaceObject), hudLogotype.HUD_LOGOTYPE_DAY_WORK, _888_namespaceObject), hudLogotype.HUD_LOGOTYPE_SUMMER, _999_namespaceObject), hudLogotype.HUD_LOGOTYPE_HAPPY, _1000_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT_NEW, _1001_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE_NEW, _1002_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_NEW, _1111_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR_NEW, _1112_namespaceObject), hudLogotype.HUD_LOGOTYPE_ZOMBIE_APOCALYPSE, zombie_apocalypse_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_1, gif_logo_custom_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_2, gif_logo_custom_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_3, gif_logo_custom_3_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_4, gif_logo_custom_4_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_5, gif_logo_custom_5_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_6, gif_logo_custom_6_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_7, gif_logo_custom_7_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_8, gif_logo_custom_8_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_9, gif_logo_custom_9_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_10, gif_logo_custom_10_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_11, gif_logo_custom_11_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_12, gif_logo_custom_12_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_13, gif_logo_custom_13_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_14, gif_logo_custom_14_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_15, gif_logo_custom_15_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_16, gif_logo_custom_16_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_17, gif_logo_custom_17_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_18, gif_logo_custom_18_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_19, gif_logo_custom_19_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_20, gif_logo_custom_20_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_21, gif_logo_custom_21_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_22, gif_logo_custom_22_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_23, gif_logo_custom_23_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_24, gif_logo_custom_24_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_25, gif_logo_custom_25_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_26, gif_logo_custom_26_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_27, gif_logo_custom_27_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_28, gif_logo_custom_28_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_29, gif_logo_custom_29_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_30, gif_logo_custom_30_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_31, gif_logo_custom_31_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_32, gif_logo_custom_32_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_33, gif_logo_custom_33_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_34, gif_logo_custom_34_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_35, gif_logo_custom_35_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_36, gif_logo_custom_36_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_37, gif_logo_custom_37_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_2025, halloween_2025_namespaceObject), hudLogotype.HUD_LOGOTYPE_WINTER_2025, winter25_logo_2_namespaceObject));; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/0.png
         const _0_namespaceObject = __webpack_require__.p + "assets/950934fd83fdf7bf608a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/1.png
         const _1_namespaceObject = __webpack_require__.p + "assets/c0764c59275c6d001764.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/2.png
         const _2_namespaceObject = __webpack_require__.p + "assets/d7c76d687d2dd1dac0cd.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/3.png
@@ -141454,7 +143614,9 @@
         const berserk_dagger_namespaceObject = __webpack_require__.p + "assets/714c89fff0018262d15c.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/druid-staff.png
         const druid_staff_namespaceObject = __webpack_require__.p + "assets/bfd3909662b7894928ec.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/lich-dagger.png
         const lich_dagger_namespaceObject = __webpack_require__.p + "assets/1c643c3c3ad3754c1987.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/witch-stick.png
-        const witch_stick_namespaceObject = __webpack_require__.p + "assets/c38aa5b136cb93778b1d.webp";; // CONCATENATED MODULE: ./src/constants/weapons.js
+        const witch_stick_namespaceObject = __webpack_require__.p + "assets/c38aa5b136cb93778b1d.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/bear-axe.png
+        const bear_axe_namespaceObject = __webpack_require__.p + "assets/6ba45a4fb213e26d5ed2.webp";; // CONCATENATED MODULE: ./src/constants/img/weapons/freeren-knife.png
+        const freeren_knife_namespaceObject = __webpack_require__.p + "assets/5c7251b8ba8eade7555d.webp";; // CONCATENATED MODULE: ./src/constants/weapons.js
         var _MAP_WEAPON_TO_ICON, _MAP_WEAPON_TO_AMMO_D;
 
         function weapons_typeof(o) {
@@ -141576,13 +143738,17 @@
 
 
 
+
+
         var INVISIBLE_KNIVES = {
             berserkDagger: 1,
             druidStaff: 2,
             lichDagger: 3,
-            witchStick: 4
+            witchStick: 4,
+            bearAxe: 5,
+            freerenKnife: 6
         };
-        var MAP_INVISIBLE_KNIFE_TO_ICON = weapons_defineProperty(weapons_defineProperty(weapons_defineProperty(weapons_defineProperty({}, INVISIBLE_KNIVES.berserkDagger, berserk_dagger_namespaceObject), INVISIBLE_KNIVES.druidStaff, druid_staff_namespaceObject), INVISIBLE_KNIVES.lichDagger, lich_dagger_namespaceObject), INVISIBLE_KNIVES.witchStick, witch_stick_namespaceObject);
+        var MAP_INVISIBLE_KNIFE_TO_ICON = weapons_defineProperty(weapons_defineProperty(weapons_defineProperty(weapons_defineProperty(weapons_defineProperty(weapons_defineProperty({}, INVISIBLE_KNIVES.berserkDagger, berserk_dagger_namespaceObject), INVISIBLE_KNIVES.druidStaff, druid_staff_namespaceObject), INVISIBLE_KNIVES.lichDagger, lich_dagger_namespaceObject), INVISIBLE_KNIVES.witchStick, witch_stick_namespaceObject), INVISIBLE_KNIVES.bearAxe, bear_axe_namespaceObject), INVISIBLE_KNIVES.freerenKnife, freeren_knife_namespaceObject);
         var WEAPONS = {
             fist: 0,
             brassknuckle: 1,
@@ -153846,7 +156012,7 @@
             return child_ctx;
         }
 
-        // (325:4) {:else}
+        // (327:4) {:else}
         function index_svelte_create_else_block_2(ctx) {
             let div;
             let loader;
@@ -153888,8 +156054,8 @@
             };
         }
 
-        // (318:29) 
-        function index_svelte_create_if_block_6(ctx) {
+        // (320:29) 
+        function quests_index_svelte_create_if_block_6(ctx) {
             let div2;
             let div0;
             let t1;
@@ -153944,7 +156110,7 @@
             };
         }
 
-        // (162:4) {#if initializeComplete}
+        // (164:4) {#if initializeComplete}
         function quests_index_svelte_create_if_block(ctx) {
             let div10;
             let div2;
@@ -154030,7 +156196,7 @@
                 each_blocks_2[i] = index_svelte_create_each_block_2(index_svelte_get_each_context_2(ctx, each_value_2, i));
             }
 
-            let if_block0 = show_if && index_svelte_create_if_block_5(ctx);
+            let if_block0 = show_if && quests_index_svelte_create_if_block_5(ctx);
             let each_value_1 = each_ensure_array_like( /*$quests*/ ctx[0][ /*selectedCategory*/ ctx[1]]);
             let each_blocks_1 = [];
 
@@ -154326,7 +156492,7 @@
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = index_svelte_create_if_block_5(ctx);
+                            if_block0 = quests_index_svelte_create_if_block_5(ctx);
                             if_block0.c();
                             if_block0.m(div13, null);
                         }
@@ -154476,7 +156642,7 @@
             };
         }
 
-        // (188:24) {#each Object.values(CATEGORIES) as cat}
+        // (190:24) {#each Object.values(CATEGORIES) as cat}
         function index_svelte_create_each_block_2(ctx) {
             let div;
             let html_tag;
@@ -154531,8 +156697,8 @@
             };
         }
 
-        // (203:28) {#if !isEmpty($battlePassData)}
-        function index_svelte_create_if_block_5(ctx) {
+        // (205:28) {#if !isEmpty($battlePassData)}
+        function quests_index_svelte_create_if_block_5(ctx) {
             let div;
             let t_value = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[6].timestampMissionTime) + "";
             let t;
@@ -154558,7 +156724,7 @@
             };
         }
 
-        // (213:28) {#if quest.visible}
+        // (215:28) {#if quest.visible}
         function quests_index_svelte_create_if_block_3(ctx) {
             let div14;
             let div10;
@@ -154754,7 +156920,7 @@
             };
         }
 
-        // (236:52) {:else}
+        // (238:52) {:else}
         function quests_index_svelte_create_else_block_1(ctx) {
             let i;
             let div;
@@ -154781,7 +156947,7 @@
             };
         }
 
-        // (234:52) {#if quest.currentProgress < quest.totalProgress}
+        // (236:52) {#if quest.currentProgress < quest.totalProgress}
         function quests_index_svelte_create_if_block_4(ctx) {
             let t_value = `${Math.floor(countPercents(/*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress))}%` + "";
             let t;
@@ -154804,7 +156970,7 @@
             };
         }
 
-        // (212:24) {#each $quests[selectedCategory] as quest}
+        // (214:24) {#each $quests[selectedCategory] as quest}
         function quests_index_svelte_create_each_block_1(ctx) {
             let if_block_anchor;
             let if_block = /*quest*/ ctx[29].visible && quests_index_svelte_create_if_block_3(ctx);
@@ -154842,7 +157008,7 @@
             };
         }
 
-        // (276:36) {:else}
+        // (278:36) {:else}
         function quests_index_svelte_create_else_block(ctx) {
             let i;
             let div;
@@ -154869,7 +157035,7 @@
             };
         }
 
-        // (274:36) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
+        // (276:36) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
         function quests_index_svelte_create_if_block_2(ctx) {
             let t_value = `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%` + "";
             let t;
@@ -154892,7 +157058,7 @@
             };
         }
 
-        // (287:32) {#each selectedQuest.rewards as reward}
+        // (289:32) {#each selectedQuest.rewards as reward}
         function quests_index_svelte_create_each_block(ctx) {
             let div2;
             let div0;
@@ -154944,7 +157110,7 @@
             };
         }
 
-        // (304:20) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
+        // (306:20) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
         function quests_index_svelte_create_if_block_1(ctx) {
             let div0;
             let t0;
@@ -155026,7 +157192,7 @@
             let if_block;
             let div_intro;
             let current;
-            const if_block_creators = [quests_index_svelte_create_if_block, index_svelte_create_if_block_6, index_svelte_create_else_block_2];
+            const if_block_creators = [quests_index_svelte_create_if_block, quests_index_svelte_create_if_block_6, index_svelte_create_else_block_2];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
@@ -155250,10 +157416,13 @@
                         if (!(0, lodash.isNil)($quests[CATEGORIES.Daily]) && !(0, lodash.isNil)($quests[CATEGORIES.Premium]) && !(0, lodash.isEmpty)($questsProgress)) {
                             $questsProgress.forEach(item => {
                                 const findedIndex = $quests[item.categoryId].findIndex(questItem => questItem.id === item.id);
-                                utils_set_store_value(quests, $quests[item.categoryId][findedIndex].currentProgress = item.progress, $quests);
-                                utils_set_store_value(quests, $quests[item.categoryId][findedIndex].visible = item.visible, $quests);
-                                utils_set_store_value(quests, $quests[item.categoryId][findedIndex].order = Number($quests[item.categoryId][findedIndex].currentProgress.totalProgress === item.progress), $quests);
-                                $quests[item.categoryId].sort((a, b) => getSortWeight(a) - getSortWeight(b));
+
+                                if (!(0, lodash.isNil)($quests[item.categoryId][findedIndex])) {
+                                    utils_set_store_value(quests, $quests[item.categoryId][findedIndex].currentProgress = item.progress, $quests);
+                                    utils_set_store_value(quests, $quests[item.categoryId][findedIndex].visible = item.visible, $quests);
+                                    utils_set_store_value(quests, $quests[item.categoryId][findedIndex].order = Number($quests[item.categoryId][findedIndex].currentProgress.totalProgress === item.progress), $quests);
+                                    $quests[item.categoryId].sort((a, b) => getSortWeight(a) - getSortWeight(b));
+                                }
                             });
 
                             selectCategory(CATEGORIES.Daily);
@@ -166538,6 +168707,80 @@
 
 
 
+        function circle_indicator_index_svelte_create_if_block_1(ctx) {
+            let svg;
+            let circle0;
+            let circle1;
+
+            return {
+                c() {
+                    svg = svg_element("svg");
+                    circle0 = svg_element("circle");
+                    circle1 = svg_element("circle");
+                    dom_attr(circle0, "class", "circle-indicator__total");
+                    dom_attr(circle0, "cx", /*center*/ ctx[11]);
+                    dom_attr(circle0, "cy", /*center*/ ctx[11]);
+                    dom_attr(circle0, "r", /*radius*/ ctx[8]);
+                    dom_attr(circle1, "class", "circle-indicator__current");
+                    dom_attr(circle1, "cx", /*center*/ ctx[11]);
+                    dom_attr(circle1, "cy", /*center*/ ctx[11]);
+                    dom_attr(circle1, "r", /*radius*/ ctx[8]);
+                    dom_attr(svg, "class", "circle-indicator__svg-zone");
+                    set_style(svg, "--dashoffset", /*progressOffset*/ ctx[12]);
+                    set_style(svg, "--dasharray", /*circumference*/ ctx[9]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, svg, anchor);
+                    dom_append(svg, circle0);
+                    dom_append(svg, circle1);
+                    /*circle1_binding*/
+                    ctx[15](circle1);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*center*/ 2048) {
+                        dom_attr(circle0, "cx", /*center*/ ctx[11]);
+                    }
+
+                    if (dirty & /*center*/ 2048) {
+                        dom_attr(circle0, "cy", /*center*/ ctx[11]);
+                    }
+
+                    if (dirty & /*radius*/ 256) {
+                        dom_attr(circle0, "r", /*radius*/ ctx[8]);
+                    }
+
+                    if (dirty & /*center*/ 2048) {
+                        dom_attr(circle1, "cx", /*center*/ ctx[11]);
+                    }
+
+                    if (dirty & /*center*/ 2048) {
+                        dom_attr(circle1, "cy", /*center*/ ctx[11]);
+                    }
+
+                    if (dirty & /*radius*/ 256) {
+                        dom_attr(circle1, "r", /*radius*/ ctx[8]);
+                    }
+
+                    if (dirty & /*progressOffset*/ 4096) {
+                        set_style(svg, "--dashoffset", /*progressOffset*/ ctx[12]);
+                    }
+
+                    if (dirty & /*circumference*/ 512) {
+                        set_style(svg, "--dasharray", /*circumference*/ ctx[9]);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(svg);
+                    }
+
+                    /*circle1_binding*/
+                    ctx[15](null);
+                }
+            };
+        }
+
+        // (69:2) {#if !isEmpty(units)}
         function circle_indicator_index_svelte_create_if_block(ctx) {
             let span;
             let t;
@@ -166566,9 +168809,6 @@
         function circle_indicator_index_svelte_create_fragment(ctx) {
             let div2;
             let div0;
-            let svg;
-            let circle0;
-            let circle1;
             let t0;
             let div1;
             let t1;
@@ -166580,16 +168820,17 @@
             let p;
             let t4;
             let t5;
+            let t6;
+            let t7;
             let show_if = !(0, lodash.isEmpty)( /*units*/ ctx[2]);
-            let if_block = show_if && circle_indicator_index_svelte_create_if_block(ctx);
+            let if_block0 = /*isProgressVisible*/ ctx[5] && circle_indicator_index_svelte_create_if_block_1(ctx);
+            let if_block1 = show_if && circle_indicator_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
                     div2 = dom_element("div");
                     div0 = dom_element("div");
-                    svg = svg_element("svg");
-                    circle0 = svg_element("circle");
-                    circle1 = svg_element("circle");
+                    if (if_block0) if_block0.c();
                     t0 = dom_space();
                     div1 = dom_element("div");
                     t1 = dom_space();
@@ -166600,37 +168841,25 @@
                     p = dom_element("p");
                     t4 = dom_text( /*percents*/ ctx[3]);
                     t5 = dom_space();
-                    if (if_block) if_block.c();
-                    dom_attr(circle0, "class", "circle-indicator__total");
-                    dom_attr(circle0, "cx", /*center*/ ctx[9]);
-                    dom_attr(circle0, "cy", /*center*/ ctx[9]);
-                    dom_attr(circle0, "r", /*radius*/ ctx[6]);
-                    dom_attr(circle1, "class", "circle-indicator__current");
-                    dom_attr(circle1, "cx", /*center*/ ctx[9]);
-                    dom_attr(circle1, "cy", /*center*/ ctx[9]);
-                    dom_attr(circle1, "r", /*radius*/ ctx[6]);
-                    dom_attr(svg, "class", "circle-indicator__svg-zone");
-                    set_style(svg, "--dashoffset", /*progressOffset*/ ctx[10]);
-                    set_style(svg, "--dasharray", /*circumference*/ ctx[7]);
+                    t6 = dom_text( /*valueTitle*/ ctx[4]);
+                    t7 = dom_space();
+                    if (if_block1) if_block1.c();
                     dom_attr(div0, "class", "circle-indicator__lines");
                     dom_attr(div1, "class", "circle-indicator__light");
                     dom_attr(i0, "class", i0_class_value = "circle-indicator__icon ui-" + /*icon*/ ctx[0]);
                     dom_attr(i1, "class", "circle-indicator__wave-icon ui-wave");
                     dom_attr(p, "class", "circle-indicator__count");
                     dom_attr(div2, "class", "circle-indicator");
-                    set_style(div2, "--svg-width", `${/*width*/ ctx[5]}px`);
+                    set_style(div2, "--svg-width", `${/*width*/ ctx[7]}px`);
                     set_style(div2, "--icon-color", /*iconColor*/ ctx[1]);
+                    dom_toggle_class(div2, "circle-indicator--withoutProgress", ! /*isProgressVisible*/ ctx[5]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div2, anchor);
                     dom_append(div2, div0);
-                    dom_append(div0, svg);
-                    dom_append(svg, circle0);
-                    dom_append(svg, circle1);
-                    /*circle1_binding*/
-                    ctx[12](circle1);
+                    if (if_block0) if_block0.m(div0, null);
                     /*div0_binding*/
-                    ctx[13](div0);
+                    ctx[16](div0);
                     dom_append(div2, t0);
                     dom_append(div2, div1);
                     dom_append(div2, t1);
@@ -166641,39 +168870,22 @@
                     dom_append(div2, p);
                     dom_append(p, t4);
                     dom_append(p, t5);
-                    if (if_block) if_block.m(p, null);
+                    dom_append(p, t6);
+                    dom_append(p, t7);
+                    if (if_block1) if_block1.m(p, null);
                 },
                 p(ctx, [dirty]) {
-                    if (dirty & /*center*/ 512) {
-                        dom_attr(circle0, "cx", /*center*/ ctx[9]);
-                    }
-
-                    if (dirty & /*center*/ 512) {
-                        dom_attr(circle0, "cy", /*center*/ ctx[9]);
-                    }
-
-                    if (dirty & /*radius*/ 64) {
-                        dom_attr(circle0, "r", /*radius*/ ctx[6]);
-                    }
-
-                    if (dirty & /*center*/ 512) {
-                        dom_attr(circle1, "cx", /*center*/ ctx[9]);
-                    }
-
-                    if (dirty & /*center*/ 512) {
-                        dom_attr(circle1, "cy", /*center*/ ctx[9]);
-                    }
-
-                    if (dirty & /*radius*/ 64) {
-                        dom_attr(circle1, "r", /*radius*/ ctx[6]);
-                    }
-
-                    if (dirty & /*progressOffset*/ 1024) {
-                        set_style(svg, "--dashoffset", /*progressOffset*/ ctx[10]);
-                    }
-
-                    if (dirty & /*circumference*/ 128) {
-                        set_style(svg, "--dasharray", /*circumference*/ ctx[7]);
+                    if ( /*isProgressVisible*/ ctx[5]) {
+                        if (if_block0) {
+                            if_block0.p(ctx, dirty);
+                        } else {
+                            if_block0 = circle_indicator_index_svelte_create_if_block_1(ctx);
+                            if_block0.c();
+                            if_block0.m(div0, null);
+                        }
+                    } else if (if_block0) {
+                        if_block0.d(1);
+                        if_block0 = null;
                     }
 
                     if (dirty & /*icon*/ 1 && i0_class_value !== (i0_class_value = "circle-indicator__icon ui-" + /*icon*/ ctx[0])) {
@@ -166681,27 +168893,32 @@
                     }
 
                     if (dirty & /*percents*/ 8) dom_set_data(t4, /*percents*/ ctx[3]);
+                    if (dirty & /*valueTitle*/ 16) dom_set_data(t6, /*valueTitle*/ ctx[4]);
                     if (dirty & /*units*/ 4) show_if = !(0, lodash.isEmpty)( /*units*/ ctx[2]);
 
                     if (show_if) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
+                        if (if_block1) {
+                            if_block1.p(ctx, dirty);
                         } else {
-                            if_block = circle_indicator_index_svelte_create_if_block(ctx);
-                            if_block.c();
-                            if_block.m(p, null);
+                            if_block1 = circle_indicator_index_svelte_create_if_block(ctx);
+                            if_block1.c();
+                            if_block1.m(p, null);
                         }
-                    } else if (if_block) {
-                        if_block.d(1);
-                        if_block = null;
+                    } else if (if_block1) {
+                        if_block1.d(1);
+                        if_block1 = null;
                     }
 
-                    if (dirty & /*width*/ 32) {
-                        set_style(div2, "--svg-width", `${/*width*/ ctx[5]}px`);
+                    if (dirty & /*width*/ 128) {
+                        set_style(div2, "--svg-width", `${/*width*/ ctx[7]}px`);
                     }
 
                     if (dirty & /*iconColor*/ 2) {
                         set_style(div2, "--icon-color", /*iconColor*/ ctx[1]);
+                    }
+
+                    if (dirty & /*isProgressVisible*/ 32) {
+                        dom_toggle_class(div2, "circle-indicator--withoutProgress", ! /*isProgressVisible*/ ctx[5]);
                     }
                 },
                 i: utils_noop,
@@ -166711,11 +168928,10 @@
                         dom_detach(div2);
                     }
 
-                    /*circle1_binding*/
-                    ctx[12](null);
+                    if (if_block0) if_block0.d();
                     /*div0_binding*/
-                    ctx[13](null);
-                    if (if_block) if_block.d();
+                    ctx[16](null);
+                    if (if_block1) if_block1.d();
                 }
             };
         }
@@ -166733,6 +168949,15 @@
             let {
                 percents = 0
             } = $$props;
+            let {
+                maxValue = 100
+            } = $$props;
+            let {
+                valueTitle = ''
+            } = $$props;
+            let {
+                isProgressVisible = true
+            } = $$props;
             let svgContainerRef = null;
             let circleRef = null;
             let width = 0;
@@ -166743,8 +168968,10 @@
             let progressOffset = 0;
 
             const calculateCircleWidthAndStrokeWidth = () => {
-                $$invalidate(5, width = svgContainerRef.getBoundingClientRect().width);
-                $$invalidate(11, strokeWidth = window.getComputedStyle(circleRef).strokeWidth);
+                if (svgContainerRef && circleRef) {
+                    $$invalidate(7, width = svgContainerRef.getBoundingClientRect().width);
+                    $$invalidate(14, strokeWidth = window.getComputedStyle(circleRef).strokeWidth);
+                }
             };
 
             window.addEventListener('resize', calculateCircleWidthAndStrokeWidth);
@@ -166756,14 +168983,14 @@
             function circle1_binding($$value) {
                 binding_callbacks[$$value ? 'unshift' : 'push'](() => {
                     circleRef = $$value;
-                    $$invalidate(8, circleRef);
+                    $$invalidate(10, circleRef);
                 });
             }
 
             function div0_binding($$value) {
                 binding_callbacks[$$value ? 'unshift' : 'push'](() => {
                     svgContainerRef = $$value;
-                    $$invalidate(4, svgContainerRef);
+                    $$invalidate(6, svgContainerRef);
                 });
             }
 
@@ -166772,10 +168999,13 @@
                 if ('iconColor' in $$props) $$invalidate(1, iconColor = $$props.iconColor);
                 if ('units' in $$props) $$invalidate(2, units = $$props.units);
                 if ('percents' in $$props) $$invalidate(3, percents = $$props.percents);
+                if ('maxValue' in $$props) $$invalidate(13, maxValue = $$props.maxValue);
+                if ('valueTitle' in $$props) $$invalidate(4, valueTitle = $$props.valueTitle);
+                if ('isProgressVisible' in $$props) $$invalidate(5, isProgressVisible = $$props.isProgressVisible);
             };
 
             $$self.$$.update = () => {
-                if ($$self.$$.dirty & /*svgContainerRef*/ 16) {
+                if ($$self.$$.dirty & /*svgContainerRef*/ 64) {
                     $: {
                         if (!(0, lodash.isNil)(svgContainerRef)) {
                             calculateCircleWidthAndStrokeWidth();
@@ -166783,14 +169013,14 @@
                     }
                 }
 
-                if ($$self.$$.dirty & /*width, strokeWidth, radius, percents, circumference*/ 2280) {
+                if ($$self.$$.dirty & /*width, strokeWidth, radius, percents, maxValue, circumference*/ 25480) {
                     $: {
-                        $$invalidate(6, radius = width / 2 - parseInt(strokeWidth) / 2);
-                        $$invalidate(9, center = width / 2);
-                        $$invalidate(7, circumference = 2 * Math.PI * radius);
+                        $$invalidate(8, radius = width / 2 - parseInt(strokeWidth) / 2);
+                        $$invalidate(11, center = width / 2);
+                        $$invalidate(9, circumference = 2 * Math.PI * radius);
                         let temp_percents = percents;
-                        if (temp_percents > 100) temp_percents = 100;
-                        $$invalidate(10, progressOffset = (100 - temp_percents) / 100 * circumference);
+                        if (temp_percents > maxValue) temp_percents = maxValue;
+                        $$invalidate(12, progressOffset = (maxValue - temp_percents) / maxValue * circumference);
                     }
                 }
             };
@@ -166800,6 +169030,8 @@
                 iconColor,
                 units,
                 percents,
+                valueTitle,
+                isProgressVisible,
                 svgContainerRef,
                 width,
                 radius,
@@ -166807,6 +169039,7 @@
                 circleRef,
                 center,
                 progressOffset,
+                maxValue,
                 strokeWidth,
                 circle1_binding,
                 div0_binding
@@ -166821,7 +169054,10 @@
                     icon: 0,
                     iconColor: 1,
                     units: 2,
-                    percents: 3
+                    percents: 3,
+                    maxValue: 13,
+                    valueTitle: 4,
+                    isProgressVisible: 5
                 });
             }
         }
@@ -168042,7 +170278,7 @@
                     div0.textContent = "B";
                     t1 = dom_space();
                     div1 = dom_element("div");
-                    div1.innerHTML = `ДЕНЬ МЁРТВЫХ<span class="hotkeys-tips__tip-text--emoji">☠️</span><span class="hotkeys-tips__tip-text--halloween-accent">(акции)</span>`;
+                    div1.innerHTML = `ПРОТОКОЛ ВОЛШЕБСТВА<span class="hotkeys-tips__tip-text--emoji">❄️</span><span class="hotkeys-tips__tip-text--halloween-accent">(акции)</span>`;
                     t5 = dom_space();
                     if (if_block0) if_block0.c();
                     t6 = dom_space();
@@ -170905,7 +173141,7 @@
             return child_ctx;
         }
 
-        // (108:0) {#if visible}
+        // (98:0) {#if visible}
         function arizona_pass_notification_index_svelte_create_if_block(ctx) {
             let div;
             let t0;
@@ -171061,7 +173297,7 @@
             };
         }
 
-        // (114:2) {#if withImage}
+        // (104:2) {#if withImage}
         function arizona_pass_notification_index_svelte_create_if_block_5(ctx) {
             let img;
             let img_src_value;
@@ -171089,7 +173325,7 @@
             };
         }
 
-        // (118:2) {#if title}
+        // (108:2) {#if title}
         function arizona_pass_notification_index_svelte_create_if_block_4(ctx) {
             let p;
             let t;
@@ -171102,6 +173338,7 @@
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--ny", /*imageType*/ ctx[1] === 12);
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--calendarnew", /*imageType*/ ctx[1] === 17);
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--battlepass", /*imageType*/ ctx[1] === 18);
+                    dom_toggle_class(p, "arizona-pass-hud-notification__title--new-year25", /*imageType*/ ctx[1] === 19);
                 },
                 m(target, anchor) {
                     dom_insert(target, p, anchor);
@@ -171121,6 +173358,10 @@
                     if (dirty & /*imageType*/ 2) {
                         dom_toggle_class(p, "arizona-pass-hud-notification__title--battlepass", /*imageType*/ ctx[1] === 18);
                     }
+
+                    if (dirty & /*imageType*/ 2) {
+                        dom_toggle_class(p, "arizona-pass-hud-notification__title--new-year25", /*imageType*/ ctx[1] === 19);
+                    }
                 },
                 d(detaching) {
                     if (detaching) {
@@ -171130,7 +173371,7 @@
             };
         }
 
-        // (129:2) {#if description}
+        // (120:2) {#if description}
         function arizona_pass_notification_index_svelte_create_if_block_3(ctx) {
             let p;
             let t;
@@ -171156,7 +173397,7 @@
             };
         }
 
-        // (135:2) {#if !isEmpty(rewards)}
+        // (126:2) {#if !isEmpty(rewards)}
         function arizona_pass_notification_index_svelte_create_if_block_2(ctx) {
             let div;
             let each_value = each_ensure_array_like( /*rewards*/ ctx[0]);
@@ -171219,7 +173460,7 @@
             };
         }
 
-        // (139:6) {#key imageType}
+        // (130:6) {#key imageType}
         function index_svelte_create_key_block(ctx) {
             let div;
             let img;
@@ -171256,7 +173497,7 @@
             };
         }
 
-        // (137:4) {#each rewards as reward}
+        // (128:4) {#each rewards as reward}
         function arizona_pass_notification_index_svelte_create_each_block(ctx) {
             let div;
             let previous_key = /*imageType*/ ctx[1];
@@ -171308,7 +173549,7 @@
             };
         }
 
-        // (152:2) {#if imageType < 3 || imageType === 11}
+        // (143:2) {#if imageType < 3 || imageType === 11}
         function arizona_pass_notification_index_svelte_create_if_block_1(ctx) {
             let div;
             let p;
@@ -171430,6 +173671,7 @@
                 // 16: 'arizona-pass-hud-notification__reward-image-wrapper-space',
                 17: 'arizona-pass-hud-notification__reward-image-wrapper-calendarnew',
                 18: 'arizona-pass-hud-notification__reward-image-wrapper-battlepass',
+                19: 'arizona-pass-hud-notification__reward-image-wrapper-new-year25',
                 default: 'arizona-pass-hud-notification__reward-image-wrapper'
             };
 
@@ -171438,6 +173680,7 @@
                 // 16: true, // для класса arizona-pass-hud-notification__title--space
                 17: true, // для класса arizona-pass-hud-notification__title--calendarnew
                 18: true, // для класса arizona-pass-hud-notification__title--battlepass
+                19: true, // для класса arizona-pass-hud-notification__title--new-year25
 
             };
 
@@ -171446,7 +173689,7 @@
             };
 
             const imageNotifyMap = [{
-                    types: [8, 13, 15],
+                    types: [8, 13, 15, 16, 17, 19, 20],
                     getPath: sysName => `${CDN_URL}/assets/images/donate/${sysName}.webp`
                 },
                 {
@@ -171462,20 +173705,8 @@
                     getPath: sysName => `${CDN_URL}/systems/december_calendar/${sysName}.webp`
                 },
                 {
-                    types: [16],
-                    getPath: sysName => `${CDN_URL}/assets/images/donate/${sysName}.webp`
-                },
-                {
-                    types: [17],
-                    getPath: sysName => `${CDN_URL}/assets/images/donate/${sysName}.webp`
-                },
-                {
                     types: [18],
                     getPath: sysName => `${CDN_URL}/systems/battlepass/image_prize/${sysName}.webp`
-                },
-                {
-                    types: [19],
-                    getPath: sysName => `${CDN_URL}/assets/images/donate/${sysName}.webp`
                 },
                 {
                     types: ['default'],
@@ -173455,7 +175686,837 @@
         }
 
         /* harmony default export */
-        const bossEnergy_index_svelte = (BossEnergy);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/constants.js
+        const bossEnergy_index_svelte = (BossEnergy);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/packageCondition/img/logo.png
+        const packageCondition_img_logo_namespaceObject = __webpack_require__.p + "assets/b3fb7621cdf005003fe4.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/packageCondition/index.svelte
+        /* src\views\hud\components\customized-counter\partials\packageCondition\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function packageCondition_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "Состояние";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text( /*counter*/ ctx[0]);
+                    dom_attr(img, "class", "package-condition__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = packageCondition_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "package-condition__bottom-progress-title");
+                    dom_attr(p1, "class", "package-condition__bottom-progress-value");
+                    dom_attr(div0, "class", "package-condition__bottom-progress");
+                    dom_attr(div1, "class", "package-condition__header");
+                    dom_attr(div2, "class", "package-condition");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 1) dom_set_data(t3, /*counter*/ ctx[0]);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function packageCondition_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('counter' in $$props) $$invalidate(0, counter = $$props.counter);
+            };
+
+            return [counter];
+        }
+
+        class PackageCondition extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, packageCondition_index_svelte_instance, packageCondition_index_svelte_create_fragment, utils_safe_not_equal, {
+                    counter: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const packageCondition_index_svelte = (PackageCondition);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/sleighCondition/img/logo.png
+        const sleighCondition_img_logo_namespaceObject = __webpack_require__.p + "assets/9c011f3c8c11296d1d71.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/sleighCondition/index.svelte
+        /* src\views\hud\components\customized-counter\partials\sleighCondition\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function sleighCondition_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "Состояние";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text( /*counter*/ ctx[0]);
+                    dom_attr(img, "class", "sleigh-condition__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = sleighCondition_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "sleigh-condition__bottom-progress-title");
+                    dom_attr(p1, "class", "sleigh-condition__bottom-progress-value");
+                    dom_attr(div0, "class", "sleigh-condition__bottom-progress");
+                    dom_attr(div1, "class", "sleigh-condition__header");
+                    dom_attr(div2, "class", "sleigh-condition");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 1) dom_set_data(t3, /*counter*/ ctx[0]);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function sleighCondition_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('counter' in $$props) $$invalidate(0, counter = $$props.counter);
+            };
+
+            return [counter];
+        }
+
+        class SleighCondition extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, sleighCondition_index_svelte_instance, sleighCondition_index_svelte_create_fragment, utils_safe_not_equal, {
+                    counter: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const sleighCondition_index_svelte = (SleighCondition);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/brokenIce/img/logo.png
+        const brokenIce_img_logo_namespaceObject = __webpack_require__.p + "assets/41f93c5c6e66bb0645f3.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/brokenIce/img/bg.png
+        const brokenIce_img_bg_namespaceObject = __webpack_require__.p + "assets/7243a1c6a36ab3e03a86.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/brokenIce/index.svelte
+        /* src\views\hud\components\customized-counter\partials\brokenIce\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function brokenIce_index_svelte_create_fragment(ctx) {
+            let div2;
+            let img0;
+            let img0_src_value;
+            let t0;
+            let div1;
+            let img1;
+            let img1_src_value;
+            let t1;
+            let div0;
+            let p0;
+            let t3;
+            let p1;
+            let t4;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    img0 = dom_element("img");
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    img1 = dom_element("img");
+                    t1 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "Сломано льдин";
+                    t3 = dom_space();
+                    p1 = dom_element("p");
+                    t4 = dom_text( /*counter*/ ctx[0]);
+                    dom_attr(img0, "class", "broken-ice__background");
+                    if (!utils_src_url_equal(img0.src, img0_src_value = brokenIce_img_bg_namespaceObject)) dom_attr(img0, "src", img0_src_value);
+                    dom_attr(img0, "alt", "background");
+                    dom_attr(img1, "class", "broken-ice__header-logo");
+                    if (!utils_src_url_equal(img1.src, img1_src_value = brokenIce_img_logo_namespaceObject)) dom_attr(img1, "src", img1_src_value);
+                    dom_attr(img1, "alt", "logo");
+                    dom_attr(p0, "class", "broken-ice__bottom-progress-title");
+                    dom_attr(p1, "class", "broken-ice__bottom-progress-value");
+                    dom_attr(div0, "class", "broken-ice__bottom-progress");
+                    dom_attr(div1, "class", "broken-ice__header");
+                    dom_attr(div2, "class", "broken-ice");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, img0);
+                    dom_append(div2, t0);
+                    dom_append(div2, div1);
+                    dom_append(div1, img1);
+                    dom_append(div1, t1);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t3);
+                    dom_append(div0, p1);
+                    dom_append(p1, t4);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 1) dom_set_data(t4, /*counter*/ ctx[0]);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function brokenIce_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('counter' in $$props) $$invalidate(0, counter = $$props.counter);
+            };
+
+            return [counter];
+        }
+
+        class BrokenIce extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, brokenIce_index_svelte_instance, brokenIce_index_svelte_create_fragment, utils_safe_not_equal, {
+                    counter: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const brokenIce_index_svelte = (BrokenIce);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/presentsDeliver/img/logo.png
+        const presentsDeliver_img_logo_namespaceObject = __webpack_require__.p + "assets/e2eb04489d78c7b2e105.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/presentsDeliver/index.svelte
+        /* src\views\hud\components\customized-counter\partials\presentsDeliver\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function presentsDeliver_index_svelte_create_fragment(ctx) {
+            let div4;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t1;
+            let t2;
+            let div3;
+            let div2;
+            let p1;
+            let t4;
+            let p2;
+            let t5_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t5;
+
+            return {
+                c() {
+                    div4 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    t1 = dom_text( /*counter*/ ctx[1]);
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    p1 = dom_element("p");
+                    p1.textContent = "осталось времени";
+                    t4 = dom_space();
+                    p2 = dom_element("p");
+                    t5 = dom_text(t5_value);
+                    dom_attr(img, "class", "presents-deliver__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = presentsDeliver_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "presents-deliver__header-timer-value");
+                    dom_attr(div0, "class", "presents-deliver__header-timer");
+                    dom_attr(div1, "class", "presents-deliver__header");
+                    dom_attr(p1, "class", "presents-deliver__bottom-progress-title");
+                    dom_attr(p2, "class", "presents-deliver__bottom-progress-value");
+                    dom_attr(div2, "class", "presents-deliver__bottom-progress");
+                    dom_attr(div3, "class", "presents-deliver__bottom");
+                    dom_attr(div4, "class", "presents-deliver");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div4, anchor);
+                    dom_append(div4, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(p0, t1);
+                    dom_append(div4, t2);
+                    dom_append(div4, div3);
+                    dom_append(div3, div2);
+                    dom_append(div2, p1);
+                    dom_append(div2, t4);
+                    dom_append(div2, p2);
+                    dom_append(p2, t5);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 2) dom_set_data(t1, /*counter*/ ctx[1]);
+                    if (dirty & /*time*/ 1 && t5_value !== (t5_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t5, t5_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div4);
+                    }
+                }
+            };
+        }
+
+        function presentsDeliver_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+                if ('counter' in $$props) $$invalidate(1, counter = $$props.counter);
+            };
+
+            return [time, counter];
+        }
+
+        class PresentsDeliver extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, presentsDeliver_index_svelte_instance, presentsDeliver_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0,
+                    counter: 1
+                });
+            }
+        }
+
+        /* harmony default export */
+        const presentsDeliver_index_svelte = (PresentsDeliver);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/taxiNewYear/img/logo.png
+        const taxiNewYear_img_logo_namespaceObject = __webpack_require__.p + "assets/99600a1a0c579bb730a7.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/taxiNewYear/img/decorative.png
+        const taxiNewYear_img_decorative_namespaceObject = __webpack_require__.p + "assets/cdea188a012c0bbc3a0b.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/taxiNewYear/index.svelte
+        /* src\views\hud\components\customized-counter\partials\taxiNewYear\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+        function taxiNewYear_index_svelte_create_fragment(ctx) {
+            let div5;
+            let img0;
+            let img0_src_value;
+            let t0;
+            let div1;
+            let img1;
+            let img1_src_value;
+            let t1;
+            let div0;
+            let t2_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t2;
+            let t3;
+            let div4;
+            let div2;
+            let t5;
+            let div3;
+            let t6;
+            let t7_value = `${/*counter*/ ctx[1]}` + "";
+            let t7;
+
+            return {
+                c() {
+                    div5 = dom_element("div");
+                    img0 = dom_element("img");
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    img1 = dom_element("img");
+                    t1 = dom_space();
+                    div0 = dom_element("div");
+                    t2 = dom_text(t2_value);
+                    t3 = dom_space();
+                    div4 = dom_element("div");
+                    div2 = dom_element("div");
+                    div2.textContent = "Сумма за поездку";
+                    t5 = dom_space();
+                    div3 = dom_element("div");
+                    t6 = dom_text("$");
+                    t7 = dom_text(t7_value);
+                    dom_attr(img0, "class", "taxi-new-year__decorative");
+                    if (!utils_src_url_equal(img0.src, img0_src_value = taxiNewYear_img_decorative_namespaceObject)) dom_attr(img0, "src", img0_src_value);
+                    dom_attr(img0, "alt", "decorative");
+                    dom_attr(img1, "class", "taxi-new-year__main-logo");
+                    if (!utils_src_url_equal(img1.src, img1_src_value = taxiNewYear_img_logo_namespaceObject)) dom_attr(img1, "src", img1_src_value);
+                    dom_attr(img1, "alt", "logo");
+                    dom_attr(div0, "class", "taxi-new-year__main-timer");
+                    dom_attr(div1, "class", "taxi-new-year__main");
+                    dom_attr(div2, "class", "taxi-new-year__price-caption");
+                    dom_attr(div3, "class", "taxi-new-year__price-value");
+                    dom_attr(div4, "class", "taxi-new-year__price");
+                    dom_attr(div5, "class", "taxi-new-year");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div5, anchor);
+                    dom_append(div5, img0);
+                    dom_append(div5, t0);
+                    dom_append(div5, div1);
+                    dom_append(div1, img1);
+                    dom_append(div1, t1);
+                    dom_append(div1, div0);
+                    dom_append(div0, t2);
+                    dom_append(div5, t3);
+                    dom_append(div5, div4);
+                    dom_append(div4, div2);
+                    dom_append(div4, t5);
+                    dom_append(div4, div3);
+                    dom_append(div3, t6);
+                    dom_append(div3, t7);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*time*/ 1 && t2_value !== (t2_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t2, t2_value);
+                    if (dirty & /*counter*/ 2 && t7_value !== (t7_value = `${/*counter*/ ctx[1]}` + "")) dom_set_data(t7, t7_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div5);
+                    }
+                }
+            };
+        }
+
+        function taxiNewYear_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+                if ('counter' in $$props) $$invalidate(1, counter = $$props.counter);
+            };
+
+            return [time, counter];
+        }
+
+        class TaxiNewYear extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, taxiNewYear_index_svelte_instance, taxiNewYear_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0,
+                    counter: 1
+                });
+            }
+        }
+
+        /* harmony default export */
+        const taxiNewYear_index_svelte = (TaxiNewYear);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/findCrystal/img/logo.png
+        const findCrystal_img_logo_namespaceObject = __webpack_require__.p + "assets/9783caebf4b03e83f137.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/findCrystal/index.svelte
+        /* src\views\hud\components\customized-counter\partials\findCrystal\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function findCrystal_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "Тепло";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text( /*counter*/ ctx[0]);
+                    dom_attr(img, "class", "find-crystal__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = findCrystal_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "find-crystal__bottom-progress-title");
+                    dom_attr(p1, "class", "find-crystal__bottom-progress-value");
+                    dom_attr(div0, "class", "find-crystal__bottom-progress");
+                    dom_attr(div1, "class", "find-crystal__header");
+                    dom_attr(div2, "class", "find-crystal");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 1) dom_set_data(t3, /*counter*/ ctx[0]);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function findCrystal_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('counter' in $$props) $$invalidate(0, counter = $$props.counter);
+            };
+
+            return [counter];
+        }
+
+        class FindCrystal extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, findCrystal_index_svelte_instance, findCrystal_index_svelte_create_fragment, utils_safe_not_equal, {
+                    counter: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const findCrystal_index_svelte = (FindCrystal);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/rollSnowball/img/logo.png
+        const rollSnowball_img_logo_namespaceObject = __webpack_require__.p + "assets/7df10dd1017908e11580.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/rollSnowball/index.svelte
+        /* src\views\hud\components\customized-counter\partials\rollSnowball\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function rollSnowball_index_svelte_create_fragment(ctx) {
+            let div3;
+            let div2;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t2;
+            let p1;
+            let t3;
+            let t4;
+            let div1;
+            let p2;
+            let t6;
+            let p3;
+            let t7;
+
+            return {
+                c() {
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    p0.textContent = "прогресс";
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text( /*counter*/ ctx[0]);
+                    t4 = dom_space();
+                    div1 = dom_element("div");
+                    p2 = dom_element("p");
+                    p2.textContent = "снежок";
+                    t6 = dom_space();
+                    p3 = dom_element("p");
+                    t7 = dom_text( /*time*/ ctx[1]);
+                    dom_attr(img, "class", "roll-snowball__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = rollSnowball_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "roll-snowball__bottom-progress-title");
+                    dom_attr(p1, "class", "roll-snowball__bottom-progress-value");
+                    dom_attr(div0, "class", "roll-snowball__bottom-progress");
+                    dom_attr(p2, "class", "roll-snowball__snow-progress-title");
+                    dom_attr(p3, "class", "roll-snowball__snow-progress-value");
+                    dom_attr(div1, "class", "roll-snowball__snow-progress");
+                    dom_attr(div2, "class", "roll-snowball__header");
+                    dom_attr(div3, "class", "roll-snowball");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div3, anchor);
+                    dom_append(div3, div2);
+                    dom_append(div2, img);
+                    dom_append(div2, t0);
+                    dom_append(div2, div0);
+                    dom_append(div0, p0);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                    dom_append(div2, t4);
+                    dom_append(div2, div1);
+                    dom_append(div1, p2);
+                    dom_append(div1, t6);
+                    dom_append(div1, p3);
+                    dom_append(p3, t7);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 1) dom_set_data(t3, /*counter*/ ctx[0]);
+                    if (dirty & /*time*/ 2) dom_set_data(t7, /*time*/ ctx[1]);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div3);
+                    }
+                }
+            };
+        }
+
+        function rollSnowball_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                counter
+            } = $$props;
+            let {
+                time
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('counter' in $$props) $$invalidate(0, counter = $$props.counter);
+                if ('time' in $$props) $$invalidate(1, time = $$props.time);
+            };
+
+            return [counter, time];
+        }
+
+        class RollSnowball extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, rollSnowball_index_svelte_instance, rollSnowball_index_svelte_create_fragment, utils_safe_not_equal, {
+                    counter: 0,
+                    time: 1
+                });
+            }
+        }
+
+        /* harmony default export */
+        const rollSnowball_index_svelte = (RollSnowball);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/baseJumping/img/logo.png
+        const baseJumping_img_logo_namespaceObject = __webpack_require__.p + "assets/5e114fe9328711183fee.webp";; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/partials/baseJumping/index.svelte
+        /* src\views\hud\components\customized-counter\partials\baseJumping\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function baseJumping_index_svelte_create_fragment(ctx) {
+            let div4;
+            let div1;
+            let img;
+            let img_src_value;
+            let t0;
+            let div0;
+            let p0;
+            let t1;
+            let t2;
+            let div3;
+            let div2;
+            let p1;
+            let t4;
+            let p2;
+            let t5_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "";
+            let t5;
+
+            return {
+                c() {
+                    div4 = dom_element("div");
+                    div1 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    t1 = dom_text( /*counter*/ ctx[1]);
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    p1 = dom_element("p");
+                    p1.textContent = "осталось времени";
+                    t4 = dom_space();
+                    p2 = dom_element("p");
+                    t5 = dom_text(t5_value);
+                    dom_attr(img, "class", "base-jumping__header-logo");
+                    if (!utils_src_url_equal(img.src, img_src_value = baseJumping_img_logo_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "logo");
+                    dom_attr(p0, "class", "base-jumping__header-timer-value");
+                    dom_attr(div0, "class", "base-jumping__header-timer");
+                    dom_attr(div1, "class", "base-jumping__header");
+                    dom_attr(p1, "class", "base-jumping__bottom-progress-title");
+                    dom_attr(p2, "class", "base-jumping__bottom-progress-value");
+                    dom_attr(div2, "class", "base-jumping__bottom-progress");
+                    dom_attr(div3, "class", "base-jumping__bottom");
+                    dom_attr(div4, "class", "base-jumping");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div4, anchor);
+                    dom_append(div4, div1);
+                    dom_append(div1, img);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(p0, t1);
+                    dom_append(div4, t2);
+                    dom_append(div4, div3);
+                    dom_append(div3, div2);
+                    dom_append(div2, p1);
+                    dom_append(div2, t4);
+                    dom_append(div2, p2);
+                    dom_append(p2, t5);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*counter*/ 2) dom_set_data(t1, /*counter*/ ctx[1]);
+                    if (dirty & /*time*/ 1 && t5_value !== (t5_value = formatSecondsToMmSs( /*time*/ ctx[0]) + "")) dom_set_data(t5, t5_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div4);
+                    }
+                }
+            };
+        }
+
+        function baseJumping_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                time
+            } = $$props;
+            let {
+                counter
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('time' in $$props) $$invalidate(0, time = $$props.time);
+                if ('counter' in $$props) $$invalidate(1, counter = $$props.counter);
+            };
+
+            return [time, counter];
+        }
+
+        class BaseJumping extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, baseJumping_index_svelte_instance, baseJumping_index_svelte_create_fragment, utils_safe_not_equal, {
+                    time: 0,
+                    counter: 1
+                });
+            }
+        }
+
+        /* harmony default export */
+        const baseJumping_index_svelte = (BaseJumping);; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/constants.js
         var _MAP_TYPE_TO_INFORMAT;
 
         function customized_counter_constants_typeof(o) {
@@ -173535,6 +176596,14 @@
 
 
 
+
+
+
+
+
+
+
+
         var constants_Type = {
             Taxi: 'taxi',
             Bus: 'bus',
@@ -173564,7 +176633,15 @@
             HalloweenCoins: 'halloweenCoins',
             LordRingsSurvived: 'lordRingsSurvived',
             GhostWorld: 'ghostWorld',
-            BossEnergy: 'bossEnergy'
+            BossEnergy: 'bossEnergy',
+            PackageCondition: 'packageCondition',
+            SleighCondition: 'sleighCondition',
+            BrokenIce: 'brokenIce',
+            PresentsDeliver: 'presentsDeliver',
+            TaxiNewYear: 'taxiNewYear',
+            FindCrystal: 'findCrystal',
+            RollSnowball: 'rollSnowball',
+            BaseJumping: 'baseJumping'
         };
         var MAP_TYPE_TO_INFORMATION = (_MAP_TYPE_TO_INFORMAT = {}, customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.Taxi, {
             logo: taximeter_logo_namespaceObject,
@@ -173635,7 +176712,7 @@
             logo: sound_level_logo_namespaceObject,
             background: sound_level_bg_namespaceObject,
             counterTitle: 'DB'
-        }), customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.StoredEnergy, {
+        }), customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.StoredEnergy, {
             logo: stored_energy_logo_namespaceObject,
             background: stored_energy_bg_namespaceObject,
             counterTitle: 'ENERGY',
@@ -173658,6 +176735,22 @@
             component: ghostWorld_index_svelte
         }), constants_Type.BossEnergy, {
             component: bossEnergy_index_svelte
+        }), constants_Type.PackageCondition, {
+            component: packageCondition_index_svelte
+        }), customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(customized_counter_constants_defineProperty(_MAP_TYPE_TO_INFORMAT, constants_Type.SleighCondition, {
+            component: sleighCondition_index_svelte
+        }), constants_Type.BrokenIce, {
+            component: brokenIce_index_svelte
+        }), constants_Type.PresentsDeliver, {
+            component: presentsDeliver_index_svelte
+        }), constants_Type.TaxiNewYear, {
+            component: taxiNewYear_index_svelte
+        }), constants_Type.FindCrystal, {
+            component: findCrystal_index_svelte
+        }), constants_Type.RollSnowball, {
+            component: rollSnowball_index_svelte
+        }), constants_Type.BaseJumping, {
+            component: baseJumping_index_svelte
         }));; // CONCATENATED MODULE: ./src/views/hud/components/customized-counter/index.svelte
         /* src\views\hud\components\customized-counter\index.svelte generated by Svelte v4.2.8 */
 
@@ -189866,7 +192959,7 @@ setTimeout(() => {
                     i = dom_element("i");
                     t0 = dom_space();
                     span = dom_element("span");
-                    span.textContent = "Призрак";
+                    span.textContent = "Эльф";
                     dom_attr(i, "class", "driver-app-order-item__rating-star ui-monster-2");
                     dom_attr(span, "class", "driver-app-order-item__rating-value");
                 },
@@ -206414,7 +209507,7 @@ setTimeout(() => {
         const graves_video_2_namespaceObject = __webpack_require__.p + "assets/8efbc434214c9ddaf8f4.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hb25_quest/graves_video_3.webm
         const graves_video_3_namespaceObject = __webpack_require__.p + "assets/21963b3082d9a9f4cf48.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/hld_ghost_world/ghost_world_1.webm
         const ghost_world_1_namespaceObject = __webpack_require__.p + "assets/846a0e67600d5a557332.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/portal_effect.webm
-        const portal_effect_namespaceObject = __webpack_require__.p + "assets/e359fa7739dd34874bf5.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq8_1.webm
+        const portal_effect_namespaceObject = __webpack_require__.p + "assets/c5821a1f761bf42ff7a4.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq8_1.webm
         const hq8_1_namespaceObject = __webpack_require__.p + "assets/71a5f41d2881a6d199dd.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq8_2.webm
         const hq8_2_namespaceObject = __webpack_require__.p + "assets/a6b0cea30c340c88662d.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq9_1.webm
         const hq9_1_namespaceObject = __webpack_require__.p + "assets/846a0e67600d5a557332.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/halloween25/hq10_1.webm
@@ -215227,7 +218320,10 @@ setTimeout(() => {
         const scream_7_namespaceObject = __webpack_require__.p + "assets/c6f18e3e32971384ffd3.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_8.png
         const scream_8_namespaceObject = __webpack_require__.p + "assets/04912594e312b23908bd.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_9.png
         const scream_9_namespaceObject = __webpack_require__.p + "assets/f1ff75979d3c02f6d2a8.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/scream_10.png
-        const scream_10_namespaceObject = __webpack_require__.p + "assets/631dc1969b55eb6cfe8c.webp";; // CONCATENATED MODULE: ./src/views/screamer/constants.js
+        const scream_10_namespaceObject = __webpack_require__.p + "assets/631dc1969b55eb6cfe8c.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/base_jump_start.png
+        const base_jump_start_namespaceObject = __webpack_require__.p + "assets/f04d823295fceaf8436a.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/base_jump_finish.png
+        const base_jump_finish_namespaceObject = __webpack_require__.p + "assets/d7cff77b68ec511fb944.webp";; // CONCATENATED MODULE: ./src/views/screamer/img/lockdown_protocol_start.png
+        const lockdown_protocol_start_namespaceObject = __webpack_require__.p + "assets/bed1e59fdbfef23e8943.webp";; // CONCATENATED MODULE: ./src/views/screamer/constants.js
         var _MAP_TYPE_TO_IMAGE;
 
         function screamer_constants_typeof(o) {
@@ -215297,6 +218393,9 @@ setTimeout(() => {
 
 
 
+
+
+
         var ScreamerId = {
             None: null,
             Halloween_1: 1,
@@ -215332,9 +218431,12 @@ setTimeout(() => {
             Screamer_7: 31,
             Screamer_8: 32,
             Screamer_9: 33,
-            Screamer_10: 34
+            Screamer_10: 34,
+            BaseJumpStart: 35,
+            BaseJumpFinish: 36,
+            LockdownProtocolStart: 37
         };
-        var constants_MAP_TYPE_TO_IMAGE = (_MAP_TYPE_TO_IMAGE = {}, screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.Halloween_1, halloween_1_namespaceObject), ScreamerId.Halloween_2, halloween_2_namespaceObject), ScreamerId.Halloween_3, halloween_3_namespaceObject), ScreamerId.Halloween_4, halloween_4_namespaceObject), ScreamerId.Halloween_5, halloween_5_namespaceObject), ScreamerId.Halloween_6, halloween_6_namespaceObject), ScreamerId.Halloween_7, halloween_7_namespaceObject), ScreamerId.Halloween_8, halloween_8_namespaceObject), ScreamerId.Halloween_9, halloween_9_namespaceObject), ScreamerId.Slender, slender_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.DangeonStart, dng_start_namespaceObject), ScreamerId.DangeonLeave, dng_leave_namespaceObject), ScreamerId.CollectorStart, collector_start_namespaceObject), ScreamerId.CollectorLeave, collector_end_namespaceObject), ScreamerId.MadHuntStart, crazy_hunt_start_namespaceObject), ScreamerId.MadHuntLeave, crazy_hunt_end_namespaceObject), ScreamerId.BattleGhettoStart, battle_drugs_start_namespaceObject), ScreamerId.BattleGhettoEnd, battle_drugs_end_namespaceObject), ScreamerId.BattleOilRigsStart, battle_oilrigs_start_namespaceObject), ScreamerId.BattleOilRigsEnd, battle_oilrigs_end_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.LordRingStart, lord_ring_1_namespaceObject), ScreamerId.LordRingFinish, lord_ring_2_namespaceObject), ScreamerId.ZombieEventStart, zombie_event_start_namespaceObject), ScreamerId.ZombieEventFinish, zombie_event_finish_namespaceObject), ScreamerId.Screamer_1, scream_1_namespaceObject), ScreamerId.Screamer_2, scream_2_namespaceObject), ScreamerId.Screamer_3, scream_3_namespaceObject), ScreamerId.Screamer_4, scream_4_namespaceObject), ScreamerId.Screamer_5, scream_5_namespaceObject), ScreamerId.Screamer_6, scream_6_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.Screamer_7, scream_7_namespaceObject), ScreamerId.Screamer_8, scream_8_namespaceObject), ScreamerId.Screamer_9, scream_9_namespaceObject), ScreamerId.Screamer_10, scream_10_namespaceObject));; // CONCATENATED MODULE: ./src/views/screamer/index.svelte
+        var constants_MAP_TYPE_TO_IMAGE = (_MAP_TYPE_TO_IMAGE = {}, screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.Halloween_1, halloween_1_namespaceObject), ScreamerId.Halloween_2, halloween_2_namespaceObject), ScreamerId.Halloween_3, halloween_3_namespaceObject), ScreamerId.Halloween_4, halloween_4_namespaceObject), ScreamerId.Halloween_5, halloween_5_namespaceObject), ScreamerId.Halloween_6, halloween_6_namespaceObject), ScreamerId.Halloween_7, halloween_7_namespaceObject), ScreamerId.Halloween_8, halloween_8_namespaceObject), ScreamerId.Halloween_9, halloween_9_namespaceObject), ScreamerId.Slender, slender_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.DangeonStart, dng_start_namespaceObject), ScreamerId.DangeonLeave, dng_leave_namespaceObject), ScreamerId.CollectorStart, collector_start_namespaceObject), ScreamerId.CollectorLeave, collector_end_namespaceObject), ScreamerId.MadHuntStart, crazy_hunt_start_namespaceObject), ScreamerId.MadHuntLeave, crazy_hunt_end_namespaceObject), ScreamerId.BattleGhettoStart, battle_drugs_start_namespaceObject), ScreamerId.BattleGhettoEnd, battle_drugs_end_namespaceObject), ScreamerId.BattleOilRigsStart, battle_oilrigs_start_namespaceObject), ScreamerId.BattleOilRigsEnd, battle_oilrigs_end_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.LordRingStart, lord_ring_1_namespaceObject), ScreamerId.LordRingFinish, lord_ring_2_namespaceObject), ScreamerId.ZombieEventStart, zombie_event_start_namespaceObject), ScreamerId.ZombieEventFinish, zombie_event_finish_namespaceObject), ScreamerId.Screamer_1, scream_1_namespaceObject), ScreamerId.Screamer_2, scream_2_namespaceObject), ScreamerId.Screamer_3, scream_3_namespaceObject), ScreamerId.Screamer_4, scream_4_namespaceObject), ScreamerId.Screamer_5, scream_5_namespaceObject), ScreamerId.Screamer_6, scream_6_namespaceObject), screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(screamer_constants_defineProperty(_MAP_TYPE_TO_IMAGE, ScreamerId.Screamer_7, scream_7_namespaceObject), ScreamerId.Screamer_8, scream_8_namespaceObject), ScreamerId.Screamer_9, scream_9_namespaceObject), ScreamerId.Screamer_10, scream_10_namespaceObject), ScreamerId.BaseJumpStart, base_jump_start_namespaceObject), ScreamerId.BaseJumpFinish, base_jump_finish_namespaceObject), ScreamerId.LockdownProtocolStart, lockdown_protocol_start_namespaceObject));; // CONCATENATED MODULE: ./src/views/screamer/index.svelte
         /* src\views\screamer\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -215360,7 +218462,7 @@ setTimeout(() => {
                     dom_attr(img, "class", "screamer__img svelte-1gsblsn");
                     if (!utils_src_url_equal(img.src, img_src_value = constants_MAP_TYPE_TO_IMAGE[ /*selectedScreamerId*/ ctx[0]])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "screamer");
-                    dom_toggle_class(img, "screamer__img--full-height", /*selectedScreamerId*/ ctx[0] >= 20 && /*selectedScreamerId*/ ctx[0] <= 34);
+                    dom_toggle_class(img, "screamer__img--full-height", /*selectedScreamerId*/ ctx[0] >= 35 && /*selectedScreamerId*/ ctx[0] <= 37);
                     dom_attr(div, "class", "screamer svelte-1gsblsn");
                 },
                 m(target, anchor) {
@@ -215373,7 +218475,7 @@ setTimeout(() => {
                     }
 
                     if (dirty & /*selectedScreamerId*/ 1) {
-                        dom_toggle_class(img, "screamer__img--full-height", /*selectedScreamerId*/ ctx[0] >= 20 && /*selectedScreamerId*/ ctx[0] <= 34);
+                        dom_toggle_class(img, "screamer__img--full-height", /*selectedScreamerId*/ ctx[0] >= 35 && /*selectedScreamerId*/ ctx[0] <= 37);
                     }
                 },
                 i: utils_noop,
@@ -217593,7 +220695,7 @@ setTimeout(() => {
 
             function select_block_type(ctx, dirty) {
                 if (dirty & /*quests, selectedQuestIndex*/ 3) show_if_1 = null;
-                if ( /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]].progress !== /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]].maxProgress) return quests_index_svelte_create_if_block_6;
+                if ( /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]].progress !== /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]].maxProgress) return views_quests_index_svelte_create_if_block_6;
                 if (show_if_1 == null) show_if_1 = !! /*isNeedToTakeReward*/ ctx[10]( /*quests*/ ctx[0][ /*selectedQuestIndex*/ ctx[1]]);
                 if (show_if_1) return quests_index_svelte_create_if_block_7;
                 return index_svelte_create_else_block_4;
@@ -217601,7 +220703,7 @@ setTimeout(() => {
 
             let current_block_type = select_block_type(ctx, -1);
             let if_block1 = current_block_type(ctx);
-            const if_block_creators = [quests_index_svelte_create_if_block_5, index_svelte_create_else_block_3];
+            const if_block_creators = [views_quests_index_svelte_create_if_block_5, index_svelte_create_else_block_3];
             const if_blocks = [];
 
             function select_block_type_1(ctx, dirty) {
@@ -217883,7 +220985,7 @@ setTimeout(() => {
         }
 
         // (141:12) {#if quests[selectedQuestIndex].progress !== quests[selectedQuestIndex].maxProgress}
-        function quests_index_svelte_create_if_block_6(ctx) {
+        function views_quests_index_svelte_create_if_block_6(ctx) {
             let div1;
             let div0;
             let div0_style_value;
@@ -217943,7 +221045,7 @@ setTimeout(() => {
         }
 
         // (170:24) {#if isQuestCompleted(quests[selectedQuestIndex])}
-        function quests_index_svelte_create_if_block_5(ctx) {
+        function views_quests_index_svelte_create_if_block_5(ctx) {
             let crownicon;
             let current;
             crownicon = new crown_icon_index_svelte({
@@ -228663,7 +231765,7 @@ setTimeout(() => {
                                 img_intro = create_in_transition(img, fly, {
                                     duration: 400,
                                     x: -85,
-                                    easing: easing_cubicOut
+                                    easing: cubicOut
                                 });
                                 img_intro.start();
                             });
@@ -243088,6 +246190,8 @@ setTimeout(() => {
             ITEM_TYPE_IMP_ACS: 73,
             ITEM_TYPE_CASES: 74,
             ITEM_TYPE_PACKED_ACCESSORY: 75,
+            ITEM_TYPE_FRAGMENT_MERGE: 76,
+            ITEM_TYPE_SPARE_PARTS_VEHICLE: 77,
             ITEM_TYPE_NULL: -1
         };
         var BLOCK_TYPE = {
@@ -243206,9 +246310,9 @@ setTimeout(() => {
         var MAP_BAG_TO_NAME = inventory_constants_defineProperty(inventory_constants_defineProperty({}, BLOCK_TYPE.BLOCK_TYPE_WALLET, 'Бумажник'), BLOCK_TYPE.BLOCK_TYPE_FISHBAG, 'Рюкзак рыболова');
         var MAP_ACTION_TO_NAME = (_MAP_ACTION_TO_NAME = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ACTION_TO_NAME, ACTIONS_BITS.Use, 'Использовать'), ACTIONS_BITS.Put_on, 'Надеть'), ACTIONS_BITS.Item_open, 'Открыть'), ACTIONS_BITS.Drop, 'Выкинуть'), ACTIONS_BITS.Split, 'Разделить'), ACTIONS_BITS.Info, 'Информация'), ACTIONS_BITS.ItemLink, 'Упомянуть'), ACTIONS_BITS.Close, 'Закрыть'), ACTIONS_BITS.Item_close, 'Закрыть'), ACTIONS_BITS.Take_on, 'Снять'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ACTION_TO_NAME, ACTIONS_BITS.Clear, 'Очистить'), ACTIONS_BITS.Install, 'Установить'), ACTIONS_BITS.Edit, 'Изменить'), ACTIONS_BITS.Open, 'Открыть'), ACTIONS_BITS.Rent, 'Сдать в аренду'), ACTIONS_BITS.Color, 'Выбрать цвет'), ACTIONS_BITS.Put, 'Положить'), ACTIONS_BITS.PutInGift, 'Поместить'), ACTIONS_BITS.Take, 'Забрать'), ACTIONS_BITS.Sell, 'Продать'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ACTION_TO_NAME, ACTIONS_BITS.Send, 'Передать'), ACTIONS_BITS.Rating, 'Рейтинг'), ACTIONS_BITS.CancelRent, 'Завершить аренду'));
         var MAP_ACTION_TO_ICON = (_MAP_ACTION_TO_ICON = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ACTION_TO_ICON, ACTIONS_BITS.Use, 'check'), ACTIONS_BITS.Put_on, 'take-on'), ACTIONS_BITS.Drop, 'drop'), ACTIONS_BITS.Split, 'split'), ACTIONS_BITS.Info, 'information'), ACTIONS_BITS.ItemLink, 'icon-link'), ACTIONS_BITS.Close, 'close'), ACTIONS_BITS.Item_open, 'open'), ACTIONS_BITS.Item_close, 'lock'), ACTIONS_BITS.Take_on, 'put-on'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ACTION_TO_ICON, ACTIONS_BITS.Clear, 'clear'), ACTIONS_BITS.Install, 'setup'), ACTIONS_BITS.Edit, 'edit'), ACTIONS_BITS.Open, 'check'), ACTIONS_BITS.Rent, 'rent'), ACTIONS_BITS.Color, 'color'), ACTIONS_BITS.Put, 'put'), ACTIONS_BITS.PutInGift, 'put-in-gift'), ACTIONS_BITS.Take, 'take-from'), ACTIONS_BITS.Sell, 'sell'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ACTION_TO_ICON, ACTIONS_BITS.Send, 'put-in-gift'), ACTIONS_BITS.Rating, 'stats-down'), ACTIONS_BITS.CancelRent, 'cancel-rent'));
-        var MAP_ITEM_TYPE_TO_DESCRIPTION = (_MAP_ITEM_TYPE_TO_DES = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_BOX_TIME, 'Используйте, чтобы получить предмет.'), ITEM_TYPES.ITEM_TYPE_RULETKA, 'Используйте, чтобы прокрутить рулетку и получить случайный предмет.'), ITEM_TYPES.ITEM_TYPE_VEHICLE, 'Используйте для получения указанного транспорта.'), ITEM_TYPES.ITEM_TYPE_ACCESSORIES, 'Наденьте данный аксессуар для дополнения внешнего образа вашего персонажа.'), ITEM_TYPES.ITEM_TYPE_VEH_ACCESSORIES, 'Установите на ваше авто, чтобы дополнить его внешний вид.'), ITEM_TYPES.ITEM_TYPE_LICENSE, 'Разрешение на осуществление какой-либо деятельности.'), ITEM_TYPES.ITEM_TYPE_IMPROV, 'Наденьте для улучшения внешнего вида вашего персонажа.'), ITEM_TYPES.ITEM_TYPE_VEH_SKIN, 'Используйте, чтобы изменить окраску вашего транспорта.'), ITEM_TYPES.ITEM_TYPE_IMPROV_GUN, 'Используйте, чтобы улучшить характеристики вашего оружия'), ITEM_TYPES.ITEM_TYPE_GUN, 'Используйте, чтобы взять в руки данное оружие.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_SKIN, 'Наденьте, чтобы полностью сменить внешность вашего персонажа. Позволит стать другим человеком внешне.'), ITEM_TYPES.ITEM_TYPE_PHONE, 'Используйте, чтобы кому-то позвонить или воспользоваться другими полезными функциями.'), ITEM_TYPES.ITEM_TYPE_CLOTHES, 'Одежда, которая непригодна для носки, но может пригодиться в крафте.'), ITEM_TYPES.ITEM_TYPE_IMPERMANENT, 'Используйте, что установить данный временный объект.'), ITEM_TYPES.ITEM_TYPE_COOK, 'Используйте, чтобы восполнить сытость персонажа.'), ITEM_TYPES.ITEM_TYPE_OTHER, 'Обычный предмет, который точно где-то пригодится.'), ITEM_TYPES.ITEM_TYPE_MONEY, 'Определяет ваше материальное благополучие. '), ITEM_TYPES.ITEM_TYPE_MEDCARD, 'Медицинская документация, пахнет больницей и длинными очередями.'), ITEM_TYPES.ITEM_TYPE_ARMYTICKET, 'Документация государственного стандарта.'), ITEM_TYPES.ITEM_TYPE_MOD_SKIN, 'Используйте, чтобы надеть на себя модификацию внешности персонажа.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_ENCHANT, 'Используется для улучшения и заточки аксессуаров.'), ITEM_TYPES.ITEM_TYPE_PROPERTY_OBJECT, 'Используйте, чтобы установить данный объект рядом с вашей недвижимостью.'), ITEM_TYPES.ITEM_TYPE_STRIPE, 'Используйте нашивку, чтобы придать вашему аксессуару указанные характеристики.'), ITEM_TYPES.ITEM_TYPE_VISUAL_TUNING, 'Используется для изменения внешних деталей тюнинга вашего транспорта.'), ITEM_TYPES.ITEM_TYPE_TECH_TUNING, 'Используется для модификации характеристик вашего транспорта.'), ITEM_TYPES.ITEM_TYPE_PACK_ITEM, 'Используйте, чтобы распаковать и получить предметы, которые внутри.'), ITEM_TYPES.ITEM_TYPE_MEDINSURANCE, 'Медицинская страховка, позволяющая получать необходимые медицинские услуги.'), ITEM_TYPES.ITEM_TYPE_LAREC, 'Используйте, чтобы заглянуть во внутрь и получить что-то из содерджимого.'), ITEM_TYPES.ITEM_TYPE_AIR_TICKET, 'Позволяет пройти на борт самолета.'), ITEM_TYPES.ITEM_TYPE_WORKING_VISA, 'Документ, который позволяет работать за рубежом.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_ACTOR_SKIN, ''), ITEM_TYPES.ITEM_TYPE_EAT, 'Используйте, чтобы восполнить сытость персонажа.'), ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING, 'Используется для улучшения и заточки бронежилетов.'), ITEM_TYPES.ITEM_TYPE_CONTAINER, 'Используйте, чтобы получить уникальное содержимое.'), ITEM_TYPES.ITEM_TYPE_VC_WORK_PERMIT, 'Разрешение, которое позволяет работать на Vice City.'), ITEM_TYPES.ITEM_TYPE_APTECHKA, 'Используйте, чтобы восполнить здоровьте персонажа.'), ITEM_TYPES.ITEM_TYPE_DRINK, 'Используйте, чтобы выпить напиток.'), ITEM_TYPES.ITEM_TYPE_ALHO_DRINK, 'Используйте, чтобы употребить алкогольный напиток.'), ITEM_TYPES.ITEM_TYPE_ARMOUR, 'Используйте, чтобы восполнить бронежилет персонажа.'), ITEM_TYPES.ITEM_TYPE_MAFIA_SECURITY, 'Расписка от мафиози, которая решит все ваши проблемы. Возможно. Но пока только защищает от похищения.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_DRUGS, 'Используйте, чтобы употребить наркотическое средство.'), ITEM_TYPES.ITEM_TYPE_CROSSHAIR, 'Используется для модификации внешнего вида прицела вашего оружия.'), ITEM_TYPES.ITEM_TYPE_INDICATOR_HUNGRY, 'Наличие данного предмета в инвентаре, в паре с любой едой, позволяет персонажу самостоятельно утолять голод.'), ITEM_TYPES.ITEM_TYPE_TERMO_BACKPACK, 'Данный предмет используется для продления срока годности скоропортящийся еды.'), ITEM_TYPES.ITEM_TYPE_INCREASED_MAGAZINE, 'Позволяет увеличить размер магазина вашего оружия.'), ITEM_TYPES.ITEM_TYPE_VC_PURCHASE_PAPER_OIL, 'Документ для работы с нефтяными бочками.'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CERT, 'Документ, который позволит обойти некоторые таможенные ограничения при использовании.'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CLEARANCE, 'Разрешение таможни для перевозки междугородних грузов.'), ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED, 'Предмет, который используется для улучшения и заточки ваших аксессуаров до максимального уровня.'), ITEM_TYPES.ITEM_TYPE_VEH_MODIFICATION, 'Техническая модификация, которая может сильно изменить характеристики вашего авто.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_RANDOM_CROSSHAIR, 'Используйте, чтобы получить случайный измененный прицел для вашего оружия.'), ITEM_TYPES.ITEM_TYPE_ELIXIR, 'Используйте, чтобы получить на время указанные характеристики для персонажа.'), ITEM_TYPES.ITEM_TYPE_REALTOR_PERMIT, 'Разрешение, которое позволяет преобретать указанную недвижимость.'), ITEM_TYPES.ITEM_TYPE_UNLIMITE_PARK_CARD, 'Позволяет бесплатно парковаться на платных парковках без получения инвалидности.'), ITEM_TYPES.ITEM_TYPE_VIP_ADVERT_CARD, 'Используйте, чтобы получить дополнение к VIP-статусу и дополнительные привилегии.'), ITEM_TYPES.ITEM_TYPE_DYE, 'Используется для покраски аксессуаров в подвале вашего дома.'), ITEM_TYPES.ITEM_TYPE_UNLIM_BARREL_DELIVERY, 'При использовании дает возможность сдавать нефтебочки без ограничений (КД).'), ITEM_TYPES.ITEM_TYPE_VEH_NUMBER, 'Используется для установки номерного знака на личный транспорт.'), ITEM_TYPES.ITEM_TYPE_HIRED_FARMER, 'После установки собирает грядки с урожаем возле вашего дома.'), ITEM_TYPES.ITEM_TYPE_STRIPE_SKIN, 'Используйте нашивку, чтобы придать вашему скину указанные характеристики.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_MAP_CLAD, 'Используйте для поиска хэллоуинских кладов. На карте отмечены точки, где могут находиться клады.'), ITEM_TYPES.ITEM_TYPE_DRONE, 'Используется для наблюдения за территорией и атаки противников.'), ITEM_TYPES.ITEM_TYPE_ARMY_SUMMONS, 'ри наличии повестки в армию, вы обязаны явиться в военкомат.'), ITEM_TYPES.ITEM_TYPE_CODE_TRILOGY, 'Используйте, чтобы получить вознаграждение за ваше участие в тестах.'), ITEM_TYPES.ITEM_TYPE_REAL_MONEY, 'Можно использовать для выплат реальных денег на Ваш банковский счёт.'), ITEM_TYPES.ITEM_TYPE_STRIPE_IMPROV, 'Используйте нашивку, чтобы придать вашему бронежилету указанные характеристики.'), ITEM_TYPES.ITEM_TYPE_STRIPE_SHAR, 'Используется для создания легендарного аксессуара Энергетический шар'), ITEM_TYPES.ITEM_TYPE_STRIPE_SUIT_CASE, 'Используется для создания аксессуара Энергетический кейс'), ITEM_TYPES.ITEM_TYPE_TEMP_VEHICLE, 'Используется для активации временного транспортного средства.'), ITEM_TYPES.ITEM_TYPE_LOTTERY_TICKET, 'Используйте, чтобы участвовать в лотерее.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR, 'Используется для улучшений характеристик призываемых актеров'), ITEM_TYPES.ITEM_TYPE_FAKE_SKIN_FORM, 'При использовании изменяет внешность персонажа на 30 минут.'), ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR_N, 'Используется для улучшений характеристик призываемых актеров'), ITEM_TYPES.ITEM_TYPE_IMP_ACS, 'Используется для дополнения внешнего образа вашего персонажа в слот компенсаторов'), ITEM_TYPES.ITEM_TYPE_CASES, 'Используйте, чтобы заглянуть во внутрь и получить что-то из содерджимого.'), ITEM_TYPES.ITEM_TYPE_PACKED_ACCESSORY, 'Используйте для получения аксессуара.'));
-        var MAP_ITEM_TYPE_TO_ICON = (_MAP_ITEM_TYPE_TO_ICO = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_BOX_TIME, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_RULETKA, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_VEHICLE, 'icon-type-vehicle'), ITEM_TYPES.ITEM_TYPE_ACCESSORIES, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_VEH_ACCESSORIES, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_LICENSE, 'icon-type-license'), ITEM_TYPES.ITEM_TYPE_IMPROV, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_VEH_SKIN, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_IMPROV_GUN, 'icon-type-gun-up'), ITEM_TYPES.ITEM_TYPE_GUN, 'icon-type-gun'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_SKIN, 'icon-type-cloth'), ITEM_TYPES.ITEM_TYPE_PHONE, 'icon-type-other'), ITEM_TYPES.ITEM_TYPE_CLOTHES, 'icon-type-source'), ITEM_TYPES.ITEM_TYPE_IMPERMANENT, 'icon-type-other'), ITEM_TYPES.ITEM_TYPE_COOK, 'icon-type-food'), ITEM_TYPES.ITEM_TYPE_OTHER, 'icon-type-source'), ITEM_TYPES.ITEM_TYPE_MONEY, 'icon-type-currency'), ITEM_TYPES.ITEM_TYPE_MEDCARD, 'icon-type-license'), ITEM_TYPES.ITEM_TYPE_ARMYTICKET, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_MOD_SKIN, 'icon-type-cloth-up'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_ENCHANT, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_PROPERTY_OBJECT, 'icon-type-property'), ITEM_TYPES.ITEM_TYPE_STRIPE, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_VISUAL_TUNING, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_TECH_TUNING, 'icon-type-tuning-up'), ITEM_TYPES.ITEM_TYPE_PACK_ITEM, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_MEDINSURANCE, 'icon-type-license'), ITEM_TYPES.ITEM_TYPE_LAREC, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_AIR_TICKET, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_WORKING_VISA, 'icon-type-scroll'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_ACTOR_SKIN, 'icon-type-other ""'), ITEM_TYPES.ITEM_TYPE_EAT, 'icon-type-food'), ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING, 'icon-type-accessories-up'), ITEM_TYPES.ITEM_TYPE_CONTAINER, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_VC_WORK_PERMIT, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_APTECHKA, 'icon-type-med'), ITEM_TYPES.ITEM_TYPE_DRINK, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_ALHO_DRINK, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_ARMOUR, 'icon-type-med'), ITEM_TYPES.ITEM_TYPE_MAFIA_SECURITY, 'icon-type-scroll'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_DRUGS, 'icon-type-cigarette'), ITEM_TYPES.ITEM_TYPE_CROSSHAIR, 'icon-type-gun-up'), ITEM_TYPES.ITEM_TYPE_INDICATOR_HUNGRY, 'icon-type-food'), ITEM_TYPES.ITEM_TYPE_TERMO_BACKPACK, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_INCREASED_MAGAZINE, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_VC_PURCHASE_PAPER_OIL, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CERT, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CLEARANCE, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_VEH_MODIFICATION, 'icon-type-tuning-up'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_RANDOM_CROSSHAIR, 'icon-type-gun-up'), ITEM_TYPES.ITEM_TYPE_ELIXIR, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_REALTOR_PERMIT, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_UNLIMITE_PARK_CARD, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VIP_ADVERT_CARD, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_DYE, 'icon-type-source'), ITEM_TYPES.ITEM_TYPE_UNLIM_BARREL_DELIVERY, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VEH_NUMBER, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_HIRED_FARMER, 'icon-type-property'), ITEM_TYPES.ITEM_TYPE_STRIPE_SKIN, 'icon-type-cloth-up'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_MAP_CLAD, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_DRONE, 'icon-type-gun'), ITEM_TYPES.ITEM_TYPE_ARMY_SUMMONS, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_CODE_TRILOGY, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_REAL_MONEY, 'icon-type-currency'), ITEM_TYPES.ITEM_TYPE_STRIPE_IMPROV, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_STRIPE_SHAR, 'icon-type-accessories-up'), ITEM_TYPES.ITEM_TYPE_STRIPE_SUIT_CASE, 'icon-type-accessories-up'), ITEM_TYPES.ITEM_TYPE_TEMP_VEHICLE, 'icon-type-vehicle'), ITEM_TYPES.ITEM_TYPE_LOTTERY_TICKET, 'icon-type-scroll'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_FAKE_SKIN_FORM, 'icon-type-cloth'), ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR_N, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_IMP_ACS, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_CASES, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_PACKED_ACCESSORY, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_NULL, 'icon-type-other'));
-        var MAP_ITEM_TYPE_TO_NAME = (_MAP_ITEM_TYPE_TO_NAM = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_BOX_TIME, 'Ящик'), ITEM_TYPES.ITEM_TYPE_RULETKA, 'Рулетка'), ITEM_TYPES.ITEM_TYPE_VEHICLE, 'Транспорт'), ITEM_TYPES.ITEM_TYPE_ACCESSORIES, 'Аксессуар'), ITEM_TYPES.ITEM_TYPE_VEH_ACCESSORIES, 'Аксессуар для транспорта'), ITEM_TYPES.ITEM_TYPE_LICENSE, 'Лицензия'), ITEM_TYPES.ITEM_TYPE_IMPROV, 'Улучшение'), ITEM_TYPES.ITEM_TYPE_VEH_SKIN, 'Модификация'), ITEM_TYPES.ITEM_TYPE_IMPROV_GUN, 'Улучшение'), ITEM_TYPES.ITEM_TYPE_GUN, 'Оружие'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_SKIN, 'Скин'), ITEM_TYPES.ITEM_TYPE_PHONE, 'Телефон'), ITEM_TYPES.ITEM_TYPE_CLOTHES, 'Одежда'), ITEM_TYPES.ITEM_TYPE_IMPERMANENT, 'Остальное'), ITEM_TYPES.ITEM_TYPE_COOK, 'Еда'), ITEM_TYPES.ITEM_TYPE_OTHER, 'Другое'), ITEM_TYPES.ITEM_TYPE_MONEY, 'Деньги'), ITEM_TYPES.ITEM_TYPE_MEDCARD, 'Медицинская карта'), ITEM_TYPES.ITEM_TYPE_ARMYTICKET, 'Повестка в армию'), ITEM_TYPES.ITEM_TYPE_MOD_SKIN, 'Модификатор скина'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_ENCHANT, 'Заточка'), ITEM_TYPES.ITEM_TYPE_PROPERTY_OBJECT, 'Объект недвижимости'), ITEM_TYPES.ITEM_TYPE_STRIPE, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_VISUAL_TUNING, 'Деталь тюнинга'), ITEM_TYPES.ITEM_TYPE_TECH_TUNING, 'Деталь тюнинга'), ITEM_TYPES.ITEM_TYPE_PACK_ITEM, 'Запакованный предмет'), ITEM_TYPES.ITEM_TYPE_MEDINSURANCE, 'Медицинская страховка'), ITEM_TYPES.ITEM_TYPE_LAREC, 'Ларец'), ITEM_TYPES.ITEM_TYPE_AIR_TICKET, 'Авиабилет'), ITEM_TYPES.ITEM_TYPE_WORKING_VISA, 'Рабочая виза'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_ACTOR_SKIN, ''), ITEM_TYPES.ITEM_TYPE_EAT, 'Еда'), ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING, 'Заточка для брони'), ITEM_TYPES.ITEM_TYPE_CONTAINER, 'НФТ Контейнер'), ITEM_TYPES.ITEM_TYPE_VC_WORK_PERMIT, 'Разрешение на работу'), ITEM_TYPES.ITEM_TYPE_APTECHKA, 'Аптечка'), ITEM_TYPES.ITEM_TYPE_DRINK, 'Напиток'), ITEM_TYPES.ITEM_TYPE_ALHO_DRINK, 'Алкогольный напиток'), ITEM_TYPES.ITEM_TYPE_ARMOUR, 'Броня'), ITEM_TYPES.ITEM_TYPE_MAFIA_SECURITY, 'Расписка от мафиози'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_DRUGS, 'Укроп'), ITEM_TYPES.ITEM_TYPE_CROSSHAIR, 'Прицел'), ITEM_TYPES.ITEM_TYPE_INDICATOR_HUNGRY, 'Индикатор голода'), ITEM_TYPES.ITEM_TYPE_TERMO_BACKPACK, 'Терморюкзак'), ITEM_TYPES.ITEM_TYPE_INCREASED_MAGAZINE, 'Увеличенный магазин'), ITEM_TYPES.ITEM_TYPE_VC_PURCHASE_PAPER_OIL, 'Документ для покупки нефти'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CERT, 'Таможенный сертификат'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CLEARANCE, 'Таможенное разрешение'), ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED, 'Супер заточка'), ITEM_TYPES.ITEM_TYPE_VEH_MODIFICATION, 'Модифиция для транспорта'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_RANDOM_CROSSHAIR, 'Ящик'), ITEM_TYPES.ITEM_TYPE_ELIXIR, 'Эликсир'), ITEM_TYPES.ITEM_TYPE_REALTOR_PERMIT, 'Разрешение от риелтора'), ITEM_TYPES.ITEM_TYPE_UNLIMITE_PARK_CARD, 'Безлимитная карта парковки'), ITEM_TYPES.ITEM_TYPE_VIP_ADVERT_CARD, 'VIP-карта доп. привелегий'), ITEM_TYPES.ITEM_TYPE_DYE, 'Краска'), ITEM_TYPES.ITEM_TYPE_UNLIM_BARREL_DELIVERY, 'Безлимит на доставку бочек'), ITEM_TYPES.ITEM_TYPE_VEH_NUMBER, 'Госномер автомобиля'), ITEM_TYPES.ITEM_TYPE_HIRED_FARMER, 'Нанятый фермер'), ITEM_TYPES.ITEM_TYPE_STRIPE_SKIN, 'Нашивка на скин'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_MAP_CLAD, 'Карта кладов'), ITEM_TYPES.ITEM_TYPE_DRONE, 'Дрон'), ITEM_TYPES.ITEM_TYPE_ARMY_SUMMONS, 'Повестка в армию'), ITEM_TYPES.ITEM_TYPE_CODE_TRILOGY, 'Промокод Trilogy'), ITEM_TYPES.ITEM_TYPE_REAL_MONEY, 'Донат'), ITEM_TYPES.ITEM_TYPE_STRIPE_IMPROV, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_STRIPE_SHAR, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_STRIPE_SUIT_CASE, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_TEMP_VEHICLE, 'Временный транспорт'), ITEM_TYPES.ITEM_TYPE_LOTTERY_TICKET, 'Лотерейный билет'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR, 'Сироп для актеров'), ITEM_TYPES.ITEM_TYPE_FAKE_SKIN_FORM, 'Комплект одежды'), ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR_N, 'Сироп для актеров'), ITEM_TYPES.ITEM_TYPE_IMP_ACS, 'Аксессуар'), ITEM_TYPES.ITEM_TYPE_CASES, 'Кейс'), ITEM_TYPES.ITEM_TYPE_PACKED_ACCESSORY, 'Запечатанный аксессуар'), ITEM_TYPES.ITEM_TYPE_NULL, 'Другое'));
+        var MAP_ITEM_TYPE_TO_DESCRIPTION = (_MAP_ITEM_TYPE_TO_DES = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_BOX_TIME, 'Используйте, чтобы получить предмет.'), ITEM_TYPES.ITEM_TYPE_RULETKA, 'Используйте, чтобы прокрутить рулетку и получить случайный предмет.'), ITEM_TYPES.ITEM_TYPE_VEHICLE, 'Используйте для получения указанного транспорта.'), ITEM_TYPES.ITEM_TYPE_ACCESSORIES, 'Наденьте данный аксессуар для дополнения внешнего образа вашего персонажа.'), ITEM_TYPES.ITEM_TYPE_VEH_ACCESSORIES, 'Установите на ваше авто, чтобы дополнить его внешний вид.'), ITEM_TYPES.ITEM_TYPE_LICENSE, 'Разрешение на осуществление какой-либо деятельности.'), ITEM_TYPES.ITEM_TYPE_IMPROV, 'Наденьте для улучшения внешнего вида вашего персонажа.'), ITEM_TYPES.ITEM_TYPE_VEH_SKIN, 'Используйте, чтобы изменить окраску вашего транспорта.'), ITEM_TYPES.ITEM_TYPE_IMPROV_GUN, 'Используйте, чтобы улучшить характеристики вашего оружия'), ITEM_TYPES.ITEM_TYPE_GUN, 'Используйте, чтобы взять в руки данное оружие.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_SKIN, 'Наденьте, чтобы полностью сменить внешность вашего персонажа. Позволит стать другим человеком внешне.'), ITEM_TYPES.ITEM_TYPE_PHONE, 'Используйте, чтобы кому-то позвонить или воспользоваться другими полезными функциями.'), ITEM_TYPES.ITEM_TYPE_CLOTHES, 'Одежда, которая непригодна для носки, но может пригодиться в крафте.'), ITEM_TYPES.ITEM_TYPE_IMPERMANENT, 'Используйте, что установить данный временный объект.'), ITEM_TYPES.ITEM_TYPE_COOK, 'Используйте, чтобы восполнить сытость персонажа.'), ITEM_TYPES.ITEM_TYPE_OTHER, 'Обычный предмет, который точно где-то пригодится.'), ITEM_TYPES.ITEM_TYPE_MONEY, 'Определяет ваше материальное благополучие. '), ITEM_TYPES.ITEM_TYPE_MEDCARD, 'Медицинская документация, пахнет больницей и длинными очередями.'), ITEM_TYPES.ITEM_TYPE_ARMYTICKET, 'Документация государственного стандарта.'), ITEM_TYPES.ITEM_TYPE_MOD_SKIN, 'Используйте, чтобы надеть на себя модификацию внешности персонажа.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_ENCHANT, 'Используется для улучшения и заточки аксессуаров.'), ITEM_TYPES.ITEM_TYPE_PROPERTY_OBJECT, 'Используйте, чтобы установить данный объект рядом с вашей недвижимостью.'), ITEM_TYPES.ITEM_TYPE_STRIPE, 'Используйте нашивку, чтобы придать вашему аксессуару указанные характеристики.'), ITEM_TYPES.ITEM_TYPE_VISUAL_TUNING, 'Используется для изменения внешних деталей тюнинга вашего транспорта.'), ITEM_TYPES.ITEM_TYPE_TECH_TUNING, 'Используется для модификации характеристик вашего транспорта.'), ITEM_TYPES.ITEM_TYPE_PACK_ITEM, 'Используйте, чтобы распаковать и получить предметы, которые внутри.'), ITEM_TYPES.ITEM_TYPE_MEDINSURANCE, 'Медицинская страховка, позволяющая получать необходимые медицинские услуги.'), ITEM_TYPES.ITEM_TYPE_LAREC, 'Используйте, чтобы заглянуть во внутрь и получить что-то из содерджимого.'), ITEM_TYPES.ITEM_TYPE_AIR_TICKET, 'Позволяет пройти на борт самолета.'), ITEM_TYPES.ITEM_TYPE_WORKING_VISA, 'Документ, который позволяет работать за рубежом.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_ACTOR_SKIN, ''), ITEM_TYPES.ITEM_TYPE_EAT, 'Используйте, чтобы восполнить сытость персонажа.'), ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING, 'Используется для улучшения и заточки бронежилетов.'), ITEM_TYPES.ITEM_TYPE_CONTAINER, 'Используйте, чтобы получить уникальное содержимое.'), ITEM_TYPES.ITEM_TYPE_VC_WORK_PERMIT, 'Разрешение, которое позволяет работать на Vice City.'), ITEM_TYPES.ITEM_TYPE_APTECHKA, 'Используйте, чтобы восполнить здоровьте персонажа.'), ITEM_TYPES.ITEM_TYPE_DRINK, 'Используйте, чтобы выпить напиток.'), ITEM_TYPES.ITEM_TYPE_ALHO_DRINK, 'Используйте, чтобы употребить алкогольный напиток.'), ITEM_TYPES.ITEM_TYPE_ARMOUR, 'Используйте, чтобы восполнить бронежилет персонажа.'), ITEM_TYPES.ITEM_TYPE_MAFIA_SECURITY, 'Расписка от мафиози, которая решит все ваши проблемы. Возможно. Но пока только защищает от похищения.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_DRUGS, 'Используйте, чтобы употребить наркотическое средство.'), ITEM_TYPES.ITEM_TYPE_CROSSHAIR, 'Используется для модификации внешнего вида прицела вашего оружия.'), ITEM_TYPES.ITEM_TYPE_INDICATOR_HUNGRY, 'Наличие данного предмета в инвентаре, в паре с любой едой, позволяет персонажу самостоятельно утолять голод.'), ITEM_TYPES.ITEM_TYPE_TERMO_BACKPACK, 'Данный предмет используется для продления срока годности скоропортящийся еды.'), ITEM_TYPES.ITEM_TYPE_INCREASED_MAGAZINE, 'Позволяет увеличить размер магазина вашего оружия.'), ITEM_TYPES.ITEM_TYPE_VC_PURCHASE_PAPER_OIL, 'Документ для работы с нефтяными бочками.'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CERT, 'Документ, который позволит обойти некоторые таможенные ограничения при использовании.'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CLEARANCE, 'Разрешение таможни для перевозки междугородних грузов.'), ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED, 'Предмет, который используется для улучшения и заточки ваших аксессуаров до максимального уровня.'), ITEM_TYPES.ITEM_TYPE_VEH_MODIFICATION, 'Техническая модификация, которая может сильно изменить характеристики вашего авто.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_RANDOM_CROSSHAIR, 'Используйте, чтобы получить случайный измененный прицел для вашего оружия.'), ITEM_TYPES.ITEM_TYPE_ELIXIR, 'Используйте, чтобы получить на время указанные характеристики для персонажа.'), ITEM_TYPES.ITEM_TYPE_REALTOR_PERMIT, 'Разрешение, которое позволяет преобретать указанную недвижимость.'), ITEM_TYPES.ITEM_TYPE_UNLIMITE_PARK_CARD, 'Позволяет бесплатно парковаться на платных парковках без получения инвалидности.'), ITEM_TYPES.ITEM_TYPE_VIP_ADVERT_CARD, 'Используйте, чтобы получить дополнение к VIP-статусу и дополнительные привилегии.'), ITEM_TYPES.ITEM_TYPE_DYE, 'Используется для покраски аксессуаров в подвале вашего дома.'), ITEM_TYPES.ITEM_TYPE_UNLIM_BARREL_DELIVERY, 'При использовании дает возможность сдавать нефтебочки без ограничений (КД).'), ITEM_TYPES.ITEM_TYPE_VEH_NUMBER, 'Используется для установки номерного знака на личный транспорт.'), ITEM_TYPES.ITEM_TYPE_HIRED_FARMER, 'После установки собирает грядки с урожаем возле вашего дома.'), ITEM_TYPES.ITEM_TYPE_STRIPE_SKIN, 'Используйте нашивку, чтобы придать вашему скину указанные характеристики.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_MAP_CLAD, 'Используйте для поиска хэллоуинских кладов. На карте отмечены точки, где могут находиться клады.'), ITEM_TYPES.ITEM_TYPE_DRONE, 'Используется для наблюдения за территорией и атаки противников.'), ITEM_TYPES.ITEM_TYPE_ARMY_SUMMONS, 'При наличии повестки в армию, вы обязаны явиться в военкомат.'), ITEM_TYPES.ITEM_TYPE_CODE_TRILOGY, 'Используйте, чтобы получить вознаграждение за ваше участие в тестах.'), ITEM_TYPES.ITEM_TYPE_REAL_MONEY, 'Можно использовать для выплат реальных денег на Ваш банковский счёт.'), ITEM_TYPES.ITEM_TYPE_STRIPE_IMPROV, 'Используйте нашивку, чтобы придать вашему бронежилету указанные характеристики.'), ITEM_TYPES.ITEM_TYPE_STRIPE_SHAR, 'Используется для создания легендарного аксессуара Энергетический шар'), ITEM_TYPES.ITEM_TYPE_STRIPE_SUIT_CASE, 'Используется для создания аксессуара Энергетический кейс'), ITEM_TYPES.ITEM_TYPE_TEMP_VEHICLE, 'Используется для активации временного транспортного средства.'), ITEM_TYPES.ITEM_TYPE_LOTTERY_TICKET, 'Используйте, чтобы участвовать в лотерее.'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_DES, ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR, 'Используется для улучшений характеристик призываемых актеров'), ITEM_TYPES.ITEM_TYPE_FAKE_SKIN_FORM, 'При использовании изменяет внешность персонажа на 30 минут.'), ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR_N, 'Используется для улучшений характеристик призываемых актеров'), ITEM_TYPES.ITEM_TYPE_IMP_ACS, 'Используется для дополнения внешнего образа вашего персонажа в слот компенсаторов'), ITEM_TYPES.ITEM_TYPE_CASES, 'Используйте, чтобы заглянуть во внутрь и получить что-то из содерджимого.'), ITEM_TYPES.ITEM_TYPE_PACKED_ACCESSORY, 'Используйте для получения аксессуара.'), ITEM_TYPES.ITEM_TYPE_FRAGMENT_MERGE, 'Используйте для объединения в особый предмет.'), ITEM_TYPES.ITEM_TYPE_SPARE_PARTS_VEHICLE, 'Используйте для улучшения уровня транспорта.'));
+        var MAP_ITEM_TYPE_TO_ICON = (_MAP_ITEM_TYPE_TO_ICO = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_BOX_TIME, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_RULETKA, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_VEHICLE, 'icon-type-vehicle'), ITEM_TYPES.ITEM_TYPE_ACCESSORIES, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_VEH_ACCESSORIES, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_LICENSE, 'icon-type-license'), ITEM_TYPES.ITEM_TYPE_IMPROV, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_VEH_SKIN, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_IMPROV_GUN, 'icon-type-gun-up'), ITEM_TYPES.ITEM_TYPE_GUN, 'icon-type-gun'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_SKIN, 'icon-type-cloth'), ITEM_TYPES.ITEM_TYPE_PHONE, 'icon-type-other'), ITEM_TYPES.ITEM_TYPE_CLOTHES, 'icon-type-source'), ITEM_TYPES.ITEM_TYPE_IMPERMANENT, 'icon-type-other'), ITEM_TYPES.ITEM_TYPE_COOK, 'icon-type-food'), ITEM_TYPES.ITEM_TYPE_OTHER, 'icon-type-source'), ITEM_TYPES.ITEM_TYPE_MONEY, 'icon-type-currency'), ITEM_TYPES.ITEM_TYPE_MEDCARD, 'icon-type-license'), ITEM_TYPES.ITEM_TYPE_ARMYTICKET, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_MOD_SKIN, 'icon-type-cloth-up'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_ENCHANT, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_PROPERTY_OBJECT, 'icon-type-property'), ITEM_TYPES.ITEM_TYPE_STRIPE, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_VISUAL_TUNING, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_TECH_TUNING, 'icon-type-tuning-up'), ITEM_TYPES.ITEM_TYPE_PACK_ITEM, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_MEDINSURANCE, 'icon-type-license'), ITEM_TYPES.ITEM_TYPE_LAREC, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_AIR_TICKET, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_WORKING_VISA, 'icon-type-scroll'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_ACTOR_SKIN, 'icon-type-other ""'), ITEM_TYPES.ITEM_TYPE_EAT, 'icon-type-food'), ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING, 'icon-type-accessories-up'), ITEM_TYPES.ITEM_TYPE_CONTAINER, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_VC_WORK_PERMIT, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_APTECHKA, 'icon-type-med'), ITEM_TYPES.ITEM_TYPE_DRINK, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_ALHO_DRINK, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_ARMOUR, 'icon-type-med'), ITEM_TYPES.ITEM_TYPE_MAFIA_SECURITY, 'icon-type-scroll'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_DRUGS, 'icon-type-cigarette'), ITEM_TYPES.ITEM_TYPE_CROSSHAIR, 'icon-type-gun-up'), ITEM_TYPES.ITEM_TYPE_INDICATOR_HUNGRY, 'icon-type-food'), ITEM_TYPES.ITEM_TYPE_TERMO_BACKPACK, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_INCREASED_MAGAZINE, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_VC_PURCHASE_PAPER_OIL, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CERT, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CLEARANCE, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_VEH_MODIFICATION, 'icon-type-tuning-up'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_RANDOM_CROSSHAIR, 'icon-type-gun-up'), ITEM_TYPES.ITEM_TYPE_ELIXIR, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_REALTOR_PERMIT, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_UNLIMITE_PARK_CARD, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VIP_ADVERT_CARD, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_DYE, 'icon-type-source'), ITEM_TYPES.ITEM_TYPE_UNLIM_BARREL_DELIVERY, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_VEH_NUMBER, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_HIRED_FARMER, 'icon-type-property'), ITEM_TYPES.ITEM_TYPE_STRIPE_SKIN, 'icon-type-cloth-up'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_MAP_CLAD, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_DRONE, 'icon-type-gun'), ITEM_TYPES.ITEM_TYPE_ARMY_SUMMONS, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_CODE_TRILOGY, 'icon-type-scroll'), ITEM_TYPES.ITEM_TYPE_REAL_MONEY, 'icon-type-currency'), ITEM_TYPES.ITEM_TYPE_STRIPE_IMPROV, 'icon-type-grade'), ITEM_TYPES.ITEM_TYPE_STRIPE_SHAR, 'icon-type-accessories-up'), ITEM_TYPES.ITEM_TYPE_STRIPE_SUIT_CASE, 'icon-type-accessories-up'), ITEM_TYPES.ITEM_TYPE_TEMP_VEHICLE, 'icon-type-vehicle'), ITEM_TYPES.ITEM_TYPE_LOTTERY_TICKET, 'icon-type-scroll'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_ICO, ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_FAKE_SKIN_FORM, 'icon-type-cloth'), ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR_N, 'icon-type-drink'), ITEM_TYPES.ITEM_TYPE_IMP_ACS, 'icon-type-accessories'), ITEM_TYPES.ITEM_TYPE_CASES, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_PACKED_ACCESSORY, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_FRAGMENT_MERGE, 'icon-type-box'), ITEM_TYPES.ITEM_TYPE_SPARE_PARTS_VEHICLE, 'icon-type-tuning'), ITEM_TYPES.ITEM_TYPE_NULL, 'icon-type-other'));
+        var MAP_ITEM_TYPE_TO_NAME = (_MAP_ITEM_TYPE_TO_NAM = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_BOX_TIME, 'Ящик'), ITEM_TYPES.ITEM_TYPE_RULETKA, 'Рулетка'), ITEM_TYPES.ITEM_TYPE_VEHICLE, 'Транспорт'), ITEM_TYPES.ITEM_TYPE_ACCESSORIES, 'Аксессуар'), ITEM_TYPES.ITEM_TYPE_VEH_ACCESSORIES, 'Аксессуар для транспорта'), ITEM_TYPES.ITEM_TYPE_LICENSE, 'Лицензия'), ITEM_TYPES.ITEM_TYPE_IMPROV, 'Улучшение'), ITEM_TYPES.ITEM_TYPE_VEH_SKIN, 'Модификация'), ITEM_TYPES.ITEM_TYPE_IMPROV_GUN, 'Улучшение'), ITEM_TYPES.ITEM_TYPE_GUN, 'Оружие'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_SKIN, 'Скин'), ITEM_TYPES.ITEM_TYPE_PHONE, 'Телефон'), ITEM_TYPES.ITEM_TYPE_CLOTHES, 'Одежда'), ITEM_TYPES.ITEM_TYPE_IMPERMANENT, 'Остальное'), ITEM_TYPES.ITEM_TYPE_COOK, 'Еда'), ITEM_TYPES.ITEM_TYPE_OTHER, 'Другое'), ITEM_TYPES.ITEM_TYPE_MONEY, 'Деньги'), ITEM_TYPES.ITEM_TYPE_MEDCARD, 'Медицинская карта'), ITEM_TYPES.ITEM_TYPE_ARMYTICKET, 'Повестка в армию'), ITEM_TYPES.ITEM_TYPE_MOD_SKIN, 'Модификатор скина'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_ENCHANT, 'Заточка'), ITEM_TYPES.ITEM_TYPE_PROPERTY_OBJECT, 'Объект недвижимости'), ITEM_TYPES.ITEM_TYPE_STRIPE, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_VISUAL_TUNING, 'Деталь тюнинга'), ITEM_TYPES.ITEM_TYPE_TECH_TUNING, 'Деталь тюнинга'), ITEM_TYPES.ITEM_TYPE_PACK_ITEM, 'Запакованный предмет'), ITEM_TYPES.ITEM_TYPE_MEDINSURANCE, 'Медицинская страховка'), ITEM_TYPES.ITEM_TYPE_LAREC, 'Ларец'), ITEM_TYPES.ITEM_TYPE_AIR_TICKET, 'Авиабилет'), ITEM_TYPES.ITEM_TYPE_WORKING_VISA, 'Рабочая виза'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_ACTOR_SKIN, ''), ITEM_TYPES.ITEM_TYPE_EAT, 'Еда'), ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING, 'Заточка для брони'), ITEM_TYPES.ITEM_TYPE_CONTAINER, 'НФТ Контейнер'), ITEM_TYPES.ITEM_TYPE_VC_WORK_PERMIT, 'Разрешение на работу'), ITEM_TYPES.ITEM_TYPE_APTECHKA, 'Аптечка'), ITEM_TYPES.ITEM_TYPE_DRINK, 'Напиток'), ITEM_TYPES.ITEM_TYPE_ALHO_DRINK, 'Алкогольный напиток'), ITEM_TYPES.ITEM_TYPE_ARMOUR, 'Броня'), ITEM_TYPES.ITEM_TYPE_MAFIA_SECURITY, 'Расписка от мафиози'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_DRUGS, 'Укроп'), ITEM_TYPES.ITEM_TYPE_CROSSHAIR, 'Прицел'), ITEM_TYPES.ITEM_TYPE_INDICATOR_HUNGRY, 'Индикатор голода'), ITEM_TYPES.ITEM_TYPE_TERMO_BACKPACK, 'Терморюкзак'), ITEM_TYPES.ITEM_TYPE_INCREASED_MAGAZINE, 'Увеличенный магазин'), ITEM_TYPES.ITEM_TYPE_VC_PURCHASE_PAPER_OIL, 'Документ для покупки нефти'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CERT, 'Таможенный сертификат'), ITEM_TYPES.ITEM_TYPE_VC_CUSTOMS_CLEARANCE, 'Таможенное разрешение'), ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED, 'Супер заточка'), ITEM_TYPES.ITEM_TYPE_VEH_MODIFICATION, 'Модифиция для транспорта'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_RANDOM_CROSSHAIR, 'Ящик'), ITEM_TYPES.ITEM_TYPE_ELIXIR, 'Эликсир'), ITEM_TYPES.ITEM_TYPE_REALTOR_PERMIT, 'Разрешение от риелтора'), ITEM_TYPES.ITEM_TYPE_UNLIMITE_PARK_CARD, 'Безлимитная карта парковки'), ITEM_TYPES.ITEM_TYPE_VIP_ADVERT_CARD, 'VIP-карта доп. привелегий'), ITEM_TYPES.ITEM_TYPE_DYE, 'Краска'), ITEM_TYPES.ITEM_TYPE_UNLIM_BARREL_DELIVERY, 'Безлимит на доставку бочек'), ITEM_TYPES.ITEM_TYPE_VEH_NUMBER, 'Госномер автомобиля'), ITEM_TYPES.ITEM_TYPE_HIRED_FARMER, 'Нанятый фермер'), ITEM_TYPES.ITEM_TYPE_STRIPE_SKIN, 'Нашивка на скин'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_MAP_CLAD, 'Карта кладов'), ITEM_TYPES.ITEM_TYPE_DRONE, 'Дрон'), ITEM_TYPES.ITEM_TYPE_ARMY_SUMMONS, 'Повестка в армию'), ITEM_TYPES.ITEM_TYPE_CODE_TRILOGY, 'Промокод Trilogy'), ITEM_TYPES.ITEM_TYPE_REAL_MONEY, 'Донат'), ITEM_TYPES.ITEM_TYPE_STRIPE_IMPROV, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_STRIPE_SHAR, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_STRIPE_SUIT_CASE, 'Нашивка'), ITEM_TYPES.ITEM_TYPE_TEMP_VEHICLE, 'Временный транспорт'), ITEM_TYPES.ITEM_TYPE_LOTTERY_TICKET, 'Лотерейный билет'), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_ITEM_TYPE_TO_NAM, ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR, 'Сироп для актеров'), ITEM_TYPES.ITEM_TYPE_FAKE_SKIN_FORM, 'Комплект одежды'), ITEM_TYPES.ITEM_TYPE_SYRUP_ACTOR_N, 'Сироп для актеров'), ITEM_TYPES.ITEM_TYPE_IMP_ACS, 'Аксессуар'), ITEM_TYPES.ITEM_TYPE_CASES, 'Кейс'), ITEM_TYPES.ITEM_TYPE_PACKED_ACCESSORY, 'Запечатанный аксессуар'), ITEM_TYPES.ITEM_TYPE_FRAGMENT_MERGE, 'Осколок'), ITEM_TYPES.ITEM_TYPE_SPARE_PARTS_VEHICLE, 'Запчасти на транспорт'), ITEM_TYPES.ITEM_TYPE_NULL, 'Другое'));
         var MAP_TAB_ID_TO_ICON = inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty({}, NavigationTabs.Character, 'character'), NavigationTabs.Guard, 'user-guard'), NavigationTabs.Vehicle, 'vehicle');
         var MAP_TAB_ID_TO_NAME = inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty({}, NavigationTabs.Character, 'Персонаж'), NavigationTabs.Guard, 'Охранники'), NavigationTabs.Vehicle, 'Транспорт');
         var inventory_constants_MAP_CURRENCY_TO_ICON = {
@@ -246053,7 +249157,7 @@ setTimeout(() => {
             empty: true
         });
 
-        // (596:0) {#if currentItemDragged && !disableItemDrag}
+        // (603:0) {#if currentItemDragged && !disableItemDrag}
         function components_inventory_item_hoc_index_svelte_create_if_block_1(ctx) {
             let portal;
             let current;
@@ -246104,7 +249208,7 @@ setTimeout(() => {
             };
         }
 
-        // (602:12) {#if $inventoryCurrentItem.dragAmount && $inventoryCurrentItem.dragAmount !== -1}
+        // (609:12) {#if $inventoryCurrentItem.dragAmount && $inventoryCurrentItem.dragAmount !== -1}
         function inventory_item_hoc_index_svelte_create_if_block_2(ctx) {
             let div;
             let t_value = /*$inventoryCurrentItem*/ ctx[7].dragAmount + "";
@@ -246131,7 +249235,7 @@ setTimeout(() => {
             };
         }
 
-        // (597:4) <Portal>
+        // (604:4) <Portal>
         function inventory_item_hoc_index_svelte_create_default_slot_1(ctx) {
             let div;
             let t;
@@ -246215,7 +249319,7 @@ setTimeout(() => {
             };
         }
 
-        // (609:0) {#if contextMenuForCurrentItemOpened && !isEmpty($infoData)}
+        // (616:0) {#if contextMenuForCurrentItemOpened && !isEmpty($infoData)}
         function components_inventory_item_hoc_index_svelte_create_if_block(ctx) {
             let div;
             let inventorywindow;
@@ -246300,7 +249404,7 @@ setTimeout(() => {
             };
         }
 
-        // (616:8) <InventoryWindow           savedPositionsEnabled={false}           headerStyle={'gold'}           onClose={() => contextMenuForCurrentItemOpened = false}           contextMenu           title={$inventoryCurrentItem.item.name}>
+        // (623:8) <InventoryWindow           savedPositionsEnabled={false}           headerStyle={'gold'}           onClose={() => contextMenuForCurrentItemOpened = false}           contextMenu           title={$inventoryCurrentItem.item.name}>
         function inventory_item_hoc_index_svelte_create_default_slot(ctx) {
             let info;
             let updating_informationLoaded;
@@ -246770,8 +249874,8 @@ setTimeout(() => {
             let $secondPotion;
             let $firstPotion;
             let $potionsOpened;
-            let $enchantItem;
             let $enchantStuff;
+            let $enchantItem;
             let $colorItem;
             let $workshopCurrentTab;
             let $workShopOpened;
@@ -246789,8 +249893,8 @@ setTimeout(() => {
             utils_component_subscribe($$self, secondPotion, $$value => $$invalidate(35, $secondPotion = $$value));
             utils_component_subscribe($$self, firstPotion, $$value => $$invalidate(36, $firstPotion = $$value));
             utils_component_subscribe($$self, potionsOpened, $$value => $$invalidate(37, $potionsOpened = $$value));
-            utils_component_subscribe($$self, enchantItem, $$value => $$invalidate(38, $enchantItem = $$value));
-            utils_component_subscribe($$self, enchantStuff, $$value => $$invalidate(39, $enchantStuff = $$value));
+            utils_component_subscribe($$self, enchantStuff, $$value => $$invalidate(38, $enchantStuff = $$value));
+            utils_component_subscribe($$self, enchantItem, $$value => $$invalidate(39, $enchantItem = $$value));
             utils_component_subscribe($$self, colorItem, $$value => $$invalidate(40, $colorItem = $$value));
             utils_component_subscribe($$self, workshopCurrentTab, $$value => $$invalidate(41, $workshopCurrentTab = $$value));
             utils_component_subscribe($$self, workShopOpened, $$value => $$invalidate(42, $workShopOpened = $$value));
@@ -246926,7 +250030,13 @@ setTimeout(() => {
                             }
                             break;
                         case WorkshopTabs.Transfer:
-                            utils_set_store_value(enchantItem, $enchantItem = item, $enchantItem);
+                            if (item.item_type === ITEM_TYPES.ITEM_TYPE_ACCESSORIES || item.item_type === ITEM_TYPES.ITEM_TYPE_IMPROV) {
+                                if ((0, lodash.isEmpty)($enchantItem)) {
+                                    utils_set_store_value(enchantItem, $enchantItem = item, $enchantItem);
+                                } else {
+                                    utils_set_store_value(enchantStuff, $enchantStuff = item, $enchantStuff);
+                                }
+                            }
                             break;
                     }
 
@@ -247262,11 +250372,13 @@ setTimeout(() => {
         const fire_namespaceObject = __webpack_require__.p + "assets/071d0f48593dbed4491e.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/berserkEffect.png
         const berserkEffect_namespaceObject = __webpack_require__.p + "assets/422d5d7323116e80e503.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/druidEffect.gif
         const druidEffect_namespaceObject = __webpack_require__.p + "assets/2bdce9e7564af13586a1.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/whiteFire.gif
-        const whiteFire_namespaceObject = __webpack_require__.p + "assets/08a359647d8dd0cda054.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/blueFire.gif
-        const blueFire_namespaceObject = __webpack_require__.p + "assets/7d8389cbf8b20cc1628a.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/greenFire.gif
-        const greenFire_namespaceObject = __webpack_require__.p + "assets/aab8544286ee11579491.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/witchEffect.png
+        const whiteFire_namespaceObject = __webpack_require__.p + "assets/08a359647d8dd0cda054.gif";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/witchEffect.png
         const witchEffect_namespaceObject = __webpack_require__.p + "assets/9a6c5b28e15746fdd497.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/lichEffect.png
-        const lichEffect_namespaceObject = __webpack_require__.p + "assets/5e006bfa85eb6f6317c6.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/constants.js
+        const lichEffect_namespaceObject = __webpack_require__.p + "assets/5e006bfa85eb6f6317c6.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/frierenEffect.png
+        const frierenEffect_namespaceObject = __webpack_require__.p + "assets/03311e130386751dcd27.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/zootopiaEffect.png
+        const zootopiaEffect_namespaceObject = __webpack_require__.p + "assets/7bb95f1b06dd43373aa2.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/img/bearEffect.png
+        const bearEffect_namespaceObject = __webpack_require__.p + "assets/28aadabd52320d74f736.webp";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/constants.js
+
 
 
 
@@ -247344,6 +250456,31 @@ setTimeout(() => {
             9477: witchEffect_namespaceObject,
             9480: witchEffect_namespaceObject,
             9483: witchEffect_namespaceObject,
+            9688: zootopiaEffect_namespaceObject,
+            9690: zootopiaEffect_namespaceObject,
+            9692: zootopiaEffect_namespaceObject,
+            9557: bearEffect_namespaceObject,
+            9560: bearEffect_namespaceObject,
+            9563: bearEffect_namespaceObject,
+            9566: bearEffect_namespaceObject,
+            9569: bearEffect_namespaceObject,
+            9572: bearEffect_namespaceObject,
+            9575: bearEffect_namespaceObject,
+            9578: bearEffect_namespaceObject,
+            9581: bearEffect_namespaceObject,
+            9584: bearEffect_namespaceObject,
+            9617: bearEffect_namespaceObject,
+            9587: frierenEffect_namespaceObject,
+            9590: frierenEffect_namespaceObject,
+            9593: frierenEffect_namespaceObject,
+            9596: frierenEffect_namespaceObject,
+            9599: frierenEffect_namespaceObject,
+            9602: frierenEffect_namespaceObject,
+            9605: frierenEffect_namespaceObject,
+            9608: frierenEffect_namespaceObject,
+            9611: frierenEffect_namespaceObject,
+            9614: frierenEffect_namespaceObject,
+            9620: frierenEffect_namespaceObject,
             9484: whiteFire_namespaceObject,
             9485: whiteFire_namespaceObject,
             9486: whiteFire_namespaceObject,
@@ -247365,7 +250502,34 @@ setTimeout(() => {
             9502: whiteFire_namespaceObject,
             9503: whiteFire_namespaceObject,
             9504: whiteFire_namespaceObject,
-            9505: whiteFire_namespaceObject
+            9505: whiteFire_namespaceObject,
+            9621: whiteFire_namespaceObject,
+            9622: whiteFire_namespaceObject,
+            9623: whiteFire_namespaceObject,
+            9624: whiteFire_namespaceObject,
+            9625: whiteFire_namespaceObject,
+            9626: whiteFire_namespaceObject,
+            9627: whiteFire_namespaceObject,
+            9628: whiteFire_namespaceObject,
+            9629: whiteFire_namespaceObject,
+            9630: whiteFire_namespaceObject,
+            9631: whiteFire_namespaceObject,
+            9632: whiteFire_namespaceObject,
+            9633: whiteFire_namespaceObject,
+            9634: whiteFire_namespaceObject,
+            9635: whiteFire_namespaceObject,
+            9636: whiteFire_namespaceObject,
+            9637: whiteFire_namespaceObject,
+            9638: whiteFire_namespaceObject,
+            9639: whiteFire_namespaceObject,
+            9640: whiteFire_namespaceObject,
+            9641: whiteFire_namespaceObject,
+            9642: whiteFire_namespaceObject,
+            9682: whiteFire_namespaceObject,
+            9683: whiteFire_namespaceObject,
+            9684: whiteFire_namespaceObject,
+            9738: whiteFire_namespaceObject,
+            9739: fire_namespaceObject
         };; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/index.svelte
         /* src\views\inventory\components\inventory-item\index.svelte generated by Svelte v4.2.8 */
 
@@ -248459,32 +251623,34 @@ setTimeout(() => {
 
 
 
+
+
         function inventory_grid_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
+            child_ctx[24] = list[i];
             return child_ctx;
         }
 
         function inventory_grid_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
+            child_ctx[24] = list[i];
             return child_ctx;
         }
 
         function inventory_grid_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
+            child_ctx[24] = list[i];
             return child_ctx;
         }
 
         function inventory_grid_index_svelte_get_each_context_3(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[23] = list[i];
-            child_ctx[31] = i;
+            child_ctx[24] = list[i];
+            child_ctx[32] = i;
             return child_ctx;
         }
 
-        // (85:1) {#if searchEnabled}
+        // (88:1) {#if searchEnabled}
         function inventory_grid_index_svelte_create_if_block_4(ctx) {
             let search;
             let updating_loading;
@@ -248576,7 +251742,7 @@ setTimeout(() => {
             };
         }
 
-        // (108:4) {:else}
+        // (111:4) {:else}
         function inventory_grid_index_svelte_create_else_block(ctx) {
             let inventoryitem;
             let current;
@@ -248584,10 +251750,10 @@ setTimeout(() => {
             inventoryitem = new inventory_item_index_svelte({
                 props: {
                     item: {
-                        slot: /*slotId*/ ctx[31]
+                        slot: /*slotId*/ ctx[32]
                     },
                     availableItemsIds: /*availableItemsIds*/ ctx[3],
-                    slotId: /*slotId*/ ctx[31],
+                    slotId: /*slotId*/ ctx[32],
                     withContextMenu: /*withContextMenu*/ ctx[4],
                     inventoryId: /*inventoryId*/ ctx[2],
                     disabled: /*disableAllItems*/ ctx[5],
@@ -248596,7 +251762,7 @@ setTimeout(() => {
                     showIndex: /*showSlotsIndex*/ ctx[9],
                     itemTypeHighlight: /*itemTypeHighlight*/ ctx[10],
                     blockTypeHighlight: /*blockTypeHighlight*/ ctx[11],
-                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31]
+                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32]
                 }
             });
 
@@ -248619,7 +251785,7 @@ setTimeout(() => {
                     if (dirty[0] & /*showSlotsIndex*/ 512) inventoryitem_changes.showIndex = /*showSlotsIndex*/ ctx[9];
                     if (dirty[0] & /*itemTypeHighlight*/ 1024) inventoryitem_changes.itemTypeHighlight = /*itemTypeHighlight*/ ctx[10];
                     if (dirty[0] & /*blockTypeHighlight*/ 2048) inventoryitem_changes.blockTypeHighlight = /*blockTypeHighlight*/ ctx[11];
-                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31];
+                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32];
                     inventoryitem.$set(inventoryitem_changes);
                 },
                 i(local) {
@@ -248637,16 +251803,16 @@ setTimeout(() => {
             };
         }
 
-        // (93:4) {#if !isNil(actualItems[slotId])}
+        // (96:4) {#if !isNil(actualItems[slotId])}
         function inventory_grid_index_svelte_create_if_block_3(ctx) {
             let inventoryitem;
             let current;
 
             inventoryitem = new inventory_item_index_svelte({
                 props: {
-                    item: /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]],
+                    item: /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]],
                     availableItemsIds: /*availableItemsIds*/ ctx[3],
-                    slotId: /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]].slot || /*slotId*/ ctx[31],
+                    slotId: /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot || /*slotId*/ ctx[32],
                     withContextMenu: /*withContextMenu*/ ctx[4],
                     inventoryId: /*inventoryId*/ ctx[2],
                     disabled: /*disableAllItems*/ ctx[5],
@@ -248655,7 +251821,7 @@ setTimeout(() => {
                     showIndex: /*showSlotsIndex*/ ctx[9],
                     itemTypeHighlight: /*itemTypeHighlight*/ ctx[10],
                     blockTypeHighlight: /*blockTypeHighlight*/ ctx[11],
-                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31]
+                    index: /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32]
                 }
             });
 
@@ -248669,9 +251835,9 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventoryitem_changes = {};
-                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.item = /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]];
+                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.item = /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]];
                     if (dirty[0] & /*availableItemsIds*/ 8) inventoryitem_changes.availableItemsIds = /*availableItemsIds*/ ctx[3];
-                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.slotId = /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]].slot || /*slotId*/ ctx[31];
+                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.slotId = /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot || /*slotId*/ ctx[32];
                     if (dirty[0] & /*withContextMenu*/ 16) inventoryitem_changes.withContextMenu = /*withContextMenu*/ ctx[4];
                     if (dirty[0] & /*inventoryId*/ 4) inventoryitem_changes.inventoryId = /*inventoryId*/ ctx[2];
                     if (dirty[0] & /*disableAllItems*/ 32) inventoryitem_changes.disabled = /*disableAllItems*/ ctx[5];
@@ -248680,7 +251846,7 @@ setTimeout(() => {
                     if (dirty[0] & /*showSlotsIndex*/ 512) inventoryitem_changes.showIndex = /*showSlotsIndex*/ ctx[9];
                     if (dirty[0] & /*itemTypeHighlight*/ 1024) inventoryitem_changes.itemTypeHighlight = /*itemTypeHighlight*/ ctx[10];
                     if (dirty[0] & /*blockTypeHighlight*/ 2048) inventoryitem_changes.blockTypeHighlight = /*blockTypeHighlight*/ ctx[11];
-                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[31];
+                    if (dirty[0] & /*indexCounter*/ 8192) inventoryitem_changes.index = /*indexCounter*/ ctx[13] && /*slotId*/ ctx[32];
                     inventoryitem.$set(inventoryitem_changes);
                 },
                 i(local) {
@@ -248698,7 +251864,7 @@ setTimeout(() => {
             };
         }
 
-        // (92:2) {#each new Array(slotsCount) as slot, slotId}
+        // (95:2) {#each new Array(slotsCount) as slot, slotId}
         function inventory_grid_index_svelte_create_each_block_3(ctx) {
             let show_if;
             let current_block_type_index;
@@ -248710,7 +251876,7 @@ setTimeout(() => {
 
             function select_block_type(ctx, dirty) {
                 if (dirty[0] & /*actualItems*/ 65536) show_if = null;
-                if (show_if == null) show_if = !!!(0, lodash.isNil)( /*actualItems*/ ctx[16][ /*slotId*/ ctx[31]]);
+                if (show_if == null) show_if = !!!(0, lodash.isNil)( /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]]);
                 if (show_if) return 0;
                 return 1;
             }
@@ -248774,7 +251940,7 @@ setTimeout(() => {
             };
         }
 
-        // (125:3) {#if searchRestSlotsCount !== 0}
+        // (128:3) {#if searchRestSlotsCount !== 0}
         function inventory_grid_index_svelte_create_if_block_2(ctx) {
             let each_1_anchor;
             let each_value_2 = each_ensure_array_like(new Array( /*searchRestSlotsCount*/ ctx[14]));
@@ -248835,7 +252001,7 @@ setTimeout(() => {
             };
         }
 
-        // (126:4) {#each new Array(searchRestSlotsCount) as slot}
+        // (129:4) {#each new Array(searchRestSlotsCount) as slot}
         function inventory_grid_index_svelte_create_each_block_2(ctx) {
             let div1;
 
@@ -248857,7 +252023,7 @@ setTimeout(() => {
             };
         }
 
-        // (138:75) 
+        // (141:75) 
         function inventory_grid_index_svelte_create_if_block_1(ctx) {
             let each_1_anchor;
             let each_value_1 = each_ensure_array_like(new Array(Math.ceil( /*slotsCount*/ ctx[1] / /*columnsCount*/ ctx[0]) * /*columnsCount*/ ctx[0] - /*slotsCount*/ ctx[1]));
@@ -248918,7 +252084,7 @@ setTimeout(() => {
             };
         }
 
-        // (132:3) {#if fillWholeColumn && inventoryId === BLOCK_TYPE.BLOCK_TYPE_MENU}
+        // (135:3) {#if fillWholeColumn && inventoryId === BLOCK_TYPE.BLOCK_TYPE_MENU}
         function inventory_grid_index_svelte_create_if_block(ctx) {
             let each_1_anchor;
             let each_value = each_ensure_array_like(new Array(Math.ceil( /*slotsCount*/ ctx[1] / /*columnsCount*/ ctx[0]) * /*columnsCount*/ ctx[0] - /*slotsCount*/ ctx[1]));
@@ -248979,7 +252145,7 @@ setTimeout(() => {
             };
         }
 
-        // (139:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
+        // (142:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
         function inventory_grid_index_svelte_create_each_block_1(ctx) {
             let div1;
 
@@ -249001,7 +252167,7 @@ setTimeout(() => {
             };
         }
 
-        // (133:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
+        // (136:4) {#each new Array((Math.ceil(slotsCount / columnsCount) * columnsCount) - slotsCount) as slot}
         function inventory_grid_index_svelte_create_each_block(ctx) {
             let div1;
 
@@ -249220,11 +252386,13 @@ setTimeout(() => {
         function inventory_grid_index_svelte_instance($$self, $$props, $$invalidate) {
             let actualItems;
             let $searchQuery;
+            let $securityHovered;
             let $inventoryCurrentItem;
             let $inventories;
             utils_component_subscribe($$self, store_searchQuery, $$value => $$invalidate(19, $searchQuery = $$value));
-            utils_component_subscribe($$self, store_inventoryCurrentItem, $$value => $$invalidate(21, $inventoryCurrentItem = $$value));
-            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(22, $inventories = $$value));
+            utils_component_subscribe($$self, securityHovered, $$value => $$invalidate(21, $securityHovered = $$value));
+            utils_component_subscribe($$self, store_inventoryCurrentItem, $$value => $$invalidate(22, $inventoryCurrentItem = $$value));
+            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(23, $inventories = $$value));
             let {
                 items = []
             } = $$props;
@@ -249293,6 +252461,10 @@ setTimeout(() => {
 
                 if (!(0, lodash.isEmpty)($inventoryCurrentItem)) {
                     utils_set_store_value(store_inventoryCurrentItem, $inventoryCurrentItem = {}, $inventoryCurrentItem);
+                }
+
+                if ($securityHovered) {
+                    utils_set_store_value(securityHovered, $securityHovered = false, $securityHovered);
                 }
             });
 
@@ -253445,7 +256617,7 @@ setTimeout(() => {
                 props: {
                     item: /*$inventories*/ ctx[1][BLOCK_TYPE.BLOCK_TYPE_VIEW_SKIN][0],
                     placeholderIcon: 'clothes',
-                    slot: 0,
+                    slotId: 0,
                     placeholderText: 'Скин',
                     inventoryId: BLOCK_TYPE.BLOCK_TYPE_VIEW_SKIN
                 }
@@ -253455,7 +256627,7 @@ setTimeout(() => {
                 props: {
                     item: /*$inventories*/ ctx[1][BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV][1],
                     placeholderIcon: 'case',
-                    slot: 0,
+                    slotId: 1,
                     placeholderText: 'Кейс',
                     inventoryId: BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV
                 }
@@ -253465,7 +256637,7 @@ setTimeout(() => {
                 props: {
                     item: /*$inventories*/ ctx[1][BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV][0],
                     placeholderIcon: 'armour',
-                    slot: 1,
+                    slotId: 0,
                     placeholderText: 'Броня',
                     inventoryId: BLOCK_TYPE.BLOCK_TYPE_VIEW_IMPROV
                 }
@@ -254946,8 +258118,8 @@ setTimeout(() => {
             return child_ctx;
         }
 
-        // (411:62) 
-        function create_if_block_20(ctx) {
+        // (429:62) 
+        function create_if_block_22(ctx) {
             let i;
 
             return {
@@ -254967,8 +258139,8 @@ setTimeout(() => {
             };
         }
 
-        // (409:62) 
-        function create_if_block_19(ctx) {
+        // (427:62) 
+        function create_if_block_21(ctx) {
             let img;
             let img_src_value;
 
@@ -254991,8 +258163,8 @@ setTimeout(() => {
             };
         }
 
-        // (407:85) 
-        function create_if_block_18(ctx) {
+        // (425:85) 
+        function create_if_block_20(ctx) {
             let img;
             let img_src_value;
 
@@ -255015,8 +258187,8 @@ setTimeout(() => {
             };
         }
 
-        // (405:7) {#if !isEmpty($colorItem)}
-        function create_if_block_17(ctx) {
+        // (423:7) {#if !isEmpty($colorItem)}
+        function create_if_block_19(ctx) {
             let img;
             let img_src_value;
 
@@ -255043,8 +258215,8 @@ setTimeout(() => {
             };
         }
 
-        // (414:7) {#if ($workshopCurrentTab !== WorkshopTabs.Repair && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer)}
-        function workshop_index_svelte_create_if_block_16(ctx) {
+        // (432:7) {#if ($workshopCurrentTab !== WorkshopTabs.Repair && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer)}
+        function create_if_block_18(ctx) {
             let div2;
             let div0;
 
@@ -255096,8 +258268,8 @@ setTimeout(() => {
             };
         }
 
-        // (433:7) {#if !isEmpty($enchantItem)}
-        function workshop_index_svelte_create_if_block_12(ctx) {
+        // (451:7) {#if !isEmpty($enchantItem)}
+        function workshop_index_svelte_create_if_block_14(ctx) {
             let show_if = !(0, lodash.isNil)( /*$enchantItem*/ ctx[4].color);
             let t0;
             let t1;
@@ -255105,9 +258277,9 @@ setTimeout(() => {
             let img_src_value;
             let t2;
             let if_block2_anchor;
-            let if_block0 = show_if && workshop_index_svelte_create_if_block_15(ctx);
-            let if_block1 = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*$enchantItem*/ ctx[4].item] && workshop_index_svelte_create_if_block_14(ctx);
-            let if_block2 = /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && workshop_index_svelte_create_if_block_13(ctx);
+            let if_block0 = show_if && create_if_block_17(ctx);
+            let if_block1 = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*$enchantItem*/ ctx[4].item] && workshop_index_svelte_create_if_block_16(ctx);
+            let if_block2 = /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_15(ctx);
 
             return {
                 c() {
@@ -255140,7 +258312,7 @@ setTimeout(() => {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = workshop_index_svelte_create_if_block_15(ctx);
+                            if_block0 = create_if_block_17(ctx);
                             if_block0.c();
                             if_block0.m(t0.parentNode, t0);
                         }
@@ -255153,7 +258325,7 @@ setTimeout(() => {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = workshop_index_svelte_create_if_block_14(ctx);
+                            if_block1 = workshop_index_svelte_create_if_block_16(ctx);
                             if_block1.c();
                             if_block1.m(t1.parentNode, t1);
                         }
@@ -255166,11 +258338,11 @@ setTimeout(() => {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if ( /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble) {
+                    if ( /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
-                            if_block2 = workshop_index_svelte_create_if_block_13(ctx);
+                            if_block2 = workshop_index_svelte_create_if_block_15(ctx);
                             if_block2.c();
                             if_block2.m(if_block2_anchor.parentNode, if_block2_anchor);
                         }
@@ -255195,8 +258367,8 @@ setTimeout(() => {
             };
         }
 
-        // (434:8) {#if !isNil($enchantItem.color)}
-        function workshop_index_svelte_create_if_block_15(ctx) {
+        // (452:8) {#if !isNil($enchantItem.color)}
+        function create_if_block_17(ctx) {
             let div;
 
             return {
@@ -255221,8 +258393,8 @@ setTimeout(() => {
             };
         }
 
-        // (437:32) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[$enchantItem.item]}
-        function workshop_index_svelte_create_if_block_14(ctx) {
+        // (455:32) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[$enchantItem.item]}
+        function workshop_index_svelte_create_if_block_16(ctx) {
             let img;
             let img_src_value;
 
@@ -255249,8 +258421,8 @@ setTimeout(() => {
             };
         }
 
-        // (441:8) {#if $workshopCurrentTab !== WorkshopTabs.Disassemble}
-        function workshop_index_svelte_create_if_block_13(ctx) {
+        // (459:8) {#if $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
+        function workshop_index_svelte_create_if_block_15(ctx) {
             let div;
             let t_value = `+${/*$enchantItem*/ ctx[4].enchant | 0}` + "";
             let t;
@@ -255276,8 +258448,8 @@ setTimeout(() => {
             };
         }
 
-        // (466:61) 
-        function workshop_index_svelte_create_if_block_11(ctx) {
+        // (486:61) 
+        function workshop_index_svelte_create_if_block_13(ctx) {
             let i;
 
             return {
@@ -255297,8 +258469,8 @@ setTimeout(() => {
             };
         }
 
-        // (464:94) 
-        function workshop_index_svelte_create_if_block_10(ctx) {
+        // (484:91) 
+        function workshop_index_svelte_create_if_block_12(ctx) {
             let i;
 
             return {
@@ -255318,8 +258490,29 @@ setTimeout(() => {
             };
         }
 
-        // (462:138) 
-        function workshop_index_svelte_create_if_block_9(ctx) {
+        // (482:94) 
+        function workshop_index_svelte_create_if_block_11(ctx) {
+            let i;
+
+            return {
+                c() {
+                    i = dom_element("i");
+                    dom_attr(i, "class", "workshop__lock-icon ui-question");
+                },
+                m(target, anchor) {
+                    dom_insert(target, i, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(i);
+                    }
+                }
+            };
+        }
+
+        // (480:138) 
+        function workshop_index_svelte_create_if_block_10(ctx) {
             let img;
             let img_src_value;
 
@@ -255342,8 +258535,8 @@ setTimeout(() => {
             };
         }
 
-        // (460:7) {#if !isEmpty($enchantStuff)}
-        function workshop_index_svelte_create_if_block_8(ctx) {
+        // (478:7) {#if !isEmpty($enchantStuff)}
+        function workshop_index_svelte_create_if_block_9(ctx) {
             let img;
             let img_src_value;
 
@@ -255370,8 +258563,8 @@ setTimeout(() => {
             };
         }
 
-        // (469:7) {#if ($workshopCurrentTab === WorkshopTabs.Repaint || $workshopCurrentTab === WorkshopTabs.Enchant) || $workshopCurrentTab === WorkshopTabs.Disassemble}
-        function workshop_index_svelte_create_if_block_7(ctx) {
+        // (489:7) {#if ($workshopCurrentTab === WorkshopTabs.Repaint || $workshopCurrentTab === WorkshopTabs.Enchant) || $workshopCurrentTab === WorkshopTabs.Disassemble}
+        function workshop_index_svelte_create_if_block_8(ctx) {
             let div2;
             let div0;
 
@@ -255423,15 +258616,55 @@ setTimeout(() => {
             };
         }
 
-        // (499:109) 
+        // (495:7) {#if $workshopCurrentTab === WorkshopTabs.Transfer}
+        function workshop_index_svelte_create_if_block_7(ctx) {
+            let div1;
+            let div0;
+            let t0;
+
+            let t1_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[3].amount) ?
+                0 :
+                /*$enchantStuff*/ ctx[3].enchant) + "";
+
+            let t1;
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_text("+");
+                    t1 = dom_text(t1_value);
+                    dom_attr(div0, "class", "workshop__ingredient-item-amount-current");
+                    dom_attr(div1, "class", "workshop__ingredient-item-amount");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+                    dom_append(div0, t0);
+                    dom_append(div0, t1);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*$enchantStuff*/ 8 && t1_value !== (t1_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[3].amount) ?
+                            0 :
+                            /*$enchantStuff*/ ctx[3].enchant) + "")) dom_set_data(t1, t1_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+                }
+            };
+        }
+
+        // (524:158) 
         function workshop_index_svelte_create_if_block_4(ctx) {
             let div2;
-            let show_if_1 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble;
+            let show_if_1 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer;
             let t0;
             let div1;
             let div0;
             let t1;
-            let show_if = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$enchantItem*/ ctx[4].enchant < MAX_ENCHANT_LEVEL && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble;
+            let show_if = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$enchantItem*/ ctx[4].enchant < MAX_ENCHANT_LEVEL && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer;
             let if_block0 = show_if_1 && workshop_index_svelte_create_if_block_6(ctx);
             let if_block1 = show_if && workshop_index_svelte_create_if_block_5(ctx);
 
@@ -255460,7 +258693,7 @@ setTimeout(() => {
                     if (if_block1) if_block1.m(div2, null);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$enchantItem, $workshopCurrentTab*/ 48) show_if_1 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble;
+                    if (dirty[0] & /*$enchantItem, $workshopCurrentTab*/ 48) show_if_1 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer;
 
                     if (show_if_1) {
                         if (if_block0) {
@@ -255483,7 +258716,7 @@ setTimeout(() => {
                         dom_toggle_class(div0, "workshop__progress-bar-current--filled", /*progressFilled*/ ctx[10]);
                     }
 
-                    if (dirty[0] & /*$enchantItem, $workshopCurrentTab*/ 48) show_if = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$enchantItem*/ ctx[4].enchant < MAX_ENCHANT_LEVEL && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble;
+                    if (dirty[0] & /*$enchantItem, $workshopCurrentTab*/ 48) show_if = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]) && /*$enchantItem*/ ctx[4].enchant < MAX_ENCHANT_LEVEL && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer;
 
                     if (show_if) {
                         if (if_block1) {
@@ -255509,7 +258742,7 @@ setTimeout(() => {
             };
         }
 
-        // (481:2) {#if $workshopCurrentTab === WorkshopTabs.Repaint}
+        // (506:2) {#if $workshopCurrentTab === WorkshopTabs.Repaint}
         function workshop_index_svelte_create_if_block_1(ctx) {
             let div;
             let each_value = each_ensure_array_like(constants_COLORS);
@@ -255572,7 +258805,7 @@ setTimeout(() => {
             };
         }
 
-        // (501:4) {#if !isEmpty($enchantItem) && $workshopCurrentTab !== WorkshopTabs.Disassemble}
+        // (526:4) {#if !isEmpty($enchantItem) && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_6(ctx) {
             let div;
             let t_value = /*$enchantItem*/ ctx[4].enchant + "";
@@ -255599,7 +258832,7 @@ setTimeout(() => {
             };
         }
 
-        // (511:4) {#if !isEmpty($enchantItem) && $enchantItem.enchant < MAX_ENCHANT_LEVEL && $workshopCurrentTab !== WorkshopTabs.Disassemble}
+        // (536:4) {#if !isEmpty($enchantItem) && $enchantItem.enchant < MAX_ENCHANT_LEVEL && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_5(ctx) {
             let div;
             let t_value = /*$enchantItem*/ ctx[4].enchant + 1 + "";
@@ -255626,7 +258859,7 @@ setTimeout(() => {
             };
         }
 
-        // (490:6) {#if index === 0}
+        // (515:6) {#if index === 0}
         function workshop_index_svelte_create_if_block_3(ctx) {
             let i;
 
@@ -255646,7 +258879,7 @@ setTimeout(() => {
             };
         }
 
-        // (493:6) {#if colorIndex === index}
+        // (518:6) {#if colorIndex === index}
         function workshop_index_svelte_create_if_block_2(ctx) {
             let i;
 
@@ -255666,7 +258899,7 @@ setTimeout(() => {
             };
         }
 
-        // (483:4) {#each COLORS as color, index}
+        // (508:4) {#each COLORS as color, index}
         function workshop_index_svelte_create_each_block(ctx) {
             let div;
             let t0;
@@ -255736,7 +258969,7 @@ setTimeout(() => {
             };
         }
 
-        // (521:2) {#if $workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble}
+        // (546:2) {#if $workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block(ctx) {
             let div4;
             let div3;
@@ -255825,8 +259058,8 @@ setTimeout(() => {
             let div19;
             let div12;
             let div10;
-            let show_if_4;
             let show_if_5;
+            let show_if_6;
             let t10;
             let t11;
             let div11;
@@ -255835,7 +259068,7 @@ setTimeout(() => {
             let t13;
             let div15;
             let div13;
-            let show_if_3 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]);
+            let show_if_4 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]);
             let t14;
             let div14;
             let t15_value = MAP_TAB_TO_MAIN_ITEM_TITLE[ /*$workshopCurrentTab*/ ctx[5]] + "";
@@ -255846,31 +259079,33 @@ setTimeout(() => {
             let show_if;
             let show_if_1;
             let show_if_2;
+            let show_if_3;
             let t17;
             let t18;
-            let div17;
-            let t19_value = MAP_TAB_TO_SEC_ITEM_TITLE[ /*$workshopCurrentTab*/ ctx[5]] + "";
             let t19;
+            let div17;
+            let t20_value = MAP_TAB_TO_SEC_ITEM_TITLE[ /*$workshopCurrentTab*/ ctx[5]] + "";
             let t20;
             let t21;
+            let t22;
             let div30;
             let div23;
             let inventorybutton5;
-            let t22;
             let t23;
+            let t24;
             let div28;
             let div27;
             let div24;
-            let t25;
+            let t26;
             let div26;
             let div25;
 
-            let t26_value = ( /*$additionalInfo*/ ctx[17].cost ?
+            let t27_value = ( /*$additionalInfo*/ ctx[17].cost ?
                 `${formatMoney(/*$additionalInfo*/ ctx[17].cost)} $` :
                 0) + "";
 
-            let t26;
             let t27;
+            let t28;
             let div29;
             let inventorybutton6;
             let current;
@@ -255933,45 +259168,49 @@ setTimeout(() => {
             });
 
             function select_block_type(ctx, dirty) {
-                if (dirty[0] & /*$colorItem*/ 4) show_if_4 = null;
-                if (dirty[0] & /*$workshopCurrentTab, $colorItem*/ 36) show_if_5 = null;
-                if (show_if_4 == null) show_if_4 = !!!(0, lodash.isEmpty)( /*$colorItem*/ ctx[2]);
-                if (show_if_4) return create_if_block_17;
-                if (show_if_5 == null) show_if_5 = !!( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repaint && (0, lodash.isEmpty)( /*$colorItem*/ ctx[2]));
-                if (show_if_5) return create_if_block_18;
-                if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant) return create_if_block_19;
-                if ( /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Repaint) return create_if_block_20;
+                if (dirty[0] & /*$colorItem*/ 4) show_if_5 = null;
+                if (dirty[0] & /*$workshopCurrentTab, $colorItem*/ 36) show_if_6 = null;
+                if (show_if_5 == null) show_if_5 = !!!(0, lodash.isEmpty)( /*$colorItem*/ ctx[2]);
+                if (show_if_5) return create_if_block_19;
+                if (show_if_6 == null) show_if_6 = !!( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repaint && (0, lodash.isEmpty)( /*$colorItem*/ ctx[2]));
+                if (show_if_6) return create_if_block_20;
+                if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant) return create_if_block_21;
+                if ( /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Repaint) return create_if_block_22;
             }
 
             let current_block_type = select_block_type(ctx, [-1, -1]);
             let if_block0 = current_block_type && current_block_type(ctx);
-            let if_block1 = /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Repair && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_16(ctx);
-            let if_block2 = show_if_3 && workshop_index_svelte_create_if_block_12(ctx);
+            let if_block1 = /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Repair && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer && create_if_block_18(ctx);
+            let if_block2 = show_if_4 && workshop_index_svelte_create_if_block_14(ctx);
 
             function select_block_type_1(ctx, dirty) {
                 if (dirty[0] & /*$enchantStuff*/ 8) show_if = null;
                 if (dirty[0] & /*$workshopCurrentTab, $enchantStuff*/ 40) show_if_1 = null;
                 if (dirty[0] & /*$workshopCurrentTab, $enchantStuff*/ 40) show_if_2 = null;
+                if (dirty[0] & /*$workshopCurrentTab, $enchantStuff*/ 40) show_if_3 = null;
                 if (show_if == null) show_if = !!!(0, lodash.isEmpty)( /*$enchantStuff*/ ctx[3]);
-                if (show_if) return workshop_index_svelte_create_if_block_8;
+                if (show_if) return workshop_index_svelte_create_if_block_9;
                 if (show_if_1 == null) show_if_1 = !!(( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repaint || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant) && (0, lodash.isEmpty)( /*$enchantStuff*/ ctx[3]));
-                if (show_if_1) return workshop_index_svelte_create_if_block_9;
+                if (show_if_1) return workshop_index_svelte_create_if_block_10;
                 if (show_if_2 == null) show_if_2 = !!( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble && (0, lodash.isEmpty)( /*$enchantStuff*/ ctx[3]));
-                if (show_if_2) return workshop_index_svelte_create_if_block_10;
-                if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repair) return workshop_index_svelte_create_if_block_11;
+                if (show_if_2) return workshop_index_svelte_create_if_block_11;
+                if (show_if_3 == null) show_if_3 = !!( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Transfer && (0, lodash.isEmpty)( /*$enchantStuff*/ ctx[3]));
+                if (show_if_3) return workshop_index_svelte_create_if_block_12;
+                if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repair) return workshop_index_svelte_create_if_block_13;
             }
 
             let current_block_type_1 = select_block_type_1(ctx, [-1, -1]);
             let if_block3 = current_block_type_1 && current_block_type_1(ctx);
-            let if_block4 = ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repaint || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble) && workshop_index_svelte_create_if_block_7(ctx);
+            let if_block4 = ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repaint || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble) && workshop_index_svelte_create_if_block_8(ctx);
+            let if_block5 = /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_7(ctx);
 
             function select_block_type_2(ctx, dirty) {
                 if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repaint) return workshop_index_svelte_create_if_block_1;
-                if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble) return workshop_index_svelte_create_if_block_4;
+                if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Transfer) return workshop_index_svelte_create_if_block_4;
             }
 
             let current_block_type_2 = select_block_type_2(ctx, [-1, -1]);
-            let if_block5 = current_block_type_2 && current_block_type_2(ctx);
+            let if_block6 = current_block_type_2 && current_block_type_2(ctx);
 
             inventorybutton5 = new inventory_button_index_svelte({
                 props: {
@@ -255980,7 +259219,7 @@ setTimeout(() => {
                 }
             });
 
-            let if_block6 = ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble) && workshop_index_svelte_create_if_block(ctx);
+            let if_block7 = ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Transfer) && workshop_index_svelte_create_if_block(ctx);
 
             inventorybutton6 = new inventory_button_index_svelte({
                 props: {
@@ -256045,26 +259284,28 @@ setTimeout(() => {
                     t17 = dom_space();
                     if (if_block4) if_block4.c();
                     t18 = dom_space();
-                    div17 = dom_element("div");
-                    t19 = dom_text(t19_value);
-                    t20 = dom_space();
                     if (if_block5) if_block5.c();
+                    t19 = dom_space();
+                    div17 = dom_element("div");
+                    t20 = dom_text(t20_value);
                     t21 = dom_space();
+                    if (if_block6) if_block6.c();
+                    t22 = dom_space();
                     div30 = dom_element("div");
                     div23 = dom_element("div");
                     create_component(inventorybutton5.$$.fragment);
-                    t22 = dom_space();
-                    if (if_block6) if_block6.c();
                     t23 = dom_space();
+                    if (if_block7) if_block7.c();
+                    t24 = dom_space();
                     div28 = dom_element("div");
                     div27 = dom_element("div");
                     div24 = dom_element("div");
                     div24.textContent = "Стоимость";
-                    t25 = dom_space();
+                    t26 = dom_space();
                     div26 = dom_element("div");
                     div25 = dom_element("div");
-                    t26 = dom_text(t26_value);
-                    t27 = dom_space();
+                    t27 = dom_text(t27_value);
+                    t28 = dom_space();
                     div29 = dom_element("div");
                     create_component(inventorybutton6.$$.fragment);
                     dom_attr(div0, "class", "workshop__tab-control-button");
@@ -256159,26 +259400,28 @@ setTimeout(() => {
                     if (if_block3) if_block3.m(div16, null);
                     dom_append(div16, t17);
                     if (if_block4) if_block4.m(div16, null);
-                    dom_append(div18, t18);
+                    dom_append(div16, t18);
+                    if (if_block5) if_block5.m(div16, null);
+                    dom_append(div18, t19);
                     dom_append(div18, div17);
-                    dom_append(div17, t19);
-                    dom_append(div22, t20);
-                    if (if_block5) if_block5.m(div22, null);
-                    dom_append(div31, t21);
+                    dom_append(div17, t20);
+                    dom_append(div22, t21);
+                    if (if_block6) if_block6.m(div22, null);
+                    dom_append(div31, t22);
                     dom_append(div31, div30);
                     dom_append(div30, div23);
                     mount_component(inventorybutton5, div23, null);
-                    dom_append(div30, t22);
-                    if (if_block6) if_block6.m(div30, null);
                     dom_append(div30, t23);
+                    if (if_block7) if_block7.m(div30, null);
+                    dom_append(div30, t24);
                     dom_append(div30, div28);
                     dom_append(div28, div27);
                     dom_append(div27, div24);
-                    dom_append(div27, t25);
+                    dom_append(div27, t26);
                     dom_append(div27, div26);
                     dom_append(div26, div25);
-                    dom_append(div25, t26);
-                    dom_append(div30, t27);
+                    dom_append(div25, t27);
+                    dom_append(div30, t28);
                     dom_append(div30, div29);
                     mount_component(inventorybutton6, div29, null);
                     current = true;
@@ -256267,7 +259510,7 @@ setTimeout(() => {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = workshop_index_svelte_create_if_block_16(ctx);
+                            if_block1 = create_if_block_18(ctx);
                             if_block1.c();
                             if_block1.m(div10, null);
                         }
@@ -256285,13 +259528,13 @@ setTimeout(() => {
                     }
 
                     if ((!current || dirty[0] & /*$workshopCurrentTab*/ 32) && t12_value !== (t12_value = MAP_TAB_TO_CAPTION[ /*$workshopCurrentTab*/ ctx[5]] + "")) dom_set_data(t12, t12_value);
-                    if (dirty[0] & /*$enchantItem*/ 16) show_if_3 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]);
+                    if (dirty[0] & /*$enchantItem*/ 16) show_if_4 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[4]);
 
-                    if (show_if_3) {
+                    if (show_if_4) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
-                            if_block2 = workshop_index_svelte_create_if_block_12(ctx);
+                            if_block2 = workshop_index_svelte_create_if_block_14(ctx);
                             if_block2.c();
                             if_block2.m(div13, null);
                         }
@@ -256322,13 +259565,26 @@ setTimeout(() => {
                         if (if_block4) {
                             if_block4.p(ctx, dirty);
                         } else {
-                            if_block4 = workshop_index_svelte_create_if_block_7(ctx);
+                            if_block4 = workshop_index_svelte_create_if_block_8(ctx);
                             if_block4.c();
-                            if_block4.m(div16, null);
+                            if_block4.m(div16, t18);
                         }
                     } else if (if_block4) {
                         if_block4.d(1);
                         if_block4 = null;
+                    }
+
+                    if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Transfer) {
+                        if (if_block5) {
+                            if_block5.p(ctx, dirty);
+                        } else {
+                            if_block5 = workshop_index_svelte_create_if_block_7(ctx);
+                            if_block5.c();
+                            if_block5.m(div16, null);
+                        }
+                    } else if (if_block5) {
+                        if_block5.d(1);
+                        if_block5 = null;
                     }
 
                     if (!current || dirty[0] & /*enchantStuffHighlight*/ 8192) {
@@ -256339,36 +259595,36 @@ setTimeout(() => {
                         dom_toggle_class(div16, "workshop__ingredient-item--lock", /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Repair);
                     }
 
-                    if ((!current || dirty[0] & /*$workshopCurrentTab*/ 32) && t19_value !== (t19_value = MAP_TAB_TO_SEC_ITEM_TITLE[ /*$workshopCurrentTab*/ ctx[5]] + "")) dom_set_data(t19, t19_value);
+                    if ((!current || dirty[0] & /*$workshopCurrentTab*/ 32) && t20_value !== (t20_value = MAP_TAB_TO_SEC_ITEM_TITLE[ /*$workshopCurrentTab*/ ctx[5]] + "")) dom_set_data(t20, t20_value);
 
-                    if (current_block_type_2 === (current_block_type_2 = select_block_type_2(ctx, dirty)) && if_block5) {
-                        if_block5.p(ctx, dirty);
+                    if (current_block_type_2 === (current_block_type_2 = select_block_type_2(ctx, dirty)) && if_block6) {
+                        if_block6.p(ctx, dirty);
                     } else {
-                        if (if_block5) if_block5.d(1);
-                        if_block5 = current_block_type_2 && current_block_type_2(ctx);
+                        if (if_block6) if_block6.d(1);
+                        if_block6 = current_block_type_2 && current_block_type_2(ctx);
 
-                        if (if_block5) {
-                            if_block5.c();
-                            if_block5.m(div22, null);
-                        }
-                    }
-
-                    if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble) {
                         if (if_block6) {
-                            if_block6.p(ctx, dirty);
-                        } else {
-                            if_block6 = workshop_index_svelte_create_if_block(ctx);
                             if_block6.c();
-                            if_block6.m(div30, t23);
+                            if_block6.m(div22, null);
                         }
-                    } else if (if_block6) {
-                        if_block6.d(1);
-                        if_block6 = null;
                     }
 
-                    if ((!current || dirty[0] & /*$additionalInfo*/ 131072) && t26_value !== (t26_value = ( /*$additionalInfo*/ ctx[17].cost ?
+                    if ( /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Disassemble || /*$workshopCurrentTab*/ ctx[5] === WorkshopTabs.Transfer) {
+                        if (if_block7) {
+                            if_block7.p(ctx, dirty);
+                        } else {
+                            if_block7 = workshop_index_svelte_create_if_block(ctx);
+                            if_block7.c();
+                            if_block7.m(div30, t24);
+                        }
+                    } else if (if_block7) {
+                        if_block7.d(1);
+                        if_block7 = null;
+                    }
+
+                    if ((!current || dirty[0] & /*$additionalInfo*/ 131072) && t27_value !== (t27_value = ( /*$additionalInfo*/ ctx[17].cost ?
                             `${formatMoney(/*$additionalInfo*/ ctx[17].cost)} $` :
-                            0) + "")) dom_set_data(t26, t26_value);
+                            0) + "")) dom_set_data(t27, t27_value);
 
                     const inventorybutton6_changes = {};
                     if (dirty[0] & /*$workshopCurrentTab*/ 32) inventorybutton6_changes.text = MAP_TAB_TO_BUTTON_TEXT[ /*$workshopCurrentTab*/ ctx[5]];
@@ -256423,13 +259679,14 @@ setTimeout(() => {
                     }
 
                     if (if_block4) if_block4.d();
+                    if (if_block5) if_block5.d();
 
-                    if (if_block5) {
-                        if_block5.d();
+                    if (if_block6) {
+                        if_block6.d();
                     }
 
                     destroy_component(inventorybutton5);
-                    if (if_block6) if_block6.d();
+                    if (if_block7) if_block7.d();
                     destroy_component(inventorybutton6);
                     mounted = false;
                     utils_run_all(dispose);
@@ -256579,6 +259836,12 @@ setTimeout(() => {
                     enchantProperties.right = $colorItem.slot;
                     selectColor(0);
                 }
+
+                if ($workshopCurrentTab === WorkshopTabs.Transfer && enchantStuffHovered && ($inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_ACCESSORIES || $inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_IMPROV)) {
+                    utils_set_store_value(enchantStuff, $enchantStuff = $inventoryCurrentItem.item, $enchantStuff);
+                    enchantProperties.right = $colorItem.slot;
+                    selectColor(0);
+                }
             };
 
             const clearEnchantItem = () => {
@@ -256679,7 +259942,7 @@ setTimeout(() => {
                             $$invalidate(10, progressFilled = false);
                         }
 
-                        if ($workshopTimer > 0 && ($workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble)) {
+                        if ($workshopTimer > 0 && ($workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer)) {
                             $$invalidate(9, disabledButton = true);
                             $$invalidate(1, transitionTime = $workshopTimer - moment_default()().unix() - 150);
 
@@ -256735,6 +259998,12 @@ setTimeout(() => {
                                         $$invalidate(12, enchantItemHighlight = true);
                                     }
                                     break;
+                                case WorkshopTabs.Transfer:
+                                    if ($inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_ACCESSORIES || $inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_IMPROV) {
+                                        $$invalidate(13, enchantStuffHighlight = true);
+                                        $$invalidate(12, enchantItemHighlight = true);
+                                    }
+                                    break;
                             }
                         } else {
                             $$invalidate(12, enchantItemHighlight = false);
@@ -256747,7 +260016,7 @@ setTimeout(() => {
                 if ($$self.$$.dirty[0] & /*$workshopResult, $workshopCurrentTab, $enchantItem, $inventories, $enchantStuff, $colorItem*/ 167772220) {
                     $: {
                         if (!(0, lodash.isNil)($workshopResult)) {
-                            if ($workshopCurrentTab === WorkshopTabs.Repair || $workshopCurrentTab === WorkshopTabs.Disassemble && $workshopResult) {
+                            if ($workshopCurrentTab === WorkshopTabs.Repair || ($workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer) && $workshopResult) {
                                 utils_set_store_value(enchantItem, $enchantItem = {}, $enchantItem);
                                 utils_set_store_value(enchantItem, $enchantItem = {}, $enchantItem);
                             }
@@ -260197,6 +263466,7 @@ setTimeout(() => {
 
 
 
+
         // import { ITEMS } from './items';
 
 
@@ -260207,15 +263477,15 @@ setTimeout(() => {
 
             inventorywindow = new inventory_window_index_svelte({
                 props: {
-                    title: /*$characterInventorySelectedTab*/ ctx[12] === constants_NavigationTabs.Warehouse ?
-                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[13]] :
-                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[12]],
-                    headerIcon: MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[12]],
-                    onClose: /*closeInventory*/ ctx[18],
+                    title: /*$characterInventorySelectedTab*/ ctx[13] === constants_NavigationTabs.Warehouse ?
+                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[14]] :
+                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[13]],
+                    headerIcon: MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[13]],
+                    onClose: /*closeInventory*/ ctx[19],
                     inventoryId: 'character',
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Character,
-                    onFocus: /*func*/ ctx[22],
+                    onFocus: /*func*/ ctx[23],
                     exitButtonVisibility: false,
                     sortingButtonVisibility: false,
                     $$slots: {
@@ -260241,14 +263511,14 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
 
-                    if (dirty[0] & /*$characterInventorySelectedTab, $warehouseTypeId*/ 12288) inventorywindow_changes.title = /*$characterInventorySelectedTab*/ ctx[12] === constants_NavigationTabs.Warehouse ?
-                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[13]] :
-                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[12]];
+                    if (dirty[0] & /*$characterInventorySelectedTab, $warehouseTypeId*/ 24576) inventorywindow_changes.title = /*$characterInventorySelectedTab*/ ctx[13] === constants_NavigationTabs.Warehouse ?
+                        MAP_WAREHOUSE_TO_NAME[ /*$warehouseTypeId*/ ctx[14]] :
+                        MAP_TAB_ID_TO_NAME[ /*$characterInventorySelectedTab*/ ctx[13]];
 
-                    if (dirty[0] & /*$characterInventorySelectedTab*/ 4096) inventorywindow_changes.headerIcon = MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[12]];
+                    if (dirty[0] & /*$characterInventorySelectedTab*/ 8192) inventorywindow_changes.headerIcon = MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[13]];
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260276,7 +263546,7 @@ setTimeout(() => {
             };
         }
 
-        // (241:2) <InventoryWindow     title={$characterInventorySelectedTab === NavigationTabs.Warehouse ? MAP_WAREHOUSE_TO_NAME[$warehouseTypeId] : MAP_TAB_ID_TO_NAME[$characterInventorySelectedTab]}     headerIcon={MAP_TAB_ID_TO_ICON[$characterInventorySelectedTab]}     onClose={closeInventory}     inventoryId={'character'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Character}     onFocus={() => setPriority(WindowsIds.Character)}     exitButtonVisibility={false}     sortingButtonVisibility={false}    >
+        // (271:2) <InventoryWindow     title={$characterInventorySelectedTab === NavigationTabs.Warehouse ? MAP_WAREHOUSE_TO_NAME[$warehouseTypeId] : MAP_TAB_ID_TO_NAME[$characterInventorySelectedTab]}     headerIcon={MAP_TAB_ID_TO_ICON[$characterInventorySelectedTab]}     onClose={closeInventory}     inventoryId={'character'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Character}     onFocus={() => setPriority(WindowsIds.Character)}     exitButtonVisibility={false}     sortingButtonVisibility={false}    >
         function create_default_slot_8(ctx) {
             let character;
             let current;
@@ -260305,7 +263575,7 @@ setTimeout(() => {
             };
         }
 
-        // (257:0) {#if mainInventoryVisible && !isNil($inventories[BLOCK_TYPE.BLOCK_TYPE_MENU])}
+        // (287:0) {#if mainInventoryVisible && !isNil($inventories[BLOCK_TYPE.BLOCK_TYPE_MENU])}
         function inventory_index_svelte_create_if_block_7(ctx) {
             let div;
             let inventorywindow;
@@ -260315,11 +263585,11 @@ setTimeout(() => {
                 props: {
                     title: 'Инвентарь',
                     headerIcon: 'bag',
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     inventoryId: 'main',
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Main,
-                    onFocus: /*func_1*/ ctx[23],
+                    onFocus: /*func_1*/ ctx[24],
                     sortingButtonVisibility: true,
                     infoButtonEnabled: true,
                     $$slots: {
@@ -260346,7 +263616,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[0] & /*$inventories*/ 1 | dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[0] & /*$inventories*/ 1 | dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260374,7 +263644,7 @@ setTimeout(() => {
             };
         }
 
-        // (259:2) <InventoryWindow     title={'Инвентарь'}     headerIcon={'bag'}     onClose={closeInventory}     inventoryId={'main'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Main}     onFocus={() => setPriority(WindowsIds.Main)}     sortingButtonVisibility={true}     infoButtonEnabled    >
+        // (289:2) <InventoryWindow     title={'Инвентарь'}     headerIcon={'bag'}     onClose={closeInventory}     inventoryId={'main'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Main}     onFocus={() => setPriority(WindowsIds.Main)}     sortingButtonVisibility={true}     infoButtonEnabled    >
         function create_default_slot_7(ctx) {
             let inventorymain;
             let current;
@@ -260416,7 +263686,7 @@ setTimeout(() => {
             };
         }
 
-        // (280:0) {#if overviewVisible}
+        // (310:0) {#if overviewVisible}
         function inventory_index_svelte_create_if_block_6(ctx) {
             let div;
             let inventorywindow;
@@ -260428,7 +263698,7 @@ setTimeout(() => {
                     headerIcon: 'character',
                     centeredX: true,
                     centeredY: true,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     inventoryId: 'overview',
                     $$slots: {
                         default: [create_default_slot_6]
@@ -260453,7 +263723,7 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260481,7 +263751,7 @@ setTimeout(() => {
             };
         }
 
-        // (282:2) <InventoryWindow title={'Обзор'} headerIcon={'character'} centeredX={true} centeredY={true} onClose={closeInventory} inventoryId={'overview'}>
+        // (312:2) <InventoryWindow title={'Обзор'} headerIcon={'character'} centeredX={true} centeredY={true} onClose={closeInventory} inventoryId={'overview'}>
         function create_default_slot_6(ctx) {
             let overview;
             let current;
@@ -260510,7 +263780,7 @@ setTimeout(() => {
             };
         }
 
-        // (288:0) {#if walletVisible && $bagBlockType > -1}
+        // (318:0) {#if walletVisible && $bagBlockType > -1}
         function inventory_index_svelte_create_if_block_5(ctx) {
             let div;
             let inventorywindow;
@@ -260518,12 +263788,12 @@ setTimeout(() => {
 
             inventorywindow = new inventory_window_index_svelte({
                 props: {
-                    title: MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[14]],
+                    title: MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[15]],
                     headerIcon: 'wallet',
-                    onClose: /*closeWallet*/ ctx[17],
+                    onClose: /*closeWallet*/ ctx[18],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Wallet,
-                    onFocus: /*func_2*/ ctx[24],
+                    onFocus: /*func_2*/ ctx[25],
                     $$slots: {
                         default: [create_default_slot_5]
                     },
@@ -260546,10 +263816,10 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
-                    if (dirty[0] & /*$bagBlockType*/ 16384) inventorywindow_changes.title = MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[14]];
+                    if (dirty[0] & /*$bagBlockType*/ 32768) inventorywindow_changes.title = MAP_BAG_TO_NAME[ /*$bagBlockType*/ ctx[15]];
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[0] & /*$bagBlockType, $inventories*/ 16385 | dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[0] & /*$bagBlockType, $inventories*/ 32769 | dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260577,15 +263847,15 @@ setTimeout(() => {
             };
         }
 
-        // (290:2) <InventoryWindow title={MAP_BAG_TO_NAME[$bagBlockType]} headerIcon={'wallet'} onClose={closeWallet}      selectedWindow={selectedWindow}      windowId={WindowsIds.Wallet}      onFocus={() => setPriority(WindowsIds.Wallet)}>
+        // (320:2) <InventoryWindow title={MAP_BAG_TO_NAME[$bagBlockType]} headerIcon={'wallet'} onClose={closeWallet}      selectedWindow={selectedWindow}      windowId={WindowsIds.Wallet}      onFocus={() => setPriority(WindowsIds.Wallet)}>
         function create_default_slot_5(ctx) {
             let wallet;
             let current;
 
             wallet = new wallet_index_svelte({
                 props: {
-                    inventoryId: /*$bagBlockType*/ ctx[14],
-                    slotsCount: /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[14]].length || 6,
+                    inventoryId: /*$bagBlockType*/ ctx[15],
+                    slotsCount: /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[15]].length || 6,
                     fillWholeColumn: true,
                     columnsCount: 6
                 }
@@ -260601,8 +263871,8 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const wallet_changes = {};
-                    if (dirty[0] & /*$bagBlockType*/ 16384) wallet_changes.inventoryId = /*$bagBlockType*/ ctx[14];
-                    if (dirty[0] & /*$inventories, $bagBlockType*/ 16385) wallet_changes.slotsCount = /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[14]].length || 6;
+                    if (dirty[0] & /*$bagBlockType*/ 32768) wallet_changes.inventoryId = /*$bagBlockType*/ ctx[15];
+                    if (dirty[0] & /*$inventories, $bagBlockType*/ 32769) wallet_changes.slotsCount = /*$inventories*/ ctx[0][ /*$bagBlockType*/ ctx[15]].length || 6;
                     wallet.$set(wallet_changes);
                 },
                 i(local) {
@@ -260620,7 +263890,7 @@ setTimeout(() => {
             };
         }
 
-        // (304:0) {#if shopVisible}
+        // (334:0) {#if shopVisible}
         function inventory_index_svelte_create_if_block_4(ctx) {
             let div;
             let inventorywindow;
@@ -260629,13 +263899,13 @@ setTimeout(() => {
             inventorywindow = new inventory_window_index_svelte({
                 props: {
                     headerIcon: 'shop-spot',
-                    title: /*$additionalInfo*/ ctx[15].name,
+                    title: /*$additionalInfo*/ ctx[16].name,
                     centeredX: false,
                     centeredY: false,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Shop,
-                    onFocus: /*func_3*/ ctx[25],
+                    onFocus: /*func_3*/ ctx[26],
                     $$slots: {
                         default: [create_default_slot_4]
                     },
@@ -260658,10 +263928,10 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
-                    if (dirty[0] & /*$additionalInfo*/ 32768) inventorywindow_changes.title = /*$additionalInfo*/ ctx[15].name;
+                    if (dirty[0] & /*$additionalInfo*/ 65536) inventorywindow_changes.title = /*$additionalInfo*/ ctx[16].name;
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[0] & /*$isLavka*/ 2048 | dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[0] & /*$isLavka*/ 4096 | dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260689,7 +263959,7 @@ setTimeout(() => {
             };
         }
 
-        // (306:2) <InventoryWindow     headerIcon={'shop-spot'}     title={$additionalInfo.name}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Shop}     onFocus={() => setPriority(WindowsIds.Shop)}    >
+        // (336:2) <InventoryWindow     headerIcon={'shop-spot'}     title={$additionalInfo.name}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Shop}     onFocus={() => setPriority(WindowsIds.Shop)}    >
         function create_default_slot_4(ctx) {
             let shop;
             let current;
@@ -260700,7 +263970,7 @@ setTimeout(() => {
                     columnsCount: 5,
                     centeredX: false,
                     centeredY: true,
-                    isLavka: /*$isLavka*/ ctx[11]
+                    isLavka: /*$isLavka*/ ctx[12]
                 }
             });
 
@@ -260714,7 +263984,7 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const shop_changes = {};
-                    if (dirty[0] & /*$isLavka*/ 2048) shop_changes.isLavka = /*$isLavka*/ ctx[11];
+                    if (dirty[0] & /*$isLavka*/ 4096) shop_changes.isLavka = /*$isLavka*/ ctx[12];
                     shop.$set(shop_changes);
                 },
                 i(local) {
@@ -260732,7 +264002,7 @@ setTimeout(() => {
             };
         }
 
-        // (327:0) {#if tradeVisible}
+        // (357:0) {#if tradeVisible}
         function inventory_index_svelte_create_if_block_3(ctx) {
             let div;
             let inventorywindow;
@@ -260741,13 +264011,13 @@ setTimeout(() => {
             inventorywindow = new inventory_window_index_svelte({
                 props: {
                     headerIcon: 'list',
-                    title: `Обмен с ${/*$additionalInfo*/ ctx[15].name}`,
+                    title: `Обмен с ${/*$additionalInfo*/ ctx[16].name}`,
                     centeredX: true,
                     centeredY: false,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Trade,
-                    onFocus: /*func_4*/ ctx[26],
+                    onFocus: /*func_4*/ ctx[27],
                     $$slots: {
                         default: [create_default_slot_3]
                     },
@@ -260770,10 +264040,10 @@ setTimeout(() => {
                 },
                 p(ctx, dirty) {
                     const inventorywindow_changes = {};
-                    if (dirty[0] & /*$additionalInfo*/ 32768) inventorywindow_changes.title = `Обмен с ${/*$additionalInfo*/ ctx[15].name}`;
+                    if (dirty[0] & /*$additionalInfo*/ 65536) inventorywindow_changes.title = `Обмен с ${/*$additionalInfo*/ ctx[16].name}`;
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260801,7 +264071,7 @@ setTimeout(() => {
             };
         }
 
-        // (329:2) <InventoryWindow     headerIcon={'list'}     title={`Обмен с ${$additionalInfo.name}`}     centeredX={true}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Trade}     onFocus={() => setPriority(WindowsIds.Trade)}    >
+        // (359:2) <InventoryWindow     headerIcon={'list'}     title={`Обмен с ${$additionalInfo.name}`}     centeredX={true}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Trade}     onFocus={() => setPriority(WindowsIds.Trade)}    >
         function create_default_slot_3(ctx) {
             let trade;
             let current;
@@ -260839,7 +264109,7 @@ setTimeout(() => {
             };
         }
 
-        // (349:0) {#if workshopVisible}
+        // (379:0) {#if workshopVisible}
         function inventory_index_svelte_create_if_block_2(ctx) {
             let div;
             let inventorywindow;
@@ -260851,10 +264121,10 @@ setTimeout(() => {
                     title: 'Верстак',
                     centeredX: false,
                     centeredY: false,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Workshop,
-                    onFocus: /*func_5*/ ctx[27],
+                    onFocus: /*func_5*/ ctx[28],
                     $$slots: {
                         default: [create_default_slot_2]
                     },
@@ -260879,7 +264149,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -260907,7 +264177,7 @@ setTimeout(() => {
             };
         }
 
-        // (351:2) <InventoryWindow     headerIcon={'workbrench'}     title={'Верстак'}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Workshop}     onFocus={() => setPriority(WindowsIds.Workshop)}    >
+        // (381:2) <InventoryWindow     headerIcon={'workbrench'}     title={'Верстак'}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Workshop}     onFocus={() => setPriority(WindowsIds.Workshop)}    >
         function create_default_slot_2(ctx) {
             let workshop;
             let current;
@@ -260936,7 +264206,7 @@ setTimeout(() => {
             };
         }
 
-        // (366:0) {#if craftVisible}
+        // (396:0) {#if craftVisible}
         function inventory_index_svelte_create_if_block_1(ctx) {
             let div;
             let inventorywindow;
@@ -260948,10 +264218,10 @@ setTimeout(() => {
                     title: 'Создание',
                     centeredX: true,
                     centeredY: true,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Craft,
-                    onFocus: /*func_6*/ ctx[28],
+                    onFocus: /*func_6*/ ctx[29],
                     $$slots: {
                         default: [inventory_index_svelte_create_default_slot_1]
                     },
@@ -260976,7 +264246,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -261004,7 +264274,7 @@ setTimeout(() => {
             };
         }
 
-        // (368:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Craft}     onFocus={() => setPriority(WindowsIds.Craft)}    >
+        // (398:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Craft}     onFocus={() => setPriority(WindowsIds.Craft)}    >
         function inventory_index_svelte_create_default_slot_1(ctx) {
             let craft;
             let current;
@@ -261033,7 +264303,7 @@ setTimeout(() => {
             };
         }
 
-        // (383:0) {#if potionsVisible}
+        // (413:0) {#if potionsVisible}
         function inventory_index_svelte_create_if_block(ctx) {
             let div;
             let inventorywindow;
@@ -261045,10 +264315,10 @@ setTimeout(() => {
                     title: 'Создание',
                     centeredX: true,
                     centeredY: true,
-                    onClose: /*closeInventory*/ ctx[18],
+                    onClose: /*closeInventory*/ ctx[19],
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Potions,
-                    onFocus: /*func_7*/ ctx[29],
+                    onFocus: /*func_7*/ ctx[30],
                     $$slots: {
                         default: [inventory_index_svelte_create_default_slot]
                     },
@@ -261073,7 +264343,7 @@ setTimeout(() => {
                     const inventorywindow_changes = {};
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
 
-                    if (dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
                             dirty,
                             ctx
@@ -261101,7 +264371,7 @@ setTimeout(() => {
             };
         }
 
-        // (385:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Potions}     onFocus={() => setPriority(WindowsIds.Potions)}    >
+        // (415:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Potions}     onFocus={() => setPriority(WindowsIds.Potions)}    >
         function inventory_index_svelte_create_default_slot(ctx) {
             let potions;
             let current;
@@ -261146,7 +264416,7 @@ setTimeout(() => {
             let if_block0 = /*characterVisible*/ ctx[2] && inventory_index_svelte_create_if_block_8(ctx);
             let if_block1 = show_if && inventory_index_svelte_create_if_block_7(ctx);
             let if_block2 = /*overviewVisible*/ ctx[3] && inventory_index_svelte_create_if_block_6(ctx);
-            let if_block3 = /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[14] > -1 && inventory_index_svelte_create_if_block_5(ctx);
+            let if_block3 = /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[15] > -1 && inventory_index_svelte_create_if_block_5(ctx);
             let if_block4 = /*shopVisible*/ ctx[5] && inventory_index_svelte_create_if_block_4(ctx);
             let if_block5 = /*tradeVisible*/ ctx[6] && inventory_index_svelte_create_if_block_3(ctx);
             let if_block6 = /*workshopVisible*/ ctx[7] && inventory_index_svelte_create_if_block_2(ctx);
@@ -261196,6 +264466,8 @@ setTimeout(() => {
                     if (if_block8) if_block8.m(target, anchor);
                     dom_insert(target, t8, anchor);
                     dom_insert(target, div, anchor);
+                    /*div_binding*/
+                    ctx[31](div);
                     current = true;
                 },
                 p(ctx, dirty) {
@@ -261270,11 +264542,11 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if ( /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[14] > -1) {
+                    if ( /*walletVisible*/ ctx[4] && /*$bagBlockType*/ ctx[15] > -1) {
                         if (if_block3) {
                             if_block3.p(ctx, dirty);
 
-                            if (dirty[0] & /*walletVisible, $bagBlockType*/ 16400) {
+                            if (dirty[0] & /*walletVisible, $bagBlockType*/ 32784) {
                                 transitions_transition_in(if_block3, 1);
                             }
                         } else {
@@ -261456,6 +264728,8 @@ setTimeout(() => {
                     if (if_block6) if_block6.d(detaching);
                     if (if_block7) if_block7.d(detaching);
                     if (if_block8) if_block8.d(detaching);
+                    /*div_binding*/
+                    ctx[31](null);
                 }
             };
         }
@@ -261463,9 +264737,11 @@ setTimeout(() => {
         let infoWindowNode = null;
 
         function views_inventory_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $browserId;
+            let $inventoryHoveredSlot;
+            let $inventoryCurrentItem;
             let $itemsInInterval;
             let $inventories;
-            let $inventoryCurrentItem;
             let $potionsOpened;
             let $workShopOpened;
             let $shopOpened;
@@ -261474,17 +264750,19 @@ setTimeout(() => {
             let $warehouseTypeId;
             let $bagBlockType;
             let $additionalInfo;
-            utils_component_subscribe($$self, itemsInInterval, $$value => $$invalidate(20, $itemsInInterval = $$value));
-            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(0, $inventories = $$value));
+            utils_component_subscribe($$self, browserId, $$value => $$invalidate(34, $browserId = $$value));
+            utils_component_subscribe($$self, store_inventoryHoveredSlot, $$value => $$invalidate(35, $inventoryHoveredSlot = $$value));
             utils_component_subscribe($$self, store_inventoryCurrentItem, $$value => $$invalidate(21, $inventoryCurrentItem = $$value));
-            utils_component_subscribe($$self, potionsOpened, $$value => $$invalidate(31, $potionsOpened = $$value));
-            utils_component_subscribe($$self, workShopOpened, $$value => $$invalidate(32, $workShopOpened = $$value));
-            utils_component_subscribe($$self, shopOpened, $$value => $$invalidate(33, $shopOpened = $$value));
-            utils_component_subscribe($$self, isLavka, $$value => $$invalidate(11, $isLavka = $$value));
-            utils_component_subscribe($$self, characterInventorySelectedTab, $$value => $$invalidate(12, $characterInventorySelectedTab = $$value));
-            utils_component_subscribe($$self, warehouseTypeId, $$value => $$invalidate(13, $warehouseTypeId = $$value));
-            utils_component_subscribe($$self, bagBlockType, $$value => $$invalidate(14, $bagBlockType = $$value));
-            utils_component_subscribe($$self, additionalInfo, $$value => $$invalidate(15, $additionalInfo = $$value));
+            utils_component_subscribe($$self, itemsInInterval, $$value => $$invalidate(22, $itemsInInterval = $$value));
+            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(0, $inventories = $$value));
+            utils_component_subscribe($$self, potionsOpened, $$value => $$invalidate(36, $potionsOpened = $$value));
+            utils_component_subscribe($$self, workShopOpened, $$value => $$invalidate(37, $workShopOpened = $$value));
+            utils_component_subscribe($$self, shopOpened, $$value => $$invalidate(38, $shopOpened = $$value));
+            utils_component_subscribe($$self, isLavka, $$value => $$invalidate(12, $isLavka = $$value));
+            utils_component_subscribe($$self, characterInventorySelectedTab, $$value => $$invalidate(13, $characterInventorySelectedTab = $$value));
+            utils_component_subscribe($$self, warehouseTypeId, $$value => $$invalidate(14, $warehouseTypeId = $$value));
+            utils_component_subscribe($$self, bagBlockType, $$value => $$invalidate(15, $bagBlockType = $$value));
+            utils_component_subscribe($$self, additionalInfo, $$value => $$invalidate(16, $additionalInfo = $$value));
             let mainInventoryVisible = false;
             let characterVisible = false;
             let overviewVisible = false;
@@ -261604,10 +264882,42 @@ setTimeout(() => {
             };
 
             const unregisterUpdateOverviewVisible = registerEvent('event.inventory.setPlayerViewVisible', updateOverviewVisible);
+            let inventoryEl;
+            let cursorHided = false;
+
+            const handleMouseDown = e => {
+                if (e.button !== 2 || e.target !== inventoryEl) {
+                    return;
+                }
+
+                ;
+
+                if (!(0, lodash.isEmpty)($inventoryCurrentItem)) {
+                    utils_set_store_value(store_inventoryCurrentItem, $inventoryCurrentItem = {}, $inventoryCurrentItem);
+                }
+
+                if (!(0, lodash.isEmpty)($inventoryHoveredSlot)) {
+                    utils_set_store_value(store_inventoryHoveredSlot, $inventoryHoveredSlot = {}, $inventoryHoveredSlot);
+                }
+
+                window.cef.ToggleCursor($browserId, false);
+                cursorHided = true;
+            };
+
+            const handleMouseUp = e => {
+                if (e.button !== 2 || !cursorHided) return;
+                window.cef.ToggleCursor($browserId, true);
+            };
+
+            onMount(() => {
+                window.addEventListener("mousedown", handleMouseDown);
+                window.addEventListener("mouseup", handleMouseUp);
+                window.cef.BlockKey(17);
+            });
 
             onDestroy(() => {
                 clearInterval(interval);
-                $$invalidate(19, interval = null);
+                $$invalidate(20, interval = null);
                 unregisterUpdateMainmainInventoryVisible();
                 unregisterUpdateWalletVisibleVisible();
                 unregisterUpdatePlayerAmunitionTab();
@@ -261619,6 +264929,9 @@ setTimeout(() => {
                 unregisterUpdateShopVisible();
                 unregisterUpdateLavkaVisible();
                 unregisterUpdatePotionsVisible();
+                window.removeEventListener("mousedown", handleMouseDown);
+                window.removeEventListener("mouseup", handleMouseUp);
+                window.cef.UnblockKey(17);
             });
 
             const func = () => setPriority(WindowsIds.Character);
@@ -261629,6 +264942,13 @@ setTimeout(() => {
             const func_5 = () => setPriority(WindowsIds.Workshop);
             const func_6 = () => setPriority(WindowsIds.Craft);
             const func_7 = () => setPriority(WindowsIds.Potions);
+
+            function div_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    inventoryEl = $$value;
+                    $$invalidate(11, inventoryEl);
+                });
+            }
 
             $$self.$$.update = () => {
                 if ($$self.$$.dirty[0] & /*$inventoryCurrentItem*/ 2097152) {
@@ -261648,13 +264968,13 @@ setTimeout(() => {
                     }
                 }
 
-                if ($$self.$$.dirty[0] & /*$itemsInInterval, interval, $inventories*/ 1572865) {
+                if ($$self.$$.dirty[0] & /*$itemsInInterval, interval, $inventories*/ 5242881) {
                     $: {
                         if (!(0, lodash.isEmpty)($itemsInInterval)) {
                             let slotPath = [];
 
                             if ((0, lodash.isNil)(interval)) {
-                                $$invalidate(19, interval = setInterval(
+                                $$invalidate(20, interval = setInterval(
                                     () => {
                                         $itemsInInterval.forEach((item, index) => {
                                             const timeString = calculateTime(item.timeDifference);
@@ -261693,7 +265013,7 @@ setTimeout(() => {
                             }
                         } else {
                             clearInterval(interval);
-                            $$invalidate(19, interval = null);
+                            $$invalidate(20, interval = null);
                         }
                     }
                 }
@@ -261711,6 +265031,7 @@ setTimeout(() => {
                 craftVisible,
                 potionsVisible,
                 selectedWindow,
+                inventoryEl,
                 $isLavka,
                 $characterInventorySelectedTab,
                 $warehouseTypeId,
@@ -261720,8 +265041,8 @@ setTimeout(() => {
                 closeWallet,
                 closeInventory,
                 interval,
-                $itemsInInterval,
                 $inventoryCurrentItem,
+                $itemsInInterval,
                 func,
                 func_1,
                 func_2,
@@ -261729,14 +265050,15 @@ setTimeout(() => {
                 func_4,
                 func_5,
                 func_6,
-                func_7
+                func_7,
+                div_binding
             ];
         }
 
         class index_svelte_Inventory extends Component_SvelteComponent {
             constructor(options) {
                 super();
-                Component_init(this, options, views_inventory_index_svelte_instance, views_inventory_index_svelte_create_fragment, utils_safe_not_equal, {}, null, [-1, -1]);
+                Component_init(this, options, views_inventory_index_svelte_instance, views_inventory_index_svelte_create_fragment, utils_safe_not_equal, {}, null, [-1, -1, -1]);
             }
         }
 
@@ -268349,15 +271671,21 @@ const getRandomTableNumber = () => {
         };
         var MAP_SLOTS_MACHINE_VIEW_TO_NAME = slots_machine_constants_defineProperty(slots_machine_constants_defineProperty({}, SlotsMachineViews.FirstPerson, 'Первое лицо'), SlotsMachineViews.ThirdPerson, 'Третье лицо');
         var SlotsMachineTypes = {
-            DiamondMiner: 1
+            DiamondMiner: 1,
+            NewYear2026: 2
         };
-        var MAP_SLOTS_MACHINE_TYPE_TO_COLORS = slots_machine_constants_defineProperty({}, SlotsMachineTypes.DiamondMiner, {
+        var MAP_SLOTS_MACHINE_TYPE_TO_COLORS = slots_machine_constants_defineProperty(slots_machine_constants_defineProperty({}, SlotsMachineTypes.DiamondMiner, {
+            main: '#5FE2FF',
+            border: ['#4CB1C8', '#16D5FF'],
+            bottomPart: '#5FE2FF',
+            shadow: '#004352'
+        }), SlotsMachineTypes.NewYear2026, {
             main: '#5FE2FF',
             border: ['#4CB1C8', '#16D5FF'],
             bottomPart: '#5FE2FF',
             shadow: '#004352'
         });
-        var MAP_SLOTS_MACHINE_TYPE_TO_RULES = slots_machine_constants_defineProperty({}, SlotsMachineTypes.DiamondMiner, [{
+        var MAP_SLOTS_MACHINE_TYPE_TO_RULES = slots_machine_constants_defineProperty(slots_machine_constants_defineProperty({}, SlotsMachineTypes.DiamondMiner, [{
             title: '3 AZ-монеты',
             count: 3,
             multiplies: 1
@@ -268381,6 +271709,30 @@ const getRandomTableNumber = () => {
             title: '3 пончика',
             count: 3,
             prizeText: '10 спинов'
+        }]), SlotsMachineTypes.NewYear2026, [{
+            title: '3 Оливьешки',
+            count: 3,
+            multiplies: 1
+        }, {
+            title: '3 Бомжа',
+            count: 3,
+            multiplies: 3
+        }, {
+            title: '3 Тролля',
+            count: 3,
+            multiplies: 5
+        }, {
+            title: '3 Мороза',
+            count: 3,
+            multiplies: 10
+        }, {
+            title: '3 Снегурки',
+            count: 3,
+            multiplies: 100
+        }, {
+            title: '3 Бомж-туалета',
+            count: 3,
+            prizeText: '10 спинов'
         }]);; // CONCATENATED MODULE: ./src/views/casino/features/slots-machine/index.svelte
         /* src\views\casino\features\slots-machine\index.svelte generated by Svelte v4.2.8 */
 
@@ -268399,23 +271751,23 @@ const getRandomTableNumber = () => {
 
         function slots_machine_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[52] = list[i];
+            child_ctx[54] = list[i];
             return child_ctx;
         }
 
         function slots_machine_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[55] = list[i];
+            child_ctx[57] = list[i];
             return child_ctx;
         }
 
         function slots_machine_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[58] = list[i];
+            child_ctx[60] = list[i];
             return child_ctx;
         }
 
-        // (226:4) {#if slotsMachineInfo.prize}
+        // (229:4) {#if slotsMachineInfo.prize}
         function slots_machine_index_svelte_create_if_block_5(ctx) {
             let div;
 
@@ -268424,7 +271776,7 @@ const getRandomTableNumber = () => {
                 return slots_machine_index_svelte_create_else_block_1;
             }
 
-            let current_block_type = select_block_type(ctx, [-1, -1]);
+            let current_block_type = select_block_type(ctx, [-1, -1, -1]);
             let if_block = current_block_type(ctx);
 
             return {
@@ -268460,7 +271812,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (236:12) {:else}
+        // (239:12) {:else}
         function slots_machine_index_svelte_create_else_block_1(ctx) {
             let p;
 
@@ -268482,7 +271834,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (228:12) {#if slotsMachineInfo.prize.value !== 0}
+        // (231:12) {#if slotsMachineInfo.prize.value !== 0}
         function slots_machine_index_svelte_create_if_block_6(ctx) {
             let p0;
             let t0;
@@ -268543,7 +271895,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (251:8) {#if freeSpins > 0}
+        // (254:8) {#if freeSpins > 0}
         function slots_machine_index_svelte_create_if_block_4(ctx) {
             let p;
             let t0;
@@ -268572,7 +271924,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (257:4) {#if slotsMachineInfo.prize && slotsMachineInfo.prize.jackpot}
+        // (260:4) {#if slotsMachineInfo.prize && slotsMachineInfo.prize.jackpot}
         function slots_machine_index_svelte_create_if_block_3(ctx) {
             let div;
 
@@ -268593,10 +271945,10 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (276:12) {#each formatMoney(slotsMachineInfo.jackpotValue).replaceAll(' ', '.').split('') as char}
+        // (279:12) {#each formatMoney(slotsMachineInfo.jackpotValue).replaceAll(' ', '.').split('') as char}
         function slots_machine_index_svelte_create_each_block_2(ctx) {
             let span;
-            let t_value = /*char*/ ctx[58] + "";
+            let t_value = /*char*/ ctx[60] + "";
             let t;
             let span_class_value;
 
@@ -268605,7 +271957,7 @@ const getRandomTableNumber = () => {
                     span = dom_element("span");
                     t = dom_text(t_value);
 
-                    dom_attr(span, "class", span_class_value = `casino-slots-machine__jackpot-value-char${/*char*/ ctx[58] === '.'
+                    dom_attr(span, "class", span_class_value = `casino-slots-machine__jackpot-value-char${/*char*/ ctx[60] === '.'
 			? ' casino-slots-machine__jackpot-value-char--pure'
 			: ''}`);
                 },
@@ -268614,9 +271966,9 @@ const getRandomTableNumber = () => {
                     dom_append(span, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t_value !== (t_value = /*char*/ ctx[58] + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t_value !== (t_value = /*char*/ ctx[60] + "")) dom_set_data(t, t_value);
 
-                    if (dirty[0] & /*slotsMachineInfo*/ 1 && span_class_value !== (span_class_value = `casino-slots-machine__jackpot-value-char${/*char*/ ctx[58] === '.'
+                    if (dirty[0] & /*slotsMachineInfo*/ 1 && span_class_value !== (span_class_value = `casino-slots-machine__jackpot-value-char${/*char*/ ctx[60] === '.'
 			? ' casino-slots-machine__jackpot-value-char--pure'
 			: ''}`)) {
                         dom_attr(span, "class", span_class_value);
@@ -268630,7 +271982,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (289:4) {#if rulesOpened}
+        // (292:4) {#if rulesOpened}
         function slots_machine_index_svelte_create_if_block_1(ctx) {
             let div2;
             let t0;
@@ -268730,7 +272082,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (297:24) {#each [...new Array(rule.count).fill(true), ...new Array(3).fill(false)].slice(0, 3).reverse() as item}
+        // (300:24) {#each [...new Array(rule.count).fill(true), ...new Array(3).fill(false)].slice(0, 3).reverse() as item}
         function slots_machine_index_svelte_create_each_block_1(ctx) {
             let span;
             let span_style_value;
@@ -268740,7 +272092,7 @@ const getRandomTableNumber = () => {
                     span = dom_element("span");
                     dom_attr(span, "class", "casino-slots-machine__rule-counter-item");
 
-                    dom_attr(span, "style", span_style_value = /*item*/ ctx[55] ?
+                    dom_attr(span, "style", span_style_value = /*item*/ ctx[57] ?
                         `border-color: ${/*currentSlotsMachineColors*/ ctx[9].main};` :
                         '');
                 },
@@ -268748,7 +272100,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, span, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*slotsMachineInfo, currentSlotsMachineColors*/ 513 && span_style_value !== (span_style_value = /*item*/ ctx[55] ?
+                    if (dirty[0] & /*slotsMachineInfo, currentSlotsMachineColors*/ 513 && span_style_value !== (span_style_value = /*item*/ ctx[57] ?
                             `border-color: ${/*currentSlotsMachineColors*/ ctx[9].main};` :
                             '')) {
                         dom_attr(span, "style", span_style_value);
@@ -268762,10 +272114,10 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (304:24) {:else}
+        // (307:24) {:else}
         function slots_machine_index_svelte_create_else_block(ctx) {
             let t0;
-            let t1_value = /*rule*/ ctx[52].multiplies + "";
+            let t1_value = /*rule*/ ctx[54].multiplies + "";
             let t1;
 
             return {
@@ -268778,7 +272130,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, t1, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t1_value !== (t1_value = /*rule*/ ctx[52].multiplies + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t1_value !== (t1_value = /*rule*/ ctx[54].multiplies + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -268789,9 +272141,9 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (302:24) {#if rule.prizeText !== undefined}
+        // (305:24) {#if rule.prizeText !== undefined}
         function slots_machine_index_svelte_create_if_block_2(ctx) {
-            let t_value = /*rule*/ ctx[52].prizeText + "";
+            let t_value = /*rule*/ ctx[54].prizeText + "";
             let t;
 
             return {
@@ -268802,7 +272154,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, t, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t_value !== (t_value = /*rule*/ ctx[52].prizeText + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t_value !== (t_value = /*rule*/ ctx[54].prizeText + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -268812,17 +272164,17 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (291:12) {#each MAP_SLOTS_MACHINE_TYPE_TO_RULES[slotsMachineInfo.type] as rule}
+        // (294:12) {#each MAP_SLOTS_MACHINE_TYPE_TO_RULES[slotsMachineInfo.type] as rule}
         function slots_machine_index_svelte_create_each_block(ctx) {
             let div1;
             let p0;
-            let t0_value = /*rule*/ ctx[52].title + "";
+            let t0_value = /*rule*/ ctx[54].title + "";
             let t0;
             let t1;
             let div0;
             let t2;
             let p1;
-            let each_value_1 = each_ensure_array_like([...new Array( /*rule*/ ctx[52].count).fill(true), ...new Array(3).fill(false)].slice(0, 3).reverse());
+            let each_value_1 = each_ensure_array_like([...new Array( /*rule*/ ctx[54].count).fill(true), ...new Array(3).fill(false)].slice(0, 3).reverse());
             let each_blocks = [];
 
             for (let i = 0; i < each_value_1.length; i += 1) {
@@ -268830,11 +272182,11 @@ const getRandomTableNumber = () => {
             }
 
             function select_block_type_1(ctx, dirty) {
-                if ( /*rule*/ ctx[52].prizeText !== undefined) return slots_machine_index_svelte_create_if_block_2;
+                if ( /*rule*/ ctx[54].prizeText !== undefined) return slots_machine_index_svelte_create_if_block_2;
                 return slots_machine_index_svelte_create_else_block;
             }
 
-            let current_block_type = select_block_type_1(ctx, [-1, -1]);
+            let current_block_type = select_block_type_1(ctx, [-1, -1, -1]);
             let if_block = current_block_type(ctx);
 
             return {
@@ -268875,11 +272227,11 @@ const getRandomTableNumber = () => {
                     if_block.m(p1, null);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t0_value !== (t0_value = /*rule*/ ctx[52].title + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*slotsMachineInfo*/ 1 && t0_value !== (t0_value = /*rule*/ ctx[54].title + "")) dom_set_data(t0, t0_value);
 
                     if (dirty[0] & /*slotsMachineInfo, currentSlotsMachineColors*/ 513) {
                         each_value_1 = each_ensure_array_like([
-                            ...new Array( /*rule*/ ctx[52].count).fill(true),
+                            ...new Array( /*rule*/ ctx[54].count).fill(true),
                             ...new Array(3).fill(false)
                         ].slice(0, 3).reverse());
 
@@ -268927,7 +272279,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (423:4) {#if isCanExit}
+        // (426:4) {#if isCanExit}
         function slots_machine_index_svelte_create_if_block(ctx) {
             let actionbutton;
             let current;
@@ -269538,6 +272890,7 @@ const getRandomTableNumber = () => {
 
             const setJackpotText = jackpot => $$invalidate(0, slotsMachineInfo.jackpotValue = jackpot, slotsMachineInfo);
             const setCameraMode = camName => $$invalidate(8, slotsMachineView = SlotsMachineViews[camName]);
+            const setType = type => $$invalidate(0, slotsMachineInfo.type = type, slotsMachineInfo);
 
             const onInit = (type, title, jackpot, baseCost) => {
                 $$invalidate(0, slotsMachineInfo.type = type, slotsMachineInfo);
@@ -269667,6 +273020,7 @@ const getRandomTableNumber = () => {
             const destroyToggleRulesOpenedStatus = registerEvent('cef.slotsMachine.toggleRulesOpenedStatus', toggleRulesOpenedStatus);
             const destroyToggleAutospin = registerEvent('cef.slotsMachine.toggleAutospin', toggleAutospin);
             const destroySetFreeSpins = registerEvent('cef.slotsMachine.setFreeSpins', setFreeSpins);
+            const destroySetTypeEvent = registerEvent('cef.slotsMachine.setType', setType);
             const destroyInitEvent = registerEvent('cef.slotsMachine.onInit', onInit);
             const destroyResultEvent = registerEvent('cef.slotsMachine.onResult', onResult);
             const destroySetCanBetEvent = registerEvent('cef.slotsMachine.setCanBet', setCanBet);
@@ -269686,6 +273040,7 @@ const getRandomTableNumber = () => {
                 destroyToggleRulesOpenedStatus();
                 destroyToggleAutospin();
                 destroySetFreeSpins();
+                destroySetTypeEvent();
                 destroyInitEvent();
                 destroyResultEvent();
                 destroySetCanBetEvent();
@@ -269768,7 +273123,7 @@ const getRandomTableNumber = () => {
         class Slots_machine extends Component_SvelteComponent {
             constructor(options) {
                 super();
-                Component_init(this, options, slots_machine_index_svelte_instance, slots_machine_index_svelte_create_fragment, utils_safe_not_equal, {}, null, [-1, -1]);
+                Component_init(this, options, slots_machine_index_svelte_instance, slots_machine_index_svelte_create_fragment, utils_safe_not_equal, {}, null, [-1, -1, -1]);
             }
         }
 
@@ -278046,7 +281401,484 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const halloweenBox_index_svelte = (HalloweenBox);; // CONCATENATED MODULE: ./src/views/blueprint/constants.js
+        const halloweenBox_index_svelte = (HalloweenBox);; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/contour/head.svg
+        const head_namespaceObject = __webpack_require__.p + "assets/b02ab8ae0ad908bfc6b1.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/fullColor/head.svg
+        const fullColor_head_namespaceObject = __webpack_require__.p + "assets/63061f1bed8fc5653726.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/contour/hand-left.svg
+        const snowman_contour_hand_left_namespaceObject = __webpack_require__.p + "assets/d0b54f11930fe82a9310.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/fullColor/hand-left.svg
+        const snowman_fullColor_hand_left_namespaceObject = __webpack_require__.p + "assets/96bfb21448b79cce9ec7.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/contour/hand-right.svg
+        const snowman_contour_hand_right_namespaceObject = __webpack_require__.p + "assets/a4ba1a7adcb77c251210.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/fullColor/hand-right.svg
+        const snowman_fullColor_hand_right_namespaceObject = __webpack_require__.p + "assets/e81714a93096aa985229.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/contour/bottom.svg
+        const bottom_namespaceObject = __webpack_require__.p + "assets/9491e49a8315cc620e74.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/fullColor/bottom.svg
+        const fullColor_bottom_namespaceObject = __webpack_require__.p + "assets/bd30da7f881ef2fdbb27.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/contour/bucket.svg
+        const bucket_namespaceObject = __webpack_require__.p + "assets/2c5bb814f47cce27230d.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/fullColor/bucket.svg
+        const fullColor_bucket_namespaceObject = __webpack_require__.p + "assets/508e98989fbe9b41824e.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/contour/body.svg
+        const body_namespaceObject = __webpack_require__.p + "assets/7685980c6e6a9058966d.svg";; // CONCATENATED MODULE: ./src/views/blueprint/img/snowman/fullColor/body.svg
+        const fullColor_body_namespaceObject = __webpack_require__.p + "assets/0feb6130a03f37627f11.svg";; // CONCATENATED MODULE: ./src/views/blueprint/components/snowman/sounds/click.mp3
+        const snowman_sounds_click_namespaceObject = __webpack_require__.p + "assets/c841cf38e4178dd363cc.mp3";; // CONCATENATED MODULE: ./src/views/blueprint/components/snowman/sounds.js
+
+
+        var sounds_soundManager = createAudioStore({
+            click: snowman_sounds_click_namespaceObject
+        });; // CONCATENATED MODULE: ./src/views/blueprint/components/snowman/index.svelte
+        /* src\views\blueprint\components\snowman\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function snowman_index_svelte_add_css(target) {
+            append_styles(target, "svelte-14eu0o1", ".blueprint-snowman-box.svelte-14eu0o1{height:100%}.blueprint-snowman-box__images.svelte-14eu0o1{display:grid;grid-template-columns:repeat(3, 1fr);place-items:center;justify-items:center;align-items:center;min-width:max(calc((1000 * var(--global-scale) * var(--global-scale) - 1000 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((1000 * var(--global-scale) * var(--global-scale) * 0.44 - (1000 * var(--global-scale) * var(--global-scale) - 1000 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-snowman-box__image.svelte-14eu0o1{place-self:center;height:max(calc((200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((200 * var(--global-scale) * var(--global-scale) * 0.44 - (200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-snowman-box__image--pull-top.svelte-14eu0o1{height:max(calc((300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((300 * var(--global-scale) * var(--global-scale) * 0.44 - (300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:min(calc((-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-50 * var(--global-scale) * var(--global-scale) * 0.44 - (-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.blueprint-snowman-box__image--pull-bottom.svelte-14eu0o1{height:max(calc((300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((300 * var(--global-scale) * var(--global-scale) * 0.44 - (300 * var(--global-scale) * var(--global-scale) - 300 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:min(calc((-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-50 * var(--global-scale) * var(--global-scale) * 0.44 - (-50 * var(--global-scale) * var(--global-scale) - -50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.blueprint-snowman-box__target-zone.svelte-14eu0o1{position:absolute;background:rgba(255, 219, 108, 0.2);border-width:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-snowman-box__target-zone-icon.svelte-14eu0o1{position:absolute;color:#FFDB6C;animation-name:pulse;animation-duration:0.7s;animation-timing-function:linear;animation-iteration-count:infinite;animation-direction:alternate;top:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((44 * var(--global-scale) * var(--global-scale) - 44 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((44 * var(--global-scale) * var(--global-scale) * 0.44 - (44 * var(--global-scale) * var(--global-scale) - 44 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.blueprint-snowman-box__target-zone-border.svelte-14eu0o1{stroke:#FFDB6C;stroke-width:max(calc((3 * var(--global-scale) * var(--global-scale) - 3 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((3 * var(--global-scale) * var(--global-scale) * 0.44 - (3 * var(--global-scale) * var(--global-scale) - 3 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+        }
+
+        function snowman_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[16] = list[i];
+            child_ctx[18] = i;
+            return child_ctx;
+        }
+
+        // (174:8) {#each imagesOrder as imageKey, index}
+        function snowman_index_svelte_create_each_block(ctx) {
+            let img;
+            let img_src_value;
+            let img_alt_value;
+            let img_id_value;
+            let img_draggable_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+
+                    if (!utils_src_url_equal(img.src, img_src_value = /*highlightParts*/ ctx[2][ /*imageKey*/ ctx[16]] ?
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[16]].fullColor :
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[16]].contour)) dom_attr(img, "src", img_src_value);
+
+                    dom_attr(img, "alt", img_alt_value = /*imageKey*/ ctx[16]);
+                    dom_attr(img, "id", img_id_value = `image-${/*imageKey*/ ctx[16]}`);
+                    dom_attr(img, "class", "blueprint-snowman-box__image svelte-14eu0o1");
+                    dom_attr(img, "draggable", img_draggable_value = 'false');
+                    dom_toggle_class(img, "blueprint-snowman-box__image--pull-top", /*imageKey*/ ctx[16] === /*Zones*/ ctx[4].Bottom && /*index*/ ctx[18] < 3);
+                    dom_toggle_class(img, "blueprint-snowman-box__image--pull-bottom", /*imageKey*/ ctx[16] === /*Zones*/ ctx[4].Bottom && /*index*/ ctx[18] > 2);
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*highlightParts*/ 4 && !utils_src_url_equal(img.src, img_src_value = /*highlightParts*/ ctx[2][ /*imageKey*/ ctx[16]] ?
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[16]].fullColor :
+                            /*Images*/ ctx[5][ /*imageKey*/ ctx[16]].contour)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (186:4) {#if currentZone && !isEmpty(targetPosition)}
+        function snowman_index_svelte_create_if_block(ctx) {
+            let div;
+            let i;
+            let t;
+            let svg;
+            let rect;
+            let rect_width_value;
+            let rect_height_value;
+            let rect_viewBox_value;
+            let svg_width_value;
+            let svg_height_value;
+            let svg_viewBox_value;
+            let div_class_value;
+            let div_intro;
+            let mounted;
+            let dispose;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    i = dom_element("i");
+                    t = dom_space();
+                    svg = svg_element("svg");
+                    rect = svg_element("rect");
+                    dom_attr(i, "class", "blueprint-snowman-box__target-zone-icon icon-click svelte-14eu0o1");
+                    dom_attr(rect, "x", "0");
+                    dom_attr(rect, "y", "0");
+                    dom_attr(rect, "width", rect_width_value = /*targetPosition*/ ctx[1].width);
+                    dom_attr(rect, "height", rect_height_value = /*targetPosition*/ ctx[1].height);
+                    dom_attr(rect, "viewBox", rect_viewBox_value = "0 0 " + /*targetPosition*/ ctx[1].width + " " + /*targetPosition*/ ctx[1].height);
+                    dom_attr(rect, "stroke", "#FFDB6C");
+                    dom_attr(rect, "stroke-width", "3");
+                    dom_attr(rect, "stroke-dasharray", "16 16");
+                    dom_attr(svg, "class", "blueprint-snowman-box__target-zone-border svelte-14eu0o1");
+                    dom_attr(svg, "width", svg_width_value = /*targetPosition*/ ctx[1].width);
+                    dom_attr(svg, "height", svg_height_value = /*targetPosition*/ ctx[1].height);
+                    dom_attr(svg, "viewBox", svg_viewBox_value = "0 0 " + /*targetPosition*/ ctx[1].width + " " + /*targetPosition*/ ctx[1].height);
+                    dom_attr(svg, "fill", "none");
+                    dom_attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+                    dom_attr(div, "class", div_class_value = "blueprint-snowman-box__target-zone blueprint-snowman-box__target-zone--" + /*currentZone*/ ctx[3] + " svelte-14eu0o1");
+                    set_style(div, "left", /*targetPosition*/ ctx[1].left + "px");
+                    set_style(div, "top", /*targetPosition*/ ctx[1].top + "px");
+                    set_style(div, "width", /*targetPosition*/ ctx[1].width + "px");
+                    set_style(div, "height", /*targetPosition*/ ctx[1].height + "px");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, i);
+                    dom_append(div, t);
+                    dom_append(div, svg);
+                    dom_append(svg, rect);
+                    /*div_binding*/
+                    ctx[9](div);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div, "click", /*fillZone*/ ctx[7]);
+                        mounted = true;
+                    }
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*targetPosition*/ 2 && rect_width_value !== (rect_width_value = /*targetPosition*/ ctx[1].width)) {
+                        dom_attr(rect, "width", rect_width_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 2 && rect_height_value !== (rect_height_value = /*targetPosition*/ ctx[1].height)) {
+                        dom_attr(rect, "height", rect_height_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 2 && rect_viewBox_value !== (rect_viewBox_value = "0 0 " + /*targetPosition*/ ctx[1].width + " " + /*targetPosition*/ ctx[1].height)) {
+                        dom_attr(rect, "viewBox", rect_viewBox_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 2 && svg_width_value !== (svg_width_value = /*targetPosition*/ ctx[1].width)) {
+                        dom_attr(svg, "width", svg_width_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 2 && svg_height_value !== (svg_height_value = /*targetPosition*/ ctx[1].height)) {
+                        dom_attr(svg, "height", svg_height_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 2 && svg_viewBox_value !== (svg_viewBox_value = "0 0 " + /*targetPosition*/ ctx[1].width + " " + /*targetPosition*/ ctx[1].height)) {
+                        dom_attr(svg, "viewBox", svg_viewBox_value);
+                    }
+
+                    if (dirty & /*currentZone*/ 8 && div_class_value !== (div_class_value = "blueprint-snowman-box__target-zone blueprint-snowman-box__target-zone--" + /*currentZone*/ ctx[3] + " svelte-14eu0o1")) {
+                        dom_attr(div, "class", div_class_value);
+                    }
+
+                    if (dirty & /*targetPosition*/ 2) {
+                        set_style(div, "left", /*targetPosition*/ ctx[1].left + "px");
+                    }
+
+                    if (dirty & /*targetPosition*/ 2) {
+                        set_style(div, "top", /*targetPosition*/ ctx[1].top + "px");
+                    }
+
+                    if (dirty & /*targetPosition*/ 2) {
+                        set_style(div, "width", /*targetPosition*/ ctx[1].width + "px");
+                    }
+
+                    if (dirty & /*targetPosition*/ 2) {
+                        set_style(div, "height", /*targetPosition*/ ctx[1].height + "px");
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div_intro) {
+                            add_render_callback(() => {
+                                div_intro = create_in_transition(div, fade, {});
+                                div_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    /*div_binding*/
+                    ctx[9](null);
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        function snowman_index_svelte_create_fragment(ctx) {
+            let div1;
+            let div0;
+            let t;
+            let show_if = /*currentZone*/ ctx[3] && !(0, lodash.isEmpty)( /*targetPosition*/ ctx[1]);
+            let each_value = each_ensure_array_like( /*imagesOrder*/ ctx[6]);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = snowman_index_svelte_create_each_block(snowman_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            let if_block = show_if && snowman_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    t = dom_space();
+                    if (if_block) if_block.c();
+                    dom_attr(div0, "class", "blueprint-snowman-box__images svelte-14eu0o1");
+                    dom_attr(div1, "class", "blueprint-snowman-box svelte-14eu0o1");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div0, null);
+                        }
+                    }
+
+                    dom_append(div1, t);
+                    if (if_block) if_block.m(div1, null);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*highlightParts, imagesOrder, Images, Zones*/ 116) {
+                        each_value = each_ensure_array_like( /*imagesOrder*/ ctx[6]);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = snowman_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = snowman_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div0, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+
+                    if (dirty & /*currentZone, targetPosition*/ 10) show_if = /*currentZone*/ ctx[3] && !(0, lodash.isEmpty)( /*targetPosition*/ ctx[1]);
+
+                    if (show_if) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*currentZone, targetPosition*/ 10) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = snowman_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(div1, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        let index_svelte_zoneWidth = 0;
+        let index_svelte_zoneHeight = 0;
+
+        function snowman_index_svelte_instance($$self, $$props, $$invalidate) {
+            let currentZone;
+            let highlightParts;
+
+            const Zones = {
+                Head: 'head',
+                HandLeft: 'handLeft',
+                HandRight: 'handRight',
+                Bottom: 'bottom',
+                Bucket: 'bucket',
+                Body: 'body'
+            };
+
+            const Images = {
+                [Zones.Head]: {
+                    contour: head_namespaceObject,
+                    fullColor: fullColor_head_namespaceObject
+                },
+                [Zones.HandLeft]: {
+                    contour: snowman_contour_hand_left_namespaceObject,
+                    fullColor: snowman_fullColor_hand_left_namespaceObject
+                },
+                [Zones.HandRight]: {
+                    contour: snowman_contour_hand_right_namespaceObject,
+                    fullColor: snowman_fullColor_hand_right_namespaceObject
+                },
+                [Zones.Bottom]: {
+                    contour: bottom_namespaceObject,
+                    fullColor: fullColor_bottom_namespaceObject
+                },
+                [Zones.Bucket]: {
+                    contour: bucket_namespaceObject,
+                    fullColor: fullColor_bucket_namespaceObject
+                },
+                [Zones.Body]: {
+                    contour: body_namespaceObject,
+                    fullColor: fullColor_body_namespaceObject
+                }
+            };
+
+            const MAP_ZONES_TO_ID = {
+                [Zones.Head]: 1,
+                [Zones.HandLeft]: 2,
+                [Zones.HandRight]: 3,
+                [Zones.Bottom]: 4,
+                [Zones.Bucket]: 5,
+                [Zones.Body]: 6
+            };
+
+            const MAP_ID_TO_ZONE = Object.entries(MAP_ZONES_TO_ID).reduce(
+                (acc, [k, v]) => {
+                    acc[v] = k;
+                    return acc;
+                }, {}
+            );
+
+            const zonesOrder = (0, lodash.shuffle)(Object.values(Zones));
+            const imagesOrder = Object.values(Zones);
+            let zoneNode = null;
+            let targetPosition = {};
+            let filledZones = [];
+
+            const initializeFilledZones = filledZonesDto => {
+                $$invalidate(8, filledZones = filledZonesDto.map(id => MAP_ID_TO_ZONE[id]));
+
+                if (filledZones.length >= zonesOrder.length) {
+                    cef_sendClientMessage('event.blueprint.snowman.complete');
+                    $$invalidate(1, targetPosition = {});
+                } else {
+                    setTimeout(
+                        () => {
+                            nextZone();
+                        },
+                        50
+                    );
+                }
+            };
+
+            const nextZone = () => {
+                if (!currentZone) return;
+                const baseRect = document.querySelector('.blueprint-snowman-box').getBoundingClientRect();
+                const containerRect = document.querySelector(`#image-${currentZone}`).getBoundingClientRect();
+
+                $$invalidate(1, targetPosition = {
+                    left: containerRect.left - baseRect.left,
+                    top: containerRect.top - baseRect.top,
+                    width: containerRect.width,
+                    height: containerRect.height
+                });
+            };
+
+            const fillZone = () => {
+                sounds_soundManager.play('click');
+                cef_sendClientMessage('event.blueprint.snowman.partSelected', MAP_ZONES_TO_ID[currentZone]);
+                $$invalidate(1, targetPosition = {});
+            };
+
+            const unregisterFilledZonesInitialize = registerEvent('event.blueprint.snowman.initializeFilledZones', initializeFilledZones);
+
+            onMount(() => {
+                setTimeout(
+                    () => {
+                        nextZone();
+                    },
+                    50
+                );
+            });
+
+            onDestroy(() => {
+                unregisterFilledZonesInitialize();
+            });
+
+            function div_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    zoneNode = $$value;
+                    $$invalidate(0, zoneNode);
+                });
+            }
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*filledZones*/ 256) {
+                    $: $$invalidate(3, currentZone = zonesOrder.find(zone => !filledZones.includes(zone)));
+                }
+
+                if ($$self.$$.dirty & /*filledZones*/ 256) {
+                    $: $$invalidate(2, highlightParts = Object.fromEntries(Object.values(Zones).map(zone => [zone, filledZones.includes(zone) ? 1 : 0])));
+                }
+            };
+
+            return [
+                zoneNode,
+                targetPosition,
+                highlightParts,
+                currentZone,
+                Zones,
+                Images,
+                imagesOrder,
+                fillZone,
+                filledZones,
+                div_binding
+            ];
+        }
+
+        class Snowman extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, snowman_index_svelte_instance, snowman_index_svelte_create_fragment, utils_safe_not_equal, {}, snowman_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const snowman_index_svelte = (Snowman);; // CONCATENATED MODULE: ./src/views/blueprint/constants.js
         function blueprint_constants_typeof(o) {
             "@babel/helpers - typeof";
             return blueprint_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -278089,6 +281921,7 @@ const getRandomTableNumber = () => {
 
 
 
+
         var BlueprintWeaponId = {
             Rpg: 'rpg',
             Pm: 'pm',
@@ -278098,9 +281931,10 @@ const getRandomTableNumber = () => {
             PipeThree: 'pipeThree',
             PipeFour: 'pipeFour',
             PipeFive: 'pipeFive',
-            HalloweenBox: 'halloweenBox'
+            HalloweenBox: 'halloweenBox',
+            Snowman: 'snowman'
         };
-        var MAP_WEAPON_ID_TO_SVG = blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty({}, BlueprintWeaponId.Rpg, rpg_index_svelte), BlueprintWeaponId.Pm, pm_index_svelte), BlueprintWeaponId.Ak, ak_index_svelte), BlueprintWeaponId.Pipe, pipe_index_svelte), BlueprintWeaponId.PipeTwo, pipeTwo_index_svelte), BlueprintWeaponId.PipeThree, pipeThree_index_svelte), BlueprintWeaponId.PipeFour, pipeFour_index_svelte), BlueprintWeaponId.PipeFive, pipeFive_index_svelte), BlueprintWeaponId.HalloweenBox, halloweenBox_index_svelte);; // CONCATENATED MODULE: ./src/views/blueprint/index.svelte
+        var MAP_WEAPON_ID_TO_SVG = blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty(blueprint_constants_defineProperty({}, BlueprintWeaponId.Rpg, rpg_index_svelte), BlueprintWeaponId.Pm, pm_index_svelte), BlueprintWeaponId.Ak, ak_index_svelte), BlueprintWeaponId.Pipe, pipe_index_svelte), BlueprintWeaponId.PipeTwo, pipeTwo_index_svelte), BlueprintWeaponId.PipeThree, pipeThree_index_svelte), BlueprintWeaponId.PipeFour, pipeFour_index_svelte), BlueprintWeaponId.PipeFive, pipeFive_index_svelte), BlueprintWeaponId.HalloweenBox, halloweenBox_index_svelte), BlueprintWeaponId.Snowman, snowman_index_svelte);; // CONCATENATED MODULE: ./src/views/blueprint/index.svelte
         /* src\views\blueprint\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -284054,7 +287888,12 @@ const getRandomTableNumber = () => {
         const treasure_wrong_namespaceObject = __webpack_require__.p + "assets/d8c7b7db1c0db45ed190.webp";; // CONCATENATED MODULE: ./src/views/find-game/img/treasure-container.png
         const treasure_container_namespaceObject = __webpack_require__.p + "assets/aee30ac1a4b6bbebad38.webp";; // CONCATENATED MODULE: ./src/views/find-game/img/treasure-background.png
         const treasure_background_namespaceObject = __webpack_require__.p + "assets/ab56fdccd2fb0da215d9.webp";; // CONCATENATED MODULE: ./src/views/find-game/img/treasure-icon.svg
-        const treasure_icon_namespaceObject = __webpack_require__.p + "assets/ed48b966275f416f806a.svg";; // CONCATENATED MODULE: ./src/views/find-game/constants.js
+        const treasure_icon_namespaceObject = __webpack_require__.p + "assets/ed48b966275f416f806a.svg";; // CONCATENATED MODULE: ./src/views/find-game/img/paints-success.png
+        const paints_success_namespaceObject = __webpack_require__.p + "assets/bf88970be1987e6b7917.webp";; // CONCATENATED MODULE: ./src/views/find-game/img/paints-wrong.png
+        const paints_wrong_namespaceObject = __webpack_require__.p + "assets/779207cd2e6caec5b36c.webp";; // CONCATENATED MODULE: ./src/views/find-game/img/paints-regular.png
+        const paints_regular_namespaceObject = __webpack_require__.p + "assets/47e2208c82f8db54b1f6.webp";; // CONCATENATED MODULE: ./src/views/find-game/img/paints-background.png
+        const paints_background_namespaceObject = __webpack_require__.p + "assets/5e868a9aa3156e28ee53.webp";; // CONCATENATED MODULE: ./src/views/find-game/img/paints-container.png
+        const paints_container_namespaceObject = __webpack_require__.p + "assets/ecf4bb00ae950bec04a0.webp";; // CONCATENATED MODULE: ./src/views/find-game/constants.js
         function find_game_constants_typeof(o) {
             "@babel/helpers - typeof";
             return find_game_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -284130,15 +287969,21 @@ const getRandomTableNumber = () => {
 
 
 
+
+
+
+
+
         var GameType = {
             BusinessCenter: 'businessCenter',
             RoadRepair: 'roadRepair',
             Farm: 'farm',
             MysterySignal: 'mysterySignal',
             Skeleton: 'skeleton',
-            Treasure: 'treasure'
+            Treasure: 'treasure',
+            Paints: 'paints'
         };
-        var MAP_GAME_TYPE_TO_CONFIG = find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty({}, GameType.BusinessCenter, {
+        var MAP_GAME_TYPE_TO_CONFIG = find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty(find_game_constants_defineProperty({}, GameType.BusinessCenter, {
             successImage: business_success_namespaceObject,
             wrongImage: business_wrong_namespaceObject,
             regularImage: business_regular_namespaceObject,
@@ -284179,6 +288024,12 @@ const getRandomTableNumber = () => {
             mainBackground: treasure_background_namespaceObject,
             containerBackground: treasure_container_namespaceObject,
             titleIcon: treasure_icon_namespaceObject
+        }), GameType.Paints, {
+            successImage: paints_success_namespaceObject,
+            wrongImage: paints_wrong_namespaceObject,
+            regularImage: paints_regular_namespaceObject,
+            mainBackground: paints_background_namespaceObject,
+            containerBackground: paints_container_namespaceObject
         });; // CONCATENATED MODULE: ./src/views/find-game/index.svelte
         /* src\views\find-game\index.svelte generated by Svelte v4.2.8 */
 
@@ -284199,7 +288050,7 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (128:5) {#if winItemsIndexes.includes(index)}
+        // (129:5) {#if winItemsIndexes.includes(index)}
         function find_game_index_svelte_create_if_block_1(ctx) {
             let div;
 
@@ -284220,7 +288071,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (126:3) {#each items as item, index}
+        // (127:3) {#each items as item, index}
         function find_game_index_svelte_create_each_block(ctx) {
             let div;
             let show_if = /*winItemsIndexes*/ ctx[5].includes( /*index*/ ctx[14]);
@@ -284303,7 +288154,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (148:2) {#if MAP_GAME_TYPE_TO_CONFIG[type].titleIcon}
+        // (149:2) {#if MAP_GAME_TYPE_TO_CONFIG[type].titleIcon}
         function find_game_index_svelte_create_if_block(ctx) {
             let img;
             let img_src_value;
@@ -284397,6 +288248,7 @@ const getRandomTableNumber = () => {
                     dom_toggle_class(div2, "find-game__grid-wrapper--mysterySignal", /*type*/ ctx[0] === 'mysterySignal');
                     dom_toggle_class(div2, "find-game__grid-wrapper--skeleton", /*type*/ ctx[0] === 'skeleton');
                     dom_toggle_class(div2, "find-game__grid-wrapper--treasure", /*type*/ ctx[0] === 'treasure');
+                    dom_toggle_class(div2, "find-game__grid-wrapper--paints", /*type*/ ctx[0] === 'paints');
                     dom_attr(div3, "class", "find-game__bg-container");
                     dom_attr(div4, "class", "find-game__top-fade");
                     dom_attr(div5, "class", "find-game__title");
@@ -284480,6 +288332,10 @@ const getRandomTableNumber = () => {
 
                     if (dirty & /*type*/ 1) {
                         dom_toggle_class(div2, "find-game__grid-wrapper--treasure", /*type*/ ctx[0] === 'treasure');
+                    }
+
+                    if (dirty & /*type*/ 1) {
+                        dom_toggle_class(div2, "find-game__grid-wrapper--paints", /*type*/ ctx[0] === 'paints');
                     }
 
                     if (dirty & /*title*/ 2) dom_set_data(t4, /*title*/ ctx[1]);
@@ -284592,7 +288448,7 @@ const getRandomTableNumber = () => {
 
             const unregisterInitializeEvent = registerEvent('event.findGame.initialize', initialize);
 
-            // initialize("skeleton", "title", "caption", [1,2,4]);
+            // initialize("paints", "title", "caption", [1,2,4]);
             onDestroy(() => {
                 unregisterInitializeEvent();
             });
@@ -285978,209 +289834,310 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const battle_pass_chose_index_svelte = (Battle_pass_chose);; // CONCATENATED MODULE: ./src/views/event-pass/img/coin.svg
-        const coin_namespaceObject = __webpack_require__.p + "assets/3d4063559acfbcda8814.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/logo.png
-        const event_pass_img_logo_namespaceObject = __webpack_require__.p + "assets/5d4396f927e3117f7993.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/star.svg
-        const event_pass_img_star_namespaceObject = __webpack_require__.p + "assets/03d0577e9a94b5d6d221.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/time.svg
-        const time_namespaceObject = __webpack_require__.p + "assets/b268872c6bcf8fe5900c.svg";; // CONCATENATED MODULE: ./src/views/event-pass/components/main/rewards.js
+        const coin_namespaceObject = __webpack_require__.p + "assets/61c8da9a3034440e2cfd.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/logo.png
+        const event_pass_img_logo_namespaceObject = __webpack_require__.p + "assets/6c6f6c521b6c4095896c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/star.svg
+        const event_pass_img_star_namespaceObject = __webpack_require__.p + "assets/94c9e1cebfa9fb8854dc.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/time.svg
+        const time_namespaceObject = __webpack_require__.p + "assets/0414fda71959ffe69c78.svg";; // CONCATENATED MODULE: ./src/views/event-pass/components/main/rewards.js
         var REWARDS = [{
             "level": 1,
-            "title": "Объект: Мультяшная могила",
-            "sysName": 1,
+            "title": "Аксессуар: Сани",
+            "sysName": 9652,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 2,
-            "title": "AZ-Coins (120 шт)",
-            "sysName": 2,
+            "title": "Волшебные шары Код 26",
+            "sysName": 9649,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 3,
-            "title": "Скин: Скелет",
-            "sysName": 3,
+            "title": "Талон: +1 AZ Coins (100 шт)",
+            "sysName": 731,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 4,
-            "title": "Кейс Дня Мёртвых (2 шт)",
-            "sysName": 4,
+            "title": "Сумка бабушки",
+            "sysName": 9646,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 5,
-            "title": "Запечатанный: Сердце Лича",
-            "sysName": 5,
+            "title": "Кейс Код 26",
+            "sysName": 9698,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 6,
-            "title": "AZ-Coins (140 шт)",
-            "sysName": 2,
+            "title": "Запечатанный: Наплечник медведя",
+            "sysName": 9623,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 7,
-            "title": "Запечатанный: Перчатка Лича",
-            "sysName": 6,
+            "title": "Талон: +1 AZ Coins (300 шт)",
+            "sysName": 731,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 8,
-            "title": "Тюнинг-пак для LADA Priora",
-            "sysName": 7,
+            "title": "Объект: Объект: Мультяшная ёлка 1",
+            "sysName": 9656,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 9,
-            "title": "Запечатанный: Меч Лича",
-            "sysName": 8,
+            "title": "Печать нефтянника (непередаваемый) (2 шт)",
+            "sysName": 9695,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 10,
-            "title": "Кейс Дня Мёртвых (2 шт)",
-            "sysName": 4,
+            "title": "Набор переработки декораций (3 шт)",
+            "sysName": 9704,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 11,
-            "title": "Запечатанный: Нимб Лича",
-            "sysName": 9,
+            "title": "Запечатанный: Шапка медведя",
+            "sysName": 9624,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 12,
-            "title": "Диски (Паутина)",
-            "sysName": 10,
+            "title": "Кейс Код 26",
+            "sysName": 9698,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 13,
-            "title": "Запечатанный: Наплечник Лича",
-            "sysName": 11,
+            "title": "Охранник 'Чубрик'",
+            "sysName": 1111,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 14,
-            "title": "Набор для реставрации аксессуара (2 шт)",
-            "sysName": 12,
+            "title": "Новый VIN Номер (2 шт)",
+            "sysName": 9323,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 15,
-            "title": "Запечатанный: Шлем Лича",
-            "sysName": 13,
+            "title": "Аксессуар: Вертолет протокола",
+            "sysName": 9650,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 16,
-            "title": "Новый VIN номер (2 шт)",
-            "sysName": 14,
+            "title": "Аксессуар: Теплая Шапка на год Лошади",
+            "sysName": 9647,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 17,
-            "title": "Запечатанный: Метла ведьмы",
-            "sysName": 15,
+            "title": "Талон: +1 AZ Coins (300 шт)",
+            "sysName": 731,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 18,
-            "title": "Объект: Скелет-маг",
-            "sysName": 16,
+            "title": "Запечатанный: Ожерелье медведя",
+            "sysName": 9629,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 19,
-            "title": "AZ-Coins (400 шт)",
-            "sysName": 2,
+            "title": "Кейс Код 26",
+            "sysName": 9698,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 20,
-            "title": "Запечатанный: Котелок Ведьмы",
-            "sysName": 17,
+            "title": "Объект: Новогодний кристалл",
+            "sysName": 9658,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 21,
-            "title": "Скин: Дракула",
-            "sysName": 18,
+            "title": "Набор реставрации для аксессуара",
+            "sysName": 9322,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 22,
-            "title": "Запечатанный: Летающий кот Ведьмы",
-            "sysName": 19,
+            "title": "Набор переработки декораций (3 шт)",
+            "sysName": 9704,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 23,
-            "title": "Тюнинг-пак для Toyota Camry XV70",
-            "sysName": 20,
+            "title": "Запечатанный: Гари Помощник",
+            "sysName": 9684,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 24,
-            "title": "Запечатанный: Шляпа ведьмы",
-            "sysName": 21,
+            "title": "Кейс Код 26 (2 шт)",
+            "sysName": 9698,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 25,
-            "title": "Сертификат Такси Оборотня",
-            "sysName": 22,
+            "title": "Запечатанный: Наруч медведя",
+            "sysName": 9626,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 26,
-            "title": "Кейс Дня Мёртвых (2 шт)",
-            "sysName": 4,
+            "title": "Запечатанный: Жетон полиции зверополиса",
+            "sysName": 9682,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 27,
-            "title": "Запечатанный: Нимб Ведьмы",
-            "sysName": 23,
+            "title": "Талон: +1 AZ Coins (300 шт)",
+            "sysName": 731,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 28,
-            "title": "Золотой VIN номер",
-            "sysName": 24,
+            "title": "Скин: Новогодний Филип (ID: 1080)",
+            "sysName": 9551,
             "sellPrice": 50,
             "availableToReceive": false
         }, {
             "level": 29,
-            "title": "Запечатанный: Ожерелье Ведьмы",
-            "sysName": 25,
+            "title": "Печать нефтянника (непередаваемый) (3 шт)",
+            "sysName": 9695,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
         }, {
             "level": 30,
-            "title": "Сертификат Deadline Express",
-            "sysName": 26,
+            "title": "Запечатанный: Диктофон Джуди",
+            "sysName": 9683,
             "sellPrice": 50,
-            "availableToReceive": false,
-            "gifImage": true
+            "availableToReceive": false
+        }, {
+            "level": 31,
+            "title": "Кейс Код 26 (2 шт)",
+            "sysName": 9698,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 32,
+            "title": "Запечатанный: Нимб медведя",
+            "sysName": 9627,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 33,
+            "title": "Набор переработки декораций (5 шт)",
+            "sysName": 9704,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 34,
+            "title": "Набор реставрации для аксессуара (2 шт)",
+            "sysName": 9322,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 35,
+            "title": "Сертификат: Дирижабль",
+            "sysName": 1112,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 36,
+            "title": "Талон: +1 AZ Coins (500 шт)",
+            "sysName": 731,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 37,
+            "title": "Форма полицейского из зверополиса",
+            "sysName": 9693,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 38,
+            "title": "Улучшенный сироп характеристик актера (непередаваемый) (2 шт)",
+            "sysName": 8291,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 39,
+            "title": "Запечатанный: Плащ медведя",
+            "sysName": 9628,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 40,
+            "title": "Новый VIN Номер (2 шт)",
+            "sysName": 9323,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 41,
+            "title": "Сертификат BMW волшебника 2026",
+            "sysName": 9666,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 42,
+            "title": "Печать нефтянника (непередаваемый) (5 шт)",
+            "sysName": 9695,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 43,
+            "title": "Объект: Снеговик",
+            "sysName": 9661,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 44,
+            "title": "Скин: Молодой лесоруб (ID: 1078)",
+            "sysName": 9549,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 45,
+            "title": "Кейс Код 26 (3 шт)",
+            "sysName": 9698,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 46,
+            "title": "Скин: Викинг (ID: 1083)",
+            "sysName": 9554,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 47,
+            "title": "Кейс Код 26 (5 шт)",
+            "sysName": 9698,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 48,
+            "title": "Аксессуар: Мешок с новогодними подарками",
+            "sysName": 9653,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 49,
+            "title": "Талон: +1 AZ Coins (1000 шт)",
+            "sysName": 731,
+            "sellPrice": 50,
+            "availableToReceive": false
+        }, {
+            "level": 50,
+            "title": "Запчасти от Дирижабля Магната",
+            "sysName": 9699,
+            "sellPrice": 50,
+            "availableToReceive": false
         }];; // CONCATENATED MODULE: ./src/views/event-pass/store.js
         function event_pass_store_typeof(o) {
             "@babel/helpers - typeof";
@@ -286273,12 +290230,15 @@ const getRandomTableNumber = () => {
 
         var store_quests = store_writable([]);
         var events = store_writable([]);
+        var rating = store_writable([]);
         var event_pass_store_battlePassData = store_writable({});
         var passCoins = store_writable(0);
         var purchaseItem = store_writable({});
         var store_modal = store_writable({});
         var shop = store_writable({});
+        var village = store_writable({});
         var selectedPageBit = store_writable(0);
+        var ratingTimeLeft = store_writable(0);
         var updatePageBit = function updatePageBit() {
             var value = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 1;
             return selectedPageBit.set(value);
@@ -286289,6 +290249,14 @@ const getRandomTableNumber = () => {
             return store_quests.set((0, lodash.isNil)(get_store_value(store_quests)) ? dto : [].concat(event_pass_store_toConsumableArray(get_store_value(store_quests)), event_pass_store_toConsumableArray(dto)));
         };
         registerEvent('event.eventPass.initializeQuests', initializeQuests);
+        var initializeRating = function initializeRating() {
+            var dto = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
+            return rating.set((0, lodash.isNil)(get_store_value(rating)) ? dto : [].concat(event_pass_store_toConsumableArray(get_store_value(rating)), event_pass_store_toConsumableArray(dto)));
+        };
+        registerEvent('event.eventPass.initializeRating', initializeRating);
+        var clearRating = function clearRating() {
+            return rating.set([]);
+        };
         var updateQuest = function updateQuest() {
             var dto = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
             var questsCache = get_store_value(store_quests);
@@ -286329,6 +290297,16 @@ const getRandomTableNumber = () => {
             return shop.set(dto);
         };
         registerEvent('event.eventPass.initializeShop', initializeShop);
+        var initializeVillage = function initializeVillage() {
+            var dto = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+            return village.set(dto);
+        };
+        registerEvent('event.eventPass.initializeVillage', initializeVillage);
+        var initializeRatingTimeLeft = function initializeRatingTimeLeft() {
+            var dto = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+            return ratingTimeLeft.set(dto);
+        };
+        registerEvent('event.eventPass.initializeRatingTimeLeft', initializeRatingTimeLeft);
         var pushShop = function pushShop() {
             var dto = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
             var shopCache = get_store_value(shop);
@@ -286355,7 +290333,7 @@ const getRandomTableNumber = () => {
 
 
         function button_index_svelte_add_css(target) {
-            append_styles(target, "svelte-1mru7hm", ".event-pass-button.svelte-1mru7hm{width:100%;height:100%;background-color:#FFFFFF;color:#131516;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:0.1s ease-out;transition-property:box-shadow, background-color, transform;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button.svelte-1mru7hm:hover{background-color:rgba(255, 255, 255, 0.9)}.event-pass-button.svelte-1mru7hm:active{transform:translateY(5%);background-color:rgba(255, 255, 255, 0.6)}.event-pass-button--yellow.svelte-1mru7hm{background-color:#8C95FF;color:#131516}.event-pass-button--yellow.svelte-1mru7hm:hover{background-color:#9452BA}.event-pass-button--yellow.svelte-1mru7hm:active{transform:translateY(5%);background-color:#8946AF}.event-pass-button--disabled.svelte-1mru7hm{opacity:0.5}.event-pass-button--disabled.svelte-1mru7hm:hover{background-color:#FFFFFF}.event-pass-button--disabled.svelte-1mru7hm:active{transform:unset;background-color:#FFFFFF}.event-pass-button--yellow.event-pass-button--disabled.svelte-1mru7hm{background-color:#8C95FF}.event-pass-button__icon.svelte-1mru7hm{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button__text.svelte-1mru7hm{font-family:PFDinDisplayProRegular;color:inherit;font-size:inherit}");
+            append_styles(target, "svelte-1mpft5t", ".event-pass-button.svelte-1mpft5t{width:100%;height:100%;background-color:#FFFFFF;color:#131516;display:flex;align-items:center;justify-content:center;overflow:hidden;transition:0.1s ease-out;transition-property:box-shadow, background-color, transform;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button.svelte-1mpft5t:hover{background-color:rgba(255, 255, 255, 0.9)}.event-pass-button.svelte-1mpft5t:active{transform:translateY(5%);background-color:rgba(255, 255, 255, 0.6)}.event-pass-button--yellow.svelte-1mpft5t{background-color:#FFFFFF;color:#354463}.event-pass-button--yellow.svelte-1mpft5t:hover{background-color:#C0D8FF}.event-pass-button--yellow.svelte-1mpft5t:active{transform:translateY(5%);background-color:#C0D8FF}.event-pass-button--disabled.svelte-1mpft5t{color:rgba(22, 25, 29, 0.5019607843)}.event-pass-button--disabled.svelte-1mpft5t:hover{background-color:#FFFFFF}.event-pass-button--disabled.svelte-1mpft5t:active{transform:unset;background-color:#FFFFFF}.event-pass-button--yellow.event-pass-button--disabled.svelte-1mpft5t{background-color:rgba(89, 97, 186, 0.5)}.event-pass-button__icon.svelte-1mpft5t{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.event-pass-button__text.svelte-1mpft5t{font-family:PFDinDisplayProRegular;color:inherit;font-size:inherit}");
         }
 
         // (70:4) {#if !isEmpty(icon)}
@@ -286366,13 +290344,13 @@ const getRandomTableNumber = () => {
             return {
                 c() {
                     i = dom_element("i");
-                    dom_attr(i, "class", i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-1mru7hm");
+                    dom_attr(i, "class", i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-1mpft5t");
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*icon*/ 1 && i_class_value !== (i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-1mru7hm")) {
+                    if (dirty & /*icon*/ 1 && i_class_value !== (i_class_value = "event-pass-button__icon " + /*icon*/ ctx[0] + " svelte-1mpft5t")) {
                         dom_attr(i, "class", i_class_value);
                     }
                 },
@@ -286393,7 +290371,7 @@ const getRandomTableNumber = () => {
                 c() {
                     div = dom_element("div");
                     t = dom_text( /*text*/ ctx[2]);
-                    dom_attr(div, "class", "event-pass-button__text svelte-1mru7hm");
+                    dom_attr(div, "class", "event-pass-button__text svelte-1mpft5t");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -286427,7 +290405,7 @@ const getRandomTableNumber = () => {
                     if (if_block0) if_block0.c();
                     t = dom_space();
                     if (if_block1) if_block1.c();
-                    dom_attr(div, "class", div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-1mru7hm");
+                    dom_attr(div, "class", div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-1mpft5t");
                     dom_toggle_class(div, "event-pass-button--disabled", /*disabled*/ ctx[3]);
                 },
                 m(target, anchor) {
@@ -286476,7 +290454,7 @@ const getRandomTableNumber = () => {
                         if_block1 = null;
                     }
 
-                    if (dirty & /*style*/ 2 && div_class_value !== (div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-1mru7hm")) {
+                    if (dirty & /*style*/ 2 && div_class_value !== (div_class_value = "event-pass-button event-pass-button--" + /*style*/ ctx[1] + " svelte-1mpft5t")) {
                         dom_attr(div, "class", div_class_value);
                     }
 
@@ -286695,7 +290673,8 @@ const getRandomTableNumber = () => {
         /* harmony default export */
         const event_pass_components_modal_index_svelte = (modal_index_svelte_Modal);; // CONCATENATED MODULE: ./src/views/event-pass/img/az-icon.svg
         const az_icon_namespaceObject = __webpack_require__.p + "assets/05075edfd41572174b43.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/ruble.svg
-        const ruble_namespaceObject = __webpack_require__.p + "assets/645c2cc361e4a7ab29f3.svg";; // CONCATENATED MODULE: ./src/views/event-pass/constants.js
+        const ruble_namespaceObject = __webpack_require__.p + "assets/645c2cc361e4a7ab29f3.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/dollar.svg
+        const dollar_namespaceObject = __webpack_require__.p + "assets/cd2d2055981b97f2df22.svg";; // CONCATENATED MODULE: ./src/views/event-pass/constants.js
         function event_pass_constants_typeof(o) {
             "@babel/helpers - typeof";
             return event_pass_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -286732,21 +290711,24 @@ const getRandomTableNumber = () => {
 
 
 
+
         var NAVIGATION_BITS = {
             Main: 1,
             Quests: 2,
             Events: 4,
             Shop: 8,
             Guide: 16,
-            Cases: 32
+            Village: 32,
+            Rating: 64
         };
         var CoinsType = {
             AzCoin: 'az-coin',
             Ruble: 'ruble',
-            Coin: 'coin'
+            Coin: 'coin',
+            Dollar: 'dollar'
         };
-        var constants_MENU_ITEMS = [NAVIGATION_BITS.Main, NAVIGATION_BITS.Quests, NAVIGATION_BITS.Events, NAVIGATION_BITS.Shop, NAVIGATION_BITS.Cases];
-        var constants_MAP_BIT_TO_NAME = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, NAVIGATION_BITS.Main, 'Главная'), NAVIGATION_BITS.Quests, 'Задания'), NAVIGATION_BITS.Events, 'Игры'), NAVIGATION_BITS.Shop, 'Магазин'), NAVIGATION_BITS.Cases, 'Кейсы');
+        var constants_MENU_ITEMS = [NAVIGATION_BITS.Main, NAVIGATION_BITS.Quests, NAVIGATION_BITS.Events, NAVIGATION_BITS.Shop, NAVIGATION_BITS.Village];
+        var constants_MAP_BIT_TO_NAME = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, NAVIGATION_BITS.Main, 'Главная'), NAVIGATION_BITS.Quests, 'Задания'), NAVIGATION_BITS.Events, 'Игры'), NAVIGATION_BITS.Shop, 'Магазин'), NAVIGATION_BITS.Village, 'Елка');
         var Buttons = {
             Accept: 'accept',
             Help: 'help',
@@ -286760,7 +290742,7 @@ const getRandomTableNumber = () => {
         var MAP_BUTTON_TO_NAME = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, Buttons.Accept, 'Принять задание'), Buttons.Help, 'Отслеживать'), Buttons.Reward, 'Получить награду'), Buttons.Done, 'Получено'), Buttons.Join, 'Присоединиться'), Buttons.PlayersLimit, 'Достигнут лимит комнат'), Buttons.Cancel, 'Отказаться от участия'), Buttons.EventStarted, 'Мероприятие началось');
         var MAP_BUTTON_TO_ICON = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, Buttons.Accept, ''), Buttons.Help, ''), Buttons.Reward, ''), Buttons.Done, 'icon-check'), Buttons.Join, ''), Buttons.PlayersLimit, ''), Buttons.Cancel, ''), Buttons.EventStarted, '');
         var MAP_BUTTON_TO_STYLE = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, Buttons.Accept, ''), Buttons.Help, ''), Buttons.Reward, 'yellow'), Buttons.Done, ''), Buttons.Join, 'yellow'), Buttons.PlayersLimit, 'yellow'), Buttons.Cancel, ''), Buttons.EventStarted, '');
-        var MAP_COINS_TYPE_TO_ICON = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, CoinsType.AzCoin, az_icon_namespaceObject), CoinsType.Ruble, ruble_namespaceObject), CoinsType.Coin, coin_namespaceObject);; // CONCATENATED MODULE: ./src/views/event-pass/components/main/index.svelte
+        var MAP_COINS_TYPE_TO_ICON = event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty(event_pass_constants_defineProperty({}, CoinsType.AzCoin, az_icon_namespaceObject), CoinsType.Ruble, ruble_namespaceObject), CoinsType.Coin, coin_namespaceObject), CoinsType.Dollar, dollar_namespaceObject);; // CONCATENATED MODULE: ./src/views/event-pass/components/main/index.svelte
         /* src\views\event-pass\components\main\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -288238,29 +292220,75 @@ const getRandomTableNumber = () => {
         const components_prize_image_index_svelte = (index_svelte_Prize_image);; // CONCATENATED MODULE: ./src/views/event-pass/img/schedule.svg
         const schedule_namespaceObject = __webpack_require__.p + "assets/075f556b2c69fb279131.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/controller.svg
         const controller_namespaceObject = __webpack_require__.p + "assets/e95e10bd387f5102fe66.svg";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest1.png
-        const quest1_namespaceObject = __webpack_require__.p + "assets/6fedc2d38c7b268b7d70.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest2.png
-        const quest2_namespaceObject = __webpack_require__.p + "assets/ac0e0f9215e0aa1689f8.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest3.png
-        const quest3_namespaceObject = __webpack_require__.p + "assets/f4750103679f41e10c52.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest4.png
-        const quest4_namespaceObject = __webpack_require__.p + "assets/99320d52b0b1e8f431f1.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest5.png
-        const quest5_namespaceObject = __webpack_require__.p + "assets/c1a001de83e9473e0d2a.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest6.png
-        const quest6_namespaceObject = __webpack_require__.p + "assets/133c0c1440046333f7eb.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest7.png
-        const quest7_namespaceObject = __webpack_require__.p + "assets/9130fca0b3b4a1b819b1.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest8.png
-        const quest8_namespaceObject = __webpack_require__.p + "assets/1b8e051ae8892381457c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest9.png
-        const quest9_namespaceObject = __webpack_require__.p + "assets/47856193fe29133773bf.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest10.png
-        const quest10_namespaceObject = __webpack_require__.p + "assets/3c60f1d598a2aa4fa13c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest11.png
-        const quest11_namespaceObject = __webpack_require__.p + "assets/6b3629f00abdcad7be9c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest12.png
+        const quest1_namespaceObject = __webpack_require__.p + "assets/6ba85e28ef5d8d956815.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest2.png
+        const quest2_namespaceObject = __webpack_require__.p + "assets/5c4ac843c70b98684b6e.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest3.png
+        const quest3_namespaceObject = __webpack_require__.p + "assets/eec31d2dc000ebd60e5e.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest4.png
+        const quest4_namespaceObject = __webpack_require__.p + "assets/0e3367abfa6868357fe1.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest5.png
+        const quest5_namespaceObject = __webpack_require__.p + "assets/56c82ba9ec7ab9583d73.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest6.png
+        const quest6_namespaceObject = __webpack_require__.p + "assets/0eee9690aa7d4bd7beb8.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest7.png
+        const quest7_namespaceObject = __webpack_require__.p + "assets/a569e56c24c371d6e6e3.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest8.png
+        const quest8_namespaceObject = __webpack_require__.p + "assets/376ae197741c8005f499.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest9.png
+        const quest9_namespaceObject = __webpack_require__.p + "assets/acb9478ecbe57dc0737f.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest10.png
+        const quest10_namespaceObject = __webpack_require__.p + "assets/1c5ad3240517fbc131ab.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest11.png
+        const quest11_namespaceObject = __webpack_require__.p + "assets/ea3c5f1af6468fac89cd.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest12.png
         const quest12_namespaceObject = __webpack_require__.p + "assets/7ec83d7d75453bb453d3.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest13.png
         const quest13_namespaceObject = __webpack_require__.p + "assets/3969973a1cb51a47612c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest14.png
         const quest14_namespaceObject = __webpack_require__.p + "assets/07488d6a8273b9f5452c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/quests/quest15.png
         const quest15_namespaceObject = __webpack_require__.p + "assets/8f3df5ff8527006d7466.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event1.png
-        const event1_namespaceObject = __webpack_require__.p + "assets/305db456dcb6bbdcfe8c.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event2.png
-        const event2_namespaceObject = __webpack_require__.p + "assets/e401f8eb343679a8476b.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event3.png
-        const event3_namespaceObject = __webpack_require__.p + "assets/eefaa6a9836ce022e01d.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/top1.png
+        const event1_namespaceObject = __webpack_require__.p + "assets/9459d96638c988cfa659.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event2.png
+        const event2_namespaceObject = __webpack_require__.p + "assets/7d9bb9f9a6427e7d386b.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/events/event3.png
+        const event3_namespaceObject = __webpack_require__.p + "assets/b9477852a0f37c6e17c7.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/top1.png
         const top1_namespaceObject = __webpack_require__.p + "assets/0c92baebbff516ff3104.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/top2.png
         const top2_namespaceObject = __webpack_require__.p + "assets/a6b91c0a2a1b2e00968b.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/box1.png
         const box1_namespaceObject = __webpack_require__.p + "assets/f2ff02fc9f91c132bec6.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/shop/rewards/1234.png
         const _1234_namespaceObject = __webpack_require__.p + "assets/f0bd33d8f0afde50b609.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/pass/1234.png
-        const pass_1234_namespaceObject = __webpack_require__.p + "assets/f0bd33d8f0afde50b609.webp";; // CONCATENATED MODULE: ./src/views/event-pass/images.js
+        const pass_1234_namespaceObject = __webpack_require__.p + "assets/f0bd33d8f0afde50b609.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village1.png
+        const village1_namespaceObject = __webpack_require__.p + "assets/5cbcc8bfa2242dcf8aaf.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village2.png
+        const village2_namespaceObject = __webpack_require__.p + "assets/41fad2a2615bbbb494cd.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village3.png
+        const village3_namespaceObject = __webpack_require__.p + "assets/b2f084283009a7d2d9e2.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village4.png
+        const village4_namespaceObject = __webpack_require__.p + "assets/e990b677adb1223d1c03.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village5.png
+        const village5_namespaceObject = __webpack_require__.p + "assets/3938dc89b6a05a06de16.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village6.png
+        const village6_namespaceObject = __webpack_require__.p + "assets/a7630e3730990c35cd57.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village7.png
+        const village7_namespaceObject = __webpack_require__.p + "assets/c1bc9bd5c295e1ab4cb6.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village8.png
+        const village8_namespaceObject = __webpack_require__.p + "assets/fac704b2392a62ebbb54.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village9.png
+        const village9_namespaceObject = __webpack_require__.p + "assets/38b7c5ae82e8813984f2.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village10.png
+        const village10_namespaceObject = __webpack_require__.p + "assets/2171844bf5e267737d18.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village11.png
+        const village11_namespaceObject = __webpack_require__.p + "assets/4fcebeb511f4d7702951.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/village12.png
+        const village12_namespaceObject = __webpack_require__.p + "assets/4b232da1e53baa57caba.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component1.png
+        const component1_namespaceObject = __webpack_require__.p + "assets/b455ed75392d7badace4.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component2.png
+        const component2_namespaceObject = __webpack_require__.p + "assets/0fcb307e1440cf984500.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component3.png
+        const component3_namespaceObject = __webpack_require__.p + "assets/99f25fdd1cc81f07cc3e.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component4.png
+        const component4_namespaceObject = __webpack_require__.p + "assets/fd5a62c9796fb73c910f.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component5.png
+        const component5_namespaceObject = __webpack_require__.p + "assets/6d5647e9585b87d3e2aa.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component6.png
+        const component6_namespaceObject = __webpack_require__.p + "assets/4f7f8a2990e76b88a3e9.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component7.png
+        const component7_namespaceObject = __webpack_require__.p + "assets/df2402c72c378e5ba704.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component8.png
+        const component8_namespaceObject = __webpack_require__.p + "assets/a4bca520ae3c41d42c35.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component9.png
+        const component9_namespaceObject = __webpack_require__.p + "assets/e0d450268696eb3a9801.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component10.png
+        const component10_namespaceObject = __webpack_require__.p + "assets/e1905ff83881ca698ac3.webp";; // CONCATENATED MODULE: ./src/views/event-pass/img/village/upgrade/component11.png
+        const component11_namespaceObject = __webpack_require__.p + "assets/40b53f192628bc062f09.webp";; // CONCATENATED MODULE: ./src/views/event-pass/images.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -288314,6 +292342,34 @@ const getRandomTableNumber = () => {
             top2: top2_namespaceObject,
             box1: box1_namespaceObject,
             1234: _1234_namespaceObject
+        };
+        var villageImages = {
+            1: village1_namespaceObject,
+            2: village2_namespaceObject,
+            3: village3_namespaceObject,
+            4: village4_namespaceObject,
+            5: village5_namespaceObject,
+            6: village6_namespaceObject,
+            7: village7_namespaceObject,
+            8: village8_namespaceObject,
+            9: village9_namespaceObject,
+            10: village10_namespaceObject,
+            11: village11_namespaceObject,
+            12: village12_namespaceObject
+        };
+        var ComponentImages = {
+            1: component1_namespaceObject,
+            2: component2_namespaceObject,
+            3: component3_namespaceObject,
+            4: component4_namespaceObject,
+            5: component5_namespaceObject,
+            6: component6_namespaceObject,
+            7: component7_namespaceObject,
+            8: component8_namespaceObject,
+            9: component9_namespaceObject,
+            10: component10_namespaceObject,
+            11: component11_namespaceObject,
+            12: component11_namespaceObject
         };; // CONCATENATED MODULE: ./src/views/event-pass/components/quests/index.svelte
         /* src\views\event-pass\components\quests\index.svelte generated by Svelte v4.2.8 */
 
@@ -288349,7 +292405,7 @@ const getRandomTableNumber = () => {
         }
 
         // (89:49) 
-        function components_quests_index_svelte_create_if_block_5(ctx) {
+        function components_quests_index_svelte_create_if_block_7(ctx) {
             let div1;
             let i;
             let t0;
@@ -288387,7 +292443,7 @@ const getRandomTableNumber = () => {
         }
 
         // (82:12) {#if quest.available_timer > 0}
-        function components_quests_index_svelte_create_if_block_4(ctx) {
+        function components_quests_index_svelte_create_if_block_6(ctx) {
             let div1;
             let i;
             let t0;
@@ -288424,8 +292480,29 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (101:16) {:else}
-        function components_quests_index_svelte_create_else_block_1(ctx) {
+        // (106:51) 
+        function components_quests_index_svelte_create_if_block_5(ctx) {
+            let div1;
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div1.innerHTML = `<img src="${controller_namespaceObject}" alt="story" class="event-pass-quests__quest-daily-icon"/> <div class="event-pass-quests__quest-daily-text">Новогодний</div>`;
+                    dom_attr(div1, "class", "event-pass-quests__quest-daily event-pass-quests__quest-daily--purple");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+                }
+            };
+        }
+
+        // (101:49) 
+        function components_quests_index_svelte_create_if_block_4(ctx) {
             let div1;
 
             return {
@@ -288466,7 +292543,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (109:16) {#if isEmpty(quest.error_text)}
+        // (114:16) {#if isEmpty(quest.error_text)}
         function components_quests_index_svelte_create_if_block_1(ctx) {
             let div7;
             let div4;
@@ -288577,7 +292654,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (124:32) {:else}
+        // (129:32) {:else}
         function components_quests_index_svelte_create_else_block(ctx) {
             let i;
             let t0;
@@ -288608,7 +292685,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (122:32) {#if quest.progress.current < quest.progress.max}
+        // (127:32) {#if quest.progress.current < quest.progress.max}
         function components_quests_index_svelte_create_if_block_2(ctx) {
             let t_value = `${Math.floor(countPercents(/*quest*/ ctx[10].progress.current, /*quest*/ ctx[10].progress.max))}%` + "";
             let t;
@@ -288631,7 +292708,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (143:24) {#each quest.items as reward}
+        // (148:24) {#each quest.items as reward}
         function components_quests_index_svelte_create_each_block_1(ctx) {
             let div;
             let prizeimage;
@@ -288685,7 +292762,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (153:20) {#if isEmpty(quest.error_text)}
+        // (158:20) {#if isEmpty(quest.error_text)}
         function components_quests_index_svelte_create_if_block(ctx) {
             let div;
             let button;
@@ -288771,9 +292848,9 @@ const getRandomTableNumber = () => {
 
             function select_block_type(ctx, dirty) {
                 if (dirty & /*localQuests*/ 1) show_if_2 = null;
-                if ( /*quest*/ ctx[10].available_timer > 0) return components_quests_index_svelte_create_if_block_4;
+                if ( /*quest*/ ctx[10].available_timer > 0) return components_quests_index_svelte_create_if_block_6;
                 if (show_if_2 == null) show_if_2 = !!!(0, lodash.isEmpty)( /*quest*/ ctx[10].error_text);
-                if (show_if_2) return components_quests_index_svelte_create_if_block_5;
+                if (show_if_2) return components_quests_index_svelte_create_if_block_7;
             }
 
             let current_block_type = select_block_type(ctx, -1);
@@ -288781,11 +292858,12 @@ const getRandomTableNumber = () => {
 
             function select_block_type_1(ctx, dirty) {
                 if ( /*quest*/ ctx[10].type === 'everyday') return components_quests_index_svelte_create_if_block_3;
-                return components_quests_index_svelte_create_else_block_1;
+                if ( /*quest*/ ctx[10].type === 'story') return components_quests_index_svelte_create_if_block_4;
+                if ( /*quest*/ ctx[10].type === 'newyear') return components_quests_index_svelte_create_if_block_5;
             }
 
             let current_block_type_1 = select_block_type_1(ctx, -1);
-            let if_block1 = current_block_type_1(ctx);
+            let if_block1 = current_block_type_1 && current_block_type_1(ctx);
             let if_block2 = show_if_1 && components_quests_index_svelte_create_if_block_1(ctx);
             let each_value_1 = each_ensure_array_like( /*quest*/ ctx[10].items);
             let each_blocks = [];
@@ -288806,7 +292884,7 @@ const getRandomTableNumber = () => {
                     if (if_block0) if_block0.c();
                     t0 = dom_space();
                     div4 = dom_element("div");
-                    if_block1.c();
+                    if (if_block1) if_block1.c();
                     t1 = dom_space();
                     div0 = dom_element("div");
                     t2 = dom_text(t2_value);
@@ -288839,7 +292917,7 @@ const getRandomTableNumber = () => {
                     if (if_block0) if_block0.m(div5, null);
                     dom_append(div5, t0);
                     dom_append(div5, div4);
-                    if_block1.m(div4, null);
+                    if (if_block1) if_block1.m(div4, null);
                     dom_append(div4, t1);
                     dom_append(div4, div0);
                     dom_append(div0, t2);
@@ -288877,8 +292955,8 @@ const getRandomTableNumber = () => {
                     }
 
                     if (current_block_type_1 !== (current_block_type_1 = select_block_type_1(ctx, dirty))) {
-                        if_block1.d(1);
-                        if_block1 = current_block_type_1(ctx);
+                        if (if_block1) if_block1.d(1);
+                        if_block1 = current_block_type_1 && current_block_type_1(ctx);
 
                         if (if_block1) {
                             if_block1.c();
@@ -288988,7 +293066,10 @@ const getRandomTableNumber = () => {
                         if_block0.d();
                     }
 
-                    if_block1.d();
+                    if (if_block1) {
+                        if_block1.d();
+                    }
+
                     if (if_block2) if_block2.d();
                     destroy_each(each_blocks, detaching);
                     if (if_block3) if_block3.d();
@@ -289935,7 +294016,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (59:8) {:else}
+        // (61:8) {:else}
         function shop_index_svelte_create_else_block(ctx) {
             let div5;
             let img;
@@ -290114,6 +294195,7 @@ const getRandomTableNumber = () => {
 
         // (26:16) {#each $shop as item, index}
         function components_shop_index_svelte_create_each_block(ctx) {
+            let div4;
             let div3;
             let p0;
             let t0_value = /*item*/ ctx[6].name + "";
@@ -290142,6 +294224,7 @@ const getRandomTableNumber = () => {
 
             return {
                 c() {
+                    div4 = dom_element("div");
                     div3 = dom_element("div");
                     p0 = dom_element("p");
                     t0 = dom_text(t0_value);
@@ -290170,9 +294253,11 @@ const getRandomTableNumber = () => {
                     dom_attr(div1, "class", "event-pass-shop__item-button event-pass-shop__item-button--buy");
                     dom_attr(div2, "class", "event-pass-shop__item-buttons");
                     dom_attr(div3, "class", "event-pass-shop__item");
+                    dom_attr(div4, "class", "event-pass-shop__item-border");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div3, anchor);
+                    dom_insert(target, div4, anchor);
+                    dom_append(div4, div3);
                     dom_append(div3, p0);
                     dom_append(p0, t0);
                     dom_append(div3, t1);
@@ -290186,7 +294271,7 @@ const getRandomTableNumber = () => {
                     dom_append(div0, img1);
                     dom_append(div2, t5);
                     dom_append(div2, div1);
-                    dom_append(div3, t7);
+                    dom_append(div4, t7);
 
                     if (!mounted) {
                         dispose = dom_listen(div1, "click", click_handler);
@@ -290209,7 +294294,7 @@ const getRandomTableNumber = () => {
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div3);
+                        dom_detach(div4);
                     }
 
                     mounted = false;
@@ -290411,7 +294496,665 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const guide_index_svelte = (Guide);; // CONCATENATED MODULE: ./src/views/event-pass/routs.js
+        const guide_index_svelte = (Guide);; // CONCATENATED MODULE: ./src/views/event-pass/img/rating-button.svg
+        const rating_button_namespaceObject = __webpack_require__.p + "assets/b7e2ffe5e69922413931.svg";; // CONCATENATED MODULE: ./src/views/event-pass/components/village/index.svelte
+        /* src\views\event-pass\components\village\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+        function village_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[7] = list[i];
+            return child_ctx;
+        }
+
+        // (64:16) {#if component.isPurchased}
+        function village_index_svelte_create_if_block_1(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.innerHTML = `<p class="event-pass-village__item-lock-title">ПРИОБРЕТЕНО</p>`;
+                    dom_attr(div, "class", "event-pass-village__item-lock");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (62:8) {#each $village.components || [] as component}
+        function village_index_svelte_create_each_block(ctx) {
+            let div4;
+            let t0;
+            let div1;
+            let div0;
+            let img0;
+            let img0_src_value;
+            let t1;
+            let div3;
+            let p0;
+            let t2_value = /*component*/ ctx[7].title + "";
+            let t2;
+            let t3;
+            let div2;
+            let p1;
+            let t4_value = formatMoney( /*component*/ ctx[7].price) + "";
+            let t4;
+            let t5;
+            let img1;
+            let img1_src_value;
+            let t6;
+            let mounted;
+            let dispose;
+            let if_block = /*component*/ ctx[7].isPurchased && village_index_svelte_create_if_block_1(ctx);
+
+            function click_handler() {
+                return /*click_handler*/ ctx[4]( /*component*/ ctx[7]);
+            }
+
+            return {
+                c() {
+                    div4 = dom_element("div");
+                    if (if_block) if_block.c();
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    img0 = dom_element("img");
+                    t1 = dom_space();
+                    div3 = dom_element("div");
+                    p0 = dom_element("p");
+                    t2 = dom_text(t2_value);
+                    t3 = dom_space();
+                    div2 = dom_element("div");
+                    p1 = dom_element("p");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    img1 = dom_element("img");
+                    t6 = dom_space();
+                    dom_attr(img0, "class", "event-pass-village__item-img");
+                    if (!utils_src_url_equal(img0.src, img0_src_value = ComponentImages[ /*component*/ ctx[7].toyType])) dom_attr(img0, "src", img0_src_value);
+                    dom_attr(img0, "alt", "update-img");
+                    dom_attr(div0, "class", "event-pass-village__item-img-wrapper");
+                    dom_attr(div1, "class", "event-pass-village__item-img-border");
+                    dom_attr(p0, "class", "event-pass-village__item-info-title");
+                    dom_attr(p1, "class", "event-pass-village__item-info-price-value");
+                    dom_attr(img1, "class", "event-pass-village__item-info-price-img");
+                    if (!utils_src_url_equal(img1.src, img1_src_value = MAP_COINS_TYPE_TO_ICON[ /*component*/ ctx[7].currency])) dom_attr(img1, "src", img1_src_value);
+                    dom_attr(img1, "alt", "coin");
+                    dom_attr(div2, "class", "event-pass-village__item-info-price");
+                    dom_attr(div3, "class", "event-pass-village__item-info");
+                    dom_attr(div4, "class", "event-pass-village__item");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div4, anchor);
+                    if (if_block) if_block.m(div4, null);
+                    dom_append(div4, t0);
+                    dom_append(div4, div1);
+                    dom_append(div1, div0);
+                    dom_append(div0, img0);
+                    dom_append(div4, t1);
+                    dom_append(div4, div3);
+                    dom_append(div3, p0);
+                    dom_append(p0, t2);
+                    dom_append(div3, t3);
+                    dom_append(div3, div2);
+                    dom_append(div2, p1);
+                    dom_append(p1, t4);
+                    dom_append(div2, t5);
+                    dom_append(div2, img1);
+                    dom_append(div4, t6);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div2, "click", click_handler);
+                        mounted = true;
+                    }
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+
+                    if ( /*component*/ ctx[7].isPurchased) {
+                        if (if_block) {
+
+                        } else {
+                            if_block = village_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            if_block.m(div4, t0);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (dirty & /*$village*/ 1 && !utils_src_url_equal(img0.src, img0_src_value = ComponentImages[ /*component*/ ctx[7].toyType])) {
+                        dom_attr(img0, "src", img0_src_value);
+                    }
+
+                    if (dirty & /*$village*/ 1 && t2_value !== (t2_value = /*component*/ ctx[7].title + "")) dom_set_data(t2, t2_value);
+                    if (dirty & /*$village*/ 1 && t4_value !== (t4_value = formatMoney( /*component*/ ctx[7].price) + "")) dom_set_data(t4, t4_value);
+
+                    if (dirty & /*$village*/ 1 && !utils_src_url_equal(img1.src, img1_src_value = MAP_COINS_TYPE_TO_ICON[ /*component*/ ctx[7].currency])) {
+                        dom_attr(img1, "src", img1_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div4);
+                    }
+
+                    if (if_block) if_block.d();
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        // (108:4) {#if ($village.components || []).every(c => c.isPurchased)}
+        function village_index_svelte_create_if_block(ctx) {
+            let div;
+            let mounted;
+            let dispose;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.innerHTML = `<p class="event-pass-village__lvl-up-title">открыть новые уровни</p>`;
+                    dom_attr(div, "class", "event-pass-village__lvl-up");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div, "click", /*improveVillage*/ ctx[2]);
+                        mounted = true;
+                    }
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        function village_index_svelte_create_fragment(ctx) {
+            let div6;
+            let div2;
+            let p0;
+            let t0_value = /*$village*/ ctx[0].level + "";
+            let t0;
+            let t1;
+            let t2;
+            let div1;
+            let div0;
+            let div0_style_value;
+            let t3;
+            let p1;
+            let t4_value = /*$village*/ ctx[0].exp + "";
+            let t4;
+            let t5;
+            let p2;
+            let t6_value = /*$village*/ ctx[0].maxExp + "";
+            let t6;
+            let t7;
+            let div3;
+            let t10;
+            let div4;
+            let t11;
+            let div5;
+            let img1;
+            let img1_src_value;
+            let t12;
+            let show_if = ( /*$village*/ ctx[0].components || []).every(func);
+            let mounted;
+            let dispose;
+            let each_value = each_ensure_array_like( /*$village*/ ctx[0].components || []);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = village_index_svelte_create_each_block(village_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            let if_block = show_if && village_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div6 = dom_element("div");
+                    div2 = dom_element("div");
+                    p0 = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_text(" Уровень");
+                    t2 = dom_space();
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    t3 = dom_space();
+                    p1 = dom_element("p");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    p2 = dom_element("p");
+                    t6 = dom_text(t6_value);
+                    t7 = dom_space();
+                    div3 = dom_element("div");
+                    div3.innerHTML = `<img class="event-pass-village__button-img" src="${rating_button_namespaceObject}" alt="button-img"/> <p class="event-pass-village__button-title">РЕЙТИНГ</p>`;
+                    t10 = dom_space();
+                    div4 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    t11 = dom_space();
+                    div5 = dom_element("div");
+                    img1 = dom_element("img");
+                    t12 = dom_space();
+                    if (if_block) if_block.c();
+                    dom_attr(p0, "class", "event-pass-village__lvl-value");
+                    dom_attr(div0, "class", "event-pass-village__lvl-progress-current");
+                    dom_attr(div0, "style", div0_style_value = `width: ${/*$village*/ ctx[0].exp / (/*$village*/ ctx[0].maxExp / 100)}%;`);
+                    dom_attr(p1, "class", "event-pass-village__lvl-progress-value");
+                    dom_attr(p2, "class", "event-pass-village__lvl-progress-value");
+                    dom_attr(div1, "class", "event-pass-village__lvl-progress");
+                    dom_attr(div2, "class", "event-pass-village__lvl");
+                    dom_attr(div3, "class", "event-pass-village__button");
+                    dom_attr(div4, "class", "event-pass-village__list");
+                    dom_attr(img1, "class", "event-pass-village__village-img");
+                    if (!utils_src_url_equal(img1.src, img1_src_value = villageImages[ /*$village*/ ctx[0].treeType])) dom_attr(img1, "src", img1_src_value);
+                    dom_attr(img1, "alt", "bg");
+                    dom_attr(div5, "class", "event-pass-village__village");
+                    dom_attr(div6, "class", "event-pass-village");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div6, anchor);
+                    dom_append(div6, div2);
+                    dom_append(div2, p0);
+                    dom_append(p0, t0);
+                    dom_append(p0, t1);
+                    dom_append(div2, t2);
+                    dom_append(div2, div1);
+                    dom_append(div1, div0);
+                    dom_append(div1, t3);
+                    dom_append(div1, p1);
+                    dom_append(p1, t4);
+                    dom_append(div1, t5);
+                    dom_append(div1, p2);
+                    dom_append(p2, t6);
+                    dom_append(div6, t7);
+                    dom_append(div6, div3);
+                    dom_append(div6, t10);
+                    dom_append(div6, div4);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div4, null);
+                        }
+                    }
+
+                    dom_append(div6, t11);
+                    dom_append(div6, div5);
+                    dom_append(div5, img1);
+                    dom_append(div6, t12);
+                    if (if_block) if_block.m(div6, null);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div3, "click", /*openGuide*/ ctx[3]);
+                        mounted = true;
+                    }
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*$village*/ 1 && t0_value !== (t0_value = /*$village*/ ctx[0].level + "")) dom_set_data(t0, t0_value);
+
+                    if (dirty & /*$village*/ 1 && div0_style_value !== (div0_style_value = `width: ${/*$village*/ ctx[0].exp / (/*$village*/ ctx[0].maxExp / 100)}%;`)) {
+                        dom_attr(div0, "style", div0_style_value);
+                    }
+
+                    if (dirty & /*$village*/ 1 && t4_value !== (t4_value = /*$village*/ ctx[0].exp + "")) dom_set_data(t4, t4_value);
+                    if (dirty & /*$village*/ 1 && t6_value !== (t6_value = /*$village*/ ctx[0].maxExp + "")) dom_set_data(t6, t6_value);
+
+                    if (dirty & /*buyUpgradeComponent, $village*/ 3) {
+                        each_value = each_ensure_array_like( /*$village*/ ctx[0].components || []);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = village_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = village_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div4, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+
+                    if (dirty & /*$village*/ 1 && !utils_src_url_equal(img1.src, img1_src_value = villageImages[ /*$village*/ ctx[0].treeType])) {
+                        dom_attr(img1, "src", img1_src_value);
+                    }
+
+                    if (dirty & /*$village*/ 1) show_if = ( /*$village*/ ctx[0].components || []).every(func);
+
+                    if (show_if) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = village_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            if_block.m(div6, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div6);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                    if (if_block) if_block.d();
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        const func = c => c.isPurchased;
+
+        function village_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $selectedPageBit;
+            let $village;
+            utils_component_subscribe($$self, selectedPageBit, $$value => $$invalidate(5, $selectedPageBit = $$value));
+            utils_component_subscribe($$self, village, $$value => $$invalidate(0, $village = $$value));
+            const audio = new Audio(happ_sound_click_namespaceObject);
+
+            const buyUpgradeComponent = (id, currency) => {
+                cef_sendClientMessage('eventPass.village.upgrade', id, currency);
+            };
+
+            const improveVillage = () => {
+                cef_sendClientMessage('eventPass.village.improveVillage');
+            };
+
+            const openGuide = () => {
+                audio.play();
+                utils_set_store_value(selectedPageBit, $selectedPageBit = NAVIGATION_BITS.Rating, $selectedPageBit);
+                cef_sendClientMessage('eventPass.village.rating');
+            };
+
+            const click_handler = component => buyUpgradeComponent(component.id, component.currency);
+            return [$village, buyUpgradeComponent, improveVillage, openGuide, click_handler];
+        }
+
+        class Village extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, village_index_svelte_instance, village_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const village_index_svelte = (Village);; // CONCATENATED MODULE: ./src/views/event-pass/components/rating/index.svelte
+        /* src\views\event-pass\components\rating\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+        function rating_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[6] = list[i];
+            return child_ctx;
+        }
+
+        // (55:8) {#each $rating as rating}
+        function rating_index_svelte_create_each_block(ctx) {
+            let div;
+            let p0;
+            let t0_value = /*rating*/ ctx[6].name + "";
+            let t0;
+            let t1;
+            let p1;
+            let t2_value = /*rating*/ ctx[6].points + "";
+            let t2;
+            let t3;
+            let t4;
+            let p2;
+            let t5_value = /*rating*/ ctx[6].prize + "";
+            let t5;
+            let t6;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    p0 = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    p1 = dom_element("p");
+                    t2 = dom_text(t2_value);
+                    t3 = dom_text(" очков");
+                    t4 = dom_space();
+                    p2 = dom_element("p");
+                    t5 = dom_text(t5_value);
+                    t6 = dom_space();
+                    dom_attr(p0, "class", "event-pass-rating__item-title");
+                    dom_attr(p1, "class", "event-pass-rating__item-title");
+                    dom_attr(p2, "class", "event-pass-rating__item-title");
+                    dom_attr(div, "class", "event-pass-rating__item");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, p0);
+                    dom_append(p0, t0);
+                    dom_append(div, t1);
+                    dom_append(div, p1);
+                    dom_append(p1, t2);
+                    dom_append(p1, t3);
+                    dom_append(div, t4);
+                    dom_append(div, p2);
+                    dom_append(p2, t5);
+                    dom_append(div, t6);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$rating*/ 2 && t0_value !== (t0_value = /*rating*/ ctx[6].name + "")) dom_set_data(t0, t0_value);
+                    if (dirty & /*$rating*/ 2 && t2_value !== (t2_value = /*rating*/ ctx[6].points + "")) dom_set_data(t2, t2_value);
+                    if (dirty & /*$rating*/ 2 && t5_value !== (t5_value = /*rating*/ ctx[6].prize + "")) dom_set_data(t5, t5_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        function rating_index_svelte_create_fragment(ctx) {
+            let div5;
+            let div3;
+            let div1;
+            let t2;
+            let div2;
+            let p1;
+            let t4;
+            let p2;
+            let t5;
+            let t6;
+            let div4;
+            let mounted;
+            let dispose;
+            let each_value = each_ensure_array_like( /*$rating*/ ctx[1]);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = rating_index_svelte_create_each_block(rating_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            return {
+                c() {
+                    div5 = dom_element("div");
+                    div3 = dom_element("div");
+                    div1 = dom_element("div");
+                    div1.innerHTML = `<div class="event-pass-rating__top-back-icon-wrapper"><i class="event-pass-rating__top-back-icon icon-chevron-left"></i></div> <p class="event-pass-rating__top-back-title">РЕЙТИНГ</p>`;
+                    t2 = dom_space();
+                    div2 = dom_element("div");
+                    p1 = dom_element("p");
+                    p1.textContent = "До подведения итогов:";
+                    t4 = dom_space();
+                    p2 = dom_element("p");
+                    t5 = dom_text( /*formattedTime*/ ctx[0]);
+                    t6 = dom_space();
+                    div4 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    dom_attr(div1, "class", "event-pass-rating__top-back");
+                    dom_attr(p1, "class", "event-pass-rating__top-timer-title");
+                    dom_attr(p2, "class", "event-pass-rating__top-timer-value");
+                    dom_attr(div2, "class", "event-pass-rating__top-timer");
+                    dom_attr(div3, "class", "event-pass-rating__top");
+                    dom_attr(div4, "class", "event-pass-rating__list");
+                    dom_attr(div5, "class", "event-pass-rating");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div5, anchor);
+                    dom_append(div5, div3);
+                    dom_append(div3, div1);
+                    dom_append(div3, t2);
+                    dom_append(div3, div2);
+                    dom_append(div2, p1);
+                    dom_append(div2, t4);
+                    dom_append(div2, p2);
+                    dom_append(p2, t5);
+                    dom_append(div5, t6);
+                    dom_append(div5, div4);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div4, null);
+                        }
+                    }
+
+                    if (!mounted) {
+                        dispose = dom_listen(div1, "click", /*returnToShip*/ ctx[2]);
+                        mounted = true;
+                    }
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*formattedTime*/ 1) dom_set_data(t5, /*formattedTime*/ ctx[0]);
+
+                    if (dirty & /*$rating*/ 2) {
+                        each_value = each_ensure_array_like( /*$rating*/ ctx[1]);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = rating_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = rating_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div4, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div5);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        function rating_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $ratingTimeLeft;
+            let $selectedPageBit;
+            let $rating;
+            utils_component_subscribe($$self, ratingTimeLeft, $$value => $$invalidate(3, $ratingTimeLeft = $$value));
+            utils_component_subscribe($$self, selectedPageBit, $$value => $$invalidate(4, $selectedPageBit = $$value));
+            utils_component_subscribe($$self, rating, $$value => $$invalidate(1, $rating = $$value));
+            let formattedTime = 0;
+            const audio = new Audio(happ_sound_click_namespaceObject);
+
+            onDestroy(() => {
+                clearRating();
+            });
+
+            const returnToShip = () => {
+                audio.play();
+                clearRating();
+                utils_set_store_value(selectedPageBit, $selectedPageBit = NAVIGATION_BITS.Village, $selectedPageBit);
+            };
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*$ratingTimeLeft*/ 8) {
+                    $: {
+                        const days = Math.floor($ratingTimeLeft / 86400);
+                        const hours = Math.floor($ratingTimeLeft % 86400 / 3600);
+                        const minutes = Math.floor($ratingTimeLeft % 3600 / 60);
+                        $$invalidate(0, formattedTime = `${days} дня ${hours} часов ${minutes} минут`);
+                    }
+                }
+            };
+
+            return [formattedTime, $rating, returnToShip, $ratingTimeLeft];
+        }
+
+        class Rating extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, rating_index_svelte_instance, rating_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const rating_index_svelte = (Rating);; // CONCATENATED MODULE: ./src/views/event-pass/routs.js
         function event_pass_routs_typeof(o) {
             "@babel/helpers - typeof";
             return event_pass_routs_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -290451,7 +295194,9 @@ const getRandomTableNumber = () => {
 
 
 
-        var MAP_BIT_TO_COMPONENT = event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty({}, NAVIGATION_BITS.Main, event_pass_components_main_index_svelte), NAVIGATION_BITS.Quests, components_quests_index_svelte), NAVIGATION_BITS.Events, events_index_svelte), NAVIGATION_BITS.Shop, event_pass_components_shop_index_svelte), NAVIGATION_BITS.Guide, guide_index_svelte);; // CONCATENATED MODULE: ./src/views/event-pass/index.svelte
+
+
+        var MAP_BIT_TO_COMPONENT = event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty(event_pass_routs_defineProperty({}, NAVIGATION_BITS.Main, event_pass_components_main_index_svelte), NAVIGATION_BITS.Quests, components_quests_index_svelte), NAVIGATION_BITS.Events, events_index_svelte), NAVIGATION_BITS.Shop, event_pass_components_shop_index_svelte), NAVIGATION_BITS.Guide, guide_index_svelte), NAVIGATION_BITS.Village, village_index_svelte), NAVIGATION_BITS.Rating, rating_index_svelte);; // CONCATENATED MODULE: ./src/views/event-pass/index.svelte
         /* src\views\event-pass\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -290744,7 +295489,9 @@ const getRandomTableNumber = () => {
             Yellow: 'yellow',
             Orange: 'orange',
             Pink: 'pink',
-            White: 'white'
+            White: 'white',
+            LightBlue: 'lightBlue',
+            Purple: 'purple'
         };
         var COLORS_POOL = Object.values(base_game_constants_Colors);
         var DropStatus = {
@@ -290793,7 +295540,35 @@ const getRandomTableNumber = () => {
         const bodies_boxes_yellow_namespaceObject = __webpack_require__.p + "assets/3a7c11767a66672b9377.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/orange.svg
         const bodies_boxes_orange_namespaceObject = __webpack_require__.p + "assets/1b8f09a3086a205a7a35.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/pink.svg
         const bodies_boxes_pink_namespaceObject = __webpack_require__.p + "assets/03305f71105fbe30a2b6.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/bodies/boxes/white.svg
-        const boxes_white_namespaceObject = __webpack_require__.p + "assets/cf57899448e002b0bcc1.svg";; // CONCATENATED MODULE: ./src/views/sort-game/base-game/mocks.js
+        const boxes_white_namespaceObject = __webpack_require__.p + "assets/cf57899448e002b0bcc1.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/items/red.svg
+        const gifts_items_red_namespaceObject = __webpack_require__.p + "assets/3c5a2d908ba0e5e79817.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/items/green.svg
+        const gifts_items_green_namespaceObject = __webpack_require__.p + "assets/c6c903b467a831af9304.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/items/blue.svg
+        const gifts_items_blue_namespaceObject = __webpack_require__.p + "assets/8d4d317dfd834a19aa17.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/items/yellow.svg
+        const gifts_items_yellow_namespaceObject = __webpack_require__.p + "assets/9b93f285a518e2c1fc82.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/items/lightBlue.svg
+        const lightBlue_namespaceObject = __webpack_require__.p + "assets/c266cf013f6886d266c0.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/items/pink.svg
+        const gifts_items_pink_namespaceObject = __webpack_require__.p + "assets/8e81d169518cd5cd01bc.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/items/purple.svg
+        const purple_namespaceObject = __webpack_require__.p + "assets/28113277f1b411b1e95c.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/boxes/red.svg
+        const gifts_boxes_red_namespaceObject = __webpack_require__.p + "assets/33996b9f73842fef8a78.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/boxes/green.svg
+        const gifts_boxes_green_namespaceObject = __webpack_require__.p + "assets/5d985f3cf130f4820f6e.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/boxes/blue.svg
+        const gifts_boxes_blue_namespaceObject = __webpack_require__.p + "assets/9664733fdb5ea506a120.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/boxes/yellow.svg
+        const gifts_boxes_yellow_namespaceObject = __webpack_require__.p + "assets/b9d4ac450eaa9dede4ca.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/boxes/lightBlue.svg
+        const boxes_lightBlue_namespaceObject = __webpack_require__.p + "assets/75c2f42b66d3997f917a.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/boxes/pink.svg
+        const gifts_boxes_pink_namespaceObject = __webpack_require__.p + "assets/0d7ad357dcf4d3e5dddd.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/boxes/purple.svg
+        const boxes_purple_namespaceObject = __webpack_require__.p + "assets/f13f2c3954cf74c31051.svg";; // CONCATENATED MODULE: ./src/views/sort-game/base-game/mocks.js
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -290890,6 +295665,36 @@ const getRandomTableNumber = () => {
                     image: white_namespaceObject,
                     destinationImage: boxes_white_namespaceObject
                 }];
+            } else if (type === 'gifts') {
+                return [{
+                    id: 'red',
+                    image: gifts_items_red_namespaceObject,
+                    destinationImage: gifts_boxes_red_namespaceObject
+                }, {
+                    id: 'lightBlue',
+                    image: lightBlue_namespaceObject,
+                    destinationImage: boxes_lightBlue_namespaceObject
+                }, {
+                    id: 'yellow',
+                    image: gifts_items_yellow_namespaceObject,
+                    destinationImage: gifts_boxes_yellow_namespaceObject
+                }, {
+                    id: 'pink',
+                    image: gifts_items_pink_namespaceObject,
+                    destinationImage: gifts_boxes_pink_namespaceObject
+                }, {
+                    id: 'purple',
+                    image: purple_namespaceObject,
+                    destinationImage: boxes_purple_namespaceObject
+                }, {
+                    id: 'blue',
+                    image: gifts_items_blue_namespaceObject,
+                    destinationImage: gifts_boxes_blue_namespaceObject
+                }, {
+                    id: 'green',
+                    image: gifts_items_green_namespaceObject,
+                    destinationImage: gifts_boxes_green_namespaceObject
+                }];
             }
             return [{
                 id: 'red',
@@ -290924,7 +295729,7 @@ const getRandomTableNumber = () => {
 
 
 
-        var sounds_soundManager = createAudioStore({
+        var base_game_sounds_soundManager = createAudioStore({
             correctClick: correct_click_namespaceObject,
             wrongClick: wrong_click_namespaceObject,
             theme: theme_namespaceObject
@@ -291636,7 +296441,7 @@ const getRandomTableNumber = () => {
                 conveyorBottomImage
             } = $$props;
             let gameDetails = [];
-            let gameType = 'bodies'; // тип игры по умолчанию
+            let gameType = 'gifts'; // тип игры по умолчанию
             let generatorInterval = null;
             let moveInterval = null;
             let draggingItem = {};
@@ -291755,7 +296560,7 @@ const getRandomTableNumber = () => {
                         );
 
                         cef_sendClientMessage('sortBaseGame.correctMove');
-                        sounds_soundManager.play('correctClick');
+                        base_game_sounds_soundManager.play('correctClick');
                     } else if (dropResultStatus === DropStatus.Wrong) {
                         $$invalidate(13, items = items.map(udpateItem => {
                             if (udpateItem.id === draggingItem.id) {
@@ -291765,7 +296570,7 @@ const getRandomTableNumber = () => {
                                 };
                             }
 
-                            sounds_soundManager.play('wrongClick');
+                            base_game_sounds_soundManager.play('wrongClick');
                             return udpateItem;
                         }));
                     } else {
@@ -291801,7 +296606,7 @@ const getRandomTableNumber = () => {
             }
 
             onMount(() => {
-                sounds_soundManager.play('theme');
+                base_game_sounds_soundManager.play('theme');
                 offsetTop = itemsNode.getBoundingClientRect().y;
 
                 boxesCoords = COLORS_POOL.map(color => {
@@ -291862,7 +296667,7 @@ const getRandomTableNumber = () => {
                     clearInterval(generatorInterval);
                 }
 
-                sounds_soundManager.stop('theme');
+                base_game_sounds_soundManager.stop('theme');
             });
 
             const mousedown_handler = (item, event) => handleMouseDown(event, item);
@@ -292073,7 +296878,7 @@ const getRandomTableNumber = () => {
         const sort_game_documents_index_svelte = (index_svelte_Documents);; // CONCATENATED MODULE: ./src/views/donate-shop/img/icons/coin.svg
         const icons_coin_namespaceObject = __webpack_require__.p + "assets/a06e3ed7a139b78c7376.svg";; // CONCATENATED MODULE: ./src/views/donate-shop/img/category-icons/accessories.png
         const accessories_namespaceObject = __webpack_require__.p + "assets/e25f1a58aa118d28d9fc.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/img/category-icons/animation.png
-        const animation_namespaceObject = __webpack_require__.p + "assets/609de2acd51b6ed7222b.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/img/category-icons/vehicle.png
+        const category_icons_animation_namespaceObject = __webpack_require__.p + "assets/609de2acd51b6ed7222b.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/img/category-icons/vehicle.png
         const category_icons_vehicle_namespaceObject = __webpack_require__.p + "assets/fa0b3f8c2506b37f921b.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/img/category-icons/main.png
         const category_icons_main_namespaceObject = __webpack_require__.p + "assets/09afb030fa3d867bb4ae.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/img/category-icons/other.png
         const other_namespaceObject = __webpack_require__.p + "assets/14e5ba460db672daeef7.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/img/category-icons/promo.png
@@ -292153,7 +296958,7 @@ const getRandomTableNumber = () => {
             Other: 9
         };
         var constants_MAP_CATEGORY_TO_NAME = donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty({}, Categories.Main, 'Главная'), Categories.Promo, 'Товары на акции'), Categories.Roulettes, 'Боксы и рулетки'), Categories.Skins, 'Скины'), Categories.Accessories, 'Аксессуары'), Categories.Vehicle, 'Транспорт'), Categories.Tuning, 'Тюнинг'), Categories.Security, 'Охранники'), Categories.Animation, 'Анимации'), Categories.Other, 'Другое');
-        var MAP_CATEGORY_TO_ICON = donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty({}, Categories.Main, accessories_namespaceObject), Categories.Promo, animation_namespaceObject), Categories.Roulettes, category_icons_vehicle_namespaceObject), Categories.Skins, category_icons_main_namespaceObject), Categories.Accessories, other_namespaceObject), Categories.Vehicle, category_icons_promo_namespaceObject), Categories.Tuning, rouelette_namespaceObject), Categories.Security, security_namespaceObject), Categories.Animation, skins_namespaceObject), Categories.Other, tuning_namespaceObject);
+        var MAP_CATEGORY_TO_ICON = donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty(donate_shop_constants_defineProperty({}, Categories.Main, accessories_namespaceObject), Categories.Promo, category_icons_animation_namespaceObject), Categories.Roulettes, category_icons_vehicle_namespaceObject), Categories.Skins, category_icons_main_namespaceObject), Categories.Accessories, other_namespaceObject), Categories.Vehicle, category_icons_promo_namespaceObject), Categories.Tuning, rouelette_namespaceObject), Categories.Security, security_namespaceObject), Categories.Animation, skins_namespaceObject), Categories.Other, tuning_namespaceObject);
         var MAP_ID_TO_CATEGORY_BACKGROUND = {
             0: bg_category_dark_namespaceObject,
             1: bg_category_dark_namespaceObject,
@@ -298072,7 +302877,7 @@ const getRandomTableNumber = () => {
         }, function(_, i) {
             return __webpack_require__(45002)("./".concat(i + 1, ".png"));
         });; // CONCATENATED MODULE: ./src/views/family/img/icons/dollar.svg
-        const dollar_namespaceObject = __webpack_require__.p + "assets/28d5dae801c378bed2a2.svg";; // CONCATENATED MODULE: ./src/views/family/img/flag-mock.png
+        const icons_dollar_namespaceObject = __webpack_require__.p + "assets/28d5dae801c378bed2a2.svg";; // CONCATENATED MODULE: ./src/views/family/img/flag-mock.png
         const flag_mock_namespaceObject = __webpack_require__.p + "assets/47e5477b698e39846376.webp";; // CONCATENATED MODULE: ./src/views/family/img/flag-icon.png
         const flag_icon_namespaceObject = __webpack_require__.p + "assets/1c6ff363e1016b5b3935.webp";; // CONCATENATED MODULE: ./src/views/family/img/icons/box.svg
         const icons_box_namespaceObject = __webpack_require__.p + "assets/ad5a1fa1fcf0fd4072a0.svg";; // CONCATENATED MODULE: ./src/views/family/mock.js
@@ -358934,7 +363739,7 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const crystals_index_svelte = (Crystals);; // CONCATENATED MODULE: ./src/views/choose-selector/img/dollar.svg
-        const img_dollar_namespaceObject = __webpack_require__.p + "assets/198696d1bbea26d19156.svg";; // CONCATENATED MODULE: ./src/views/choose-selector/img/vcdol.svg
+        const choose_selector_img_dollar_namespaceObject = __webpack_require__.p + "assets/198696d1bbea26d19156.svg";; // CONCATENATED MODULE: ./src/views/choose-selector/img/vcdol.svg
         const choose_selector_img_vcdol_namespaceObject = __webpack_require__.p + "assets/f88e0e6dfdec522c3fbc.svg";; // CONCATENATED MODULE: ./src/views/choose-selector/img/grad.png
         const grad_namespaceObject = __webpack_require__.p + "assets/7e23d92726b3a72efe44.webp";; // CONCATENATED MODULE: ./src/views/choose-selector/img/sideGradient.png
         const sideGradient_namespaceObject = __webpack_require__.p + "assets/c12e423df367286ecb47.webp";; // CONCATENATED MODULE: ./src/views/choose-selector/index.svelte
@@ -359306,7 +364111,7 @@ const getRandomTableNumber = () => {
                     dom_attr(img, "class", "choose-selector__selector-price-img");
 
                     if (!utils_src_url_equal(img.src, img_src_value = /*currentItem*/ ctx[0].currencyType === 0 ?
-                            img_dollar_namespaceObject :
+                            choose_selector_img_dollar_namespaceObject :
                             choose_selector_img_vcdol_namespaceObject)) dom_attr(img, "src", img_src_value);
 
                     dom_attr(img, "alt", "dollar");
@@ -359316,7 +364121,7 @@ const getRandomTableNumber = () => {
                 },
                 p(ctx, dirty) {
                     if (dirty & /*currentItem*/ 1 && !utils_src_url_equal(img.src, img_src_value = /*currentItem*/ ctx[0].currencyType === 0 ?
-                            img_dollar_namespaceObject :
+                            choose_selector_img_dollar_namespaceObject :
                             choose_selector_img_vcdol_namespaceObject)) {
                         dom_attr(img, "src", img_src_value);
                     }
@@ -362197,7 +367002,9 @@ const getRandomTableNumber = () => {
         const pirate_namespaceObject = __webpack_require__.p + "assets/ff86ec413ea2765fd8c6.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/dead_day.webm
         const dead_day_namespaceObject = __webpack_require__.p + "assets/04824454039c6dd9d997.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/fear_flame.webm
         const fear_flame_namespaceObject = __webpack_require__.p + "assets/91be39f0371a0138ee59.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/glen_case.webm
-        const glen_case_namespaceObject = __webpack_require__.p + "assets/5c5d12c18732e7078d43.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
+        const glen_case_namespaceObject = __webpack_require__.p + "assets/5c5d12c18732e7078d43.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/code26.webm
+        const code26_namespaceObject = __webpack_require__.p + "assets/ce6e5d8986b679dc487c.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
+
 
 
 
@@ -362219,7 +367026,8 @@ const getRandomTableNumber = () => {
             pirate: pirate_namespaceObject,
             dead_day: dead_day_namespaceObject,
             fear_flame: fear_flame_namespaceObject,
-            glen: glen_case_namespaceObject
+            glen: glen_case_namespaceObject,
+            code26: code26_namespaceObject
         };
         var RarityWeight = {
             common: 0,
@@ -377774,7 +382582,5657 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const find_treasures_index_svelte = (Find_treasures);; // CONCATENATED MODULE: ./src/App.svelte
+        const find_treasures_index_svelte = (Find_treasures);; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/store.js
+
+        var playerRatingInformation = store_writable({});
+        var serverInformation = store_writable({});
+        var store_rating = store_writable([]);
+        var arizona_hud_chickengrad_store_playerSatiety = store_writable(0);
+        var store_playerPower = store_writable(0);
+        var store_playerWanteds = store_writable(0);
+        var playersEventOnline = store_writable(0);
+        var playerChickensKilled = store_writable(0);
+        var playerCoins = store_writable(0);
+        var playerPoints = store_writable(0);
+        var playerChickenSize = store_writable('');
+        var timeLeft = store_writable(0);
+        var isSafeZone = store_writable(0);; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/microphone-widget/constants.js
+        var PlayerTalkingStatus = {
+            Normal: 0,
+            Talking: 1,
+            Muted: 2
+        };; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/microphone-widget/components/microphone-icon/constants.js
+        function microphone_icon_constants_typeof(o) {
+            "@babel/helpers - typeof";
+            return microphone_icon_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, microphone_icon_constants_typeof(o);
+        }
+
+        function microphone_icon_constants_defineProperty(e, r, t) {
+            return (r = microphone_icon_constants_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function microphone_icon_constants_toPropertyKey(t) {
+            var i = microphone_icon_constants_toPrimitive(t, "string");
+            return "symbol" == microphone_icon_constants_typeof(i) ? i : i + "";
+        }
+
+        function microphone_icon_constants_toPrimitive(t, r) {
+            if ("object" != microphone_icon_constants_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != microphone_icon_constants_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+        var MAP_MICROPHONE_STATUS_TO_CONFIG = microphone_icon_constants_defineProperty(microphone_icon_constants_defineProperty(microphone_icon_constants_defineProperty({}, PlayerTalkingStatus.Normal, {
+            color: '#FFFFFF',
+            opacity: 0.35
+        }), PlayerTalkingStatus.Talking, {
+            color: '#76D355',
+            opacity: 1
+        }), PlayerTalkingStatus.Muted, {
+            color: '#FF3737',
+            opacity: 1
+        });; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/microphone-widget/components/microphone-icon/index.svelte
+        /* src\views\arizona-hud-chickengrad\microphone-widget\components\microphone-icon\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function microphone_icon_index_svelte_add_css(target) {
+            append_styles(target, "svelte-immpys", ".microphone-icon.svelte-immpys{height:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+        }
+
+        function microphone_icon_index_svelte_create_fragment(ctx) {
+            let svg;
+            let path0;
+            let path0_fill_value;
+            let path0_fill_opacity_value;
+            let path1;
+            let path1_fill_value;
+            let path1_fill_opacity_value;
+
+            return {
+                c() {
+                    svg = svg_element("svg");
+                    path0 = svg_element("path");
+                    path1 = svg_element("path");
+                    dom_attr(path0, "d", "M12.4998 16.0796C15.0092 16.0796 17.0436 14.0453 17.0436 11.5358V4.54378C17.0436 2.03431 15.0092 0 12.4998 0C9.99042 0 7.95605 2.03431 7.95605 4.54378V11.5359C7.95605 14.0453 9.99042 16.0796 12.4998 16.0796Z");
+                    dom_attr(path0, "fill", path0_fill_value = /*iconConfig*/ ctx[0].color);
+                    dom_attr(path0, "fill-opacity", path0_fill_opacity_value = /*iconConfig*/ ctx[0].opacity);
+                    dom_attr(path1, "d", "M18.6395 7.24224V8.83798H19.4373V11.5362C19.4373 15.3614 16.3252 18.4736 12.4999 18.4736C8.67467 18.4736 5.56254 15.3615 5.56254 11.5362V8.83798H6.36041V7.24224H3.9668V11.5362C3.9668 15.9723 7.36967 19.628 11.7021 20.0317V23.4046H6.89121V25.0003H18.1087V23.4046H13.2978V20.0317C17.6302 19.628 21.0331 15.9722 21.0331 11.5361V7.24219H18.6395V7.24224Z");
+                    dom_attr(path1, "fill", path1_fill_value = /*iconConfig*/ ctx[0].color);
+                    dom_attr(path1, "fill-opacity", path1_fill_opacity_value = /*iconConfig*/ ctx[0].opacity);
+                    dom_attr(svg, "class", "microphone-icon svelte-immpys");
+                    dom_attr(svg, "width", "25");
+                    dom_attr(svg, "height", "25");
+                    dom_attr(svg, "viewBox", "0 0 25 25");
+                    dom_attr(svg, "fill", "none");
+                    dom_attr(svg, "xmlns", "http://www.w3.org/2000/svg");
+                },
+                m(target, anchor) {
+                    dom_insert(target, svg, anchor);
+                    dom_append(svg, path0);
+                    dom_append(svg, path1);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*iconConfig*/ 1 && path0_fill_value !== (path0_fill_value = /*iconConfig*/ ctx[0].color)) {
+                        dom_attr(path0, "fill", path0_fill_value);
+                    }
+
+                    if (dirty & /*iconConfig*/ 1 && path0_fill_opacity_value !== (path0_fill_opacity_value = /*iconConfig*/ ctx[0].opacity)) {
+                        dom_attr(path0, "fill-opacity", path0_fill_opacity_value);
+                    }
+
+                    if (dirty & /*iconConfig*/ 1 && path1_fill_value !== (path1_fill_value = /*iconConfig*/ ctx[0].color)) {
+                        dom_attr(path1, "fill", path1_fill_value);
+                    }
+
+                    if (dirty & /*iconConfig*/ 1 && path1_fill_opacity_value !== (path1_fill_opacity_value = /*iconConfig*/ ctx[0].opacity)) {
+                        dom_attr(path1, "fill-opacity", path1_fill_opacity_value);
+                    }
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(svg);
+                    }
+                }
+            };
+        }
+
+        function microphone_icon_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                status = PlayerTalkingStatus.Normal
+            } = $$props;
+            let iconConfig = MAP_MICROPHONE_STATUS_TO_CONFIG[status];
+
+            $$self.$$set = $$props => {
+                if ('status' in $$props) $$invalidate(1, status = $$props.status);
+            };
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*status*/ 2) {
+                    $: $$invalidate(0, iconConfig = MAP_MICROPHONE_STATUS_TO_CONFIG[status] || {});
+                }
+            };
+
+            return [iconConfig, status];
+        }
+
+        class Microphone_icon extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, microphone_icon_index_svelte_instance, microphone_icon_index_svelte_create_fragment, utils_safe_not_equal, {
+                    status: 1
+                }, microphone_icon_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const microphone_icon_index_svelte = (Microphone_icon);; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/microphone-widget/index.svelte
+        /* src\views\arizona-hud-chickengrad\microphone-widget\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function microphone_widget_index_svelte_add_css(target) {
+            append_styles(target, "svelte-9c5hkn", ".microphone-widget.svelte-9c5hkn{display:flex;align-items:center}.microphone-widget__icon-wrapper.svelte-9c5hkn{display:flex;align-items:center;justify-content:center;background-color:rgba(32, 39, 49, 0.75);width:max(calc((40 * var(--global-scale) * var(--global-scale) - 40 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((40 * var(--global-scale) * var(--global-scale) * 0.44 - (40 * var(--global-scale) * var(--global-scale) - 40 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((40 * var(--global-scale) * var(--global-scale) - 40 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((40 * var(--global-scale) * var(--global-scale) * 0.44 - (40 * var(--global-scale) * var(--global-scale) - 40 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+        }
+
+        function microphone_widget_index_svelte_create_fragment(ctx) {
+            let div1;
+            let div0;
+            let microphoneicon;
+            let current;
+
+            microphoneicon = new microphone_icon_index_svelte({
+                props: {
+                    status: /*$playerIsTalking*/ ctx[0]
+                }
+            });
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    create_component(microphoneicon.$$.fragment);
+                    dom_attr(div0, "class", "microphone-widget__icon-wrapper svelte-9c5hkn");
+                    dom_attr(div1, "class", "microphone-widget svelte-9c5hkn");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+                    mount_component(microphoneicon, div0, null);
+                    current = true;
+                },
+                p(ctx, [dirty]) {
+                    const microphoneicon_changes = {};
+                    if (dirty & /*$playerIsTalking*/ 1) microphoneicon_changes.status = /*$playerIsTalking*/ ctx[0];
+                    microphoneicon.$set(microphoneicon_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(microphoneicon.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(microphoneicon.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    destroy_component(microphoneicon);
+                }
+            };
+        }
+
+        function microphone_widget_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $playerIsTalking;
+            utils_component_subscribe($$self, playerIsTalking, $$value => $$invalidate(0, $playerIsTalking = $$value));
+            return [$playerIsTalking];
+        }
+
+        class Microphone_widget extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, microphone_widget_index_svelte_instance, microphone_widget_index_svelte_create_fragment, utils_safe_not_equal, {}, microphone_widget_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const microphone_widget_index_svelte = (Microphone_widget);; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/0.png
+        const img_flag_0_namespaceObject = __webpack_require__.p + "assets/950934fd83fdf7bf608a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/1.png
+        const img_flag_1_namespaceObject = __webpack_require__.p + "assets/c0764c59275c6d001764.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/2.png
+        const img_flag_2_namespaceObject = __webpack_require__.p + "assets/d7c76d687d2dd1dac0cd.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/3.png
+        const img_flag_3_namespaceObject = __webpack_require__.p + "assets/afb1f19a9df85b9e847c.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/4.png
+        const img_flag_4_namespaceObject = __webpack_require__.p + "assets/cc075d75744833cc688e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/5.png
+        const img_flag_5_namespaceObject = __webpack_require__.p + "assets/d0283842ed41d22f4e65.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/6.png
+        const img_flag_6_namespaceObject = __webpack_require__.p + "assets/e3956fa7cb3ff03b8c23.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/7.png
+        const img_flag_7_namespaceObject = __webpack_require__.p + "assets/bd86be4234468993a2f3.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/8.png
+        const img_flag_8_namespaceObject = __webpack_require__.p + "assets/296e886128d9bc95ecd4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/9.png
+        const img_flag_9_namespaceObject = __webpack_require__.p + "assets/0d205d4e518d2c1fa13a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/10.png
+        const img_flag_10_namespaceObject = __webpack_require__.p + "assets/f67466d954772b894ee1.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/11.png
+        const img_flag_11_namespaceObject = __webpack_require__.p + "assets/09d7cc9a8206a54a709a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/12.png
+        const img_flag_12_namespaceObject = __webpack_require__.p + "assets/481b76a652f5a2c79caa.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/13.png
+        const img_flag_13_namespaceObject = __webpack_require__.p + "assets/1b59c33e43d0f3a85f2d.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/14.png
+        const img_flag_14_namespaceObject = __webpack_require__.p + "assets/cf3624b15f92f76d8fc7.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/15.png
+        const img_flag_15_namespaceObject = __webpack_require__.p + "assets/a450dccbf914db970601.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/16.png
+        const img_flag_16_namespaceObject = __webpack_require__.p + "assets/9132f45ce517eb6a9ebc.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/17.png
+        const img_flag_17_namespaceObject = __webpack_require__.p + "assets/ab9a420c6e956e4eac30.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/18.png
+        const img_flag_18_namespaceObject = __webpack_require__.p + "assets/397df52c4ca9a4ad5fe3.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/19.png
+        const img_flag_19_namespaceObject = __webpack_require__.p + "assets/89183ceca95b6959b6c4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/20.png
+        const img_flag_20_namespaceObject = __webpack_require__.p + "assets/894d3aef90959e47367e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/21.png
+        const img_flag_21_namespaceObject = __webpack_require__.p + "assets/217b1b81894ffc6b2805.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/22.png
+        const img_flag_22_namespaceObject = __webpack_require__.p + "assets/515b475374636efeda1d.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/1111.png
+        const arizona_hud_chickengrad_img_flag_1111_namespaceObject = __webpack_require__.p + "assets/0fbaaff3e9ac7b0fb45a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/2222.png
+        const img_flag_2222_namespaceObject = __webpack_require__.p + "assets/6c8986e126805201fd64.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/3333.png
+        const img_flag_3333_namespaceObject = __webpack_require__.p + "assets/7335e8f931f6489e5f1b.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/23.png
+        const img_flag_23_namespaceObject = __webpack_require__.p + "assets/c7f80eabdfa5abf73ebd.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/24.png
+        const img_flag_24_namespaceObject = __webpack_require__.p + "assets/294ce821057a9176f1f6.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/25.png
+        const img_flag_25_namespaceObject = __webpack_require__.p + "assets/400fff2cc9ce1c416768.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/26.png
+        const img_flag_26_namespaceObject = __webpack_require__.p + "assets/9657b11e42c5bc532f02.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/27.png
+        const img_flag_27_namespaceObject = __webpack_require__.p + "assets/73ce9c70379378a4694c.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/28.png
+        const img_flag_28_namespaceObject = __webpack_require__.p + "assets/51c0d8da0552caecdc93.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/29.png
+        const img_flag_29_namespaceObject = __webpack_require__.p + "assets/876f77f638ad5cbd379e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/30.png
+        const img_flag_30_namespaceObject = __webpack_require__.p + "assets/65d44751d49b4fdf6ac9.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/31.png
+        const img_flag_31_namespaceObject = __webpack_require__.p + "assets/0452e5b5044650c18d32.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/flag/32.png
+        const img_flag_32_namespaceObject = __webpack_require__.p + "assets/a71cb8bd3915a4a09147.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/111.png
+        const arizona_hud_chickengrad_img_logotype_111_namespaceObject = __webpack_require__.p + "assets/f8e91d59f741ca436cf5.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/222.png
+        const arizona_hud_chickengrad_img_logotype_222_namespaceObject = __webpack_require__.p + "assets/338c121f887419246d47.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/333.png
+        const arizona_hud_chickengrad_img_logotype_333_namespaceObject = __webpack_require__.p + "assets/6daa199e74d2a6b6ef86.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/444.png
+        const arizona_hud_chickengrad_img_logotype_444_namespaceObject = __webpack_require__.p + "assets/61d7f716395bfde7ad8d.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif_logo_1.gif
+        const arizona_hud_chickengrad_img_logotype_gif_logo_1_namespaceObject = __webpack_require__.p + "assets/323f4465794e86d2901c.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif_logo_2.gif
+        const arizona_hud_chickengrad_img_logotype_gif_logo_2_namespaceObject = __webpack_require__.p + "assets/f55ea4e4da78dbf1c952.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/777.png
+        const arizona_hud_chickengrad_img_logotype_777_namespaceObject = __webpack_require__.p + "assets/b52d779a74c47b07da78.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/888.png
+        const arizona_hud_chickengrad_img_logotype_888_namespaceObject = __webpack_require__.p + "assets/9d99bb5e1d05b39959c6.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/999.png
+        const arizona_hud_chickengrad_img_logotype_999_namespaceObject = __webpack_require__.p + "assets/330660111d18565abb0c.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/1000.png
+        const arizona_hud_chickengrad_img_logotype_1000_namespaceObject = __webpack_require__.p + "assets/e2042e36686a97ce273e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/1001.png
+        const arizona_hud_chickengrad_img_logotype_1001_namespaceObject = __webpack_require__.p + "assets/366d876ed068d080fe66.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/1002.png
+        const arizona_hud_chickengrad_img_logotype_1002_namespaceObject = __webpack_require__.p + "assets/fb2a8343506954f92a5f.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/1111.png
+        const arizona_hud_chickengrad_img_logotype_1111_namespaceObject = __webpack_require__.p + "assets/861439928e690ab048a4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/1112.png
+        const arizona_hud_chickengrad_img_logotype_1112_namespaceObject = __webpack_require__.p + "assets/9c22f648b4e16543c6e2.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/zombie_apocalypse.png
+        const arizona_hud_chickengrad_img_logotype_zombie_apocalypse_namespaceObject = __webpack_require__.p + "assets/6c8407e7fb0fc0db3185.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/halloween_2025.png
+        const arizona_hud_chickengrad_img_logotype_halloween_2025_namespaceObject = __webpack_require__.p + "assets/861439928e690ab048a4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_1.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_1_namespaceObject = __webpack_require__.p + "assets/0a737a74bcf743b77406.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_2.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_2_namespaceObject = __webpack_require__.p + "assets/b670b187f67ea1606de6.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_3.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_3_namespaceObject = __webpack_require__.p + "assets/d8737f41053986170e6a.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_4.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_4_namespaceObject = __webpack_require__.p + "assets/6766c15980644bea81ce.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_5.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_5_namespaceObject = __webpack_require__.p + "assets/f7f7473711904d932d95.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_6.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_6_namespaceObject = __webpack_require__.p + "assets/67fe7149e562fa4eff00.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_7.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_7_namespaceObject = __webpack_require__.p + "assets/76c20142f4b0f7a9e992.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_8.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_8_namespaceObject = __webpack_require__.p + "assets/e6396a880aeaaf4df6a7.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_9.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_9_namespaceObject = __webpack_require__.p + "assets/b0232c0ecedc97323513.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_10.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_10_namespaceObject = __webpack_require__.p + "assets/32338bd91722312cb1be.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_11.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_11_namespaceObject = __webpack_require__.p + "assets/7574f0c39c288cf53689.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_12.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_12_namespaceObject = __webpack_require__.p + "assets/dd495bd92c020f299ddf.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_13.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_13_namespaceObject = __webpack_require__.p + "assets/b340230528e3dfc831de.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_14.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_14_namespaceObject = __webpack_require__.p + "assets/85645635f05456b1fac2.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_15.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_15_namespaceObject = __webpack_require__.p + "assets/2ce1dea7970d17fee88e.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_16.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_16_namespaceObject = __webpack_require__.p + "assets/423aa522a317118ebef9.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_17.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_17_namespaceObject = __webpack_require__.p + "assets/cb5d920ff316d774a5dc.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_18.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_18_namespaceObject = __webpack_require__.p + "assets/3fb26d9b3c3c823ae786.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_19.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_19_namespaceObject = __webpack_require__.p + "assets/9bf9786ab53ddf5be431.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_20.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_20_namespaceObject = __webpack_require__.p + "assets/fa1fd0180c80cdd274f5.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_21.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_21_namespaceObject = __webpack_require__.p + "assets/b9905c5b16d1c53b89b1.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_22.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_22_namespaceObject = __webpack_require__.p + "assets/8dd4f07ee00803b1c6a3.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_23.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_23_namespaceObject = __webpack_require__.p + "assets/6db2c248ce563811e493.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_24.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_24_namespaceObject = __webpack_require__.p + "assets/082d8c2074749e59f9ca.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_25.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_25_namespaceObject = __webpack_require__.p + "assets/0ba4dd688307de6c0945.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_26.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_26_namespaceObject = __webpack_require__.p + "assets/1f776a4cf2c42ef15c16.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_27.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_27_namespaceObject = __webpack_require__.p + "assets/93697ea0f546a2ad3c22.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_28.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_28_namespaceObject = __webpack_require__.p + "assets/45898bbfe909e6141cd0.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_29.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_29_namespaceObject = __webpack_require__.p + "assets/fbdee84fe7c59886ef56.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_30.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_30_namespaceObject = __webpack_require__.p + "assets/c297a5eb14ead5f493a1.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_31.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_31_namespaceObject = __webpack_require__.p + "assets/9f0d9a55433a7b512c69.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_32.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_32_namespaceObject = __webpack_require__.p + "assets/d24e456fc3446cfde424.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_33.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_33_namespaceObject = __webpack_require__.p + "assets/85db987970ed27ca65ab.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_34.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_34_namespaceObject = __webpack_require__.p + "assets/76b2463e07fa952c4961.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_35.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_35_namespaceObject = __webpack_require__.p + "assets/a73632f2b45454f75110.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_36.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_36_namespaceObject = __webpack_require__.p + "assets/08c175a04f8c8e8ac089.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/img/logotype/gif/gif_logo_custom_37.gif
+        const arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_37_namespaceObject = __webpack_require__.p + "assets/154c64c01e66ebf91dcd.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/constants.js
+        var arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I, constants_MAP_HUDFLAG_TO_ICON;
+
+        function arizona_hud_chickengrad_constants_typeof(o) {
+            "@babel/helpers - typeof";
+            return arizona_hud_chickengrad_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, arizona_hud_chickengrad_constants_typeof(o);
+        }
+
+        function arizona_hud_chickengrad_constants_defineProperty(e, r, t) {
+            return (r = arizona_hud_chickengrad_constants_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function arizona_hud_chickengrad_constants_toPropertyKey(t) {
+            var i = arizona_hud_chickengrad_constants_toPrimitive(t, "string");
+            return "symbol" == arizona_hud_chickengrad_constants_typeof(i) ? i : i + "";
+        }
+
+        function arizona_hud_chickengrad_constants_toPrimitive(t, r) {
+            if ("object" != arizona_hud_chickengrad_constants_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != arizona_hud_chickengrad_constants_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var constants_HP_INDICATOR_COLOR = '#FF1D38';
+        var constants_ARMOR_INDICATOR_COLOR = '#FFFFFF';
+        var constants_SATIETY_INDICATOR_COLOR = '#F48A28';
+        var arizona_hud_chickengrad_constants_PED_ID = ( /* unused pure expression or super */ null && (-1));
+        var constants_FATIGUE_INDICATOR_COLOR = '#2B90D6';
+        var arizona_hud_chickengrad_constants_hudLogotype = {
+            HUD_LOGOTYPE_DEFAULT: 1,
+            HUD_LOGOTYPE_MOBILE: 2,
+            HUD_LOGOTYPE_FIVE: 3,
+            HUD_LOGOTYPE_HALLOWEEN: 4,
+            HUD_LOGOTYPE_NEWYEAR: 5,
+            HUD_LOGOTYPE_VALENTINE: 6,
+            HUD_LOGOTYPE_EASTER: 7,
+            HUD_LOGOTYPE_DAY_WORK: 8,
+            HUD_LOGOTYPE_SUMMER: 9,
+            HUD_LOGOTYPE_HAPPY: 10,
+            HUD_LOGOTYPE_DEFAULT_NEW: 11,
+            HUD_LOGOTYPE_MOBILE_NEW: 12,
+            HUD_LOGOTYPE_HALLOWEEN_NEW: 13,
+            HUD_LOGOTYPE_NEWYEAR_NEW: 14,
+            HUD_LOGOTYPE_ZOMBIE_APOCALYPSE: 15,
+            HUD_LOGOTYPE_CUSTOM_GIF_1: 16,
+            HUD_LOGOTYPE_CUSTOM_GIF_2: 17,
+            HUD_LOGOTYPE_CUSTOM_GIF_3: 18,
+            HUD_LOGOTYPE_CUSTOM_GIF_4: 19,
+            HUD_LOGOTYPE_CUSTOM_GIF_5: 20,
+            HUD_LOGOTYPE_CUSTOM_GIF_6: 21,
+            HUD_LOGOTYPE_CUSTOM_GIF_7: 22,
+            HUD_LOGOTYPE_CUSTOM_GIF_8: 23,
+            HUD_LOGOTYPE_CUSTOM_GIF_9: 24,
+            HUD_LOGOTYPE_CUSTOM_GIF_10: 25,
+            HUD_LOGOTYPE_CUSTOM_GIF_11: 26,
+            HUD_LOGOTYPE_CUSTOM_GIF_12: 27,
+            HUD_LOGOTYPE_CUSTOM_GIF_13: 28,
+            HUD_LOGOTYPE_CUSTOM_GIF_14: 29,
+            HUD_LOGOTYPE_CUSTOM_GIF_15: 30,
+            HUD_LOGOTYPE_CUSTOM_GIF_16: 31,
+            HUD_LOGOTYPE_CUSTOM_GIF_17: 32,
+            HUD_LOGOTYPE_CUSTOM_GIF_18: 33,
+            HUD_LOGOTYPE_CUSTOM_GIF_19: 34,
+            HUD_LOGOTYPE_CUSTOM_GIF_20: 35,
+            HUD_LOGOTYPE_CUSTOM_GIF_21: 36,
+            HUD_LOGOTYPE_CUSTOM_GIF_22: 37,
+            HUD_LOGOTYPE_CUSTOM_GIF_23: 38,
+            HUD_LOGOTYPE_CUSTOM_GIF_24: 39,
+            HUD_LOGOTYPE_CUSTOM_GIF_25: 40,
+            HUD_LOGOTYPE_CUSTOM_GIF_26: 41,
+            HUD_LOGOTYPE_CUSTOM_GIF_27: 42,
+            HUD_LOGOTYPE_CUSTOM_GIF_28: 43,
+            HUD_LOGOTYPE_CUSTOM_GIF_29: 44,
+            HUD_LOGOTYPE_CUSTOM_GIF_30: 45,
+            HUD_LOGOTYPE_CUSTOM_GIF_31: 46,
+            HUD_LOGOTYPE_CUSTOM_GIF_32: 47,
+            HUD_LOGOTYPE_CUSTOM_GIF_33: 48,
+            HUD_LOGOTYPE_CUSTOM_GIF_34: 49,
+            HUD_LOGOTYPE_CUSTOM_GIF_35: 50,
+            HUD_LOGOTYPE_CUSTOM_GIF_36: 51,
+            HUD_LOGOTYPE_CUSTOM_GIF_37: 52,
+            HUD_LOGOTYPE_HALLOWEEN_2025: 53
+        };
+        var arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_ICON = (arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I = {}, arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_DEFAULT, arizona_hud_chickengrad_img_logotype_111_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_MOBILE, arizona_hud_chickengrad_img_logotype_222_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_FIVE, arizona_hud_chickengrad_img_logotype_333_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_HALLOWEEN, arizona_hud_chickengrad_img_logotype_444_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_NEWYEAR, arizona_hud_chickengrad_img_logotype_gif_logo_1_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_VALENTINE, arizona_hud_chickengrad_img_logotype_gif_logo_2_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_EASTER, arizona_hud_chickengrad_img_logotype_777_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_DAY_WORK, arizona_hud_chickengrad_img_logotype_888_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_SUMMER, arizona_hud_chickengrad_img_logotype_999_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_HAPPY, arizona_hud_chickengrad_img_logotype_1000_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_DEFAULT_NEW, arizona_hud_chickengrad_img_logotype_1001_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_MOBILE_NEW, arizona_hud_chickengrad_img_logotype_1002_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_HALLOWEEN_NEW, arizona_hud_chickengrad_img_logotype_1111_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_NEWYEAR_NEW, arizona_hud_chickengrad_img_logotype_1112_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_ZOMBIE_APOCALYPSE, arizona_hud_chickengrad_img_logotype_zombie_apocalypse_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_1, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_1_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_2, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_2_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_3, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_3_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_4, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_4_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_5, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_5_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_6, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_6_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_7, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_7_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_8, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_8_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_9, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_9_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_10, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_10_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_11, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_11_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_12, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_12_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_13, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_13_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_14, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_14_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_15, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_15_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_16, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_16_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_17, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_17_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_18, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_18_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_19, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_19_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_20, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_20_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_21, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_21_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_22, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_22_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_23, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_23_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_24, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_24_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_25, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_25_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_26, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_26_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_27, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_27_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_28, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_28_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_29, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_29_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_30, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_30_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_31, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_31_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_32, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_32_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_33, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_33_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_34, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_34_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_35, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_35_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_36, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_36_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_37, arizona_hud_chickengrad_img_logotype_gif_gif_logo_custom_37_namespaceObject), arizona_hud_chickengrad_constants_hudLogotype.HUD_LOGOTYPE_HALLOWEEN_2025, arizona_hud_chickengrad_img_logotype_halloween_2025_namespaceObject));
+        var constants_hudFlag = {
+            HUD_FLAG_TEST: 0,
+            HUD_FLAG_PHOENIX: 1,
+            HUD_FLAG_TUCSON: 2,
+            HUD_FLAG_SCOTTDALE: 3,
+            HUD_FLAG_CHANDLER: 4,
+            HUD_FLAG_BRAINBURG: 5,
+            HUD_FLAG_SAINTROSE: 6,
+            HUD_FLAG_MESA: 7,
+            HUD_FLAG_REDROCK: 8,
+            HUD_FLAG_YUMA: 9,
+            HUD_FLAG_SURPRISE: 10,
+            HUD_FLAG_PRESCOTT: 11,
+            HUD_FLAG_GLENDALE: 12,
+            HUD_FLAG_KINGMAN: 13,
+            HUD_FLAG_WINSLOW: 14,
+            HUD_FLAG_PAYSON: 15,
+            HUD_FLAG_GILBERT: 16,
+            HUD_FLAG_SHOWLOW: 17,
+            HUD_FLAG_CASAGRANDE: 18,
+            HUD_FLAG_PAGE: 19,
+            HUD_FLAG_SUNCITY: 20,
+            HUD_FLAG_QUEENCREEK: 21,
+            HUD_FLAG_SEDONA: 22,
+            HUD_FLAG_MOBILE_1: 23,
+            HUD_FLAG_MOBILE_2: 24,
+            HUD_FLAG_MOBILE_3: 25,
+            HUD_FLAG_HOLIDAY: 26,
+            HUD_FLAG_WEDNESDAY: 27,
+            HUD_FLAG_YAVA: 28,
+            HUD_FLAG_FARAWAY: 29,
+            HUD_FLAG_BUMBLE: 30,
+            HUD_FLAG_CHRISTMAS: 31,
+            HUD_FLAG_MIRAGE: 32,
+            HUD_FLAG_LOVE: 33,
+            HUD_FLAG_DRAKE: 34,
+            HUD_FLAG_SPACE: 35
+        };
+        var arizona_hud_chickengrad_constants_MAP_HUDFLAG_TO_ICON = (constants_MAP_HUDFLAG_TO_ICON = {}, arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(constants_MAP_HUDFLAG_TO_ICON, constants_hudFlag.HUD_FLAG_TEST, img_flag_0_namespaceObject), constants_hudFlag.HUD_FLAG_PHOENIX, img_flag_1_namespaceObject), constants_hudFlag.HUD_FLAG_TUCSON, img_flag_2_namespaceObject), constants_hudFlag.HUD_FLAG_SCOTTDALE, img_flag_3_namespaceObject), constants_hudFlag.HUD_FLAG_CHANDLER, img_flag_4_namespaceObject), constants_hudFlag.HUD_FLAG_BRAINBURG, img_flag_5_namespaceObject), constants_hudFlag.HUD_FLAG_SAINTROSE, img_flag_6_namespaceObject), constants_hudFlag.HUD_FLAG_MESA, img_flag_7_namespaceObject), constants_hudFlag.HUD_FLAG_REDROCK, img_flag_8_namespaceObject), constants_hudFlag.HUD_FLAG_YUMA, img_flag_9_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(constants_MAP_HUDFLAG_TO_ICON, constants_hudFlag.HUD_FLAG_SURPRISE, img_flag_10_namespaceObject), constants_hudFlag.HUD_FLAG_PRESCOTT, img_flag_11_namespaceObject), constants_hudFlag.HUD_FLAG_GLENDALE, img_flag_12_namespaceObject), constants_hudFlag.HUD_FLAG_KINGMAN, img_flag_13_namespaceObject), constants_hudFlag.HUD_FLAG_WINSLOW, img_flag_14_namespaceObject), constants_hudFlag.HUD_FLAG_PAYSON, img_flag_15_namespaceObject), constants_hudFlag.HUD_FLAG_GILBERT, img_flag_16_namespaceObject), constants_hudFlag.HUD_FLAG_SHOWLOW, img_flag_17_namespaceObject), constants_hudFlag.HUD_FLAG_CASAGRANDE, img_flag_18_namespaceObject), constants_hudFlag.HUD_FLAG_PAGE, img_flag_19_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(constants_MAP_HUDFLAG_TO_ICON, constants_hudFlag.HUD_FLAG_SUNCITY, img_flag_20_namespaceObject), constants_hudFlag.HUD_FLAG_QUEENCREEK, img_flag_21_namespaceObject), constants_hudFlag.HUD_FLAG_SEDONA, img_flag_22_namespaceObject), constants_hudFlag.HUD_FLAG_MOBILE_1, arizona_hud_chickengrad_img_flag_1111_namespaceObject), constants_hudFlag.HUD_FLAG_MOBILE_2, img_flag_2222_namespaceObject), constants_hudFlag.HUD_FLAG_MOBILE_3, img_flag_3333_namespaceObject), constants_hudFlag.HUD_FLAG_HOLIDAY, img_flag_23_namespaceObject), constants_hudFlag.HUD_FLAG_WEDNESDAY, img_flag_24_namespaceObject), constants_hudFlag.HUD_FLAG_YAVA, img_flag_25_namespaceObject), constants_hudFlag.HUD_FLAG_FARAWAY, img_flag_26_namespaceObject), arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(arizona_hud_chickengrad_constants_defineProperty(constants_MAP_HUDFLAG_TO_ICON, constants_hudFlag.HUD_FLAG_BUMBLE, img_flag_27_namespaceObject), constants_hudFlag.HUD_FLAG_CHRISTMAS, img_flag_28_namespaceObject), constants_hudFlag.HUD_FLAG_MIRAGE, img_flag_29_namespaceObject), constants_hudFlag.HUD_FLAG_LOVE, img_flag_30_namespaceObject), constants_hudFlag.HUD_FLAG_DRAKE, img_flag_31_namespaceObject), constants_hudFlag.HUD_FLAG_SPACE, img_flag_32_namespaceObject));; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/player-info/img/green-zone-icon.svg
+        const player_info_img_green_zone_icon_namespaceObject = __webpack_require__.p + "assets/7f2d882da1a82db6b63f.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/player-info/img/attack-zone-icon.svg
+        const attack_zone_icon_namespaceObject = __webpack_require__.p + "assets/c1a1bc30dcbd73163182.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/player-info/img/chicken.png
+        const chicken_namespaceObject = __webpack_require__.p + "assets/c2ff16524b938ddea3a5.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/player-info/img/meat.svg
+        const meat_namespaceObject = __webpack_require__.p + "assets/ded681c7dc6e280303d1.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/player-info/img/lock-icon.svg
+        const lock_icon_namespaceObject = __webpack_require__.p + "assets/e84e2532592dc5505a39.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/player-info/index.svelte
+        /* src\views\arizona-hud-chickengrad\player-info\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function player_info_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[14] = list[i];
+            return child_ctx;
+        }
+
+        // (101:3) {#if $playerPower > 0}
+        function arizona_hud_chickengrad_player_info_index_svelte_create_if_block_4(ctx) {
+            let div;
+            let circleindicator;
+            let current;
+
+            circleindicator = new circle_indicator_index_svelte({
+                props: {
+                    icon: 'fist',
+                    percents: /*$playerPower*/ ctx[8],
+                    iconColor: constants_FATIGUE_INDICATOR_COLOR
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(circleindicator.$$.fragment);
+                    dom_attr(div, "class", "player-info-chicken__indicator");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(circleindicator, div, null);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const circleindicator_changes = {};
+                    if (dirty & /*$playerPower*/ 256) circleindicator_changes.percents = /*$playerPower*/ ctx[8];
+                    circleindicator.$set(circleindicator_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(circleindicator.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(circleindicator.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(circleindicator);
+                }
+            };
+        }
+
+        // (118:3) {:else}
+        function arizona_hud_chickengrad_player_info_index_svelte_create_else_block(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = attack_zone_icon_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "player-info-chicken__green-zone-icon");
+                    dom_attr(img, "alt", "attack-zone");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (112:3) {#if $isSafeZone}
+        function arizona_hud_chickengrad_player_info_index_svelte_create_if_block_3(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = player_info_img_green_zone_icon_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "player-info-chicken__green-zone-icon");
+                    dom_attr(img, "alt", "green-zone");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (136:2) {#if $playerWanteds > 0}
+        function arizona_hud_chickengrad_player_info_index_svelte_create_if_block_2(ctx) {
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let t3;
+            let span;
+            let t4;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = " ";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    div1.textContent = "В розыске!";
+                    t3 = dom_space();
+                    span = dom_element("span");
+                    t4 = dom_text( /*$playerWanteds*/ ctx[10]);
+                    dom_attr(div0, "class", "player-info-chicken__blue-light");
+                    dom_attr(div1, "class", "player-info-chicken__player-wanted-caption");
+                    dom_attr(span, "class", "player-info-chicken__player-watned-star");
+                    dom_attr(div2, "class", "player-info-chicken__player-wanted");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    dom_append(div2, t3);
+                    dom_append(div2, span);
+                    dom_append(span, t4);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$playerWanteds*/ 1024) dom_set_data(t4, /*$playerWanteds*/ ctx[10]);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        // (144:1) {#if !isEmpty(toolsInfo)}
+        function arizona_hud_chickengrad_player_info_index_svelte_create_if_block(ctx) {
+            let div1;
+            let p;
+            let t0_value = /*toolsInfo*/ ctx[0].title + "";
+            let t0;
+            let t1;
+            let div0;
+            let each_value = each_ensure_array_like( /*toolsInfo*/ ctx[0].tools);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = player_info_index_svelte_create_each_block(player_info_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    p = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    div0 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    dom_attr(p, "class", "player-info-chicken__tools-title");
+                    dom_attr(div0, "class", "player-info-chicken__tools-list");
+                    dom_attr(div1, "class", "player-info-chicken__tools");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, p);
+                    dom_append(p, t0);
+                    dom_append(div1, t1);
+                    dom_append(div1, div0);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div0, null);
+                        }
+                    }
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*toolsInfo*/ 1 && t0_value !== (t0_value = /*toolsInfo*/ ctx[0].title + "")) dom_set_data(t0, t0_value);
+
+                    if (dirty & /*toolsInfo*/ 1) {
+                        each_value = each_ensure_array_like( /*toolsInfo*/ ctx[0].tools);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = player_info_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = player_info_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div0, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                }
+            };
+        }
+
+        // (169:6) {#if tool.locked}
+        function arizona_hud_chickengrad_player_info_index_svelte_create_if_block_1(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    dom_attr(img, "class", "player-info-chicken__tools-item-lock");
+                    if (!utils_src_url_equal(img.src, img_src_value = lock_icon_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "lock-icon");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (150:10) {#each toolsInfo.tools as tool}
+        function player_info_index_svelte_create_each_block(ctx) {
+            let div1;
+            let div0;
+            let p0;
+            let t0_value = /*tool*/ ctx[14].key + "";
+            let t0;
+            let t1;
+            let img;
+            let img_src_value;
+            let t2;
+            let p1;
+            let t3;
+            let t4_value = /*tool*/ ctx[14].count + "";
+            let t4;
+            let t5;
+            let t6;
+            let if_block = /*tool*/ ctx[14].locked && arizona_hud_chickengrad_player_info_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    img = dom_element("img");
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text("x");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    if (if_block) if_block.c();
+                    t6 = dom_space();
+                    dom_attr(p0, "class", "player-info-chicken__tools-item-button-key");
+                    dom_attr(div0, "class", "player-info-chicken__tools-item-button");
+                    dom_attr(img, "class", "player-info-chicken__tools-item-img");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/chickengrad/bonuses/${/*tool*/ ctx[14].image}`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "item-img");
+                    dom_attr(p1, "class", "player-info-chicken__tools-item-count");
+                    dom_attr(div1, "class", "player-info-chicken__tools-item");
+                    dom_toggle_class(div1, "player-info-chicken__tools-item--selected", /*tool*/ ctx[14].selected);
+                    dom_toggle_class(div1, "player-info-chicken__tools-item--locked", /*tool*/ ctx[14].locked);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(p0, t0);
+                    dom_append(div1, t1);
+                    dom_append(div1, img);
+                    dom_append(div1, t2);
+                    dom_append(div1, p1);
+                    dom_append(p1, t3);
+                    dom_append(p1, t4);
+                    dom_append(div1, t5);
+                    if (if_block) if_block.m(div1, null);
+                    dom_append(div1, t6);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*toolsInfo*/ 1 && t0_value !== (t0_value = /*tool*/ ctx[14].key + "")) dom_set_data(t0, t0_value);
+
+                    if (dirty & /*toolsInfo*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/chickengrad/bonuses/${/*tool*/ ctx[14].image}`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+
+                    if (dirty & /*toolsInfo*/ 1 && t4_value !== (t4_value = /*tool*/ ctx[14].count + "")) dom_set_data(t4, t4_value);
+
+                    if ( /*tool*/ ctx[14].locked) {
+                        if (if_block) {
+
+                        } else {
+                            if_block = arizona_hud_chickengrad_player_info_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            if_block.m(div1, t6);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (dirty & /*toolsInfo*/ 1) {
+                        dom_toggle_class(div1, "player-info-chicken__tools-item--selected", /*tool*/ ctx[14].selected);
+                    }
+
+                    if (dirty & /*toolsInfo*/ 1) {
+                        dom_toggle_class(div1, "player-info-chicken__tools-item--locked", /*tool*/ ctx[14].locked);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        function arizona_hud_chickengrad_player_info_index_svelte_create_fragment(ctx) {
+            let div21;
+            let div12;
+            let div4;
+            let div1;
+            let i;
+            let t0;
+            let div0;
+            let t1;
+            let t2;
+            let div3;
+            let div2;
+            let t3;
+            let span0;
+            let t4;
+            let t5;
+            let div5;
+            let t6;
+            let div8;
+            let div6;
+            let t7;
+            let t8;
+            let div7;
+            let t10;
+            let div11;
+            let div9;
+            let t11_value = /*$serverInformation*/ ctx[2].id + "";
+            let t11;
+            let t12;
+            let div10;
+            let t13_value = /*$serverInformation*/ ctx[2].title + "";
+            let t13;
+            let t14;
+            let div19;
+            let div16;
+            let div13;
+            let circleindicator0;
+            let t15;
+            let div14;
+            let circleindicator1;
+            let t16;
+            let div15;
+            let circleindicator2;
+            let t17;
+            let t18;
+            let div18;
+            let t19;
+            let div17;
+            let span1;
+            let t20_value = ( /*$isSafeZone*/ ctx[9] ? 'Сейф' : 'Зона') + "";
+            let t20;
+            let t21;
+            let span2;
+            let t22_value = ( /*$isSafeZone*/ ctx[9] ? 'зона' : 'атаки') + "";
+            let t22;
+            let div18_transition;
+            let t23;
+            let div20;
+            let t24;
+            let show_if = !(0, lodash.isEmpty)( /*toolsInfo*/ ctx[0]);
+            let current;
+
+            circleindicator0 = new circle_indicator_index_svelte({
+                props: {
+                    icon: 'heart',
+                    percents: /*$playerPoints*/ ctx[6],
+                    maxValue: 0,
+                    iconColor: constants_HP_INDICATOR_COLOR
+                }
+            });
+
+            circleindicator1 = new circle_indicator_index_svelte({
+                props: {
+                    icon: ' icon-chicken-timer',
+                    percents: /*minutes*/ ctx[1],
+                    isProgressVisible: false,
+                    valueTitle: 'м.',
+                    iconColor: constants_ARMOR_INDICATOR_COLOR
+                }
+            });
+
+            circleindicator2 = new circle_indicator_index_svelte({
+                props: {
+                    icon: ' icon-chicken-chip',
+                    percents: /*$playerCoins*/ ctx[7],
+                    isProgressVisible: false,
+                    iconColor: constants_SATIETY_INDICATOR_COLOR
+                }
+            });
+
+            let if_block0 = /*$playerPower*/ ctx[8] > 0 && arizona_hud_chickengrad_player_info_index_svelte_create_if_block_4(ctx);
+
+            function select_block_type(ctx, dirty) {
+                if ( /*$isSafeZone*/ ctx[9]) return arizona_hud_chickengrad_player_info_index_svelte_create_if_block_3;
+                return arizona_hud_chickengrad_player_info_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block1 = current_block_type(ctx);
+            let if_block2 = /*$playerWanteds*/ ctx[10] > 0 && arizona_hud_chickengrad_player_info_index_svelte_create_if_block_2(ctx);
+            let if_block3 = show_if && arizona_hud_chickengrad_player_info_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div21 = dom_element("div");
+                    div12 = dom_element("div");
+                    div4 = dom_element("div");
+                    div1 = dom_element("div");
+                    i = dom_element("i");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    t1 = dom_text( /*$playersEventOnline*/ ctx[3]);
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    div2.innerHTML = `<img class="player-info-chicken__user-traitors-img" src="${meat_namespaceObject}" alt="traitor"/>`;
+                    t3 = dom_space();
+                    span0 = dom_element("span");
+                    t4 = dom_text( /*$playerChickensKilled*/ ctx[4]);
+                    t5 = dom_space();
+                    div5 = dom_element("div");
+                    div5.innerHTML = `<img src="${chicken_namespaceObject}" class="player-info-chicken__role-logo-image" alt="logo"/>`;
+                    t6 = dom_space();
+                    div8 = dom_element("div");
+                    div6 = dom_element("div");
+                    t7 = dom_text( /*$playerChickenSize*/ ctx[5]);
+                    t8 = dom_space();
+                    div7 = dom_element("div");
+                    div7.textContent = "arizona-rp.com";
+                    t10 = dom_space();
+                    div11 = dom_element("div");
+                    div9 = dom_element("div");
+                    t11 = dom_text(t11_value);
+                    t12 = dom_space();
+                    div10 = dom_element("div");
+                    t13 = dom_text(t13_value);
+                    t14 = dom_space();
+                    div19 = dom_element("div");
+                    div16 = dom_element("div");
+                    div13 = dom_element("div");
+                    create_component(circleindicator0.$$.fragment);
+                    t15 = dom_space();
+                    div14 = dom_element("div");
+                    create_component(circleindicator1.$$.fragment);
+                    t16 = dom_space();
+                    div15 = dom_element("div");
+                    create_component(circleindicator2.$$.fragment);
+                    t17 = dom_space();
+                    if (if_block0) if_block0.c();
+                    t18 = dom_space();
+                    div18 = dom_element("div");
+                    if_block1.c();
+                    t19 = dom_space();
+                    div17 = dom_element("div");
+                    span1 = dom_element("span");
+                    t20 = dom_text(t20_value);
+                    t21 = dom_space();
+                    span2 = dom_element("span");
+                    t22 = dom_text(t22_value);
+                    t23 = dom_space();
+                    div20 = dom_element("div");
+                    if (if_block2) if_block2.c();
+                    t24 = dom_space();
+                    if (if_block3) if_block3.c();
+                    dom_attr(i, "class", "player-info-chicken__users-online-icon ui-man");
+                    dom_attr(div0, "class", "player-info-chicken__users-online-count");
+                    dom_attr(div1, "class", "player-info-chicken__users-online");
+                    dom_attr(div2, "class", "player-info-chicken__user-traitors-img-wrapper");
+                    dom_attr(span0, "class", "player-info-chicken__user-traitors-value");
+                    dom_attr(div3, "class", "player-info-chicken__user-traitors");
+                    dom_attr(div4, "class", "player-info-chicken__user-stats");
+                    dom_attr(div5, "class", "player-info-chicken__role-logo");
+                    dom_attr(div6, "class", "player-info-chicken__project-role");
+                    dom_attr(div7, "class", "player-info-chicken__project-name");
+                    dom_attr(div8, "class", "player-info-chicken__project");
+                    dom_attr(div9, "class", "player-info-chicken__server-number");
+                    dom_attr(div10, "class", "player-info-chicken__server-name");
+                    dom_attr(div11, "class", "player-info-chicken__server");
+                    dom_attr(div12, "class", "player-info-chicken__server-info-bar");
+                    set_style(div12, "--server-flag", `url(${/*$serverInformation*/ ctx[2].flag})`);
+                    dom_attr(div13, "class", "player-info-chicken__indicator");
+                    dom_attr(div14, "class", "player-info-chicken__indicator");
+                    dom_attr(div15, "class", "player-info-chicken__indicator");
+                    dom_attr(div16, "class", "player-info-chicken__indicators");
+                    dom_attr(span2, "class", "player-info-chicken__green-zone-text-highlight");
+                    dom_attr(div17, "class", "player-info-chicken__green-zone-text");
+                    dom_attr(div18, "class", "player-info-chicken__green-zone");
+                    dom_toggle_class(div18, "player-info-chicken__green-zone--attack", ! /*$isSafeZone*/ ctx[9]);
+                    dom_attr(div19, "class", "player-info-chicken__params");
+                    dom_attr(div20, "class", "player-info-chicken__player-stats");
+                    dom_attr(div21, "class", "player-info-chicken");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div21, anchor);
+                    dom_append(div21, div12);
+                    dom_append(div12, div4);
+                    dom_append(div4, div1);
+                    dom_append(div1, i);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, t1);
+                    dom_append(div4, t2);
+                    dom_append(div4, div3);
+                    dom_append(div3, div2);
+                    dom_append(div3, t3);
+                    dom_append(div3, span0);
+                    dom_append(span0, t4);
+                    dom_append(div12, t5);
+                    dom_append(div12, div5);
+                    dom_append(div12, t6);
+                    dom_append(div12, div8);
+                    dom_append(div8, div6);
+                    dom_append(div6, t7);
+                    dom_append(div8, t8);
+                    dom_append(div8, div7);
+                    dom_append(div12, t10);
+                    dom_append(div12, div11);
+                    dom_append(div11, div9);
+                    dom_append(div9, t11);
+                    dom_append(div11, t12);
+                    dom_append(div11, div10);
+                    dom_append(div10, t13);
+                    dom_append(div21, t14);
+                    dom_append(div21, div19);
+                    dom_append(div19, div16);
+                    dom_append(div16, div13);
+                    mount_component(circleindicator0, div13, null);
+                    dom_append(div16, t15);
+                    dom_append(div16, div14);
+                    mount_component(circleindicator1, div14, null);
+                    dom_append(div16, t16);
+                    dom_append(div16, div15);
+                    mount_component(circleindicator2, div15, null);
+                    dom_append(div16, t17);
+                    if (if_block0) if_block0.m(div16, null);
+                    dom_append(div19, t18);
+                    dom_append(div19, div18);
+                    if_block1.m(div18, null);
+                    dom_append(div18, t19);
+                    dom_append(div18, div17);
+                    dom_append(div17, span1);
+                    dom_append(span1, t20);
+                    dom_append(div17, t21);
+                    dom_append(div17, span2);
+                    dom_append(span2, t22);
+                    dom_append(div21, t23);
+                    dom_append(div21, div20);
+                    if (if_block2) if_block2.m(div20, null);
+                    dom_append(div21, t24);
+                    if (if_block3) if_block3.m(div21, null);
+                    current = true;
+                },
+                p(ctx, [dirty]) {
+                    if (!current || dirty & /*$playersEventOnline*/ 8) dom_set_data(t1, /*$playersEventOnline*/ ctx[3]);
+                    if (!current || dirty & /*$playerChickensKilled*/ 16) dom_set_data(t4, /*$playerChickensKilled*/ ctx[4]);
+                    if (!current || dirty & /*$playerChickenSize*/ 32) dom_set_data(t7, /*$playerChickenSize*/ ctx[5]);
+                    if ((!current || dirty & /*$serverInformation*/ 4) && t11_value !== (t11_value = /*$serverInformation*/ ctx[2].id + "")) dom_set_data(t11, t11_value);
+                    if ((!current || dirty & /*$serverInformation*/ 4) && t13_value !== (t13_value = /*$serverInformation*/ ctx[2].title + "")) dom_set_data(t13, t13_value);
+
+                    if (!current || dirty & /*$serverInformation*/ 4) {
+                        set_style(div12, "--server-flag", `url(${/*$serverInformation*/ ctx[2].flag})`);
+                    }
+
+                    const circleindicator0_changes = {};
+                    if (dirty & /*$playerPoints*/ 64) circleindicator0_changes.percents = /*$playerPoints*/ ctx[6];
+                    circleindicator0.$set(circleindicator0_changes);
+                    const circleindicator1_changes = {};
+                    if (dirty & /*minutes*/ 2) circleindicator1_changes.percents = /*minutes*/ ctx[1];
+                    circleindicator1.$set(circleindicator1_changes);
+                    const circleindicator2_changes = {};
+                    if (dirty & /*$playerCoins*/ 128) circleindicator2_changes.percents = /*$playerCoins*/ ctx[7];
+                    circleindicator2.$set(circleindicator2_changes);
+
+                    if ( /*$playerPower*/ ctx[8] > 0) {
+                        if (if_block0) {
+                            if_block0.p(ctx, dirty);
+
+                            if (dirty & /*$playerPower*/ 256) {
+                                transitions_transition_in(if_block0, 1);
+                            }
+                        } else {
+                            if_block0 = arizona_hud_chickengrad_player_info_index_svelte_create_if_block_4(ctx);
+                            if_block0.c();
+                            transitions_transition_in(if_block0, 1);
+                            if_block0.m(div16, null);
+                        }
+                    } else if (if_block0) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block0, 1, 1, () => {
+                            if_block0 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if (current_block_type !== (current_block_type = select_block_type(ctx, dirty))) {
+                        if_block1.d(1);
+                        if_block1 = current_block_type(ctx);
+
+                        if (if_block1) {
+                            if_block1.c();
+                            if_block1.m(div18, t19);
+                        }
+                    }
+
+                    if ((!current || dirty & /*$isSafeZone*/ 512) && t20_value !== (t20_value = ( /*$isSafeZone*/ ctx[9] ? 'Сейф' : 'Зона') + "")) dom_set_data(t20, t20_value);
+                    if ((!current || dirty & /*$isSafeZone*/ 512) && t22_value !== (t22_value = ( /*$isSafeZone*/ ctx[9] ? 'зона' : 'атаки') + "")) dom_set_data(t22, t22_value);
+
+                    if (!current || dirty & /*$isSafeZone*/ 512) {
+                        dom_toggle_class(div18, "player-info-chicken__green-zone--attack", ! /*$isSafeZone*/ ctx[9]);
+                    }
+
+                    if ( /*$playerWanteds*/ ctx[10] > 0) {
+                        if (if_block2) {
+                            if_block2.p(ctx, dirty);
+                        } else {
+                            if_block2 = arizona_hud_chickengrad_player_info_index_svelte_create_if_block_2(ctx);
+                            if_block2.c();
+                            if_block2.m(div20, null);
+                        }
+                    } else if (if_block2) {
+                        if_block2.d(1);
+                        if_block2 = null;
+                    }
+
+                    if (dirty & /*toolsInfo*/ 1) show_if = !(0, lodash.isEmpty)( /*toolsInfo*/ ctx[0]);
+
+                    if (show_if) {
+                        if (if_block3) {
+                            if_block3.p(ctx, dirty);
+                        } else {
+                            if_block3 = arizona_hud_chickengrad_player_info_index_svelte_create_if_block(ctx);
+                            if_block3.c();
+                            if_block3.m(div21, null);
+                        }
+                    } else if (if_block3) {
+                        if_block3.d(1);
+                        if_block3 = null;
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(circleindicator0.$$.fragment, local);
+                    transitions_transition_in(circleindicator1.$$.fragment, local);
+                    transitions_transition_in(circleindicator2.$$.fragment, local);
+                    transitions_transition_in(if_block0);
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (!div18_transition) div18_transition = create_bidirectional_transition(div18, fade, {}, true);
+                            div18_transition.run(1);
+                        });
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(circleindicator0.$$.fragment, local);
+                    transitions_transition_out(circleindicator1.$$.fragment, local);
+                    transitions_transition_out(circleindicator2.$$.fragment, local);
+                    transitions_transition_out(if_block0);
+
+                    if (local) {
+                        if (!div18_transition) div18_transition = create_bidirectional_transition(div18, fade, {}, false);
+                        div18_transition.run(0);
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div21);
+                    }
+
+                    destroy_component(circleindicator0);
+                    destroy_component(circleindicator1);
+                    destroy_component(circleindicator2);
+                    if (if_block0) if_block0.d();
+                    if_block1.d();
+                    if (detaching && div18_transition) div18_transition.end();
+                    if (if_block2) if_block2.d();
+                    if (if_block3) if_block3.d();
+                }
+            };
+        }
+
+        function arizona_hud_chickengrad_player_info_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $timeLeft;
+            let $serverInformation;
+            let $playersEventOnline;
+            let $playerChickensKilled;
+            let $playerChickenSize;
+            let $playerPoints;
+            let $playerCoins;
+            let $playerPower;
+            let $isSafeZone;
+            let $playerWanteds;
+            utils_component_subscribe($$self, timeLeft, $$value => $$invalidate(11, $timeLeft = $$value));
+            utils_component_subscribe($$self, serverInformation, $$value => $$invalidate(2, $serverInformation = $$value));
+            utils_component_subscribe($$self, playersEventOnline, $$value => $$invalidate(3, $playersEventOnline = $$value));
+            utils_component_subscribe($$self, playerChickensKilled, $$value => $$invalidate(4, $playerChickensKilled = $$value));
+            utils_component_subscribe($$self, playerChickenSize, $$value => $$invalidate(5, $playerChickenSize = $$value));
+            utils_component_subscribe($$self, playerPoints, $$value => $$invalidate(6, $playerPoints = $$value));
+            utils_component_subscribe($$self, playerCoins, $$value => $$invalidate(7, $playerCoins = $$value));
+            utils_component_subscribe($$self, store_playerPower, $$value => $$invalidate(8, $playerPower = $$value));
+            utils_component_subscribe($$self, isSafeZone, $$value => $$invalidate(9, $isSafeZone = $$value));
+            utils_component_subscribe($$self, store_playerWanteds, $$value => $$invalidate(10, $playerWanteds = $$value));
+            let toolsInfo = {};
+            let minutes = 0;
+
+            const initializeToolsInfo = toolsInfoDto => {
+                $$invalidate(0, toolsInfo = toolsInfoDto);
+            };
+
+            const unregisterInitializeToolsInfo = registerEvent('event.rodinahudChickengrad.initializeToolsInfo', initializeToolsInfo);
+
+            onDestroy(() => {
+                unregisterInitializeToolsInfo();
+            });
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*$timeLeft*/ 2048) {
+                    $: {
+                        $$invalidate(1, minutes = parseInt($timeLeft / 60, 10));
+                    }
+                }
+            };
+
+            return [
+                toolsInfo,
+                minutes,
+                $serverInformation,
+                $playersEventOnline,
+                $playerChickensKilled,
+                $playerChickenSize,
+                $playerPoints,
+                $playerCoins,
+                $playerPower,
+                $isSafeZone,
+                $playerWanteds,
+                $timeLeft
+            ];
+        }
+
+        class index_svelte_Player_info extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, arizona_hud_chickengrad_player_info_index_svelte_instance, arizona_hud_chickengrad_player_info_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const arizona_hud_chickengrad_player_info_index_svelte = (index_svelte_Player_info);; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/rating/img/rating-bg.png
+        const rating_bg_namespaceObject = __webpack_require__.p + "assets/8c497d54083f7222fe07.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/rating/index.svelte
+        /* src\views\arizona-hud-chickengrad\rating\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function arizona_hud_chickengrad_rating_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[2] = list[i];
+            return child_ctx;
+        }
+
+        // (22:3) {#each $rating as rating}
+        function arizona_hud_chickengrad_rating_index_svelte_create_each_block(ctx) {
+            let div2;
+            let div0;
+            let p0;
+            let t0_value = /*rating*/ ctx[2].position + "";
+            let t0;
+            let t1;
+            let t2;
+            let p1;
+            let t3_value = /*rating*/ ctx[2].name + "";
+            let t3;
+            let t4;
+            let div1;
+            let p2;
+            let t5_value = /*rating*/ ctx[2].points + "";
+            let t5;
+            let t6;
+            let i;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_text(".");
+                    t2 = dom_space();
+                    p1 = dom_element("p");
+                    t3 = dom_text(t3_value);
+                    t4 = dom_space();
+                    div1 = dom_element("div");
+                    p2 = dom_element("p");
+                    t5 = dom_text(t5_value);
+                    t6 = dom_space();
+                    i = dom_element("i");
+                    dom_attr(p0, "class", "rating__rating-item-left-place");
+                    dom_attr(p1, "class", "rating__rating-item-left-name");
+                    dom_attr(div0, "class", "rating__rating-item-left");
+                    dom_attr(p2, "class", "rating__rating-item-right-points");
+                    dom_attr(i, "class", "rating__rating-item-right-img icon-chickengrad-heart");
+                    dom_attr(div1, "class", "rating__rating-item-right");
+                    dom_attr(div2, "class", "rating__rating-item");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div0, p0);
+                    dom_append(p0, t0);
+                    dom_append(p0, t1);
+                    dom_append(div0, t2);
+                    dom_append(div0, p1);
+                    dom_append(p1, t3);
+                    dom_append(div2, t4);
+                    dom_append(div2, div1);
+                    dom_append(div1, p2);
+                    dom_append(p2, t5);
+                    dom_append(div1, t6);
+                    dom_append(div1, i);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$rating*/ 1 && t0_value !== (t0_value = /*rating*/ ctx[2].position + "")) dom_set_data(t0, t0_value);
+                    if (dirty & /*$rating*/ 1 && t3_value !== (t3_value = /*rating*/ ctx[2].name + "")) dom_set_data(t3, t3_value);
+                    if (dirty & /*$rating*/ 1 && t5_value !== (t5_value = /*rating*/ ctx[2].points + "")) dom_set_data(t5, t5_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        function arizona_hud_chickengrad_rating_index_svelte_create_fragment(ctx) {
+            let div5;
+            let div4;
+            let img;
+            let img_src_value;
+            let t0;
+            let p0;
+            let t2;
+            let div3;
+            let t3;
+            let div2;
+            let div0;
+            let p1;
+            let t4_value = /*$playerRatingInformation*/ ctx[1].position + "";
+            let t4;
+            let t5;
+            let t6;
+            let p2;
+            let t7_value = /*$playerRatingInformation*/ ctx[1].name + "";
+            let t7;
+            let t8;
+            let t9;
+            let div1;
+            let p3;
+            let t10_value = /*$playerRatingInformation*/ ctx[1].points + "";
+            let t10;
+            let t11;
+            let i;
+            let each_value = each_ensure_array_like( /*$rating*/ ctx[0]);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = arizona_hud_chickengrad_rating_index_svelte_create_each_block(arizona_hud_chickengrad_rating_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            return {
+                c() {
+                    div5 = dom_element("div");
+                    div4 = dom_element("div");
+                    img = dom_element("img");
+                    t0 = dom_space();
+                    p0 = dom_element("p");
+                    p0.textContent = "СЧЕТ";
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    t3 = dom_space();
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    p1 = dom_element("p");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_text(".");
+                    t6 = dom_space();
+                    p2 = dom_element("p");
+                    t7 = dom_text(t7_value);
+                    t8 = dom_text(" (Вы)");
+                    t9 = dom_space();
+                    div1 = dom_element("div");
+                    p3 = dom_element("p");
+                    t10 = dom_text(t10_value);
+                    t11 = dom_space();
+                    i = dom_element("i");
+                    dom_attr(img, "class", "rating__rating-bg");
+                    if (!utils_src_url_equal(img.src, img_src_value = rating_bg_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "bg-img");
+                    dom_attr(p0, "class", "rating__rating-title");
+                    dom_attr(p1, "class", "rating__rating-item-left-place");
+                    dom_attr(p2, "class", "rating__rating-item-left-name");
+                    dom_attr(div0, "class", "rating__rating-item-left");
+                    dom_attr(p3, "class", "rating__rating-item-right-points");
+                    dom_attr(i, "class", "rating__rating-item-right-img icon-chickengrad-heart");
+                    dom_attr(div1, "class", "rating__rating-item-right");
+                    dom_attr(div2, "class", "rating__rating-item");
+                    dom_attr(div3, "class", "rating__rating-list");
+                    dom_attr(div4, "class", "rating__rating");
+                    dom_attr(div5, "class", "rating");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div5, anchor);
+                    dom_append(div5, div4);
+                    dom_append(div4, img);
+                    dom_append(div4, t0);
+                    dom_append(div4, p0);
+                    dom_append(div4, t2);
+                    dom_append(div4, div3);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div3, null);
+                        }
+                    }
+
+                    dom_append(div3, t3);
+                    dom_append(div3, div2);
+                    dom_append(div2, div0);
+                    dom_append(div0, p1);
+                    dom_append(p1, t4);
+                    dom_append(p1, t5);
+                    dom_append(div0, t6);
+                    dom_append(div0, p2);
+                    dom_append(p2, t7);
+                    dom_append(p2, t8);
+                    dom_append(div2, t9);
+                    dom_append(div2, div1);
+                    dom_append(div1, p3);
+                    dom_append(p3, t10);
+                    dom_append(div1, t11);
+                    dom_append(div1, i);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*$rating*/ 1) {
+                        each_value = each_ensure_array_like( /*$rating*/ ctx[0]);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = arizona_hud_chickengrad_rating_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = arizona_hud_chickengrad_rating_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div3, t3);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+
+                    if (dirty & /*$playerRatingInformation*/ 2 && t4_value !== (t4_value = /*$playerRatingInformation*/ ctx[1].position + "")) dom_set_data(t4, t4_value);
+                    if (dirty & /*$playerRatingInformation*/ 2 && t7_value !== (t7_value = /*$playerRatingInformation*/ ctx[1].name + "")) dom_set_data(t7, t7_value);
+                    if (dirty & /*$playerRatingInformation*/ 2 && t10_value !== (t10_value = /*$playerRatingInformation*/ ctx[1].points + "")) dom_set_data(t10, t10_value);
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div5);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                }
+            };
+        }
+
+        function arizona_hud_chickengrad_rating_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $rating;
+            let $playerRatingInformation;
+            utils_component_subscribe($$self, store_rating, $$value => $$invalidate(0, $rating = $$value));
+            utils_component_subscribe($$self, playerRatingInformation, $$value => $$invalidate(1, $playerRatingInformation = $$value));
+            return [$rating, $playerRatingInformation];
+        }
+
+        class index_svelte_Rating extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, arizona_hud_chickengrad_rating_index_svelte_instance, arizona_hud_chickengrad_rating_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const arizona_hud_chickengrad_rating_index_svelte = (index_svelte_Rating);; // CONCATENATED MODULE: ./src/views/arizona-hud-chickengrad/index.svelte
+        /* src\views\arizona-hud-chickengrad\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function arizona_hud_chickengrad_index_svelte_create_fragment(ctx) {
+            let div3;
+            let div0;
+            let playerinfo;
+            let t0;
+            let div1;
+            let rating_1;
+            let t1;
+            let div2;
+            let microphonewidget;
+            let t2;
+            let span;
+            let current;
+            playerinfo = new arizona_hud_chickengrad_player_info_index_svelte({});
+            rating_1 = new arizona_hud_chickengrad_rating_index_svelte({});
+            microphonewidget = new microphone_widget_index_svelte({});
+
+            return {
+                c() {
+                    div3 = dom_element("div");
+                    div0 = dom_element("div");
+                    create_component(playerinfo.$$.fragment);
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    create_component(rating_1.$$.fragment);
+                    t1 = dom_space();
+                    div2 = dom_element("div");
+                    create_component(microphonewidget.$$.fragment);
+                    t2 = dom_space();
+                    span = dom_element("span");
+                    span.textContent = "Войс-чат активен";
+                    dom_attr(div0, "class", "arizona-hud-chicken__player-info");
+                    dom_attr(div1, "class", "arizona-hud-chicken__rating");
+                    dom_attr(span, "class", "arizona-hud-chicken__microphone-widget-text");
+                    dom_attr(div2, "class", "arizona-hud-chicken__microphone-widget");
+                    dom_attr(div3, "class", "arizona-hud-chicken");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div3, anchor);
+                    dom_append(div3, div0);
+                    mount_component(playerinfo, div0, null);
+                    dom_append(div3, t0);
+                    dom_append(div3, div1);
+                    mount_component(rating_1, div1, null);
+                    dom_append(div3, t1);
+                    dom_append(div3, div2);
+                    mount_component(microphonewidget, div2, null);
+                    dom_append(div2, t2);
+                    dom_append(div2, span);
+                    current = true;
+                },
+                p: utils_noop,
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(playerinfo.$$.fragment, local);
+                    transitions_transition_in(rating_1.$$.fragment, local);
+                    transitions_transition_in(microphonewidget.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(playerinfo.$$.fragment, local);
+                    transitions_transition_out(rating_1.$$.fragment, local);
+                    transitions_transition_out(microphonewidget.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div3);
+                    }
+
+                    destroy_component(playerinfo);
+                    destroy_component(rating_1);
+                    destroy_component(microphonewidget);
+                }
+            };
+        }
+
+        function arizona_hud_chickengrad_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $isSafeZone;
+            let $rating;
+            let $playerRatingInformation;
+            let $playerChickenSize;
+            let $playerPoints;
+            let $playerCoins;
+            let $timeLeft;
+            let $playerChickensKilled;
+            let $playersEventOnline;
+            utils_component_subscribe($$self, isSafeZone, $$value => $$invalidate(0, $isSafeZone = $$value));
+            utils_component_subscribe($$self, store_rating, $$value => $$invalidate(1, $rating = $$value));
+            utils_component_subscribe($$self, playerRatingInformation, $$value => $$invalidate(2, $playerRatingInformation = $$value));
+            utils_component_subscribe($$self, playerChickenSize, $$value => $$invalidate(3, $playerChickenSize = $$value));
+            utils_component_subscribe($$self, playerPoints, $$value => $$invalidate(4, $playerPoints = $$value));
+            utils_component_subscribe($$self, playerCoins, $$value => $$invalidate(5, $playerCoins = $$value));
+            utils_component_subscribe($$self, timeLeft, $$value => $$invalidate(6, $timeLeft = $$value));
+            utils_component_subscribe($$self, playerChickensKilled, $$value => $$invalidate(7, $playerChickensKilled = $$value));
+            utils_component_subscribe($$self, playersEventOnline, $$value => $$invalidate(8, $playersEventOnline = $$value));
+
+            const initializeServerInfo = (info = {}) => {
+                const temp = {
+                    ...info,
+                    flag: MAP_HUDFLAG_TO_ICON[info.flag]
+                };
+
+                serverInformation.set(temp);
+            };
+
+            // const unregisterPlayerSatiety = registerEvent('event.rodinahudChickengrad.playerSatiety', (value) => $playerSatiety = value);
+            // const unregisterPlayerPower = registerEvent('event.rodinahudChickengrad.playerPower', (value) => $playerPower = value);
+            // const unregisterPlayerWanted = registerEvent('event.rodinahudChickengrad.playerWanteds', (value) => $playerWanteds = value);
+            const unregisterPlayersEventOnline = registerEvent('event.rodinahudChickengrad.playersEventOnline', value => utils_set_store_value(playersEventOnline, $playersEventOnline = value, $playersEventOnline));
+
+            const unregisterPlayerChickensKilled = registerEvent('event.rodinahudChickengrad.playerChickensKilled', value => utils_set_store_value(playerChickensKilled, $playerChickensKilled = value, $playerChickensKilled));
+            const unregisterTimeLeft = registerEvent('event.rodinahudChickengrad.timeLeft', value => utils_set_store_value(timeLeft, $timeLeft = value, $timeLeft));
+            const unregisterPlayeCoins = registerEvent('event.rodinahudChickengrad.playerCoins', value => utils_set_store_value(playerCoins, $playerCoins = value, $playerCoins));
+            const unregisterPlayerPoints = registerEvent('event.rodinahudChickengrad.playerPoints', value => utils_set_store_value(playerPoints, $playerPoints = value, $playerPoints));
+            const unregisterPlayerChickenSize = registerEvent('event.rodinahudChickengrad.playerChickenSize', value => utils_set_store_value(playerChickenSize, $playerChickenSize = value, $playerChickenSize));
+            const unregisterPlayerRatingInformation = registerEvent('event.rodinahudChickengrad.playerRatingInformation', value => utils_set_store_value(playerRatingInformation, $playerRatingInformation = value, $playerRatingInformation));
+            const unregisterServerInformation = registerEvent('event.rodinahudChickengrad.serverInformation', initializeServerInfo);
+            const unregisterRating = registerEvent('event.rodinahudChickengrad.rating', value => utils_set_store_value(store_rating, $rating = value, $rating));
+
+            const unregisterSafeZone = registerEvent('event.rodinahudChickengrad.isSafeZone', value => {
+                utils_set_store_value(isSafeZone, $isSafeZone = value, $isSafeZone);
+            });
+
+            onMount(() => {
+                subscribesManager.subscribe(PLAYER_METHODS);
+            });
+
+            onDestroy(() => {
+                subscribesManager.unsubscribe(PLAYER_METHODS);
+                unregisterPlayerSatiety();
+                unregisterPlayerPower();
+                unregisterPlayerWanted();
+                unregisterPlayersEventOnline();
+                unregisterPlayerChickensKilled();
+                unregisterTimeLeft();
+                unregisterPlayeCoins();
+                unregisterPlayerChickenSize();
+                unregisterPlayerRatingInformation();
+                unregisterServerInformation();
+                unregisterRating();
+                unregisterSafeZone();
+                unregisterPlayerPoints();
+            });
+
+            return [];
+        }
+
+        class Arizona_hud_chickengrad extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, arizona_hud_chickengrad_index_svelte_instance, arizona_hud_chickengrad_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const arizona_hud_chickengrad_index_svelte = (Arizona_hud_chickengrad);; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/store.js
+
+        var store_serverInformation = store_writable({});
+        var arizona_hud_new_year_store_playerSatiety = store_writable(0);
+        var arizona_hud_new_year_store_playerPower = store_writable(0);
+        var arizona_hud_new_year_store_playerWanteds = store_writable(0);
+        var store_playersEventOnline = store_writable(0);
+        var playersTraitors = store_writable(0);
+        var playerRole = store_writable('');
+        var store_timeLeft = store_writable(0);
+        var isZoneSafe = store_writable(0);
+        var hotKeysnNotificationInformation = store_writable({});
+        var countdownOverlay = store_writable({
+            visible: false,
+            roleText: '',
+            roleType: 'crewmate',
+            countdownStart: 10,
+            tips: []
+        });
+        var headerNotifications = store_writable({
+            'top': [],
+            'top-left': [],
+            'top-right': [],
+            'bottom': [],
+            'bottom-left': [],
+            'bottom-right': [],
+            'center': []
+        });
+        var notificationIdCounter = 0;
+        var generateNotificationId = function generateNotificationId() {
+            return ++notificationIdCounter;
+        };
+        var headerNotification = store_writable({
+            visible: false,
+            title: '',
+            text: '',
+            icon: 'info',
+            duration: 5000,
+            position: 'top'
+        });; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/header-notification/notification-manager.js
+        function notification_manager_typeof(o) {
+            "@babel/helpers - typeof";
+            return notification_manager_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, notification_manager_typeof(o);
+        }
+
+        function notification_manager_ownKeys(e, r) {
+            var t = Object.keys(e);
+            if (Object.getOwnPropertySymbols) {
+                var o = Object.getOwnPropertySymbols(e);
+                r && (o = o.filter(function(r) {
+                    return Object.getOwnPropertyDescriptor(e, r).enumerable;
+                })), t.push.apply(t, o);
+            }
+            return t;
+        }
+
+        function notification_manager_objectSpread(e) {
+            for (var r = 1; r < arguments.length; r++) {
+                var t = null != arguments[r] ? arguments[r] : {};
+                r % 2 ? notification_manager_ownKeys(Object(t), !0).forEach(function(r) {
+                    notification_manager_defineProperty(e, r, t[r]);
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : notification_manager_ownKeys(Object(t)).forEach(function(r) {
+                    Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
+                });
+            }
+            return e;
+        }
+
+        function notification_manager_defineProperty(e, r, t) {
+            return (r = notification_manager_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function notification_manager_toPropertyKey(t) {
+            var i = notification_manager_toPrimitive(t, "string");
+            return "symbol" == notification_manager_typeof(i) ? i : i + "";
+        }
+
+        function notification_manager_toPrimitive(t, r) {
+            if ("object" != notification_manager_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != notification_manager_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+        function notification_manager_toConsumableArray(r) {
+            return notification_manager_arrayWithoutHoles(r) || notification_manager_iterableToArray(r) || notification_manager_unsupportedIterableToArray(r) || notification_manager_nonIterableSpread();
+        }
+
+        function notification_manager_nonIterableSpread() {
+            throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+        }
+
+        function notification_manager_unsupportedIterableToArray(r, a) {
+            if (r) {
+                if ("string" == typeof r) return notification_manager_arrayLikeToArray(r, a);
+                var t = {}.toString.call(r).slice(8, -1);
+                return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? notification_manager_arrayLikeToArray(r, a) : void 0;
+            }
+        }
+
+        function notification_manager_iterableToArray(r) {
+            if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r);
+        }
+
+        function notification_manager_arrayWithoutHoles(r) {
+            if (Array.isArray(r)) return notification_manager_arrayLikeToArray(r);
+        }
+
+        function notification_manager_arrayLikeToArray(r, a) {
+            (null == a || a > r.length) && (a = r.length);
+            for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e];
+            return n;
+        }
+
+        var activeTimers = new Map();
+        var positions = ['top', 'top-left', 'top-right', 'bottom', 'bottom-left', 'bottom-right', 'center'];
+
+        function addNotification(data) {
+            var pos = data.position || 'top';
+            var id = generateNotificationId();
+            var notification = {
+                id: id,
+                title: data.title || '',
+                text: data.text || '',
+                icon: data.icon || 'info',
+                duration: data.duration !== undefined ? data.duration : 5000,
+                showProgress: data.showProgress !== undefined ? data.showProgress : true,
+                progress: 100,
+                isHiding: false
+            };
+            headerNotifications.update(function(state) {
+                var queue = notification_manager_toConsumableArray(state[pos]);
+                var isFirst = queue.length === 0;
+                queue.push(notification);
+                if (isFirst && notification.duration > 0) {
+                    startNotificationTimer(pos, id, notification.duration);
+                }
+                return notification_manager_objectSpread(notification_manager_objectSpread({}, state), {}, notification_manager_defineProperty({}, pos, queue));
+            });
+            return id;
+        }
+
+        function startNotificationTimer(pos, id, duration) {
+            if (duration <= 0) return;
+            var step = 100 / (duration / 50);
+            var progressInterval = setInterval(function() {
+                headerNotifications.update(function(state) {
+                    var queue = notification_manager_toConsumableArray(state[pos]);
+                    var idx = queue.findIndex(function(n) {
+                        return n.id === id;
+                    });
+                    if (idx === -1 || idx !== 0) {
+                        clearInterval(progressInterval);
+                        return state;
+                    }
+                    queue[idx] = notification_manager_objectSpread(notification_manager_objectSpread({}, queue[idx]), {}, {
+                        progress: Math.max(0, queue[idx].progress - step)
+                    });
+                    return notification_manager_objectSpread(notification_manager_objectSpread({}, state), {}, notification_manager_defineProperty({}, pos, queue));
+                });
+            }, 50);
+            var hideTimeout = setTimeout(function() {
+                clearInterval(progressInterval);
+                removeNotification(pos, id);
+            }, duration);
+            activeTimers.set(id, {
+                progressInterval: progressInterval,
+                hideTimeout: hideTimeout
+            });
+        }
+
+        function removeNotification(pos, id) {
+            headerNotifications.update(function(state) {
+                var queue = notification_manager_toConsumableArray(state[pos]);
+                var idx = queue.findIndex(function(n) {
+                    return n.id === id;
+                });
+                if (idx !== -1) {
+                    queue[idx] = notification_manager_objectSpread(notification_manager_objectSpread({}, queue[idx]), {}, {
+                        isHiding: true
+                    });
+                }
+                return notification_manager_objectSpread(notification_manager_objectSpread({}, state), {}, notification_manager_defineProperty({}, pos, queue));
+            });
+            setTimeout(function() {
+                headerNotifications.update(function(state) {
+                    var queue = state[pos].filter(function(n) {
+                        return n.id !== id;
+                    });
+                    if (queue.length > 0 && !activeTimers.has(queue[0].id)) {
+                        startNotificationTimer(pos, queue[0].id, queue[0].duration);
+                    }
+                    return notification_manager_objectSpread(notification_manager_objectSpread({}, state), {}, notification_manager_defineProperty({}, pos, queue));
+                });
+                var timers = activeTimers.get(id);
+                if (timers) {
+                    clearInterval(timers.progressInterval);
+                    clearTimeout(timers.hideTimeout);
+                    activeTimers["delete"](id);
+                }
+            }, 400);
+        }
+
+        function clearPosition(pos) {
+            headerNotifications.update(function(state) {
+                state[pos].forEach(function(n) {
+                    var timers = activeTimers.get(n.id);
+                    if (timers) {
+                        clearInterval(timers.progressInterval);
+                        clearTimeout(timers.hideTimeout);
+                        activeTimers["delete"](n.id);
+                    }
+                });
+                return notification_manager_objectSpread(notification_manager_objectSpread({}, state), {}, notification_manager_defineProperty({}, pos, []));
+            });
+        }
+
+        function clearAll() {
+            positions.forEach(function(pos) {
+                return clearPosition(pos);
+            });
+        }
+
+        function cleanup() {
+            activeTimers.forEach(function(timers) {
+                clearInterval(timers.progressInterval);
+                clearTimeout(timers.hideTimeout);
+            });
+            activeTimers.clear();
+        }; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/0.png
+        const arizona_hud_new_year_img_flag_0_namespaceObject = __webpack_require__.p + "assets/950934fd83fdf7bf608a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/1.png
+        const arizona_hud_new_year_img_flag_1_namespaceObject = __webpack_require__.p + "assets/c0764c59275c6d001764.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/2.png
+        const arizona_hud_new_year_img_flag_2_namespaceObject = __webpack_require__.p + "assets/d7c76d687d2dd1dac0cd.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/3.png
+        const arizona_hud_new_year_img_flag_3_namespaceObject = __webpack_require__.p + "assets/afb1f19a9df85b9e847c.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/4.png
+        const arizona_hud_new_year_img_flag_4_namespaceObject = __webpack_require__.p + "assets/cc075d75744833cc688e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/5.png
+        const arizona_hud_new_year_img_flag_5_namespaceObject = __webpack_require__.p + "assets/d0283842ed41d22f4e65.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/6.png
+        const arizona_hud_new_year_img_flag_6_namespaceObject = __webpack_require__.p + "assets/e3956fa7cb3ff03b8c23.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/7.png
+        const arizona_hud_new_year_img_flag_7_namespaceObject = __webpack_require__.p + "assets/bd86be4234468993a2f3.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/8.png
+        const arizona_hud_new_year_img_flag_8_namespaceObject = __webpack_require__.p + "assets/296e886128d9bc95ecd4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/9.png
+        const arizona_hud_new_year_img_flag_9_namespaceObject = __webpack_require__.p + "assets/0d205d4e518d2c1fa13a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/10.png
+        const arizona_hud_new_year_img_flag_10_namespaceObject = __webpack_require__.p + "assets/f67466d954772b894ee1.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/11.png
+        const arizona_hud_new_year_img_flag_11_namespaceObject = __webpack_require__.p + "assets/09d7cc9a8206a54a709a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/12.png
+        const arizona_hud_new_year_img_flag_12_namespaceObject = __webpack_require__.p + "assets/481b76a652f5a2c79caa.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/13.png
+        const arizona_hud_new_year_img_flag_13_namespaceObject = __webpack_require__.p + "assets/1b59c33e43d0f3a85f2d.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/14.png
+        const arizona_hud_new_year_img_flag_14_namespaceObject = __webpack_require__.p + "assets/cf3624b15f92f76d8fc7.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/15.png
+        const arizona_hud_new_year_img_flag_15_namespaceObject = __webpack_require__.p + "assets/a450dccbf914db970601.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/16.png
+        const arizona_hud_new_year_img_flag_16_namespaceObject = __webpack_require__.p + "assets/9132f45ce517eb6a9ebc.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/17.png
+        const arizona_hud_new_year_img_flag_17_namespaceObject = __webpack_require__.p + "assets/ab9a420c6e956e4eac30.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/18.png
+        const arizona_hud_new_year_img_flag_18_namespaceObject = __webpack_require__.p + "assets/397df52c4ca9a4ad5fe3.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/19.png
+        const arizona_hud_new_year_img_flag_19_namespaceObject = __webpack_require__.p + "assets/89183ceca95b6959b6c4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/20.png
+        const arizona_hud_new_year_img_flag_20_namespaceObject = __webpack_require__.p + "assets/894d3aef90959e47367e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/21.png
+        const arizona_hud_new_year_img_flag_21_namespaceObject = __webpack_require__.p + "assets/217b1b81894ffc6b2805.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/22.png
+        const arizona_hud_new_year_img_flag_22_namespaceObject = __webpack_require__.p + "assets/515b475374636efeda1d.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/1111.png
+        const arizona_hud_new_year_img_flag_1111_namespaceObject = __webpack_require__.p + "assets/0fbaaff3e9ac7b0fb45a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/2222.png
+        const arizona_hud_new_year_img_flag_2222_namespaceObject = __webpack_require__.p + "assets/6c8986e126805201fd64.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/3333.png
+        const arizona_hud_new_year_img_flag_3333_namespaceObject = __webpack_require__.p + "assets/7335e8f931f6489e5f1b.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/23.png
+        const arizona_hud_new_year_img_flag_23_namespaceObject = __webpack_require__.p + "assets/c7f80eabdfa5abf73ebd.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/24.png
+        const arizona_hud_new_year_img_flag_24_namespaceObject = __webpack_require__.p + "assets/294ce821057a9176f1f6.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/25.png
+        const arizona_hud_new_year_img_flag_25_namespaceObject = __webpack_require__.p + "assets/400fff2cc9ce1c416768.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/26.png
+        const arizona_hud_new_year_img_flag_26_namespaceObject = __webpack_require__.p + "assets/9657b11e42c5bc532f02.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/27.png
+        const arizona_hud_new_year_img_flag_27_namespaceObject = __webpack_require__.p + "assets/73ce9c70379378a4694c.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/28.png
+        const arizona_hud_new_year_img_flag_28_namespaceObject = __webpack_require__.p + "assets/51c0d8da0552caecdc93.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/29.png
+        const arizona_hud_new_year_img_flag_29_namespaceObject = __webpack_require__.p + "assets/876f77f638ad5cbd379e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/30.png
+        const arizona_hud_new_year_img_flag_30_namespaceObject = __webpack_require__.p + "assets/65d44751d49b4fdf6ac9.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/31.png
+        const arizona_hud_new_year_img_flag_31_namespaceObject = __webpack_require__.p + "assets/0452e5b5044650c18d32.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/flag/32.png
+        const arizona_hud_new_year_img_flag_32_namespaceObject = __webpack_require__.p + "assets/a71cb8bd3915a4a09147.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/111.png
+        const arizona_hud_new_year_img_logotype_111_namespaceObject = __webpack_require__.p + "assets/f8e91d59f741ca436cf5.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/222.png
+        const arizona_hud_new_year_img_logotype_222_namespaceObject = __webpack_require__.p + "assets/338c121f887419246d47.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/333.png
+        const arizona_hud_new_year_img_logotype_333_namespaceObject = __webpack_require__.p + "assets/6daa199e74d2a6b6ef86.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/444.png
+        const arizona_hud_new_year_img_logotype_444_namespaceObject = __webpack_require__.p + "assets/61d7f716395bfde7ad8d.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif_logo_1.gif
+        const arizona_hud_new_year_img_logotype_gif_logo_1_namespaceObject = __webpack_require__.p + "assets/323f4465794e86d2901c.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif_logo_2.gif
+        const arizona_hud_new_year_img_logotype_gif_logo_2_namespaceObject = __webpack_require__.p + "assets/f55ea4e4da78dbf1c952.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/777.png
+        const arizona_hud_new_year_img_logotype_777_namespaceObject = __webpack_require__.p + "assets/b52d779a74c47b07da78.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/888.png
+        const arizona_hud_new_year_img_logotype_888_namespaceObject = __webpack_require__.p + "assets/9d99bb5e1d05b39959c6.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/999.png
+        const arizona_hud_new_year_img_logotype_999_namespaceObject = __webpack_require__.p + "assets/330660111d18565abb0c.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/1000.png
+        const arizona_hud_new_year_img_logotype_1000_namespaceObject = __webpack_require__.p + "assets/e2042e36686a97ce273e.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/1001.png
+        const arizona_hud_new_year_img_logotype_1001_namespaceObject = __webpack_require__.p + "assets/366d876ed068d080fe66.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/1002.png
+        const arizona_hud_new_year_img_logotype_1002_namespaceObject = __webpack_require__.p + "assets/fb2a8343506954f92a5f.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/1111.png
+        const arizona_hud_new_year_img_logotype_1111_namespaceObject = __webpack_require__.p + "assets/861439928e690ab048a4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/1112.png
+        const arizona_hud_new_year_img_logotype_1112_namespaceObject = __webpack_require__.p + "assets/9c22f648b4e16543c6e2.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/zombie_apocalypse.png
+        const arizona_hud_new_year_img_logotype_zombie_apocalypse_namespaceObject = __webpack_require__.p + "assets/6c8407e7fb0fc0db3185.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/halloween_2025.png
+        const arizona_hud_new_year_img_logotype_halloween_2025_namespaceObject = __webpack_require__.p + "assets/861439928e690ab048a4.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_1.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_1_namespaceObject = __webpack_require__.p + "assets/0a737a74bcf743b77406.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_2.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_2_namespaceObject = __webpack_require__.p + "assets/b670b187f67ea1606de6.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_3.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_3_namespaceObject = __webpack_require__.p + "assets/d8737f41053986170e6a.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_4.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_4_namespaceObject = __webpack_require__.p + "assets/6766c15980644bea81ce.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_5.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_5_namespaceObject = __webpack_require__.p + "assets/f7f7473711904d932d95.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_6.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_6_namespaceObject = __webpack_require__.p + "assets/67fe7149e562fa4eff00.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_7.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_7_namespaceObject = __webpack_require__.p + "assets/76c20142f4b0f7a9e992.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_8.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_8_namespaceObject = __webpack_require__.p + "assets/e6396a880aeaaf4df6a7.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_9.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_9_namespaceObject = __webpack_require__.p + "assets/b0232c0ecedc97323513.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_10.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_10_namespaceObject = __webpack_require__.p + "assets/32338bd91722312cb1be.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_11.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_11_namespaceObject = __webpack_require__.p + "assets/7574f0c39c288cf53689.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_12.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_12_namespaceObject = __webpack_require__.p + "assets/dd495bd92c020f299ddf.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_13.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_13_namespaceObject = __webpack_require__.p + "assets/b340230528e3dfc831de.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_14.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_14_namespaceObject = __webpack_require__.p + "assets/85645635f05456b1fac2.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_15.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_15_namespaceObject = __webpack_require__.p + "assets/2ce1dea7970d17fee88e.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_16.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_16_namespaceObject = __webpack_require__.p + "assets/423aa522a317118ebef9.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_17.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_17_namespaceObject = __webpack_require__.p + "assets/cb5d920ff316d774a5dc.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_18.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_18_namespaceObject = __webpack_require__.p + "assets/3fb26d9b3c3c823ae786.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_19.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_19_namespaceObject = __webpack_require__.p + "assets/9bf9786ab53ddf5be431.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_20.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_20_namespaceObject = __webpack_require__.p + "assets/fa1fd0180c80cdd274f5.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_21.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_21_namespaceObject = __webpack_require__.p + "assets/b9905c5b16d1c53b89b1.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_22.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_22_namespaceObject = __webpack_require__.p + "assets/8dd4f07ee00803b1c6a3.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_23.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_23_namespaceObject = __webpack_require__.p + "assets/6db2c248ce563811e493.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_24.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_24_namespaceObject = __webpack_require__.p + "assets/082d8c2074749e59f9ca.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_25.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_25_namespaceObject = __webpack_require__.p + "assets/0ba4dd688307de6c0945.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_26.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_26_namespaceObject = __webpack_require__.p + "assets/1f776a4cf2c42ef15c16.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_27.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_27_namespaceObject = __webpack_require__.p + "assets/93697ea0f546a2ad3c22.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_28.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_28_namespaceObject = __webpack_require__.p + "assets/45898bbfe909e6141cd0.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_29.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_29_namespaceObject = __webpack_require__.p + "assets/fbdee84fe7c59886ef56.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_30.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_30_namespaceObject = __webpack_require__.p + "assets/c297a5eb14ead5f493a1.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_31.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_31_namespaceObject = __webpack_require__.p + "assets/9f0d9a55433a7b512c69.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_32.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_32_namespaceObject = __webpack_require__.p + "assets/d24e456fc3446cfde424.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_33.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_33_namespaceObject = __webpack_require__.p + "assets/85db987970ed27ca65ab.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_34.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_34_namespaceObject = __webpack_require__.p + "assets/76b2463e07fa952c4961.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_35.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_35_namespaceObject = __webpack_require__.p + "assets/a73632f2b45454f75110.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_36.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_36_namespaceObject = __webpack_require__.p + "assets/08c175a04f8c8e8ac089.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/img/logotype/gif/gif_logo_custom_37.gif
+        const arizona_hud_new_year_img_logotype_gif_gif_logo_custom_37_namespaceObject = __webpack_require__.p + "assets/154c64c01e66ebf91dcd.gif";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/constants.js
+        var arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_new_year_constants_MAP_HUDFLAG_TO_ICON;
+
+        function arizona_hud_new_year_constants_typeof(o) {
+            "@babel/helpers - typeof";
+            return arizona_hud_new_year_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, arizona_hud_new_year_constants_typeof(o);
+        }
+
+        function arizona_hud_new_year_constants_defineProperty(e, r, t) {
+            return (r = arizona_hud_new_year_constants_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function arizona_hud_new_year_constants_toPropertyKey(t) {
+            var i = arizona_hud_new_year_constants_toPrimitive(t, "string");
+            return "symbol" == arizona_hud_new_year_constants_typeof(i) ? i : i + "";
+        }
+
+        function arizona_hud_new_year_constants_toPrimitive(t, r) {
+            if ("object" != arizona_hud_new_year_constants_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != arizona_hud_new_year_constants_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var arizona_hud_new_year_constants_HP_INDICATOR_COLOR = '#FF1D38';
+        var arizona_hud_new_year_constants_ARMOR_INDICATOR_COLOR = '#FFFFFF';
+        var arizona_hud_new_year_constants_SATIETY_INDICATOR_COLOR = '#F48A28';
+        var arizona_hud_new_year_constants_PED_ID = ( /* unused pure expression or super */ null && (-1));
+        var arizona_hud_new_year_constants_FATIGUE_INDICATOR_COLOR = '#2B90D6';
+        var arizona_hud_new_year_constants_hudLogotype = {
+            HUD_LOGOTYPE_DEFAULT: 1,
+            HUD_LOGOTYPE_MOBILE: 2,
+            HUD_LOGOTYPE_FIVE: 3,
+            HUD_LOGOTYPE_HALLOWEEN: 4,
+            HUD_LOGOTYPE_NEWYEAR: 5,
+            HUD_LOGOTYPE_VALENTINE: 6,
+            HUD_LOGOTYPE_EASTER: 7,
+            HUD_LOGOTYPE_DAY_WORK: 8,
+            HUD_LOGOTYPE_SUMMER: 9,
+            HUD_LOGOTYPE_HAPPY: 10,
+            HUD_LOGOTYPE_DEFAULT_NEW: 11,
+            HUD_LOGOTYPE_MOBILE_NEW: 12,
+            HUD_LOGOTYPE_HALLOWEEN_NEW: 13,
+            HUD_LOGOTYPE_NEWYEAR_NEW: 14,
+            HUD_LOGOTYPE_ZOMBIE_APOCALYPSE: 15,
+            HUD_LOGOTYPE_CUSTOM_GIF_1: 16,
+            HUD_LOGOTYPE_CUSTOM_GIF_2: 17,
+            HUD_LOGOTYPE_CUSTOM_GIF_3: 18,
+            HUD_LOGOTYPE_CUSTOM_GIF_4: 19,
+            HUD_LOGOTYPE_CUSTOM_GIF_5: 20,
+            HUD_LOGOTYPE_CUSTOM_GIF_6: 21,
+            HUD_LOGOTYPE_CUSTOM_GIF_7: 22,
+            HUD_LOGOTYPE_CUSTOM_GIF_8: 23,
+            HUD_LOGOTYPE_CUSTOM_GIF_9: 24,
+            HUD_LOGOTYPE_CUSTOM_GIF_10: 25,
+            HUD_LOGOTYPE_CUSTOM_GIF_11: 26,
+            HUD_LOGOTYPE_CUSTOM_GIF_12: 27,
+            HUD_LOGOTYPE_CUSTOM_GIF_13: 28,
+            HUD_LOGOTYPE_CUSTOM_GIF_14: 29,
+            HUD_LOGOTYPE_CUSTOM_GIF_15: 30,
+            HUD_LOGOTYPE_CUSTOM_GIF_16: 31,
+            HUD_LOGOTYPE_CUSTOM_GIF_17: 32,
+            HUD_LOGOTYPE_CUSTOM_GIF_18: 33,
+            HUD_LOGOTYPE_CUSTOM_GIF_19: 34,
+            HUD_LOGOTYPE_CUSTOM_GIF_20: 35,
+            HUD_LOGOTYPE_CUSTOM_GIF_21: 36,
+            HUD_LOGOTYPE_CUSTOM_GIF_22: 37,
+            HUD_LOGOTYPE_CUSTOM_GIF_23: 38,
+            HUD_LOGOTYPE_CUSTOM_GIF_24: 39,
+            HUD_LOGOTYPE_CUSTOM_GIF_25: 40,
+            HUD_LOGOTYPE_CUSTOM_GIF_26: 41,
+            HUD_LOGOTYPE_CUSTOM_GIF_27: 42,
+            HUD_LOGOTYPE_CUSTOM_GIF_28: 43,
+            HUD_LOGOTYPE_CUSTOM_GIF_29: 44,
+            HUD_LOGOTYPE_CUSTOM_GIF_30: 45,
+            HUD_LOGOTYPE_CUSTOM_GIF_31: 46,
+            HUD_LOGOTYPE_CUSTOM_GIF_32: 47,
+            HUD_LOGOTYPE_CUSTOM_GIF_33: 48,
+            HUD_LOGOTYPE_CUSTOM_GIF_34: 49,
+            HUD_LOGOTYPE_CUSTOM_GIF_35: 50,
+            HUD_LOGOTYPE_CUSTOM_GIF_36: 51,
+            HUD_LOGOTYPE_CUSTOM_GIF_37: 52,
+            HUD_LOGOTYPE_HALLOWEEN_2025: 53
+        };
+        var arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_ICON = (arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I = {}, arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_DEFAULT, arizona_hud_new_year_img_logotype_111_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_MOBILE, arizona_hud_new_year_img_logotype_222_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_FIVE, arizona_hud_new_year_img_logotype_333_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_HALLOWEEN, arizona_hud_new_year_img_logotype_444_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_NEWYEAR, arizona_hud_new_year_img_logotype_gif_logo_1_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_VALENTINE, arizona_hud_new_year_img_logotype_gif_logo_2_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_EASTER, arizona_hud_new_year_img_logotype_777_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_DAY_WORK, arizona_hud_new_year_img_logotype_888_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_SUMMER, arizona_hud_new_year_img_logotype_999_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_HAPPY, arizona_hud_new_year_img_logotype_1000_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_DEFAULT_NEW, arizona_hud_new_year_img_logotype_1001_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_MOBILE_NEW, arizona_hud_new_year_img_logotype_1002_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_HALLOWEEN_NEW, arizona_hud_new_year_img_logotype_1111_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_NEWYEAR_NEW, arizona_hud_new_year_img_logotype_1112_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_ZOMBIE_APOCALYPSE, arizona_hud_new_year_img_logotype_zombie_apocalypse_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_1, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_1_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_2, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_2_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_3, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_3_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_4, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_4_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_5, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_5_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_6, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_6_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_7, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_7_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_8, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_8_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_9, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_9_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_10, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_10_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_11, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_11_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_12, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_12_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_13, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_13_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_14, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_14_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_15, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_15_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_16, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_16_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_17, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_17_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_18, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_18_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_19, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_19_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_20, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_20_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_21, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_21_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_22, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_22_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_23, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_23_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_24, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_24_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_25, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_25_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_26, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_26_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_27, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_27_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_28, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_28_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_29, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_29_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_30, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_30_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_31, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_31_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_32, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_32_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_33, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_33_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_34, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_34_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_35, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_35_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDLOGOTYPE_TO_I, arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_36, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_36_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_37, arizona_hud_new_year_img_logotype_gif_gif_logo_custom_37_namespaceObject), arizona_hud_new_year_constants_hudLogotype.HUD_LOGOTYPE_HALLOWEEN_2025, arizona_hud_new_year_img_logotype_halloween_2025_namespaceObject));
+        var arizona_hud_new_year_constants_hudFlag = {
+            HUD_FLAG_TEST: 0,
+            HUD_FLAG_PHOENIX: 1,
+            HUD_FLAG_TUCSON: 2,
+            HUD_FLAG_SCOTTDALE: 3,
+            HUD_FLAG_CHANDLER: 4,
+            HUD_FLAG_BRAINBURG: 5,
+            HUD_FLAG_SAINTROSE: 6,
+            HUD_FLAG_MESA: 7,
+            HUD_FLAG_REDROCK: 8,
+            HUD_FLAG_YUMA: 9,
+            HUD_FLAG_SURPRISE: 10,
+            HUD_FLAG_PRESCOTT: 11,
+            HUD_FLAG_GLENDALE: 12,
+            HUD_FLAG_KINGMAN: 13,
+            HUD_FLAG_WINSLOW: 14,
+            HUD_FLAG_PAYSON: 15,
+            HUD_FLAG_GILBERT: 16,
+            HUD_FLAG_SHOWLOW: 17,
+            HUD_FLAG_CASAGRANDE: 18,
+            HUD_FLAG_PAGE: 19,
+            HUD_FLAG_SUNCITY: 20,
+            HUD_FLAG_QUEENCREEK: 21,
+            HUD_FLAG_SEDONA: 22,
+            HUD_FLAG_MOBILE_1: 23,
+            HUD_FLAG_MOBILE_2: 24,
+            HUD_FLAG_MOBILE_3: 25,
+            HUD_FLAG_HOLIDAY: 26,
+            HUD_FLAG_WEDNESDAY: 27,
+            HUD_FLAG_YAVA: 28,
+            HUD_FLAG_FARAWAY: 29,
+            HUD_FLAG_BUMBLE: 30,
+            HUD_FLAG_CHRISTMAS: 31,
+            HUD_FLAG_MIRAGE: 32,
+            HUD_FLAG_LOVE: 33,
+            HUD_FLAG_DRAKE: 34,
+            HUD_FLAG_SPACE: 35
+        };
+        var views_arizona_hud_new_year_constants_MAP_HUDFLAG_TO_ICON = (arizona_hud_new_year_constants_MAP_HUDFLAG_TO_ICON = {}, arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDFLAG_TO_ICON, arizona_hud_new_year_constants_hudFlag.HUD_FLAG_TEST, arizona_hud_new_year_img_flag_0_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_PHOENIX, arizona_hud_new_year_img_flag_1_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_TUCSON, arizona_hud_new_year_img_flag_2_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_SCOTTDALE, arizona_hud_new_year_img_flag_3_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_CHANDLER, arizona_hud_new_year_img_flag_4_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_BRAINBURG, arizona_hud_new_year_img_flag_5_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_SAINTROSE, arizona_hud_new_year_img_flag_6_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_MESA, arizona_hud_new_year_img_flag_7_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_REDROCK, arizona_hud_new_year_img_flag_8_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_YUMA, arizona_hud_new_year_img_flag_9_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDFLAG_TO_ICON, arizona_hud_new_year_constants_hudFlag.HUD_FLAG_SURPRISE, arizona_hud_new_year_img_flag_10_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_PRESCOTT, arizona_hud_new_year_img_flag_11_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_GLENDALE, arizona_hud_new_year_img_flag_12_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_KINGMAN, arizona_hud_new_year_img_flag_13_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_WINSLOW, arizona_hud_new_year_img_flag_14_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_PAYSON, arizona_hud_new_year_img_flag_15_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_GILBERT, arizona_hud_new_year_img_flag_16_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_SHOWLOW, arizona_hud_new_year_img_flag_17_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_CASAGRANDE, arizona_hud_new_year_img_flag_18_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_PAGE, arizona_hud_new_year_img_flag_19_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDFLAG_TO_ICON, arizona_hud_new_year_constants_hudFlag.HUD_FLAG_SUNCITY, arizona_hud_new_year_img_flag_20_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_QUEENCREEK, arizona_hud_new_year_img_flag_21_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_SEDONA, arizona_hud_new_year_img_flag_22_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_MOBILE_1, arizona_hud_new_year_img_flag_1111_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_MOBILE_2, arizona_hud_new_year_img_flag_2222_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_MOBILE_3, arizona_hud_new_year_img_flag_3333_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_HOLIDAY, arizona_hud_new_year_img_flag_23_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_WEDNESDAY, arizona_hud_new_year_img_flag_24_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_YAVA, arizona_hud_new_year_img_flag_25_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_FARAWAY, arizona_hud_new_year_img_flag_26_namespaceObject), arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_defineProperty(arizona_hud_new_year_constants_MAP_HUDFLAG_TO_ICON, arizona_hud_new_year_constants_hudFlag.HUD_FLAG_BUMBLE, arizona_hud_new_year_img_flag_27_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_CHRISTMAS, arizona_hud_new_year_img_flag_28_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_MIRAGE, arizona_hud_new_year_img_flag_29_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_LOVE, arizona_hud_new_year_img_flag_30_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_DRAKE, arizona_hud_new_year_img_flag_31_namespaceObject), arizona_hud_new_year_constants_hudFlag.HUD_FLAG_SPACE, arizona_hud_new_year_img_flag_32_namespaceObject));; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/player-info/img/green-zone-icon.svg
+        const arizona_hud_new_year_player_info_img_green_zone_icon_namespaceObject = __webpack_require__.p + "assets/7f2d882da1a82db6b63f.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/player-info/img/work-zone-icon.svg
+        const work_zone_icon_namespaceObject = __webpack_require__.p + "assets/8651562798ed563fbf72.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/player-info/img/red-monster.svg
+        const red_monster_namespaceObject = __webpack_require__.p + "assets/aceb6deca8aeb0bd0015.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/player-info/img/green-monster.svg
+        const green_monster_namespaceObject = __webpack_require__.p + "assets/7bd5c94ff77eed2f316d.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/player-info/img/tool.png
+        const tool_namespaceObject = __webpack_require__.p + "assets/cd43dcdc3b0a2c29128b.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/player-info/index.svelte
+        /* src\views\arizona-hud-new-year\player-info\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function arizona_hud_new_year_player_info_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[14] = list[i];
+            return child_ctx;
+        }
+
+        // (105:3) {#if $playerPower > 0}
+        function arizona_hud_new_year_player_info_index_svelte_create_if_block_4(ctx) {
+            let div;
+            let circleindicator;
+            let current;
+
+            circleindicator = new circle_indicator_index_svelte({
+                props: {
+                    icon: 'fist',
+                    percents: /*$playerPower*/ ctx[8],
+                    iconColor: arizona_hud_new_year_constants_FATIGUE_INDICATOR_COLOR
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(circleindicator.$$.fragment);
+                    dom_attr(div, "class", "player-info-ny__indicator");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(circleindicator, div, null);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const circleindicator_changes = {};
+                    if (dirty & /*$playerPower*/ 256) circleindicator_changes.percents = /*$playerPower*/ ctx[8];
+                    circleindicator.$set(circleindicator_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(circleindicator.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(circleindicator.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(circleindicator);
+                }
+            };
+        }
+
+        // (122:3) {:else}
+        function arizona_hud_new_year_player_info_index_svelte_create_else_block(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = work_zone_icon_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "player-info-ny__green-zone-icon");
+                    dom_attr(img, "alt", "work-zone");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (116:3) {#if $isZoneSafe}
+        function arizona_hud_new_year_player_info_index_svelte_create_if_block_3(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = arizona_hud_new_year_player_info_img_green_zone_icon_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "player-info-ny__green-zone-icon");
+                    dom_attr(img, "alt", "green-zone");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (140:2) {#if $playerWanteds > 0}
+        function arizona_hud_new_year_player_info_index_svelte_create_if_block_2(ctx) {
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let t3;
+            let span;
+            let t4;
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = " ";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    div1.textContent = "В розыске!";
+                    t3 = dom_space();
+                    span = dom_element("span");
+                    t4 = dom_text( /*$playerWanteds*/ ctx[10]);
+                    dom_attr(div0, "class", "player-info-ny__blue-light");
+                    dom_attr(div1, "class", "player-info-ny__player-wanted-caption");
+                    dom_attr(span, "class", "player-info-ny__player-watned-star");
+                    dom_attr(div2, "class", "player-info-ny__player-wanted");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    dom_append(div2, t3);
+                    dom_append(div2, span);
+                    dom_append(span, t4);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$playerWanteds*/ 1024) dom_set_data(t4, /*$playerWanteds*/ ctx[10]);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+                }
+            };
+        }
+
+        // (148:1) {#if !isEmpty(toolsInfo)}
+        function arizona_hud_new_year_player_info_index_svelte_create_if_block(ctx) {
+            let div1;
+            let p;
+            let t0_value = /*toolsInfo*/ ctx[0].title + "";
+            let t0;
+            let t1;
+            let div0;
+            let each_value = each_ensure_array_like( /*toolsInfo*/ ctx[0].tools);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = arizona_hud_new_year_player_info_index_svelte_create_each_block(arizona_hud_new_year_player_info_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    p = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    div0 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    dom_attr(p, "class", "player-info-ny__tools-title");
+                    dom_attr(div0, "class", "player-info-ny__tools-list");
+                    dom_attr(div1, "class", "player-info-ny__tools");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, p);
+                    dom_append(p, t0);
+                    dom_append(div1, t1);
+                    dom_append(div1, div0);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div0, null);
+                        }
+                    }
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*toolsInfo*/ 1 && t0_value !== (t0_value = /*toolsInfo*/ ctx[0].title + "")) dom_set_data(t0, t0_value);
+
+                    if (dirty & /*toolsInfo*/ 1) {
+                        each_value = each_ensure_array_like( /*toolsInfo*/ ctx[0].tools);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = arizona_hud_new_year_player_info_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = arizona_hud_new_year_player_info_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div0, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                }
+            };
+        }
+
+        // (165:6) {#if tool.image != '0.webp'}
+        function arizona_hud_new_year_player_info_index_svelte_create_if_block_1(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    dom_attr(img, "class", "player-info-ny__tools-item-img");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/lockdown_protocol/items/${/*tool*/ ctx[14].image}`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "item");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*toolsInfo*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/lockdown_protocol/items/${/*tool*/ ctx[14].image}`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (154:10) {#each toolsInfo.tools as tool}
+        function arizona_hud_new_year_player_info_index_svelte_create_each_block(ctx) {
+            let div1;
+            let div0;
+            let p;
+            let t0_value = /*tool*/ ctx[14].key + "";
+            let t0;
+            let t1;
+            let t2;
+            let if_block = /*tool*/ ctx[14].image != '0.webp' && arizona_hud_new_year_player_info_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    p = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    if (if_block) if_block.c();
+                    t2 = dom_space();
+                    dom_attr(p, "class", "player-info-ny__tools-item-button-key");
+                    dom_attr(div0, "class", "player-info-ny__tools-item-button");
+                    dom_attr(div1, "class", "player-info-ny__tools-item");
+                    dom_toggle_class(div1, "player-info-ny__tools-item--selected", /*tool*/ ctx[14].selected);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+                    dom_append(div0, p);
+                    dom_append(p, t0);
+                    dom_append(div1, t1);
+                    if (if_block) if_block.m(div1, null);
+                    dom_append(div1, t2);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*toolsInfo*/ 1 && t0_value !== (t0_value = /*tool*/ ctx[14].key + "")) dom_set_data(t0, t0_value);
+
+                    if ( /*tool*/ ctx[14].image != '0.webp') {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = arizona_hud_new_year_player_info_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            if_block.m(div1, t2);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (dirty & /*toolsInfo*/ 1) {
+                        dom_toggle_class(div1, "player-info-ny__tools-item--selected", /*tool*/ ctx[14].selected);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        function arizona_hud_new_year_player_info_index_svelte_create_fragment(ctx) {
+            let div21;
+            let div12;
+            let div4;
+            let div1;
+            let i;
+            let t0;
+            let div0;
+            let t1;
+            let t2;
+            let div3;
+            let div2;
+            let t3;
+            let span0;
+            let t4;
+            let t5;
+            let div5;
+            let img1;
+            let img1_src_value;
+            let div5_style_value;
+            let t6;
+            let div8;
+            let div6;
+
+            let t7_value = ( /*$playerRole*/ ctx[5] === 'traitor' ?
+                'Предатель' :
+                "Рабочий") + "";
+
+            let t7;
+            let t8;
+            let div7;
+            let t10;
+            let div11;
+            let div9;
+            let t11_value = /*$serverInformation*/ ctx[2].id + "";
+            let t11;
+            let t12;
+            let div10;
+            let t13_value = /*$serverInformation*/ ctx[2].title + "";
+            let t13;
+            let t14;
+            let div19;
+            let div16;
+            let div13;
+            let circleindicator0;
+            let t15;
+            let div14;
+            let circleindicator1;
+            let t16;
+            let div15;
+            let circleindicator2;
+            let t17;
+            let t18;
+            let div18;
+            let t19;
+            let div17;
+            let span1;
+            let t20_value = ( /*$isZoneSafe*/ ctx[9] ? 'Зеленая' : 'Рабочая') + "";
+            let t20;
+            let t21;
+            let span2;
+            let div18_transition;
+            let t23;
+            let div20;
+            let t24;
+            let show_if = !(0, lodash.isEmpty)( /*toolsInfo*/ ctx[0]);
+            let current;
+
+            circleindicator0 = new circle_indicator_index_svelte({
+                props: {
+                    icon: 'heart',
+                    percents: /*$playerHealth*/ ctx[6],
+                    iconColor: arizona_hud_new_year_constants_HP_INDICATOR_COLOR
+                }
+            });
+
+            circleindicator1 = new circle_indicator_index_svelte({
+                props: {
+                    icon: 'armor',
+                    percents: /*$playerArmor*/ ctx[7],
+                    iconColor: arizona_hud_new_year_constants_ARMOR_INDICATOR_COLOR
+                }
+            });
+
+            circleindicator2 = new circle_indicator_index_svelte({
+                props: {
+                    icon: 'timer',
+                    percents: /*minutes*/ ctx[1],
+                    maxValue: 25,
+                    valueTitle: 'м.',
+                    iconColor: arizona_hud_new_year_constants_SATIETY_INDICATOR_COLOR
+                }
+            });
+
+            let if_block0 = /*$playerPower*/ ctx[8] > 0 && arizona_hud_new_year_player_info_index_svelte_create_if_block_4(ctx);
+
+            function select_block_type(ctx, dirty) {
+                if ( /*$isZoneSafe*/ ctx[9]) return arizona_hud_new_year_player_info_index_svelte_create_if_block_3;
+                return arizona_hud_new_year_player_info_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block1 = current_block_type(ctx);
+            let if_block2 = /*$playerWanteds*/ ctx[10] > 0 && arizona_hud_new_year_player_info_index_svelte_create_if_block_2(ctx);
+            let if_block3 = show_if && arizona_hud_new_year_player_info_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    div21 = dom_element("div");
+                    div12 = dom_element("div");
+                    div4 = dom_element("div");
+                    div1 = dom_element("div");
+                    i = dom_element("i");
+                    t0 = dom_space();
+                    div0 = dom_element("div");
+                    t1 = dom_text( /*$playersEventOnline*/ ctx[3]);
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    div2.innerHTML = `<img class="player-info-ny__user-traitors-img" src="${red_monster_namespaceObject}" alt="traitor"/>`;
+                    t3 = dom_space();
+                    span0 = dom_element("span");
+                    t4 = dom_text( /*$playersTraitors*/ ctx[4]);
+                    t5 = dom_space();
+                    div5 = dom_element("div");
+                    img1 = dom_element("img");
+                    t6 = dom_space();
+                    div8 = dom_element("div");
+                    div6 = dom_element("div");
+                    t7 = dom_text(t7_value);
+                    t8 = dom_space();
+                    div7 = dom_element("div");
+                    div7.textContent = "arizona-rp.com";
+                    t10 = dom_space();
+                    div11 = dom_element("div");
+                    div9 = dom_element("div");
+                    t11 = dom_text(t11_value);
+                    t12 = dom_space();
+                    div10 = dom_element("div");
+                    t13 = dom_text(t13_value);
+                    t14 = dom_space();
+                    div19 = dom_element("div");
+                    div16 = dom_element("div");
+                    div13 = dom_element("div");
+                    create_component(circleindicator0.$$.fragment);
+                    t15 = dom_space();
+                    div14 = dom_element("div");
+                    create_component(circleindicator1.$$.fragment);
+                    t16 = dom_space();
+                    div15 = dom_element("div");
+                    create_component(circleindicator2.$$.fragment);
+                    t17 = dom_space();
+                    if (if_block0) if_block0.c();
+                    t18 = dom_space();
+                    div18 = dom_element("div");
+                    if_block1.c();
+                    t19 = dom_space();
+                    div17 = dom_element("div");
+                    span1 = dom_element("span");
+                    t20 = dom_text(t20_value);
+                    t21 = dom_space();
+                    span2 = dom_element("span");
+                    span2.textContent = "зона";
+                    t23 = dom_space();
+                    div20 = dom_element("div");
+                    if (if_block2) if_block2.c();
+                    t24 = dom_space();
+                    if (if_block3) if_block3.c();
+                    dom_attr(i, "class", "player-info-ny__users-online-icon ui-man");
+                    dom_attr(div0, "class", "player-info-ny__users-online-count");
+                    dom_attr(div1, "class", "player-info-ny__users-online");
+                    dom_attr(div2, "class", "player-info-ny__user-traitors-img-wrapper");
+                    dom_attr(span0, "class", "player-info-ny__user-traitors-value");
+                    dom_attr(div3, "class", "player-info-ny__user-traitors");
+                    dom_attr(div4, "class", "player-info-ny__user-stats");
+
+                    if (!utils_src_url_equal(img1.src, img1_src_value = /*$playerRole*/ ctx[5] === 'traitor' ?
+                            red_monster_namespaceObject :
+                            green_monster_namespaceObject)) dom_attr(img1, "src", img1_src_value);
+
+                    dom_attr(img1, "class", "player-info-ny__role-logo-image");
+                    dom_attr(img1, "alt", "logo");
+                    dom_attr(div5, "class", "player-info-ny__role-logo");
+
+                    dom_attr(div5, "style", div5_style_value = `--roleColor: ${/*$playerRole*/ ctx[5] === 'traitor'
+			? '#FF4546'
+			: "#60CA5D"}`);
+
+                    dom_attr(div6, "class", "player-info-ny__project-role");
+                    dom_attr(div7, "class", "player-info-ny__project-name");
+                    dom_attr(div8, "class", "player-info-ny__project");
+                    dom_attr(div9, "class", "player-info-ny__server-number");
+                    dom_attr(div10, "class", "player-info-ny__server-name");
+                    dom_attr(div11, "class", "player-info-ny__server");
+                    dom_attr(div12, "class", "player-info-ny__server-info-bar");
+                    set_style(div12, "--server-flag", `url(${/*$serverInformation*/ ctx[2].flag})`);
+                    dom_attr(div13, "class", "player-info-ny__indicator");
+                    dom_attr(div14, "class", "player-info-ny__indicator");
+                    dom_attr(div15, "class", "player-info-ny__indicator");
+                    dom_attr(div16, "class", "player-info-ny__indicators");
+                    dom_attr(span2, "class", "player-info-ny__green-zone-text-highlight");
+                    dom_attr(div17, "class", "player-info-ny__green-zone-text");
+                    dom_attr(div18, "class", "player-info-ny__green-zone");
+                    dom_toggle_class(div18, "player-info-ny__green-zone--work", ! /*$isZoneSafe*/ ctx[9]);
+                    dom_attr(div19, "class", "player-info-ny__params");
+                    dom_attr(div20, "class", "player-info-ny__player-stats");
+                    dom_attr(div21, "class", "player-info-ny");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div21, anchor);
+                    dom_append(div21, div12);
+                    dom_append(div12, div4);
+                    dom_append(div4, div1);
+                    dom_append(div1, i);
+                    dom_append(div1, t0);
+                    dom_append(div1, div0);
+                    dom_append(div0, t1);
+                    dom_append(div4, t2);
+                    dom_append(div4, div3);
+                    dom_append(div3, div2);
+                    dom_append(div3, t3);
+                    dom_append(div3, span0);
+                    dom_append(span0, t4);
+                    dom_append(div12, t5);
+                    dom_append(div12, div5);
+                    dom_append(div5, img1);
+                    dom_append(div12, t6);
+                    dom_append(div12, div8);
+                    dom_append(div8, div6);
+                    dom_append(div6, t7);
+                    dom_append(div8, t8);
+                    dom_append(div8, div7);
+                    dom_append(div12, t10);
+                    dom_append(div12, div11);
+                    dom_append(div11, div9);
+                    dom_append(div9, t11);
+                    dom_append(div11, t12);
+                    dom_append(div11, div10);
+                    dom_append(div10, t13);
+                    dom_append(div21, t14);
+                    dom_append(div21, div19);
+                    dom_append(div19, div16);
+                    dom_append(div16, div13);
+                    mount_component(circleindicator0, div13, null);
+                    dom_append(div16, t15);
+                    dom_append(div16, div14);
+                    mount_component(circleindicator1, div14, null);
+                    dom_append(div16, t16);
+                    dom_append(div16, div15);
+                    mount_component(circleindicator2, div15, null);
+                    dom_append(div16, t17);
+                    if (if_block0) if_block0.m(div16, null);
+                    dom_append(div19, t18);
+                    dom_append(div19, div18);
+                    if_block1.m(div18, null);
+                    dom_append(div18, t19);
+                    dom_append(div18, div17);
+                    dom_append(div17, span1);
+                    dom_append(span1, t20);
+                    dom_append(div17, t21);
+                    dom_append(div17, span2);
+                    dom_append(div21, t23);
+                    dom_append(div21, div20);
+                    if (if_block2) if_block2.m(div20, null);
+                    dom_append(div21, t24);
+                    if (if_block3) if_block3.m(div21, null);
+                    current = true;
+                },
+                p(ctx, [dirty]) {
+                    if (!current || dirty & /*$playersEventOnline*/ 8) dom_set_data(t1, /*$playersEventOnline*/ ctx[3]);
+                    if (!current || dirty & /*$playersTraitors*/ 16) dom_set_data(t4, /*$playersTraitors*/ ctx[4]);
+
+                    if (!current || dirty & /*$playerRole*/ 32 && !utils_src_url_equal(img1.src, img1_src_value = /*$playerRole*/ ctx[5] === 'traitor' ?
+                            red_monster_namespaceObject :
+                            green_monster_namespaceObject)) {
+                        dom_attr(img1, "src", img1_src_value);
+                    }
+
+                    if (!current || dirty & /*$playerRole*/ 32 && div5_style_value !== (div5_style_value = `--roleColor: ${/*$playerRole*/ ctx[5] === 'traitor'
+			? '#FF4546'
+			: "#60CA5D"}`)) {
+                        dom_attr(div5, "style", div5_style_value);
+                    }
+
+                    if ((!current || dirty & /*$playerRole*/ 32) && t7_value !== (t7_value = ( /*$playerRole*/ ctx[5] === 'traitor' ?
+                            'Предатель' :
+                            "Рабочий") + "")) dom_set_data(t7, t7_value);
+
+                    if ((!current || dirty & /*$serverInformation*/ 4) && t11_value !== (t11_value = /*$serverInformation*/ ctx[2].id + "")) dom_set_data(t11, t11_value);
+                    if ((!current || dirty & /*$serverInformation*/ 4) && t13_value !== (t13_value = /*$serverInformation*/ ctx[2].title + "")) dom_set_data(t13, t13_value);
+
+                    if (!current || dirty & /*$serverInformation*/ 4) {
+                        set_style(div12, "--server-flag", `url(${/*$serverInformation*/ ctx[2].flag})`);
+                    }
+
+                    const circleindicator0_changes = {};
+                    if (dirty & /*$playerHealth*/ 64) circleindicator0_changes.percents = /*$playerHealth*/ ctx[6];
+                    circleindicator0.$set(circleindicator0_changes);
+                    const circleindicator1_changes = {};
+                    if (dirty & /*$playerArmor*/ 128) circleindicator1_changes.percents = /*$playerArmor*/ ctx[7];
+                    circleindicator1.$set(circleindicator1_changes);
+                    const circleindicator2_changes = {};
+                    if (dirty & /*minutes*/ 2) circleindicator2_changes.percents = /*minutes*/ ctx[1];
+                    circleindicator2.$set(circleindicator2_changes);
+
+                    if ( /*$playerPower*/ ctx[8] > 0) {
+                        if (if_block0) {
+                            if_block0.p(ctx, dirty);
+
+                            if (dirty & /*$playerPower*/ 256) {
+                                transitions_transition_in(if_block0, 1);
+                            }
+                        } else {
+                            if_block0 = arizona_hud_new_year_player_info_index_svelte_create_if_block_4(ctx);
+                            if_block0.c();
+                            transitions_transition_in(if_block0, 1);
+                            if_block0.m(div16, null);
+                        }
+                    } else if (if_block0) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block0, 1, 1, () => {
+                            if_block0 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if (current_block_type !== (current_block_type = select_block_type(ctx, dirty))) {
+                        if_block1.d(1);
+                        if_block1 = current_block_type(ctx);
+
+                        if (if_block1) {
+                            if_block1.c();
+                            if_block1.m(div18, t19);
+                        }
+                    }
+
+                    if ((!current || dirty & /*$isZoneSafe*/ 512) && t20_value !== (t20_value = ( /*$isZoneSafe*/ ctx[9] ? 'Зеленая' : 'Рабочая') + "")) dom_set_data(t20, t20_value);
+
+                    if (!current || dirty & /*$isZoneSafe*/ 512) {
+                        dom_toggle_class(div18, "player-info-ny__green-zone--work", ! /*$isZoneSafe*/ ctx[9]);
+                    }
+
+                    if ( /*$playerWanteds*/ ctx[10] > 0) {
+                        if (if_block2) {
+                            if_block2.p(ctx, dirty);
+                        } else {
+                            if_block2 = arizona_hud_new_year_player_info_index_svelte_create_if_block_2(ctx);
+                            if_block2.c();
+                            if_block2.m(div20, null);
+                        }
+                    } else if (if_block2) {
+                        if_block2.d(1);
+                        if_block2 = null;
+                    }
+
+                    if (dirty & /*toolsInfo*/ 1) show_if = !(0, lodash.isEmpty)( /*toolsInfo*/ ctx[0]);
+
+                    if (show_if) {
+                        if (if_block3) {
+                            if_block3.p(ctx, dirty);
+                        } else {
+                            if_block3 = arizona_hud_new_year_player_info_index_svelte_create_if_block(ctx);
+                            if_block3.c();
+                            if_block3.m(div21, null);
+                        }
+                    } else if (if_block3) {
+                        if_block3.d(1);
+                        if_block3 = null;
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(circleindicator0.$$.fragment, local);
+                    transitions_transition_in(circleindicator1.$$.fragment, local);
+                    transitions_transition_in(circleindicator2.$$.fragment, local);
+                    transitions_transition_in(if_block0);
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (!div18_transition) div18_transition = create_bidirectional_transition(div18, fade, {}, true);
+                            div18_transition.run(1);
+                        });
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(circleindicator0.$$.fragment, local);
+                    transitions_transition_out(circleindicator1.$$.fragment, local);
+                    transitions_transition_out(circleindicator2.$$.fragment, local);
+                    transitions_transition_out(if_block0);
+
+                    if (local) {
+                        if (!div18_transition) div18_transition = create_bidirectional_transition(div18, fade, {}, false);
+                        div18_transition.run(0);
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div21);
+                    }
+
+                    destroy_component(circleindicator0);
+                    destroy_component(circleindicator1);
+                    destroy_component(circleindicator2);
+                    if (if_block0) if_block0.d();
+                    if_block1.d();
+                    if (detaching && div18_transition) div18_transition.end();
+                    if (if_block2) if_block2.d();
+                    if (if_block3) if_block3.d();
+                }
+            };
+        }
+
+        function arizona_hud_new_year_player_info_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $timeLeft;
+            let $serverInformation;
+            let $playersEventOnline;
+            let $playersTraitors;
+            let $playerRole;
+            let $playerHealth;
+            let $playerArmor;
+            let $playerPower;
+            let $isZoneSafe;
+            let $playerWanteds;
+            utils_component_subscribe($$self, store_timeLeft, $$value => $$invalidate(11, $timeLeft = $$value));
+            utils_component_subscribe($$self, store_serverInformation, $$value => $$invalidate(2, $serverInformation = $$value));
+            utils_component_subscribe($$self, store_playersEventOnline, $$value => $$invalidate(3, $playersEventOnline = $$value));
+            utils_component_subscribe($$self, playersTraitors, $$value => $$invalidate(4, $playersTraitors = $$value));
+            utils_component_subscribe($$self, playerRole, $$value => $$invalidate(5, $playerRole = $$value));
+            utils_component_subscribe($$self, player_playerHealth, $$value => $$invalidate(6, $playerHealth = $$value));
+            utils_component_subscribe($$self, playerArmor, $$value => $$invalidate(7, $playerArmor = $$value));
+            utils_component_subscribe($$self, arizona_hud_new_year_store_playerPower, $$value => $$invalidate(8, $playerPower = $$value));
+            utils_component_subscribe($$self, isZoneSafe, $$value => $$invalidate(9, $isZoneSafe = $$value));
+            utils_component_subscribe($$self, arizona_hud_new_year_store_playerWanteds, $$value => $$invalidate(10, $playerWanteds = $$value));
+            let toolsInfo = {};
+            let minutes = 0;
+
+            const initializeToolsInfo = toolsInfoDto => {
+                $$invalidate(0, toolsInfo = toolsInfoDto);
+            };
+
+            const unregisterInitializeToolsInfo = registerEvent('event.arizonahudNewYear.initializeToolsInfo', initializeToolsInfo);
+
+            onDestroy(() => {
+                unregisterInitializeToolsInfo();
+            });
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*$timeLeft*/ 2048) {
+                    $: {
+                        $$invalidate(1, minutes = parseInt($timeLeft / 60, 10));
+                    }
+                }
+            };
+
+            return [
+                toolsInfo,
+                minutes,
+                $serverInformation,
+                $playersEventOnline,
+                $playersTraitors,
+                $playerRole,
+                $playerHealth,
+                $playerArmor,
+                $playerPower,
+                $isZoneSafe,
+                $playerWanteds,
+                $timeLeft
+            ];
+        }
+
+        class player_info_index_svelte_Player_info extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, arizona_hud_new_year_player_info_index_svelte_instance, arizona_hud_new_year_player_info_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const arizona_hud_new_year_player_info_index_svelte = (player_info_index_svelte_Player_info);; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/hotkeys-tips/index.svelte
+        /* src\views\arizona-hud-new-year\hotkeys-tips\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+        function arizona_hud_new_year_hotkeys_tips_index_svelte_create_else_block(ctx) {
+            let i;
+
+            return {
+                c() {
+                    i = dom_element("i");
+                    dom_attr(i, "class", "hotkeys-tips-ny__mic ui-mic");
+                    dom_toggle_class(i, "hotkeys-tips-ny__mic--activeno", /*$playerIsTalking*/ ctx[1]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, i, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$playerIsTalking*/ 2) {
+                        dom_toggle_class(i, "hotkeys-tips-ny__mic--activeno", /*$playerIsTalking*/ ctx[1]);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(i);
+                    }
+                }
+            };
+        }
+
+        // (55:2) {#if $playerIsTalking !== 2}
+        function arizona_hud_new_year_hotkeys_tips_index_svelte_create_if_block(ctx) {
+            let i;
+
+            return {
+                c() {
+                    i = dom_element("i");
+                    dom_attr(i, "class", "hotkeys-tips-ny__mic ui-mic");
+                    dom_toggle_class(i, "hotkeys-tips-ny__mic--active", /*$playerIsTalking*/ ctx[1]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, i, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$playerIsTalking*/ 2) {
+                        dom_toggle_class(i, "hotkeys-tips-ny__mic--active", /*$playerIsTalking*/ ctx[1]);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(i);
+                    }
+                }
+            };
+        }
+
+        function arizona_hud_new_year_hotkeys_tips_index_svelte_create_fragment(ctx) {
+            let div17;
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let t3;
+            let div5;
+            let div3;
+            let t5;
+            let div4;
+            let t7;
+            let div8;
+            let div6;
+            let t9;
+            let div7;
+            let t11;
+            let div11;
+            let div9;
+            let t13;
+            let div10;
+            let t15;
+            let div14;
+            let div12;
+            let t17;
+            let div13;
+            let t19;
+            let div16;
+            let t20;
+            let div15;
+            let span0;
+            let t22;
+            let br;
+            let t23;
+            let span1;
+            let div17_intro;
+            let mounted;
+            let dispose;
+
+            function select_block_type(ctx, dirty) {
+                if ( /*$playerIsTalking*/ ctx[1] !== 2) return arizona_hud_new_year_hotkeys_tips_index_svelte_create_if_block;
+                return arizona_hud_new_year_hotkeys_tips_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block = current_block_type(ctx);
+
+            return {
+                c() {
+                    div17 = dom_element("div");
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "P";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    div1.textContent = "Открыть задачи";
+                    t3 = dom_space();
+                    div5 = dom_element("div");
+                    div3 = dom_element("div");
+                    div3.textContent = "R";
+                    t5 = dom_space();
+                    div4 = dom_element("div");
+                    div4.textContent = "Действие с выбранным предметом";
+                    t7 = dom_space();
+                    div8 = dom_element("div");
+                    div6 = dom_element("div");
+                    div6.textContent = "F";
+                    t9 = dom_space();
+                    div7 = dom_element("div");
+                    div7.textContent = "Выбросить предмет / Отказаться от действия";
+                    t11 = dom_space();
+                    div11 = dom_element("div");
+                    div9 = dom_element("div");
+                    div9.textContent = "С";
+                    t13 = dom_space();
+                    div10 = dom_element("div");
+                    div10.textContent = "Поднять руки";
+                    t15 = dom_space();
+                    div14 = dom_element("div");
+                    div12 = dom_element("div");
+                    div12.textContent = "U";
+                    t17 = dom_space();
+                    div13 = dom_element("div");
+                    div13.textContent = "Анимации";
+                    t19 = dom_space();
+                    div16 = dom_element("div");
+                    if_block.c();
+                    t20 = dom_space();
+                    div15 = dom_element("div");
+                    span0 = dom_element("span");
+                    span0.textContent = "Z";
+                    t22 = dom_text("\r\n\t\t\t\tГолосовой чат\r\n\t\t\t\t");
+                    br = dom_element("br");
+                    t23 = dom_text("\r\n\t\t\t\tДля настройки голосового чата нажмите\r\n\t\t\t");
+                    span1 = dom_element("span");
+                    span1.textContent = "F11";
+                    dom_attr(div0, "class", "hotkeys-tips-ny__tip-button");
+                    dom_toggle_class(div0, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Tasks]);
+                    dom_attr(div1, "class", "hotkeys-tips-ny__tip-text");
+                    dom_attr(div2, "class", "hotkeys-tips-ny__tip");
+                    dom_attr(div3, "class", "hotkeys-tips-ny__tip-button");
+                    dom_toggle_class(div3, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Throw]);
+                    dom_attr(div4, "class", "hotkeys-tips-ny__tip-text");
+                    dom_attr(div5, "class", "hotkeys-tips-ny__tip");
+                    dom_attr(div6, "class", "hotkeys-tips-ny__tip-button");
+                    dom_toggle_class(div6, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Throw]);
+                    dom_attr(div7, "class", "hotkeys-tips-ny__tip-text");
+                    dom_attr(div8, "class", "hotkeys-tips-ny__tip");
+                    dom_attr(div9, "class", "hotkeys-tips-ny__tip-button");
+                    dom_toggle_class(div9, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].PickUp]);
+                    dom_attr(div10, "class", "hotkeys-tips-ny__tip-text");
+                    dom_attr(div11, "class", "hotkeys-tips-ny__tip");
+                    dom_attr(div12, "class", "hotkeys-tips-ny__tip-button");
+                    dom_toggle_class(div12, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Animations]);
+                    dom_attr(div13, "class", "hotkeys-tips-ny__tip-text");
+                    dom_attr(div14, "class", "hotkeys-tips-ny__tip");
+                    dom_attr(span0, "class", "hotkeys-tips-ny__tip-button");
+                    dom_toggle_class(span0, "hotkeys-tips-ny__tip-button--lighter", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Settings]);
+                    dom_attr(span1, "class", "hotkeys-tips-ny__tip-button hotkeys-tips-ny__tip-button--lighter");
+                    dom_toggle_class(span1, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Settings]);
+                    dom_attr(div15, "class", "hotkeys-tips-ny__tip-text");
+                    dom_attr(div16, "class", "hotkeys-tips-ny__tip");
+                    dom_attr(div17, "class", "hotkeys-tips-ny");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div17, anchor);
+                    dom_append(div17, div2);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    dom_append(div17, t3);
+                    dom_append(div17, div5);
+                    dom_append(div5, div3);
+                    dom_append(div5, t5);
+                    dom_append(div5, div4);
+                    dom_append(div17, t7);
+                    dom_append(div17, div8);
+                    dom_append(div8, div6);
+                    dom_append(div8, t9);
+                    dom_append(div8, div7);
+                    dom_append(div17, t11);
+                    dom_append(div17, div11);
+                    dom_append(div11, div9);
+                    dom_append(div11, t13);
+                    dom_append(div11, div10);
+                    dom_append(div17, t15);
+                    dom_append(div17, div14);
+                    dom_append(div14, div12);
+                    dom_append(div14, t17);
+                    dom_append(div14, div13);
+                    dom_append(div17, t19);
+                    dom_append(div17, div16);
+                    if_block.m(div16, null);
+                    dom_append(div16, t20);
+                    dom_append(div16, div15);
+                    dom_append(div15, span0);
+                    dom_append(div15, t22);
+                    dom_append(div15, br);
+                    dom_append(div15, t23);
+                    dom_append(div15, span1);
+
+                    if (!mounted) {
+                        dispose = dom_listen(window, "keydown", /*activate*/ ctx[3]);
+                        mounted = true;
+                    }
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 5) {
+                        dom_toggle_class(div0, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Tasks]);
+                    }
+
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 5) {
+                        dom_toggle_class(div3, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Throw]);
+                    }
+
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 5) {
+                        dom_toggle_class(div6, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Throw]);
+                    }
+
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 5) {
+                        dom_toggle_class(div9, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].PickUp]);
+                    }
+
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 5) {
+                        dom_toggle_class(div12, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Animations]);
+                    }
+
+                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block) {
+                        if_block.p(ctx, dirty);
+                    } else {
+                        if_block.d(1);
+                        if_block = current_block_type(ctx);
+
+                        if (if_block) {
+                            if_block.c();
+                            if_block.m(div16, t20);
+                        }
+                    }
+
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 5) {
+                        dom_toggle_class(span0, "hotkeys-tips-ny__tip-button--lighter", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Settings]);
+                    }
+
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 5) {
+                        dom_toggle_class(span1, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Settings]);
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div17_intro) {
+                            add_render_callback(() => {
+                                div17_intro = create_in_transition(div17, fade, {});
+                                div17_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div17);
+                    }
+
+                    if_block.d();
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        function arizona_hud_new_year_hotkeys_tips_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $playerIsTalking;
+            utils_component_subscribe($$self, playerIsTalking, $$value => $$invalidate(1, $playerIsTalking = $$value));
+
+            const Keys = {
+                Tasks: 'p',
+                Throw: 'q',
+                PickUp: 'alt',
+                Animations: 'u',
+                Settings: 'f11'
+            };
+
+            let MAP_KEY_TO_STATE = {
+                [Keys.Tasks]: false,
+                [Keys.Throw]: false,
+                [Keys.PickUp]: false,
+                [Keys.Animations]: false,
+                [Keys.Settings]: false
+            };
+
+            const activate = event => {
+                if (event.repeat) {
+                    return;
+                }
+
+                $$invalidate(0, MAP_KEY_TO_STATE[event.key.toLowerCase()] = true, MAP_KEY_TO_STATE);
+
+                setTimeout(
+                    () => {
+                        $$invalidate(0, MAP_KEY_TO_STATE[event.key.toLowerCase()] = false, MAP_KEY_TO_STATE);
+                    },
+                    200
+                );
+            };
+
+            return [MAP_KEY_TO_STATE, $playerIsTalking, Keys, activate];
+        }
+
+        class index_svelte_Hotkeys_tips extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, arizona_hud_new_year_hotkeys_tips_index_svelte_instance, arizona_hud_new_year_hotkeys_tips_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const arizona_hud_new_year_hotkeys_tips_index_svelte = (index_svelte_Hotkeys_tips);; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/countdown-overlay/index.svelte
+        /* src\views\arizona-hud-new-year\countdown-overlay\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+        function countdown_overlay_index_svelte_create_if_block(ctx) {
+            let div4;
+            let div0;
+            let t0;
+            let div3;
+            let t1;
+            let div2;
+            let div1;
+            let span0;
+            let t2_value = ( /*iconMap*/ ctx[8][ /*roleType*/ ctx[2]] || '?') + "";
+            let t2;
+            let t3;
+            let span1;
+
+            let t4_value = ( /*roleType*/ ctx[2] === 'traitor' ?
+                'ПРЕДАТЕЛЬ' :
+                'РАБОЧИЙ') + "";
+
+            let t4;
+            let t5;
+            let div3_intro;
+            let t6;
+            let div4_transition;
+            let current;
+            let if_block0 = /*showCountdown*/ ctx[5] && countdown_overlay_index_svelte_create_if_block_3(ctx);
+            let if_block1 = /*roleText*/ ctx[1] && countdown_overlay_index_svelte_create_if_block_2(ctx);
+            let if_block2 = /*showCountdown*/ ctx[5] && /*activeTips*/ ctx[3].length > 0 && countdown_overlay_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    div4 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_space();
+                    div3 = dom_element("div");
+                    if (if_block0) if_block0.c();
+                    t1 = dom_space();
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    span0 = dom_element("span");
+                    t2 = dom_text(t2_value);
+                    t3 = dom_space();
+                    span1 = dom_element("span");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    if (if_block1) if_block1.c();
+                    t6 = dom_space();
+                    if (if_block2) if_block2.c();
+                    dom_attr(div0, "class", "countdown-overlay__vignette");
+                    dom_attr(span0, "class", "countdown-overlay__role-icon");
+                    dom_attr(span1, "class", "countdown-overlay__role-label");
+                    dom_attr(div1, "class", "countdown-overlay__role-badge");
+                    dom_attr(div2, "class", "countdown-overlay__role-section");
+                    dom_attr(div3, "class", "countdown-overlay__main-card");
+                    dom_toggle_class(div3, "countdown-overlay__main-card--traitor", /*roleType*/ ctx[2] === 'traitor');
+                    dom_toggle_class(div3, "countdown-overlay__main-card--crewmate", /*roleType*/ ctx[2] === 'crewmate');
+                    dom_attr(div4, "class", "countdown-overlay");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div4, anchor);
+                    dom_append(div4, div0);
+                    dom_append(div4, t0);
+                    dom_append(div4, div3);
+                    if (if_block0) if_block0.m(div3, null);
+                    dom_append(div3, t1);
+                    dom_append(div3, div2);
+                    dom_append(div2, div1);
+                    dom_append(div1, span0);
+                    dom_append(span0, t2);
+                    dom_append(div1, t3);
+                    dom_append(div1, span1);
+                    dom_append(span1, t4);
+                    dom_append(div2, t5);
+                    if (if_block1) if_block1.m(div2, null);
+                    dom_append(div4, t6);
+                    if (if_block2) if_block2.m(div4, null);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    if ( /*showCountdown*/ ctx[5]) {
+                        if (if_block0) {
+                            if_block0.p(ctx, dirty);
+
+                            if (dirty & /*showCountdown*/ 32) {
+                                transitions_transition_in(if_block0, 1);
+                            }
+                        } else {
+                            if_block0 = countdown_overlay_index_svelte_create_if_block_3(ctx);
+                            if_block0.c();
+                            transitions_transition_in(if_block0, 1);
+                            if_block0.m(div3, t1);
+                        }
+                    } else if (if_block0) {
+                        if_block0.d(1);
+                        if_block0 = null;
+                    }
+
+                    if ((!current || dirty & /*roleType*/ 4) && t2_value !== (t2_value = ( /*iconMap*/ ctx[8][ /*roleType*/ ctx[2]] || '?') + "")) dom_set_data(t2, t2_value);
+
+                    if ((!current || dirty & /*roleType*/ 4) && t4_value !== (t4_value = ( /*roleType*/ ctx[2] === 'traitor' ?
+                            'ПРЕДАТЕЛЬ' :
+                            'РАБОЧИЙ') + "")) dom_set_data(t4, t4_value);
+
+                    if ( /*roleText*/ ctx[1]) {
+                        if (if_block1) {
+                            if_block1.p(ctx, dirty);
+                        } else {
+                            if_block1 = countdown_overlay_index_svelte_create_if_block_2(ctx);
+                            if_block1.c();
+                            if_block1.m(div2, null);
+                        }
+                    } else if (if_block1) {
+                        if_block1.d(1);
+                        if_block1 = null;
+                    }
+
+                    if (!current || dirty & /*roleType*/ 4) {
+                        dom_toggle_class(div3, "countdown-overlay__main-card--traitor", /*roleType*/ ctx[2] === 'traitor');
+                    }
+
+                    if (!current || dirty & /*roleType*/ 4) {
+                        dom_toggle_class(div3, "countdown-overlay__main-card--crewmate", /*roleType*/ ctx[2] === 'crewmate');
+                    }
+
+                    if ( /*showCountdown*/ ctx[5] && /*activeTips*/ ctx[3].length > 0) {
+                        if (if_block2) {
+                            if_block2.p(ctx, dirty);
+
+                            if (dirty & /*showCountdown, activeTips*/ 40) {
+                                transitions_transition_in(if_block2, 1);
+                            }
+                        } else {
+                            if_block2 = countdown_overlay_index_svelte_create_if_block_1(ctx);
+                            if_block2.c();
+                            transitions_transition_in(if_block2, 1);
+                            if_block2.m(div4, null);
+                        }
+                    } else if (if_block2) {
+                        if_block2.d(1);
+                        if_block2 = null;
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(if_block0);
+
+                    if (local) {
+                        if (!div3_intro) {
+                            add_render_callback(() => {
+                                div3_intro = create_in_transition(div3, scale, {
+                                    start: 0.8,
+                                    duration: 600,
+                                    easing: backOut
+                                });
+
+                                div3_intro.start();
+                            });
+                        }
+                    }
+
+                    transitions_transition_in(if_block2);
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fade, {
+                                duration: 300
+                            }, true);
+                            div4_transition.run(1);
+                        });
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    if (local) {
+                        if (!div4_transition) div4_transition = create_bidirectional_transition(div4, fade, {
+                            duration: 300
+                        }, false);
+                        div4_transition.run(0);
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div4);
+                    }
+
+                    if (if_block0) if_block0.d();
+                    if (if_block1) if_block1.d();
+                    if (if_block2) if_block2.d();
+                    if (detaching && div4_transition) div4_transition.end();
+                }
+            };
+        }
+
+        // (157:12) {#if showCountdown}
+        function countdown_overlay_index_svelte_create_if_block_3(ctx) {
+            let div;
+            let span;
+            let t;
+            let div_intro;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    span = dom_element("span");
+                    t = dom_text( /*countdown*/ ctx[4]);
+                    dom_attr(span, "class", "countdown-overlay__timer-value");
+                    dom_toggle_class(span, "countdown-overlay__timer-value--final", /*countdown*/ ctx[4] <= 3 && /*countdown*/ ctx[4] > 0);
+                    dom_attr(div, "class", "countdown-overlay__timer");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, span);
+                    dom_append(span, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*countdown*/ 16) dom_set_data(t, /*countdown*/ ctx[4]);
+
+                    if (dirty & /*countdown*/ 16) {
+                        dom_toggle_class(span, "countdown-overlay__timer-value--final", /*countdown*/ ctx[4] <= 3 && /*countdown*/ ctx[4] > 0);
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div_intro) {
+                            add_render_callback(() => {
+                                div_intro = create_in_transition(div, scale, {
+                                    start: 0.5,
+                                    duration: 400,
+                                    easing: backOut
+                                });
+
+                                div_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (177:16) {#if roleText}
+        function countdown_overlay_index_svelte_create_if_block_2(ctx) {
+            let span;
+            let t;
+
+            return {
+                c() {
+                    span = dom_element("span");
+                    t = dom_text( /*roleText*/ ctx[1]);
+                    dom_attr(span, "class", "countdown-overlay__role-text");
+                },
+                m(target, anchor) {
+                    dom_insert(target, span, anchor);
+                    dom_append(span, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*roleText*/ 2) dom_set_data(t, /*roleText*/ ctx[1]);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(span);
+                    }
+                }
+            };
+        }
+
+        // (183:8) {#if showCountdown && activeTips.length > 0}
+        function countdown_overlay_index_svelte_create_if_block_1(ctx) {
+            let div;
+            let span0;
+            let t1;
+            let span1;
+            let t2;
+            let div_intro;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    span0 = dom_element("span");
+                    span0.textContent = "💡";
+                    t1 = dom_space();
+                    span1 = dom_element("span");
+                    t2 = dom_text( /*currentTip*/ ctx[7]);
+                    dom_attr(span0, "class", "countdown-overlay__tips-icon");
+                    dom_attr(span1, "class", "countdown-overlay__tips-text");
+                    dom_toggle_class(span1, "countdown-overlay__tips-text--hidden", ! /*tipVisible*/ ctx[6]);
+                    dom_attr(div, "class", "countdown-overlay__tips-card");
+                    dom_toggle_class(div, "countdown-overlay__tips-card--traitor", /*roleType*/ ctx[2] === 'traitor');
+                    dom_toggle_class(div, "countdown-overlay__tips-card--crewmate", /*roleType*/ ctx[2] === 'crewmate');
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, span0);
+                    dom_append(div, t1);
+                    dom_append(div, span1);
+                    dom_append(span1, t2);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*currentTip*/ 128) dom_set_data(t2, /*currentTip*/ ctx[7]);
+
+                    if (dirty & /*tipVisible*/ 64) {
+                        dom_toggle_class(span1, "countdown-overlay__tips-text--hidden", ! /*tipVisible*/ ctx[6]);
+                    }
+
+                    if (dirty & /*roleType*/ 4) {
+                        dom_toggle_class(div, "countdown-overlay__tips-card--traitor", /*roleType*/ ctx[2] === 'traitor');
+                    }
+
+                    if (dirty & /*roleType*/ 4) {
+                        dom_toggle_class(div, "countdown-overlay__tips-card--crewmate", /*roleType*/ ctx[2] === 'crewmate');
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div_intro) {
+                            add_render_callback(() => {
+                                div_intro = create_in_transition(div, fly, {
+                                    y: 30,
+                                    duration: 500,
+                                    delay: 200,
+                                    easing: backOut
+                                });
+
+                                div_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        function countdown_overlay_index_svelte_create_fragment(ctx) {
+            let if_block_anchor;
+            let if_block = /*visible*/ ctx[0] && countdown_overlay_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*visible*/ ctx[0]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*visible*/ 1) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = countdown_overlay_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function countdown_overlay_index_svelte_instance($$self, $$props, $$invalidate) {
+            let activeTips;
+            let currentTip;
+            let {
+                visible = false
+            } = $$props;
+            let {
+                roleText = ''
+            } = $$props;
+            let {
+                roleType = 'crewmate'
+            } = $$props;
+            let {
+                countdownStart = 10
+            } = $$props;
+            let {
+                autoHide = true
+            } = $$props;
+            let {
+                autoHideDelay = 500
+            } = $$props;
+            let {
+                tips = []
+            } = $$props;
+            let countdown = countdownStart;
+            let showRole = false;
+            let showCountdown = false;
+            let isHiding = false;
+            let countdownInterval = null;
+            let tipInterval = null;
+            let progress = 100;
+            let currentTipIndex = 0;
+            let tipVisible = true;
+            const iconMap = {
+                crewmate: '✓',
+                traitor: '✕'
+            };
+
+            const defaultTips = {
+                traitor: [
+                    'Саботируйте работу других игроков',
+                    'Не привлекайте к себе внимание',
+                    'Действуйте незаметно и осторожно',
+                    'Создавайте алиби перед атакой'
+                ],
+                crewmate: [
+                    'Выполняйте задания для победы команды',
+                    'Следите за подозрительным поведением',
+                    'Работайте в группах для безопасности',
+                    'Запоминайте кто где был'
+                ]
+            };
+
+            function rotateTip() {
+                $$invalidate(6, tipVisible = false);
+
+                setTimeout(
+                    () => {
+                        $$invalidate(15, currentTipIndex = (currentTipIndex + 1) % activeTips.length);
+                        $$invalidate(6, tipVisible = true);
+                    },
+                    300
+                );
+            }
+
+            function startTipRotation() {
+                if (activeTips.length > 1) {
+                    tipInterval = setInterval(rotateTip, 3000);
+                }
+            }
+
+            function stopTipRotation() {
+                if (tipInterval) {
+                    clearInterval(tipInterval);
+                    tipInterval = null;
+                }
+            }
+
+            function startCountdown() {
+                $$invalidate(4, countdown = countdownStart);
+                progress = 100;
+                $$invalidate(5, showCountdown = true);
+                startTipRotation();
+
+                countdownInterval = setInterval(
+                    () => {
+                        $$invalidate(4, countdown--, countdown);
+                        progress = countdown / countdownStart * 100;
+
+                        if (countdown <= 0) {
+                            clearInterval(countdownInterval);
+                            countdownInterval = null;
+                            progress = 0;
+                            stopTipRotation();
+
+                            if (autoHide) {
+                                setTimeout(hide, autoHideDelay);
+                            }
+                        }
+                    },
+                    1000
+                );
+            }
+
+            function show() {
+                $$invalidate(0, visible = true);
+                $$invalidate(14, isHiding = false);
+                $$invalidate(13, showRole = true);
+                $$invalidate(5, showCountdown = false);
+                $$invalidate(15, currentTipIndex = 0);
+                $$invalidate(6, tipVisible = true);
+
+                setTimeout(
+                    () => {
+                        startCountdown();
+                    },
+                    1500
+                );
+            }
+
+            function hide() {
+                $$invalidate(14, isHiding = true);
+                stopTipRotation();
+
+                setTimeout(
+                    () => {
+                        $$invalidate(0, visible = false);
+                        $$invalidate(13, showRole = false);
+                        $$invalidate(5, showCountdown = false);
+                        $$invalidate(14, isHiding = false);
+                    },
+                    800
+                );
+            }
+
+            function reset() {
+                if (countdownInterval) {
+                    clearInterval(countdownInterval);
+                    countdownInterval = null;
+                }
+
+                stopTipRotation();
+                $$invalidate(4, countdown = countdownStart);
+                progress = 100;
+                $$invalidate(13, showRole = false);
+                $$invalidate(5, showCountdown = false);
+                $$invalidate(14, isHiding = false);
+                $$invalidate(15, currentTipIndex = 0);
+                $$invalidate(6, tipVisible = true);
+            }
+
+            onDestroy(() => {
+                if (countdownInterval) {
+                    clearInterval(countdownInterval);
+                }
+
+                stopTipRotation();
+            });
+
+            $$self.$$set = $$props => {
+                if ('visible' in $$props) $$invalidate(0, visible = $$props.visible);
+                if ('roleText' in $$props) $$invalidate(1, roleText = $$props.roleText);
+                if ('roleType' in $$props) $$invalidate(2, roleType = $$props.roleType);
+                if ('countdownStart' in $$props) $$invalidate(9, countdownStart = $$props.countdownStart);
+                if ('autoHide' in $$props) $$invalidate(10, autoHide = $$props.autoHide);
+                if ('autoHideDelay' in $$props) $$invalidate(11, autoHideDelay = $$props.autoHideDelay);
+                if ('tips' in $$props) $$invalidate(12, tips = $$props.tips);
+            };
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*tips, roleType*/ 4100) {
+                    $: $$invalidate(3, activeTips = tips.length > 0 ?
+                        tips :
+                        defaultTips[roleType] || defaultTips.crewmate);
+                }
+
+                if ($$self.$$.dirty & /*activeTips, currentTipIndex*/ 32776) {
+                    $: $$invalidate(7, currentTip = activeTips[currentTipIndex] || '');
+                }
+
+                if ($$self.$$.dirty & /*visible, showRole, isHiding*/ 24577) {
+                    $: if (visible && !showRole && !isHiding) {
+                        show();
+                    }
+                }
+
+                if ($$self.$$.dirty & /*visible*/ 1) {
+                    $: if (!visible) {
+                        reset();
+                    }
+                }
+            };
+
+            return [
+                visible,
+                roleText,
+                roleType,
+                activeTips,
+                countdown,
+                showCountdown,
+                tipVisible,
+                currentTip,
+                iconMap,
+                countdownStart,
+                autoHide,
+                autoHideDelay,
+                tips,
+                showRole,
+                isHiding,
+                currentTipIndex
+            ];
+        }
+
+        class Countdown_overlay extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+
+                Component_init(this, options, countdown_overlay_index_svelte_instance, countdown_overlay_index_svelte_create_fragment, utils_safe_not_equal, {
+                    visible: 0,
+                    roleText: 1,
+                    roleType: 2,
+                    countdownStart: 9,
+                    autoHide: 10,
+                    autoHideDelay: 11,
+                    tips: 12
+                });
+            }
+        }
+
+        /* harmony default export */
+        const countdown_overlay_index_svelte = (Countdown_overlay);; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/header-notification/index.svelte
+        /* src\views\arizona-hud-new-year\header-notification\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+        function header_notification_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[5] = list[i];
+            const constants_0 = /*$headerNotifications*/ child_ctx[0][ /*pos*/ child_ctx[5]];
+            child_ctx[6] = constants_0;
+            return child_ctx;
+        }
+
+        function get_if_ctx(ctx) {
+            const child_ctx = ctx.slice();
+            const constants_0 = /*notifications*/ child_ctx[6][0];
+            child_ctx[9] = constants_0;
+            return child_ctx;
+        }
+
+        // (27:4) {#if notifications.length > 0}
+        function header_notification_index_svelte_create_if_block(ctx) {
+            let div1;
+            let div0;
+            let previous_key = /*notification*/ ctx[9].id;
+            let div0_intro;
+            let div0_outro;
+            let t0;
+            let t1;
+            let div1_class_value;
+            let current;
+            let key_block = header_notification_index_svelte_create_key_block(ctx);
+            let if_block = /*notifications*/ ctx[6].length > 1 && header_notification_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    key_block.c();
+                    t0 = dom_space();
+                    if (if_block) if_block.c();
+                    t1 = dom_space();
+                    dom_attr(div0, "class", "header-notification");
+                    dom_toggle_class(div0, "header-notification--info", /*notification*/ ctx[9].icon === 'info');
+                    dom_toggle_class(div0, "header-notification--warning", /*notification*/ ctx[9].icon === 'warning');
+                    dom_toggle_class(div0, "header-notification--success", /*notification*/ ctx[9].icon === 'success');
+                    dom_toggle_class(div0, "header-notification--error", /*notification*/ ctx[9].icon === 'error');
+                    dom_toggle_class(div0, "header-notification--alert", /*notification*/ ctx[9].icon === 'alert');
+                    dom_toggle_class(div0, "header-notification--hiding", /*notification*/ ctx[9].isHiding);
+                    dom_attr(div1, "class", div1_class_value = "header-notification-container header-notification-container--" + /*pos*/ ctx[5]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+                    key_block.m(div0, null);
+                    dom_append(div1, t0);
+                    if (if_block) if_block.m(div1, null);
+                    dom_append(div1, t1);
+                    current = true;
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+
+                    if (dirty & /*$headerNotifications*/ 1 && utils_safe_not_equal(previous_key, previous_key = /*notification*/ ctx[9].id)) {
+                        transitions_group_outros();
+                        transitions_transition_out(key_block, 1, 1, utils_noop);
+                        transitions_check_outros();
+                        key_block = header_notification_index_svelte_create_key_block(ctx);
+                        key_block.c();
+                        transitions_transition_in(key_block, 1);
+                        key_block.m(div0, null);
+                    } else {
+                        key_block.p(ctx, dirty);
+                    }
+
+                    if (!current || dirty & /*$headerNotifications, positions*/ 5) {
+                        dom_toggle_class(div0, "header-notification--info", /*notification*/ ctx[9].icon === 'info');
+                    }
+
+                    if (!current || dirty & /*$headerNotifications, positions*/ 5) {
+                        dom_toggle_class(div0, "header-notification--warning", /*notification*/ ctx[9].icon === 'warning');
+                    }
+
+                    if (!current || dirty & /*$headerNotifications, positions*/ 5) {
+                        dom_toggle_class(div0, "header-notification--success", /*notification*/ ctx[9].icon === 'success');
+                    }
+
+                    if (!current || dirty & /*$headerNotifications, positions*/ 5) {
+                        dom_toggle_class(div0, "header-notification--error", /*notification*/ ctx[9].icon === 'error');
+                    }
+
+                    if (!current || dirty & /*$headerNotifications, positions*/ 5) {
+                        dom_toggle_class(div0, "header-notification--alert", /*notification*/ ctx[9].icon === 'alert');
+                    }
+
+                    if (!current || dirty & /*$headerNotifications, positions*/ 5) {
+                        dom_toggle_class(div0, "header-notification--hiding", /*notification*/ ctx[9].isHiding);
+                    }
+
+                    if ( /*notifications*/ ctx[6].length > 1) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*$headerNotifications*/ 1) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = header_notification_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(div1, t1);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(key_block);
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (div0_outro) div0_outro.end(1);
+                            div0_intro = create_in_transition(div0, /*receive*/ ctx[4], {
+                                key: /*pos*/ ctx[5]
+                            });
+                            div0_intro.start();
+                        });
+                    }
+
+                    transitions_transition_in(if_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(key_block);
+                    if (div0_intro) div0_intro.invalidate();
+
+                    if (local) {
+                        div0_outro = create_out_transition(div0, /*send*/ ctx[3], {
+                            key: /*pos*/ ctx[5]
+                        });
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    key_block.d(detaching);
+                    if (detaching && div0_outro) div0_outro.end();
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        // (62:24) {#if notification.showProgress && notification.duration > 0}
+        function header_notification_index_svelte_create_if_block_2(ctx) {
+            let div1;
+            let div0;
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    dom_attr(div0, "class", "header-notification__progress-fill");
+                    set_style(div0, "width", /*notification*/ ctx[9].progress + "%");
+                    dom_attr(div1, "class", "header-notification__progress-bar");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$headerNotifications*/ 1) {
+                        set_style(div0, "width", /*notification*/ ctx[9].progress + "%");
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+                }
+            };
+        }
+
+        // (43:16) {#key notification.id}
+        function header_notification_index_svelte_create_key_block(ctx) {
+            let div11;
+            let div0;
+            let t0;
+            let div1;
+            let t1;
+            let div6;
+            let div4;
+            let div2;
+            let span;
+            let t2_value = ( /*iconMap*/ ctx[1][ /*notification*/ ctx[9].icon] || /*iconMap*/ ctx[1].info) + "";
+            let t2;
+            let t3;
+            let div3;
+            let t4;
+            let div5;
+            let h3;
+            let t5_value = /*notification*/ ctx[9].title + "";
+            let t5;
+            let t6;
+            let p;
+            let t7_value = /*notification*/ ctx[9].text + "";
+            let t7;
+            let t8;
+            let t9;
+            let div7;
+            let t10;
+            let div8;
+            let t11;
+            let div9;
+            let t12;
+            let div10;
+            let div11_intro;
+            let if_block = /*notification*/ ctx[9].showProgress && /*notification*/ ctx[9].duration > 0 && header_notification_index_svelte_create_if_block_2(ctx);
+
+            return {
+                c() {
+                    div11 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    t1 = dom_space();
+                    div6 = dom_element("div");
+                    div4 = dom_element("div");
+                    div2 = dom_element("div");
+                    span = dom_element("span");
+                    t2 = dom_text(t2_value);
+                    t3 = dom_space();
+                    div3 = dom_element("div");
+                    t4 = dom_space();
+                    div5 = dom_element("div");
+                    h3 = dom_element("h3");
+                    t5 = dom_text(t5_value);
+                    t6 = dom_space();
+                    p = dom_element("p");
+                    t7 = dom_text(t7_value);
+                    t8 = dom_space();
+                    if (if_block) if_block.c();
+                    t9 = dom_space();
+                    div7 = dom_element("div");
+                    t10 = dom_space();
+                    div8 = dom_element("div");
+                    t11 = dom_space();
+                    div9 = dom_element("div");
+                    t12 = dom_space();
+                    div10 = dom_element("div");
+                    dom_attr(div0, "class", "header-notification__glow");
+                    dom_attr(div1, "class", "header-notification__border");
+                    dom_attr(span, "class", "header-notification__icon-symbol");
+                    dom_attr(div2, "class", "header-notification__icon");
+                    dom_attr(div3, "class", "header-notification__icon-pulse");
+                    dom_attr(div4, "class", "header-notification__icon-wrapper");
+                    dom_attr(h3, "class", "header-notification__title");
+                    dom_attr(p, "class", "header-notification__text");
+                    dom_attr(div5, "class", "header-notification__text-content");
+                    dom_attr(div6, "class", "header-notification__content");
+                    dom_attr(div7, "class", "header-notification__corner header-notification__corner--tl");
+                    dom_attr(div8, "class", "header-notification__corner header-notification__corner--tr");
+                    dom_attr(div9, "class", "header-notification__corner header-notification__corner--bl");
+                    dom_attr(div10, "class", "header-notification__corner header-notification__corner--br");
+                    dom_attr(div11, "class", "header-notification__inner");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div11, anchor);
+                    dom_append(div11, div0);
+                    dom_append(div11, t0);
+                    dom_append(div11, div1);
+                    dom_append(div11, t1);
+                    dom_append(div11, div6);
+                    dom_append(div6, div4);
+                    dom_append(div4, div2);
+                    dom_append(div2, span);
+                    dom_append(span, t2);
+                    dom_append(div4, t3);
+                    dom_append(div4, div3);
+                    dom_append(div6, t4);
+                    dom_append(div6, div5);
+                    dom_append(div5, h3);
+                    dom_append(h3, t5);
+                    dom_append(div5, t6);
+                    dom_append(div5, p);
+                    dom_append(p, t7);
+                    dom_append(div11, t8);
+                    if (if_block) if_block.m(div11, null);
+                    dom_append(div11, t9);
+                    dom_append(div11, div7);
+                    dom_append(div11, t10);
+                    dom_append(div11, div8);
+                    dom_append(div11, t11);
+                    dom_append(div11, div9);
+                    dom_append(div11, t12);
+                    dom_append(div11, div10);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$headerNotifications*/ 1 && t2_value !== (t2_value = ( /*iconMap*/ ctx[1][ /*notification*/ ctx[9].icon] || /*iconMap*/ ctx[1].info) + "")) dom_set_data(t2, t2_value);
+                    if (dirty & /*$headerNotifications*/ 1 && t5_value !== (t5_value = /*notification*/ ctx[9].title + "")) dom_set_data(t5, t5_value);
+                    if (dirty & /*$headerNotifications*/ 1 && t7_value !== (t7_value = /*notification*/ ctx[9].text + "")) dom_set_data(t7, t7_value);
+
+                    if ( /*notification*/ ctx[9].showProgress && /*notification*/ ctx[9].duration > 0) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = header_notification_index_svelte_create_if_block_2(ctx);
+                            if_block.c();
+                            if_block.m(div11, t9);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div11_intro) {
+                            add_render_callback(() => {
+                                div11_intro = create_in_transition(div11, fade, {
+                                    duration: 200
+                                });
+                                div11_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div11);
+                    }
+
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        // (79:12) {#if notifications.length > 1}
+        function header_notification_index_svelte_create_if_block_1(ctx) {
+            let div;
+            let t0;
+            let t1_value = /*notifications*/ ctx[6].length - 1 + "";
+            let t1;
+            let t2;
+            let div_intro;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t0 = dom_text("+");
+                    t1 = dom_text(t1_value);
+                    t2 = dom_text(" ещё");
+                    dom_attr(div, "class", "header-notification__queue-indicator");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t0);
+                    dom_append(div, t1);
+                    dom_append(div, t2);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$headerNotifications*/ 1 && t1_value !== (t1_value = /*notifications*/ ctx[6].length - 1 + "")) dom_set_data(t1, t1_value);
+                },
+                i(local) {
+                    if (local) {
+                        if (!div_intro) {
+                            add_render_callback(() => {
+                                div_intro = create_in_transition(div, fade, {
+                                    duration: 200
+                                });
+                                div_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (24:0) {#each positions as pos}
+        function header_notification_index_svelte_create_each_block(ctx) {
+            let if_block_anchor;
+            let if_block = /*notifications*/ ctx[6].length > 0 && header_notification_index_svelte_create_if_block(get_if_ctx(ctx));
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, dirty) {
+                    if ( /*notifications*/ ctx[6].length > 0) {
+                        if (if_block) {
+                            if_block.p(get_if_ctx(ctx), dirty);
+
+                            if (dirty & /*$headerNotifications*/ 1) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = header_notification_index_svelte_create_if_block(get_if_ctx(ctx));
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function header_notification_index_svelte_create_fragment(ctx) {
+            let each_1_anchor;
+            let each_value = each_ensure_array_like( /*positions*/ ctx[2]);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = header_notification_index_svelte_create_each_block(header_notification_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            return {
+                c() {
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    each_1_anchor = empty();
+                },
+                m(target, anchor) {
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(target, anchor);
+                        }
+                    }
+
+                    dom_insert(target, each_1_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*positions, $headerNotifications, iconMap*/ 7) {
+                        each_value = each_ensure_array_like( /*positions*/ ctx[2]);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = header_notification_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = header_notification_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(each_1_anchor.parentNode, each_1_anchor);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(each_1_anchor);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                }
+            };
+        }
+
+        function header_notification_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $headerNotifications;
+            utils_component_subscribe($$self, headerNotifications, $$value => $$invalidate(0, $headerNotifications = $$value));
+
+            const iconMap = {
+                info: '🛈',
+                warning: '⚠',
+                success: '✓',
+                error: '✕',
+                alert: '!'
+            };
+
+            const positions = [
+                'top',
+                'top-left',
+                'top-right',
+                'bottom',
+                'bottom-left',
+                'bottom-right',
+                'center'
+            ];
+
+            const [send, receive] = crossfade({
+                duration: 300,
+                fallback: node => fade(node, {
+                    duration: 200
+                })
+            });
+
+            return [$headerNotifications, iconMap, positions, send, receive];
+        }
+
+        class Header_notification extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, header_notification_index_svelte_instance, header_notification_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const header_notification_index_svelte = (Header_notification);; // CONCATENATED MODULE: ./src/views/arizona-hud-new-year/index.svelte
+        /* src\views\arizona-hud-new-year\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // import { SERVER_INFO_MOCK } from './mock.js';
+
+
+        function arizona_hud_new_year_index_svelte_create_if_block(ctx) {
+            let div;
+            let hotkeysnotification;
+            let current;
+            hotkeysnotification = new hotkeys_notification_index_svelte({});
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(hotkeysnotification.$$.fragment);
+                    dom_attr(div, "class", "hud__hotKeys-notification");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(hotkeysnotification, div, null);
+                    current = true;
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(hotkeysnotification.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(hotkeysnotification.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(hotkeysnotification);
+                }
+            };
+        }
+
+        function arizona_hud_new_year_index_svelte_create_fragment(ctx) {
+            let div2;
+            let div0;
+            let playerinfo;
+            let t0;
+            let div1;
+            let hotkeystip;
+            let t1;
+            let t2;
+            let countdownoverlay;
+            let t3;
+            let headernotification;
+            let current;
+            playerinfo = new arizona_hud_new_year_player_info_index_svelte({});
+            hotkeystip = new arizona_hud_new_year_hotkeys_tips_index_svelte({});
+            let if_block = /*hotKeysNotificationVisible*/ ctx[0] && arizona_hud_new_year_index_svelte_create_if_block(ctx);
+
+            countdownoverlay = new countdown_overlay_index_svelte({
+                props: {
+                    visible: /*$countdownOverlay*/ ctx[3].visible,
+                    roleText: /*$countdownOverlay*/ ctx[3].roleText,
+                    roleType: /*$countdownOverlay*/ ctx[3].roleType,
+                    countdownStart: /*$countdownOverlay*/ ctx[3].countdownStart,
+                    tips: /*$countdownOverlay*/ ctx[3].tips
+                }
+            });
+
+            headernotification = new header_notification_index_svelte({});
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    create_component(playerinfo.$$.fragment);
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    create_component(hotkeystip.$$.fragment);
+                    t1 = dom_space();
+                    if (if_block) if_block.c();
+                    t2 = dom_space();
+                    create_component(countdownoverlay.$$.fragment);
+                    t3 = dom_space();
+                    create_component(headernotification.$$.fragment);
+                    dom_attr(div0, "class", "arizona-hud-ny__player-info");
+                    dom_attr(div1, "class", "arizona-hud-ny__player-hotkeys");
+
+                    set_style(div1, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[2].right) ?
+                        '' :
+                        `${/*$radarRect*/ ctx[2].left + /*$radarRect*/ ctx[2].width}px`);
+
+                    set_style(div1, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[2].bottom) ?
+                        '' :
+                        `${window.innerHeight - /*$radarRect*/ ctx[2].bottom}px`);
+
+                    dom_attr(div2, "class", "arizona-hud-ny");
+                    set_style(div2, "opacity", /*$hudOpacity*/ ctx[1]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    mount_component(playerinfo, div0, null);
+                    dom_append(div2, t0);
+                    dom_append(div2, div1);
+                    mount_component(hotkeystip, div1, null);
+                    dom_append(div2, t1);
+                    if (if_block) if_block.m(div2, null);
+                    dom_insert(target, t2, anchor);
+                    mount_component(countdownoverlay, target, anchor);
+                    dom_insert(target, t3, anchor);
+                    mount_component(headernotification, target, anchor);
+                    current = true;
+                },
+                p(ctx, [dirty]) {
+                    if (!current || dirty & /*$radarRect*/ 4) {
+                        set_style(div1, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[2].right) ?
+                            '' :
+                            `${/*$radarRect*/ ctx[2].left + /*$radarRect*/ ctx[2].width}px`);
+                    }
+
+                    if (!current || dirty & /*$radarRect*/ 4) {
+                        set_style(div1, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[2].bottom) ?
+                            '' :
+                            `${window.innerHeight - /*$radarRect*/ ctx[2].bottom}px`);
+                    }
+
+                    if ( /*hotKeysNotificationVisible*/ ctx[0]) {
+                        if (if_block) {
+                            if (dirty & /*hotKeysNotificationVisible*/ 1) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = arizona_hud_new_year_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(div2, null);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if (!current || dirty & /*$hudOpacity*/ 2) {
+                        set_style(div2, "opacity", /*$hudOpacity*/ ctx[1]);
+                    }
+
+                    const countdownoverlay_changes = {};
+                    if (dirty & /*$countdownOverlay*/ 8) countdownoverlay_changes.visible = /*$countdownOverlay*/ ctx[3].visible;
+                    if (dirty & /*$countdownOverlay*/ 8) countdownoverlay_changes.roleText = /*$countdownOverlay*/ ctx[3].roleText;
+                    if (dirty & /*$countdownOverlay*/ 8) countdownoverlay_changes.roleType = /*$countdownOverlay*/ ctx[3].roleType;
+                    if (dirty & /*$countdownOverlay*/ 8) countdownoverlay_changes.countdownStart = /*$countdownOverlay*/ ctx[3].countdownStart;
+                    if (dirty & /*$countdownOverlay*/ 8) countdownoverlay_changes.tips = /*$countdownOverlay*/ ctx[3].tips;
+                    countdownoverlay.$set(countdownoverlay_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(playerinfo.$$.fragment, local);
+                    transitions_transition_in(hotkeystip.$$.fragment, local);
+                    transitions_transition_in(if_block);
+                    transitions_transition_in(countdownoverlay.$$.fragment, local);
+                    transitions_transition_in(headernotification.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(playerinfo.$$.fragment, local);
+                    transitions_transition_out(hotkeystip.$$.fragment, local);
+                    transitions_transition_out(if_block);
+                    transitions_transition_out(countdownoverlay.$$.fragment, local);
+                    transitions_transition_out(headernotification.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                        dom_detach(t2);
+                        dom_detach(t3);
+                    }
+
+                    destroy_component(playerinfo);
+                    destroy_component(hotkeystip);
+                    if (if_block) if_block.d();
+                    destroy_component(countdownoverlay, detaching);
+                    destroy_component(headernotification, detaching);
+                }
+            };
+        }
+
+        function arizona_hud_new_year_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $hotKeysNotificationInformation;
+            let $isZoneSafe;
+            let $timeLeft;
+            let $playerRole;
+            let $playersTraitors;
+            let $playersEventOnline;
+            let $playerSatiety;
+            let $hudOpacity;
+            let $radarRect;
+            let $countdownOverlay;
+            utils_component_subscribe($$self, hotKeysNotificationInformation, $$value => $$invalidate(4, $hotKeysNotificationInformation = $$value));
+            utils_component_subscribe($$self, isZoneSafe, $$value => $$invalidate(5, $isZoneSafe = $$value));
+            utils_component_subscribe($$self, store_timeLeft, $$value => $$invalidate(6, $timeLeft = $$value));
+            utils_component_subscribe($$self, playerRole, $$value => $$invalidate(7, $playerRole = $$value));
+            utils_component_subscribe($$self, playersTraitors, $$value => $$invalidate(8, $playersTraitors = $$value));
+            utils_component_subscribe($$self, store_playersEventOnline, $$value => $$invalidate(9, $playersEventOnline = $$value));
+            utils_component_subscribe($$self, arizona_hud_new_year_store_playerSatiety, $$value => $$invalidate(10, $playerSatiety = $$value));
+            utils_component_subscribe($$self, hudOpacity, $$value => $$invalidate(1, $hudOpacity = $$value));
+            utils_component_subscribe($$self, radarRect, $$value => $$invalidate(2, $radarRect = $$value));
+            utils_component_subscribe($$self, countdownOverlay, $$value => $$invalidate(3, $countdownOverlay = $$value));
+            let hotKeysNotificationVisible = false;
+
+            const initializeServerInfo = (info = {}) => {
+                const temp = {
+                    ...info,
+                    flag: MAP_HUDFLAG_TO_ICON[info.flag]
+                };
+
+                store_serverInformation.set(temp);
+            };
+
+            const unregisterPlayerSatiety = registerEvent('event.arizonahudNewYear.playerSatiety', value => utils_set_store_value(arizona_hud_new_year_store_playerSatiety, $playerSatiety = value, $playerSatiety));
+
+            // const unregisterPlayerPower = registerEvent('event.arizonahudNewYear.playerPower', (value) => $playerPower = value);
+            // const unregisterPlayerWanted = registerEvent('event.arizonahudNewYear.playerWanteds', (value) => $playerWanteds = value);
+            const unregisterPlayersEventOnline = registerEvent('event.arizonahudNewYear.playersEventOnline', value => utils_set_store_value(store_playersEventOnline, $playersEventOnline = value, $playersEventOnline));
+
+            const unregisterPlayersTraitors = registerEvent('event.arizonahudNewYear.playersTraitors', value => utils_set_store_value(playersTraitors, $playersTraitors = value, $playersTraitors));
+            const unregisterPlayerRole = registerEvent('event.arizonahudNewYear.playerRole', value => utils_set_store_value(playerRole, $playerRole = value, $playerRole));
+            const unregisterTimeLeft = registerEvent('event.arizonahudNewYear.timeLeft', value => utils_set_store_value(store_timeLeft, $timeLeft = value, $timeLeft));
+            const unregisterServerInformation = registerEvent('event.arizonahudNewYear.serverInformation', initializeServerInfo);
+            const unregisterSafeZone = registerEvent('event.hud.updateSafeZone', value => utils_set_store_value(isZoneSafe, $isZoneSafe = value, $isZoneSafe));
+            const unregisternUpdateHotKeysNotificationVisibility = registerEvent('event.hud.updateHotKeysNotificationVisibility', value => $$invalidate(0, hotKeysNotificationVisible = value));
+            const unregisternSetHotKeysInformation = registerEvent('event.hud.setHotKeysInformation', value => utils_set_store_value(hotKeysNotificationInformation, $hotKeysNotificationInformation = value, $hotKeysNotificationInformation));
+
+            const showCountdownOverlay = data => {
+                countdownOverlay.set({
+                    visible: true,
+                    roleText: data.roleText || '',
+                    roleType: data.roleType || 'crewmate',
+                    countdownStart: data.countdownStart || 10,
+                    tips: data.tips || []
+                });
+            };
+
+            const hideCountdownOverlay = () => {
+                countdownOverlay.update(state => ({
+                    ...state,
+                    visible: false
+                }));
+            };
+
+            const unregisterShowCountdownOverlay = registerEvent('event.arizonahudNewYear.showCountdownOverlay', showCountdownOverlay);
+            const unregisterHideCountdownOverlay = registerEvent('event.arizonahudNewYear.hideCountdownOverlay', hideCountdownOverlay);
+
+            const showHeaderNotification = data => {
+                addNotification(data);
+            };
+
+            const hideHeaderNotification = data => {
+                if (data && data.position) {
+                    clearPosition(data.position);
+                } else {
+                    clearAll();
+                }
+            };
+
+            const unregisterShowHeaderNotification = registerEvent('event.arizonahudNewYear.showHeaderNotification', showHeaderNotification);
+            const unregisterHideHeaderNotification = registerEvent('event.arizonahudNewYear.hideHeaderNotification', hideHeaderNotification);
+
+            onMount(() => {
+                subscribesManager.subscribe(PLAYER_METHODS);
+            });
+
+            onDestroy(() => {
+                subscribesManager.unsubscribe(PLAYER_METHODS);
+                unregisterPlayerSatiety();
+                unregisterSafeZone();
+
+                // unregisterPlayerPower();
+                // unregisterPlayerWanted();
+                unregisterPlayersEventOnline();
+
+                unregisterPlayersTraitors();
+                unregisterPlayerRole();
+                unregisterTimeLeft();
+                unregisterServerInformation();
+                unregisternUpdateHotKeysNotificationVisibility();
+                unregisternSetHotKeysInformation();
+                unregisterShowCountdownOverlay();
+                unregisterHideCountdownOverlay();
+                unregisterShowHeaderNotification();
+                unregisterHideHeaderNotification();
+                cleanup();
+            });
+
+            return [hotKeysNotificationVisible, $hudOpacity, $radarRect, $countdownOverlay];
+        }
+
+        class Arizona_hud_new_year extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, arizona_hud_new_year_index_svelte_instance, arizona_hud_new_year_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const arizona_hud_new_year_index_svelte = (Arizona_hud_new_year);; // CONCATENATED MODULE: ./src/views/sync-packets-log/store.js
+        function sync_packets_log_store_typeof(o) {
+            "@babel/helpers - typeof";
+            return sync_packets_log_store_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, sync_packets_log_store_typeof(o);
+        }
+
+        function sync_packets_log_store_toConsumableArray(r) {
+            return sync_packets_log_store_arrayWithoutHoles(r) || sync_packets_log_store_iterableToArray(r) || sync_packets_log_store_unsupportedIterableToArray(r) || sync_packets_log_store_nonIterableSpread();
+        }
+
+        function sync_packets_log_store_nonIterableSpread() {
+            throw new TypeError("Invalid attempt to spread non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
+        }
+
+        function sync_packets_log_store_unsupportedIterableToArray(r, a) {
+            if (r) {
+                if ("string" == typeof r) return sync_packets_log_store_arrayLikeToArray(r, a);
+                var t = {}.toString.call(r).slice(8, -1);
+                return "Object" === t && r.constructor && (t = r.constructor.name), "Map" === t || "Set" === t ? Array.from(r) : "Arguments" === t || /^(?:Ui|I)nt(?:8|16|32)(?:Clamped)?Array$/.test(t) ? sync_packets_log_store_arrayLikeToArray(r, a) : void 0;
+            }
+        }
+
+        function sync_packets_log_store_iterableToArray(r) {
+            if ("undefined" != typeof Symbol && null != r[Symbol.iterator] || null != r["@@iterator"]) return Array.from(r);
+        }
+
+        function sync_packets_log_store_arrayWithoutHoles(r) {
+            if (Array.isArray(r)) return sync_packets_log_store_arrayLikeToArray(r);
+        }
+
+        function sync_packets_log_store_arrayLikeToArray(r, a) {
+            (null == a || a > r.length) && (a = r.length);
+            for (var e = 0, n = Array(a); e < a; e++) n[e] = r[e];
+            return n;
+        }
+
+        function sync_packets_log_store_ownKeys(e, r) {
+            var t = Object.keys(e);
+            if (Object.getOwnPropertySymbols) {
+                var o = Object.getOwnPropertySymbols(e);
+                r && (o = o.filter(function(r) {
+                    return Object.getOwnPropertyDescriptor(e, r).enumerable;
+                })), t.push.apply(t, o);
+            }
+            return t;
+        }
+
+        function sync_packets_log_store_objectSpread(e) {
+            for (var r = 1; r < arguments.length; r++) {
+                var t = null != arguments[r] ? arguments[r] : {};
+                r % 2 ? sync_packets_log_store_ownKeys(Object(t), !0).forEach(function(r) {
+                    sync_packets_log_store_defineProperty(e, r, t[r]);
+                }) : Object.getOwnPropertyDescriptors ? Object.defineProperties(e, Object.getOwnPropertyDescriptors(t)) : sync_packets_log_store_ownKeys(Object(t)).forEach(function(r) {
+                    Object.defineProperty(e, r, Object.getOwnPropertyDescriptor(t, r));
+                });
+            }
+            return e;
+        }
+
+        function sync_packets_log_store_defineProperty(e, r, t) {
+            return (r = sync_packets_log_store_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function sync_packets_log_store_toPropertyKey(t) {
+            var i = sync_packets_log_store_toPrimitive(t, "string");
+            return "symbol" == sync_packets_log_store_typeof(i) ? i : i + "";
+        }
+
+        function sync_packets_log_store_toPrimitive(t, r) {
+            if ("object" != sync_packets_log_store_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != sync_packets_log_store_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+
+        var MAX_PACKETS = 30;
+
+        function createPacketsStore() {
+            var _writable = store_writable([]),
+                subscribe = _writable.subscribe,
+                set = _writable.set,
+                update = _writable.update;
+            return {
+                subscribe: subscribe,
+                set: set,
+                addPacket: function addPacket(time, data, onTimeout) {
+                    update(function(packets) {
+                        var newPacket = {
+                            time: time,
+                            data: data,
+                            isNew: true
+                        };
+                        if (onTimeout) {
+                            newPacket.timeout = setTimeout(function() {
+                                update(function(p) {
+                                    return p.map(function(packet) {
+                                        return packet === newPacket ? sync_packets_log_store_objectSpread(sync_packets_log_store_objectSpread({}, packet), {}, {
+                                            isNew: false
+                                        }) : packet;
+                                    });
+                                });
+                                onTimeout(newPacket);
+                            }, 2500);
+                        }
+                        var updatedPackets = [newPacket].concat(sync_packets_log_store_toConsumableArray(packets));
+                        if (updatedPackets.length > MAX_PACKETS) {
+                            var removed = updatedPackets.pop();
+                            if (removed && removed.timeout) {
+                                clearTimeout(removed.timeout);
+                            }
+                        }
+                        return updatedPackets;
+                    });
+                },
+                clear: function clear() {
+                    return set([]);
+                },
+                reset: function reset() {
+                    return set([]);
+                }
+            };
+        }
+        var syncPackets = createPacketsStore();
+        var syncPacketsLogVisible = store_writable(false);
+        var toggleVisible = function toggleVisible(visible) {
+            return syncPacketsLogVisible.set(visible);
+        };
+        registerEvent('event.syncPacketsLog.toggleVisible', toggleVisible);; // CONCATENATED MODULE: ./src/views/sync-packets-log/index.svelte
+        /* src\views\sync-packets-log\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+        function sync_packets_log_index_svelte_add_css(target) {
+            append_styles(target, "svelte-4d0ecm", ".sync-packets-log.svelte-4d0ecm{position:fixed;bottom:56px;left:50%;transform:translateX(-50%);height:500px;width:1400px;max-width:1400px;max-height:500px;background:rgba(0, 0, 0, 0.4);border:1px solid rgba(255, 255, 255, 0.2);border-radius:4px;padding:8px;font-family:\"Courier New\", monospace;font-size:12px;color:#00ff00;z-index:100;overflow:hidden;display:flex;flex-direction:column}.sync-packets-log__header.svelte-4d0ecm{font-weight:bold;color:#00ff00;margin-bottom:6px;padding-bottom:4px;border-bottom:1px solid rgba(255, 255, 255, 0.2);font-size:13px}.sync-packets-log__packets-container.svelte-4d0ecm{overflow-y:visible;flex:1;max-height:none}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar{width:6px}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar-track{background:rgba(255, 255, 255, 0.05)}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar-thumb{background:rgba(255, 255, 255, 0.2);border-radius:3px}.sync-packets-log__packets-container.svelte-4d0ecm::-webkit-scrollbar-thumb:hover{background:rgba(255, 255, 255, 0.3)}.sync-packets-log__packet.svelte-4d0ecm{line-height:1;padding:4px 6px;white-space:pre-wrap;word-break:break-all;font-size:20px}.sync-packets-log__packet__time.svelte-4d0ecm{color:#ffff00;margin-right:8px;font-weight:bold}.sync-packets-log__packet__data.svelte-4d0ecm{color:#00ff00}.sync-packets-log--empty.svelte-4d0ecm{color:#ff6666;text-align:center;padding:16px 8px;font-size:12px}");
+        }
+
+        function sync_packets_log_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[8] = list[i];
+            child_ctx[10] = i;
+            return child_ctx;
+        }
+
+        // (113:0) {#if $syncPacketsLogVisible}
+        function sync_packets_log_index_svelte_create_if_block(ctx) {
+            let div2;
+            let div0;
+            let t1;
+            let div1;
+            let div2_intro;
+
+            function select_block_type(ctx, dirty) {
+                if ( /*$syncPackets*/ ctx[2].length === 0) return sync_packets_log_index_svelte_create_if_block_1;
+                return sync_packets_log_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block = current_block_type(ctx);
+
+            return {
+                c() {
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "Sync Packets Log";
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    if_block.c();
+                    dom_attr(div0, "class", "sync-packets-log__header svelte-4d0ecm");
+                    dom_attr(div1, "class", "sync-packets-log__packets-container svelte-4d0ecm");
+                    dom_attr(div2, "class", "sync-packets-log svelte-4d0ecm");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    if_block.m(div1, null);
+                    /*div1_binding*/
+                    ctx[3](div1);
+                },
+                p(ctx, dirty) {
+                    if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block) {
+                        if_block.p(ctx, dirty);
+                    } else {
+                        if_block.d(1);
+                        if_block = current_block_type(ctx);
+
+                        if (if_block) {
+                            if_block.c();
+                            if_block.m(div1, null);
+                        }
+                    }
+                },
+                i(local) {
+                    if (local) {
+                        if (!div2_intro) {
+                            add_render_callback(() => {
+                                div2_intro = create_in_transition(div2, fade, {
+                                    duration: 200
+                                });
+                                div2_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div2);
+                    }
+
+                    if_block.d();
+                    /*div1_binding*/
+                    ctx[3](null);
+                }
+            };
+        }
+
+        // (124:3) {:else}
+        function sync_packets_log_index_svelte_create_else_block(ctx) {
+            let each_blocks = [];
+            let each_1_lookup = new Map();
+            let each_1_anchor;
+            let each_value = each_ensure_array_like( /*$syncPackets*/ ctx[2]);
+            const get_key = ctx => /*index*/ ctx[10];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                let child_ctx = sync_packets_log_index_svelte_get_each_context(ctx, each_value, i);
+                let key = get_key(child_ctx);
+                each_1_lookup.set(key, each_blocks[i] = sync_packets_log_index_svelte_create_each_block(key, child_ctx));
+            }
+
+            return {
+                c() {
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    each_1_anchor = empty();
+                },
+                m(target, anchor) {
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(target, anchor);
+                        }
+                    }
+
+                    dom_insert(target, each_1_anchor, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$syncPackets*/ 4) {
+                        each_value = each_ensure_array_like( /*$syncPackets*/ ctx[2]);
+                        each_blocks = update_keyed_each(each_blocks, dirty, get_key, 1, ctx, each_value, each_1_lookup, each_1_anchor.parentNode, destroy_block, sync_packets_log_index_svelte_create_each_block, each_1_anchor, sync_packets_log_index_svelte_get_each_context);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(each_1_anchor);
+                    }
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].d(detaching);
+                    }
+                }
+            };
+        }
+
+        // (120:3) {#if $syncPackets.length === 0}
+        function sync_packets_log_index_svelte_create_if_block_1(ctx) {
+            let div;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.textContent = "No packets";
+                    dom_attr(div, "class", "sync-packets-log--empty svelte-4d0ecm");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (128:7) {#if packet.isNew}
+        function sync_packets_log_index_svelte_create_if_block_2(ctx) {
+            let t;
+
+            return {
+                c() {
+                    t = dom_text("🆕");
+                },
+                m(target, anchor) {
+                    dom_insert(target, t, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t);
+                    }
+                }
+            };
+        }
+
+        // (125:4) {#each $syncPackets as packet, index (index)}
+        function sync_packets_log_index_svelte_create_each_block(key_1, ctx) {
+            let div;
+            let span0;
+            let t0;
+            let t1_value = /*packet*/ ctx[8].time + "";
+            let t1;
+            let t2;
+            let t3;
+            let span1;
+            let t4_value = /*packet*/ ctx[8].data + "";
+            let t4;
+            let t5;
+            let div_intro;
+            let if_block = /*packet*/ ctx[8].isNew && sync_packets_log_index_svelte_create_if_block_2(ctx);
+
+            return {
+                key: key_1,
+                first: null,
+                c() {
+                    div = dom_element("div");
+                    span0 = dom_element("span");
+                    if (if_block) if_block.c();
+                    t0 = dom_text("[");
+                    t1 = dom_text(t1_value);
+                    t2 = dom_text("]");
+                    t3 = dom_space();
+                    span1 = dom_element("span");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    dom_attr(span0, "class", "sync-packets-log__packet__time svelte-4d0ecm");
+                    dom_attr(span1, "class", "sync-packets-log__packet__data svelte-4d0ecm");
+                    dom_attr(div, "class", "sync-packets-log__packet svelte-4d0ecm");
+                    this.first = div;
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, span0);
+                    if (if_block) if_block.m(span0, null);
+                    dom_append(span0, t0);
+                    dom_append(span0, t1);
+                    dom_append(span0, t2);
+                    dom_append(div, t3);
+                    dom_append(div, span1);
+                    dom_append(span1, t4);
+                    dom_append(div, t5);
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+
+                    if ( /*packet*/ ctx[8].isNew) {
+                        if (if_block) {
+
+                        } else {
+                            if_block = sync_packets_log_index_svelte_create_if_block_2(ctx);
+                            if_block.c();
+                            if_block.m(span0, t0);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (dirty & /*$syncPackets*/ 4 && t1_value !== (t1_value = /*packet*/ ctx[8].time + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*$syncPackets*/ 4 && t4_value !== (t4_value = /*packet*/ ctx[8].data + "")) dom_set_data(t4, t4_value);
+                },
+                i(local) {
+                    if (local) {
+                        if (!div_intro) {
+                            add_render_callback(() => {
+                                div_intro = create_in_transition(div, fade, {
+                                    duration: 250
+                                });
+                                div_intro.start();
+                            });
+                        }
+                    }
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        function sync_packets_log_index_svelte_create_fragment(ctx) {
+            let if_block_anchor;
+            let if_block = /*$syncPacketsLogVisible*/ ctx[1] && sync_packets_log_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*$syncPacketsLogVisible*/ ctx[1]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*$syncPacketsLogVisible*/ 2) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = sync_packets_log_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function sync_packets_log_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $syncPacketsLogVisible;
+            let $syncPackets;
+            utils_component_subscribe($$self, syncPacketsLogVisible, $$value => $$invalidate(1, $syncPacketsLogVisible = $$value));
+            utils_component_subscribe($$self, syncPackets, $$value => $$invalidate(2, $syncPackets = $$value));
+            let packetsContainer;
+
+            const addPacket = (time, data) => {
+                syncPackets.addPacket(time, data, () => {
+
+                }); //
+
+                setTimeout(
+                    () => {
+                        if (packetsContainer) {
+                            $$invalidate(0, packetsContainer.scrollTop = packetsContainer.scrollHeight, packetsContainer);
+                        }
+                    },
+                    0
+                );
+            };
+
+            const clearPackets = () => {
+                syncPackets.clear();
+            };
+
+            const unregisterAddPacket = registerEvent('event.syncPacketsLog.addPacket', addPacket);
+            const unregisterClear = registerEvent('event.syncPacketsLog.clear', clearPackets);
+
+            /*setTimeout(() => {
+	addPacket( '13:37:45',  'Packet #17 - Player sync received' );
+}, 1500);
+setTimeout(() => {
+	addPacket( '13:37:48',  'Packet #18 - Player sync received' );
+}, 3000);
+setTimeout(() => {
+	addPacket( '13:38:48',  'SetPlayerAttachCustomObject(index: %i, modelid: %i, bone: %i, result: %i)' );
+}, 4500);*/
+            onDestroy(() => {
+                unregisterAddPacket();
+                unregisterClear();
+            });
+
+            function div1_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    packetsContainer = $$value;
+                    $$invalidate(0, packetsContainer);
+                });
+            }
+
+            return [packetsContainer, $syncPacketsLogVisible, $syncPackets, div1_binding];
+        }
+
+        class Sync_packets_log extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, sync_packets_log_index_svelte_instance, sync_packets_log_index_svelte_create_fragment, utils_safe_not_equal, {}, sync_packets_log_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const sync_packets_log_index_svelte = (Sync_packets_log);; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/counter-gift.svg
+        const counter_gift_namespaceObject = __webpack_require__.p + "assets/0203fd56f5f7def52402.svg";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/bg.png
+        const gifts_bg_namespaceObject = __webpack_require__.p + "assets/8202b7deeb53f5c37743.webp";; // CONCATENATED MODULE: ./src/views/sort-game/img/gifts/conveyor.png
+        const gifts_conveyor_namespaceObject = __webpack_require__.p + "assets/7e08cbfb63322db47954.webp";; // CONCATENATED MODULE: ./src/views/sort-game/gifts/index.svelte
+        /* src\views\sort-game\gifts\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+        function gifts_index_svelte_create_fragment(ctx) {
+            let basegame;
+            let current;
+
+            basegame = new base_game_index_svelte({
+                props: {
+                    title: "Сортировка подарков",
+                    description: "Нажмите на игрушку с помощью ПКМ и перенесите в нужную подарочную коробку",
+                    descriptionIcon: "icon-filled-info",
+                    counterIcon: counter_gift_namespaceObject,
+                    counterColor: "linear-gradient(90deg, #FF0D0D 0%, #FA0A9A 100%);",
+                    counterValueColor: "#fff",
+                    backgroundImage: gifts_bg_namespaceObject,
+                    conveyorImage: gifts_conveyor_namespaceObject
+                }
+            });
+
+            return {
+                c() {
+                    create_component(basegame.$$.fragment);
+                },
+                m(target, anchor) {
+                    mount_component(basegame, target, anchor);
+                    current = true;
+                },
+                p: utils_noop,
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(basegame.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(basegame.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    destroy_component(basegame, detaching);
+                }
+            };
+        }
+
+        class Gifts extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, null, gifts_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const gifts_index_svelte = (Gifts);; // CONCATENATED MODULE: ./src/App.svelte
         /* src\App.svelte generated by Svelte v4.2.8 */
 
 
@@ -377876,7 +388334,11 @@ const getRandomTableNumber = () => {
 
 
 
-        function App_svelte_create_if_block_12(ctx) {
+
+
+
+
+        function App_svelte_create_if_block_13(ctx) {
             let vicecityhud;
             let current;
             vicecityhud = new vice_city_hud_index_svelte({});
@@ -377904,8 +388366,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (319:0) {#if arizonaHudVisible}
-        function App_svelte_create_if_block_11(ctx) {
+        // (336:0) {#if arizonaHudVisible}
+        function App_svelte_create_if_block_12(ctx) {
             let arizonahud;
             let current;
             arizonahud = new arizona_hud_index_svelte({});
@@ -377933,8 +388395,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (323:0) {#if hudVisible}
-        function App_svelte_create_if_block_10(ctx) {
+        // (340:0) {#if hudVisible}
+        function App_svelte_create_if_block_11(ctx) {
             let hud;
             let current;
             hud = new views_hud_index_svelte({});
@@ -377962,8 +388424,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (326:0) {#if radioVisible}
-        function App_svelte_create_if_block_9(ctx) {
+        // (343:0) {#if radioVisible}
+        function App_svelte_create_if_block_10(ctx) {
             let radio;
             let current;
             radio = new radio_index_svelte({});
@@ -377991,8 +388453,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (330:0) {#if battleroyaleHudVisible}
-        function App_svelte_create_if_block_8(ctx) {
+        // (347:0) {#if battleroyaleHudVisible}
+        function App_svelte_create_if_block_9(ctx) {
             let battleroyalehud;
             let current;
             battleroyalehud = new hud_index_svelte({});
@@ -378020,8 +388482,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (334:0) {#if $battleroyaleMapVisible}
-        function App_svelte_create_if_block_7(ctx) {
+        // (351:0) {#if $battleroyaleMapVisible}
+        function App_svelte_create_if_block_8(ctx) {
             let battleroyalemap;
             let current;
             battleroyalemap = new map_index_svelte({});
@@ -378049,8 +388511,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (337:0) {#if horizontalPhoneVisible}
-        function App_svelte_create_if_block_6(ctx) {
+        // (354:0) {#if horizontalPhoneVisible}
+        function App_svelte_create_if_block_7(ctx) {
             let horizontalphone;
             let current;
             horizontalphone = new horizontal_phone_index_svelte({});
@@ -378078,8 +388540,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (341:0) {#if phoneVisible}
-        function App_svelte_create_if_block_5(ctx) {
+        // (358:0) {#if phoneVisible}
+        function App_svelte_create_if_block_6(ctx) {
             let phone;
             let current;
             phone = new phone_index_svelte({});
@@ -378107,8 +388569,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (345:0) {#if $videoBackgroundVisible}
-        function App_svelte_create_if_block_4(ctx) {
+        // (362:0) {#if $videoBackgroundVisible}
+        function App_svelte_create_if_block_5(ctx) {
             let videobackground;
             let current;
             videobackground = new video_background_index_svelte({});
@@ -378136,12 +388598,12 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (349:0) {#if !isNil(views[$selectedView])}
-        function App_svelte_create_if_block_3(ctx) {
+        // (366:0) {#if !isNil(views[$selectedView])}
+        function App_svelte_create_if_block_4(ctx) {
             let switch_instance;
             let switch_instance_anchor;
             let current;
-            var switch_value = /*views*/ ctx[13][ /*$selectedView*/ ctx[12]];
+            var switch_value = /*views*/ ctx[14][ /*$selectedView*/ ctx[13]];
 
             function switch_props(ctx, dirty) {
                 return {};
@@ -378162,7 +388624,7 @@ const getRandomTableNumber = () => {
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$selectedView*/ 4096 && switch_value !== (switch_value = /*views*/ ctx[13][ /*$selectedView*/ ctx[12]])) {
+                    if (dirty[0] & /*$selectedView*/ 8192 && switch_value !== (switch_value = /*views*/ ctx[14][ /*$selectedView*/ ctx[13]])) {
                         if (switch_instance) {
                             transitions_group_outros();
                             const old_component = switch_instance;
@@ -378205,8 +388667,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (353:0) {#if actionProgressBarVisible}
-        function App_svelte_create_if_block_2(ctx) {
+        // (370:0) {#if actionProgressBarVisible}
+        function App_svelte_create_if_block_3(ctx) {
             let actionprogressbar;
             let current;
             actionprogressbar = new action_progress_bar_index_svelte({});
@@ -378234,8 +388696,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (357:0) {#if clickerVisible}
-        function App_svelte_create_if_block_1(ctx) {
+        // (374:0) {#if clickerVisible}
+        function App_svelte_create_if_block_2(ctx) {
             let clicker;
             let current;
             clicker = new clicker_index_svelte({});
@@ -378263,8 +388725,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (361:0) {#if countdownVisible}
-        function App_svelte_create_if_block(ctx) {
+        // (378:0) {#if countdownVisible}
+        function App_svelte_create_if_block_1(ctx) {
             let countdown;
             let current;
             countdown = new countdown_index_svelte({});
@@ -378292,6 +388754,35 @@ const getRandomTableNumber = () => {
             };
         }
 
+        // (382:0) {#if arizonaHudNewYearVisible}
+        function App_svelte_create_if_block(ctx) {
+            let arizonahudnewyear;
+            let current;
+            arizonahudnewyear = new arizona_hud_new_year_index_svelte({});
+
+            return {
+                c() {
+                    create_component(arizonahudnewyear.$$.fragment);
+                },
+                m(target, anchor) {
+                    mount_component(arizonahudnewyear, target, anchor);
+                    current = true;
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(arizonahudnewyear.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(arizonahudnewyear.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    destroy_component(arizonahudnewyear, detaching);
+                }
+            };
+        }
+
         function App_svelte_create_fragment(ctx) {
             let t0;
             let t1;
@@ -378302,30 +388793,35 @@ const getRandomTableNumber = () => {
             let t6;
             let t7;
             let t8;
-            let show_if = !(0, lodash.isNil)( /*views*/ ctx[13][ /*$selectedView*/ ctx[12]]);
+            let show_if = !(0, lodash.isNil)( /*views*/ ctx[14][ /*$selectedView*/ ctx[13]]);
             let t9;
             let t10;
             let t11;
             let t12;
-            let portalscontainer;
             let t13;
-            let modalsroot;
+            let syncpacketslog;
             let t14;
+            let portalscontainer;
+            let t15;
+            let modalsroot;
+            let t16;
             let toast;
             let current;
-            let if_block0 = /*viceCityHudVisible*/ ctx[0] && App_svelte_create_if_block_12(ctx);
-            let if_block1 = /*arizonaHudVisible*/ ctx[1] && App_svelte_create_if_block_11(ctx);
-            let if_block2 = /*hudVisible*/ ctx[2] && App_svelte_create_if_block_10(ctx);
-            let if_block3 = /*radioVisible*/ ctx[4] && App_svelte_create_if_block_9(ctx);
-            let if_block4 = /*battleroyaleHudVisible*/ ctx[9] && App_svelte_create_if_block_8(ctx);
-            let if_block5 = /*$battleroyaleMapVisible*/ ctx[11] && App_svelte_create_if_block_7(ctx);
-            let if_block6 = /*horizontalPhoneVisible*/ ctx[6] && App_svelte_create_if_block_6(ctx);
-            let if_block7 = /*phoneVisible*/ ctx[5] && App_svelte_create_if_block_5(ctx);
-            let if_block8 = /*$videoBackgroundVisible*/ ctx[10] && App_svelte_create_if_block_4(ctx);
-            let if_block9 = show_if && App_svelte_create_if_block_3(ctx);
-            let if_block10 = /*actionProgressBarVisible*/ ctx[3] && App_svelte_create_if_block_2(ctx);
-            let if_block11 = /*clickerVisible*/ ctx[7] && App_svelte_create_if_block_1(ctx);
-            let if_block12 = /*countdownVisible*/ ctx[8] && App_svelte_create_if_block(ctx);
+            let if_block0 = /*viceCityHudVisible*/ ctx[0] && App_svelte_create_if_block_13(ctx);
+            let if_block1 = /*arizonaHudVisible*/ ctx[1] && App_svelte_create_if_block_12(ctx);
+            let if_block2 = /*hudVisible*/ ctx[2] && App_svelte_create_if_block_11(ctx);
+            let if_block3 = /*radioVisible*/ ctx[4] && App_svelte_create_if_block_10(ctx);
+            let if_block4 = /*battleroyaleHudVisible*/ ctx[10] && App_svelte_create_if_block_9(ctx);
+            let if_block5 = /*$battleroyaleMapVisible*/ ctx[12] && App_svelte_create_if_block_8(ctx);
+            let if_block6 = /*horizontalPhoneVisible*/ ctx[6] && App_svelte_create_if_block_7(ctx);
+            let if_block7 = /*phoneVisible*/ ctx[5] && App_svelte_create_if_block_6(ctx);
+            let if_block8 = /*$videoBackgroundVisible*/ ctx[11] && App_svelte_create_if_block_5(ctx);
+            let if_block9 = show_if && App_svelte_create_if_block_4(ctx);
+            let if_block10 = /*actionProgressBarVisible*/ ctx[3] && App_svelte_create_if_block_3(ctx);
+            let if_block11 = /*clickerVisible*/ ctx[7] && App_svelte_create_if_block_2(ctx);
+            let if_block12 = /*countdownVisible*/ ctx[9] && App_svelte_create_if_block_1(ctx);
+            let if_block13 = /*arizonaHudNewYearVisible*/ ctx[8] && App_svelte_create_if_block(ctx);
+            syncpacketslog = new sync_packets_log_index_svelte({});
             portalscontainer = new container_svelte({});
             modalsroot = new modals_root_index_svelte({});
             toast = new toast_index_svelte({});
@@ -378358,10 +388854,14 @@ const getRandomTableNumber = () => {
                     t11 = dom_space();
                     if (if_block12) if_block12.c();
                     t12 = dom_space();
-                    create_component(portalscontainer.$$.fragment);
+                    if (if_block13) if_block13.c();
                     t13 = dom_space();
-                    create_component(modalsroot.$$.fragment);
+                    create_component(syncpacketslog.$$.fragment);
                     t14 = dom_space();
+                    create_component(portalscontainer.$$.fragment);
+                    t15 = dom_space();
+                    create_component(modalsroot.$$.fragment);
+                    t16 = dom_space();
                     create_component(toast.$$.fragment);
                 },
                 m(target, anchor) {
@@ -378391,10 +388891,14 @@ const getRandomTableNumber = () => {
                     dom_insert(target, t11, anchor);
                     if (if_block12) if_block12.m(target, anchor);
                     dom_insert(target, t12, anchor);
-                    mount_component(portalscontainer, target, anchor);
+                    if (if_block13) if_block13.m(target, anchor);
                     dom_insert(target, t13, anchor);
-                    mount_component(modalsroot, target, anchor);
+                    mount_component(syncpacketslog, target, anchor);
                     dom_insert(target, t14, anchor);
+                    mount_component(portalscontainer, target, anchor);
+                    dom_insert(target, t15, anchor);
+                    mount_component(modalsroot, target, anchor);
+                    dom_insert(target, t16, anchor);
                     mount_component(toast, target, anchor);
                     current = true;
                 },
@@ -378405,7 +388909,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = App_svelte_create_if_block_12(ctx);
+                            if_block0 = App_svelte_create_if_block_13(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(t0.parentNode, t0);
@@ -378426,7 +388930,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
-                            if_block1 = App_svelte_create_if_block_11(ctx);
+                            if_block1 = App_svelte_create_if_block_12(ctx);
                             if_block1.c();
                             transitions_transition_in(if_block1, 1);
                             if_block1.m(t1.parentNode, t1);
@@ -378447,7 +388951,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block2, 1);
                             }
                         } else {
-                            if_block2 = App_svelte_create_if_block_10(ctx);
+                            if_block2 = App_svelte_create_if_block_11(ctx);
                             if_block2.c();
                             transitions_transition_in(if_block2, 1);
                             if_block2.m(t2.parentNode, t2);
@@ -378468,7 +388972,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block3, 1);
                             }
                         } else {
-                            if_block3 = App_svelte_create_if_block_9(ctx);
+                            if_block3 = App_svelte_create_if_block_10(ctx);
                             if_block3.c();
                             transitions_transition_in(if_block3, 1);
                             if_block3.m(t3.parentNode, t3);
@@ -378483,13 +388987,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ( /*battleroyaleHudVisible*/ ctx[9]) {
+                    if ( /*battleroyaleHudVisible*/ ctx[10]) {
                         if (if_block4) {
-                            if (dirty[0] & /*battleroyaleHudVisible*/ 512) {
+                            if (dirty[0] & /*battleroyaleHudVisible*/ 1024) {
                                 transitions_transition_in(if_block4, 1);
                             }
                         } else {
-                            if_block4 = App_svelte_create_if_block_8(ctx);
+                            if_block4 = App_svelte_create_if_block_9(ctx);
                             if_block4.c();
                             transitions_transition_in(if_block4, 1);
                             if_block4.m(t4.parentNode, t4);
@@ -378504,13 +389008,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ( /*$battleroyaleMapVisible*/ ctx[11]) {
+                    if ( /*$battleroyaleMapVisible*/ ctx[12]) {
                         if (if_block5) {
-                            if (dirty[0] & /*$battleroyaleMapVisible*/ 2048) {
+                            if (dirty[0] & /*$battleroyaleMapVisible*/ 4096) {
                                 transitions_transition_in(if_block5, 1);
                             }
                         } else {
-                            if_block5 = App_svelte_create_if_block_7(ctx);
+                            if_block5 = App_svelte_create_if_block_8(ctx);
                             if_block5.c();
                             transitions_transition_in(if_block5, 1);
                             if_block5.m(t5.parentNode, t5);
@@ -378531,7 +389035,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block6, 1);
                             }
                         } else {
-                            if_block6 = App_svelte_create_if_block_6(ctx);
+                            if_block6 = App_svelte_create_if_block_7(ctx);
                             if_block6.c();
                             transitions_transition_in(if_block6, 1);
                             if_block6.m(t6.parentNode, t6);
@@ -378552,7 +389056,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block7, 1);
                             }
                         } else {
-                            if_block7 = App_svelte_create_if_block_5(ctx);
+                            if_block7 = App_svelte_create_if_block_6(ctx);
                             if_block7.c();
                             transitions_transition_in(if_block7, 1);
                             if_block7.m(t7.parentNode, t7);
@@ -378567,13 +389071,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ( /*$videoBackgroundVisible*/ ctx[10]) {
+                    if ( /*$videoBackgroundVisible*/ ctx[11]) {
                         if (if_block8) {
-                            if (dirty[0] & /*$videoBackgroundVisible*/ 1024) {
+                            if (dirty[0] & /*$videoBackgroundVisible*/ 2048) {
                                 transitions_transition_in(if_block8, 1);
                             }
                         } else {
-                            if_block8 = App_svelte_create_if_block_4(ctx);
+                            if_block8 = App_svelte_create_if_block_5(ctx);
                             if_block8.c();
                             transitions_transition_in(if_block8, 1);
                             if_block8.m(t8.parentNode, t8);
@@ -378588,17 +389092,17 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$selectedView*/ 4096) show_if = !(0, lodash.isNil)( /*views*/ ctx[13][ /*$selectedView*/ ctx[12]]);
+                    if (dirty[0] & /*$selectedView*/ 8192) show_if = !(0, lodash.isNil)( /*views*/ ctx[14][ /*$selectedView*/ ctx[13]]);
 
                     if (show_if) {
                         if (if_block9) {
                             if_block9.p(ctx, dirty);
 
-                            if (dirty[0] & /*$selectedView*/ 4096) {
+                            if (dirty[0] & /*$selectedView*/ 8192) {
                                 transitions_transition_in(if_block9, 1);
                             }
                         } else {
-                            if_block9 = App_svelte_create_if_block_3(ctx);
+                            if_block9 = App_svelte_create_if_block_4(ctx);
                             if_block9.c();
                             transitions_transition_in(if_block9, 1);
                             if_block9.m(t9.parentNode, t9);
@@ -378619,7 +389123,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block10, 1);
                             }
                         } else {
-                            if_block10 = App_svelte_create_if_block_2(ctx);
+                            if_block10 = App_svelte_create_if_block_3(ctx);
                             if_block10.c();
                             transitions_transition_in(if_block10, 1);
                             if_block10.m(t10.parentNode, t10);
@@ -378640,7 +389144,7 @@ const getRandomTableNumber = () => {
                                 transitions_transition_in(if_block11, 1);
                             }
                         } else {
-                            if_block11 = App_svelte_create_if_block_1(ctx);
+                            if_block11 = App_svelte_create_if_block_2(ctx);
                             if_block11.c();
                             transitions_transition_in(if_block11, 1);
                             if_block11.m(t11.parentNode, t11);
@@ -378655,13 +389159,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ( /*countdownVisible*/ ctx[8]) {
+                    if ( /*countdownVisible*/ ctx[9]) {
                         if (if_block12) {
-                            if (dirty[0] & /*countdownVisible*/ 256) {
+                            if (dirty[0] & /*countdownVisible*/ 512) {
                                 transitions_transition_in(if_block12, 1);
                             }
                         } else {
-                            if_block12 = App_svelte_create_if_block(ctx);
+                            if_block12 = App_svelte_create_if_block_1(ctx);
                             if_block12.c();
                             transitions_transition_in(if_block12, 1);
                             if_block12.m(t12.parentNode, t12);
@@ -378671,6 +389175,27 @@ const getRandomTableNumber = () => {
 
                         transitions_transition_out(if_block12, 1, 1, () => {
                             if_block12 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if ( /*arizonaHudNewYearVisible*/ ctx[8]) {
+                        if (if_block13) {
+                            if (dirty[0] & /*arizonaHudNewYearVisible*/ 256) {
+                                transitions_transition_in(if_block13, 1);
+                            }
+                        } else {
+                            if_block13 = App_svelte_create_if_block(ctx);
+                            if_block13.c();
+                            transitions_transition_in(if_block13, 1);
+                            if_block13.m(t13.parentNode, t13);
+                        }
+                    } else if (if_block13) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block13, 1, 1, () => {
+                            if_block13 = null;
                         });
 
                         transitions_check_outros();
@@ -378691,6 +389216,8 @@ const getRandomTableNumber = () => {
                     transitions_transition_in(if_block10);
                     transitions_transition_in(if_block11);
                     transitions_transition_in(if_block12);
+                    transitions_transition_in(if_block13);
+                    transitions_transition_in(syncpacketslog.$$.fragment, local);
                     transitions_transition_in(portalscontainer.$$.fragment, local);
                     transitions_transition_in(modalsroot.$$.fragment, local);
                     transitions_transition_in(toast.$$.fragment, local);
@@ -378710,6 +389237,8 @@ const getRandomTableNumber = () => {
                     transitions_transition_out(if_block10);
                     transitions_transition_out(if_block11);
                     transitions_transition_out(if_block12);
+                    transitions_transition_out(if_block13);
+                    transitions_transition_out(syncpacketslog.$$.fragment, local);
                     transitions_transition_out(portalscontainer.$$.fragment, local);
                     transitions_transition_out(modalsroot.$$.fragment, local);
                     transitions_transition_out(toast.$$.fragment, local);
@@ -378732,6 +389261,8 @@ const getRandomTableNumber = () => {
                         dom_detach(t12);
                         dom_detach(t13);
                         dom_detach(t14);
+                        dom_detach(t15);
+                        dom_detach(t16);
                     }
 
                     if (if_block0) if_block0.d(detaching);
@@ -378747,6 +389278,8 @@ const getRandomTableNumber = () => {
                     if (if_block10) if_block10.d(detaching);
                     if (if_block11) if_block11.d(detaching);
                     if (if_block12) if_block12.d(detaching);
+                    if (if_block13) if_block13.d(detaching);
+                    destroy_component(syncpacketslog, detaching);
                     destroy_component(portalscontainer, detaching);
                     destroy_component(modalsroot, detaching);
                     destroy_component(toast, detaching);
@@ -378764,13 +389297,13 @@ const getRandomTableNumber = () => {
             let $browserId;
             let $battleroyaleMapVisible;
             let $selectedView;
-            utils_component_subscribe($$self, videoBackgroundVisible, $$value => $$invalidate(10, $videoBackgroundVisible = $$value));
-            utils_component_subscribe($$self, videoRegPaused, $$value => $$invalidate(15, $videoRegPaused = $$value));
-            utils_component_subscribe($$self, videoRegMuted, $$value => $$invalidate(16, $videoRegMuted = $$value));
-            utils_component_subscribe($$self, videoRegBlockByTime, $$value => $$invalidate(17, $videoRegBlockByTime = $$value));
-            utils_component_subscribe($$self, browserId, $$value => $$invalidate(18, $browserId = $$value));
-            utils_component_subscribe($$self, battleroyaleMapVisible, $$value => $$invalidate(11, $battleroyaleMapVisible = $$value));
-            utils_component_subscribe($$self, selectedView, $$value => $$invalidate(12, $selectedView = $$value));
+            utils_component_subscribe($$self, videoBackgroundVisible, $$value => $$invalidate(11, $videoBackgroundVisible = $$value));
+            utils_component_subscribe($$self, videoRegPaused, $$value => $$invalidate(16, $videoRegPaused = $$value));
+            utils_component_subscribe($$self, videoRegMuted, $$value => $$invalidate(17, $videoRegMuted = $$value));
+            utils_component_subscribe($$self, videoRegBlockByTime, $$value => $$invalidate(18, $videoRegBlockByTime = $$value));
+            utils_component_subscribe($$self, browserId, $$value => $$invalidate(19, $browserId = $$value));
+            utils_component_subscribe($$self, battleroyaleMapVisible, $$value => $$invalidate(12, $battleroyaleMapVisible = $$value));
+            utils_component_subscribe($$self, selectedView, $$value => $$invalidate(13, $selectedView = $$value));
             let viceCityHudVisible = false;
             let arizonaHudVisible = false;
             let hudVisible = true;
@@ -378780,6 +389313,7 @@ const getRandomTableNumber = () => {
             let horizontalPhoneVisible = false;
             let clickerVisible = false;
             let isBackgroundVideoCanShow = true;
+            let arizonaHudNewYearVisible = false;
 
             // countdown
             let countdownVisible = false;
@@ -378855,7 +389389,9 @@ const getRandomTableNumber = () => {
                 Promo: views_promo_index_svelte,
                 EmploymentCenter: employment_center_index_svelte,
                 BodiesSortGame: bodies_index_svelte,
-                FindTreasures: find_treasures_index_svelte
+                FindTreasures: find_treasures_index_svelte,
+                GiftsSortGame: gifts_index_svelte,
+                RodinaHudChickengrad: arizona_hud_chickengrad_index_svelte
             };
 
             const updateVideoBackgroundVisible = visible => {
@@ -378882,17 +389418,26 @@ const getRandomTableNumber = () => {
             const unregisterUpdateActionProgressBarVisible = registerEvent('event.actionProgressBar.updateActionProgressBarVisible', updateActionProgressBarVisible);
             const updateClickerVisible = visible => $$invalidate(7, clickerVisible = visible);
             const unregisterUpdateClickerVisible = registerEvent('event.clicker.updateClickerVisible', updateClickerVisible);
-            const updateCountdownVisible = visible => $$invalidate(8, countdownVisible = visible);
+            const updateCountdownVisible = visible => $$invalidate(9, countdownVisible = visible);
             const unregisterUpdateCountdownVisible = registerEvent('event.countdown.updateCountdownVisible', updateCountdownVisible);
             const updateHorizontalPhoneVisible = visible => $$invalidate(6, horizontalPhoneVisible = visible);
             const unregisterUpdateHorizontalPhoneVisible = registerEvent('event.horizontalPhone.updateHorizontalPhoneVisible', updateHorizontalPhoneVisible);
 
             // battleroyale
-            const updateBattleroyaleHudVisible = visible => $$invalidate(9, battleroyaleHudVisible = visible);
+            const updateBattleroyaleHudVisible = visible => $$invalidate(10, battleroyaleHudVisible = visible);
 
             const unregisterupdateBattleroyaleHudVisible = registerEvent('event.hud.updateBattleroyaleHudVisible', updateBattleroyaleHudVisible);
             const updateBattleroyaleMapVisible = visible => utils_set_store_value(battleroyaleMapVisible, $battleroyaleMapVisible = visible, $battleroyaleMapVisible);
             const unregisterupdateBattleroyaleMapVisible = registerEvent('event.hud.updateBattleroyaleMapVisible', updateBattleroyaleMapVisible);
+
+            const updateArizonaHudNewYearVisible = visible => {
+                $$invalidate(2, hudVisible = visible === true ? false : hudVisible);
+                $$invalidate(1, arizonaHudVisible = visible === true ? false : arizonaHudVisible);
+                $$invalidate(0, viceCityHudVisible = visible === true ? false : viceCityHudVisible);
+                $$invalidate(8, arizonaHudNewYearVisible = visible);
+            };
+
+            const unregisterupdateArizonaHudNewYearVisible = registerEvent('event.hud.updateArizonaHudNewYearVisible', updateArizonaHudNewYearVisible);
 
             onDestroy(() => {
                 unregisterUpdateViceCityHudVisible();
@@ -378907,6 +389452,7 @@ const getRandomTableNumber = () => {
                 unregisterUpdateCountdownVisible();
                 unregisterupdateBattleroyaleHudVisible();
                 unregisterupdateBattleroyaleMapVisible();
+                unregisterupdateArizonaHudNewYearVisible();
             });
 
             onMount(() => {
@@ -378978,7 +389524,7 @@ const getRandomTableNumber = () => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "7b516157");
+                    console.log(`[debug] app init`, "1021", "bae2cb77");
                 }
             });
 
@@ -378991,6 +389537,7 @@ const getRandomTableNumber = () => {
                 phoneVisible,
                 horizontalPhoneVisible,
                 clickerVisible,
+                arizonaHudNewYearVisible,
                 countdownVisible,
                 battleroyaleHudVisible,
                 $videoBackgroundVisible,
@@ -379045,7 +389592,7 @@ const getRandomTableNumber = () => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "7b516157");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "bae2cb77");
     })();
 
     /******/

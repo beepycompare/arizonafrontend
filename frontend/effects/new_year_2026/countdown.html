@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>New Year 2026</title>
+
+    <style>
+        :root {
+            --font-main: "Georgia", "Times New Roman", serif;
+            --text-size-main: 6.4rem;
+            --text-size-sub: 2.2rem;
+            --text-gradient: linear-gradient(180deg, #ffffff 0%, #e6f3ff 45%, #bcdfff 70%, #ffffff 100%);
+            --text-glow-main: 0 0 40px rgba(180, 220, 255, .85), 0 0 120px rgba(120, 190, 255, .75);
+            --text-glow-final: 0 0 80px rgba(220, 245, 255, 1), 0 0 220px rgba(160, 220, 255, 1);
+            --cine-bar-height: 8vh;
+            --cine-bar-color: rgba(0, 0, 0, .9);
+            --snow-color: #ffffff;
+            --snow-glow: 0 0 10px rgba(255, 255, 255, .95);
+            --firework-size: 10px;
+        }
+
+        /* БАЗА */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: transparent;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            font-family: var(--font-main);
+        }
+
+        .cine-bar {
+            position: fixed;
+            left: 0;
+            width: 100%;
+            height: var(--cine-bar-height);
+            background: var(--cine-bar-color);
+            opacity: 0;
+            transition: opacity 2s ease;
+            z-index: 50;
+        }
+
+        .cine-bar.show {
+            opacity: 1;
+        }
+
+        .cine-bar.top {
+            top: 0;
+        }
+
+        .cine-bar.bottom {
+            bottom: 0;
+        }
+
+        /* ТЕКСТ */
+        #countdownText {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translateX(-50%);
+            font-size: var(--text-size-main);
+            text-align: center;
+            white-space: nowrap;
+            opacity: 0;
+            z-index: 30;
+            background: var(--text-gradient);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: var(--text-glow-main);
+            transition: top 2.5s cubic-bezier(.22, .61, .36, 1), opacity 1.5s ease;
+        }
+
+        #countdownText.center {
+            top: 50%;
+        }
+
+        #countdownText.show {
+            opacity: 1;
+        }
+
+        /* ПУЛЬС СЕКУНД */
+        .countPulse {
+            animation: countPulse 1s ease-in-out;
+        }
+
+        @keyframes countPulse {
+            0% {
+                transform: translateX(-50%) scale(.85);
+                opacity: 0;
+            }
+
+            40% {
+                transform: translateX(-50%) scale(1.15);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateX(-50%) scale(1);
+            }
+        }
+
+        /* ФИНАЛ */
+        #countdownText.final {
+            letter-spacing: .18em;
+            animation: pulseFinal 4s ease-in-out infinite;
+        }
+
+        @keyframes pulseFinal {
+
+            0%,
+            100% {
+                transform: translateX(-50%) scale(1);
+                text-shadow: var(--text-glow-final);
+            }
+
+            50% {
+                transform: translateX(-50%) scale(1.05);
+                text-shadow: 0 0 110px rgba(240, 250, 255, 1), 0 0 300px rgba(180, 230, 255, 1);
+            }
+        }
+
+        /* ГОД 2026 яркий анимированный градиент */
+        .year {
+            font-weight: 700;
+            font-size: var(--text-size-main);
+            background: linear-gradient(90deg, #ffdfd1, #ffdfff, #b0e0ff, #ffffff, #b0e0ff, #ffdfff, #ffdfd1);
+            background-size: 400% 100%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            animation: yearGradient 5s linear infinite;
+            display: inline-block;
+        }
+
+        @keyframes yearGradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* СНЕГ */
+        .snow {
+            position: absolute;
+            top: -20px;
+            border-radius: 50%;
+            background: var(--snow-color);
+            box-shadow: var(--snow-glow);
+            opacity: 1;
+            pointer-events: none;
+            animation: fall linear forwards;
+        }
+
+        @keyframes fall {
+            to {
+                transform: translateY(115vh);
+                opacity: 0;
+            }
+        }
+
+        /* САЛЮТ */
+        .burst {
+            position: absolute;
+            width: var(--firework-size);
+            height: var(--firework-size);
+            border-radius: 50%;
+            background: var(--c);
+            box-shadow: 0 0 24px var(--c);
+            pointer-events: none;
+            animation: explode 3s ease-out forwards;
+        }
+
+        @keyframes explode {
+            from {
+                transform: translate(0, 0) scale(1);
+                opacity: 1;
+            }
+
+            to {
+                transform: translate(var(--dx), var(--dy)) scale(0);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cine-bar top" id="barTop"></div>
+    <div class="cine-bar bottom" id="barBottom"></div>
+    <div id="countdownText"></div>
+
+    <script>
+        const text = document.getElementById("countdownText");
+        const barTop = document.getElementById("barTop");
+        const barBottom = document.getElementById("barBottom");
+
+        /* ❄ СНЕГ */
+        setInterval(() => {
+            const s = document.createElement("div");
+            s.className = "snow";
+            const size = Math.random() * 9 + 6;
+            s.style.width = s.style.height = size + "px";
+            s.style.left = Math.random() * innerWidth + "px";
+            s.style.animationDuration = (Math.random() * 5 + 6) + "s";
+            document.body.appendChild(s);
+            setTimeout(() => s.remove(), 12000);
+        }, 60);
+
+        /* 🕛 ТАЙМЕР ТЕСТ 2:30 */
+        let totalSeconds = 150; // 2 мин 30 сек
+        let moved = false;
+
+        const timer = setInterval(tick, 1000);
+        tick();
+
+        function tick() {
+            if (totalSeconds <= 0) {
+                clearInterval(timer);
+                final();
+                return;
+            }
+            render(totalSeconds);
+            totalSeconds--;
+        }
+
+        function render(sec) {
+            if (sec <= 120 && !moved) {
+                moved = true;
+                text.classList.add("center");
+                barTop.classList.add("show");
+                barBottom.classList.add("show");
+            }
+
+            const m = Math.floor(sec / 60);
+            const s = sec % 60;
+
+            let out = "";
+            if (sec > 10) {
+                out = String(m).padStart(2, "0") + ":" + String(s).padStart(2, "0");
+            } else {
+                out = s;
+                text.classList.remove("countPulse");
+                void text.offsetWidth;
+                text.classList.add("countPulse");
+            }
+
+            text.textContent = out;
+            text.classList.add("show");
+        }
+
+        /* 🎆 САЛЮТ */
+        const colors = ["#ffffff", "#d6ecff", "#bcdfff", "#ffdff1", "#e7dcff", "#fff2cc"];
+
+        function firework(x, y) {
+            for (let i = 0; i < 200; i++) {
+                const p = document.createElement("div");
+                p.className = "burst";
+                const a = Math.random() * Math.PI * 2;
+                const r = Math.random() * 520 + 200;
+                p.style.left = x + "px";
+                p.style.top = y + "px";
+                p.style.setProperty("--dx", Math.cos(a) * r + "px");
+                p.style.setProperty("--dy", Math.sin(a) * r + "px");
+                p.style.setProperty("--c", colors[Math.floor(Math.random() * colors.length)]);
+                document.body.appendChild(p);
+                setTimeout(() => p.remove(), 3000);
+            }
+        }
+
+        /* 🎉 ФИНАЛ */
+        function final() {
+            text.innerHTML = `
+        <div style="font-size:var(--text-size-sub);letter-spacing:.4em;margin-bottom:.6em;">
+            ПОЗДРАВЛЯЕМ!
+        </div>
+        <div>
+            С НОВЫМ <span class="year">2026</span> ГОДОМ!
+        </div>`;
+            text.classList.add("final");
+
+            firework(innerWidth / 2, innerHeight / 2);
+            setInterval(() => {
+                firework(
+                    Math.random() * innerWidth * .8 + innerWidth * .1,
+                    Math.random() * innerHeight * .5 + innerHeight * .2
+                );
+            }, 3000);
+        }
+    </script>
+</body>
+
+</html>

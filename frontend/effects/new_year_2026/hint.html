@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>До нового года осталось</title>
+
+    <style>
+        :root {
+            --title-size: 2rem;
+            --value-size: 3rem;
+            --glow-soft:
+                0 0 25px rgba(160, 210, 255, .7),
+                0 0 70px rgba(110, 180, 255, .55);
+        }
+
+        /* БАЗА */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: transparent;
+            overflow: hidden;
+            width: 100vw;
+            height: 100vh;
+            font-family: "Segoe UI", "Arial", sans-serif;
+        }
+
+        /* КОНТЕЙНЕР */
+        #hintBox {
+            position: absolute;
+            top: 6%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-18px);
+            text-align: center;
+            opacity: 0;
+            z-index: 100;
+            transition:
+                opacity 3s cubic-bezier(.2, .6, .2, 1),
+                transform 3s cubic-bezier(.2, .6, .2, 1);
+        }
+
+        #hintBox.show {
+            opacity: 1;
+            transform: translateX(-50%) translateY(0);
+        }
+
+        #hintBox.hide {
+            opacity: 0;
+            transform: translateX(-50%) translateY(18px);
+        }
+
+        /* ТЕКСТ */
+        #title {
+            font-size: var(--title-size);
+            letter-spacing: .28em;
+            margin-bottom: .5em;
+            background: linear-gradient(180deg, #f7fbff, #dbeeff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: var(--glow-soft);
+        }
+
+        #value {
+            font-size: var(--value-size);
+            font-weight: 600;
+            letter-spacing: 0.05em;
+            background: linear-gradient(180deg, #ffffff, #cce8ff);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-shadow: var(--glow-soft);
+        }
+
+        /* ❄ СНЕГ */
+        .snowflake {
+            position: fixed;
+            top: -10px;
+            pointer-events: none;
+            width: 8px;
+            height: 8px;
+            border-radius: 50%;
+            background: radial-gradient(circle, #fff 0%, rgba(255, 255, 255, 0.5) 60%, rgba(255, 255, 255, 0) 100%);
+            filter: blur(1px);
+            animation-name: fall;
+            animation-timing-function: linear;
+            z-index: 50;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(0) translateX(0);
+            }
+
+            100% {
+                transform: translateY(110vh) translateX(var(--xOffset));
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="hintBox">
+        <div id="title">ДО НОВОГО ГОДА ОСТАЛОСЬ</div>
+        <div id="value"></div>
+    </div>
+
+    <script>
+        const box = document.getElementById("hintBox");
+        const valueEl = document.getElementById("value");
+
+        /* Склонение */
+        function plural(n, one, few, many) {
+            const n10 = n % 10;
+            const n100 = n % 100;
+            if (n10 === 1 && n100 !== 11) return one;
+            if (n10 >= 2 && n10 <= 4 && (n100 < 10 || n100 >= 20)) return few;
+            return many;
+        }
+
+        /* Московское время */
+        function getMoscowNow() {
+            const now = new Date();
+            return new Date(now.getTime() + now.getTimezoneOffset() * 60000 + 3 * 3600000);
+        }
+
+        /* Цель: 01.01.2026 00:00 МСК */
+        const target = new Date(Date.UTC(2025, 11, 31, 21, 0, 0));
+
+        /* Обновление */
+        function update() {
+            const now = getMoscowNow();
+            let sec = Math.floor((target - now) / 1000);
+            if (sec <= 0) {
+                valueEl.textContent = "С НОВЫМ ГОДОМ!";
+                return;
+            }
+            const days = Math.floor(sec / 86400);
+            const hours = Math.floor((sec % 86400) / 3600);
+            const minutes = Math.floor((sec % 3600) / 60);
+
+            if (days > 0) {
+                valueEl.textContent = days + " " + plural(days, "ДЕНЬ", "ДНЯ", "ДНЕЙ");
+            } else if (hours > 0) {
+                valueEl.textContent = hours + " " + plural(hours, "ЧАС", "ЧАСА", "ЧАСОВ");
+            } else {
+                valueEl.textContent = minutes + " " + plural(minutes, "МИНУТА", "МИНУТЫ", "МИНУТ");
+            }
+        }
+
+        /* Запуск текста */
+        update();
+        requestAnimationFrame(() => box.classList.add("show"));
+        const updater = setInterval(update, 60000);
+        setTimeout(() => {
+            box.classList.remove("show");
+            box.classList.add("hide");
+            clearInterval(updater);
+        }, 15000);
+
+        /* ❄ СОЗДАНИЕ СНЕЖИНОК */
+        function createSnowflake() {
+            const s = document.createElement("div");
+            s.className = "snowflake";
+            const size = Math.random() * 5 + 5;
+            s.style.width = s.style.height = size + "px";
+            s.style.left = Math.random() * window.innerWidth + "px";
+            s.style.setProperty("--xOffset", (Math.random() - 0.5) * 100 + "vw");
+            s.style.animationDuration = (Math.random() * 5 + 5) + "s";
+            document.body.appendChild(s);
+            setTimeout(() => s.remove(), 12000);
+        }
+
+        /* ❄ Периодическое появление снежинок */
+        const snowInterval = setInterval(() => {
+            for (let i = 0; i < 3; i++) createSnowflake();
+        }, 200);
+
+        /* ❄ Прекращаем создание через 15 сек */
+        setTimeout(() => clearInterval(snowInterval), 15000);
+    </script>
+
+</body>
+
+</html>

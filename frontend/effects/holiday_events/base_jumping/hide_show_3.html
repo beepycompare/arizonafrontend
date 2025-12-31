@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Эффект снега</title>
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        #snowFX {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 99999;
+            overflow: hidden;
+        }
+
+        .flake {
+            position: absolute;
+            background-image: url('sneg.png');
+            background-size: contain;
+            background-repeat: no-repeat;
+            will-change: transform, opacity;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="snowFX"></div>
+
+    <script>
+        const snow = document.getElementById("snowFX");
+        const flakesCount = 80;
+
+        // общее время жизни снежинки
+        const LIFE_TIME = 4000;
+
+        for (let i = 0; i < flakesCount; i++) {
+            const flake = document.createElement("div");
+            flake.className = "flake";
+
+            const size = (20 + Math.random() * 40) * 3;
+            flake.style.width = size + "px";
+            flake.style.height = size + "px";
+
+            flake.style.left = (-200 - Math.random() * 300) + "px";
+            flake.style.top = Math.random() * 100 + "%";
+
+            const startRot = Math.random() * 360;
+            const endRot = startRot + 360 + Math.random() * 360;
+
+            const duration = 2500 + Math.random() * 1500;
+
+            snow.appendChild(flake);
+
+            flake.animate([{
+                    transform: `translateX(0) rotate(${startRot}deg)`,
+                    opacity: 0
+                },
+                {
+                    opacity: 1,
+                    offset: 0.15
+                },
+                {
+                    transform: `translateX(${window.innerWidth + 400}px) rotate(${endRot}deg)`,
+                    opacity: 0
+                }
+            ], {
+                duration: duration,
+                easing: "linear",
+                fill: "forwards"
+            });
+
+            // удалить элемент после завершения анимации
+            setTimeout(() => flake.remove(), duration);
+        }
+    </script>
+
+</body>
+
+</html>

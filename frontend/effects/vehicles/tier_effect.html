@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upgrade Overlay – Light Glare</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        /* 🌈 Плавный тёмный радужный блик */
+        #rainbowGlare {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 5;
+
+            background: linear-gradient(120deg,
+                    rgba(255, 60, 120, 0.06),
+                    rgba(80, 180, 255, 0.06),
+                    rgba(80, 255, 180, 0.06),
+                    rgba(255, 220, 120, 0.06),
+                    rgba(255, 60, 120, 0.06));
+            background-size: 300% 300%;
+            animation: glareMove 28s linear infinite;
+        }
+
+        @keyframes glareMove {
+            0% {
+                background-position: 0% 0%;
+            }
+
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+
+        /* Контейнер текста */
+        #textContainer {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            z-index: 20;
+        }
+
+        /* Текст */
+        .phrase {
+            position: absolute;
+            font-family: "Segoe UI", Arial, sans-serif;
+            font-weight: 600;
+            font-size: 28px;
+            white-space: nowrap;
+            opacity: 0;
+
+            background: linear-gradient(90deg,
+                    #ffffff,
+                    #9be7ff,
+                    #ffb5f5,
+                    #ffffff);
+            background-size: 300%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+
+            animation: textFlow 6s linear infinite;
+            transition: opacity 0.8s ease, transform 0.8s ease;
+        }
+
+        @keyframes textFlow {
+            from {
+                background-position: 0%;
+            }
+
+            to {
+                background-position: 300%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="rainbowGlare"></div>
+    <div id="textContainer"></div>
+
+    <script>
+        const phrases = [
+            "Состояние стабилизируется",
+            "Уровень постепенно растёт",
+            "Изменения вступают в силу",
+            "Процесс запущен",
+            "Система принимает обновление",
+            "Баланс выравнивается",
+            "Общее состояние улучшается",
+            "Переход на новый уровень",
+            "Процесс продолжается",
+            "Улучшение подтверждено"
+        ];
+
+        const container = document.getElementById('textContainer');
+
+        function showPhrase() {
+            const div = document.createElement('div');
+            div.className = 'phrase';
+            div.textContent = phrases[Math.floor(Math.random() * phrases.length)];
+
+            container.appendChild(div);
+
+            const padX = 80;
+            const padY = window.innerHeight * 0.12;
+
+            const textWidth = div.offsetWidth;
+            const maxLeft = window.innerWidth - textWidth - padX;
+            const left = padX + Math.random() * Math.max(0, maxLeft - padX);
+
+            const top =
+                padY +
+                Math.random() * (window.innerHeight - padY * 2 - 40);
+
+            div.style.left = left + 'px';
+            div.style.top = top + 'px';
+
+            div.style.transform = 'translateY(6px)';
+
+            requestAnimationFrame(() => {
+                div.style.opacity = 1;
+                div.style.transform = 'translateY(0)';
+            });
+
+            setTimeout(() => {
+                div.style.opacity = 0;
+                div.style.transform = 'translateY(-6px)';
+                setTimeout(() => div.remove(), 800);
+            }, 3200);
+
+            setTimeout(showPhrase, 3600 + Math.random() * 2400);
+        }
+
+        showPhrase();
+    </script>
+
+</body>
+
+</html>

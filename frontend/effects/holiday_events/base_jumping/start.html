@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>New Year Countdown</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: transparent;
+            overflow: hidden;
+            height: 100vh;
+            width: 100vw;
+            font-family: "Palatino Linotype", Palatino, Georgia, serif;
+        }
+
+        /* Киношные рамки */
+        .cine-bar {
+            position: fixed;
+            left: 0;
+            width: 100%;
+            height: 8vh;
+            background: rgba(0, 0, 0, 0.9);
+            z-index: 50;
+            opacity: 0;
+            transition: opacity 1.5s ease;
+        }
+
+        .cine-bar.show {
+            opacity: 1;
+        }
+
+        .cine-bar.top {
+            top: 0;
+        }
+
+        .cine-bar.bottom {
+            bottom: 0;
+        }
+
+        /* Текст */
+        #countdownText {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 7rem;
+            color: #eaf6ff;
+            text-shadow:
+                0 0 20px rgba(180, 220, 255, 0.9),
+                0 0 40px rgba(120, 180, 255, 0.7);
+            white-space: nowrap;
+            opacity: 0;
+            z-index: 30;
+            transition: opacity 0.3s ease, transform 0.3s ease, text-shadow 2s ease;
+        }
+
+        #countdownText.show {
+            opacity: 1;
+            transform: translate(-50%, -50%) scale(1);
+        }
+
+        #countdownText.hide {
+            opacity: 0;
+            transform: translate(-50%, -50%) scale(1.15);
+        }
+
+        /* ❄ Холодные блики */
+        .glint {
+            position: absolute;
+            pointer-events: none;
+            border-radius: 50%;
+            background: radial-gradient(circle,
+                    rgba(220, 245, 255, 1) 0%,
+                    rgba(160, 220, 255, 0.9) 40%,
+                    rgba(120, 180, 255, 0.3) 70%,
+                    rgba(120, 180, 255, 0) 100%);
+            filter: blur(0.5px);
+            opacity: 0.85;
+            animation: glintMove var(--duration) linear;
+            z-index: 20;
+        }
+
+        @keyframes glintMove {
+            0% {
+                transform: translateY(0) translateX(0) scale(0.6);
+                opacity: 0;
+            }
+
+            20% {
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(var(--offsetY)) translateX(var(--xoffset)) scale(1.2);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="cine-bar top show" id="barTop"></div>
+    <div class="cine-bar bottom show" id="barBottom"></div>
+    <div id="countdownText"></div>
+
+    <script>
+        const text = document.getElementById("countdownText");
+        const barTop = document.getElementById("barTop");
+        const barBottom = document.getElementById("barBottom");
+
+        /* ❄ ХОЛОДНЫЕ БЛИКИ */
+        function createGlint() {
+            const g = document.createElement("div");
+            g.className = "glint";
+
+            const size = Math.random() * 6 + 4;
+            const duration = Math.random() * 3 + 2;
+            const xoffset = (Math.random() - 0.5) * 120;
+            const offsetY = -(Math.random() * 140 + 120) + "vh";
+
+            g.style.width = size + "px";
+            g.style.height = size + "px";
+            g.style.left = Math.random() * window.innerWidth + "px";
+            g.style.bottom = "-30px";
+
+            g.style.setProperty("--duration", `${duration}s`);
+            g.style.setProperty("--xoffset", `${xoffset}px`);
+            g.style.setProperty("--offsetY", offsetY);
+
+            document.body.appendChild(g);
+            setTimeout(() => g.remove(), duration * 1000);
+        }
+
+        let glintInterval = setInterval(() => {
+            for (let i = 0; i < 5; i++) createGlint();
+        }, 160);
+
+        /* 🎆 ОБРАТНЫЙ ОТСЧЁТ */
+        const sequence = [
+            "10", "9", "8", "7", "6", "5", "4",
+            "НА СТАРТ",
+            "ВНИМАНИЕ",
+            "ПОЛЕТЕЛИ"
+        ];
+
+        let index = 0;
+        const numberDuration = 857;
+        const phraseDuration = 1333;
+
+        function showNext() {
+            if (index < sequence.length) {
+                text.textContent = sequence[index];
+                text.classList.remove("hide");
+                text.classList.add("show");
+
+                if (index === sequence.length - 1) {
+                    clearInterval(glintInterval);
+
+                    barTop.style.opacity = "0";
+                    barBottom.style.opacity = "0";
+
+                    document.querySelectorAll(".glint").forEach(g => {
+                        g.style.transition = "opacity 2s ease";
+                        g.style.opacity = "0";
+                        setTimeout(() => g.remove(), 2000);
+                    });
+
+                    text.style.transition = "transform 2s ease, text-shadow 2s ease";
+                    text.style.transform = "translate(-50%, -50%) scale(1.25)";
+                    text.style.textShadow =
+                        "0 0 35px rgba(200,240,255,1), 0 0 70px rgba(140,200,255,0.9)";
+                }
+
+                const delay = (index < 7) ? numberDuration : phraseDuration;
+                index++;
+
+                setTimeout(() => {
+                    text.classList.add("hide");
+                    setTimeout(showNext, 0);
+                }, delay);
+            }
+        }
+
+        /* ▶ СТАРТ */
+        barTop.classList.add("show");
+        barBottom.classList.add("show");
+        showNext();
+    </script>
+
+</body>
+
+</html>

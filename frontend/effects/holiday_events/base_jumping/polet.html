@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Холодный speed-эффект</title>
+
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            background: transparent;
+        }
+
+        canvas {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+        }
+    </style>
+</head>
+
+<body>
+
+    <canvas id="effectCanvas"></canvas>
+
+    <script>
+        const canvas = document.getElementById('effectCanvas');
+        const ctx = canvas.getContext('2d');
+
+        function resize() {
+            canvas.width = window.innerWidth;
+            canvas.height = window.innerHeight;
+        }
+        resize();
+        window.addEventListener('resize', resize);
+
+        const center = () => ({
+            x: canvas.width / 2,
+            y: canvas.height / 2
+        });
+
+        const particles = [];
+        const COUNT = Math.floor(120 * 0.7);
+
+        // генерация частиц
+        for (let i = 0; i < COUNT; i++) spawnParticle();
+
+        function spawnParticle(p = {}) {
+            const c = center();
+            const angle = Math.random() * Math.PI * 2;
+            const speed = (1 + Math.random() * 3) * 6 * 2.25;
+
+            const gray = 220 + Math.random() * 35; // белый → серый
+
+            p.x = c.x + (Math.random() * 0.2 - 0.1) * canvas.width;
+            p.y = c.y + (Math.random() * 0.2 - 0.1) * canvas.height;
+            p.vx = Math.cos(angle) * speed;
+            p.vy = Math.sin(angle) * speed;
+            p.size = (2 + Math.random() * 5) * 0.5;
+            p.alpha = 0;
+            p.lineLength = (20 + Math.random() * 50) * (1 + Math.random() * 4) * 0.5;
+            p.lineWidth = (1 + Math.random() * 3) * 0.5;
+            p.gray = gray;
+
+            if (!particles.includes(p)) particles.push(p);
+        }
+
+        // виньетка
+        let vignetteOpacity = 0.6;
+        let vignetteDir = 1;
+
+        function animate() {
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+            const c = center();
+
+            // холодная виньетка
+            vignetteOpacity += 0.02 * vignetteDir;
+            if (vignetteOpacity > 0.9 || vignetteOpacity < 0.3) vignetteDir *= -1;
+
+            const g = ctx.createRadialGradient(
+                c.x, c.y, 0,
+                c.x, c.y, canvas.width / 2
+            );
+            g.addColorStop(0, 'rgba(0,0,0,0)');
+            g.addColorStop(1, `rgba(100,150,255,${vignetteOpacity})`);
+            ctx.fillStyle = g;
+            ctx.fillRect(0, 0, canvas.width, canvas.height);
+
+            // частицы
+            for (const p of particles) {
+                if (p.alpha < 1) p.alpha += 0.02;
+
+                const angle = Math.atan2(p.vy, p.vx);
+
+                // speed-линия
+                ctx.strokeStyle = `rgba(${p.gray},${p.gray},${p.gray},${p.alpha * 0.72})`;
+                ctx.lineWidth = p.lineWidth;
+                ctx.beginPath();
+                ctx.moveTo(p.x, p.y);
+                ctx.lineTo(
+                    p.x - Math.cos(angle) * p.lineLength,
+                    p.y - Math.sin(angle) * p.lineLength
+                );
+                ctx.stroke();
+
+                // точка
+                ctx.fillStyle = `rgba(${p.gray},${p.gray},${p.gray},${p.alpha * 0.6})`;
+                ctx.beginPath();
+                ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+                ctx.fill();
+
+                // движение
+                p.x += p.vx;
+                p.y += p.vy;
+
+                // респавн
+                if (
+                    p.x < 0 || p.x > canvas.width ||
+                    p.y < 0 || p.y > canvas.height
+                ) {
+                    spawnParticle(p);
+                }
+            }
+
+            requestAnimationFrame(animate);
+        }
+
+        animate();
+    </script>
+
+</body>
+
+</html>
