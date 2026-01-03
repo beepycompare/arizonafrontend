@@ -96915,21 +96915,21 @@
             "active": 0
         }, {
             "id": 6141,
-            "name": "Объект: Воздушный шар Большое сердце",
+            "name": "Компенсация: Воздушный шар Большое сердце",
             "icon": "6141.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 6142,
-            "name": "Объект: Мишка с валентинкой",
+            "name": "Компенсация: Мишка с валентинкой",
             "icon": "6142.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 6143,
-            "name": "Объект: Клумба с шариками в виде сердца",
+            "name": "Компенсация: Клумба с шариками в виде сердца",
             "icon": "6143.webp",
             "acs_slot": -1,
             "type": 21,
@@ -96943,7 +96943,7 @@
             "active": 0
         }, {
             "id": 6145,
-            "name": "Объект: Леденец Сердечко на палочке",
+            "name": "Компенсация: Леденец Сердечко на палочке",
             "icon": "6145.webp",
             "acs_slot": -1,
             "type": 21,
@@ -96964,7 +96964,7 @@
             "active": 0
         }, {
             "id": 6148,
-            "name": "Объект: Садовый гном с валентинкой",
+            "name": "Компенсация: Садовый гном с валентинкой",
             "icon": "6148.webp",
             "acs_slot": -1,
             "type": 21,
@@ -97006,7 +97006,7 @@
             "active": 0
         }, {
             "id": 6154,
-            "name": "Объект: Три сердца на палке",
+            "name": "Компенсация: Три сердца на палке",
             "icon": "6154.webp",
             "acs_slot": -1,
             "type": 21,
@@ -97853,21 +97853,21 @@
             "active": 0
         }, {
             "id": 6275,
-            "name": "Объект: Пасхальная корзина",
+            "name": "Компенсация: Пасхальная корзина",
             "icon": "6275.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 6276,
-            "name": "Объект: Кулич",
+            "name": "Компенсация: Кулич",
             "icon": "6276.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 6277,
-            "name": "Объект: Пасхальная свеча",
+            "name": "Компенсация: Пасхальная свеча",
             "icon": "6277.webp",
             "acs_slot": -1,
             "type": 21,
@@ -97881,7 +97881,7 @@
             "active": 0
         }, {
             "id": 6279,
-            "name": "Объект: Коврик «Пасхальное яйцо»",
+            "name": "Компенсация: Коврик «Пасхальное яйцо»",
             "icon": "6279.webp",
             "acs_slot": -1,
             "type": 21,
@@ -97902,14 +97902,14 @@
             "active": 0
         }, {
             "id": 6282,
-            "name": "Объект: Коврик «Цыпленок»",
+            "name": "Компенсация: Коврик «Цыпленок»",
             "icon": "6282.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 6283,
-            "name": "Объект: Шоколадный заяц",
+            "name": "Компенсация: Шоколадный заяц",
             "icon": "6283.webp",
             "acs_slot": -1,
             "type": 21,
@@ -98413,7 +98413,7 @@
             "active": 0
         }, {
             "id": 6355,
-            "name": "Объект: Пасхальная лавочка (2)",
+            "name": "Компенсация: Пасхальная лавочка (2)",
             "icon": "6355.webp",
             "acs_slot": -1,
             "type": 21,
@@ -99190,7 +99190,7 @@
             "active": 0
         }, {
             "id": 6466,
-            "name": "Объект: Тележка с мешками",
+            "name": "Компенсация: Тележка с мешками",
             "icon": "6466.webp",
             "acs_slot": -1,
             "type": 21,
@@ -99218,7 +99218,7 @@
             "active": 0
         }, {
             "id": 6470,
-            "name": "Объект: Тотем идола",
+            "name": "Компенсация: Тотем идола",
             "icon": "6470.webp",
             "acs_slot": -1,
             "type": 21,
@@ -99239,7 +99239,7 @@
             "active": 0
         }, {
             "id": 6473,
-            "name": "Объект: Эшафот",
+            "name": "Компенсация: Эшафот",
             "icon": "6473.webp",
             "acs_slot": -1,
             "type": 21,
@@ -99253,7 +99253,7 @@
             "active": 0
         }, {
             "id": 6475,
-            "name": "Объект: Курилка",
+            "name": "Компенсация: Курилка",
             "icon": "6475.webp",
             "acs_slot": -1,
             "type": 21,
@@ -99267,7 +99267,7 @@
             "active": 0
         }, {
             "id": 6477,
-            "name": "Объект: Тотем",
+            "name": "Компенсация: Тотем",
             "icon": "6477.webp",
             "acs_slot": -1,
             "type": 21,
@@ -99288,7 +99288,7 @@
             "active": 0
         }, {
             "id": 6480,
-            "name": "Объект: Тотемы из лощадей",
+            "name": "Компенсация: Тотемы из лощадей",
             "icon": "6480.webp",
             "acs_slot": -1,
             "type": 21,
@@ -102501,7 +102501,7 @@
             "active": 0
         }, {
             "id": 6939,
-            "name": "Объект: Детский батут",
+            "name": "Компенсация: Детский батут",
             "icon": "6939.webp",
             "acs_slot": -1,
             "type": 21,
@@ -102529,7 +102529,7 @@
             "active": 0
         }, {
             "id": 6943,
-            "name": "Объект: Зацикленный трамплин",
+            "name": "Компенсация: Зацикленный трамплин",
             "icon": "6943.webp",
             "acs_slot": -1,
             "type": 21,
@@ -102557,14 +102557,14 @@
             "active": 0
         }, {
             "id": 6947,
-            "name": "Объект: Большой гриб",
+            "name": "Компенсация: Большой гриб",
             "icon": "6947.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 6948,
-            "name": "Объект: Агрессивная утка",
+            "name": "Компенсация: Агрессивная утка",
             "icon": "6948.webp",
             "acs_slot": -1,
             "type": 21,
@@ -102676,7 +102676,7 @@
             "active": 0
         }, {
             "id": 6964,
-            "name": "Объект: Баскетбольная сетка",
+            "name": "Компенсация: Баскетбольная сетка",
             "icon": "6964.webp",
             "acs_slot": -1,
             "type": 21,
@@ -103446,7 +103446,7 @@
             "active": 0
         }, {
             "id": 7074,
-            "name": "Объект: Весёлая тыква",
+            "name": "Компенсация: Весёлая тыква",
             "icon": "7074.webp",
             "acs_slot": -1,
             "type": 21,
@@ -103481,7 +103481,7 @@
             "active": 0
         }, {
             "id": 7079,
-            "name": "Объект: Hollow Knight",
+            "name": "Компенсация: Hollow Knight",
             "icon": "7079.webp",
             "acs_slot": -1,
             "type": 21,
@@ -103530,7 +103530,7 @@
             "active": 0
         }, {
             "id": 7086,
-            "name": "Объект: Трансформер Чёрная вдова",
+            "name": "Компенсация: Трансформер Чёрная вдова",
             "icon": "7086.webp",
             "acs_slot": -1,
             "type": 21,
@@ -103586,14 +103586,14 @@
             "active": 0
         }, {
             "id": 7094,
-            "name": "Объект: Скуби Снэк",
+            "name": "Компенсация: Скуби Снэк",
             "icon": "7094.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7095,
-            "name": "Объект: Трансформер Траст",
+            "name": "Компенсация: Трансформер Траст",
             "icon": "7095.webp",
             "acs_slot": -1,
             "type": 21,
@@ -104188,21 +104188,21 @@
             "active": 0
         }, {
             "id": 7180,
-            "name": "Объект: Гномики",
+            "name": "Компенсация: Гномики",
             "icon": "7180.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7181,
-            "name": "Объект: Пряничный домик",
+            "name": "Компенсация: Пряничный домик",
             "icon": "7181.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7182,
-            "name": "Объект: Новогодний шар с ёлочками",
+            "name": "Компенсация: Новогодний шар с ёлочками",
             "icon": "7182.webp",
             "acs_slot": -1,
             "type": 21,
@@ -104216,7 +104216,7 @@
             "active": 0
         }, {
             "id": 7184,
-            "name": "Объект: Золотая ёлка",
+            "name": "Компенсация: Золотая ёлка",
             "icon": "7184.webp",
             "acs_slot": -1,
             "type": 21,
@@ -104230,7 +104230,7 @@
             "active": 0
         }, {
             "id": 7186,
-            "name": "Объект: С новым годом",
+            "name": "Компенсация: С новым годом",
             "icon": "7186.webp",
             "acs_slot": -1,
             "type": 21,
@@ -104244,7 +104244,7 @@
             "active": 0
         }, {
             "id": 7188,
-            "name": "Объект: Пингвин",
+            "name": "Компенсация: Пингвин",
             "icon": "7188.webp",
             "acs_slot": -1,
             "type": 21,
@@ -104293,7 +104293,7 @@
             "active": 0
         }, {
             "id": 7195,
-            "name": "Объект: Снеговик",
+            "name": "Компенсация: Снеговик",
             "icon": "7195.webp",
             "acs_slot": -1,
             "type": 21,
@@ -104307,21 +104307,21 @@
             "active": 0
         }, {
             "id": 7197,
-            "name": "Объект: Чашка с горячим шоколадом",
+            "name": "Компенсация: Чашка с горячим шоколадом",
             "icon": "7197.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7198,
-            "name": "Объект: Портал Рик и Морти",
+            "name": "Компенсация: Портал Рик и Морти",
             "icon": "7198.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7199,
-            "name": "Объект: Новогодняя карусель",
+            "name": "Компенсация: Новогодняя карусель",
             "icon": "7199.webp",
             "acs_slot": -1,
             "type": 21,
@@ -106855,7 +106855,7 @@
             "active": 1
         }, {
             "id": 7561,
-            "name": "Объект: Луноход",
+            "name": "Компенсация: Луноход",
             "icon": "7561.webp",
             "acs_slot": -1,
             "type": 21,
@@ -106869,14 +106869,14 @@
             "active": 0
         }, {
             "id": 7563,
-            "name": "Объект: Метеорит",
+            "name": "Компенсация: Метеорит",
             "icon": "7563.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7564,
-            "name": "Объект: Проекция созвездий",
+            "name": "Компенсация: Проекция созвездий",
             "icon": "7564.webp",
             "acs_slot": -1,
             "type": 21,
@@ -106925,21 +106925,21 @@
             "active": 0
         }, {
             "id": 7571,
-            "name": "Объект: Покемоно-яйцо",
+            "name": "Компенсация: Покемоно-яйцо",
             "icon": "7571.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7572,
-            "name": "Объект: Вылупившийся цыплёнок",
+            "name": "Компенсация: Вылупившийся цыплёнок",
             "icon": "7572.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7573,
-            "name": "Объект: Корзинка с яйцами",
+            "name": "Компенсация: Корзинка с яйцами",
             "icon": "7573.webp",
             "acs_slot": -1,
             "type": 21,
@@ -106967,7 +106967,7 @@
             "active": 0
         }, {
             "id": 7577,
-            "name": "Объект: Пасхальный колокол",
+            "name": "Компенсация: Пасхальный колокол",
             "icon": "7577.webp",
             "acs_slot": -1,
             "type": 21,
@@ -106988,14 +106988,14 @@
             "active": 0
         }, {
             "id": 7580,
-            "name": "Объект: Пасхальная корзина",
+            "name": "Компенсация: Пасхальная корзина",
             "icon": "7580.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7581,
-            "name": "Объект: Пасхальная беседка",
+            "name": "Компенсация: Пасхальная беседка",
             "icon": "7581.webp",
             "acs_slot": -1,
             "type": 21,
@@ -107009,14 +107009,14 @@
             "active": 0
         }, {
             "id": 7583,
-            "name": "Объект: Цееточные кролики",
+            "name": "Компенсация: Цееточные кролики",
             "icon": "7583.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7584,
-            "name": "Объект: Пасхальные домики",
+            "name": "Компенсация: Пасхальные домики",
             "icon": "7584.webp",
             "acs_slot": -1,
             "type": 21,
@@ -108913,7 +108913,7 @@
             "active": 0
         }, {
             "id": 7855,
-            "name": "Объект: Мороженное",
+            "name": "Компенсация: Мороженное",
             "icon": "7855.webp",
             "acs_slot": -1,
             "type": 21,
@@ -108948,14 +108948,14 @@
             "active": 0
         }, {
             "id": 7860,
-            "name": "Объект: Надпись Горячо",
+            "name": "Компенсация: Надпись Горячо",
             "icon": "7860.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 7861,
-            "name": "Объект: Фруктовая акула",
+            "name": "Компенсация: Фруктовая акула",
             "icon": "7861.webp",
             "acs_slot": -1,
             "type": 21,
@@ -111664,7 +111664,7 @@
             "active": 0
         }, {
             "id": 8248,
-            "name": "Объект: Праздничные подарки",
+            "name": "Компенсация: Праздничные подарки",
             "icon": "8248.webp",
             "acs_slot": -1,
             "type": 21,
@@ -111678,7 +111678,7 @@
             "active": 0
         }, {
             "id": 8250,
-            "name": "Объект: Стенд с оленем",
+            "name": "Компенсация: Стенд с оленем",
             "icon": "8250.webp",
             "acs_slot": -1,
             "type": 21,
@@ -111692,7 +111692,7 @@
             "active": 0
         }, {
             "id": 8252,
-            "name": "Объект: Пряничный домик",
+            "name": "Компенсация: Пряничный домик",
             "icon": "8252.webp",
             "acs_slot": -1,
             "type": 21,
@@ -111909,7 +111909,7 @@
             "active": 0
         }, {
             "id": 8283,
-            "name": "Объект: Вырубленный Шито на стуле",
+            "name": "Компенсация: Вырубленный Шито на стуле",
             "icon": "8283.webp",
             "acs_slot": -1,
             "type": 21,
@@ -112469,7 +112469,7 @@
             "active": 0
         }, {
             "id": 8363,
-            "name": "Объект: Колонка Алиса",
+            "name": "Компенсация: Колонка Алиса",
             "icon": "8363.webp",
             "acs_slot": -1,
             "type": 21,
@@ -112483,14 +112483,14 @@
             "active": 0
         }, {
             "id": 8365,
-            "name": "Объект: Геймпад",
+            "name": "Компенсация: Геймпад",
             "icon": "8365.webp",
             "acs_slot": -1,
             "type": 21,
             "active": 0
         }, {
             "id": 8366,
-            "name": "Объект: Газоразрядный индикатор ИН-14",
+            "name": "Компенсация: Газоразрядный индикатор ИН-14",
             "icon": "8366.webp",
             "acs_slot": -1,
             "type": 21,
@@ -112532,7 +112532,7 @@
             "active": 0
         }, {
             "id": 8372,
-            "name": "Объект: Пасхальная сова",
+            "name": "Компенсация: Пасхальная сова",
             "icon": "8372.webp",
             "acs_slot": -1,
             "type": 21,
@@ -112574,7 +112574,7 @@
             "active": 0
         }, {
             "id": 8378,
-            "name": "Объект: Зайчик с морковкой",
+            "name": "Компенсация: Зайчик с морковкой",
             "icon": "8378.webp",
             "acs_slot": -1,
             "type": 21,
@@ -112616,7 +112616,7 @@
             "active": 0
         }, {
             "id": 8384,
-            "name": "Объект: Покемон 1",
+            "name": "Компенсация: Покемон 1",
             "icon": "8384.webp",
             "acs_slot": -1,
             "type": 21,
@@ -115549,7 +115549,7 @@
             "active": 0
         }, {
             "id": 8803,
-            "name": "Объект: Геттовская зона отдыха",
+            "name": "Компенсация: Геттовская зона отдыха",
             "icon": "8803.webp",
             "acs_slot": -1,
             "type": 21,
@@ -115584,7 +115584,7 @@
             "active": 0
         }, {
             "id": 8808,
-            "name": "Объект: Бассейн с граффити",
+            "name": "Компенсация: Бассейн с граффити",
             "icon": "8808.webp",
             "acs_slot": -1,
             "type": 21,
@@ -117082,7 +117082,7 @@
             "active": 0
         }, {
             "id": 9022,
-            "name": "Объект: Капсула с растением",
+            "name": "Компенсация: Капсула с растением",
             "icon": "9022.webp",
             "acs_slot": -1,
             "type": 21,
@@ -117117,7 +117117,7 @@
             "active": 0
         }, {
             "id": 9027,
-            "name": "Объект: Обелиск",
+            "name": "Компенсация: Обелиск",
             "icon": "9027.webp",
             "acs_slot": -1,
             "type": 21,
@@ -122171,14 +122171,14 @@
             "id": 9729,
             "name": "Кенгурятник для BMW волшебника 2026",
             "icon": "9729.webp",
-            "acs_slot": -1,
+            "acs_slot": 11,
             "type": 23,
             "active": 0
         }, {
             "id": 9730,
             "name": "Кенгурятник для ЧубВоз 26",
             "icon": "9730.webp",
-            "acs_slot": -1,
+            "acs_slot": 11,
             "type": 23,
             "active": 0
         }, {
@@ -122225,14 +122225,14 @@
             "active": 0
         }, {
             "id": 9737,
-            "name": "Tier 1 Обвес Дерижабль Магната",
+            "name": "Усилитель Дирижабля Tier 1",
             "icon": "9737.webp",
             "acs_slot": -1,
             "type": 23,
             "active": 0
         }, {
             "id": 9738,
-            "name": "Tier 2 Обвес Дерижабль Магната",
+            "name": "Усилитель Дирижабля Tier 2",
             "icon": "9738.webp",
             "acs_slot": -1,
             "type": 23,
@@ -122240,7 +122240,7 @@
             "effect": "white-fire"
         }, {
             "id": 9739,
-            "name": "Tier 3 Обвес Дерижабль Магната",
+            "name": "Усилитель Дирижабля Tier 3",
             "icon": "9739.webp",
             "acs_slot": -1,
             "type": 23,
@@ -122259,6 +122259,20 @@
             "icon": "9741.webp",
             "acs_slot": -1,
             "type": 15,
+            "active": 0
+        }, {
+            "id": 9742,
+            "name": "Золотой набор реставрации для аксессуара",
+            "icon": "9742.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9743,
+            "name": "Набор лимитки",
+            "icon": "9743.webp",
+            "acs_slot": -1,
+            "type": 24,
             "active": 0
         }];; // CONCATENATED MODULE: ./src/store/inventory.js
 
@@ -295888,7 +295902,7 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (262:8) {#if titleIcon}
+        // (288:8) {#if titleIcon}
         function base_game_index_svelte_create_if_block_2(ctx) {
             let img;
             let img_src_value;
@@ -295916,7 +295930,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (292:12) {#each items as item}
+        // (318:12) {#each items as item}
         function base_game_index_svelte_create_each_block_1(ctx) {
             let div;
             let img;
@@ -295926,7 +295940,7 @@ const getRandomTableNumber = () => {
             let dispose;
 
             function mousedown_handler(...args) {
-                return /*mousedown_handler*/ ctx[22]( /*item*/ ctx[45], ...args);
+                return /*mousedown_handler*/ ctx[21]( /*item*/ ctx[45], ...args);
             }
 
             return {
@@ -295983,7 +295997,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (311:8) {#each gameDetails as itemBox}
+        // (337:8) {#each gameDetails as itemBox}
         function base_game_index_svelte_create_each_block(ctx) {
             let div;
             let img;
@@ -296031,7 +296045,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (327:4) {#if conveyorBottomImage}
+        // (353:4) {#if conveyorBottomImage}
         function base_game_index_svelte_create_if_block_1(ctx) {
             let div;
             let div_style_value;
@@ -296058,7 +296072,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (341:4) {#if !isEmpty(draggingItem)}
+        // (367:4) {#if !isEmpty(draggingItem)}
         function base_game_index_svelte_create_if_block(ctx) {
             let portal;
             let current;
@@ -296109,7 +296123,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (342:8) <Portal>
+        // (368:8) <Portal>
         function base_game_index_svelte_create_default_slot(ctx) {
             let div;
             let img;
@@ -296337,7 +296351,7 @@ const getRandomTableNumber = () => {
                     }
 
                     /*div7_binding*/
-                    ctx[23](div7);
+                    ctx[22](div7);
                     dom_append(div12, t10);
                     dom_append(div12, div9);
 
@@ -296517,7 +296531,7 @@ const getRandomTableNumber = () => {
                     destroy_component(exitbutton);
                     destroy_each(each_blocks_1, detaching);
                     /*div7_binding*/
-                    ctx[23](null);
+                    ctx[22](null);
                     destroy_each(each_blocks, detaching);
                     if (if_block1) if_block1.d();
                     if (if_block2) if_block2.d();
@@ -296528,9 +296542,6 @@ const getRandomTableNumber = () => {
         }
 
         function base_game_index_svelte_instance($$self, $$props, $$invalidate) {
-            let {
-                gameId = ''
-            } = $$props;
             let {
                 title
             } = $$props;
@@ -296579,13 +296590,40 @@ const getRandomTableNumber = () => {
             const grabSound = new Audio(grab_namespaceObject);
             const musicSound = new Audio(sound_music_namespaceObject);
 
+            const updateBoxesCoords = () => {
+                setTimeout(
+                    () => {
+                        boxesCoords = gameDetails.map(item => {
+                            const node = document.querySelector(`#box-${item.id}`);
+
+                            if (!node) {
+                                return null;
+                            }
+
+                            const nodeCoords = node.getBoundingClientRect();
+
+                            return {
+                                color: item.id,
+                                x1: nodeCoords.x,
+                                y1: nodeCoords.y,
+                                x2: nodeCoords.x + nodeCoords.width,
+                                y2: nodeCoords.y + nodeCoords.height
+                            };
+                        }).filter(Boolean);
+                    },
+                    0
+                );
+            };
+
             const initializeGameDetails = gameDetailsDto => {
                 $$invalidate(10, gameDetails = gameDetailsDto);
+                updateBoxesCoords();
             };
 
             const initializeGameType = type => {
                 $$invalidate(11, gameType = type);
                 $$invalidate(10, gameDetails = getGameDetailsMock(type));
+                updateBoxesCoords();
             };
 
             const getResolutionScale = value => {
@@ -296718,9 +296756,7 @@ const getRandomTableNumber = () => {
 
             const unregisterInitializeGameDetails = registerEvent('event.sortBaseGame.initializeGameDetails', initializeGameDetails);
             const unregisterInitializeGameType = registerEvent('event.sortBaseGame.initializeGameType', initializeGameType);
-            const exit = () => cef_sendClientMessage('sortBaseGame.exit', {
-                gameId
-            });
+            const exit = () => cef_sendClientMessage('sortBaseGame.exit');
 
             if (gameDetails.length === 0) {
                 gameDetails = getGameDetailsMock(gameType);
@@ -296730,13 +296766,17 @@ const getRandomTableNumber = () => {
                 base_game_sounds_soundManager.play('theme');
                 offsetTop = itemsNode.getBoundingClientRect().y;
 
-                boxesCoords = COLORS_POOL.map(color => {
-                    const node = document.querySelector(`#box-${color}`);
-                    if (!node) return null;
+                boxesCoords = gameDetails.map(item => {
+                    const node = document.querySelector(`#box-${item.id}`);
+
+                    if (!node) {
+                        return null;
+                    }
+
                     const nodeCoords = node.getBoundingClientRect();
 
                     return {
-                        color,
+                        color: item.id,
                         x1: nodeCoords.x,
                         y1: nodeCoords.y,
                         x2: nodeCoords.x + nodeCoords.width,
@@ -296801,7 +296841,6 @@ const getRandomTableNumber = () => {
             }
 
             $$self.$$set = $$props => {
-                if ('gameId' in $$props) $$invalidate(21, gameId = $$props.gameId);
                 if ('title' in $$props) $$invalidate(0, title = $$props.title);
                 if ('titleIcon' in $$props) $$invalidate(1, titleIcon = $$props.titleIcon);
                 if ('description' in $$props) $$invalidate(2, description = $$props.description);
@@ -296836,7 +296875,6 @@ const getRandomTableNumber = () => {
                 handleMouseMove,
                 handleMouseUp,
                 exit,
-                gameId,
                 mousedown_handler,
                 div7_binding
             ];
@@ -296852,7 +296890,6 @@ const getRandomTableNumber = () => {
                     base_game_index_svelte_instance,
                     base_game_index_svelte_create_fragment,
                     utils_safe_not_equal, {
-                        gameId: 21,
                         title: 0,
                         titleIcon: 1,
                         description: 2,
@@ -389647,7 +389684,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "99d732ad");
+                    console.log(`[debug] app init`, "1021", "3f5badee");
                 }
             });
 
@@ -389715,7 +389752,7 @@ setTimeout(() => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "99d732ad");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "3f5badee");
     })();
 
     /******/
