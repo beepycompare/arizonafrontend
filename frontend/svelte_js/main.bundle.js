@@ -294838,27 +294838,26 @@ const getRandomTableNumber = () => {
             let t0_value = /*$village*/ ctx[0].level + "";
             let t0;
             let t1;
-            let t2;
             let div1;
             let div0;
             let div0_style_value;
-            let t3;
+            let t2;
             let p1;
-            let t4_value = /*$village*/ ctx[0].exp + "";
+            let t3_value = /*$village*/ ctx[0].exp + "";
+            let t3;
             let t4;
-            let t5;
             let p2;
-            let t6_value = /*$village*/ ctx[0].maxExp + "";
+            let t5_value = /*$village*/ ctx[0].maxExp + "";
+            let t5;
             let t6;
-            let t7;
             let div3;
-            let t10;
+            let t9;
             let div4;
-            let t11;
+            let t10;
             let div5;
             let img1;
             let img1_src_value;
-            let t12;
+            let t11;
             let show_if = ( /*$village*/ ctx[0].components || []).every(func);
             let mounted;
             let dispose;
@@ -294877,30 +294876,29 @@ const getRandomTableNumber = () => {
                     div2 = dom_element("div");
                     p0 = dom_element("p");
                     t0 = dom_text(t0_value);
-                    t1 = dom_text(" Уровень");
-                    t2 = dom_space();
+                    t1 = dom_space();
                     div1 = dom_element("div");
                     div0 = dom_element("div");
-                    t3 = dom_space();
+                    t2 = dom_space();
                     p1 = dom_element("p");
-                    t4 = dom_text(t4_value);
-                    t5 = dom_space();
+                    t3 = dom_text(t3_value);
+                    t4 = dom_space();
                     p2 = dom_element("p");
-                    t6 = dom_text(t6_value);
-                    t7 = dom_space();
+                    t5 = dom_text(t5_value);
+                    t6 = dom_space();
                     div3 = dom_element("div");
                     div3.innerHTML = `<img class="event-pass-village__button-img" src="${rating_button_namespaceObject}" alt="button-img"/> <p class="event-pass-village__button-title">РЕЙТИНГ</p>`;
-                    t10 = dom_space();
+                    t9 = dom_space();
                     div4 = dom_element("div");
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
                     }
 
-                    t11 = dom_space();
+                    t10 = dom_space();
                     div5 = dom_element("div");
                     img1 = dom_element("img");
-                    t12 = dom_space();
+                    t11 = dom_space();
                     if (if_block) if_block.c();
                     dom_attr(p0, "class", "event-pass-village__lvl-value");
                     dom_attr(div0, "class", "event-pass-village__lvl-progress-current");
@@ -294922,19 +294920,18 @@ const getRandomTableNumber = () => {
                     dom_append(div6, div2);
                     dom_append(div2, p0);
                     dom_append(p0, t0);
-                    dom_append(p0, t1);
-                    dom_append(div2, t2);
+                    dom_append(div2, t1);
                     dom_append(div2, div1);
                     dom_append(div1, div0);
-                    dom_append(div1, t3);
+                    dom_append(div1, t2);
                     dom_append(div1, p1);
-                    dom_append(p1, t4);
-                    dom_append(div1, t5);
+                    dom_append(p1, t3);
+                    dom_append(div1, t4);
                     dom_append(div1, p2);
-                    dom_append(p2, t6);
-                    dom_append(div6, t7);
+                    dom_append(p2, t5);
+                    dom_append(div6, t6);
                     dom_append(div6, div3);
-                    dom_append(div6, t10);
+                    dom_append(div6, t9);
                     dom_append(div6, div4);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
@@ -294943,10 +294940,10 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    dom_append(div6, t11);
+                    dom_append(div6, t10);
                     dom_append(div6, div5);
                     dom_append(div5, img1);
-                    dom_append(div6, t12);
+                    dom_append(div6, t11);
                     if (if_block) if_block.m(div6, null);
 
                     if (!mounted) {
@@ -294961,8 +294958,8 @@ const getRandomTableNumber = () => {
                         dom_attr(div0, "style", div0_style_value);
                     }
 
-                    if (dirty & /*$village*/ 1 && t4_value !== (t4_value = /*$village*/ ctx[0].exp + "")) dom_set_data(t4, t4_value);
-                    if (dirty & /*$village*/ 1 && t6_value !== (t6_value = /*$village*/ ctx[0].maxExp + "")) dom_set_data(t6, t6_value);
+                    if (dirty & /*$village*/ 1 && t3_value !== (t3_value = /*$village*/ ctx[0].exp + "")) dom_set_data(t3, t3_value);
+                    if (dirty & /*$village*/ 1 && t5_value !== (t5_value = /*$village*/ ctx[0].maxExp + "")) dom_set_data(t5, t5_value);
 
                     if (dirty & /*buyUpgradeComponent, $village*/ 3) {
                         each_value = each_ensure_array_like( /*$village*/ ctx[0].components || []);
@@ -389684,7 +389681,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "3f5badee");
+                    console.log(`[debug] app init`, "1021", "d9897554");
                 }
             });
 
@@ -389752,7 +389749,7 @@ setTimeout(() => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "3f5badee");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "d9897554");
     })();
 
     /******/
