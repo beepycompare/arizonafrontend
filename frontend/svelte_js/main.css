@@ -34137,7 +34137,7 @@
 
 .event-pass-main__guide-video {
     align-items: center;
-    background-image: url(assets/3da4476df5e4eec75e96.webp);
+    background-image: url(assets/07bfa9249896f28534b2.webp);
     background-repeat: no-repeat;
     background-size: cover;
     border-color: #fff;
@@ -41762,6 +41762,12 @@
 
 .hotkeys-tips-ny__tip-button--radial {
     background-color: #ffbf00;
+    color: hsla(0, 0%, 7%, .8);
+    transform: translateY(5%)
+}
+
+.hotkeys-tips-ny__tip-button--mission {
+    background-color: #0bf;
     color: hsla(0, 0%, 7%, .8);
     transform: translateY(5%)
 }

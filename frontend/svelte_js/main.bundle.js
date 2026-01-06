@@ -121606,7 +121606,7 @@
             "name": "Волшебные шары Код 26",
             "icon": "9649.webp",
             "acs_slot": 0,
-            "type": 6,
+            "type": 3,
             "active": 1
         }, {
             "id": 9650,
@@ -122269,10 +122269,129 @@
             "active": 0
         }, {
             "id": 9743,
-            "name": "Набор лимитки",
+            "name": "Набор Лимитки",
             "icon": "9743.webp",
             "acs_slot": -1,
             "type": 24,
+            "active": 0
+        }, {
+            "id": 9744,
+            "name": "Сэт Медведя +1700",
+            "icon": "9744.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9745,
+            "name": "Сэт Медведя +1600",
+            "icon": "9745.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9746,
+            "name": "Сэт Медведя +1500",
+            "icon": "9746.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9747,
+            "name": "Сэт Медведя +1400",
+            "icon": "9747.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9748,
+            "name": "Сэт Медведя +1300",
+            "icon": "9748.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9749,
+            "name": "Сэт Медведя +1200",
+            "icon": "9749.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9750,
+            "name": "Сэт Медведя +1100",
+            "icon": "9750.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9751,
+            "name": "Сэт Медведя +1000",
+            "icon": "9751.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9752,
+            "name": "Сэт Медведя +1900",
+            "icon": "9752.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9753,
+            "name": "Сэт Медведя +1800",
+            "icon": "9753.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9754,
+            "name": "Сэт Берсерка +1800",
+            "icon": "9754.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9755,
+            "name": "Сэт Берсерка +1500",
+            "icon": "9755.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9756,
+            "name": "Сэт Ведьмы +1800",
+            "icon": "9756.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9757,
+            "name": "Сэт Ведьмы +1500",
+            "icon": "9757.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9758,
+            "name": "Вирты Чубрика",
+            "icon": "9758.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9759,
+            "name": "Вирты Чубрика (непередаваемые)",
+            "icon": "9759.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0
+        }, {
+            "id": 9760,
+            "name": "Талон на x4 PayDay (передаваемый)",
+            "icon": "9760.webp",
+            "acs_slot": -1,
+            "type": 15,
             "active": 0
         }];; // CONCATENATED MODULE: ./src/store/inventory.js
 
@@ -384685,6 +384804,7 @@ const getRandomTableNumber = () => {
 
         var activeTimers = new Map();
         var positions = ['top', 'top-left', 'top-right', 'bottom', 'bottom-left', 'bottom-right', 'center'];
+        var MAX_QUEUE_SIZE = 3;
 
         function addNotification(data) {
             var pos = data.position || 'top';
@@ -384701,6 +384821,18 @@ const getRandomTableNumber = () => {
             };
             headerNotifications.update(function(state) {
                 var queue = notification_manager_toConsumableArray(state[pos]);
+                if (queue.length >= MAX_QUEUE_SIZE) {
+                    var toRemove = queue.slice(1, queue.length - MAX_QUEUE_SIZE + 2);
+                    toRemove.forEach(function(n) {
+                        var timers = activeTimers.get(n.id);
+                        if (timers) {
+                            clearInterval(timers.progressInterval);
+                            clearTimeout(timers.hideTimeout);
+                            activeTimers["delete"](n.id);
+                        }
+                    });
+                    queue = [queue[0]].concat(notification_manager_toConsumableArray(queue.slice(queue.length - MAX_QUEUE_SIZE + 2)));
+                }
                 var isFirst = queue.length === 0;
                 queue.push(notification);
                 if (isFirst && notification.duration > 0) {
@@ -386068,7 +386200,7 @@ const getRandomTableNumber = () => {
                     div3.textContent = "R";
                     t5 = dom_space();
                     div4 = dom_element("div");
-                    div4.textContent = "Действие с выбранным предметом";
+                    div4.textContent = "Подобрать предмет";
                     t7 = dom_space();
                     div8 = dom_element("div");
                     div6 = dom_element("div");
@@ -386102,7 +386234,7 @@ const getRandomTableNumber = () => {
                     t23 = dom_text("\r\n\t\t\t\tДля настройки голосового чата нажмите\r\n\t\t\t");
                     span1 = dom_element("span");
                     span1.textContent = "F11";
-                    dom_attr(div0, "class", "hotkeys-tips-ny__tip-button");
+                    dom_attr(div0, "class", "hotkeys-tips-ny__tip-button hotkeys-tips-ny__tip-button--mission");
                     dom_toggle_class(div0, "hotkeys-tips-ny__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[2].Tasks]);
                     dom_attr(div1, "class", "hotkeys-tips-ny__tip-text");
                     dom_attr(div2, "class", "hotkeys-tips-ny__tip");
@@ -389681,7 +389813,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "d9897554");
+                    console.log(`[debug] app init`, "1021", "1956203b");
                 }
             });
 
@@ -389749,7 +389881,7 @@ setTimeout(() => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "d9897554");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "1956203b");
     })();
 
     /******/
