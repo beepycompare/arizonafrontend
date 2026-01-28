@@ -50279,14 +50279,71 @@
             selectedView.set(view);
             cef_sendClientMessage('onActiveViewChanged', view);
         };
-        registerEvent('event.setActiveView', setActiveView);; // CONCATENATED MODULE: ./src/store/cdn.js
-        function cdn_typeof(o) {
+        registerEvent('event.setActiveView', setActiveView);; // CONCATENATED MODULE: ./src/constants/img/server-logo/111.png
+        const _111_namespaceObject = __webpack_require__.p + "assets/f8e91d59f741ca436cf5.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/222.png
+        const _222_namespaceObject = __webpack_require__.p + "assets/338c121f887419246d47.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/333.png
+        const _333_namespaceObject = __webpack_require__.p + "assets/6daa199e74d2a6b6ef86.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/444.png
+        const _444_namespaceObject = __webpack_require__.p + "assets/61d7f716395bfde7ad8d.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif_logo_1.gif
+        const gif_logo_1_namespaceObject = __webpack_require__.p + "assets/323f4465794e86d2901c.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif_logo_2.gif
+        const gif_logo_2_namespaceObject = __webpack_require__.p + "assets/f55ea4e4da78dbf1c952.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/777.png
+        const _777_namespaceObject = __webpack_require__.p + "assets/b52d779a74c47b07da78.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/888.png
+        const _888_namespaceObject = __webpack_require__.p + "assets/9d99bb5e1d05b39959c6.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/999.png
+        const _999_namespaceObject = __webpack_require__.p + "assets/330660111d18565abb0c.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1000.png
+        const _1000_namespaceObject = __webpack_require__.p + "assets/e2042e36686a97ce273e.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1001.png
+        const _1001_namespaceObject = __webpack_require__.p + "assets/366d876ed068d080fe66.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1002.png
+        const _1002_namespaceObject = __webpack_require__.p + "assets/fb2a8343506954f92a5f.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1111.png
+        const _1111_namespaceObject = __webpack_require__.p + "assets/2b69c9a036bbc466f9bb.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1112.png
+        const _1112_namespaceObject = __webpack_require__.p + "assets/9c22f648b4e16543c6e2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/zombie_apocalypse.png
+        const zombie_apocalypse_namespaceObject = __webpack_require__.p + "assets/6c8407e7fb0fc0db3185.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/halloween_2025.png
+        const halloween_2025_namespaceObject = __webpack_require__.p + "assets/c48bb58aa30d6b8b86d2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/winter25_logo_2.png
+        const winter25_logo_2_namespaceObject = __webpack_require__.p + "assets/88eedc8936c9d50195c1.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/winter25_logo.png
+        const winter25_logo_namespaceObject = __webpack_require__.p + "assets/1a09f061e8fb73a50929.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_1.gif
+        const gif_logo_custom_1_namespaceObject = __webpack_require__.p + "assets/0a737a74bcf743b77406.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_2.gif
+        const gif_logo_custom_2_namespaceObject = __webpack_require__.p + "assets/b670b187f67ea1606de6.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_3.gif
+        const gif_logo_custom_3_namespaceObject = __webpack_require__.p + "assets/d8737f41053986170e6a.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_4.gif
+        const gif_logo_custom_4_namespaceObject = __webpack_require__.p + "assets/6766c15980644bea81ce.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_5.gif
+        const gif_logo_custom_5_namespaceObject = __webpack_require__.p + "assets/f7f7473711904d932d95.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_6.gif
+        const gif_logo_custom_6_namespaceObject = __webpack_require__.p + "assets/67fe7149e562fa4eff00.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_7.gif
+        const gif_logo_custom_7_namespaceObject = __webpack_require__.p + "assets/76c20142f4b0f7a9e992.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_8.gif
+        const gif_logo_custom_8_namespaceObject = __webpack_require__.p + "assets/e6396a880aeaaf4df6a7.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_9.gif
+        const gif_logo_custom_9_namespaceObject = __webpack_require__.p + "assets/b0232c0ecedc97323513.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_10.gif
+        const gif_logo_custom_10_namespaceObject = __webpack_require__.p + "assets/32338bd91722312cb1be.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_11.gif
+        const gif_logo_custom_11_namespaceObject = __webpack_require__.p + "assets/7574f0c39c288cf53689.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_12.gif
+        const gif_logo_custom_12_namespaceObject = __webpack_require__.p + "assets/dd495bd92c020f299ddf.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_13.gif
+        const gif_logo_custom_13_namespaceObject = __webpack_require__.p + "assets/b340230528e3dfc831de.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_14.gif
+        const gif_logo_custom_14_namespaceObject = __webpack_require__.p + "assets/85645635f05456b1fac2.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_15.gif
+        const gif_logo_custom_15_namespaceObject = __webpack_require__.p + "assets/2ce1dea7970d17fee88e.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_16.gif
+        const gif_logo_custom_16_namespaceObject = __webpack_require__.p + "assets/423aa522a317118ebef9.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_17.gif
+        const gif_logo_custom_17_namespaceObject = __webpack_require__.p + "assets/cb5d920ff316d774a5dc.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_18.gif
+        const gif_logo_custom_18_namespaceObject = __webpack_require__.p + "assets/3fb26d9b3c3c823ae786.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_19.gif
+        const gif_logo_custom_19_namespaceObject = __webpack_require__.p + "assets/9bf9786ab53ddf5be431.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_20.gif
+        const gif_logo_custom_20_namespaceObject = __webpack_require__.p + "assets/fa1fd0180c80cdd274f5.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_21.gif
+        const gif_logo_custom_21_namespaceObject = __webpack_require__.p + "assets/b9905c5b16d1c53b89b1.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_22.gif
+        const gif_logo_custom_22_namespaceObject = __webpack_require__.p + "assets/8dd4f07ee00803b1c6a3.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_23.gif
+        const gif_logo_custom_23_namespaceObject = __webpack_require__.p + "assets/6db2c248ce563811e493.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_24.gif
+        const gif_logo_custom_24_namespaceObject = __webpack_require__.p + "assets/082d8c2074749e59f9ca.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_25.gif
+        const gif_logo_custom_25_namespaceObject = __webpack_require__.p + "assets/0ba4dd688307de6c0945.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_26.gif
+        const gif_logo_custom_26_namespaceObject = __webpack_require__.p + "assets/1f776a4cf2c42ef15c16.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_27.gif
+        const gif_logo_custom_27_namespaceObject = __webpack_require__.p + "assets/93697ea0f546a2ad3c22.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_28.gif
+        const gif_logo_custom_28_namespaceObject = __webpack_require__.p + "assets/45898bbfe909e6141cd0.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_29.gif
+        const gif_logo_custom_29_namespaceObject = __webpack_require__.p + "assets/fbdee84fe7c59886ef56.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_30.gif
+        const gif_logo_custom_30_namespaceObject = __webpack_require__.p + "assets/c297a5eb14ead5f493a1.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_31.gif
+        const gif_logo_custom_31_namespaceObject = __webpack_require__.p + "assets/9f0d9a55433a7b512c69.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_32.gif
+        const gif_logo_custom_32_namespaceObject = __webpack_require__.p + "assets/d24e456fc3446cfde424.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_33.gif
+        const gif_logo_custom_33_namespaceObject = __webpack_require__.p + "assets/85db987970ed27ca65ab.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_34.gif
+        const gif_logo_custom_34_namespaceObject = __webpack_require__.p + "assets/76b2463e07fa952c4961.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_35.gif
+        const gif_logo_custom_35_namespaceObject = __webpack_require__.p + "assets/a73632f2b45454f75110.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_36.gif
+        const gif_logo_custom_36_namespaceObject = __webpack_require__.p + "assets/08c175a04f8c8e8ac089.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_37.gif
+        const gif_logo_custom_37_namespaceObject = __webpack_require__.p + "assets/154c64c01e66ebf91dcd.gif";; // CONCATENATED MODULE: ./src/constants/servers.js
+        var _MAP_HUDLOGOTYPE_TO_I;
+
+        function servers_typeof(o) {
             "@babel/helpers - typeof";
-            return cdn_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+            return servers_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
                 return typeof o;
             } : function(o) {
                 return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
-            }, cdn_typeof(o);
+            }, servers_typeof(o);
         }
 
         function _defineProperty(e, r, t) {
@@ -50300,10 +50357,347 @@
 
         function _toPropertyKey(t) {
             var i = _toPrimitive(t, "string");
-            return "symbol" == cdn_typeof(i) ? i : i + "";
+            return "symbol" == servers_typeof(i) ? i : i + "";
         }
 
         function _toPrimitive(t, r) {
+            if ("object" != servers_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != servers_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var SERVERS = ['Test', 'Phoenix', 'Tucson ', 'Scottdale', 'Chandler ', 'Brainburg', 'SaintRose', 'Mesa ', 'Red-Rock ', 'Yuma ', 'Surprise ', 'Prescott ', 'Glendale ', 'Kingman', 'Winslow', 'Payson ', 'Gilbert', 'Show-Low ', 'Casa-Grande', 'Page ', 'Sun-City ', 'Queen-Creek', 'Sedona ', 'Holiday', 'Wednesday', 'Yava ', 'Faraway', 'Bumble Bee ', 'Christmas', 'Mirage ', 'Love ', 'Drake', 'Space', 'Mobile I', 'Mobile II', 'Mobile III', 'Vice City'];
+        var hudLogotype = {
+            HUD_LOGOTYPE_DEFAULT: 1,
+            HUD_LOGOTYPE_MOBILE: 2,
+            HUD_LOGOTYPE_FIVE: 3,
+            HUD_LOGOTYPE_HALLOWEEN: 4,
+            HUD_LOGOTYPE_NEWYEAR: 5,
+            HUD_LOGOTYPE_VALENTINE: 6,
+            HUD_LOGOTYPE_EASTER: 7,
+            HUD_LOGOTYPE_DAY_WORK: 8,
+            HUD_LOGOTYPE_SUMMER: 9,
+            HUD_LOGOTYPE_HAPPY: 10,
+            HUD_LOGOTYPE_DEFAULT_NEW: 11,
+            HUD_LOGOTYPE_MOBILE_NEW: 12,
+            HUD_LOGOTYPE_HALLOWEEN_NEW: 13,
+            HUD_LOGOTYPE_NEWYEAR_NEW: 14,
+            HUD_LOGOTYPE_ZOMBIE_APOCALYPSE: 15,
+            HUD_LOGOTYPE_CUSTOM_GIF_1: 16,
+            HUD_LOGOTYPE_CUSTOM_GIF_2: 17,
+            HUD_LOGOTYPE_CUSTOM_GIF_3: 18,
+            HUD_LOGOTYPE_CUSTOM_GIF_4: 19,
+            HUD_LOGOTYPE_CUSTOM_GIF_5: 20,
+            HUD_LOGOTYPE_CUSTOM_GIF_6: 21,
+            HUD_LOGOTYPE_CUSTOM_GIF_7: 22,
+            HUD_LOGOTYPE_CUSTOM_GIF_8: 23,
+            HUD_LOGOTYPE_CUSTOM_GIF_9: 24,
+            HUD_LOGOTYPE_CUSTOM_GIF_10: 25,
+            HUD_LOGOTYPE_CUSTOM_GIF_11: 26,
+            HUD_LOGOTYPE_CUSTOM_GIF_12: 27,
+            HUD_LOGOTYPE_CUSTOM_GIF_13: 28,
+            HUD_LOGOTYPE_CUSTOM_GIF_14: 29,
+            HUD_LOGOTYPE_CUSTOM_GIF_15: 30,
+            HUD_LOGOTYPE_CUSTOM_GIF_16: 31,
+            HUD_LOGOTYPE_CUSTOM_GIF_17: 32,
+            HUD_LOGOTYPE_CUSTOM_GIF_18: 33,
+            HUD_LOGOTYPE_CUSTOM_GIF_19: 34,
+            HUD_LOGOTYPE_CUSTOM_GIF_20: 35,
+            HUD_LOGOTYPE_CUSTOM_GIF_21: 36,
+            HUD_LOGOTYPE_CUSTOM_GIF_22: 37,
+            HUD_LOGOTYPE_CUSTOM_GIF_23: 38,
+            HUD_LOGOTYPE_CUSTOM_GIF_24: 39,
+            HUD_LOGOTYPE_CUSTOM_GIF_25: 40,
+            HUD_LOGOTYPE_CUSTOM_GIF_26: 41,
+            HUD_LOGOTYPE_CUSTOM_GIF_27: 42,
+            HUD_LOGOTYPE_CUSTOM_GIF_28: 43,
+            HUD_LOGOTYPE_CUSTOM_GIF_29: 44,
+            HUD_LOGOTYPE_CUSTOM_GIF_30: 45,
+            HUD_LOGOTYPE_CUSTOM_GIF_31: 46,
+            HUD_LOGOTYPE_CUSTOM_GIF_32: 47,
+            HUD_LOGOTYPE_CUSTOM_GIF_33: 48,
+            HUD_LOGOTYPE_CUSTOM_GIF_34: 49,
+            HUD_LOGOTYPE_CUSTOM_GIF_35: 50,
+            HUD_LOGOTYPE_CUSTOM_GIF_36: 51,
+            HUD_LOGOTYPE_CUSTOM_GIF_37: 52,
+            HUD_LOGOTYPE_HALLOWEEN_2025: 53,
+            HUD_LOGOTYPE_WINTER_2025: 54
+        };
+        var MAP_HUDLOGOTYPE_TO_ICON = (_MAP_HUDLOGOTYPE_TO_I = {}, _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT, _111_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE, _222_namespaceObject), hudLogotype.HUD_LOGOTYPE_FIVE, _333_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN, _444_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR, gif_logo_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_VALENTINE, gif_logo_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_EASTER, _777_namespaceObject), hudLogotype.HUD_LOGOTYPE_DAY_WORK, _888_namespaceObject), hudLogotype.HUD_LOGOTYPE_SUMMER, _999_namespaceObject), hudLogotype.HUD_LOGOTYPE_HAPPY, _1000_namespaceObject), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT_NEW, _1001_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE_NEW, _1002_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_NEW, _1111_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR_NEW, _1112_namespaceObject), hudLogotype.HUD_LOGOTYPE_ZOMBIE_APOCALYPSE, zombie_apocalypse_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_1, gif_logo_custom_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_2, gif_logo_custom_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_3, gif_logo_custom_3_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_4, gif_logo_custom_4_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_5, gif_logo_custom_5_namespaceObject), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_6, gif_logo_custom_6_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_7, gif_logo_custom_7_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_8, gif_logo_custom_8_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_9, gif_logo_custom_9_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_10, gif_logo_custom_10_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_11, gif_logo_custom_11_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_12, gif_logo_custom_12_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_13, gif_logo_custom_13_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_14, gif_logo_custom_14_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_15, gif_logo_custom_15_namespaceObject), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_16, gif_logo_custom_16_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_17, gif_logo_custom_17_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_18, gif_logo_custom_18_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_19, gif_logo_custom_19_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_20, gif_logo_custom_20_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_21, gif_logo_custom_21_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_22, gif_logo_custom_22_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_23, gif_logo_custom_23_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_24, gif_logo_custom_24_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_25, gif_logo_custom_25_namespaceObject), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_26, gif_logo_custom_26_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_27, gif_logo_custom_27_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_28, gif_logo_custom_28_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_29, gif_logo_custom_29_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_30, gif_logo_custom_30_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_31, gif_logo_custom_31_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_32, gif_logo_custom_32_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_33, gif_logo_custom_33_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_34, gif_logo_custom_34_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_35, gif_logo_custom_35_namespaceObject), _defineProperty(_defineProperty(_defineProperty(_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_36, gif_logo_custom_36_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_37, gif_logo_custom_37_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_2025, halloween_2025_namespaceObject), hudLogotype.HUD_LOGOTYPE_WINTER_2025, winter25_logo_2_namespaceObject));
+        var MAP_SERVER_HOST_TO_ID = {
+            'phoenix.arizona-rp.com': 1,
+            'tucson.arizona-rp.com': 2,
+            'scottdale.arizona-rp.com': 3,
+            'chandler.arizona-rp.com': 4,
+            'brainburg.arizona-rp.com': 5,
+            'saintrose.arizona-rp.com': 6,
+            'mesa.arizona-rp.com': 7,
+            'redrock.arizona-rp.com': 8,
+            'yuma.arizona-rp.com': 9,
+            'surprise.arizona-rp.com': 10,
+            'prescott.arizona-rp.com': 11,
+            'glendale.arizona-rp.com': 12,
+            'kingman.arizona-rp.com': 13,
+            'winslow.arizona-rp.com': 14,
+            'payson.arizona-rp.com': 15,
+            'gilbert.arizona-rp.com': 16,
+            'showlow.arizona-rp.com': 17,
+            'casagrande.arizona-rp.com': 18,
+            'page.arizona-rp.com': 19,
+            'suncity.arizona-rp.com': 20,
+            'queencreek.arizona-rp.com': 21,
+            'sedona.arizona-rp.com': 22,
+            'holiday.arizona-rp.com': 23,
+            'wednesday.arizona-rp.com': 24,
+            'yava.arizona-rp.com': 25,
+            'faraway.arizona-rp.com': 26,
+            'bumblebee.arizona-rp.com': 27,
+            'christmas.arizona-rp.com': 28,
+            'mirage.arizona-rp.com': 29,
+            'love.arizona-rp.com': 30,
+            'drake.arizona-rp.com': 31,
+            'space.arizona-rp.com': 32,
+            'mobile1.arizona-rp.com': 101,
+            'mobile2.arizona-rp.com': 102,
+            'mobile3.arizona-rp.com': 103,
+            'vicecity.arizona-rp.com': 201
+        };; // CONCATENATED MODULE: ./src/store/api.js
+
+
+        var VICE_CITY_SERVER_ID = 201;
+        var serverApiToken = store_writable('');
+        var serverApiAccountId = store_writable(0);
+        var serverApiServerId = store_writable(0);
+        var isViceCityServer = store_writable(false);
+        var setToken = function setToken(tokenDto) {
+            serverApiToken.set(tokenDto.token);
+            serverApiServerId.set(tokenDto.server);
+            isViceCityServer.set(tokenDto.server === VICE_CITY_SERVER_ID);
+            serverApiAccountId.set(tokenDto.accountid);
+        };
+        registerEvent('event.api.setToken', setToken);; // CONCATENATED MODULE: ./src/store/cdn.js
+        function cdn_typeof(o) {
+            "@babel/helpers - typeof";
+            return cdn_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, cdn_typeof(o);
+        }
+
+        function _regenerator() {
+            var e, t, r = "function" == typeof Symbol ? Symbol : {},
+                n = r.iterator || "@@iterator",
+                o = r.toStringTag || "@@toStringTag";
+
+            function i(r, n, o, i) {
+                var c = n && n.prototype instanceof Generator ? n : Generator,
+                    u = Object.create(c.prototype);
+                return _regeneratorDefine2(u, "_invoke", function(r, n, o) {
+                    var i, c, u, f = 0,
+                        p = o || [],
+                        y = !1,
+                        G = {
+                            p: 0,
+                            n: 0,
+                            v: e,
+                            a: d,
+                            f: d.bind(e, 4),
+                            d: function d(t, r) {
+                                return i = t, c = 0, u = e, G.n = r, a;
+                            }
+                        };
+
+                    function d(r, n) {
+                        for (c = r, u = n, t = 0; !y && f && !o && t < p.length; t++) {
+                            var o, i = p[t],
+                                d = G.p,
+                                l = i[2];
+                            r > 3 ? (o = l === n) && (u = i[(c = i[4]) ? 5 : (c = 3, 3)], i[4] = i[5] = e) : i[0] <= d && ((o = r < 2 && d < i[1]) ? (c = 0, G.v = n, G.n = i[1]) : d < l && (o = r < 3 || i[0] > n || n > l) && (i[4] = r, i[5] = n, G.n = l, c = 0));
+                        }
+                        if (o || r > 1) return a;
+                        throw y = !0, n;
+                    }
+                    return function(o, p, l) {
+                        if (f > 1) throw TypeError("Generator is already running");
+                        for (y && 1 === p && d(p, l), c = p, u = l;
+                            (t = c < 2 ? e : u) || !y;) {
+                            i || (c ? c < 3 ? (c > 1 && (G.n = -1), d(c, u)) : G.n = u : G.v = u);
+                            try {
+                                if (f = 2, i) {
+                                    if (c || (o = "next"), t = i[o]) {
+                                        if (!(t = t.call(i, u))) throw TypeError("iterator result is not an object");
+                                        if (!t.done) return t;
+                                        u = t.value, c < 2 && (c = 0);
+                                    } else 1 === c && (t = i["return"]) && t.call(i), c < 2 && (u = TypeError("The iterator does not provide a '" + o + "' method"), c = 1);
+                                    i = e;
+                                } else if ((t = (y = G.n < 0) ? u : r.call(n, G)) !== a) break;
+                            } catch (t) {
+                                i = e, c = 1, u = t;
+                            } finally {
+                                f = 1;
+                            }
+                        }
+                        return {
+                            value: t,
+                            done: y
+                        };
+                    };
+                }(r, o, i), !0), u;
+            }
+            var a = {};
+
+            function Generator() {}
+
+            function GeneratorFunction() {}
+
+            function GeneratorFunctionPrototype() {}
+            t = Object.getPrototypeOf;
+            var c = [][n] ? t(t([][n]())) : (_regeneratorDefine2(t = {}, n, function() {
+                    return this;
+                }), t),
+                u = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(c);
+
+            function f(e) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(e, GeneratorFunctionPrototype) : (e.__proto__ = GeneratorFunctionPrototype, _regeneratorDefine2(e, o, "GeneratorFunction")), e.prototype = Object.create(u), e;
+            }
+            return GeneratorFunction.prototype = GeneratorFunctionPrototype, _regeneratorDefine2(u, "constructor", GeneratorFunctionPrototype), _regeneratorDefine2(GeneratorFunctionPrototype, "constructor", GeneratorFunction), GeneratorFunction.displayName = "GeneratorFunction", _regeneratorDefine2(GeneratorFunctionPrototype, o, "GeneratorFunction"), _regeneratorDefine2(u), _regeneratorDefine2(u, o, "Generator"), _regeneratorDefine2(u, n, function() {
+                return this;
+            }), _regeneratorDefine2(u, "toString", function() {
+                return "[object Generator]";
+            }), (_regenerator = function _regenerator() {
+                return {
+                    w: i,
+                    m: f
+                };
+            })();
+        }
+
+        function _regeneratorDefine2(e, r, n, t) {
+            var i = Object.defineProperty;
+            try {
+                i({}, "", {});
+            } catch (e) {
+                i = 0;
+            }
+            _regeneratorDefine2 = function _regeneratorDefine(e, r, n, t) {
+                function o(r, n) {
+                    _regeneratorDefine2(e, r, function(e) {
+                        return this._invoke(r, n, e);
+                    });
+                }
+                r ? i ? i(e, r, {
+                    value: n,
+                    enumerable: !t,
+                    configurable: !t,
+                    writable: !t
+                }) : e[r] = n : (o("next", 0), o("throw", 1), o("return", 2));
+            }, _regeneratorDefine2(e, r, n, t);
+        }
+
+        function asyncGeneratorStep(n, t, e, r, o, a, c) {
+            try {
+                var i = n[a](c),
+                    u = i.value;
+            } catch (n) {
+                return void e(n);
+            }
+            i.done ? t(u) : Promise.resolve(u).then(r, o);
+        }
+
+        function _asyncToGenerator(n) {
+            return function() {
+                var t = this,
+                    e = arguments;
+                return new Promise(function(r, o) {
+                    var a = n.apply(t, e);
+
+                    function _next(n) {
+                        asyncGeneratorStep(a, r, o, _next, _throw, "next", n);
+                    }
+
+                    function _throw(n) {
+                        asyncGeneratorStep(a, r, o, _next, _throw, "throw", n);
+                    }
+                    _next(void 0);
+                });
+            };
+        }
+
+        function cdn_defineProperty(e, r, t) {
+            return (r = cdn_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function cdn_toPropertyKey(t) {
+            var i = cdn_toPrimitive(t, "string");
+            return "symbol" == cdn_typeof(i) ? i : i + "";
+        }
+
+        function cdn_toPrimitive(t, r) {
             if ("object" != cdn_typeof(t) || !t) return t;
             var e = t[Symbol.toPrimitive];
             if (void 0 !== e) {
@@ -50313,13 +50707,15 @@
             }
             return ("string" === r ? String : Number)(t);
         }
+
+
         var CDN_URL_PROJECT = '/projects/arizona-rp';
         var CDN_CHANNEL_TYPES = {
             CDN_CHANNEL_RESOURCES: 0,
             CDN_CHANNEL_SOUNDS: 1,
             CDN_CHANNEL_SERVER_API: 2
         };
-        var CDN_CONFIG = _defineProperty(_defineProperty(_defineProperty({}, CDN_CHANNEL_TYPES.CDN_CHANNEL_RESOURCES, {
+        var CDN_CONFIG = cdn_defineProperty(cdn_defineProperty(cdn_defineProperty({}, CDN_CHANNEL_TYPES.CDN_CHANNEL_RESOURCES, {
             0: 'https://cdn.azresources.cloud',
             1: 'https://reserve-cdn.azresources.cloud'
         }), CDN_CHANNEL_TYPES.CDN_CHANNEL_SOUNDS, {
@@ -50354,17 +50750,39 @@
                 CDN_URLS[channelType] = url;
             });
         };
+        var getCommandLineArgValue = function getCommandLineArgValue(cmd, flag) {
+            var args = cmd.split(/\s+/);
+            var index = args.indexOf(flag);
+            return index !== -1 ? args[index + 1] : null;
+        };
         var parseCdnFromCommandLine = function parseCdnFromCommandLine(line) {
             var match = line.match(/-cdn\s+([0-9,]+)/);
             var config = match ? match[1].split(',').map(Number) : [0, 0, 0];
             setCdnConfig(config);
         };
-        var initLinksCDN = function initLinksCDN() {
-            window.cef.onCommandLine = function(LINE) {
-                parseCdnFromCommandLine(LINE);
+        var parseDataFromGameCommandLine = function() {
+            var _ref = _asyncToGenerator(_regenerator().m(function _callee() {
+                return _regenerator().w(function(_context) {
+                    while (1) switch (_context.n) {
+                        case 0:
+                            return _context.a(2, new Promise(function(res) {
+                                window.cef.onCommandLine = function(LINE) {
+                                    parseCdnFromCommandLine(LINE);
+                                    var serverHost = getCommandLineArgValue(LINE, '-h');
+                                    var serverId = MAP_SERVER_HOST_TO_ID[serverHost] || 0;
+                                    serverApiServerId.set(serverId);
+                                    console.log("[API] set serverId: ".concat(serverId));
+                                    res();
+                                };
+                                window.cef.GetCommandLine();
+                            }));
+                    }
+                }, _callee);
+            }));
+            return function parseDataFromGameCommandLine() {
+                return _ref.apply(this, arguments);
             };
-            window.cef.GetCommandLine();
-        };; // CONCATENATED MODULE: ./node_modules/axios/lib/helpers/bind.js
+        }();; // CONCATENATED MODULE: ./node_modules/axios/lib/helpers/bind.js
 
 
         function bind_bind(fn, thisArg) {
@@ -53910,21 +54328,7 @@
         /* harmony default export */
         const lib_axios = (axios);
 
-        ; // CONCATENATED MODULE: ./src/store/api.js
-
-
-        var VICE_CITY_SERVER_ID = 201;
-        var serverApiToken = store_writable('');
-        var serverApiAccountId = store_writable(0);
-        var serverApiServerId = store_writable(0);
-        var isViceCityServer = store_writable(false);
-        var setToken = function setToken(tokenDto) {
-            serverApiToken.set(tokenDto.token);
-            serverApiServerId.set(tokenDto.server);
-            isViceCityServer.set(tokenDto.server === VICE_CITY_SERVER_ID);
-            serverApiAccountId.set(tokenDto.accountid);
-        };
-        registerEvent('event.api.setToken', setToken);; // CONCATENATED MODULE: ./src/constants/api.js
+        ; // CONCATENATED MODULE: ./src/constants/api.js
         var SERVER_API_PROJECT = 'arizona';; // CONCATENATED MODULE: ./src/views/inventory/items.js
         var ITEMS_CONST = [{
             "id": 0,
@@ -122394,25 +122798,179 @@
             "type": 15,
             "active": 0
         }];; // CONCATENATED MODULE: ./src/store/inventory.js
+        function inventory_regenerator() {
+            var e, t, r = "function" == typeof Symbol ? Symbol : {},
+                n = r.iterator || "@@iterator",
+                o = r.toStringTag || "@@toStringTag";
 
+            function i(r, n, o, i) {
+                var c = n && n.prototype instanceof Generator ? n : Generator,
+                    u = Object.create(c.prototype);
+                return inventory_regeneratorDefine2(u, "_invoke", function(r, n, o) {
+                    var i, c, u, f = 0,
+                        p = o || [],
+                        y = !1,
+                        G = {
+                            p: 0,
+                            n: 0,
+                            v: e,
+                            a: d,
+                            f: d.bind(e, 4),
+                            d: function d(t, r) {
+                                return i = t, c = 0, u = e, G.n = r, a;
+                            }
+                        };
 
+                    function d(r, n) {
+                        for (c = r, u = n, t = 0; !y && f && !o && t < p.length; t++) {
+                            var o, i = p[t],
+                                d = G.p,
+                                l = i[2];
+                            r > 3 ? (o = l === n) && (u = i[(c = i[4]) ? 5 : (c = 3, 3)], i[4] = i[5] = e) : i[0] <= d && ((o = r < 2 && d < i[1]) ? (c = 0, G.v = n, G.n = i[1]) : d < l && (o = r < 3 || i[0] > n || n > l) && (i[4] = r, i[5] = n, G.n = l, c = 0));
+                        }
+                        if (o || r > 1) return a;
+                        throw y = !0, n;
+                    }
+                    return function(o, p, l) {
+                        if (f > 1) throw TypeError("Generator is already running");
+                        for (y && 1 === p && d(p, l), c = p, u = l;
+                            (t = c < 2 ? e : u) || !y;) {
+                            i || (c ? c < 3 ? (c > 1 && (G.n = -1), d(c, u)) : G.n = u : G.v = u);
+                            try {
+                                if (f = 2, i) {
+                                    if (c || (o = "next"), t = i[o]) {
+                                        if (!(t = t.call(i, u))) throw TypeError("iterator result is not an object");
+                                        if (!t.done) return t;
+                                        u = t.value, c < 2 && (c = 0);
+                                    } else 1 === c && (t = i["return"]) && t.call(i), c < 2 && (u = TypeError("The iterator does not provide a '" + o + "' method"), c = 1);
+                                    i = e;
+                                } else if ((t = (y = G.n < 0) ? u : r.call(n, G)) !== a) break;
+                            } catch (t) {
+                                i = e, c = 1, u = t;
+                            } finally {
+                                f = 1;
+                            }
+                        }
+                        return {
+                            value: t,
+                            done: y
+                        };
+                    };
+                }(r, o, i), !0), u;
+            }
+            var a = {};
 
+            function Generator() {}
 
+            function GeneratorFunction() {}
 
+            function GeneratorFunctionPrototype() {}
+            t = Object.getPrototypeOf;
+            var c = [][n] ? t(t([][n]())) : (inventory_regeneratorDefine2(t = {}, n, function() {
+                    return this;
+                }), t),
+                u = GeneratorFunctionPrototype.prototype = Generator.prototype = Object.create(c);
 
+            function f(e) {
+                return Object.setPrototypeOf ? Object.setPrototypeOf(e, GeneratorFunctionPrototype) : (e.__proto__ = GeneratorFunctionPrototype, inventory_regeneratorDefine2(e, o, "GeneratorFunction")), e.prototype = Object.create(u), e;
+            }
+            return GeneratorFunction.prototype = GeneratorFunctionPrototype, inventory_regeneratorDefine2(u, "constructor", GeneratorFunctionPrototype), inventory_regeneratorDefine2(GeneratorFunctionPrototype, "constructor", GeneratorFunction), GeneratorFunction.displayName = "GeneratorFunction", inventory_regeneratorDefine2(GeneratorFunctionPrototype, o, "GeneratorFunction"), inventory_regeneratorDefine2(u), inventory_regeneratorDefine2(u, o, "Generator"), inventory_regeneratorDefine2(u, n, function() {
+                return this;
+            }), inventory_regeneratorDefine2(u, "toString", function() {
+                return "[object Generator]";
+            }), (inventory_regenerator = function _regenerator() {
+                return {
+                    w: i,
+                    m: f
+                };
+            })();
+        }
 
-        var ITEMS = ITEMS_CONST;
-        var getInventoryData = function getInventoryData() {
-            lib_axios.get("".concat(SERVER_API_URL, "/client/json/table/get?project=").concat(SERVER_API_PROJECT, "&server=").concat(get_store_value(serverApiServerId), "&key=inventory_items_staging"), {
-                headers: {
-                    Authorization: "Bearer ".concat(get_store_value(serverApiToken))
+        function inventory_regeneratorDefine2(e, r, n, t) {
+            var i = Object.defineProperty;
+            try {
+                i({}, "", {});
+            } catch (e) {
+                i = 0;
+            }
+            inventory_regeneratorDefine2 = function _regeneratorDefine(e, r, n, t) {
+                function o(r, n) {
+                    inventory_regeneratorDefine2(e, r, function(e) {
+                        return this._invoke(r, n, e);
+                    });
                 }
-            }).then(function(response) {
-                cef_sendClientMessage('inventoryItemsLoaded');
-            })["catch"](function(error) {
-                console.log('error from getInventoryData', JSON.stringify(error));
-            });
-        };; // CONCATENATED MODULE: ./src/modals/info-modal/index.svelte
+                r ? i ? i(e, r, {
+                    value: n,
+                    enumerable: !t,
+                    configurable: !t,
+                    writable: !t
+                }) : e[r] = n : (o("next", 0), o("throw", 1), o("return", 2));
+            }, inventory_regeneratorDefine2(e, r, n, t);
+        }
+
+        function inventory_asyncGeneratorStep(n, t, e, r, o, a, c) {
+            try {
+                var i = n[a](c),
+                    u = i.value;
+            } catch (n) {
+                return void e(n);
+            }
+            i.done ? t(u) : Promise.resolve(u).then(r, o);
+        }
+
+        function inventory_asyncToGenerator(n) {
+            return function() {
+                var t = this,
+                    e = arguments;
+                return new Promise(function(r, o) {
+                    var a = n.apply(t, e);
+
+                    function _next(n) {
+                        inventory_asyncGeneratorStep(a, r, o, _next, _throw, "next", n);
+                    }
+
+                    function _throw(n) {
+                        inventory_asyncGeneratorStep(a, r, o, _next, _throw, "throw", n);
+                    }
+                    _next(void 0);
+                });
+            };
+        }
+
+
+
+
+
+
+
+        var ITEMS = store_writable(ITEMS_CONST);
+        var getInventoryData = function() {
+            var _ref = inventory_asyncToGenerator(inventory_regenerator().m(function _callee() {
+                return inventory_regenerator().w(function(_context) {
+                    while (1) switch (_context.n) {
+                        case 0:
+                            _context.n = 1;
+                            return lib_axios.get("".concat(SERVER_API_URL, "/client/json/table/get?project=").concat(SERVER_API_PROJECT, "&server=").concat(get_store_value(serverApiServerId), "&key=inventory_items"), {
+                                headers: {}
+                            }).then(function(response) {
+                                ITEMS.set(response.data);
+                                console.log("[API] [getInventoryData] inventory items loaded: ".concat(get_store_value(ITEMS).length));
+                                cef_sendClientMessage('inventoryItemsLoaded');
+                            })["catch"](function(error) {
+                                console.log('[API] [getInventoryData] ERROR:');
+                                console.log(error);
+                            });
+                        case 1:
+                            console.log('[API] inventory items loading finished');
+                        case 2:
+                            return _context.a(2);
+                    }
+                }, _callee);
+            }));
+            return function getInventoryData() {
+                return _ref.apply(this, arguments);
+            };
+        }();; // CONCATENATED MODULE: ./src/modals/info-modal/index.svelte
         /* src\modals\info-modal\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -143160,210 +143718,7 @@
         /* harmony default export */
         const inventory_index_svelte = (Inventory);; // CONCATENATED MODULE: ./src/views/vice-city-hud/img/svg/star-on.svg
         const star_on_namespaceObject = __webpack_require__.p + "assets/e0d9de4b4d8ebc8d4494.svg";; // CONCATENATED MODULE: ./src/views/vice-city-hud/img/svg/star-off.svg
-        const star_off_namespaceObject = __webpack_require__.p + "assets/c1f9799ab4563ac2694d.svg";; // CONCATENATED MODULE: ./src/constants/img/server-logo/111.png
-        const _111_namespaceObject = __webpack_require__.p + "assets/f8e91d59f741ca436cf5.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/222.png
-        const _222_namespaceObject = __webpack_require__.p + "assets/338c121f887419246d47.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/333.png
-        const _333_namespaceObject = __webpack_require__.p + "assets/6daa199e74d2a6b6ef86.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/444.png
-        const _444_namespaceObject = __webpack_require__.p + "assets/61d7f716395bfde7ad8d.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif_logo_1.gif
-        const gif_logo_1_namespaceObject = __webpack_require__.p + "assets/323f4465794e86d2901c.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif_logo_2.gif
-        const gif_logo_2_namespaceObject = __webpack_require__.p + "assets/f55ea4e4da78dbf1c952.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/777.png
-        const _777_namespaceObject = __webpack_require__.p + "assets/b52d779a74c47b07da78.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/888.png
-        const _888_namespaceObject = __webpack_require__.p + "assets/9d99bb5e1d05b39959c6.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/999.png
-        const _999_namespaceObject = __webpack_require__.p + "assets/330660111d18565abb0c.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1000.png
-        const _1000_namespaceObject = __webpack_require__.p + "assets/e2042e36686a97ce273e.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1001.png
-        const _1001_namespaceObject = __webpack_require__.p + "assets/366d876ed068d080fe66.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1002.png
-        const _1002_namespaceObject = __webpack_require__.p + "assets/fb2a8343506954f92a5f.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1111.png
-        const _1111_namespaceObject = __webpack_require__.p + "assets/2b69c9a036bbc466f9bb.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/1112.png
-        const _1112_namespaceObject = __webpack_require__.p + "assets/9c22f648b4e16543c6e2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/zombie_apocalypse.png
-        const zombie_apocalypse_namespaceObject = __webpack_require__.p + "assets/6c8407e7fb0fc0db3185.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/halloween_2025.png
-        const halloween_2025_namespaceObject = __webpack_require__.p + "assets/c48bb58aa30d6b8b86d2.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/winter25_logo_2.png
-        const winter25_logo_2_namespaceObject = __webpack_require__.p + "assets/88eedc8936c9d50195c1.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/winter25_logo.png
-        const winter25_logo_namespaceObject = __webpack_require__.p + "assets/1a09f061e8fb73a50929.webp";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_1.gif
-        const gif_logo_custom_1_namespaceObject = __webpack_require__.p + "assets/0a737a74bcf743b77406.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_2.gif
-        const gif_logo_custom_2_namespaceObject = __webpack_require__.p + "assets/b670b187f67ea1606de6.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_3.gif
-        const gif_logo_custom_3_namespaceObject = __webpack_require__.p + "assets/d8737f41053986170e6a.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_4.gif
-        const gif_logo_custom_4_namespaceObject = __webpack_require__.p + "assets/6766c15980644bea81ce.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_5.gif
-        const gif_logo_custom_5_namespaceObject = __webpack_require__.p + "assets/f7f7473711904d932d95.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_6.gif
-        const gif_logo_custom_6_namespaceObject = __webpack_require__.p + "assets/67fe7149e562fa4eff00.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_7.gif
-        const gif_logo_custom_7_namespaceObject = __webpack_require__.p + "assets/76c20142f4b0f7a9e992.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_8.gif
-        const gif_logo_custom_8_namespaceObject = __webpack_require__.p + "assets/e6396a880aeaaf4df6a7.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_9.gif
-        const gif_logo_custom_9_namespaceObject = __webpack_require__.p + "assets/b0232c0ecedc97323513.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_10.gif
-        const gif_logo_custom_10_namespaceObject = __webpack_require__.p + "assets/32338bd91722312cb1be.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_11.gif
-        const gif_logo_custom_11_namespaceObject = __webpack_require__.p + "assets/7574f0c39c288cf53689.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_12.gif
-        const gif_logo_custom_12_namespaceObject = __webpack_require__.p + "assets/dd495bd92c020f299ddf.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_13.gif
-        const gif_logo_custom_13_namespaceObject = __webpack_require__.p + "assets/b340230528e3dfc831de.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_14.gif
-        const gif_logo_custom_14_namespaceObject = __webpack_require__.p + "assets/85645635f05456b1fac2.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_15.gif
-        const gif_logo_custom_15_namespaceObject = __webpack_require__.p + "assets/2ce1dea7970d17fee88e.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_16.gif
-        const gif_logo_custom_16_namespaceObject = __webpack_require__.p + "assets/423aa522a317118ebef9.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_17.gif
-        const gif_logo_custom_17_namespaceObject = __webpack_require__.p + "assets/cb5d920ff316d774a5dc.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_18.gif
-        const gif_logo_custom_18_namespaceObject = __webpack_require__.p + "assets/3fb26d9b3c3c823ae786.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_19.gif
-        const gif_logo_custom_19_namespaceObject = __webpack_require__.p + "assets/9bf9786ab53ddf5be431.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_20.gif
-        const gif_logo_custom_20_namespaceObject = __webpack_require__.p + "assets/fa1fd0180c80cdd274f5.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_21.gif
-        const gif_logo_custom_21_namespaceObject = __webpack_require__.p + "assets/b9905c5b16d1c53b89b1.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_22.gif
-        const gif_logo_custom_22_namespaceObject = __webpack_require__.p + "assets/8dd4f07ee00803b1c6a3.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_23.gif
-        const gif_logo_custom_23_namespaceObject = __webpack_require__.p + "assets/6db2c248ce563811e493.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_24.gif
-        const gif_logo_custom_24_namespaceObject = __webpack_require__.p + "assets/082d8c2074749e59f9ca.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_25.gif
-        const gif_logo_custom_25_namespaceObject = __webpack_require__.p + "assets/0ba4dd688307de6c0945.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_26.gif
-        const gif_logo_custom_26_namespaceObject = __webpack_require__.p + "assets/1f776a4cf2c42ef15c16.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_27.gif
-        const gif_logo_custom_27_namespaceObject = __webpack_require__.p + "assets/93697ea0f546a2ad3c22.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_28.gif
-        const gif_logo_custom_28_namespaceObject = __webpack_require__.p + "assets/45898bbfe909e6141cd0.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_29.gif
-        const gif_logo_custom_29_namespaceObject = __webpack_require__.p + "assets/fbdee84fe7c59886ef56.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_30.gif
-        const gif_logo_custom_30_namespaceObject = __webpack_require__.p + "assets/c297a5eb14ead5f493a1.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_31.gif
-        const gif_logo_custom_31_namespaceObject = __webpack_require__.p + "assets/9f0d9a55433a7b512c69.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_32.gif
-        const gif_logo_custom_32_namespaceObject = __webpack_require__.p + "assets/d24e456fc3446cfde424.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_33.gif
-        const gif_logo_custom_33_namespaceObject = __webpack_require__.p + "assets/85db987970ed27ca65ab.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_34.gif
-        const gif_logo_custom_34_namespaceObject = __webpack_require__.p + "assets/76b2463e07fa952c4961.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_35.gif
-        const gif_logo_custom_35_namespaceObject = __webpack_require__.p + "assets/a73632f2b45454f75110.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_36.gif
-        const gif_logo_custom_36_namespaceObject = __webpack_require__.p + "assets/08c175a04f8c8e8ac089.gif";; // CONCATENATED MODULE: ./src/constants/img/server-logo/gif/gif_logo_custom_37.gif
-        const gif_logo_custom_37_namespaceObject = __webpack_require__.p + "assets/154c64c01e66ebf91dcd.gif";; // CONCATENATED MODULE: ./src/constants/servers.js
-        var _MAP_HUDLOGOTYPE_TO_I;
-
-        function servers_typeof(o) {
-            "@babel/helpers - typeof";
-            return servers_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
-                return typeof o;
-            } : function(o) {
-                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
-            }, servers_typeof(o);
-        }
-
-        function servers_defineProperty(e, r, t) {
-            return (r = servers_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
-                value: t,
-                enumerable: !0,
-                configurable: !0,
-                writable: !0
-            }) : e[r] = t, e;
-        }
-
-        function servers_toPropertyKey(t) {
-            var i = servers_toPrimitive(t, "string");
-            return "symbol" == servers_typeof(i) ? i : i + "";
-        }
-
-        function servers_toPrimitive(t, r) {
-            if ("object" != servers_typeof(t) || !t) return t;
-            var e = t[Symbol.toPrimitive];
-            if (void 0 !== e) {
-                var i = e.call(t, r || "default");
-                if ("object" != servers_typeof(i)) return i;
-                throw new TypeError("@@toPrimitive must return a primitive value.");
-            }
-            return ("string" === r ? String : Number)(t);
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        var SERVERS = ['Test', 'Phoenix', 'Tucson ', 'Scottdale', 'Chandler ', 'Brainburg', 'SaintRose', 'Mesa ', 'Red-Rock ', 'Yuma ', 'Surprise ', 'Prescott ', 'Glendale ', 'Kingman', 'Winslow', 'Payson ', 'Gilbert', 'Show-Low ', 'Casa-Grande', 'Page ', 'Sun-City ', 'Queen-Creek', 'Sedona ', 'Holiday', 'Wednesday', 'Yava ', 'Faraway', 'Bumble Bee ', 'Christmas', 'Mirage ', 'Love ', 'Drake', 'Space', 'Mobile I', 'Mobile II', 'Mobile III', 'Vice City'];
-        var hudLogotype = {
-            HUD_LOGOTYPE_DEFAULT: 1,
-            HUD_LOGOTYPE_MOBILE: 2,
-            HUD_LOGOTYPE_FIVE: 3,
-            HUD_LOGOTYPE_HALLOWEEN: 4,
-            HUD_LOGOTYPE_NEWYEAR: 5,
-            HUD_LOGOTYPE_VALENTINE: 6,
-            HUD_LOGOTYPE_EASTER: 7,
-            HUD_LOGOTYPE_DAY_WORK: 8,
-            HUD_LOGOTYPE_SUMMER: 9,
-            HUD_LOGOTYPE_HAPPY: 10,
-            HUD_LOGOTYPE_DEFAULT_NEW: 11,
-            HUD_LOGOTYPE_MOBILE_NEW: 12,
-            HUD_LOGOTYPE_HALLOWEEN_NEW: 13,
-            HUD_LOGOTYPE_NEWYEAR_NEW: 14,
-            HUD_LOGOTYPE_ZOMBIE_APOCALYPSE: 15,
-            HUD_LOGOTYPE_CUSTOM_GIF_1: 16,
-            HUD_LOGOTYPE_CUSTOM_GIF_2: 17,
-            HUD_LOGOTYPE_CUSTOM_GIF_3: 18,
-            HUD_LOGOTYPE_CUSTOM_GIF_4: 19,
-            HUD_LOGOTYPE_CUSTOM_GIF_5: 20,
-            HUD_LOGOTYPE_CUSTOM_GIF_6: 21,
-            HUD_LOGOTYPE_CUSTOM_GIF_7: 22,
-            HUD_LOGOTYPE_CUSTOM_GIF_8: 23,
-            HUD_LOGOTYPE_CUSTOM_GIF_9: 24,
-            HUD_LOGOTYPE_CUSTOM_GIF_10: 25,
-            HUD_LOGOTYPE_CUSTOM_GIF_11: 26,
-            HUD_LOGOTYPE_CUSTOM_GIF_12: 27,
-            HUD_LOGOTYPE_CUSTOM_GIF_13: 28,
-            HUD_LOGOTYPE_CUSTOM_GIF_14: 29,
-            HUD_LOGOTYPE_CUSTOM_GIF_15: 30,
-            HUD_LOGOTYPE_CUSTOM_GIF_16: 31,
-            HUD_LOGOTYPE_CUSTOM_GIF_17: 32,
-            HUD_LOGOTYPE_CUSTOM_GIF_18: 33,
-            HUD_LOGOTYPE_CUSTOM_GIF_19: 34,
-            HUD_LOGOTYPE_CUSTOM_GIF_20: 35,
-            HUD_LOGOTYPE_CUSTOM_GIF_21: 36,
-            HUD_LOGOTYPE_CUSTOM_GIF_22: 37,
-            HUD_LOGOTYPE_CUSTOM_GIF_23: 38,
-            HUD_LOGOTYPE_CUSTOM_GIF_24: 39,
-            HUD_LOGOTYPE_CUSTOM_GIF_25: 40,
-            HUD_LOGOTYPE_CUSTOM_GIF_26: 41,
-            HUD_LOGOTYPE_CUSTOM_GIF_27: 42,
-            HUD_LOGOTYPE_CUSTOM_GIF_28: 43,
-            HUD_LOGOTYPE_CUSTOM_GIF_29: 44,
-            HUD_LOGOTYPE_CUSTOM_GIF_30: 45,
-            HUD_LOGOTYPE_CUSTOM_GIF_31: 46,
-            HUD_LOGOTYPE_CUSTOM_GIF_32: 47,
-            HUD_LOGOTYPE_CUSTOM_GIF_33: 48,
-            HUD_LOGOTYPE_CUSTOM_GIF_34: 49,
-            HUD_LOGOTYPE_CUSTOM_GIF_35: 50,
-            HUD_LOGOTYPE_CUSTOM_GIF_36: 51,
-            HUD_LOGOTYPE_CUSTOM_GIF_37: 52,
-            HUD_LOGOTYPE_HALLOWEEN_2025: 53,
-            HUD_LOGOTYPE_WINTER_2025: 54
-        };
-        var MAP_HUDLOGOTYPE_TO_ICON = (_MAP_HUDLOGOTYPE_TO_I = {}, servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT, _111_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE, _222_namespaceObject), hudLogotype.HUD_LOGOTYPE_FIVE, _333_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN, _444_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR, gif_logo_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_VALENTINE, gif_logo_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_EASTER, _777_namespaceObject), hudLogotype.HUD_LOGOTYPE_DAY_WORK, _888_namespaceObject), hudLogotype.HUD_LOGOTYPE_SUMMER, _999_namespaceObject), hudLogotype.HUD_LOGOTYPE_HAPPY, _1000_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_DEFAULT_NEW, _1001_namespaceObject), hudLogotype.HUD_LOGOTYPE_MOBILE_NEW, _1002_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_NEW, _1111_namespaceObject), hudLogotype.HUD_LOGOTYPE_NEWYEAR_NEW, _1112_namespaceObject), hudLogotype.HUD_LOGOTYPE_ZOMBIE_APOCALYPSE, zombie_apocalypse_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_1, gif_logo_custom_1_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_2, gif_logo_custom_2_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_3, gif_logo_custom_3_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_4, gif_logo_custom_4_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_5, gif_logo_custom_5_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_6, gif_logo_custom_6_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_7, gif_logo_custom_7_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_8, gif_logo_custom_8_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_9, gif_logo_custom_9_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_10, gif_logo_custom_10_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_11, gif_logo_custom_11_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_12, gif_logo_custom_12_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_13, gif_logo_custom_13_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_14, gif_logo_custom_14_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_15, gif_logo_custom_15_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_16, gif_logo_custom_16_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_17, gif_logo_custom_17_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_18, gif_logo_custom_18_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_19, gif_logo_custom_19_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_20, gif_logo_custom_20_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_21, gif_logo_custom_21_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_22, gif_logo_custom_22_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_23, gif_logo_custom_23_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_24, gif_logo_custom_24_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_25, gif_logo_custom_25_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_26, gif_logo_custom_26_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_27, gif_logo_custom_27_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_28, gif_logo_custom_28_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_29, gif_logo_custom_29_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_30, gif_logo_custom_30_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_31, gif_logo_custom_31_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_32, gif_logo_custom_32_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_33, gif_logo_custom_33_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_34, gif_logo_custom_34_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_35, gif_logo_custom_35_namespaceObject), servers_defineProperty(servers_defineProperty(servers_defineProperty(servers_defineProperty(_MAP_HUDLOGOTYPE_TO_I, hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_36, gif_logo_custom_36_namespaceObject), hudLogotype.HUD_LOGOTYPE_CUSTOM_GIF_37, gif_logo_custom_37_namespaceObject), hudLogotype.HUD_LOGOTYPE_HALLOWEEN_2025, halloween_2025_namespaceObject), hudLogotype.HUD_LOGOTYPE_WINTER_2025, winter25_logo_2_namespaceObject));; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/0.png
+        const star_off_namespaceObject = __webpack_require__.p + "assets/c1f9799ab4563ac2694d.svg";; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/0.png
         const _0_namespaceObject = __webpack_require__.p + "assets/950934fd83fdf7bf608a.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/1.png
         const _1_namespaceObject = __webpack_require__.p + "assets/c0764c59275c6d001764.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/2.png
         const _2_namespaceObject = __webpack_require__.p + "assets/d7c76d687d2dd1dac0cd.webp";; // CONCATENATED MODULE: ./src/views/arizona-hud/img/flag/3.png
@@ -145189,11 +145544,11 @@
         const az_coin_namespaceObject = __webpack_require__.p + "assets/36a9f2dd81877f62c1be.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg.svg
         const bg_namespaceObject = __webpack_require__.p + "assets/d37d85313071928a2f75.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-premium.svg
         const bg_premium_namespaceObject = __webpack_require__.p + "assets/845873723dd1cb58a6fb.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-preview.png
-        const bg_preview_namespaceObject = __webpack_require__.p + "assets/9bb569be11680295fce1.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-main.png
-        const bg_main_namespaceObject = __webpack_require__.p + "assets/9cf333ed8b77647a75ce.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-quests.png
-        const bg_quests_namespaceObject = __webpack_require__.p + "assets/3a1955068edee728d302.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-roulette.png
+        const bg_preview_namespaceObject = __webpack_require__.p + "assets/dcf262569714e21f138d.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-main.png
+        const bg_main_namespaceObject = __webpack_require__.p + "assets/0b48a5dfed6f914b91c1.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-quests.png
+        const bg_quests_namespaceObject = __webpack_require__.p + "assets/844916342723d5c59e16.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-roulette.png
         const bg_roulette_namespaceObject = __webpack_require__.p + "assets/62c9e8814354ff1bfe99.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-modal.png
-        const logo_modal_namespaceObject = __webpack_require__.p + "assets/77b311f6c5118652f6d9.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/pubg.png
+        const logo_modal_namespaceObject = __webpack_require__.p + "assets/5512229660596ac98536.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/pubg.png
         const pubg_namespaceObject = __webpack_require__.p + "assets/c630c81fdfe309bc4793.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/chiken.png
         const chiken_namespaceObject = __webpack_require__.p + "assets/2e0bffdfbf7bde22c8a3.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/puppy.png
         const puppy_namespaceObject = __webpack_require__.p + "assets/88158107fd059ececf0f.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/mock.js
@@ -145586,9 +145941,9 @@
             confirmButtonText: 'test',
             cancelButtonText: 'test'
         };; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo.png
-        const logo_namespaceObject = __webpack_require__.p + "assets/8848e754dc9e9347f95d.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-premium.png
-        const logo_premium_namespaceObject = __webpack_require__.p + "assets/ac984bc101c57f81a16a.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-premium-plus.png
-        const logo_premium_plus_namespaceObject = __webpack_require__.p + "assets/2df3861650f1f2032ce1.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-slot-machine.png
+        const logo_namespaceObject = __webpack_require__.p + "assets/48ef46f65e5988b00335.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-premium.png
+        const logo_premium_namespaceObject = __webpack_require__.p + "assets/ca7fb194b6052f94ba41.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-premium-plus.png
+        const logo_premium_plus_namespaceObject = __webpack_require__.p + "assets/e138728e02c5712e0e96.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/bg-slot-machine.png
         const bg_slot_machine_namespaceObject = __webpack_require__.p + "assets/3c0af5df9acdbbccd243.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/constants.js
         function arizona_pass_constants_typeof(o) {
             "@babel/helpers - typeof";
@@ -156214,7 +156569,7 @@
                 "item": 30074
             }]
         }]);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/star.svg
-        const star_namespaceObject = __webpack_require__.p + "assets/b1a966a7b3565492bb05.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/quests/index.svelte
+        const star_namespaceObject = __webpack_require__.p + "assets/d0211a798a8a2f6e0b90.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/quests/index.svelte
         /* src\views\arizona-pass\components\quests\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -157059,7 +157414,7 @@
                     t10 = dom_space();
                     div13 = dom_element("div");
                     div11 = dom_element("div");
-                    div11.innerHTML = `<img src="${`${CDN_URL}/systems/battlepass/image_prize/1.webp`}" alt="reward" class="battle-pass-quests__item-reward-image"/>`;
+                    div11.innerHTML = `<img src="${`${CDN_URL}/systems/battlepass/image_prize/1000.webp`}" alt="reward" class="battle-pass-quests__item-reward-image"/>`;
                     t11 = dom_space();
                     div12 = dom_element("div");
                     t12 = dom_text("+");
@@ -157717,11 +158072,251 @@
         }
 
         /* harmony default export */
-        const quests_index_svelte = (Quests);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/clock.svg
-        const clock_namespaceObject = __webpack_require__.p + "assets/a436c038822b8f252124.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/thunder.svg
+        const quests_index_svelte = (Quests);; // CONCATENATED MODULE: ./src/components/imageWithFallback/index.svelte
+        /* src\components\imageWithFallback\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function imageWithFallback_index_svelte_create_if_block(ctx) {
+            let div;
+            let loader;
+            let current;
+            loader = new loader_index_svelte({
+                props: {
+                    style: 'fade'
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(loader.$$.fragment);
+                    dom_attr(div, "class", "image-with-fallback__loader-wrapper");
+                    set_style(div, "width", "50%");
+                    set_style(div, "height", "50%");
+                    set_style(div, "display", "flex");
+                    set_style(div, "align-items", "center");
+                    set_style(div, "justify-content", "center");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(loader, div, null);
+                    current = true;
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(loader.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(loader.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(loader);
+                }
+            };
+        }
+
+        function imageWithFallback_index_svelte_create_fragment(ctx) {
+            let t;
+            let img;
+            let img_style_value;
+            let img_src_value;
+            let current;
+            let mounted;
+            let dispose;
+            let if_block = /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] && imageWithFallback_index_svelte_create_if_block(ctx);
+
+            let img_levels = [{
+                    style: img_style_value = "width: 100%; height: 100%; display: " + ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] ?
+                        'none' :
+                        '') + ";"
+                },
+                {
+                    src: img_src_value = /*currentSrc*/ ctx[2]
+                },
+                /*$$restProps*/
+                ctx[6],
+                {
+                    alt: /*alt*/ ctx[0]
+                }
+            ];
+
+            let img_data = {};
+
+            for (let i = 0; i < img_levels.length; i += 1) {
+                img_data = utils_assign(img_data, img_levels[i]);
+            }
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    t = dom_space();
+                    img = dom_element("img");
+                    set_attributes(img, img_data);
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, t, anchor);
+                    dom_insert(target, img, anchor);
+                    current = true;
+
+                    if (!mounted) {
+                        dispose = [
+                            dom_listen(img, "error", /*handleError*/ ctx[4]),
+                            dom_listen(img, "load", function() {
+                                if (utils_is_function( /*useLoader*/ ctx[1] ? /*handleLoad*/ ctx[5] : null))( /*useLoader*/ ctx[1] ? /*handleLoad*/ ctx[5] : null).apply(this, arguments);
+                            })
+                        ];
+
+                        mounted = true;
+                    }
+                },
+                p(new_ctx, [dirty]) {
+                    ctx = new_ctx;
+
+                    if ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3]) {
+                        if (if_block) {
+                            if (dirty & /*useLoader, loaderVisible*/ 10) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = imageWithFallback_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(t.parentNode, t);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    set_attributes(img, img_data = get_spread_update(img_levels, [
+                        (!current || dirty & /*useLoader, loaderVisible*/ 10 && img_style_value !== (img_style_value = "width: 100%; height: 100%; display: " + ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] ?
+                            'none' :
+                            '') + ";")) && {
+                            style: img_style_value
+                        },
+                        (!current || dirty & /*currentSrc*/ 4 && !utils_src_url_equal(img.src, img_src_value = /*currentSrc*/ ctx[2])) && {
+                            src: img_src_value
+                        },
+                        dirty & /*$$restProps*/ 64 && /*$$restProps*/ ctx[6],
+                        (!current || dirty & /*alt*/ 1) && {
+                            alt: /*alt*/ ctx[0]
+                        }
+                    ]));
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(if_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t);
+                        dom_detach(img);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                    mounted = false;
+                    utils_run_all(dispose);
+                }
+            };
+        }
+
+        function imageWithFallback_index_svelte_instance($$self, $$props, $$invalidate) {
+            const omit_props_names = ["src", "alt", "useLoader", "fallbackImageUrl"];
+            let $$restProps = compute_rest_props($$props, omit_props_names);
+            let {
+                src = ''
+            } = $$props;
+            let {
+                alt = ''
+            } = $$props;
+            let {
+                useLoader = false
+            } = $$props;
+            let {
+                fallbackImageUrl = `${CDN_URL}/assets/images/inventory/vehicles/512/none.webp`
+            } = $$props;
+            let loaderVisible = true && useLoader;
+            let currentSrc = src;
+
+            const handleError = () => {
+                $$invalidate(2, currentSrc = fallbackImageUrl);
+            };
+
+            const handleLoad = () => {
+                $$invalidate(3, loaderVisible = false);
+            };
+
+            $$self.$$set = $$new_props => {
+                $$props = utils_assign(utils_assign({}, $$props), exclude_internal_props($$new_props));
+                $$invalidate(6, $$restProps = compute_rest_props($$props, omit_props_names));
+                if ('src' in $$new_props) $$invalidate(7, src = $$new_props.src);
+                if ('alt' in $$new_props) $$invalidate(0, alt = $$new_props.alt);
+                if ('useLoader' in $$new_props) $$invalidate(1, useLoader = $$new_props.useLoader);
+                if ('fallbackImageUrl' in $$new_props) $$invalidate(8, fallbackImageUrl = $$new_props.fallbackImageUrl);
+            };
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*src, currentSrc, fallbackImageUrl*/ 388) {
+                    $: if (src && src !== currentSrc && currentSrc !== fallbackImageUrl) {
+                        $$invalidate(2, currentSrc = src);
+                    }
+                }
+            };
+
+            return [
+                alt,
+                useLoader,
+                currentSrc,
+                loaderVisible,
+                handleError,
+                handleLoad,
+                $$restProps,
+                src,
+                fallbackImageUrl
+            ];
+        }
+
+        class ImageWithFallback extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+
+                Component_init(this, options, imageWithFallback_index_svelte_instance, imageWithFallback_index_svelte_create_fragment, utils_safe_not_equal, {
+                    src: 7,
+                    alt: 0,
+                    useLoader: 1,
+                    fallbackImageUrl: 8
+                });
+            }
+        }
+
+        /* harmony default export */
+        const imageWithFallback_index_svelte = (ImageWithFallback);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/clock.svg
+        const clock_namespaceObject = __webpack_require__.p + "assets/81b640ea9cecde72fc50.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/thunder.svg
         const thunder_namespaceObject = __webpack_require__.p + "assets/39402a929bcb859ff553.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/reset-black.svg
         const reset_black_namespaceObject = __webpack_require__.p + "assets/fe7ea7485ec3a68c392d.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-over.png
-        const logo_over_namespaceObject = __webpack_require__.p + "assets/db222783cd8a4ae84764.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/main/rewards.js
+        const logo_over_namespaceObject = __webpack_require__.p + "assets/f6299612058e5636a543.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/fallback-image.png
+        const fallback_image_namespaceObject = __webpack_require__.p + "assets/65387253fbf46a31d2db.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/main/rewards.js
         var COMMON_REWARDS = [{
             "level": 1,
             "title": "Аксессуар: Пара чёрных найков на шею",
@@ -158938,7 +159533,9 @@
 
 
 
+
         // import TicketImage from '../../img/ticket.svg';
+
 
 
 
@@ -158980,7 +159577,7 @@
             return child_ctx;
         }
 
-        // (399:4) {:else}
+        // (418:4) {:else}
         function create_else_block_5(ctx) {
             let div;
             let loader;
@@ -159022,7 +159619,7 @@
             };
         }
 
-        // (392:29) 
+        // (411:29) 
         function create_if_block_16(ctx) {
             let div2;
             let div0;
@@ -159078,7 +159675,7 @@
             };
         }
 
-        // (163:4) {#if !isEmpty($battlePassData) && !isEmpty(commonRewards) && !isEmpty(premiumRewards)}
+        // (164:4) {#if !isEmpty($battlePassData) && !isEmpty(commonRewards) && !isEmpty(premiumRewards)}
         function main_index_svelte_create_if_block(ctx) {
             let div0;
             let show_if_2;
@@ -159155,6 +159752,10 @@
                 each_blocks_2[i] = main_index_svelte_create_each_block_2(main_index_svelte_get_each_context_2(ctx, each_value_2, i));
             }
 
+            const out = i => transitions_transition_out(each_blocks_2[i], 1, 1, () => {
+                each_blocks_2[i] = null;
+            });
+
             let each_value_1 = each_ensure_array_like( /*premiumRewards*/ ctx[3]);
             let each_blocks_1 = [];
 
@@ -159169,7 +159770,7 @@
                 each_blocks[i] = main_index_svelte_create_each_block(main_index_svelte_get_each_context(ctx, each_value, i));
             }
 
-            const out = i => transitions_transition_out(each_blocks[i], 1, 1, () => {
+            const out_1 = i => transitions_transition_out(each_blocks[i], 1, 1, () => {
                 each_blocks[i] = null;
             });
 
@@ -159400,18 +160001,22 @@
 
                             if (each_blocks_2[i]) {
                                 each_blocks_2[i].p(child_ctx, dirty);
+                                transitions_transition_in(each_blocks_2[i], 1);
                             } else {
                                 each_blocks_2[i] = main_index_svelte_create_each_block_2(child_ctx);
                                 each_blocks_2[i].c();
+                                transitions_transition_in(each_blocks_2[i], 1);
                                 each_blocks_2[i].m(div3, null);
                             }
                         }
 
-                        for (; i < each_blocks_2.length; i += 1) {
-                            each_blocks_2[i].d(1);
+                        transitions_group_outros();
+
+                        for (i = each_value_2.length; i < each_blocks_2.length; i += 1) {
+                            out(i);
                         }
 
-                        each_blocks_2.length = each_value_2.length;
+                        transitions_check_outros();
                     }
 
                     if (dirty[0] & /*$battlePassData, currentLevelPage, $allPremiumRewards, premiumRewards, getResetLevel, $currentPage*/ 8397) {
@@ -159458,7 +160063,7 @@
                         transitions_group_outros();
 
                         for (i = each_value.length; i < each_blocks.length; i += 1) {
-                            out(i);
+                            out_1(i);
                         }
 
                         transitions_check_outros();
@@ -159516,6 +160121,10 @@
                 i(local) {
                     if (current) return;
 
+                    for (let i = 0; i < each_value_2.length; i += 1) {
+                        transitions_transition_in(each_blocks_2[i]);
+                    }
+
                     for (let i = 0; i < each_value.length; i += 1) {
                         transitions_transition_in(each_blocks[i]);
                     }
@@ -159524,6 +160133,12 @@
                     current = true;
                 },
                 o(local) {
+                    each_blocks_2 = each_blocks_2.filter(Boolean);
+
+                    for (let i = 0; i < each_blocks_2.length; i += 1) {
+                        transitions_transition_out(each_blocks_2[i]);
+                    }
+
                     each_blocks = each_blocks.filter(Boolean);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
@@ -159557,7 +160172,7 @@
             };
         }
 
-        // (167:12) {:else}
+        // (168:12) {:else}
         function create_else_block_4(ctx) {
             let img;
             let img_src_value;
@@ -159585,7 +160200,7 @@
             };
         }
 
-        // (165:12) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
+        // (166:12) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
         function create_if_block_15(ctx) {
             let img;
             let img_src_value;
@@ -159609,17 +160224,18 @@
             };
         }
 
-        // (187:32) {#if reward.sysName && reward.sysName !== ''}
+        // (186:32) {#if reward.sysName && reward.sysName !== ''}
         function create_if_block_11(ctx) {
             let div;
             let t0_value = /*reward*/ ctx[32].title + "";
             let t0;
             let t1;
-            let img;
-            let img_src_value;
+            let previous_key = /*reward*/ ctx[32];
             let t2;
             let t3;
             let if_block1_anchor;
+            let current;
+            let key_block = create_key_block_1(ctx);
             let if_block0 = /*reward*/ ctx[32].count > 0 && create_if_block_14(ctx);
 
             function select_block_type_2(ctx, dirty) {
@@ -159636,33 +160252,39 @@
                     div = dom_element("div");
                     t0 = dom_text(t0_value);
                     t1 = dom_space();
-                    img = dom_element("img");
+                    key_block.c();
                     t2 = dom_space();
                     if (if_block0) if_block0.c();
                     t3 = dom_space();
                     if_block1.c();
                     if_block1_anchor = empty();
                     dom_attr(div, "class", "battle-pass-main__reward-title");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "reward-icon");
-                    dom_attr(img, "class", "battle-pass-main__reward-image");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
                     dom_append(div, t0);
                     dom_insert(target, t1, anchor);
-                    dom_insert(target, img, anchor);
+                    key_block.m(target, anchor);
                     dom_insert(target, t2, anchor);
                     if (if_block0) if_block0.m(target, anchor);
                     dom_insert(target, t3, anchor);
                     if_block1.m(target, anchor);
                     dom_insert(target, if_block1_anchor, anchor);
+                    current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*commonRewards*/ 16 && t0_value !== (t0_value = /*reward*/ ctx[32].title + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty[0] & /*commonRewards*/ 16) && t0_value !== (t0_value = /*reward*/ ctx[32].title + "")) dom_set_data(t0, t0_value);
 
-                    if (dirty[0] & /*commonRewards*/ 16 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) {
-                        dom_attr(img, "src", img_src_value);
+                    if (dirty[0] & /*commonRewards*/ 16 && utils_safe_not_equal(previous_key, previous_key = /*reward*/ ctx[32])) {
+                        transitions_group_outros();
+                        transitions_transition_out(key_block, 1, 1, utils_noop);
+                        transitions_check_outros();
+                        key_block = create_key_block_1(ctx);
+                        key_block.c();
+                        transitions_transition_in(key_block, 1);
+                        key_block.m(t2.parentNode, t2);
+                    } else {
+                        key_block.p(ctx, dirty);
                     }
 
                     if ( /*reward*/ ctx[32].count > 0) {
@@ -159690,23 +160312,83 @@
                         }
                     }
                 },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(key_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(key_block);
+                    current = false;
+                },
                 d(detaching) {
                     if (detaching) {
                         dom_detach(div);
                         dom_detach(t1);
-                        dom_detach(img);
                         dom_detach(t2);
                         dom_detach(t3);
                         dom_detach(if_block1_anchor);
                     }
 
+                    key_block.d(detaching);
                     if (if_block0) if_block0.d(detaching);
                     if_block1.d(detaching);
                 }
             };
         }
 
-        // (190:36) {#if reward.count > 0}
+        // (188:36) {#key reward}
+        function create_key_block_1(ctx) {
+            let div;
+            let imagewithfallback;
+            let current;
+
+            imagewithfallback = new imageWithFallback_index_svelte({
+                props: {
+                    useLoader: true,
+                    src: `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`,
+                    alt: "reward-icon",
+                    class: "battle-pass-main__reward-image",
+                    fallbackImageUrl: fallback_image_namespaceObject
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(imagewithfallback.$$.fragment);
+                    dom_attr(div, "class", "battle-pass-main__reward-image-wrapper");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(imagewithfallback, div, null);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const imagewithfallback_changes = {};
+                    if (dirty[0] & /*commonRewards*/ 16) imagewithfallback_changes.src = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`;
+                    imagewithfallback.$set(imagewithfallback_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(imagewithfallback.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(imagewithfallback.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(imagewithfallback);
+                }
+            };
+        }
+
+        // (199:36) {#if reward.count > 0}
         function create_if_block_14(ctx) {
             let div;
             let t_value = `${/*reward*/ ctx[32].count} шт.` + "";
@@ -159733,7 +160415,7 @@
             };
         }
 
-        // (206:36) {:else}
+        // (215:36) {:else}
         function create_else_block_3(ctx) {
             let i;
 
@@ -159754,7 +160436,7 @@
             };
         }
 
-        // (200:143) 
+        // (209:143) 
         function create_if_block_13(ctx) {
             let div2;
 
@@ -159776,7 +160458,7 @@
             };
         }
 
-        // (193:36) {#if !$battlePassData.availableToReceive[reward.level - 1][0] && $battlePassData.level >= reward.level}
+        // (202:36) {#if !$battlePassData.availableToReceive[reward.level - 1][0] && $battlePassData.level >= reward.level}
         function create_if_block_12(ctx) {
             let div;
             let mounted;
@@ -159814,10 +160496,11 @@
             };
         }
 
-        // (182:24) {#each commonRewards as reward, index}
+        // (181:24) {#each commonRewards as reward, index}
         function main_index_svelte_create_each_block_2(ctx) {
             let div;
             let t;
+            let current;
             let if_block = /*reward*/ ctx[32].sysName && /*reward*/ ctx[32].sysName !== '' && create_if_block_11(ctx);
 
             return {
@@ -159832,24 +160515,44 @@
                     dom_insert(target, div, anchor);
                     if (if_block) if_block.m(div, null);
                     dom_append(div, t);
+                    current = true;
                 },
                 p(ctx, dirty) {
                     if ( /*reward*/ ctx[32].sysName && /*reward*/ ctx[32].sysName !== '') {
                         if (if_block) {
                             if_block.p(ctx, dirty);
+
+                            if (dirty[0] & /*commonRewards*/ 16) {
+                                transitions_transition_in(if_block, 1);
+                            }
                         } else {
                             if_block = create_if_block_11(ctx);
                             if_block.c();
+                            transitions_transition_in(if_block, 1);
                             if_block.m(div, t);
                         }
                     } else if (if_block) {
-                        if_block.d(1);
-                        if_block = null;
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$battlePassData, commonRewards*/ 80) {
+                    if (!current || dirty[0] & /*$battlePassData, commonRewards*/ 80) {
                         dom_toggle_class(div, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[32].level);
                     }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(if_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                    current = false;
                 },
                 d(detaching) {
                     if (detaching) {
@@ -159861,7 +160564,7 @@
             };
         }
 
-        // (223:36) {#if (index + 1 + (currentLevelPage - 1) * PAGE_SIZE === $battlePassData.level || $battlePassData.level === 0 && index === 0 && currentLevelPage === 1) && $battlePassData.level != ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
+        // (232:36) {#if (index + 1 + (currentLevelPage - 1) * PAGE_SIZE === $battlePassData.level || $battlePassData.level === 0 && index === 0 && currentLevelPage === 1) && $battlePassData.level != ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
         function create_if_block_10(ctx) {
             let div;
             let img;
@@ -159910,7 +160613,7 @@
             };
         }
 
-        // (237:36) {#if index + 1 + (currentLevelPage - 1) * PAGE_SIZE === ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
+        // (246:36) {#if index + 1 + (currentLevelPage - 1) * PAGE_SIZE === ($allPremiumRewards.length || PREMIUM_REWARDS.length)}
         function create_if_block_9(ctx) {
             let div1;
             let mounted;
@@ -159948,7 +160651,7 @@
             };
         }
 
-        // (258:36) {#if item.sysName && item.sysName !== ''}
+        // (267:36) {#if item.sysName && item.sysName !== ''}
         function create_if_block_8(ctx) {
             let div2;
             let div1;
@@ -159988,7 +160691,7 @@
             };
         }
 
-        // (215:28) {#each premiumRewards as item, index}
+        // (224:28) {#each premiumRewards as item, index}
         function main_index_svelte_create_each_block_1(ctx) {
             let div;
             let t0;
@@ -160090,7 +160793,58 @@
             };
         }
 
-        // (287:32) {#if reward.count > 0}
+        // (295:32) {#key reward}
+        function index_svelte_create_key_block(ctx) {
+            let div;
+            let imagewithfallback;
+            let current;
+
+            imagewithfallback = new imageWithFallback_index_svelte({
+                props: {
+                    useLoader: true,
+                    src: `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`,
+                    alt: "reward-icon",
+                    class: "battle-pass-main__reward-image",
+                    fallbackImageUrl: fallback_image_namespaceObject
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(imagewithfallback.$$.fragment);
+                    dom_attr(div, "class", "battle-pass-main__reward-image-wrapper");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(imagewithfallback, div, null);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const imagewithfallback_changes = {};
+                    if (dirty[0] & /*premiumRewards*/ 8) imagewithfallback_changes.src = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`;
+                    imagewithfallback.$set(imagewithfallback_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(imagewithfallback.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(imagewithfallback.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(imagewithfallback);
+                }
+            };
+        }
+
+        // (306:32) {#if reward.count > 0}
         function create_if_block_7(ctx) {
             let div;
             let t_value = `${/*reward*/ ctx[32].count} шт.` + "";
@@ -160117,7 +160871,7 @@
             };
         }
 
-        // (313:32) {:else}
+        // (332:32) {:else}
         function main_index_svelte_create_else_block_2(ctx) {
             let i;
 
@@ -160140,7 +160894,7 @@
             };
         }
 
-        // (308:170) 
+        // (327:170) 
         function main_index_svelte_create_if_block_6(ctx) {
             let div2;
 
@@ -160164,7 +160918,7 @@
             };
         }
 
-        // (290:32) {#if !$battlePassData.availableToReceive[reward.level - 1][1] && $battlePassData.level >= reward.level}
+        // (309:32) {#if !$battlePassData.availableToReceive[reward.level - 1][1] && $battlePassData.level >= reward.level}
         function main_index_svelte_create_if_block_4(ctx) {
             let show_if;
             let current_block_type_index;
@@ -160240,7 +160994,7 @@
             };
         }
 
-        // (299:36) {:else}
+        // (318:36) {:else}
         function main_index_svelte_create_else_block_1(ctx) {
             let div;
             let premiumbutton;
@@ -160302,7 +161056,7 @@
             };
         }
 
-        // (291:36) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
+        // (310:36) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
         function main_index_svelte_create_if_block_5(ctx) {
             let div;
             let premiumbutton;
@@ -160364,21 +161118,21 @@
             };
         }
 
-        // (280:24) {#each premiumRewards as reward, index}
+        // (289:24) {#each premiumRewards as reward, index}
         function main_index_svelte_create_each_block(ctx) {
             let div1;
             let div0;
             let t0_value = /*reward*/ ctx[32].title + "";
             let t0;
             let t1;
-            let img;
-            let img_src_value;
+            let previous_key = /*reward*/ ctx[32];
             let t2;
             let t3;
             let current_block_type_index;
             let if_block1;
             let t4;
             let current;
+            let key_block = index_svelte_create_key_block(ctx);
             let if_block0 = /*reward*/ ctx[32].count > 0 && create_if_block_7(ctx);
             const if_block_creators = [main_index_svelte_create_if_block_4, main_index_svelte_create_if_block_6, main_index_svelte_create_else_block_2];
             const if_blocks = [];
@@ -160398,16 +161152,13 @@
                     div0 = dom_element("div");
                     t0 = dom_text(t0_value);
                     t1 = dom_space();
-                    img = dom_element("img");
+                    key_block.c();
                     t2 = dom_space();
                     if (if_block0) if_block0.c();
                     t3 = dom_space();
                     if_block1.c();
                     t4 = dom_space();
                     dom_attr(div0, "class", "battle-pass-main__reward-title");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "reward-icon");
-                    dom_attr(img, "class", "battle-pass-main__reward-image");
                     dom_attr(div1, "class", "battle-pass-main__reward battle-pass-main__reward--premium");
                     dom_toggle_class(div1, "battle-pass-main__reward--locked", /*$battlePassData*/ ctx[6].level < /*reward*/ ctx[32].level);
                 },
@@ -160416,7 +161167,7 @@
                     dom_append(div1, div0);
                     dom_append(div0, t0);
                     dom_append(div1, t1);
-                    dom_append(div1, img);
+                    key_block.m(div1, null);
                     dom_append(div1, t2);
                     if (if_block0) if_block0.m(div1, null);
                     dom_append(div1, t3);
@@ -160427,8 +161178,16 @@
                 p(ctx, dirty) {
                     if ((!current || dirty[0] & /*premiumRewards*/ 8) && t0_value !== (t0_value = /*reward*/ ctx[32].title + "")) dom_set_data(t0, t0_value);
 
-                    if (!current || dirty[0] & /*premiumRewards*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/battlepass/image_prize/${/*reward*/ ctx[32].sysName}`)) {
-                        dom_attr(img, "src", img_src_value);
+                    if (dirty[0] & /*premiumRewards*/ 8 && utils_safe_not_equal(previous_key, previous_key = /*reward*/ ctx[32])) {
+                        transitions_group_outros();
+                        transitions_transition_out(key_block, 1, 1, utils_noop);
+                        transitions_check_outros();
+                        key_block = index_svelte_create_key_block(ctx);
+                        key_block.c();
+                        transitions_transition_in(key_block, 1);
+                        key_block.m(div1, t2);
+                    } else {
+                        key_block.p(ctx, dirty);
                     }
 
                     if ( /*reward*/ ctx[32].count > 0) {
@@ -160476,10 +161235,12 @@
                 },
                 i(local) {
                     if (current) return;
+                    transitions_transition_in(key_block);
                     transitions_transition_in(if_block1);
                     current = true;
                 },
                 o(local) {
+                    transitions_transition_out(key_block);
                     transitions_transition_out(if_block1);
                     current = false;
                 },
@@ -160488,13 +161249,14 @@
                         dom_detach(div1);
                     }
 
+                    key_block.d(detaching);
                     if (if_block0) if_block0.d();
                     if_blocks[current_block_type_index].d();
                 }
             };
         }
 
-        // (338:8) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
+        // (357:8) {#if calculateDaysLeft($battlePassData.timestampTaskTime) > 0}
         function main_index_svelte_create_if_block_2(ctx) {
             let if_block_anchor;
             let current;
@@ -160553,7 +161315,7 @@
             };
         }
 
-        // (339:12) {#if $battlePassData.premium < 2}
+        // (358:12) {#if $battlePassData.premium < 2}
         function main_index_svelte_create_if_block_3(ctx) {
             let div;
             let premiumbutton;
@@ -160608,7 +161370,7 @@
             };
         }
 
-        // (349:16) {:else}
+        // (368:16) {:else}
         function main_index_svelte_create_else_block(ctx) {
             let img;
             let img_src_value;
@@ -160659,7 +161421,7 @@
             };
         }
 
-        // (347:16) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
+        // (366:16) {#if calculateDaysLeft($battlePassData.timestampTaskTime) <= 0}
         function main_index_svelte_create_if_block_1(ctx) {
             let p;
 
@@ -161002,7 +161764,7 @@
 
         /* harmony default export */
         const main_index_svelte = (Main);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/icon-bpoints.svg
-        const icon_bpoints_namespaceObject = __webpack_require__.p + "assets/44a888a9b706c5c651f4.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/shop/index.svelte
+        const icon_bpoints_namespaceObject = __webpack_require__.p + "assets/715320e6da87142700c7.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/shop/index.svelte
         /* src\views\arizona-pass\components\shop\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -161667,7 +162429,7 @@
 
         /* harmony default export */
         const shop_index_svelte = (Shop);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/warning.svg
-        const warning_namespaceObject = __webpack_require__.p + "assets/18f943f44427296d959f.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/levels5.png
+        const warning_namespaceObject = __webpack_require__.p + "assets/5758efd9f99e118ad23c.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/levels5.png
         const levels5_namespaceObject = __webpack_require__.p + "assets/cad9d5b1925a36067cef.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/levels10.png
         const levels10_namespaceObject = __webpack_require__.p + "assets/6eff4c82f19a0a14b4ac.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/levels20.png
         const levels20_namespaceObject = __webpack_require__.p + "assets/d68861280c37430bf74f.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/levels.png
@@ -162259,7 +163021,7 @@
         const box_namespaceObject = __webpack_require__.p + "assets/b5990237e633f129e8c7.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/add-vip.png
         const add_vip_namespaceObject = __webpack_require__.p + "assets/85d4abaa4c23ab1bf2e9.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/book.png
         const book_namespaceObject = __webpack_require__.p + "assets/6a7519c63d6634fc6f56.webp";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/warning-triangle.svg
-        const warning_triangle_namespaceObject = __webpack_require__.p + "assets/c0c919c2ecfed2dda55a.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/prize-image/index.svelte
+        const warning_triangle_namespaceObject = __webpack_require__.p + "assets/52d638529d9f57c825b6.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/components/prize-image/index.svelte
         /* src\views\arizona-pass\components\prize-image\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -162642,7 +163404,7 @@
                     t27 = dom_text(t27_value);
                     t28 = dom_space();
                     div27 = dom_element("div");
-                    div27.innerHTML = `<div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-check-quad"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Все преимущества Premium</div></div> <div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-check-quad"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Моментальное открытие +10 уровней</div></div> <div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-check-quad"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Фэнтезийный кейс (5 шт.)</div></div> <div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-triangle-warning"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Покупка PREMIUM PLUS доступна только при первом прохождении и до 90-го уровня!</div></div>`;
+                    div27.innerHTML = `<div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-check-quad"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Все преимущества Premium</div></div> <div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-check-quad"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Моментальное открытие +10 уровней</div></div> <div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-check-quad"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Кейс &#39;Нового сезона&#39; (10 шт.)</div></div> <div class="battle-pass-purchase-premium__premium-point"><i class="battle-pass-purchase-premium__premium-point-icon battle-pass-purchase-premium__premium-point-icon--plus icon-triangle-warning"></i> <div class="battle-pass-purchase-premium__premium-point-text battle-pass-purchase-premium__premium-point-text--premium-plus">Покупка PREMIUM PLUS доступна только при первом прохождении и до 90-го уровня!</div></div>`;
                     t40 = dom_space();
                     div29 = dom_element("div");
                     div28 = dom_element("div");
@@ -163517,21 +164279,21 @@
             prizeimage0 = new prize_image_index_svelte({
                 props: {
                     style: 'red',
-                    imageSrc: `${/*CDN_IMG*/ ctx[0]}/1070.gif`
+                    imageSrc: `${/*CDN_IMG*/ ctx[0]}/50.gif`
                 }
             });
 
             prizeimage1 = new prize_image_index_svelte({
                 props: {
                     style: 'gold',
-                    imageSrc: `${/*CDN_IMG*/ ctx[0]}/3.gif`
+                    imageSrc: `${/*CDN_IMG*/ ctx[0]}/49.gif`
                 }
             });
 
             prizeimage2 = new prize_image_index_svelte({
                 props: {
                     style: 'pink',
-                    imageSrc: `${/*CDN_IMG*/ ctx[0]}/2.gif`
+                    imageSrc: `${/*CDN_IMG*/ ctx[0]}/48.gif`
                 }
             });
 
@@ -163549,7 +164311,7 @@
                     t0 = dom_space();
                     div0 = dom_element("div");
 
-                    div0.innerHTML = `<span class="arizona-hud-preview__description--bold">Хэллоуинские грезы</span> — первый бесконечный сезон Battle Pass,<br/>
+                    div0.innerHTML = `<span class="arizona-hud-preview__description--bold">КОД 26</span> — бесконечный сезон Battle Pass,<br/>
         который дает возможность проходить неограниченное количество уровней и регулярно получать ценные награды`;
 
                     t4 = dom_space();
@@ -163562,21 +164324,21 @@
                     create_component(prizeimage0.$$.fragment);
                     t11 = dom_space();
                     div3 = dom_element("div");
-                    div3.textContent = "Advan Lambo";
+                    div3.textContent = "Фура 'Зверя'";
                     t13 = dom_space();
                     div7 = dom_element("div");
                     div5 = dom_element("div");
                     create_component(prizeimage1.$$.fragment);
                     t14 = dom_space();
                     div6 = dom_element("div");
-                    div6.textContent = "Скин: Оборотень";
+                    div6.textContent = "Скин: Фрирен";
                     t16 = dom_space();
                     div10 = dom_element("div");
                     div8 = dom_element("div");
                     create_component(prizeimage2.$$.fragment);
                     t17 = dom_space();
                     div9 = dom_element("div");
-                    div9.textContent = "Halloween Truck";
+                    div9.textContent = "BMW M5 Mansory";
                     t19 = dom_space();
                     div12 = dom_element("div");
                     create_component(premiumbutton.$$.fragment);
@@ -170456,7 +171218,8 @@
         var minimalizeHotkeys = store_writable(false);
         var battlepassButtonAnimation = store_writable(true);
         var hotKeysNotificationInformation = store_writable({});
-        var bossHp = store_writable({});; // CONCATENATED MODULE: ./src/views/hud/components/hotkeys-tips/index.svelte
+        var bossHp = store_writable({});
+        var targetInfo = store_writable({});; // CONCATENATED MODULE: ./src/views/hud/components/hotkeys-tips/index.svelte
         /* src\views\hud\components\hotkeys-tips\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -170485,7 +171248,7 @@
                     div1 = dom_element("div");
                     div1.textContent = "Анимации";
                     dom_attr(div0, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Animations]);
+                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Animations]);
                     dom_attr(div1, "class", "hotkeys-tips__tip-text");
                     dom_attr(div2, "class", "hotkeys-tips__tip");
                 },
@@ -170496,8 +171259,8 @@
                     dom_append(div2, div1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Animations]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Animations]);
                     }
                 },
                 d(detaching) {
@@ -170510,39 +171273,64 @@
 
         // (62:1) {#if !$minimalizeHotkeys}
         function hotkeys_tips_index_svelte_create_if_block_3(ctx) {
-            let show_if = !(0, lodash.isEmpty)( /*$workbookItemName*/ ctx[5]);
-            let t0;
+            let div2;
+            let div0;
             let t1;
-            let t2;
+            let div1;
+            let t5;
+            let show_if = !(0, lodash.isEmpty)( /*$workbookItemName*/ ctx[6]);
+            let t6;
+            let t7;
+            let t8;
             let if_block3_anchor;
             let if_block0 = show_if && hotkeys_tips_index_svelte_create_if_block_9(ctx);
-            let if_block1 = /*$playerIsDriver*/ ctx[7] && hotkeys_tips_index_svelte_create_if_block_8(ctx);
-            let if_block2 = ! /*$playerIsDriver*/ ctx[7] && hotkeys_tips_index_svelte_create_if_block_6(ctx);
-            let if_block3 = /*$nearBoomBox*/ ctx[8] && hotkeys_tips_index_svelte_create_if_block_4(ctx);
+            let if_block1 = /*$playerIsDriver*/ ctx[8] && hotkeys_tips_index_svelte_create_if_block_8(ctx);
+            let if_block2 = ! /*$playerIsDriver*/ ctx[8] && hotkeys_tips_index_svelte_create_if_block_6(ctx);
+            let if_block3 = /*$nearBoomBox*/ ctx[9] && hotkeys_tips_index_svelte_create_if_block_4(ctx);
 
             return {
                 c() {
-                    if (if_block0) if_block0.c();
-                    t0 = dom_space();
-                    if (if_block1) if_block1.c();
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    div0.textContent = "B";
                     t1 = dom_space();
+                    div1 = dom_element("div");
+                    div1.innerHTML = `BATTLEPASS &#39;КОД 26&#39;<span class="hotkeys-tips__tip-text--emoji">🎉</span><span class="hotkeys-tips__tip-text--halloween-accent">(акции)</span>`;
+                    t5 = dom_space();
+                    if (if_block0) if_block0.c();
+                    t6 = dom_space();
+                    if (if_block1) if_block1.c();
+                    t7 = dom_space();
                     if (if_block2) if_block2.c();
-                    t2 = dom_space();
+                    t8 = dom_space();
                     if (if_block3) if_block3.c();
                     if_block3_anchor = empty();
+                    dom_attr(div0, "class", "hotkeys-tips__tip-button hotkeys-tips__tip-button--battlepass");
+                    dom_toggle_class(div0, "hotkeys-tips__tip-button--battlepass-animated", /*$battlepassButtonAnimation*/ ctx[5]);
+                    dom_attr(div1, "class", "hotkeys-tips__tip-text hotkeys-tips__tip-text--halloween");
+                    dom_attr(div2, "class", "hotkeys-tips__tip");
                 },
                 m(target, anchor) {
+                    dom_insert(target, div2, anchor);
+                    dom_append(div2, div0);
+                    dom_append(div2, t1);
+                    dom_append(div2, div1);
+                    dom_insert(target, t5, anchor);
                     if (if_block0) if_block0.m(target, anchor);
-                    dom_insert(target, t0, anchor);
+                    dom_insert(target, t6, anchor);
                     if (if_block1) if_block1.m(target, anchor);
-                    dom_insert(target, t1, anchor);
+                    dom_insert(target, t7, anchor);
                     if (if_block2) if_block2.m(target, anchor);
-                    dom_insert(target, t2, anchor);
+                    dom_insert(target, t8, anchor);
                     if (if_block3) if_block3.m(target, anchor);
                     dom_insert(target, if_block3_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$workbookItemName*/ 32) show_if = !(0, lodash.isEmpty)( /*$workbookItemName*/ ctx[5]);
+                    if (dirty & /*$battlepassButtonAnimation*/ 32) {
+                        dom_toggle_class(div0, "hotkeys-tips__tip-button--battlepass-animated", /*$battlepassButtonAnimation*/ ctx[5]);
+                    }
+
+                    if (dirty & /*$workbookItemName*/ 64) show_if = !(0, lodash.isEmpty)( /*$workbookItemName*/ ctx[6]);
 
                     if (show_if) {
                         if (if_block0) {
@@ -170550,40 +171338,40 @@
                         } else {
                             if_block0 = hotkeys_tips_index_svelte_create_if_block_9(ctx);
                             if_block0.c();
-                            if_block0.m(t0.parentNode, t0);
+                            if_block0.m(t6.parentNode, t6);
                         }
                     } else if (if_block0) {
                         if_block0.d(1);
                         if_block0 = null;
                     }
 
-                    if ( /*$playerIsDriver*/ ctx[7]) {
+                    if ( /*$playerIsDriver*/ ctx[8]) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
                             if_block1 = hotkeys_tips_index_svelte_create_if_block_8(ctx);
                             if_block1.c();
-                            if_block1.m(t1.parentNode, t1);
+                            if_block1.m(t7.parentNode, t7);
                         }
                     } else if (if_block1) {
                         if_block1.d(1);
                         if_block1 = null;
                     }
 
-                    if (! /*$playerIsDriver*/ ctx[7]) {
+                    if (! /*$playerIsDriver*/ ctx[8]) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
                             if_block2 = hotkeys_tips_index_svelte_create_if_block_6(ctx);
                             if_block2.c();
-                            if_block2.m(t2.parentNode, t2);
+                            if_block2.m(t8.parentNode, t8);
                         }
                     } else if (if_block2) {
                         if_block2.d(1);
                         if_block2 = null;
                     }
 
-                    if ( /*$nearBoomBox*/ ctx[8]) {
+                    if ( /*$nearBoomBox*/ ctx[9]) {
                         if (if_block3) {
                             if_block3.p(ctx, dirty);
                         } else {
@@ -170598,9 +171386,11 @@
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(t0);
-                        dom_detach(t1);
-                        dom_detach(t2);
+                        dom_detach(div2);
+                        dom_detach(t5);
+                        dom_detach(t6);
+                        dom_detach(t7);
+                        dom_detach(t8);
                         dom_detach(if_block3_anchor);
                     }
 
@@ -170612,7 +171402,7 @@
             };
         }
 
-        // (69:2) {#if !isEmpty($workbookItemName)}
+        // (68:2) {#if !isEmpty($workbookItemName)}
         function hotkeys_tips_index_svelte_create_if_block_9(ctx) {
             let div2;
             let div0;
@@ -170625,10 +171415,10 @@
                 c() {
                     div2 = dom_element("div");
                     div0 = dom_element("div");
-                    t0 = dom_text( /*$workbookKeyName*/ ctx[6]);
+                    t0 = dom_text( /*$workbookKeyName*/ ctx[7]);
                     t1 = dom_space();
                     div1 = dom_element("div");
-                    t2 = dom_text( /*$workbookItemName*/ ctx[5]);
+                    t2 = dom_text( /*$workbookItemName*/ ctx[6]);
                     dom_attr(div0, "class", "hotkeys-tips__tip-button");
                     dom_attr(div1, "class", "hotkeys-tips__tip-text");
                     dom_attr(div2, "class", "hotkeys-tips__tip");
@@ -170642,8 +171432,8 @@
                     dom_append(div1, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$workbookKeyName*/ 64) dom_set_data(t0, /*$workbookKeyName*/ ctx[6]);
-                    if (dirty & /*$workbookItemName*/ 32) dom_set_data(t2, /*$workbookItemName*/ ctx[5]);
+                    if (dirty & /*$workbookKeyName*/ 128) dom_set_data(t0, /*$workbookKeyName*/ ctx[7]);
+                    if (dirty & /*$workbookItemName*/ 64) dom_set_data(t2, /*$workbookItemName*/ ctx[6]);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -170653,7 +171443,7 @@
             };
         }
 
-        // (76:2) {#if $playerIsDriver}
+        // (75:2) {#if $playerIsDriver}
         function hotkeys_tips_index_svelte_create_if_block_8(ctx) {
             let div3;
             let div0;
@@ -170698,17 +171488,17 @@
                     div8 = dom_element("div");
                     div8.textContent = "Меню управления транспортом";
                     dom_attr(div0, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Left]);
+                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Left]);
                     dom_attr(div1, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(div1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Right]);
+                    dom_toggle_class(div1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Right]);
                     dom_attr(div2, "class", "hotkeys-tips__tip-text");
                     dom_attr(div3, "class", "hotkeys-tips__tip");
                     dom_attr(div4, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(div4, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Control]);
+                    dom_toggle_class(div4, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Control]);
                     dom_attr(div5, "class", "hotkeys-tips__tip-text");
                     dom_attr(div6, "class", "hotkeys-tips__tip");
                     dom_attr(div7, "class", "hotkeys-tips__tip-button hotkeys-tips__tip-button--radial");
-                    dom_toggle_class(div7, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Control]);
+                    dom_toggle_class(div7, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Control]);
                     dom_attr(div8, "class", "hotkeys-tips__tip-text");
                     dom_attr(div9, "class", "hotkeys-tips__tip");
                 },
@@ -170731,20 +171521,20 @@
                     dom_append(div9, div8);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Left]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Left]);
                     }
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Right]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Right]);
                     }
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div4, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Control]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div4, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Control]);
                     }
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div7, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Control]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div7, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Control]);
                     }
                 },
                 d(detaching) {
@@ -170759,7 +171549,7 @@
             };
         }
 
-        // (92:2) {#if !$playerIsDriver}
+        // (91:2) {#if !$playerIsDriver}
         function hotkeys_tips_index_svelte_create_if_block_6(ctx) {
             let show_if = !(0, lodash.isNil)( /*$radialPlayerKeyName*/ ctx[1]);
             let t0;
@@ -170780,7 +171570,7 @@
                     div1 = dom_element("div");
                     div1.textContent = "Открыть инвентарь";
                     dom_attr(div0, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Inventar]);
+                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Inventar]);
                     dom_attr(div1, "class", "hotkeys-tips__tip-text");
                     dom_attr(div2, "class", "hotkeys-tips__tip");
                 },
@@ -170808,8 +171598,8 @@
                         if_block = null;
                     }
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Inventar]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Inventar]);
                     }
                 },
                 d(detaching) {
@@ -170823,7 +171613,7 @@
             };
         }
 
-        // (94:3) {#if !isNil($radialPlayerKeyName)}
+        // (93:3) {#if !isNil($radialPlayerKeyName)}
         function hotkeys_tips_index_svelte_create_if_block_7(ctx) {
             let div2;
             let div0;
@@ -170840,7 +171630,7 @@
                     div1 = dom_element("div");
                     div1.textContent = "Меню взаимодействия";
                     dom_attr(div0, "class", "hotkeys-tips__tip-button hotkeys-tips__tip-button--radial");
-                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Radio]);
+                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Radio]);
                     dom_attr(div1, "class", "hotkeys-tips__tip-text");
                     dom_attr(div2, "class", "hotkeys-tips__tip");
                 },
@@ -170854,8 +171644,8 @@
                 p(ctx, dirty) {
                     if (dirty & /*$radialPlayerKeyName*/ 2) dom_set_data(t0, /*$radialPlayerKeyName*/ ctx[1]);
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Radio]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Radio]);
                     }
                 },
                 d(detaching) {
@@ -170866,7 +171656,7 @@
             };
         }
 
-        // (109:2) {#if $nearBoomBox}
+        // (108:2) {#if $nearBoomBox}
         function hotkeys_tips_index_svelte_create_if_block_4(ctx) {
             let show_if = !(0, lodash.isNil)( /*$radioPlayerKeyName*/ ctx[2]);
             let if_block_anchor;
@@ -170907,7 +171697,7 @@
             };
         }
 
-        // (110:3) {#if !isNil($radioPlayerKeyName)}
+        // (109:3) {#if !isNil($radioPlayerKeyName)}
         function hotkeys_tips_index_svelte_create_if_block_5(ctx) {
             let div2;
             let div0;
@@ -170924,7 +171714,7 @@
                     div1 = dom_element("div");
                     div1.textContent = "Управление музыкой";
                     dom_attr(div0, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Radio]);
+                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Radio]);
                     dom_attr(div1, "class", "hotkeys-tips__tip-text");
                     dom_attr(div2, "class", "hotkeys-tips__tip");
                 },
@@ -170938,8 +171728,8 @@
                 p(ctx, dirty) {
                     if (dirty & /*$radioPlayerKeyName*/ 4) dom_set_data(t0, /*$radioPlayerKeyName*/ ctx[2]);
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Radio]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Radio]);
                     }
                 },
                 d(detaching) {
@@ -170950,7 +171740,7 @@
             };
         }
 
-        // (123:1) {#if !isNil($phonePlayerKeyName)}
+        // (122:1) {#if !isNil($phonePlayerKeyName)}
         function hotkeys_tips_index_svelte_create_if_block_1(ctx) {
             let div2;
             let div0;
@@ -170958,7 +171748,7 @@
             let t1;
             let t2;
             let div1;
-            let if_block = /*$playerUnreadStats*/ ctx[9] && /*$playerUnreadStats*/ ctx[9].unreadMessengerMessages && hotkeys_tips_index_svelte_create_if_block_2(ctx);
+            let if_block = /*$playerUnreadStats*/ ctx[10] && /*$playerUnreadStats*/ ctx[10].unreadMessengerMessages && hotkeys_tips_index_svelte_create_if_block_2(ctx);
 
             return {
                 c() {
@@ -170971,7 +171761,7 @@
                     div1 = dom_element("div");
                     div1.textContent = "Телефон";
                     dom_attr(div0, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Phone]);
+                    dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Phone]);
                     dom_attr(div1, "class", "hotkeys-tips__tip-text");
                     dom_attr(div2, "class", "hotkeys-tips__tip");
                 },
@@ -170987,11 +171777,11 @@
                 p(ctx, dirty) {
                     if (dirty & /*$phonePlayerKeyName*/ 8) dom_set_data(t0, /*$phonePlayerKeyName*/ ctx[3]);
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Phone]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(div0, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Phone]);
                     }
 
-                    if ( /*$playerUnreadStats*/ ctx[9] && /*$playerUnreadStats*/ ctx[9].unreadMessengerMessages) {
+                    if ( /*$playerUnreadStats*/ ctx[10] && /*$playerUnreadStats*/ ctx[10].unreadMessengerMessages) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -171014,13 +171804,13 @@
             };
         }
 
-        // (126:3) {#if $playerUnreadStats && $playerUnreadStats.unreadMessengerMessages}
+        // (125:3) {#if $playerUnreadStats && $playerUnreadStats.unreadMessengerMessages}
         function hotkeys_tips_index_svelte_create_if_block_2(ctx) {
             let div;
             let p;
             let span;
             let t0;
-            let t1_value = /*$playerUnreadStats*/ ctx[9].unreadMessengerMessages + "";
+            let t1_value = /*$playerUnreadStats*/ ctx[10].unreadMessengerMessages + "";
             let t1;
 
             return {
@@ -171043,7 +171833,7 @@
                     dom_append(p, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$playerUnreadStats*/ 512 && t1_value !== (t1_value = /*$playerUnreadStats*/ ctx[9].unreadMessengerMessages + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*$playerUnreadStats*/ 1024 && t1_value !== (t1_value = /*$playerUnreadStats*/ ctx[10].unreadMessengerMessages + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -171053,7 +171843,7 @@
             };
         }
 
-        // (140:2) {:else}
+        // (139:2) {:else}
         function hotkeys_tips_index_svelte_create_else_block(ctx) {
             let i;
 
@@ -171061,14 +171851,14 @@
                 c() {
                     i = dom_element("i");
                     dom_attr(i, "class", "hotkeys-tips__mic ui-mic");
-                    dom_toggle_class(i, "hotkeys-tips__mic--activeno", /*$playerIsTalking*/ ctx[10]);
+                    dom_toggle_class(i, "hotkeys-tips__mic--activeno", /*$playerIsTalking*/ ctx[11]);
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$playerIsTalking*/ 1024) {
-                        dom_toggle_class(i, "hotkeys-tips__mic--activeno", /*$playerIsTalking*/ ctx[10]);
+                    if (dirty & /*$playerIsTalking*/ 2048) {
+                        dom_toggle_class(i, "hotkeys-tips__mic--activeno", /*$playerIsTalking*/ ctx[11]);
                     }
                 },
                 d(detaching) {
@@ -171079,7 +171869,7 @@
             };
         }
 
-        // (138:2) {#if $playerIsTalking !== 2}
+        // (137:2) {#if $playerIsTalking !== 2}
         function hotkeys_tips_index_svelte_create_if_block(ctx) {
             let i;
 
@@ -171087,14 +171877,14 @@
                 c() {
                     i = dom_element("i");
                     dom_attr(i, "class", "hotkeys-tips__mic ui-mic");
-                    dom_toggle_class(i, "hotkeys-tips__mic--active", /*$playerIsTalking*/ ctx[10]);
+                    dom_toggle_class(i, "hotkeys-tips__mic--active", /*$playerIsTalking*/ ctx[11]);
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$playerIsTalking*/ 1024) {
-                        dom_toggle_class(i, "hotkeys-tips__mic--active", /*$playerIsTalking*/ ctx[10]);
+                    if (dirty & /*$playerIsTalking*/ 2048) {
+                        dom_toggle_class(i, "hotkeys-tips__mic--active", /*$playerIsTalking*/ ctx[11]);
                     }
                 },
                 d(detaching) {
@@ -171132,7 +171922,7 @@
             let if_block1 = show_if && hotkeys_tips_index_svelte_create_if_block_1(ctx);
 
             function select_block_type_1(ctx, dirty) {
-                if ( /*$playerIsTalking*/ ctx[10] !== 2) return hotkeys_tips_index_svelte_create_if_block;
+                if ( /*$playerIsTalking*/ ctx[11] !== 2) return hotkeys_tips_index_svelte_create_if_block;
                 return hotkeys_tips_index_svelte_create_else_block;
             }
 
@@ -171158,9 +171948,9 @@
                     span1 = dom_element("span");
                     span1.textContent = "F11";
                     dom_attr(span0, "class", "hotkeys-tips__tip-button");
-                    dom_toggle_class(span0, "hotkeys-tips__tip-button--lighter", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Settings]);
+                    dom_toggle_class(span0, "hotkeys-tips__tip-button--lighter", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Settings]);
                     dom_attr(span1, "class", "hotkeys-tips__tip-button hotkeys-tips__tip-button--lighter");
-                    dom_toggle_class(span1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Settings]);
+                    dom_toggle_class(span1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Settings]);
                     dom_attr(div0, "class", "hotkeys-tips__tip-text");
                     dom_attr(div1, "class", "hotkeys-tips__tip");
                     dom_attr(div2, "class", "hotkeys-tips");
@@ -171182,7 +171972,7 @@
                     dom_append(div0, span1);
 
                     if (!mounted) {
-                        dispose = dom_listen(window, "keydown", /*activate*/ ctx[12]);
+                        dispose = dom_listen(window, "keydown", /*activate*/ ctx[13]);
                         mounted = true;
                     }
                 },
@@ -171226,12 +172016,12 @@
                         }
                     }
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(span0, "hotkeys-tips__tip-button--lighter", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Settings]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(span0, "hotkeys-tips__tip-button--lighter", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Settings]);
                     }
 
-                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 2049) {
-                        dom_toggle_class(span1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[11].Settings]);
+                    if (dirty & /*MAP_KEY_TO_STATE, Keys*/ 4097) {
+                        dom_toggle_class(span1, "hotkeys-tips__tip-button--active", /*MAP_KEY_TO_STATE*/ ctx[0][ /*Keys*/ ctx[12].Settings]);
                     }
                 },
                 i(local) {
@@ -171266,6 +172056,7 @@
             let $radioPlayerKeyName;
             let $phonePlayerKeyName;
             let $minimalizeHotkeys;
+            let $battlepassButtonAnimation;
             let $workbookItemName;
             let $workbookKeyName;
             let $playerIsDriver;
@@ -171273,17 +172064,18 @@
             let $playerUnreadStats;
             let $playerIsTalking;
             utils_component_subscribe($$self, radialPlayerKeyName, $$value => $$invalidate(1, $radialPlayerKeyName = $$value));
-            utils_component_subscribe($$self, familyRadioKeyName, $$value => $$invalidate(13, $familyRadioKeyName = $$value));
-            utils_component_subscribe($$self, fractionRadioKeyName, $$value => $$invalidate(14, $fractionRadioKeyName = $$value));
+            utils_component_subscribe($$self, familyRadioKeyName, $$value => $$invalidate(14, $familyRadioKeyName = $$value));
+            utils_component_subscribe($$self, fractionRadioKeyName, $$value => $$invalidate(15, $fractionRadioKeyName = $$value));
             utils_component_subscribe($$self, radioPlayerKeyName, $$value => $$invalidate(2, $radioPlayerKeyName = $$value));
             utils_component_subscribe($$self, phonePlayerKeyName, $$value => $$invalidate(3, $phonePlayerKeyName = $$value));
             utils_component_subscribe($$self, minimalizeHotkeys, $$value => $$invalidate(4, $minimalizeHotkeys = $$value));
-            utils_component_subscribe($$self, workbookItemName, $$value => $$invalidate(5, $workbookItemName = $$value));
-            utils_component_subscribe($$self, workbookKeyName, $$value => $$invalidate(6, $workbookKeyName = $$value));
-            utils_component_subscribe($$self, playerIsDriver, $$value => $$invalidate(7, $playerIsDriver = $$value));
-            utils_component_subscribe($$self, nearBoomBox, $$value => $$invalidate(8, $nearBoomBox = $$value));
-            utils_component_subscribe($$self, playerUnreadStats, $$value => $$invalidate(9, $playerUnreadStats = $$value));
-            utils_component_subscribe($$self, playerIsTalking, $$value => $$invalidate(10, $playerIsTalking = $$value));
+            utils_component_subscribe($$self, battlepassButtonAnimation, $$value => $$invalidate(5, $battlepassButtonAnimation = $$value));
+            utils_component_subscribe($$self, workbookItemName, $$value => $$invalidate(6, $workbookItemName = $$value));
+            utils_component_subscribe($$self, workbookKeyName, $$value => $$invalidate(7, $workbookKeyName = $$value));
+            utils_component_subscribe($$self, playerIsDriver, $$value => $$invalidate(8, $playerIsDriver = $$value));
+            utils_component_subscribe($$self, nearBoomBox, $$value => $$invalidate(9, $nearBoomBox = $$value));
+            utils_component_subscribe($$self, playerUnreadStats, $$value => $$invalidate(10, $playerUnreadStats = $$value));
+            utils_component_subscribe($$self, playerIsTalking, $$value => $$invalidate(11, $playerIsTalking = $$value));
 
             const Keys = {
                 Engine: 'n',
@@ -171337,6 +172129,7 @@
                 $radioPlayerKeyName,
                 $phonePlayerKeyName,
                 $minimalizeHotkeys,
+                $battlepassButtonAnimation,
                 $workbookItemName,
                 $workbookKeyName,
                 $playerIsDriver,
@@ -171372,7 +172165,7 @@
 
 
 
-        function speedometer_advanced_index_svelte_create_if_block_10(ctx) {
+        function index_svelte_create_if_block_13(ctx) {
             let i0;
             let t0;
             let span;
@@ -171393,6 +172186,7 @@
                     dom_toggle_class(i0, "speedometer-advanced__turn-signal-icon--active", /*$vehicleTurnLeft*/ ctx[20]);
                     dom_attr(span, "class", "speedometer-advanced__speed-value");
                     dom_toggle_class(span, "speedometer-advanced__speed-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(span, "speedometer-advanced__speed-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(i1, "class", "speedometer-advanced__turn-signal-icon ui-right-chevron");
                     dom_toggle_class(i1, "speedometer-advanced__turn-signal-icon--active", /*$vehicleTurnRight*/ ctx[22]);
                 },
@@ -171415,6 +172209,10 @@
                         dom_toggle_class(span, "speedometer-advanced__speed-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
                     }
 
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span, "speedometer-advanced__speed-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
                     if (dirty[0] & /*$vehicleTurnRight*/ 4194304) {
                         dom_toggle_class(i1, "speedometer-advanced__turn-signal-icon--active", /*$vehicleTurnRight*/ ctx[22]);
                     }
@@ -171431,7 +172229,7 @@
             };
         }
 
-        // (146:2) {:else}
+        // (152:2) {:else}
         function speedometer_advanced_index_svelte_create_else_block_1(ctx) {
             let i0;
             let t0;
@@ -171441,7 +172239,7 @@
             let t2;
             let show_if = !(0, lodash.isNil)( /*$vehiclePower*/ ctx[27]);
             let if_block_anchor;
-            let if_block = show_if && speedometer_advanced_index_svelte_create_if_block_8(ctx);
+            let if_block = show_if && speedometer_advanced_index_svelte_create_if_block_11(ctx);
 
             return {
                 c() {
@@ -171489,7 +172287,7 @@
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
-                            if_block = speedometer_advanced_index_svelte_create_if_block_8(ctx);
+                            if_block = speedometer_advanced_index_svelte_create_if_block_11(ctx);
                             if_block.c();
                             if_block.m(if_block_anchor.parentNode, if_block_anchor);
                         }
@@ -171514,8 +172312,30 @@
             };
         }
 
-        // (144:2) {#if $vehicleFuelType === VehicleFuelTypes.Space}
-        function speedometer_advanced_index_svelte_create_if_block_7(ctx) {
+        // (150:62) 
+        function speedometer_advanced_index_svelte_create_if_block_10(ctx) {
+            let span;
+
+            return {
+                c() {
+                    span = dom_element("span");
+                    span.textContent = "CYBERTRONIAN";
+                    dom_attr(span, "class", "speedometer-advanced__transformer-label");
+                },
+                m(target, anchor) {
+                    dom_insert(target, span, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(span);
+                    }
+                }
+            };
+        }
+
+        // (148:2) {#if $vehicleFuelType === VehicleFuelTypes.Space}
+        function speedometer_advanced_index_svelte_create_if_block_9(ctx) {
             let span;
 
             return {
@@ -171536,15 +172356,15 @@
             };
         }
 
-        // (153:3) {#if !isNil($vehiclePower)}
-        function speedometer_advanced_index_svelte_create_if_block_8(ctx) {
+        // (159:3) {#if !isNil($vehiclePower)}
+        function speedometer_advanced_index_svelte_create_if_block_11(ctx) {
             let t0;
             let span;
             let t1_value = `${/*$vehiclePower*/ ctx[27]}%` + "";
             let t1;
 
             function select_block_type_1(ctx, dirty) {
-                if ( /*$vehiclePowerIsActive*/ ctx[28]) return speedometer_advanced_index_svelte_create_if_block_9;
+                if ( /*$vehiclePowerIsActive*/ ctx[28]) return index_svelte_create_if_block_12;
                 return speedometer_advanced_index_svelte_create_else_block_2;
             }
 
@@ -171589,7 +172409,7 @@
             };
         }
 
-        // (156:4) {:else}
+        // (162:4) {:else}
         function speedometer_advanced_index_svelte_create_else_block_2(ctx) {
             let i;
 
@@ -171609,8 +172429,8 @@
             };
         }
 
-        // (154:4) {#if $vehiclePowerIsActive}
-        function speedometer_advanced_index_svelte_create_if_block_9(ctx) {
+        // (160:4) {#if $vehiclePowerIsActive}
+        function index_svelte_create_if_block_12(ctx) {
             let i;
 
             return {
@@ -171629,7 +172449,7 @@
             };
         }
 
-        // (221:1) {:else}
+        // (245:1) {:else}
         function speedometer_advanced_index_svelte_create_else_block(ctx) {
             let i;
 
@@ -171649,8 +172469,28 @@
             };
         }
 
-        // (219:1) {#if $vehicleFuelType === VehicleFuelTypes.Space}
-        function speedometer_advanced_index_svelte_create_if_block_6(ctx) {
+        // (243:61) 
+        function speedometer_advanced_index_svelte_create_if_block_8(ctx) {
+            let i;
+
+            return {
+                c() {
+                    i = dom_element("i");
+                    dom_attr(i, "class", "speedometer-advanced__car-hp-icon speedometer-advanced__car-hp-icon--transformer ui-car");
+                },
+                m(target, anchor) {
+                    dom_insert(target, i, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(i);
+                    }
+                }
+            };
+        }
+
+        // (241:1) {#if $vehicleFuelType === VehicleFuelTypes.Space}
+        function speedometer_advanced_index_svelte_create_if_block_7(ctx) {
             let i;
 
             return {
@@ -171669,8 +172509,8 @@
             };
         }
 
-        // (233:2) {#if $vehicleFuelType === VehicleFuelTypes.Petrol}
-        function speedometer_advanced_index_svelte_create_if_block_5(ctx) {
+        // (261:2) {#if $vehicleFuelType === VehicleFuelTypes.Petrol}
+        function speedometer_advanced_index_svelte_create_if_block_6(ctx) {
             let span;
 
             return {
@@ -171690,8 +172530,8 @@
             };
         }
 
-        // (236:2) {#if $vehicleFuelType === VehicleFuelTypes.Electro}
-        function speedometer_advanced_index_svelte_create_if_block_4(ctx) {
+        // (264:2) {#if $vehicleFuelType === VehicleFuelTypes.Electro}
+        function speedometer_advanced_index_svelte_create_if_block_5(ctx) {
             let span;
 
             return {
@@ -171711,8 +172551,8 @@
             };
         }
 
-        // (239:2) {#if $vehicleFuelType === VehicleFuelTypes.Space}
-        function speedometer_advanced_index_svelte_create_if_block_3(ctx) {
+        // (267:2) {#if $vehicleFuelType === VehicleFuelTypes.Space}
+        function speedometer_advanced_index_svelte_create_if_block_4(ctx) {
             let span;
 
             return {
@@ -171732,7 +172572,28 @@
             };
         }
 
-        // (243:1) {#if $vehicleLaunchActivated && $vehicleFuelType !== VehicleFuelTypes.Space}
+        // (270:2) {#if $vehicleFuelType === VehicleFuelTypes.Transformer}
+        function speedometer_advanced_index_svelte_create_if_block_3(ctx) {
+            let span;
+
+            return {
+                c() {
+                    span = dom_element("span");
+                    span.textContent = "en";
+                    dom_attr(span, "class", "speedometer-advanced__fuel-liters speedometer-advanced__fuel-liters--transformer");
+                },
+                m(target, anchor) {
+                    dom_insert(target, span, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(span);
+                    }
+                }
+            };
+        }
+
+        // (274:1) {#if $vehicleLaunchActivated && $vehicleFuelType !== VehicleFuelTypes.Space}
         function speedometer_advanced_index_svelte_create_if_block(ctx) {
             let div;
             let t0;
@@ -171799,7 +172660,7 @@
             };
         }
 
-        // (245:3) {#if 0 < $vehicleLaunchProgress && $vehicleLaunchProgress < 100}
+        // (276:3) {#if 0 < $vehicleLaunchProgress && $vehicleLaunchProgress < 100}
         function speedometer_advanced_index_svelte_create_if_block_2(ctx) {
             let span;
             let t_value = Math.round( /*$vehicleLaunchProgress*/ ctx[7]) + "";
@@ -171826,7 +172687,7 @@
             };
         }
 
-        // (248:3) {#if $vehicleLaunchProgress === 0}
+        // (279:3) {#if $vehicleLaunchProgress === 0}
         function speedometer_advanced_index_svelte_create_if_block_1(ctx) {
             let span;
 
@@ -171868,23 +172729,32 @@
             let linearGradient0;
             let stop0;
             let stop1;
+            let linearGradient1;
+            let stop2;
+            let stop3;
             let circle0;
             let circle1;
             let t8;
             let div5;
             let svg1;
             let defs1;
-            let linearGradient1;
-            let stop2;
-            let stop3;
+            let linearGradient2;
+            let stop4;
+            let stop5;
+            let linearGradient3;
+            let stop6;
+            let stop7;
             let circle2;
             let circle3;
             let t9;
             let svg2;
             let defs2;
-            let linearGradient2;
-            let stop4;
-            let stop5;
+            let linearGradient4;
+            let stop8;
+            let stop9;
+            let linearGradient5;
+            let stop10;
+            let stop11;
             let circle4;
             let circle5;
             let t10;
@@ -171905,10 +172775,12 @@
             let t20;
             let t21;
             let t22;
-            let if_block0 = ! /*$vehicleLaunchActivated*/ ctx[9] && speedometer_advanced_index_svelte_create_if_block_10(ctx);
+            let t23;
+            let if_block0 = ! /*$vehicleLaunchActivated*/ ctx[9] && index_svelte_create_if_block_13(ctx);
 
             function select_block_type(ctx, dirty) {
-                if ( /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space) return speedometer_advanced_index_svelte_create_if_block_7;
+                if ( /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space) return speedometer_advanced_index_svelte_create_if_block_9;
+                if ( /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer) return speedometer_advanced_index_svelte_create_if_block_10;
                 return speedometer_advanced_index_svelte_create_else_block_1;
             }
 
@@ -171916,16 +172788,18 @@
             let if_block1 = current_block_type(ctx);
 
             function select_block_type_2(ctx, dirty) {
-                if ( /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space) return speedometer_advanced_index_svelte_create_if_block_6;
+                if ( /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space) return speedometer_advanced_index_svelte_create_if_block_7;
+                if ( /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer) return speedometer_advanced_index_svelte_create_if_block_8;
                 return speedometer_advanced_index_svelte_create_else_block;
             }
 
             let current_block_type_1 = select_block_type_2(ctx, [-1, -1]);
             let if_block2 = current_block_type_1(ctx);
-            let if_block3 = /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Petrol && speedometer_advanced_index_svelte_create_if_block_5(ctx);
-            let if_block4 = /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Electro && speedometer_advanced_index_svelte_create_if_block_4(ctx);
-            let if_block5 = /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space && speedometer_advanced_index_svelte_create_if_block_3(ctx);
-            let if_block6 = /*$vehicleLaunchActivated*/ ctx[9] && /*$vehicleFuelType*/ ctx[21] !== VehicleFuelTypes.Space && speedometer_advanced_index_svelte_create_if_block(ctx);
+            let if_block3 = /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Petrol && speedometer_advanced_index_svelte_create_if_block_6(ctx);
+            let if_block4 = /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Electro && speedometer_advanced_index_svelte_create_if_block_5(ctx);
+            let if_block5 = /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space && speedometer_advanced_index_svelte_create_if_block_4(ctx);
+            let if_block6 = /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer && speedometer_advanced_index_svelte_create_if_block_3(ctx);
+            let if_block7 = /*$vehicleLaunchActivated*/ ctx[9] && /*$vehicleFuelType*/ ctx[21] !== VehicleFuelTypes.Space && speedometer_advanced_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
@@ -171953,23 +172827,32 @@
                     linearGradient0 = svg_element("linearGradient");
                     stop0 = svg_element("stop");
                     stop1 = svg_element("stop");
+                    linearGradient1 = svg_element("linearGradient");
+                    stop2 = svg_element("stop");
+                    stop3 = svg_element("stop");
                     circle0 = svg_element("circle");
                     circle1 = svg_element("circle");
                     t8 = dom_space();
                     div5 = dom_element("div");
                     svg1 = svg_element("svg");
                     defs1 = svg_element("defs");
-                    linearGradient1 = svg_element("linearGradient");
-                    stop2 = svg_element("stop");
-                    stop3 = svg_element("stop");
+                    linearGradient2 = svg_element("linearGradient");
+                    stop4 = svg_element("stop");
+                    stop5 = svg_element("stop");
+                    linearGradient3 = svg_element("linearGradient");
+                    stop6 = svg_element("stop");
+                    stop7 = svg_element("stop");
                     circle2 = svg_element("circle");
                     circle3 = svg_element("circle");
                     t9 = dom_space();
                     svg2 = svg_element("svg");
                     defs2 = svg_element("defs");
-                    linearGradient2 = svg_element("linearGradient");
-                    stop4 = svg_element("stop");
-                    stop5 = svg_element("stop");
+                    linearGradient4 = svg_element("linearGradient");
+                    stop8 = svg_element("stop");
+                    stop9 = svg_element("stop");
+                    linearGradient5 = svg_element("linearGradient");
+                    stop10 = svg_element("stop");
+                    stop11 = svg_element("stop");
                     circle4 = svg_element("circle");
                     circle5 = svg_element("circle");
                     t10 = dom_space();
@@ -171995,13 +172878,18 @@
                     if (if_block5) if_block5.c();
                     t22 = dom_space();
                     if (if_block6) if_block6.c();
+                    t23 = dom_space();
+                    if (if_block7) if_block7.c();
                     dom_attr(div0, "class", "speedometer-advanced__speed-info");
                     dom_attr(span0, "class", "speedometer-advanced__speed-units");
                     dom_toggle_class(span0, "speedometer-advanced__speed-units--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(span0, "speedometer-advanced__speed-units--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(span1, "class", "speedometer-advanced__mileage-value");
                     dom_toggle_class(span1, "speedometer-advanced__mileage-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(span1, "speedometer-advanced__mileage-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(span2, "class", "speedometer-advanced__mileage-units");
                     dom_toggle_class(span2, "speedometer-advanced__mileage-units--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(span2, "speedometer-advanced__mileage-units--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(div1, "class", "speedometer-simplified__mileage");
                     dom_attr(div2, "class", "speedometer-advanced__captions");
                     dom_attr(div3, "class", "speedometer-advanced__indicators-panel");
@@ -172016,6 +172904,17 @@
                     dom_attr(linearGradient0, "y1", "0%");
                     dom_attr(linearGradient0, "x2", "100%");
                     dom_attr(linearGradient0, "y2", "0%");
+                    dom_attr(stop2, "offset", "0%");
+                    set_style(stop2, "stop-color", "#e63946");
+                    set_style(stop2, "stop-opacity", "1");
+                    dom_attr(stop3, "offset", "100%");
+                    set_style(stop3, "stop-color", "#ff6b7a");
+                    set_style(stop3, "stop-opacity", "1");
+                    dom_attr(linearGradient1, "id", "transformer-speed-gradient");
+                    dom_attr(linearGradient1, "x1", "0%");
+                    dom_attr(linearGradient1, "y1", "0%");
+                    dom_attr(linearGradient1, "x2", "100%");
+                    dom_attr(linearGradient1, "y2", "0%");
                     dom_attr(circle0, "class", "speedometer-advanced__speed-total");
                     dom_attr(circle0, "stroke-linecap", "round");
                     dom_attr(circle0, "cx", /*speedRadius*/ ctx[3]);
@@ -172028,22 +172927,34 @@
                     dom_attr(circle1, "r", /*speedRadius*/ ctx[3]);
                     dom_toggle_class(circle1, "speedometer-advanced__speed-current--disabled", /*$vehicleLaunchActivated*/ ctx[9]);
                     dom_toggle_class(circle1, "speedometer-advanced__speed-current--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(circle1, "speedometer-advanced__speed-current--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(svg0, "class", "speedometer-advanced__speed-line");
                     dom_attr(div4, "class", "speedometer-advanced__speed-lines-wrapper");
                     set_style(div4, "--speed-dashoffset", /*speedProgressOffset*/ ctx[15]);
                     set_style(div4, "--speed-dasharray-full", /*speedCircumferenceFull*/ ctx[16]);
                     set_style(div4, "--speed-dasharray-partial", /*speedCircumferencePartial*/ ctx[2]);
-                    dom_attr(stop2, "offset", "0%");
-                    set_style(stop2, "stop-color", "#ff00ff");
-                    set_style(stop2, "stop-opacity", "1");
-                    dom_attr(stop3, "offset", "100%");
-                    set_style(stop3, "stop-color", "#ff00ff");
-                    set_style(stop3, "stop-opacity", "1");
-                    dom_attr(linearGradient1, "id", "space-hp-gradient");
-                    dom_attr(linearGradient1, "x1", "0%");
-                    dom_attr(linearGradient1, "y1", "0%");
-                    dom_attr(linearGradient1, "x2", "100%");
-                    dom_attr(linearGradient1, "y2", "0%");
+                    dom_attr(stop4, "offset", "0%");
+                    set_style(stop4, "stop-color", "#ff00ff");
+                    set_style(stop4, "stop-opacity", "1");
+                    dom_attr(stop5, "offset", "100%");
+                    set_style(stop5, "stop-color", "#ff00ff");
+                    set_style(stop5, "stop-opacity", "1");
+                    dom_attr(linearGradient2, "id", "space-hp-gradient");
+                    dom_attr(linearGradient2, "x1", "0%");
+                    dom_attr(linearGradient2, "y1", "0%");
+                    dom_attr(linearGradient2, "x2", "100%");
+                    dom_attr(linearGradient2, "y2", "0%");
+                    dom_attr(stop6, "offset", "0%");
+                    set_style(stop6, "stop-color", "#e63946");
+                    set_style(stop6, "stop-opacity", "1");
+                    dom_attr(stop7, "offset", "100%");
+                    set_style(stop7, "stop-color", "#ff6b7a");
+                    set_style(stop7, "stop-opacity", "1");
+                    dom_attr(linearGradient3, "id", "transformer-hp-gradient");
+                    dom_attr(linearGradient3, "x1", "0%");
+                    dom_attr(linearGradient3, "y1", "0%");
+                    dom_attr(linearGradient3, "x2", "100%");
+                    dom_attr(linearGradient3, "y2", "0%");
                     dom_attr(circle2, "class", "speedometer-advanced__car-hp-total");
                     dom_attr(circle2, "cx", /*additionalCenter*/ ctx[18]);
                     dom_attr(circle2, "cy", /*additionalCenter*/ ctx[18]);
@@ -172055,18 +172966,30 @@
                     dom_attr(circle3, "r", /*additionalRadius*/ ctx[5]);
                     dom_attr(circle3, "stroke-linecap", "round");
                     dom_toggle_class(circle3, "speedometer-advanced__car-hp-current--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(circle3, "speedometer-advanced__car-hp-current--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(svg1, "class", "speedometer-advanced__car-hp-line");
-                    dom_attr(stop4, "offset", "0%");
-                    set_style(stop4, "stop-color", "#00ff00");
-                    set_style(stop4, "stop-opacity", "1");
-                    dom_attr(stop5, "offset", "100%");
-                    set_style(stop5, "stop-color", "#00ff00");
-                    set_style(stop5, "stop-opacity", "1");
-                    dom_attr(linearGradient2, "id", "space-fuel-gradient");
-                    dom_attr(linearGradient2, "x1", "0%");
-                    dom_attr(linearGradient2, "y1", "0%");
-                    dom_attr(linearGradient2, "x2", "100%");
-                    dom_attr(linearGradient2, "y2", "0%");
+                    dom_attr(stop8, "offset", "0%");
+                    set_style(stop8, "stop-color", "#00ff00");
+                    set_style(stop8, "stop-opacity", "1");
+                    dom_attr(stop9, "offset", "100%");
+                    set_style(stop9, "stop-color", "#00ff00");
+                    set_style(stop9, "stop-opacity", "1");
+                    dom_attr(linearGradient4, "id", "space-fuel-gradient");
+                    dom_attr(linearGradient4, "x1", "0%");
+                    dom_attr(linearGradient4, "y1", "0%");
+                    dom_attr(linearGradient4, "x2", "100%");
+                    dom_attr(linearGradient4, "y2", "0%");
+                    dom_attr(stop10, "offset", "0%");
+                    set_style(stop10, "stop-color", "#4ade80");
+                    set_style(stop10, "stop-opacity", "1");
+                    dom_attr(stop11, "offset", "100%");
+                    set_style(stop11, "stop-color", "#6bff7a");
+                    set_style(stop11, "stop-opacity", "1");
+                    dom_attr(linearGradient5, "id", "transformer-fuel-gradient");
+                    dom_attr(linearGradient5, "x1", "0%");
+                    dom_attr(linearGradient5, "y1", "0%");
+                    dom_attr(linearGradient5, "x2", "100%");
+                    dom_attr(linearGradient5, "y2", "0%");
                     dom_attr(circle4, "class", "speedometer-advanced__fuel-total");
                     dom_attr(circle4, "cx", /*additionalCenter*/ ctx[18]);
                     dom_attr(circle4, "cy", /*additionalCenter*/ ctx[18]);
@@ -172078,6 +173001,7 @@
                     dom_attr(circle5, "r", /*additionalRadius*/ ctx[5]);
                     dom_attr(circle5, "stroke-linecap", "round");
                     dom_toggle_class(circle5, "speedometer-advanced__fuel-current--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(circle5, "speedometer-advanced__fuel-current--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(svg2, "class", "speedometer-advanced__fuel-line");
                     dom_attr(div5, "class", "speedometer-advanced__additional-lines-wrapper");
                     set_style(div5, "--hp-dashoffset", /*hpProgressOffset*/ ctx[13]);
@@ -172090,14 +173014,19 @@
                     set_style(div6, "--deviation-angle", `${/*speedArrowDeviation*/ ctx[19]}deg`);
                     dom_toggle_class(div6, "speedometer-advanced__speed-arrow--disabled", /*$vehicleLaunchActivated*/ ctx[9]);
                     dom_toggle_class(div6, "speedometer-advanced__speed-arrow--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(div6, "speedometer-advanced__speed-arrow--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(i, "class", i_class_value = "speedometer-advanced__fuel-icon ui-" + MAP_TYPE_TO_FUEL_ICON[ /*$vehicleFuelType*/ ctx[21]]);
                     dom_toggle_class(i, "speedometer-advanced__fuel-icon--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(i, "speedometer-advanced__fuel-icon--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(span3, "class", "speedometer-advanced__hp-value-percent");
                     dom_toggle_class(span3, "speedometer-advanced__hp-value-percent--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(span3, "speedometer-advanced__hp-value-percent--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(span4, "class", "speedometer-advanced__hp-value");
                     dom_toggle_class(span4, "speedometer-advanced__hp-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(span4, "speedometer-advanced__hp-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(span5, "class", "speedometer-advanced__fuel-value");
                     dom_toggle_class(span5, "speedometer-advanced__fuel-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    dom_toggle_class(span5, "speedometer-advanced__fuel-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     dom_attr(div7, "class", "speedometer-advanced");
                 },
                 m(target, anchor) {
@@ -172123,6 +173052,9 @@
                     dom_append(defs0, linearGradient0);
                     dom_append(linearGradient0, stop0);
                     dom_append(linearGradient0, stop1);
+                    dom_append(defs0, linearGradient1);
+                    dom_append(linearGradient1, stop2);
+                    dom_append(linearGradient1, stop3);
                     dom_append(svg0, circle0);
                     dom_append(svg0, circle1);
                     /*circle1_binding*/
@@ -172133,9 +173065,12 @@
                     dom_append(div7, div5);
                     dom_append(div5, svg1);
                     dom_append(svg1, defs1);
-                    dom_append(defs1, linearGradient1);
-                    dom_append(linearGradient1, stop2);
-                    dom_append(linearGradient1, stop3);
+                    dom_append(defs1, linearGradient2);
+                    dom_append(linearGradient2, stop4);
+                    dom_append(linearGradient2, stop5);
+                    dom_append(defs1, linearGradient3);
+                    dom_append(linearGradient3, stop6);
+                    dom_append(linearGradient3, stop7);
                     dom_append(svg1, circle2);
                     dom_append(svg1, circle3);
                     /*circle3_binding*/
@@ -172143,9 +173078,12 @@
                     dom_append(div5, t9);
                     dom_append(div5, svg2);
                     dom_append(svg2, defs2);
-                    dom_append(defs2, linearGradient2);
-                    dom_append(linearGradient2, stop4);
-                    dom_append(linearGradient2, stop5);
+                    dom_append(defs2, linearGradient4);
+                    dom_append(linearGradient4, stop8);
+                    dom_append(linearGradient4, stop9);
+                    dom_append(defs2, linearGradient5);
+                    dom_append(linearGradient5, stop10);
+                    dom_append(linearGradient5, stop11);
                     dom_append(svg2, circle4);
                     dom_append(svg2, circle5);
                     /*div5_binding*/
@@ -172170,15 +173108,17 @@
                     if (if_block4) if_block4.m(span5, null);
                     dom_append(span5, t21);
                     if (if_block5) if_block5.m(span5, null);
-                    dom_append(div7, t22);
-                    if (if_block6) if_block6.m(div7, null);
+                    dom_append(span5, t22);
+                    if (if_block6) if_block6.m(span5, null);
+                    dom_append(div7, t23);
+                    if (if_block7) if_block7.m(div7, null);
                 },
                 p(ctx, dirty) {
                     if (! /*$vehicleLaunchActivated*/ ctx[9]) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = speedometer_advanced_index_svelte_create_if_block_10(ctx);
+                            if_block0 = index_svelte_create_if_block_13(ctx);
                             if_block0.c();
                             if_block0.m(div0, null);
                         }
@@ -172191,6 +173131,10 @@
                         dom_toggle_class(span0, "speedometer-advanced__speed-units--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
                     }
 
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span0, "speedometer-advanced__speed-units--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
                     if (dirty[0] & /*$vehicleMileage*/ 8388608) dom_set_data(t3, /*$vehicleMileage*/ ctx[23]);
 
                     if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
@@ -172198,7 +173142,15 @@
                     }
 
                     if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span1, "speedometer-advanced__mileage-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
                         dom_toggle_class(span2, "speedometer-advanced__mileage-units--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    }
+
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span2, "speedometer-advanced__mileage-units--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     }
 
                     if (current_block_type === (current_block_type = select_block_type(ctx, dirty)) && if_block1) {
@@ -172245,6 +173197,10 @@
                         dom_toggle_class(circle1, "speedometer-advanced__speed-current--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
                     }
 
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(circle1, "speedometer-advanced__speed-current--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
                     if (dirty[0] & /*speedProgressOffset*/ 32768) {
                         set_style(div4, "--speed-dashoffset", /*speedProgressOffset*/ ctx[15]);
                     }
@@ -172285,6 +173241,10 @@
                         dom_toggle_class(circle3, "speedometer-advanced__car-hp-current--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
                     }
 
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(circle3, "speedometer-advanced__car-hp-current--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
                     if (dirty[0] & /*additionalCenter*/ 262144) {
                         dom_attr(circle4, "cx", /*additionalCenter*/ ctx[18]);
                     }
@@ -172311,6 +173271,10 @@
 
                     if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
                         dom_toggle_class(circle5, "speedometer-advanced__fuel-current--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    }
+
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(circle5, "speedometer-advanced__fuel-current--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     }
 
                     if (dirty[0] & /*hpProgressOffset*/ 8192) {
@@ -172349,6 +173313,10 @@
                         dom_toggle_class(div6, "speedometer-advanced__speed-arrow--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
                     }
 
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(div6, "speedometer-advanced__speed-arrow--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
                     if (current_block_type_1 !== (current_block_type_1 = select_block_type_2(ctx, dirty))) {
                         if_block2.d(1);
                         if_block2 = current_block_type_1(ctx);
@@ -172367,6 +173335,10 @@
                         dom_toggle_class(i, "speedometer-advanced__fuel-icon--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
                     }
 
+                    if (dirty[0] & /*$vehicleFuelType, $vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(i, "speedometer-advanced__fuel-icon--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
                     if (dirty[0] & /*percentHealCar*/ 4096) dom_set_data(t14, /*percentHealCar*/ ctx[12]);
 
                     if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
@@ -172374,7 +173346,15 @@
                     }
 
                     if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span3, "speedometer-advanced__hp-value-percent--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
                         dom_toggle_class(span4, "speedometer-advanced__hp-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    }
+
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span4, "speedometer-advanced__hp-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
                     }
 
                     if (dirty[0] & /*$vehicleLiters*/ 64) dom_set_data(t18, /*$vehicleLiters*/ ctx[6]);
@@ -172383,7 +173363,7 @@
                         if (if_block3) {
 
                         } else {
-                            if_block3 = speedometer_advanced_index_svelte_create_if_block_5(ctx);
+                            if_block3 = speedometer_advanced_index_svelte_create_if_block_6(ctx);
                             if_block3.c();
                             if_block3.m(span5, t20);
                         }
@@ -172396,7 +173376,7 @@
                         if (if_block4) {
 
                         } else {
-                            if_block4 = speedometer_advanced_index_svelte_create_if_block_4(ctx);
+                            if_block4 = speedometer_advanced_index_svelte_create_if_block_5(ctx);
                             if_block4.c();
                             if_block4.m(span5, t21);
                         }
@@ -172409,30 +173389,47 @@
                         if (if_block5) {
 
                         } else {
-                            if_block5 = speedometer_advanced_index_svelte_create_if_block_3(ctx);
+                            if_block5 = speedometer_advanced_index_svelte_create_if_block_4(ctx);
                             if_block5.c();
-                            if_block5.m(span5, null);
+                            if_block5.m(span5, t22);
                         }
                     } else if (if_block5) {
                         if_block5.d(1);
                         if_block5 = null;
                     }
 
-                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
-                        dom_toggle_class(span5, "speedometer-advanced__fuel-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
-                    }
-
-                    if ( /*$vehicleLaunchActivated*/ ctx[9] && /*$vehicleFuelType*/ ctx[21] !== VehicleFuelTypes.Space) {
+                    if ( /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer) {
                         if (if_block6) {
-                            if_block6.p(ctx, dirty);
+
                         } else {
-                            if_block6 = speedometer_advanced_index_svelte_create_if_block(ctx);
+                            if_block6 = speedometer_advanced_index_svelte_create_if_block_3(ctx);
                             if_block6.c();
-                            if_block6.m(div7, null);
+                            if_block6.m(span5, null);
                         }
                     } else if (if_block6) {
                         if_block6.d(1);
                         if_block6 = null;
+                    }
+
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span5, "speedometer-advanced__fuel-value--space", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Space);
+                    }
+
+                    if (dirty[0] & /*$vehicleFuelType*/ 2097152) {
+                        dom_toggle_class(span5, "speedometer-advanced__fuel-value--transformer", /*$vehicleFuelType*/ ctx[21] === VehicleFuelTypes.Transformer);
+                    }
+
+                    if ( /*$vehicleLaunchActivated*/ ctx[9] && /*$vehicleFuelType*/ ctx[21] !== VehicleFuelTypes.Space) {
+                        if (if_block7) {
+                            if_block7.p(ctx, dirty);
+                        } else {
+                            if_block7 = speedometer_advanced_index_svelte_create_if_block(ctx);
+                            if_block7.c();
+                            if_block7.m(div7, null);
+                        }
+                    } else if (if_block7) {
+                        if_block7.d(1);
+                        if_block7 = null;
                     }
                 },
                 i: utils_noop,
@@ -172457,6 +173454,7 @@
                     if (if_block4) if_block4.d();
                     if (if_block5) if_block5.d();
                     if (if_block6) if_block6.d();
+                    if (if_block7) if_block7.d();
                 }
             };
         }
@@ -173247,9 +174245,10 @@
         var VehicleFuelTypes = {
             Electro: 'electro',
             Petrol: 'petrol',
-            Space: 'space'
+            Space: 'space',
+            Transformer: 'transformer'
         };
-        var MAP_TYPE_TO_FUEL_ICON = hud_constants_defineProperty(hud_constants_defineProperty(hud_constants_defineProperty({}, VehicleFuelTypes.Electro, 'voltage'), VehicleFuelTypes.Petrol, 'fuel'), VehicleFuelTypes.Space, 'lifeline');; // CONCATENATED MODULE: ./src/views/hud/components/speedometer/index.svelte
+        var MAP_TYPE_TO_FUEL_ICON = hud_constants_defineProperty(hud_constants_defineProperty(hud_constants_defineProperty(hud_constants_defineProperty({}, VehicleFuelTypes.Electro, 'voltage'), VehicleFuelTypes.Petrol, 'fuel'), VehicleFuelTypes.Space, 'lifeline'), VehicleFuelTypes.Transformer, 'lightning');; // CONCATENATED MODULE: ./src/views/hud/components/speedometer/index.svelte
         /* src\views\hud\components\speedometer\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -173365,7 +174364,7 @@
             return child_ctx;
         }
 
-        // (98:0) {#if visible}
+        // (101:0) {#if visible}
         function arizona_pass_notification_index_svelte_create_if_block(ctx) {
             let div;
             let t0;
@@ -173521,7 +174520,7 @@
             };
         }
 
-        // (104:2) {#if withImage}
+        // (107:2) {#if withImage}
         function arizona_pass_notification_index_svelte_create_if_block_5(ctx) {
             let img;
             let img_src_value;
@@ -173549,7 +174548,7 @@
             };
         }
 
-        // (108:2) {#if title}
+        // (111:2) {#if title}
         function arizona_pass_notification_index_svelte_create_if_block_4(ctx) {
             let p;
             let t;
@@ -173561,8 +174560,9 @@
                     dom_attr(p, "class", "arizona-pass-hud-notification__title");
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--ny", /*imageType*/ ctx[1] === 12);
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--calendarnew", /*imageType*/ ctx[1] === 17);
-                    dom_toggle_class(p, "arizona-pass-hud-notification__title--battlepass", /*imageType*/ ctx[1] === 18);
+                    dom_toggle_class(p, "arizona-pass-hud-notification__title--battlepass", /*imageType*/ ctx[1] === 18 || /*imageType*/ ctx[1] === 22);
                     dom_toggle_class(p, "arizona-pass-hud-notification__title--new-year25", /*imageType*/ ctx[1] === 19);
+                    dom_toggle_class(p, "arizona-pass-hud-notification__title--code26", /*imageType*/ ctx[1] === 21);
                 },
                 m(target, anchor) {
                     dom_insert(target, p, anchor);
@@ -173580,11 +174580,15 @@
                     }
 
                     if (dirty & /*imageType*/ 2) {
-                        dom_toggle_class(p, "arizona-pass-hud-notification__title--battlepass", /*imageType*/ ctx[1] === 18);
+                        dom_toggle_class(p, "arizona-pass-hud-notification__title--battlepass", /*imageType*/ ctx[1] === 18 || /*imageType*/ ctx[1] === 22);
                     }
 
                     if (dirty & /*imageType*/ 2) {
                         dom_toggle_class(p, "arizona-pass-hud-notification__title--new-year25", /*imageType*/ ctx[1] === 19);
+                    }
+
+                    if (dirty & /*imageType*/ 2) {
+                        dom_toggle_class(p, "arizona-pass-hud-notification__title--code26", /*imageType*/ ctx[1] === 21);
                     }
                 },
                 d(detaching) {
@@ -173595,7 +174599,7 @@
             };
         }
 
-        // (120:2) {#if description}
+        // (124:2) {#if description}
         function arizona_pass_notification_index_svelte_create_if_block_3(ctx) {
             let p;
             let t;
@@ -173621,7 +174625,7 @@
             };
         }
 
-        // (126:2) {#if !isEmpty(rewards)}
+        // (130:2) {#if !isEmpty(rewards)}
         function arizona_pass_notification_index_svelte_create_if_block_2(ctx) {
             let div;
             let each_value = each_ensure_array_like( /*rewards*/ ctx[0]);
@@ -173684,8 +174688,8 @@
             };
         }
 
-        // (130:6) {#key imageType}
-        function index_svelte_create_key_block(ctx) {
+        // (134:6) {#key imageType}
+        function arizona_pass_notification_index_svelte_create_key_block(ctx) {
             let div;
             let img;
             let img_src_value;
@@ -173721,7 +174725,7 @@
             };
         }
 
-        // (128:4) {#each rewards as reward}
+        // (132:4) {#each rewards as reward}
         function arizona_pass_notification_index_svelte_create_each_block(ctx) {
             let div;
             let previous_key = /*imageType*/ ctx[1];
@@ -173730,7 +174734,7 @@
             let t1_value = /*reward*/ ctx[13].title + "";
             let t1;
             let t2;
-            let key_block = index_svelte_create_key_block(ctx);
+            let key_block = arizona_pass_notification_index_svelte_create_key_block(ctx);
 
             return {
                 c() {
@@ -173754,7 +174758,7 @@
                 p(ctx, dirty) {
                     if (dirty & /*imageType*/ 2 && utils_safe_not_equal(previous_key, previous_key = /*imageType*/ ctx[1])) {
                         key_block.d(1);
-                        key_block = index_svelte_create_key_block(ctx);
+                        key_block = arizona_pass_notification_index_svelte_create_key_block(ctx);
                         key_block.c();
                         key_block.m(div, t0);
                     } else {
@@ -173773,7 +174777,7 @@
             };
         }
 
-        // (143:2) {#if imageType < 3 || imageType === 11}
+        // (147:2) {#if imageType < 3 || imageType === 11}
         function arizona_pass_notification_index_svelte_create_if_block_1(ctx) {
             let div;
             let p;
@@ -173896,6 +174900,8 @@
                 17: 'arizona-pass-hud-notification__reward-image-wrapper-calendarnew',
                 18: 'arizona-pass-hud-notification__reward-image-wrapper-battlepass',
                 19: 'arizona-pass-hud-notification__reward-image-wrapper-new-year25',
+                21: 'arizona-pass-hud-notification__reward-image-wrapper-code26',
+                22: 'arizona-pass-hud-notification__reward-image-wrapper-battlepass',
                 default: 'arizona-pass-hud-notification__reward-image-wrapper'
             };
 
@@ -173904,6 +174910,7 @@
                 // 16: true, // для класса arizona-pass-hud-notification__title--space
                 17: true, // для класса arizona-pass-hud-notification__title--calendarnew
                 18: true, // для класса arizona-pass-hud-notification__title--battlepass
+                22: true, // для класса arizona-pass-hud-notification__title--battlepass
                 19: true, // для класса arizona-pass-hud-notification__title--new-year25
 
             };
@@ -173913,7 +174920,7 @@
             };
 
             const imageNotifyMap = [{
-                    types: [8, 13, 15, 16, 17, 19, 20],
+                    types: [8, 13, 15, 16, 17, 19, 20, 21],
                     getPath: sysName => `${CDN_URL}/assets/images/donate/${sysName}.webp`
                 },
                 {
@@ -173929,7 +174936,7 @@
                     getPath: sysName => `${CDN_URL}/systems/december_calendar/${sysName}.webp`
                 },
                 {
-                    types: [18],
+                    types: [18, 22],
                     getPath: sysName => `${CDN_URL}/systems/battlepass/image_prize/${sysName}.webp`
                 },
                 {
@@ -180823,7 +181830,7 @@
 
         /* harmony default export */
         const components_promo_index_svelte = (index_svelte_Promo);; // CONCATENATED MODULE: ./src/views/hud/components/case-banner/img/logo.png
-        const case_banner_img_logo_namespaceObject = __webpack_require__.p + "assets/e584a49e7c801488cd2c.webp";; // CONCATENATED MODULE: ./src/views/hud/components/case-banner/index.svelte
+        const case_banner_img_logo_namespaceObject = __webpack_require__.p + "assets/bf10d2258d1a9360335e.webp";; // CONCATENATED MODULE: ./src/views/hud/components/case-banner/index.svelte
         /* src\views\hud\components\case-banner\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -181138,7 +182145,1332 @@
         }
 
         /* harmony default export */
-        const boss_hp_index_svelte = (Boss_hp);; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/smile-invers.svg
+        const boss_hp_index_svelte = (Boss_hp);; // CONCATENATED MODULE: ./src/views/hud/components/target-info/index.svelte
+        /* src\views\hud\components\target-info\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+        function target_info_index_svelte_add_css(target) {
+            append_styles(target, "svelte-pmb6ig", ".hud-target-info.svelte-pmb6ig{display:flex;flex-direction:column;background-color:rgba(17, 23, 37, 0.8);gap:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-top:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-bottom:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((372 * var(--global-scale) * var(--global-scale) - 372 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((372 * var(--global-scale) * var(--global-scale) * 0.44 - (372 * var(--global-scale) * var(--global-scale) - 372 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info.svelte-pmb6ig{display:flex;align-items:center;justify-content:space-between;gap:max(calc((34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((34 * var(--global-scale) * var(--global-scale) * 0.44 - (34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-left.svelte-pmb6ig{display:flex;flex-direction:column}.hud-target-info__info-left-name.svelte-pmb6ig{display:flex;align-items:center;gap:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-left-name-title.svelte-pmb6ig{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-left-name-id.svelte-pmb6ig{display:flex;align-items:center;font-family:\"HeadingNowMedium\";color:#111111;background-color:#FFD52A;font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-top:max(calc((7 * var(--global-scale) * var(--global-scale) - 7 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((7 * var(--global-scale) * var(--global-scale) * 0.44 - (7 * var(--global-scale) * var(--global-scale) - 7 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-bottom:max(calc((7 * var(--global-scale) * var(--global-scale) - 7 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((7 * var(--global-scale) * var(--global-scale) * 0.44 - (7 * var(--global-scale) * var(--global-scale) - 7 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((34 * var(--global-scale) * var(--global-scale) * 0.44 - (34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((22 * var(--global-scale) * var(--global-scale) - 22 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((22 * var(--global-scale) * var(--global-scale) * 0.44 - (22 * var(--global-scale) * var(--global-scale) - 22 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-left-lvl.svelte-pmb6ig{font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.6);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-right.svelte-pmb6ig{display:flex;gap:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-right-stats.svelte-pmb6ig{display:flex;flex-direction:column;align-items:center;gap:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-right-stats-img.svelte-pmb6ig{font-size:max(calc((19 * var(--global-scale) * var(--global-scale) - 19 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((19 * var(--global-scale) * var(--global-scale) * 0.44 - (19 * var(--global-scale) * var(--global-scale) - 19 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__info-right-stats-value.svelte-pmb6ig{font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.7);font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__progress-wrapper.svelte-pmb6ig{display:flex;justify-content:center;align-items:center}.hud-target-info__progress-wrapper-value.svelte-pmb6ig{position:absolute;font-family:\"HeadingNowMedium\";color:#FFFFFF;font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__progress.svelte-pmb6ig{display:flex;align-items:center;position:relative;background-color:#620000;overflow:hidden;width:max(calc((332 * var(--global-scale) * var(--global-scale) - 332 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((332 * var(--global-scale) * var(--global-scale) * 0.44 - (332 * var(--global-scale) * var(--global-scale) - 332 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((14 * var(--global-scale) * var(--global-scale) - 14 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((14 * var(--global-scale) * var(--global-scale) * 0.44 - (14 * var(--global-scale) * var(--global-scale) - 14 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.hud-target-info__progress-value.svelte-pmb6ig{background-color:#D94B42;position:absolute;left:0;height:100%;width:0}");
+        }
+
+        function target_info_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[1] = list[i];
+            return child_ctx;
+        }
+
+        // (107:0) {#if !isEmpty($targetInfo)}
+        function target_info_index_svelte_create_if_block(ctx) {
+            let div6;
+            let div2;
+            let div1;
+            let div0;
+            let p0;
+            let t0_value = /*$targetInfo*/ ctx[0].name + "";
+            let t0;
+            let t1;
+            let p1;
+            let t2_value = /*$targetInfo*/ ctx[0].id + "";
+            let t2;
+            let t3;
+            let p2;
+            let t4_value = /*$targetInfo*/ ctx[0].level + "";
+            let t4;
+            let t5;
+            let t6;
+            let t7;
+            let div5;
+            let div4;
+            let div3;
+            let div3_style_value;
+            let t8;
+            let p3;
+            let t9_value = /*$targetInfo*/ ctx[0].hp + "";
+            let t9;
+            let div6_intro;
+            let div6_outro;
+            let current;
+            let if_block = /*$targetInfo*/ ctx[0].modifiers && target_info_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    div6 = dom_element("div");
+                    div2 = dom_element("div");
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    p0 = dom_element("p");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    p1 = dom_element("p");
+                    t2 = dom_text(t2_value);
+                    t3 = dom_space();
+                    p2 = dom_element("p");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_text(" уровень");
+                    t6 = dom_space();
+                    if (if_block) if_block.c();
+                    t7 = dom_space();
+                    div5 = dom_element("div");
+                    div4 = dom_element("div");
+                    div3 = dom_element("div");
+                    t8 = dom_space();
+                    p3 = dom_element("p");
+                    t9 = dom_text(t9_value);
+                    dom_attr(p0, "class", "hud-target-info__info-left-name-title svelte-pmb6ig");
+                    dom_attr(p1, "class", "hud-target-info__info-left-name-id svelte-pmb6ig");
+                    dom_attr(div0, "class", "hud-target-info__info-left-name svelte-pmb6ig");
+                    dom_attr(p2, "class", "hud-target-info__info-left-lvl svelte-pmb6ig");
+                    dom_attr(div1, "class", "hud-target-info__info-left svelte-pmb6ig");
+                    dom_attr(div2, "class", "hud-target-info__info svelte-pmb6ig");
+                    dom_attr(div3, "class", "hud-target-info__progress-value svelte-pmb6ig");
+                    dom_attr(div3, "style", div3_style_value = `width: ${/*$targetInfo*/ ctx[0].hp / (100 / 100)}%;`);
+                    dom_attr(div4, "class", "hud-target-info__progress svelte-pmb6ig");
+                    dom_attr(p3, "class", "hud-target-info__progress-wrapper-value svelte-pmb6ig");
+                    dom_attr(div5, "class", "hud-target-info__progress-wrapper svelte-pmb6ig");
+                    dom_attr(div6, "class", "hud-target-info svelte-pmb6ig");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div6, anchor);
+                    dom_append(div6, div2);
+                    dom_append(div2, div1);
+                    dom_append(div1, div0);
+                    dom_append(div0, p0);
+                    dom_append(p0, t0);
+                    dom_append(div0, t1);
+                    dom_append(div0, p1);
+                    dom_append(p1, t2);
+                    dom_append(div1, t3);
+                    dom_append(div1, p2);
+                    dom_append(p2, t4);
+                    dom_append(p2, t5);
+                    dom_append(div2, t6);
+                    if (if_block) if_block.m(div2, null);
+                    dom_append(div6, t7);
+                    dom_append(div6, div5);
+                    dom_append(div5, div4);
+                    dom_append(div4, div3);
+                    dom_append(div5, t8);
+                    dom_append(div5, p3);
+                    dom_append(p3, t9);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    if ((!current || dirty & /*$targetInfo*/ 1) && t0_value !== (t0_value = /*$targetInfo*/ ctx[0].name + "")) dom_set_data(t0, t0_value);
+                    if ((!current || dirty & /*$targetInfo*/ 1) && t2_value !== (t2_value = /*$targetInfo*/ ctx[0].id + "")) dom_set_data(t2, t2_value);
+                    if ((!current || dirty & /*$targetInfo*/ 1) && t4_value !== (t4_value = /*$targetInfo*/ ctx[0].level + "")) dom_set_data(t4, t4_value);
+
+                    if ( /*$targetInfo*/ ctx[0].modifiers) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = target_info_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            if_block.m(div2, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (!current || dirty & /*$targetInfo*/ 1 && div3_style_value !== (div3_style_value = `width: ${/*$targetInfo*/ ctx[0].hp / (100 / 100)}%;`)) {
+                        dom_attr(div3, "style", div3_style_value);
+                    }
+
+                    if ((!current || dirty & /*$targetInfo*/ 1) && t9_value !== (t9_value = /*$targetInfo*/ ctx[0].hp + "")) dom_set_data(t9, t9_value);
+                },
+                i(local) {
+                    if (current) return;
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (div6_outro) div6_outro.end(1);
+                            div6_intro = create_in_transition(div6, fly, {
+                                y: -200,
+                                duration: 800
+                            });
+                            div6_intro.start();
+                        });
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    if (div6_intro) div6_intro.invalidate();
+
+                    if (local) {
+                        div6_outro = create_out_transition(div6, fly, {
+                            y: -200,
+                            duration: 800
+                        });
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div6);
+                    }
+
+                    if (if_block) if_block.d();
+                    if (detaching && div6_outro) div6_outro.end();
+                }
+            };
+        }
+
+        // (127:12) {#if $targetInfo.modifiers}
+        function target_info_index_svelte_create_if_block_1(ctx) {
+            let div;
+            let each_value = each_ensure_array_like( /*$targetInfo*/ ctx[0].modifiers);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = target_info_index_svelte_create_each_block(target_info_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            return {
+                c() {
+                    div = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    dom_attr(div, "class", "hud-target-info__info-right svelte-pmb6ig");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div, null);
+                        }
+                    }
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$targetInfo*/ 1) {
+                        each_value = each_ensure_array_like( /*$targetInfo*/ ctx[0].modifiers);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = target_info_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = target_info_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                }
+            };
+        }
+
+        // (129:20) {#each $targetInfo.modifiers as modifier}
+        function target_info_index_svelte_create_each_block(ctx) {
+            let div;
+            let i;
+            let i_class_value;
+            let i_style_value;
+            let t0;
+            let p;
+            let t1_value = /*modifier*/ ctx[1].value + "";
+            let t1;
+            let t2;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    i = dom_element("i");
+                    t0 = dom_space();
+                    p = dom_element("p");
+                    t1 = dom_text(t1_value);
+                    t2 = dom_space();
+                    dom_attr(i, "class", i_class_value = "hud-target-info__info-right-stats-img icon-" + /*modifier*/ ctx[1].icon + " svelte-pmb6ig");
+                    dom_attr(i, "style", i_style_value = `color: ${/*modifier*/ ctx[1].color}`);
+                    dom_attr(p, "class", "hud-target-info__info-right-stats-value svelte-pmb6ig");
+                    dom_attr(div, "class", "hud-target-info__info-right-stats svelte-pmb6ig");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, i);
+                    dom_append(div, t0);
+                    dom_append(div, p);
+                    dom_append(p, t1);
+                    dom_append(div, t2);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$targetInfo*/ 1 && i_class_value !== (i_class_value = "hud-target-info__info-right-stats-img icon-" + /*modifier*/ ctx[1].icon + " svelte-pmb6ig")) {
+                        dom_attr(i, "class", i_class_value);
+                    }
+
+                    if (dirty & /*$targetInfo*/ 1 && i_style_value !== (i_style_value = `color: ${/*modifier*/ ctx[1].color}`)) {
+                        dom_attr(i, "style", i_style_value);
+                    }
+
+                    if (dirty & /*$targetInfo*/ 1 && t1_value !== (t1_value = /*modifier*/ ctx[1].value + "")) dom_set_data(t1, t1_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        function target_info_index_svelte_create_fragment(ctx) {
+            let show_if = !(0, lodash.isEmpty)( /*$targetInfo*/ ctx[0]);
+            let if_block_anchor;
+            let if_block = show_if && target_info_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*$targetInfo*/ 1) show_if = !(0, lodash.isEmpty)( /*$targetInfo*/ ctx[0]);
+
+                    if (show_if) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*$targetInfo*/ 1) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = target_info_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function target_info_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $targetInfo;
+            utils_component_subscribe($$self, targetInfo, $$value => $$invalidate(0, $targetInfo = $$value));
+            return [$targetInfo];
+        }
+
+        class Target_info extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, target_info_index_svelte_instance, target_info_index_svelte_create_fragment, utils_safe_not_equal, {}, target_info_index_svelte_add_css);
+            }
+        }
+
+        /* harmony default export */
+        const target_info_index_svelte = (Target_info);; // CONCATENATED MODULE: ./src/views/hud/components/transformer-hud/img/autobot.png
+        const autobot_namespaceObject = __webpack_require__.p + "assets/26a705daec1f374f7755.webp";; // CONCATENATED MODULE: ./src/views/hud/components/transformer-hud/index.svelte
+        /* src\views\hud\components\transformer-hud\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+        function transformer_hud_index_svelte_create_if_block(ctx) {
+            let div13;
+            let div12;
+            let div0;
+            let t0;
+            let div1;
+            let t1;
+            let div2;
+            let t2;
+            let div3;
+            let t3_value = /*currentConfig*/ ctx[3].faction + "";
+            let t3;
+            let t4;
+            let div4;
+            let t5;
+            let div6;
+            let h1;
+            let t6_value = /*currentConfig*/ ctx[3].name + "";
+            let t6;
+            let t7;
+            let div5;
+            let t9;
+            let div7;
+            let t10;
+            let div10;
+            let div8;
+            let t11;
+            let div9;
+            let t12;
+            let span;
+            let t13_value = ( /*isVehicle*/ ctx[2] ? 'МАШИНА' : 'РОБОТ') + "";
+            let t13;
+            let t14;
+            let div11;
+            let div13_class_value;
+            let div13_intro;
+            let div13_outro;
+            let current;
+
+            function select_block_type(ctx, dirty) {
+                if ( /*isVehicle*/ ctx[2]) return transformer_hud_index_svelte_create_if_block_1;
+                return transformer_hud_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type(ctx, -1);
+            let if_block = current_block_type(ctx);
+
+            return {
+                c() {
+                    div13 = dom_element("div");
+                    div12 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    t1 = dom_space();
+                    div2 = dom_element("div");
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+                    t3 = dom_text(t3_value);
+                    t4 = dom_space();
+                    div4 = dom_element("div");
+                    div4.innerHTML = `<img src="${autobot_namespaceObject}" alt="Autobot" class="transformer-hud__icon-img"/>`;
+                    t5 = dom_space();
+                    div6 = dom_element("div");
+                    h1 = dom_element("h1");
+                    t6 = dom_text(t6_value);
+                    t7 = dom_space();
+                    div5 = dom_element("div");
+                    div5.textContent = "CYBERTRONIAN WARRIOR";
+                    t9 = dom_space();
+                    div7 = dom_element("div");
+                    t10 = dom_space();
+                    div10 = dom_element("div");
+                    div8 = dom_element("div");
+                    t11 = dom_space();
+                    div9 = dom_element("div");
+                    t12 = dom_text("РЕЖИМ: ");
+                    span = dom_element("span");
+                    t13 = dom_text(t13_value);
+                    t14 = dom_space();
+                    div11 = dom_element("div");
+                    if_block.c();
+                    dom_attr(div0, "class", "transformer-hud__scan-line");
+                    dom_attr(div1, "class", "transformer-hud__corner-accent transformer-hud__corner-accent--top-right");
+                    dom_attr(div2, "class", "transformer-hud__corner-accent transformer-hud__corner-accent--bottom-left");
+                    dom_attr(div3, "class", "transformer-hud__faction-badge");
+                    dom_attr(div4, "class", "transformer-hud__icon");
+                    dom_attr(h1, "class", "transformer-hud__name-title");
+                    dom_attr(div5, "class", "transformer-hud__name-subtitle");
+                    dom_attr(div6, "class", "transformer-hud__name");
+                    dom_attr(div7, "class", "transformer-hud__divider");
+                    dom_attr(div8, "class", "transformer-hud__mode-indicator");
+                    dom_attr(div9, "class", "transformer-hud__mode-text");
+                    dom_attr(div10, "class", "transformer-hud__mode-status");
+                    dom_attr(div11, "class", "transformer-hud__hint");
+                    dom_attr(div12, "class", "transformer-hud__panel");
+                    dom_attr(div13, "class", div13_class_value = "transformer-hud transformer-hud--" + /*transformerType*/ ctx[0]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div13, anchor);
+                    dom_append(div13, div12);
+                    dom_append(div12, div0);
+                    dom_append(div12, t0);
+                    dom_append(div12, div1);
+                    dom_append(div12, t1);
+                    dom_append(div12, div2);
+                    dom_append(div12, t2);
+                    dom_append(div12, div3);
+                    dom_append(div3, t3);
+                    dom_append(div12, t4);
+                    dom_append(div12, div4);
+                    dom_append(div12, t5);
+                    dom_append(div12, div6);
+                    dom_append(div6, h1);
+                    dom_append(h1, t6);
+                    dom_append(div6, t7);
+                    dom_append(div6, div5);
+                    dom_append(div12, t9);
+                    dom_append(div12, div7);
+                    dom_append(div12, t10);
+                    dom_append(div12, div10);
+                    dom_append(div10, div8);
+                    dom_append(div10, t11);
+                    dom_append(div10, div9);
+                    dom_append(div9, t12);
+                    dom_append(div9, span);
+                    dom_append(span, t13);
+                    dom_append(div12, t14);
+                    dom_append(div12, div11);
+                    if_block.m(div11, null);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    if ((!current || dirty & /*currentConfig*/ 8) && t3_value !== (t3_value = /*currentConfig*/ ctx[3].faction + "")) dom_set_data(t3, t3_value);
+                    if ((!current || dirty & /*currentConfig*/ 8) && t6_value !== (t6_value = /*currentConfig*/ ctx[3].name + "")) dom_set_data(t6, t6_value);
+                    if ((!current || dirty & /*isVehicle*/ 4) && t13_value !== (t13_value = ( /*isVehicle*/ ctx[2] ? 'МАШИНА' : 'РОБОТ') + "")) dom_set_data(t13, t13_value);
+
+                    if (current_block_type !== (current_block_type = select_block_type(ctx, dirty))) {
+                        if_block.d(1);
+                        if_block = current_block_type(ctx);
+
+                        if (if_block) {
+                            if_block.c();
+                            if_block.m(div11, null);
+                        }
+                    }
+
+                    if (!current || dirty & /*transformerType*/ 1 && div13_class_value !== (div13_class_value = "transformer-hud transformer-hud--" + /*transformerType*/ ctx[0])) {
+                        dom_attr(div13, "class", div13_class_value);
+                    }
+                },
+                i(local) {
+                    if (current) return;
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (div13_outro) div13_outro.end(1);
+                            div13_intro = create_in_transition(div13, fly, {
+                                x: -50,
+                                duration: 500
+                            });
+                            div13_intro.start();
+                        });
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    if (div13_intro) div13_intro.invalidate();
+
+                    if (local) {
+                        div13_outro = create_out_transition(div13, fly, {
+                            x: -50,
+                            duration: 500
+                        });
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div13);
+                    }
+
+                    if_block.d();
+                    if (detaching && div13_outro) div13_outro.end();
+                }
+            };
+        }
+
+        // (91:4) {:else}
+        function transformer_hud_index_svelte_create_else_block(ctx) {
+            let t0;
+            let kbd;
+            let t2;
+
+            return {
+                c() {
+                    t0 = dom_text("Нажмите ");
+                    kbd = dom_element("kbd");
+                    kbd.textContent = "U";
+                    t2 = dom_text(" для трансформации");
+                },
+                m(target, anchor) {
+                    dom_insert(target, t0, anchor);
+                    dom_insert(target, kbd, anchor);
+                    dom_insert(target, t2, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t0);
+                        dom_detach(kbd);
+                        dom_detach(t2);
+                    }
+                }
+            };
+        }
+
+        // (89:4) {#if isVehicle}
+        function transformer_hud_index_svelte_create_if_block_1(ctx) {
+            let t0;
+            let kbd0;
+            let t2;
+            let kbd1;
+            let t4;
+
+            return {
+                c() {
+                    t0 = dom_text("Нажмите ");
+                    kbd0 = dom_element("kbd");
+                    kbd0.textContent = "F";
+                    t2 = dom_text(" или ");
+                    kbd1 = dom_element("kbd");
+                    kbd1.textContent = "Enter";
+                    t4 = dom_text(" для выхода");
+                },
+                m(target, anchor) {
+                    dom_insert(target, t0, anchor);
+                    dom_insert(target, kbd0, anchor);
+                    dom_insert(target, t2, anchor);
+                    dom_insert(target, kbd1, anchor);
+                    dom_insert(target, t4, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t0);
+                        dom_detach(kbd0);
+                        dom_detach(t2);
+                        dom_detach(kbd1);
+                        dom_detach(t4);
+                    }
+                }
+            };
+        }
+
+        function transformer_hud_index_svelte_create_fragment(ctx) {
+            let if_block_anchor;
+            let if_block = /*visible*/ ctx[1] && transformer_hud_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*visible*/ ctx[1]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*visible*/ 2) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = transformer_hud_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function transformer_hud_index_svelte_instance($$self, $$props, $$invalidate) {
+            let currentConfig;
+            let isVehicle;
+            let visible = false;
+            let transformerType = 'optimus';
+            let mode = 'robot';
+
+            const TRANSFORMER_CONFIG = {
+                optimus: {
+                    name: 'OPTIMUS PRIME',
+                    faction: 'AUTOBOT'
+                },
+                bumblebee: {
+                    name: 'BUMBLEBEE',
+                    faction: 'AUTOBOT'
+                }
+            };
+
+            const show = (type = 'optimus') => {
+                $$invalidate(0, transformerType = type);
+                $$invalidate(4, mode = 'robot');
+                $$invalidate(1, visible = true);
+            };
+
+            const hide = () => {
+                $$invalidate(1, visible = false);
+            };
+
+            const setMode = newMode => {
+                $$invalidate(4, mode = newMode);
+            };
+
+            const setType = type => {
+                $$invalidate(0, transformerType = type);
+            };
+
+            const unregisterShow = registerEvent('event.transformerHud.show', show);
+            const unregisterHide = registerEvent('event.transformerHud.hide', hide);
+            const unregisterSetMode = registerEvent('event.transformerHud.setMode', setMode);
+            const unregisterSetType = registerEvent('event.transformerHud.setType', setType);
+
+            onDestroy(() => {
+                unregisterShow();
+                unregisterHide();
+                unregisterSetMode();
+                unregisterSetType();
+            });
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*transformerType*/ 1) {
+                    $: $$invalidate(3, currentConfig = TRANSFORMER_CONFIG[transformerType] || TRANSFORMER_CONFIG.optimus);
+                }
+
+                if ($$self.$$.dirty & /*mode*/ 16) {
+                    $: $$invalidate(2, isVehicle = mode === 'vehicle');
+                }
+            };
+
+            return [transformerType, visible, isVehicle, currentConfig, mode];
+        }
+
+        class Transformer_hud extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, transformer_hud_index_svelte_instance, transformer_hud_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const transformer_hud_index_svelte = (Transformer_hud);; // CONCATENATED MODULE: ./src/views/hud/components/transformer-hud/notification.svelte
+        /* src\views\hud\components\transformer-hud\notification.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+        function notification_svelte_create_if_block(ctx) {
+            let div6;
+            let div5;
+            let div0;
+            let t0;
+            let div1;
+            let t1;
+            let div2;
+            let t2;
+            let div3;
+            let t3;
+            let div4;
+            let t4;
+            let div6_class_value;
+            let div6_intro;
+            let div6_outro;
+            let current;
+
+            return {
+                c() {
+                    div6 = dom_element("div");
+                    div5 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    t1 = dom_space();
+                    div2 = dom_element("div");
+                    t2 = dom_space();
+                    div3 = dom_element("div");
+                    div3.innerHTML = `<img src="${autobot_namespaceObject}" alt="Autobot" class="transformer-notification__icon-img"/>`;
+                    t3 = dom_space();
+                    div4 = dom_element("div");
+                    t4 = dom_text( /*text*/ ctx[1]);
+                    dom_attr(div0, "class", "transformer-notification__scan-line");
+                    dom_attr(div1, "class", "transformer-notification__corner transformer-notification__corner--left");
+                    dom_attr(div2, "class", "transformer-notification__corner transformer-notification__corner--right");
+                    dom_attr(div3, "class", "transformer-notification__icon");
+                    dom_attr(div4, "class", "transformer-notification__text");
+                    dom_attr(div5, "class", "transformer-notification__container");
+                    dom_attr(div6, "class", div6_class_value = "transformer-notification transformer-notification--" + /*transformerType*/ ctx[2]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div6, anchor);
+                    dom_append(div6, div5);
+                    dom_append(div5, div0);
+                    dom_append(div5, t0);
+                    dom_append(div5, div1);
+                    dom_append(div5, t1);
+                    dom_append(div5, div2);
+                    dom_append(div5, t2);
+                    dom_append(div5, div3);
+                    dom_append(div5, t3);
+                    dom_append(div5, div4);
+                    dom_append(div4, t4);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    if (!current || dirty & /*text*/ 2) dom_set_data(t4, /*text*/ ctx[1]);
+
+                    if (!current || dirty & /*transformerType*/ 4 && div6_class_value !== (div6_class_value = "transformer-notification transformer-notification--" + /*transformerType*/ ctx[2])) {
+                        dom_attr(div6, "class", div6_class_value);
+                    }
+                },
+                i(local) {
+                    if (current) return;
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (div6_outro) div6_outro.end(1);
+                            div6_intro = create_in_transition(div6, fly, {
+                                y: -50,
+                                duration: 400
+                            });
+                            div6_intro.start();
+                        });
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    if (div6_intro) div6_intro.invalidate();
+
+                    if (local) {
+                        div6_outro = create_out_transition(div6, fly, {
+                            y: -50,
+                            duration: 300
+                        });
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div6);
+                    }
+
+                    if (detaching && div6_outro) div6_outro.end();
+                }
+            };
+        }
+
+        function notification_svelte_create_fragment(ctx) {
+            let if_block_anchor;
+            let if_block = /*visible*/ ctx[0] && notification_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*visible*/ ctx[0]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*visible*/ 1) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = notification_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function notification_svelte_instance($$self, $$props, $$invalidate) {
+            let visible = false;
+            let text = '';
+            let transformerType = 'optimus'; // 'optimus' | 'bumblebee'
+            let hideTimeout = null;
+
+            const show = (message, type = 'optimus', duration = 5000) => {
+                $$invalidate(1, text = message);
+                $$invalidate(2, transformerType = type);
+                $$invalidate(0, visible = true);
+
+                if (hideTimeout) {
+                    clearTimeout(hideTimeout);
+                }
+
+                if (duration > 0) {
+                    hideTimeout = setTimeout(
+                        () => {
+                            $$invalidate(0, visible = false);
+                            hideTimeout = null;
+                        },
+                        duration
+                    );
+                }
+            };
+
+            const hide = () => {
+                $$invalidate(0, visible = false);
+
+                if (hideTimeout) {
+                    clearTimeout(hideTimeout);
+                    hideTimeout = null;
+                }
+            };
+
+            const unregisterShow = registerEvent('event.transformerNotification.show', show);
+            const unregisterHide = registerEvent('event.transformerNotification.hide', hide);
+
+            onDestroy(() => {
+                unregisterShow();
+                unregisterHide();
+
+                if (hideTimeout) {
+                    clearTimeout(hideTimeout);
+                }
+            });
+
+            return [visible, text, transformerType];
+        }
+
+        class notification_svelte_Notification extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, notification_svelte_instance, notification_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const notification_svelte = (notification_svelte_Notification);; // CONCATENATED MODULE: ./src/views/hud/components/center-timer/index.svelte
+        /* src\views\hud\components\center-timer\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+        function center_timer_index_svelte_create_if_block(ctx) {
+            let div12;
+            let div3;
+            let t2;
+            let div7;
+            let div4;
+            let t3;
+            let div5;
+            let t4_value = /*formatTime*/ ctx[5]( /*time*/ ctx[0]) + "";
+            let t4;
+            let t5;
+            let div6;
+            let t6;
+            let t7;
+            let div11;
+            let div12_intro;
+            let div12_outro;
+            let current;
+            let if_block = /*text*/ ctx[2] && /*text*/ ctx[2].length > 0 && center_timer_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    div12 = dom_element("div");
+                    div3 = dom_element("div");
+                    div3.innerHTML = `<div class="center-timer__bracket center-timer__bracket--left"></div> <div class="center-timer__line"></div> <div class="center-timer__bracket center-timer__bracket--right"></div>`;
+                    t2 = dom_space();
+                    div7 = dom_element("div");
+                    div4 = dom_element("div");
+                    t3 = dom_space();
+                    div5 = dom_element("div");
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    div6 = dom_element("div");
+                    t6 = dom_space();
+                    if (if_block) if_block.c();
+                    t7 = dom_space();
+                    div11 = dom_element("div");
+                    div11.innerHTML = `<div class="center-timer__bracket center-timer__bracket--left"></div> <div class="center-timer__line"></div> <div class="center-timer__bracket center-timer__bracket--right"></div>`;
+                    dom_attr(div3, "class", "center-timer__frame center-timer__frame--top");
+                    dom_attr(div4, "class", "center-timer__marker center-timer__marker--left");
+                    dom_attr(div5, "class", "center-timer__time");
+                    dom_attr(div6, "class", "center-timer__marker center-timer__marker--right");
+                    dom_attr(div7, "class", "center-timer__body");
+                    dom_attr(div11, "class", "center-timer__frame center-timer__frame--bottom");
+                    dom_attr(div12, "class", "center-timer");
+                    dom_toggle_class(div12, "center-timer--urgent", /*isUrgent*/ ctx[4]);
+                    dom_toggle_class(div12, "center-timer--critical", /*isCritical*/ ctx[3]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div12, anchor);
+                    dom_append(div12, div3);
+                    dom_append(div12, t2);
+                    dom_append(div12, div7);
+                    dom_append(div7, div4);
+                    dom_append(div7, t3);
+                    dom_append(div7, div5);
+                    dom_append(div5, t4);
+                    dom_append(div7, t5);
+                    dom_append(div7, div6);
+                    dom_append(div12, t6);
+                    if (if_block) if_block.m(div12, null);
+                    dom_append(div12, t7);
+                    dom_append(div12, div11);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    if ((!current || dirty & /*time*/ 1) && t4_value !== (t4_value = /*formatTime*/ ctx[5]( /*time*/ ctx[0]) + "")) dom_set_data(t4, t4_value);
+
+                    if ( /*text*/ ctx[2] && /*text*/ ctx[2].length > 0) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = center_timer_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            if_block.m(div12, t7);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if (!current || dirty & /*isUrgent*/ 16) {
+                        dom_toggle_class(div12, "center-timer--urgent", /*isUrgent*/ ctx[4]);
+                    }
+
+                    if (!current || dirty & /*isCritical*/ 8) {
+                        dom_toggle_class(div12, "center-timer--critical", /*isCritical*/ ctx[3]);
+                    }
+                },
+                i(local) {
+                    if (current) return;
+
+                    if (local) {
+                        add_render_callback(() => {
+                            if (!current) return;
+                            if (div12_outro) div12_outro.end(1);
+                            div12_intro = create_in_transition(div12, /*scaleIn*/ ctx[6], {
+                                duration: 400
+                            });
+                            div12_intro.start();
+                        });
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    if (div12_intro) div12_intro.invalidate();
+
+                    if (local) {
+                        div12_outro = create_out_transition(div12, /*scaleOut*/ ctx[7], {
+                            duration: 300
+                        });
+                    }
+
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div12);
+                    }
+
+                    if (if_block) if_block.d();
+                    if (detaching && div12_outro) div12_outro.end();
+                }
+            };
+        }
+
+        // (123:2) {#if text && text.length > 0}
+        function center_timer_index_svelte_create_if_block_1(ctx) {
+            let div;
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text( /*text*/ ctx[2]);
+                    dom_attr(div, "class", "center-timer__text");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*text*/ 4) dom_set_data(t, /*text*/ ctx[2]);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        function center_timer_index_svelte_create_fragment(ctx) {
+            let if_block_anchor;
+            let if_block = /*visible*/ ctx[1] && center_timer_index_svelte_create_if_block(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if ( /*visible*/ ctx[1]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*visible*/ 2) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = center_timer_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                i(local) {
+                    transitions_transition_in(if_block);
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        function center_timer_index_svelte_instance($$self, $$props, $$invalidate) {
+            let isUrgent;
+            let isCritical;
+            let visible = false;
+            let time = 0;
+            let text = '';
+            let timerIntervalId = null;
+
+            const formatTime = seconds => {
+                if (seconds < 0) seconds = 0;
+                const mins = Math.floor(seconds / 60);
+                const secs = seconds % 60;
+                return `${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+            };
+
+            const scaleIn = (node, {
+                duration = 400,
+                delay = 0
+            }) => {
+                return {
+                    duration,
+                    delay,
+                    css: t => {
+                        const eased = backOut(t);
+
+                        return `
+					opacity: ${t};
+					transform: translate(-50%, -50%) scale(${0.85 + eased * 0.15});
+				`;
+                    }
+                };
+            };
+
+            const scaleOut = (node, {
+                duration = 300,
+                delay = 0
+            }) => {
+                return {
+                    duration,
+                    delay,
+                    css: t => {
+                        const eased = cubicOut(t);
+
+                        return `
+					opacity: ${eased};
+					transform: translate(-50%, -50%) scale(${0.9 + eased * 0.1});
+				`;
+                    }
+                };
+            };
+
+            const clearTimer = () => {
+                if (timerIntervalId !== null) {
+                    clearInterval(timerIntervalId);
+                    timerIntervalId = null;
+                }
+            };
+
+            const show = (seconds, label = '') => {
+                $$invalidate(0, time = seconds);
+                $$invalidate(2, text = label);
+                $$invalidate(1, visible = true);
+                clearTimer();
+
+                timerIntervalId = setInterval(
+                    () => {
+                        $$invalidate(0, time -= 1);
+
+                        if (time <= 0) {
+                            $$invalidate(0, time = 0);
+                            clearTimer();
+
+                            setTimeout(
+                                () => {
+                                    $$invalidate(1, visible = false);
+                                },
+                                500
+                            );
+                        }
+                    },
+                    1000
+                );
+            };
+
+            const hide = () => {
+                $$invalidate(1, visible = false);
+                clearTimer();
+            };
+
+            const setTime = seconds => {
+                $$invalidate(0, time = seconds);
+            };
+
+            const setText = label => {
+                $$invalidate(2, text = label);
+            };
+
+            const unregisterShow = registerEvent('event.centerTimer.show', show);
+            const unregisterHide = registerEvent('event.centerTimer.hide', hide);
+            const unregisterSetTime = registerEvent('event.centerTimer.setTime', setTime);
+            const unregisterSetText = registerEvent('event.centerTimer.setText', setText);
+
+            onDestroy(() => {
+                unregisterShow();
+                unregisterHide();
+                unregisterSetTime();
+                unregisterSetText();
+                clearTimer();
+            });
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*time*/ 1) {
+                    $: $$invalidate(4, isUrgent = time <= 10 && time > 0);
+                }
+
+                if ($$self.$$.dirty & /*time*/ 1) {
+                    $: $$invalidate(3, isCritical = time <= 5 && time > 0);
+                }
+            };
+
+            return [time, visible, text, isCritical, isUrgent, formatTime, scaleIn, scaleOut];
+        }
+
+        class Center_timer extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, center_timer_index_svelte_instance, center_timer_index_svelte_create_fragment, utils_safe_not_equal, {});
+            }
+        }
+
+        /* harmony default export */
+        const center_timer_index_svelte = (Center_timer);; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/smile-invers.svg
         const smile_invers_namespaceObject = __webpack_require__.p + "assets/81b09e54634b4ac82793.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/shaking-hand.svg
         const shaking_hand_namespaceObject = __webpack_require__.p + "assets/9357df67a188ef3c0d9e.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/shushing.svg
         const shushing_namespaceObject = __webpack_require__.p + "assets/4f04498e4a2de8f674bf.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/img/smiles/hourglass.svg
@@ -185402,7 +187734,11 @@
 
 
 
-        function index_svelte_create_if_block_16(ctx) {
+
+
+
+
+        function create_if_block_17(ctx) {
             let div;
             let promo;
             let current;
@@ -185414,9 +187750,9 @@
                     create_component(promo.$$.fragment);
                     dom_attr(div, "class", "hud__promo");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[15].left}px`);
+                        `${/*$radarRect*/ ctx[16].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -185424,10 +187760,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[15].left}px`);
+                            `${/*$radarRect*/ ctx[16].left}px`);
                     }
                 },
                 i(local) {
@@ -185449,8 +187785,8 @@
             };
         }
 
-        // (205:1) {#if bannerVisible}
-        function index_svelte_create_if_block_15(ctx) {
+        // (214:1) {#if bannerVisible}
+        function index_svelte_create_if_block_16(ctx) {
             let div;
             let azbanner;
             let current;
@@ -185462,9 +187798,9 @@
                     create_component(azbanner.$$.fragment);
                     dom_attr(div, "class", "hud__banner");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[15].left}px`);
+                        `${/*$radarRect*/ ctx[16].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -185472,10 +187808,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[15].left}px`);
+                            `${/*$radarRect*/ ctx[16].left}px`);
                     }
                 },
                 i(local) {
@@ -185497,8 +187833,8 @@
             };
         }
 
-        // (210:1) {#if customizedCounterVisible}
-        function index_svelte_create_if_block_14(ctx) {
+        // (219:1) {#if customizedCounterVisible}
+        function index_svelte_create_if_block_15(ctx) {
             let div;
             let customizedcounter;
             let current;
@@ -185510,13 +187846,13 @@
                     create_component(customizedcounter.$$.fragment);
                     dom_attr(div, "class", "hud__customized-counter");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[15].left}px`);
+                        `${/*$radarRect*/ ctx[16].left}px`);
 
-                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
+                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[16].bottom) ?
                         '' :
-                        `${window.innerHeight - /*$radarRect*/ ctx[15].top + 30}px`);
+                        `${window.innerHeight - /*$radarRect*/ ctx[16].top + 30}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -185524,16 +187860,16 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[15].left}px`);
+                            `${/*$radarRect*/ ctx[16].left}px`);
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[16].bottom) ?
                             '' :
-                            `${window.innerHeight - /*$radarRect*/ ctx[15].top + 30}px`);
+                            `${window.innerHeight - /*$radarRect*/ ctx[16].top + 30}px`);
                     }
                 },
                 i(local) {
@@ -185555,8 +187891,8 @@
             };
         }
 
-        // (217:1) {#if trainVisible}
-        function index_svelte_create_if_block_13(ctx) {
+        // (226:1) {#if trainVisible}
+        function index_svelte_create_if_block_14(ctx) {
             let div;
             let train;
             let current;
@@ -185592,13 +187928,13 @@
             };
         }
 
-        // (222:1) {#if activeQuestVisible || (hotkeysVisible && hotkeysInitialized)}
-        function hud_index_svelte_create_if_block_10(ctx) {
+        // (231:1) {#if activeQuestVisible || (hotkeysVisible && hotkeysInitialized)}
+        function hud_index_svelte_create_if_block_11(ctx) {
             let div;
             let t;
             let current;
-            let if_block0 = /*activeQuestVisible*/ ctx[2] && index_svelte_create_if_block_12(ctx);
-            let if_block1 = /*hotkeysVisible*/ ctx[3] && hud_index_svelte_create_if_block_11(ctx);
+            let if_block0 = /*activeQuestVisible*/ ctx[2] && hud_index_svelte_create_if_block_13(ctx);
+            let if_block1 = /*hotkeysVisible*/ ctx[3] && hud_index_svelte_create_if_block_12(ctx);
 
             return {
                 c() {
@@ -185608,13 +187944,13 @@
                     if (if_block1) if_block1.c();
                     dom_attr(div, "class", "hud__behind-map-information");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].right) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].right) ?
                         '' :
-                        `${/*$radarRect*/ ctx[15].left + /*$radarRect*/ ctx[15].width}px`);
+                        `${/*$radarRect*/ ctx[16].left + /*$radarRect*/ ctx[16].width}px`);
 
-                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
+                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[16].bottom) ?
                         '' :
-                        `${window.innerHeight - /*$radarRect*/ ctx[15].bottom}px`);
+                        `${window.innerHeight - /*$radarRect*/ ctx[16].bottom}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -185630,7 +187966,7 @@
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = index_svelte_create_if_block_12(ctx);
+                            if_block0 = hud_index_svelte_create_if_block_13(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(div, t);
@@ -185651,7 +187987,7 @@
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
-                            if_block1 = hud_index_svelte_create_if_block_11(ctx);
+                            if_block1 = hud_index_svelte_create_if_block_12(ctx);
                             if_block1.c();
                             transitions_transition_in(if_block1, 1);
                             if_block1.m(div, null);
@@ -185666,16 +188002,16 @@
                         transitions_check_outros();
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].right) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].right) ?
                             '' :
-                            `${/*$radarRect*/ ctx[15].left + /*$radarRect*/ ctx[15].width}px`);
+                            `${/*$radarRect*/ ctx[16].left + /*$radarRect*/ ctx[16].width}px`);
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[16].bottom) ?
                             '' :
-                            `${window.innerHeight - /*$radarRect*/ ctx[15].bottom}px`);
+                            `${window.innerHeight - /*$radarRect*/ ctx[16].bottom}px`);
                     }
                 },
                 i(local) {
@@ -185700,8 +188036,8 @@
             };
         }
 
-        // (230:3) {#if activeQuestVisible}
-        function index_svelte_create_if_block_12(ctx) {
+        // (239:3) {#if activeQuestVisible}
+        function hud_index_svelte_create_if_block_13(ctx) {
             let activequest;
             let current;
             activequest = new active_quest_index_svelte({});
@@ -185729,8 +188065,8 @@
             };
         }
 
-        // (233:3) {#if hotkeysVisible}
-        function hud_index_svelte_create_if_block_11(ctx) {
+        // (242:3) {#if hotkeysVisible}
+        function hud_index_svelte_create_if_block_12(ctx) {
             let hotkeystips;
             let current;
             hotkeystips = new hotkeys_tips_index_svelte({});
@@ -185758,15 +188094,15 @@
             };
         }
 
-        // (239:1) {#if $playerIsDriver}
-        function hud_index_svelte_create_if_block_9(ctx) {
+        // (248:1) {#if $playerIsDriver}
+        function hud_index_svelte_create_if_block_10(ctx) {
             let div;
             let speedometer;
             let current;
 
             speedometer = new speedometer_index_svelte({
                 props: {
-                    type: /*$speedometerType*/ ctx[16]
+                    type: /*$speedometerType*/ ctx[17]
                 }
             });
 
@@ -185783,7 +188119,7 @@
                 },
                 p(ctx, dirty) {
                     const speedometer_changes = {};
-                    if (dirty[0] & /*$speedometerType*/ 65536) speedometer_changes.type = /*$speedometerType*/ ctx[16];
+                    if (dirty[0] & /*$speedometerType*/ 131072) speedometer_changes.type = /*$speedometerType*/ ctx[17];
                     speedometer.$set(speedometer_changes);
                 },
                 i(local) {
@@ -185805,8 +188141,8 @@
             };
         }
 
-        // (244:1) {#if pubgBannerVisible}
-        function hud_index_svelte_create_if_block_8(ctx) {
+        // (253:1) {#if pubgBannerVisible}
+        function hud_index_svelte_create_if_block_9(ctx) {
             let pubgbanner;
             let current;
             pubgbanner = new pubg_banner_index_svelte({});
@@ -185834,15 +188170,15 @@
             };
         }
 
-        // (247:1) {#if $messengerNotificationsVisible && !isEmpty($messengerStoreNotification)}
-        function hud_index_svelte_create_if_block_7(ctx) {
+        // (256:1) {#if $messengerNotificationsVisible && !isEmpty($messengerStoreNotification)}
+        function hud_index_svelte_create_if_block_8(ctx) {
             let messengernotifications;
             let current;
 
             messengernotifications = new messenger_notifications_index_svelte({
                 props: {
-                    notification: /*$messengerStoreNotification*/ ctx[20],
-                    phoneOpened: /*$messengerStore*/ ctx[21].phoneOpened
+                    notification: /*$messengerStoreNotification*/ ctx[21],
+                    phoneOpened: /*$messengerStore*/ ctx[22].phoneOpened
                 }
             });
 
@@ -185856,8 +188192,8 @@
                 },
                 p(ctx, dirty) {
                     const messengernotifications_changes = {};
-                    if (dirty[0] & /*$messengerStoreNotification*/ 1048576) messengernotifications_changes.notification = /*$messengerStoreNotification*/ ctx[20];
-                    if (dirty[0] & /*$messengerStore*/ 2097152) messengernotifications_changes.phoneOpened = /*$messengerStore*/ ctx[21].phoneOpened;
+                    if (dirty[0] & /*$messengerStoreNotification*/ 2097152) messengernotifications_changes.notification = /*$messengerStoreNotification*/ ctx[21];
+                    if (dirty[0] & /*$messengerStore*/ 4194304) messengernotifications_changes.phoneOpened = /*$messengerStore*/ ctx[22].phoneOpened;
                     messengernotifications.$set(messengernotifications_changes);
                 },
                 i(local) {
@@ -185875,8 +188211,8 @@
             };
         }
 
-        // (250:1) {#if geoPositionVisible}
-        function hud_index_svelte_create_if_block_6(ctx) {
+        // (259:1) {#if geoPositionVisible}
+        function hud_index_svelte_create_if_block_7(ctx) {
             let div;
             let geoposition;
             let current;
@@ -185888,13 +188224,13 @@
                     create_component(geoposition.$$.fragment);
                     dom_attr(div, "class", "hud__geo-position");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[15].left}px`);
+                        `${/*$radarRect*/ ctx[16].left}px`);
 
-                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
+                    set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[16].bottom) ?
                         '' :
-                        `${window.innerHeight - /*$radarRect*/ ctx[15].top}px`);
+                        `${window.innerHeight - /*$radarRect*/ ctx[16].top}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -185902,16 +188238,16 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[15].left}px`);
+                            `${/*$radarRect*/ ctx[16].left}px`);
                     }
 
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[15].bottom) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "bottom", (0, lodash.isNil)( /*$radarRect*/ ctx[16].bottom) ?
                             '' :
-                            `${window.innerHeight - /*$radarRect*/ ctx[15].top}px`);
+                            `${window.innerHeight - /*$radarRect*/ ctx[16].top}px`);
                     }
                 },
                 i(local) {
@@ -185933,8 +188269,8 @@
             };
         }
 
-        // (259:1) {#if groupVisible}
-        function hud_index_svelte_create_if_block_5(ctx) {
+        // (268:1) {#if groupVisible}
+        function hud_index_svelte_create_if_block_6(ctx) {
             let div;
             let group;
             let current;
@@ -185946,9 +188282,9 @@
                     create_component(group.$$.fragment);
                     dom_attr(div, "class", "hud__group");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[15].left}px`);
+                        `${/*$radarRect*/ ctx[16].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -185956,10 +188292,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[15].left}px`);
+                            `${/*$radarRect*/ ctx[16].left}px`);
                     }
                 },
                 i(local) {
@@ -185981,8 +188317,8 @@
             };
         }
 
-        // (264:1) {#if warStatsVisible}
-        function hud_index_svelte_create_if_block_4(ctx) {
+        // (273:1) {#if warStatsVisible}
+        function hud_index_svelte_create_if_block_5(ctx) {
             let div;
             let warstats;
             let current;
@@ -185994,9 +188330,9 @@
                     create_component(warstats.$$.fragment);
                     dom_attr(div, "class", "hud__war-stats");
 
-                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                         '' :
-                        `${/*$radarRect*/ ctx[15].left}px`);
+                        `${/*$radarRect*/ ctx[16].left}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -186004,10 +188340,10 @@
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$radarRect*/ 32768) {
-                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[15].left) ?
+                    if (!current || dirty[0] & /*$radarRect*/ 65536) {
+                        set_style(div, "left", (0, lodash.isNil)( /*$radarRect*/ ctx[16].left) ?
                             '' :
-                            `${/*$radarRect*/ ctx[15].left}px`);
+                            `${/*$radarRect*/ ctx[16].left}px`);
                     }
                 },
                 i(local) {
@@ -186029,8 +188365,8 @@
             };
         }
 
-        // (269:1) {#if hotKeysNotificationVisible}
-        function hud_index_svelte_create_if_block_3(ctx) {
+        // (278:1) {#if hotKeysNotificationVisible}
+        function hud_index_svelte_create_if_block_4(ctx) {
             let div;
             let hotkeysnotification;
             let current;
@@ -186066,8 +188402,8 @@
             };
         }
 
-        // (274:1) {#if simpleLogoHudVisible}
-        function hud_index_svelte_create_if_block_2(ctx) {
+        // (283:1) {#if simpleLogoHudVisible}
+        function hud_index_svelte_create_if_block_3(ctx) {
             let div;
             let simplelogo;
             let current;
@@ -186103,8 +188439,8 @@
             };
         }
 
-        // (279:1) {#if caseBannerVisible}
-        function views_hud_index_svelte_create_if_block_1(ctx) {
+        // (288:1) {#if caseBannerVisible}
+        function hud_index_svelte_create_if_block_2(ctx) {
             let div;
             let casebanner;
             let current;
@@ -186140,8 +188476,8 @@
             };
         }
 
-        // (284:1) {#if bossHpVisible}
-        function views_hud_index_svelte_create_if_block(ctx) {
+        // (293:1) {#if bossHpVisible}
+        function views_hud_index_svelte_create_if_block_1(ctx) {
             let div;
             let bosshp;
             let current;
@@ -186177,6 +188513,43 @@
             };
         }
 
+        // (298:1) {#if targetInfoVisible}
+        function views_hud_index_svelte_create_if_block(ctx) {
+            let div;
+            let targetinfo;
+            let current;
+            targetinfo = new target_info_index_svelte({});
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(targetinfo.$$.fragment);
+                    dom_attr(div, "class", "hud__target-info");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(targetinfo, div, null);
+                    current = true;
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(targetinfo.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(targetinfo.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(targetinfo);
+                }
+            };
+        }
+
         function views_hud_index_svelte_create_fragment(ctx) {
             let div;
             let t0;
@@ -186188,7 +188561,7 @@
             let t5;
             let t6;
             let t7;
-            let show_if = /*$messengerNotificationsVisible*/ ctx[19] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[20]);
+            let show_if = /*$messengerNotificationsVisible*/ ctx[20] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[21]);
             let t8;
             let t9;
             let t10;
@@ -186196,23 +188569,34 @@
             let t12;
             let t13;
             let t14;
+            let t15;
+            let t16;
+            let transformerhud;
+            let t17;
+            let transformernotification;
+            let t18;
+            let centertimer;
             let current;
-            let if_block0 = /*promoVisible*/ ctx[13] && index_svelte_create_if_block_16(ctx);
-            let if_block1 = /*bannerVisible*/ ctx[0] && index_svelte_create_if_block_15(ctx);
-            let if_block2 = /*customizedCounterVisible*/ ctx[1] && index_svelte_create_if_block_14(ctx);
-            let if_block3 = /*trainVisible*/ ctx[4] && index_svelte_create_if_block_13(ctx);
-            let if_block4 = ( /*activeQuestVisible*/ ctx[2] || /*hotkeysVisible*/ ctx[3] && /*hotkeysInitialized*/ ctx[7]) && hud_index_svelte_create_if_block_10(ctx);
+            let if_block0 = /*promoVisible*/ ctx[14] && create_if_block_17(ctx);
+            let if_block1 = /*bannerVisible*/ ctx[0] && index_svelte_create_if_block_16(ctx);
+            let if_block2 = /*customizedCounterVisible*/ ctx[1] && index_svelte_create_if_block_15(ctx);
+            let if_block3 = /*trainVisible*/ ctx[4] && index_svelte_create_if_block_14(ctx);
+            let if_block4 = ( /*activeQuestVisible*/ ctx[2] || /*hotkeysVisible*/ ctx[3] && /*hotkeysInitialized*/ ctx[7]) && hud_index_svelte_create_if_block_11(ctx);
             arizonapassnotification = new arizona_pass_notification_index_svelte({});
-            let if_block5 = /*$playerIsDriver*/ ctx[18] && hud_index_svelte_create_if_block_9(ctx);
-            let if_block6 = /*pubgBannerVisible*/ ctx[5] && hud_index_svelte_create_if_block_8(ctx);
-            let if_block7 = show_if && hud_index_svelte_create_if_block_7(ctx);
-            let if_block8 = /*geoPositionVisible*/ ctx[6] && hud_index_svelte_create_if_block_6(ctx);
-            let if_block9 = /*groupVisible*/ ctx[8] && hud_index_svelte_create_if_block_5(ctx);
-            let if_block10 = /*warStatsVisible*/ ctx[9] && hud_index_svelte_create_if_block_4(ctx);
-            let if_block11 = /*hotKeysNotificationVisible*/ ctx[10] && hud_index_svelte_create_if_block_3(ctx);
-            let if_block12 = /*simpleLogoHudVisible*/ ctx[11] && hud_index_svelte_create_if_block_2(ctx);
-            let if_block13 = /*caseBannerVisible*/ ctx[14] && views_hud_index_svelte_create_if_block_1(ctx);
-            let if_block14 = /*bossHpVisible*/ ctx[12] && views_hud_index_svelte_create_if_block(ctx);
+            let if_block5 = /*$playerIsDriver*/ ctx[19] && hud_index_svelte_create_if_block_10(ctx);
+            let if_block6 = /*pubgBannerVisible*/ ctx[5] && hud_index_svelte_create_if_block_9(ctx);
+            let if_block7 = show_if && hud_index_svelte_create_if_block_8(ctx);
+            let if_block8 = /*geoPositionVisible*/ ctx[6] && hud_index_svelte_create_if_block_7(ctx);
+            let if_block9 = /*groupVisible*/ ctx[8] && hud_index_svelte_create_if_block_6(ctx);
+            let if_block10 = /*warStatsVisible*/ ctx[9] && hud_index_svelte_create_if_block_5(ctx);
+            let if_block11 = /*hotKeysNotificationVisible*/ ctx[10] && hud_index_svelte_create_if_block_4(ctx);
+            let if_block12 = /*simpleLogoHudVisible*/ ctx[11] && hud_index_svelte_create_if_block_3(ctx);
+            let if_block13 = /*caseBannerVisible*/ ctx[15] && hud_index_svelte_create_if_block_2(ctx);
+            let if_block14 = /*bossHpVisible*/ ctx[12] && views_hud_index_svelte_create_if_block_1(ctx);
+            let if_block15 = /*targetInfoVisible*/ ctx[13] && views_hud_index_svelte_create_if_block(ctx);
+            transformerhud = new transformer_hud_index_svelte({});
+            transformernotification = new notification_svelte({});
+            centertimer = new center_timer_index_svelte({});
 
             return {
                 c() {
@@ -186248,11 +188632,19 @@
                     if (if_block13) if_block13.c();
                     t14 = dom_space();
                     if (if_block14) if_block14.c();
+                    t15 = dom_space();
+                    if (if_block15) if_block15.c();
+                    t16 = dom_space();
+                    create_component(transformerhud.$$.fragment);
+                    t17 = dom_space();
+                    create_component(transformernotification.$$.fragment);
+                    t18 = dom_space();
+                    create_component(centertimer.$$.fragment);
                     dom_attr(div, "class", "hud");
 
                     set_style(div, "opacity", /*simpleLogoHudVisible*/ ctx[11] ?
                         1 :
-                        /*$hudOpacity*/ ctx[17]);
+                        /*$hudOpacity*/ ctx[18]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -186287,18 +188679,26 @@
                     if (if_block13) if_block13.m(div, null);
                     dom_append(div, t14);
                     if (if_block14) if_block14.m(div, null);
+                    dom_append(div, t15);
+                    if (if_block15) if_block15.m(div, null);
+                    dom_append(div, t16);
+                    mount_component(transformerhud, div, null);
+                    dom_append(div, t17);
+                    mount_component(transformernotification, div, null);
+                    dom_append(div, t18);
+                    mount_component(centertimer, div, null);
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ( /*promoVisible*/ ctx[13]) {
+                    if ( /*promoVisible*/ ctx[14]) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
 
-                            if (dirty[0] & /*promoVisible*/ 8192) {
+                            if (dirty[0] & /*promoVisible*/ 16384) {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = index_svelte_create_if_block_16(ctx);
+                            if_block0 = create_if_block_17(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(div, t0);
@@ -186321,7 +188721,7 @@
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
-                            if_block1 = index_svelte_create_if_block_15(ctx);
+                            if_block1 = index_svelte_create_if_block_16(ctx);
                             if_block1.c();
                             transitions_transition_in(if_block1, 1);
                             if_block1.m(div, t1);
@@ -186344,7 +188744,7 @@
                                 transitions_transition_in(if_block2, 1);
                             }
                         } else {
-                            if_block2 = index_svelte_create_if_block_14(ctx);
+                            if_block2 = index_svelte_create_if_block_15(ctx);
                             if_block2.c();
                             transitions_transition_in(if_block2, 1);
                             if_block2.m(div, t2);
@@ -186365,7 +188765,7 @@
                                 transitions_transition_in(if_block3, 1);
                             }
                         } else {
-                            if_block3 = index_svelte_create_if_block_13(ctx);
+                            if_block3 = index_svelte_create_if_block_14(ctx);
                             if_block3.c();
                             transitions_transition_in(if_block3, 1);
                             if_block3.m(div, t3);
@@ -186388,7 +188788,7 @@
                                 transitions_transition_in(if_block4, 1);
                             }
                         } else {
-                            if_block4 = hud_index_svelte_create_if_block_10(ctx);
+                            if_block4 = hud_index_svelte_create_if_block_11(ctx);
                             if_block4.c();
                             transitions_transition_in(if_block4, 1);
                             if_block4.m(div, t4);
@@ -186403,15 +188803,15 @@
                         transitions_check_outros();
                     }
 
-                    if ( /*$playerIsDriver*/ ctx[18]) {
+                    if ( /*$playerIsDriver*/ ctx[19]) {
                         if (if_block5) {
                             if_block5.p(ctx, dirty);
 
-                            if (dirty[0] & /*$playerIsDriver*/ 262144) {
+                            if (dirty[0] & /*$playerIsDriver*/ 524288) {
                                 transitions_transition_in(if_block5, 1);
                             }
                         } else {
-                            if_block5 = hud_index_svelte_create_if_block_9(ctx);
+                            if_block5 = hud_index_svelte_create_if_block_10(ctx);
                             if_block5.c();
                             transitions_transition_in(if_block5, 1);
                             if_block5.m(div, t6);
@@ -186432,7 +188832,7 @@
                                 transitions_transition_in(if_block6, 1);
                             }
                         } else {
-                            if_block6 = hud_index_svelte_create_if_block_8(ctx);
+                            if_block6 = hud_index_svelte_create_if_block_9(ctx);
                             if_block6.c();
                             transitions_transition_in(if_block6, 1);
                             if_block6.m(div, t7);
@@ -186447,17 +188847,17 @@
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 1572864) show_if = /*$messengerNotificationsVisible*/ ctx[19] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[20]);
+                    if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 3145728) show_if = /*$messengerNotificationsVisible*/ ctx[20] && !(0, lodash.isEmpty)( /*$messengerStoreNotification*/ ctx[21]);
 
                     if (show_if) {
                         if (if_block7) {
                             if_block7.p(ctx, dirty);
 
-                            if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 1572864) {
+                            if (dirty[0] & /*$messengerNotificationsVisible, $messengerStoreNotification*/ 3145728) {
                                 transitions_transition_in(if_block7, 1);
                             }
                         } else {
-                            if_block7 = hud_index_svelte_create_if_block_7(ctx);
+                            if_block7 = hud_index_svelte_create_if_block_8(ctx);
                             if_block7.c();
                             transitions_transition_in(if_block7, 1);
                             if_block7.m(div, t8);
@@ -186480,7 +188880,7 @@
                                 transitions_transition_in(if_block8, 1);
                             }
                         } else {
-                            if_block8 = hud_index_svelte_create_if_block_6(ctx);
+                            if_block8 = hud_index_svelte_create_if_block_7(ctx);
                             if_block8.c();
                             transitions_transition_in(if_block8, 1);
                             if_block8.m(div, t9);
@@ -186503,7 +188903,7 @@
                                 transitions_transition_in(if_block9, 1);
                             }
                         } else {
-                            if_block9 = hud_index_svelte_create_if_block_5(ctx);
+                            if_block9 = hud_index_svelte_create_if_block_6(ctx);
                             if_block9.c();
                             transitions_transition_in(if_block9, 1);
                             if_block9.m(div, t10);
@@ -186526,7 +188926,7 @@
                                 transitions_transition_in(if_block10, 1);
                             }
                         } else {
-                            if_block10 = hud_index_svelte_create_if_block_4(ctx);
+                            if_block10 = hud_index_svelte_create_if_block_5(ctx);
                             if_block10.c();
                             transitions_transition_in(if_block10, 1);
                             if_block10.m(div, t11);
@@ -186547,7 +188947,7 @@
                                 transitions_transition_in(if_block11, 1);
                             }
                         } else {
-                            if_block11 = hud_index_svelte_create_if_block_3(ctx);
+                            if_block11 = hud_index_svelte_create_if_block_4(ctx);
                             if_block11.c();
                             transitions_transition_in(if_block11, 1);
                             if_block11.m(div, t12);
@@ -186568,7 +188968,7 @@
                                 transitions_transition_in(if_block12, 1);
                             }
                         } else {
-                            if_block12 = hud_index_svelte_create_if_block_2(ctx);
+                            if_block12 = hud_index_svelte_create_if_block_3(ctx);
                             if_block12.c();
                             transitions_transition_in(if_block12, 1);
                             if_block12.m(div, t13);
@@ -186583,13 +188983,13 @@
                         transitions_check_outros();
                     }
 
-                    if ( /*caseBannerVisible*/ ctx[14]) {
+                    if ( /*caseBannerVisible*/ ctx[15]) {
                         if (if_block13) {
-                            if (dirty[0] & /*caseBannerVisible*/ 16384) {
+                            if (dirty[0] & /*caseBannerVisible*/ 32768) {
                                 transitions_transition_in(if_block13, 1);
                             }
                         } else {
-                            if_block13 = views_hud_index_svelte_create_if_block_1(ctx);
+                            if_block13 = hud_index_svelte_create_if_block_2(ctx);
                             if_block13.c();
                             transitions_transition_in(if_block13, 1);
                             if_block13.m(div, t14);
@@ -186610,10 +189010,10 @@
                                 transitions_transition_in(if_block14, 1);
                             }
                         } else {
-                            if_block14 = views_hud_index_svelte_create_if_block(ctx);
+                            if_block14 = views_hud_index_svelte_create_if_block_1(ctx);
                             if_block14.c();
                             transitions_transition_in(if_block14, 1);
-                            if_block14.m(div, null);
+                            if_block14.m(div, t15);
                         }
                     } else if (if_block14) {
                         transitions_group_outros();
@@ -186625,10 +189025,31 @@
                         transitions_check_outros();
                     }
 
-                    if (!current || dirty[0] & /*simpleLogoHudVisible, $hudOpacity*/ 133120) {
+                    if ( /*targetInfoVisible*/ ctx[13]) {
+                        if (if_block15) {
+                            if (dirty[0] & /*targetInfoVisible*/ 8192) {
+                                transitions_transition_in(if_block15, 1);
+                            }
+                        } else {
+                            if_block15 = views_hud_index_svelte_create_if_block(ctx);
+                            if_block15.c();
+                            transitions_transition_in(if_block15, 1);
+                            if_block15.m(div, t16);
+                        }
+                    } else if (if_block15) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block15, 1, 1, () => {
+                            if_block15 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if (!current || dirty[0] & /*simpleLogoHudVisible, $hudOpacity*/ 264192) {
                         set_style(div, "opacity", /*simpleLogoHudVisible*/ ctx[11] ?
                             1 :
-                            /*$hudOpacity*/ ctx[17]);
+                            /*$hudOpacity*/ ctx[18]);
                     }
                 },
                 i(local) {
@@ -186649,6 +189070,10 @@
                     transitions_transition_in(if_block12);
                     transitions_transition_in(if_block13);
                     transitions_transition_in(if_block14);
+                    transitions_transition_in(if_block15);
+                    transitions_transition_in(transformerhud.$$.fragment, local);
+                    transitions_transition_in(transformernotification.$$.fragment, local);
+                    transitions_transition_in(centertimer.$$.fragment, local);
                     current = true;
                 },
                 o(local) {
@@ -186668,6 +189093,10 @@
                     transitions_transition_out(if_block12);
                     transitions_transition_out(if_block13);
                     transitions_transition_out(if_block14);
+                    transitions_transition_out(if_block15);
+                    transitions_transition_out(transformerhud.$$.fragment, local);
+                    transitions_transition_out(transformernotification.$$.fragment, local);
+                    transitions_transition_out(centertimer.$$.fragment, local);
                     current = false;
                 },
                 d(detaching) {
@@ -186691,12 +189120,17 @@
                     if (if_block12) if_block12.d();
                     if (if_block13) if_block13.d();
                     if (if_block14) if_block14.d();
+                    if (if_block15) if_block15.d();
+                    destroy_component(transformerhud);
+                    destroy_component(transformernotification);
+                    destroy_component(centertimer);
                 }
             };
         }
 
         function views_hud_index_svelte_instance($$self, $$props, $$invalidate) {
             let $radarRect;
+            let $targetInfo;
             let $bossHp;
             let $battlepassButtonAnimation;
             let $minimalizeHotkeys;
@@ -186721,31 +189155,32 @@
             let $messengerNotificationsVisible;
             let $messengerStoreNotification;
             let $messengerStore;
-            utils_component_subscribe($$self, radarRect, $$value => $$invalidate(15, $radarRect = $$value));
-            utils_component_subscribe($$self, bossHp, $$value => $$invalidate(22, $bossHp = $$value));
-            utils_component_subscribe($$self, battlepassButtonAnimation, $$value => $$invalidate(23, $battlepassButtonAnimation = $$value));
-            utils_component_subscribe($$self, minimalizeHotkeys, $$value => $$invalidate(24, $minimalizeHotkeys = $$value));
-            utils_component_subscribe($$self, radialPlayerKeyName, $$value => $$invalidate(25, $radialPlayerKeyName = $$value));
-            utils_component_subscribe($$self, radioPlayerKeyName, $$value => $$invalidate(26, $radioPlayerKeyName = $$value));
-            utils_component_subscribe($$self, workbookKeyName, $$value => $$invalidate(27, $workbookKeyName = $$value));
-            utils_component_subscribe($$self, workbookItemName, $$value => $$invalidate(28, $workbookItemName = $$value));
-            utils_component_subscribe($$self, hotKeysNotificationInformation, $$value => $$invalidate(29, $hotKeysNotificationInformation = $$value));
-            utils_component_subscribe($$self, playerUnreadStats, $$value => $$invalidate(30, $playerUnreadStats = $$value));
-            utils_component_subscribe($$self, phonePlayerKeyName, $$value => $$invalidate(31, $phonePlayerKeyName = $$value));
-            utils_component_subscribe($$self, familyRadioKeyName, $$value => $$invalidate(32, $familyRadioKeyName = $$value));
-            utils_component_subscribe($$self, fractionRadioKeyName, $$value => $$invalidate(33, $fractionRadioKeyName = $$value));
-            utils_component_subscribe($$self, speedometerType, $$value => $$invalidate(16, $speedometerType = $$value));
-            utils_component_subscribe($$self, nearBoomBox, $$value => $$invalidate(34, $nearBoomBox = $$value));
-            utils_component_subscribe($$self, vehicleFuelType, $$value => $$invalidate(35, $vehicleFuelType = $$value));
-            utils_component_subscribe($$self, vehicleMileage, $$value => $$invalidate(36, $vehicleMileage = $$value));
-            utils_component_subscribe($$self, vehicleLiters, $$value => $$invalidate(37, $vehicleLiters = $$value));
-            utils_component_subscribe($$self, vehiclePowerIsActive, $$value => $$invalidate(38, $vehiclePowerIsActive = $$value));
-            utils_component_subscribe($$self, vehiclePower, $$value => $$invalidate(39, $vehiclePower = $$value));
-            utils_component_subscribe($$self, hudOpacity, $$value => $$invalidate(17, $hudOpacity = $$value));
-            utils_component_subscribe($$self, playerIsDriver, $$value => $$invalidate(18, $playerIsDriver = $$value));
-            utils_component_subscribe($$self, messengerNotificationsVisible, $$value => $$invalidate(19, $messengerNotificationsVisible = $$value));
-            utils_component_subscribe($$self, messengerStoreNotification, $$value => $$invalidate(20, $messengerStoreNotification = $$value));
-            utils_component_subscribe($$self, messengerStore, $$value => $$invalidate(21, $messengerStore = $$value));
+            utils_component_subscribe($$self, radarRect, $$value => $$invalidate(16, $radarRect = $$value));
+            utils_component_subscribe($$self, targetInfo, $$value => $$invalidate(23, $targetInfo = $$value));
+            utils_component_subscribe($$self, bossHp, $$value => $$invalidate(24, $bossHp = $$value));
+            utils_component_subscribe($$self, battlepassButtonAnimation, $$value => $$invalidate(25, $battlepassButtonAnimation = $$value));
+            utils_component_subscribe($$self, minimalizeHotkeys, $$value => $$invalidate(26, $minimalizeHotkeys = $$value));
+            utils_component_subscribe($$self, radialPlayerKeyName, $$value => $$invalidate(27, $radialPlayerKeyName = $$value));
+            utils_component_subscribe($$self, radioPlayerKeyName, $$value => $$invalidate(28, $radioPlayerKeyName = $$value));
+            utils_component_subscribe($$self, workbookKeyName, $$value => $$invalidate(29, $workbookKeyName = $$value));
+            utils_component_subscribe($$self, workbookItemName, $$value => $$invalidate(30, $workbookItemName = $$value));
+            utils_component_subscribe($$self, hotKeysNotificationInformation, $$value => $$invalidate(31, $hotKeysNotificationInformation = $$value));
+            utils_component_subscribe($$self, playerUnreadStats, $$value => $$invalidate(32, $playerUnreadStats = $$value));
+            utils_component_subscribe($$self, phonePlayerKeyName, $$value => $$invalidate(33, $phonePlayerKeyName = $$value));
+            utils_component_subscribe($$self, familyRadioKeyName, $$value => $$invalidate(34, $familyRadioKeyName = $$value));
+            utils_component_subscribe($$self, fractionRadioKeyName, $$value => $$invalidate(35, $fractionRadioKeyName = $$value));
+            utils_component_subscribe($$self, speedometerType, $$value => $$invalidate(17, $speedometerType = $$value));
+            utils_component_subscribe($$self, nearBoomBox, $$value => $$invalidate(36, $nearBoomBox = $$value));
+            utils_component_subscribe($$self, vehicleFuelType, $$value => $$invalidate(37, $vehicleFuelType = $$value));
+            utils_component_subscribe($$self, vehicleMileage, $$value => $$invalidate(38, $vehicleMileage = $$value));
+            utils_component_subscribe($$self, vehicleLiters, $$value => $$invalidate(39, $vehicleLiters = $$value));
+            utils_component_subscribe($$self, vehiclePowerIsActive, $$value => $$invalidate(40, $vehiclePowerIsActive = $$value));
+            utils_component_subscribe($$self, vehiclePower, $$value => $$invalidate(41, $vehiclePower = $$value));
+            utils_component_subscribe($$self, hudOpacity, $$value => $$invalidate(18, $hudOpacity = $$value));
+            utils_component_subscribe($$self, playerIsDriver, $$value => $$invalidate(19, $playerIsDriver = $$value));
+            utils_component_subscribe($$self, messengerNotificationsVisible, $$value => $$invalidate(20, $messengerNotificationsVisible = $$value));
+            utils_component_subscribe($$self, messengerStoreNotification, $$value => $$invalidate(21, $messengerStoreNotification = $$value));
+            utils_component_subscribe($$self, messengerStore, $$value => $$invalidate(22, $messengerStore = $$value));
             let bannerVisible = true;
             let customizedCounterVisible = false;
             let activeQuestVisible = false;
@@ -186759,11 +189194,12 @@
             let hotKeysNotificationVisible = false;
             let simpleLogoHudVisible = false;
             let bossHpVisible = false;
+            let targetInfoVisible = false;
             let promoVisible = false;
 
             // let promoVisibleTimer = null;
             const updatePromoVisibility = status => {
-                $$invalidate(13, promoVisible = status);
+                $$invalidate(14, promoVisible = status);
             };
             /*if (!isNil(promoVisibleTimer)) {
 	clearTimeout(promoVisibleTimer);
@@ -186815,9 +189251,11 @@ setTimeout(() => {
             const unregisterBattlepassButtonAnimation = registerEvent('event.arizonahud.battlepassButtonAnimation', value => utils_set_store_value(battlepassButtonAnimation, $battlepassButtonAnimation = value, $battlepassButtonAnimation));
             const unregisterSimpleLogoHud = registerEvent('event.arizonahud.simpleLogoHudVisible', value => $$invalidate(11, simpleLogoHudVisible = value));
             const unregisterUpdatePromoVisibility = registerEvent('event.arizonahud.promoVisible', updatePromoVisibility);
-            const unregisterCaseBannerVisibility = registerEvent('event.arizonahud.caseBannerVisible', value => $$invalidate(14, caseBannerVisible = value));
+            const unregisterCaseBannerVisibility = registerEvent('event.arizonahud.caseBannerVisible', value => $$invalidate(15, caseBannerVisible = value));
             const unregisterBossHpVisibility = registerEvent('event.arizonahud.bossHpVisible', value => $$invalidate(12, bossHpVisible = value));
             const unregisterSetBossHpStats = registerEvent('event.arizonahud.setBossHpStats', value => utils_set_store_value(bossHp, $bossHp = value, $bossHp));
+            const unregisterTargetInfoVisibility = registerEvent('event.arizonahud.targetInfoVisible', value => $$invalidate(13, targetInfoVisible = value));
+            const unregisterSetTargetInfo = registerEvent('event.arizonahud.setTargetInfo', value => utils_set_store_value(targetInfo, $targetInfo = value, $targetInfo));
 
             const triggerRadarRectUpdate = () => {
                 if (!window.cef || !window.cef.GetRadarRect) {
@@ -186889,6 +189327,7 @@ setTimeout(() => {
                 unregisterUpdatePromoVisibility();
                 unregisterCaseBannerVisibility();
                 unregisterBossHpVisibility();
+                unregisterTargetInfoVisibility();
             });
 
             return [
@@ -186905,6 +189344,7 @@ setTimeout(() => {
                 hotKeysNotificationVisible,
                 simpleLogoHudVisible,
                 bossHpVisible,
+                targetInfoVisible,
                 promoVisible,
                 caseBannerVisible,
                 $radarRect,
@@ -202923,9 +205363,10 @@ setTimeout(() => {
         const arizona_rent_img_logo_namespaceObject = __webpack_require__.p + "assets/9d5476e05f651230dea7.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/img/money.png
         const money_namespaceObject = __webpack_require__.p + "assets/736da26e5fdfc6d29f12.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/img/vcdol.svg
         const vcdol_namespaceObject = __webpack_require__.p + "assets/f88e0e6dfdec522c3fbc.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/img/smile.png
-        const smile_namespaceObject = __webpack_require__.p + "assets/4db3f0d69277a3f7a568.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/img/trash.png
-        const trash_namespaceObject = __webpack_require__.p + "assets/86c83d25fef8dbf67648.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/index.svelte
+        const smile_namespaceObject = __webpack_require__.p + "assets/4db3f0d69277a3f7a568.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/img/fallback.png
+        const fallback_namespaceObject = __webpack_require__.p + "assets/19636cd2026a667590f3.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/index.svelte
         /* src\views\phone\apps\arizona-rent\components\rent-list\index.svelte generated by Svelte v4.2.8 */
+
 
 
 
@@ -202958,7 +205399,7 @@ setTimeout(() => {
             return child_ctx;
         }
 
-        // (241:8) {#if !isEmpty(filteredList) || $currentFilter === TabTypes.Player}
+        // (239:8) {#if !isEmpty(filteredList) || $currentFilter === TabTypes.Player}
         function rent_list_index_svelte_create_if_block_13(ctx) {
             let div4;
             let div2;
@@ -203034,7 +205475,7 @@ setTimeout(() => {
             };
         }
 
-        // (272:8) {#if differencesCount > 0}
+        // (270:8) {#if differencesCount > 0}
         function rent_list_index_svelte_create_if_block_12(ctx) {
             let div;
             let div_intro;
@@ -203080,15 +205521,20 @@ setTimeout(() => {
             };
         }
 
-        // (281:41) 
+        // (279:41) 
         function rent_list_index_svelte_create_if_block_6(ctx) {
             let div;
+            let current;
             let each_value = each_ensure_array_like( /*filteredList*/ ctx[2]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value.length; i += 1) {
                 each_blocks[i] = rent_list_index_svelte_create_each_block(rent_list_index_svelte_get_each_context(ctx, each_value, i));
             }
+
+            const out = i => transitions_transition_out(each_blocks[i], 1, 1, () => {
+                each_blocks[i] = null;
+            });
 
             return {
                 c() {
@@ -203111,6 +205557,7 @@ setTimeout(() => {
 
                     /*div_binding*/
                     ctx[31](div);
+                    current = true;
                 },
                 p(ctx, dirty) {
                     if (dirty[0] & /*rentProperty, filteredList, $serverApiAccountId, deleteRentProperty, upPositionProperty, isVCcurrency*/ 14688261) {
@@ -203122,22 +205569,42 @@ setTimeout(() => {
 
                             if (each_blocks[i]) {
                                 each_blocks[i].p(child_ctx, dirty);
+                                transitions_transition_in(each_blocks[i], 1);
                             } else {
                                 each_blocks[i] = rent_list_index_svelte_create_each_block(child_ctx);
                                 each_blocks[i].c();
+                                transitions_transition_in(each_blocks[i], 1);
                                 each_blocks[i].m(div, null);
                             }
                         }
 
-                        for (; i < each_blocks.length; i += 1) {
-                            each_blocks[i].d(1);
+                        transitions_group_outros();
+
+                        for (i = each_value.length; i < each_blocks.length; i += 1) {
+                            out(i);
                         }
 
-                        each_blocks.length = each_value.length;
+                        transitions_check_outros();
                     }
                 },
-                i: utils_noop,
-                o: utils_noop,
+                i(local) {
+                    if (current) return;
+
+                    for (let i = 0; i < each_value.length; i += 1) {
+                        transitions_transition_in(each_blocks[i]);
+                    }
+
+                    current = true;
+                },
+                o(local) {
+                    each_blocks = each_blocks.filter(Boolean);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        transitions_transition_out(each_blocks[i]);
+                    }
+
+                    current = false;
+                },
                 d(detaching) {
                     if (detaching) {
                         dom_detach(div);
@@ -203150,7 +205617,7 @@ setTimeout(() => {
             };
         }
 
-        // (277:8) {#if !initializeComplete}
+        // (275:8) {#if !initializeComplete}
         function rent_list_index_svelte_create_if_block_5(ctx) {
             let div;
             let loader;
@@ -203192,7 +205659,7 @@ setTimeout(() => {
             };
         }
 
-        // (295:32) {#if rent.playerUID === $serverApiAccountId}
+        // (294:32) {#if rent.playerUID === $serverApiAccountId}
         function rent_list_index_svelte_create_if_block_11(ctx) {
             let p;
 
@@ -203213,7 +205680,7 @@ setTimeout(() => {
             };
         }
 
-        // (308:32) {#if rent.xPayDay > 1}
+        // (307:32) {#if rent.xPayDay > 1}
         function rent_list_index_svelte_create_if_block_10(ctx) {
             let p;
             let t0;
@@ -203243,7 +205710,7 @@ setTimeout(() => {
             };
         }
 
-        // (315:32) {#if rent.basement}
+        // (314:32) {#if rent.basement}
         function rent_list_index_svelte_create_if_block_9(ctx) {
             let div;
 
@@ -203264,7 +205731,7 @@ setTimeout(() => {
             };
         }
 
-        // (320:32) {#if rent.garage}
+        // (319:32) {#if rent.garage}
         function rent_list_index_svelte_create_if_block_8(ctx) {
             let div;
 
@@ -203285,7 +205752,7 @@ setTimeout(() => {
             };
         }
 
-        // (363:24) {:else}
+        // (362:24) {:else}
         function rent_list_index_svelte_create_else_block_2(ctx) {
             let div2;
             let div0;
@@ -203343,7 +205810,7 @@ setTimeout(() => {
             };
         }
 
-        // (352:24) {#if rent.playerUID !== $serverApiAccountId}
+        // (351:24) {#if rent.playerUID !== $serverApiAccountId}
         function rent_list_index_svelte_create_if_block_7(ctx) {
             let div1;
             let div0;
@@ -203385,12 +205852,11 @@ setTimeout(() => {
             };
         }
 
-        // (283:16) {#each filteredList as rent}
+        // (281:16) {#each filteredList as rent}
         function rent_list_index_svelte_create_each_block(ctx) {
             let div6;
             let div3;
-            let img0;
-            let img0_src_value;
+            let imagewithfallback;
             let t0;
             let div0;
             let p0;
@@ -203420,8 +205886,8 @@ setTimeout(() => {
             let t14_value = formatMoney( /*rent*/ ctx[48].cost) + "";
             let t14;
             let t15;
-            let img1;
-            let img1_src_value;
+            let img;
+            let img_src_value;
             let t16;
             let p4;
             let t17;
@@ -203448,6 +205914,17 @@ setTimeout(() => {
             let t28;
             let t29;
             let t30;
+            let current;
+
+            imagewithfallback = new imageWithFallback_index_svelte({
+                props: {
+                    class: "rent-list__content-item-background-img",
+                    src: `${CDN_URL}/systems/house_int/${/*rent*/ ctx[48].houseInt}.webp`,
+                    fallbackImageUrl: fallback_namespaceObject,
+                    alt: "house"
+                }
+            });
+
             let if_block0 = /*rent*/ ctx[48].playerUID === /*$serverApiAccountId*/ ctx[13] && rent_list_index_svelte_create_if_block_11(ctx);
             let if_block1 = /*rent*/ ctx[48].xPayDay > 1 && rent_list_index_svelte_create_if_block_10(ctx);
             let if_block2 = /*rent*/ ctx[48].basement && rent_list_index_svelte_create_if_block_9(ctx);
@@ -203465,7 +205942,7 @@ setTimeout(() => {
                 c() {
                     div6 = dom_element("div");
                     div3 = dom_element("div");
-                    img0 = dom_element("img");
+                    create_component(imagewithfallback.$$.fragment);
                     t0 = dom_space();
                     div0 = dom_element("div");
                     p0 = dom_element("p");
@@ -203494,7 +205971,7 @@ setTimeout(() => {
                     p3 = dom_element("p");
                     t14 = dom_text(t14_value);
                     t15 = dom_space();
-                    img1 = dom_element("img");
+                    img = dom_element("img");
                     t16 = dom_space();
                     p4 = dom_element("p");
                     t17 = dom_text("в ");
@@ -203517,9 +205994,6 @@ setTimeout(() => {
                     t29 = dom_space();
                     if_block4.c();
                     t30 = dom_space();
-                    dom_attr(img0, "class", "rent-list__content-item-background-img");
-                    if (!utils_src_url_equal(img0.src, img0_src_value = `${CDN_URL}/systems/house_int/${/*rent*/ ctx[48].houseInt}.webp`)) dom_attr(img0, "src", img0_src_value);
-                    dom_attr(img0, "alt", "item-img");
                     dom_attr(p0, "class", "rent-list__content-item-background-position");
                     dom_attr(div0, "class", "rent-list__content-item-background-position-wrapper");
                     dom_attr(p1, "class", "rent-list__content-item-background-number");
@@ -203528,9 +206002,9 @@ setTimeout(() => {
                     dom_attr(div2, "class", "rent-list__content-item-attributes-row");
                     dom_attr(div3, "class", "rent-list__content-item-background");
                     dom_attr(p3, "class", "rent-list__content-item-price-value");
-                    dom_attr(img1, "class", "rent-list__content-item-price-img");
-                    if (!utils_src_url_equal(img1.src, img1_src_value = /*isVCcurrency*/ ctx[0] ? vcdol_namespaceObject : money_namespaceObject)) dom_attr(img1, "src", img1_src_value);
-                    dom_attr(img1, "alt", "price-img");
+                    dom_attr(img, "class", "rent-list__content-item-price-img");
+                    if (!utils_src_url_equal(img.src, img_src_value = /*isVCcurrency*/ ctx[0] ? vcdol_namespaceObject : money_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "price-img");
                     dom_attr(p4, "class", "rent-list__content-item-price-title");
                     dom_attr(div4, "class", "rent-list__content-item-price");
                     dom_attr(span, "class", "rent-list__content-item-description rent-list__content-item-description--yellow");
@@ -203543,7 +206017,7 @@ setTimeout(() => {
                 m(target, anchor) {
                     dom_insert(target, div6, anchor);
                     dom_append(div6, div3);
-                    dom_append(div3, img0);
+                    mount_component(imagewithfallback, div3, null);
                     dom_append(div3, t0);
                     dom_append(div3, div0);
                     dom_append(div0, p0);
@@ -203572,7 +206046,7 @@ setTimeout(() => {
                     dom_append(div4, p3);
                     dom_append(p3, t14);
                     dom_append(div4, t15);
-                    dom_append(div4, img1);
+                    dom_append(div4, img);
                     dom_append(div4, t16);
                     dom_append(div4, p4);
                     dom_append(p4, t17);
@@ -203595,13 +206069,13 @@ setTimeout(() => {
                     dom_append(div6, t29);
                     if_block4.m(div6, null);
                     dom_append(div6, t30);
+                    current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*filteredList*/ 4 && !utils_src_url_equal(img0.src, img0_src_value = `${CDN_URL}/systems/house_int/${/*rent*/ ctx[48].houseInt}.webp`)) {
-                        dom_attr(img0, "src", img0_src_value);
-                    }
-
-                    if (dirty[0] & /*filteredList*/ 4 && t2_value !== (t2_value = /*rent*/ ctx[48].number + "")) dom_set_data(t2, t2_value);
+                    const imagewithfallback_changes = {};
+                    if (dirty[0] & /*filteredList*/ 4) imagewithfallback_changes.src = `${CDN_URL}/systems/house_int/${/*rent*/ ctx[48].houseInt}.webp`;
+                    imagewithfallback.$set(imagewithfallback_changes);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t2_value !== (t2_value = /*rent*/ ctx[48].number + "")) dom_set_data(t2, t2_value);
 
                     if ( /*rent*/ ctx[48].playerUID === /*$serverApiAccountId*/ ctx[13]) {
                         if (if_block0) {
@@ -203616,9 +206090,9 @@ setTimeout(() => {
                         if_block0 = null;
                     }
 
-                    if (dirty[0] & /*filteredList*/ 4 && t5_value !== (t5_value = MAP_TYPE_TO_NAME[ /*rent*/ ctx[48].typeHouse] + "")) dom_set_data(t5, t5_value);
-                    if (dirty[0] & /*filteredList*/ 4 && t7_value !== (t7_value = /*rent*/ ctx[48].houseID + "")) dom_set_data(t7, t7_value);
-                    if (dirty[0] & /*filteredList*/ 4 && t9_value !== (t9_value = MAP_RENT_TYPE_TO_NAME[ /*rent*/ ctx[48].typeRent] + "")) dom_set_data(t9, t9_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t5_value !== (t5_value = MAP_TYPE_TO_NAME[ /*rent*/ ctx[48].typeHouse] + "")) dom_set_data(t5, t5_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t7_value !== (t7_value = /*rent*/ ctx[48].houseID + "")) dom_set_data(t7, t7_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t9_value !== (t9_value = MAP_RENT_TYPE_TO_NAME[ /*rent*/ ctx[48].typeRent] + "")) dom_set_data(t9, t9_value);
 
                     if ( /*rent*/ ctx[48].xPayDay > 1) {
                         if (if_block1) {
@@ -203659,17 +206133,17 @@ setTimeout(() => {
                         if_block3 = null;
                     }
 
-                    if (dirty[0] & /*filteredList*/ 4 && t14_value !== (t14_value = formatMoney( /*rent*/ ctx[48].cost) + "")) dom_set_data(t14, t14_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t14_value !== (t14_value = formatMoney( /*rent*/ ctx[48].cost) + "")) dom_set_data(t14, t14_value);
 
-                    if (dirty[0] & /*isVCcurrency*/ 1 && !utils_src_url_equal(img1.src, img1_src_value = /*isVCcurrency*/ ctx[0] ? vcdol_namespaceObject : money_namespaceObject)) {
-                        dom_attr(img1, "src", img1_src_value);
+                    if (!current || dirty[0] & /*isVCcurrency*/ 1 && !utils_src_url_equal(img.src, img_src_value = /*isVCcurrency*/ ctx[0] ? vcdol_namespaceObject : money_namespaceObject)) {
+                        dom_attr(img, "src", img_src_value);
                     }
 
-                    if (dirty[0] & /*filteredList*/ 4 && t18_value !== (t18_value = ( /*rent*/ ctx[48].typeRent ? 'час' : 'сутки') + "")) dom_set_data(t18, t18_value);
-                    if (dirty[0] & /*filteredList*/ 4 && t20_value !== (t20_value = `от ${/*rent*/ ctx[48].valueStart} до ${/*rent*/ ctx[48].valueEnd} ${/*rent*/ ctx[48].typeRent ? 'часов' : 'суток'}.` + "")) dom_set_data(t20, t20_value);
-                    if (dirty[0] & /*filteredList*/ 4 && t22_value !== (t22_value = /*rent*/ ctx[48].description + "")) dom_set_data(t22, t22_value);
-                    if (dirty[0] & /*filteredList*/ 4 && t25_value !== (t25_value = /*rent*/ ctx[48].playerName + "")) dom_set_data(t25, t25_value);
-                    if (dirty[0] & /*filteredList*/ 4 && t27_value !== (t27_value = /*rent*/ ctx[48].playerID + "")) dom_set_data(t27, t27_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t18_value !== (t18_value = ( /*rent*/ ctx[48].typeRent ? 'час' : 'сутки') + "")) dom_set_data(t18, t18_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t20_value !== (t20_value = `от ${/*rent*/ ctx[48].valueStart} до ${/*rent*/ ctx[48].valueEnd} ${/*rent*/ ctx[48].typeRent ? 'часов' : 'суток'}.` + "")) dom_set_data(t20, t20_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t22_value !== (t22_value = /*rent*/ ctx[48].description + "")) dom_set_data(t22, t22_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t25_value !== (t25_value = /*rent*/ ctx[48].playerName + "")) dom_set_data(t25, t25_value);
+                    if ((!current || dirty[0] & /*filteredList*/ 4) && t27_value !== (t27_value = /*rent*/ ctx[48].playerID + "")) dom_set_data(t27, t27_value);
 
                     if (current_block_type === (current_block_type = select_block_type_1(ctx, dirty)) && if_block4) {
                         if_block4.p(ctx, dirty);
@@ -203683,11 +206157,21 @@ setTimeout(() => {
                         }
                     }
                 },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(imagewithfallback.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(imagewithfallback.$$.fragment, local);
+                    current = false;
+                },
                 d(detaching) {
                     if (detaching) {
                         dom_detach(div6);
                     }
 
+                    destroy_component(imagewithfallback);
                     if (if_block0) if_block0.d();
                     if (if_block1) if_block1.d();
                     if (if_block2) if_block2.d();
@@ -203697,7 +206181,7 @@ setTimeout(() => {
             };
         }
 
-        // (386:8) {#if isEmpty(filteredList) && initializeComplete}
+        // (385:8) {#if isEmpty(filteredList) && initializeComplete}
         function rent_list_index_svelte_create_if_block_1(ctx) {
             let div;
             let img;
@@ -203806,7 +206290,7 @@ setTimeout(() => {
             };
         }
 
-        // (401:20) {:else}
+        // (400:20) {:else}
         function rent_list_index_svelte_create_else_block_1(ctx) {
             let t;
 
@@ -203825,7 +206309,7 @@ setTimeout(() => {
             };
         }
 
-        // (399:62) 
+        // (398:62) 
         function rent_list_index_svelte_create_if_block_4(ctx) {
             let t;
 
@@ -203844,7 +206328,7 @@ setTimeout(() => {
             };
         }
 
-        // (397:20) {#if $currentFilter === TabTypes.All && filtered}
+        // (396:20) {#if $currentFilter === TabTypes.All && filtered}
         function rent_list_index_svelte_create_if_block_3(ctx) {
             let t;
 
@@ -203863,7 +206347,7 @@ setTimeout(() => {
             };
         }
 
-        // (416:16) {:else}
+        // (415:16) {:else}
         function rent_list_index_svelte_create_else_block(ctx) {
             let div1;
             let div0;
@@ -203899,7 +206383,7 @@ setTimeout(() => {
             };
         }
 
-        // (405:16) {#if !filtered}
+        // (404:16) {#if !filtered}
         function rent_list_index_svelte_create_if_block_2(ctx) {
             let div1;
             let div0;
@@ -203935,7 +206419,7 @@ setTimeout(() => {
             };
         }
 
-        // (432:4) {#if filtersVisible}
+        // (431:4) {#if filtersVisible}
         function rent_list_index_svelte_create_if_block(ctx) {
             let div0;
             let div0_transition;
@@ -204499,9 +206983,6 @@ setTimeout(() => {
         }
 
         const INTERVAL_SECONDS = 5000;
-        let currentSort = '';
-        let sortPriceStatus = true;
-        let sortRatingStatus = true;
 
         function rent_list_index_svelte_instance($$self, $$props, $$invalidate) {
             let $currentFilter;
@@ -208893,7 +211374,7 @@ setTimeout(() => {
                 c() {
                     input = dom_element("input");
                     dom_attr(input, "type", "password");
-                    dom_attr(input, "class", "auth-field__input");
+                    dom_attr(input, "class", "auth-field__input auth-field__input--password");
                 },
                 m(target, anchor) {
                     dom_insert(target, input, anchor);
@@ -211455,11 +213936,12 @@ setTimeout(() => {
 
         function spawn_list_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[5] = list[i];
+            child_ctx[10] = list[i];
+            child_ctx[12] = i;
             return child_ctx;
         }
 
-        // (20:3) {#each $spawnPoints as point}
+        // (74:3) {#each $spawnPoints as point, index}
         function spawn_list_index_svelte_create_each_block(ctx) {
             let div;
             let spawnpoint;
@@ -211467,14 +213949,14 @@ setTimeout(() => {
             let current;
 
             function func() {
-                return /*func*/ ctx[4]( /*point*/ ctx[5]);
+                return /*func*/ ctx[7]( /*index*/ ctx[12]);
             }
 
             spawnpoint = new spawn_point_index_svelte({
                 props: {
-                    spawn: /*point*/ ctx[5].spawn,
+                    spawn: /*point*/ ctx[10].spawn,
                     onSelect: func,
-                    active: /*selectedPointId*/ ctx[0] === /*point*/ ctx[5].id
+                    active: /*selectedIndex*/ ctx[0] === /*index*/ ctx[12]
                 }
             });
 
@@ -211494,9 +213976,8 @@ setTimeout(() => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
                     const spawnpoint_changes = {};
-                    if (dirty & /*$spawnPoints*/ 4) spawnpoint_changes.spawn = /*point*/ ctx[5].spawn;
-                    if (dirty & /*selectedPointId, $spawnPoints*/ 5) spawnpoint_changes.onSelect = func;
-                    if (dirty & /*selectedPointId, $spawnPoints*/ 5) spawnpoint_changes.active = /*selectedPointId*/ ctx[0] === /*point*/ ctx[5].id;
+                    if (dirty & /*$spawnPoints*/ 4) spawnpoint_changes.spawn = /*point*/ ctx[10].spawn;
+                    if (dirty & /*selectedIndex*/ 1) spawnpoint_changes.active = /*selectedIndex*/ ctx[0] === /*index*/ ctx[12];
                     spawnpoint.$set(spawnpoint_changes);
                 },
                 i(local) {
@@ -211518,7 +213999,7 @@ setTimeout(() => {
             };
         }
 
-        // (30:2) {#if !$spawnListShortStyle}
+        // (84:2) {#if !$spawnListShortStyle}
         function spawn_list_index_svelte_create_if_block(ctx) {
             let div;
 
@@ -211550,6 +214031,8 @@ setTimeout(() => {
             let div3;
             let authredbutton;
             let current;
+            let mounted;
+            let dispose;
             authserverinfo = new server_info_index_svelte({});
             let each_value = each_ensure_array_like( /*$spawnPoints*/ ctx[2]);
             let each_blocks = [];
@@ -211562,12 +214045,12 @@ setTimeout(() => {
                 each_blocks[i] = null;
             });
 
-            let if_block = ! /*$spawnListShortStyle*/ ctx[1] && spawn_list_index_svelte_create_if_block(ctx);
+            let if_block = ! /*$spawnListShortStyle*/ ctx[3] && spawn_list_index_svelte_create_if_block(ctx);
 
             authredbutton = new red_button_index_svelte({
                 props: {
                     text: "Начать игру",
-                    onPressed: /*spawnMe*/ ctx[3]
+                    onPressed: /*spawnMe*/ ctx[5]
                 }
             });
 
@@ -211590,12 +214073,12 @@ setTimeout(() => {
                     div3 = dom_element("div");
                     create_component(authredbutton.$$.fragment);
                     dom_attr(div0, "class", "spawn-list__server-wrapper");
-                    dom_toggle_class(div0, "spawn-list__server-wrapper--no-scroll", /*$spawnListShortStyle*/ ctx[1]);
+                    dom_toggle_class(div0, "spawn-list__server-wrapper--no-scroll", /*$spawnListShortStyle*/ ctx[3]);
                     dom_attr(div1, "class", "spawn-list__list");
-                    dom_toggle_class(div1, "spawn-list__list--short", /*$spawnListShortStyle*/ ctx[1]);
+                    dom_toggle_class(div1, "spawn-list__list--short", /*$spawnListShortStyle*/ ctx[3]);
                     dom_attr(div2, "class", "spawn-list__list-wrapper");
                     dom_attr(div3, "class", "spawn-list__spawn-button");
-                    dom_toggle_class(div3, "spawn-list__spawn-button--pushed", ! /*$spawnListShortStyle*/ ctx[1]);
+                    dom_toggle_class(div3, "spawn-list__spawn-button--pushed", ! /*$spawnListShortStyle*/ ctx[3]);
                     dom_attr(div4, "class", "spawn-list");
                 },
                 m(target, anchor) {
@@ -211612,19 +214095,26 @@ setTimeout(() => {
                         }
                     }
 
+                    /*div1_binding*/
+                    ctx[8](div1);
                     dom_append(div2, t1);
                     if (if_block) if_block.m(div2, null);
                     dom_append(div4, t2);
                     dom_append(div4, div3);
                     mount_component(authredbutton, div3, null);
                     current = true;
+
+                    if (!mounted) {
+                        dispose = dom_listen(window, "keydown", prevent_default( /*handleKeyDown*/ ctx[6]));
+                        mounted = true;
+                    }
                 },
                 p(ctx, [dirty]) {
-                    if (!current || dirty & /*$spawnListShortStyle*/ 2) {
-                        dom_toggle_class(div0, "spawn-list__server-wrapper--no-scroll", /*$spawnListShortStyle*/ ctx[1]);
+                    if (!current || dirty & /*$spawnListShortStyle*/ 8) {
+                        dom_toggle_class(div0, "spawn-list__server-wrapper--no-scroll", /*$spawnListShortStyle*/ ctx[3]);
                     }
 
-                    if (dirty & /*$spawnPoints, selectedPointId*/ 5) {
+                    if (dirty & /*$spawnPoints, selectSpawnPoint, selectedIndex*/ 21) {
                         each_value = each_ensure_array_like( /*$spawnPoints*/ ctx[2]);
                         let i;
 
@@ -211651,11 +214141,11 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if (!current || dirty & /*$spawnListShortStyle*/ 2) {
-                        dom_toggle_class(div1, "spawn-list__list--short", /*$spawnListShortStyle*/ ctx[1]);
+                    if (!current || dirty & /*$spawnListShortStyle*/ 8) {
+                        dom_toggle_class(div1, "spawn-list__list--short", /*$spawnListShortStyle*/ ctx[3]);
                     }
 
-                    if (! /*$spawnListShortStyle*/ ctx[1]) {
+                    if (! /*$spawnListShortStyle*/ ctx[3]) {
                         if (if_block) {
 
                         } else {
@@ -211668,8 +214158,8 @@ setTimeout(() => {
                         if_block = null;
                     }
 
-                    if (!current || dirty & /*$spawnListShortStyle*/ 2) {
-                        dom_toggle_class(div3, "spawn-list__spawn-button--pushed", ! /*$spawnListShortStyle*/ ctx[1]);
+                    if (!current || dirty & /*$spawnListShortStyle*/ 8) {
+                        dom_toggle_class(div3, "spawn-list__spawn-button--pushed", ! /*$spawnListShortStyle*/ ctx[3]);
                     }
                 },
                 i(local) {
@@ -211701,21 +214191,105 @@ setTimeout(() => {
 
                     destroy_component(authserverinfo);
                     destroy_each(each_blocks, detaching);
+                    /*div1_binding*/
+                    ctx[8](null);
                     if (if_block) if_block.d();
                     destroy_component(authredbutton);
+                    mounted = false;
+                    dispose();
                 }
             };
         }
 
         function spawn_list_index_svelte_instance($$self, $$props, $$invalidate) {
-            let $spawnListShortStyle;
             let $spawnPoints;
-            utils_component_subscribe($$self, spawnListShortStyle, $$value => $$invalidate(1, $spawnListShortStyle = $$value));
+            let $spawnListShortStyle;
             utils_component_subscribe($$self, spawnPoints, $$value => $$invalidate(2, $spawnPoints = $$value));
-            let selectedPointId = null;
-            const spawnMe = () => cef_sendClientMessage('authSpawn', selectedPointId);
-            const func = point => $$invalidate(0, selectedPointId = point.id);
-            return [selectedPointId, $spawnListShortStyle, $spawnPoints, spawnMe, func];
+            utils_component_subscribe($$self, spawnListShortStyle, $$value => $$invalidate(3, $spawnListShortStyle = $$value));
+            let selectedIndex = 0;
+            let listContainer;
+
+            const scrollToSelectedItem = () => {
+                const element = listContainer.querySelector(`.spawn-list__item:nth-child(${selectedIndex + 1})`);
+                const fadeHeight = document.querySelector('.spawn-list__fade-out').offsetHeight;
+                const container = listContainer;
+                const scrollTop = container.scrollTop;
+                const elementTop = element.offsetTop;
+                const elementBottom = elementTop + element.offsetHeight;
+                const viewBottom = scrollTop + container.clientHeight - fadeHeight;
+
+                if (elementBottom > viewBottom) {
+                    container.scrollTo({
+                        top: elementBottom - (container.clientHeight - fadeHeight),
+                        behavior: 'smooth'
+                    });
+                } else if (elementTop < scrollTop) {
+                    container.scrollTo({
+                        top: elementTop,
+                        behavior: 'smooth'
+                    });
+                }
+            };
+
+            const selectSpawnPoint = id => {
+                $$invalidate(0, selectedIndex = id);
+            };
+
+            const spawnMe = () => cef_sendClientMessage('authSpawn', $spawnPoints[selectedIndex].id);
+
+            const handleKeyDown = event => {
+                switch (event.keyCode) {
+                    case 38:
+                        // arrow up
+                        selectSpawnPoint(selectedIndex <= 0 ?
+                            $spawnPoints.length - 1 :
+                            selectedIndex - 1);
+                        break;
+                    case 40:
+                        // arrow down
+                        selectSpawnPoint(selectedIndex >= $spawnPoints.length - 1 ?
+                            0 :
+                            selectedIndex + 1);
+                        break;
+                    case 13:
+                        // enter
+                        spawnMe();
+                        break;
+                }
+            };
+
+            const func = index => selectSpawnPoint(index);
+
+            function div1_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    listContainer = $$value;
+                    $$invalidate(1, listContainer);
+                });
+            }
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*selectedIndex*/ 1) {
+                    $: {
+                        if (selectedIndex > -1) {
+                            requestAnimationFrame(() => {
+                                setTimeout(scrollToSelectedItem, 50);
+                            });
+                        }
+                    }
+                }
+            };
+
+            return [
+                selectedIndex,
+                listContainer,
+                $spawnPoints,
+                $spawnListShortStyle,
+                selectSpawnPoint,
+                spawnMe,
+                handleKeyDown,
+                func,
+                div1_binding
+            ];
         }
 
         class Spawn_list extends Component_SvelteComponent {
@@ -213668,7 +216242,7 @@ setTimeout(() => {
             spawn: 'Дом #2'
         }, {
             id: 6,
-            spawn: 'Дом #3'
+            spawn: 'Дом #3 с очень-очень сильно длинным названием кирпичного дома'
         }, {
             id: 7,
             spawn: 'Дом #4'
@@ -214483,8 +217057,8 @@ setTimeout(() => {
             };
         }
 
-        // (28:3) {#if hovered}
-        function animation_item_index_svelte_create_if_block_2(ctx) {
+        // (32:3) {#if hovered}
+        function animation_item_index_svelte_create_if_block_4(ctx) {
             let img;
             let img_src_value;
             let img_outro;
@@ -214524,6 +217098,58 @@ setTimeout(() => {
                     }
 
                     if (detaching && img_outro) img_outro.end();
+                }
+            };
+        }
+
+        // (29:57) 
+        function animation_item_index_svelte_create_if_block_3(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/animation_pirate/bumblebee-anim.gif`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "preview");
+                    dom_attr(img, "class", "animation-item__image");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p: utils_noop,
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (27:58) 
+        function animation_item_index_svelte_create_if_block_2(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/animation_pirate/transFormerBumble.gif`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "preview");
+                    dom_attr(img, "class", "animation-item__image");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p: utils_noop,
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
                 }
             };
         }
@@ -214593,14 +217219,25 @@ setTimeout(() => {
             let i;
             let mounted;
             let dispose;
-            const if_block_creators = [animation_item_index_svelte_create_if_block, animation_item_index_svelte_create_if_block_1, animation_item_index_svelte_create_if_block_2, animation_item_index_svelte_create_else_block];
+
+            const if_block_creators = [
+                animation_item_index_svelte_create_if_block,
+                animation_item_index_svelte_create_if_block_1,
+                animation_item_index_svelte_create_if_block_2,
+                animation_item_index_svelte_create_if_block_3,
+                animation_item_index_svelte_create_if_block_4,
+                animation_item_index_svelte_create_else_block
+            ];
+
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
                 if ( /*animation*/ ctx[0].image === 'pirateSwapAnim.webp') return 0;
                 if ( /*animation*/ ctx[0].image === 'rollSwapAnim.webp') return 1;
-                if ( /*hovered*/ ctx[5]) return 2;
-                return 3;
+                if ( /*animation*/ ctx[0].image === 'transFormerOptimus.webp') return 2;
+                if ( /*animation*/ ctx[0].image === 'transFormerBumble.webp') return 3;
+                if ( /*hovered*/ ctx[5]) return 4;
+                return 5;
             }
 
             current_block_type_index = select_block_type(ctx, -1);
@@ -220018,16 +222655,16 @@ setTimeout(() => {
                     icon: '🥰',
                     text: 'Лучше расскажи какие у тебя дела?'
                 }, {
-                    id: 2,
+                    id: 3,
                     icon: '🥰',
                     text: 'Лучше расскажи'
                 }],
                 [{
-                    id: 3,
+                    id: 4,
                     icon: '😎',
                     text: 'Извини, я пока что занят...'
                 }, {
-                    id: 4,
+                    id: 5,
                     icon: '😈',
                     text: 'Может лучше в бар сходим?...'
                 }]
@@ -220066,23 +222703,23 @@ setTimeout(() => {
 
         function npc_dialog_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[10] = list[i];
+            child_ctx[12] = list[i];
             return child_ctx;
         }
 
         function npc_dialog_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[13] = list[i];
+            child_ctx[15] = list[i];
             return child_ctx;
         }
 
         function npc_dialog_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[16] = list[i];
+            child_ctx[18] = list[i];
             return child_ctx;
         }
 
-        // (52:1) {#if !isEmpty(dialogData.title)}
+        // (81:1) {#if !isEmpty(dialogData.title)}
         function npc_dialog_index_svelte_create_if_block_3(ctx) {
             let div;
             let t_value = /*dialogData*/ ctx[0].title + "";
@@ -220109,7 +222746,7 @@ setTimeout(() => {
             };
         }
 
-        // (58:3) {#if !isEmpty(dialogData.npcName)}
+        // (87:3) {#if !isEmpty(dialogData.npcName)}
         function npc_dialog_index_svelte_create_if_block_2(ctx) {
             let div;
             let t_value = /*dialogData*/ ctx[0].npcName + "";
@@ -220136,10 +222773,10 @@ setTimeout(() => {
             };
         }
 
-        // (69:7) {#if answer.icon}
+        // (102:7) {#if answer.icon}
         function npc_dialog_index_svelte_create_if_block_1(ctx) {
             let div;
-            let raw_value = /*answer*/ ctx[16].icon + "";
+            let raw_value = /*answer*/ ctx[18].icon + "";
 
             return {
                 c() {
@@ -220151,7 +222788,7 @@ setTimeout(() => {
                     div.innerHTML = raw_value;
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*dialogData*/ 1 && raw_value !== (raw_value = /*answer*/ ctx[16].icon + "")) div.innerHTML = raw_value;;
+                    if (dirty & /*dialogData*/ 1 && raw_value !== (raw_value = /*answer*/ ctx[18].icon + "")) div.innerHTML = raw_value;;
                 },
                 d(detaching) {
                     if (detaching) {
@@ -220161,19 +222798,19 @@ setTimeout(() => {
             };
         }
 
-        // (67:5) {#each row as answer}
+        // (96:5) {#each row as answer}
         function npc_dialog_index_svelte_create_each_block_2(ctx) {
             let div1;
             let t0;
             let div0;
-            let t1_value = /*answer*/ ctx[16].text + "";
+            let t1_value = /*answer*/ ctx[18].text + "";
             let t1;
             let mounted;
             let dispose;
-            let if_block = /*answer*/ ctx[16].icon && npc_dialog_index_svelte_create_if_block_1(ctx);
+            let if_block = /*answer*/ ctx[18].icon && npc_dialog_index_svelte_create_if_block_1(ctx);
 
             function click_handler() {
-                return /*click_handler*/ ctx[3]( /*answer*/ ctx[16]);
+                return /*click_handler*/ ctx[5]( /*answer*/ ctx[18]);
             }
 
             return {
@@ -220185,6 +222822,7 @@ setTimeout(() => {
                     t1 = dom_text(t1_value);
                     dom_attr(div0, "class", "npc-dialog__answer-item-text");
                     dom_attr(div1, "class", "npc-dialog__answer-item");
+                    dom_toggle_class(div1, "npc-dialog__answer-item--selected", /*selectedAnswerId*/ ctx[2] === /*answer*/ ctx[18].id);
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -220201,7 +222839,7 @@ setTimeout(() => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if ( /*answer*/ ctx[16].icon) {
+                    if ( /*answer*/ ctx[18].icon) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -220214,7 +222852,11 @@ setTimeout(() => {
                         if_block = null;
                     }
 
-                    if (dirty & /*dialogData*/ 1 && t1_value !== (t1_value = /*answer*/ ctx[16].text + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*dialogData*/ 1 && t1_value !== (t1_value = /*answer*/ ctx[18].text + "")) dom_set_data(t1, t1_value);
+
+                    if (dirty & /*selectedAnswerId, dialogData*/ 5) {
+                        dom_toggle_class(div1, "npc-dialog__answer-item--selected", /*selectedAnswerId*/ ctx[2] === /*answer*/ ctx[18].id);
+                    }
                 },
                 d(detaching) {
                     if (detaching) {
@@ -220228,11 +222870,11 @@ setTimeout(() => {
             };
         }
 
-        // (65:3) {#each dialogData.keyboard || [] as row}
+        // (94:3) {#each dialogData.keyboard || [] as row}
         function npc_dialog_index_svelte_create_each_block_1(ctx) {
             let div;
             let t;
-            let each_value_2 = each_ensure_array_like( /*row*/ ctx[13]);
+            let each_value_2 = each_ensure_array_like( /*row*/ ctx[15]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value_2.length; i += 1) {
@@ -220262,8 +222904,8 @@ setTimeout(() => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*sendAnswer, dialogData*/ 5) {
-                        each_value_2 = each_ensure_array_like( /*row*/ ctx[13]);
+                    if (dirty & /*selectedAnswerId, dialogData, sendAnswer*/ 13) {
+                        each_value_2 = each_ensure_array_like( /*row*/ ctx[15]);
                         let i;
 
                         for (i = 0; i < each_value_2.length; i += 1) {
@@ -220295,7 +222937,7 @@ setTimeout(() => {
             };
         }
 
-        // (78:2) {#if !isEmpty(rewards)}
+        // (111:2) {#if !isEmpty(rewards)}
         function npc_dialog_index_svelte_create_if_block(ctx) {
             let div2;
             let div0;
@@ -220370,14 +223012,14 @@ setTimeout(() => {
             };
         }
 
-        // (82:5) {#each rewards as reward}
+        // (115:5) {#each rewards as reward}
         function npc_dialog_index_svelte_create_each_block(ctx) {
             let div1;
             let img;
             let img_src_value;
             let t0;
             let div0;
-            let t1_value = /*reward*/ ctx[10].name + "";
+            let t1_value = /*reward*/ ctx[12].name + "";
             let t1;
             let t2;
 
@@ -220389,7 +223031,7 @@ setTimeout(() => {
                     div0 = dom_element("div");
                     t1 = dom_text(t1_value);
                     t2 = dom_space();
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[10].image}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[12].image}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward");
                     dom_attr(img, "class", "npc-dialog__reward-image");
                     dom_attr(div0, "class", "npc-dialog__reward-name");
@@ -220404,11 +223046,11 @@ setTimeout(() => {
                     dom_append(div1, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[10].image}.webp`)) {
+                    if (dirty & /*rewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[12].image}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if (dirty & /*rewards*/ 2 && t1_value !== (t1_value = /*reward*/ ctx[10].name + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*rewards*/ 2 && t1_value !== (t1_value = /*reward*/ ctx[12].name + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -220432,6 +223074,8 @@ setTimeout(() => {
             let div2;
             let t3;
             let show_if = !(0, lodash.isEmpty)( /*rewards*/ ctx[1]);
+            let mounted;
+            let dispose;
             let if_block0 = show_if_2 && npc_dialog_index_svelte_create_if_block_3(ctx);
             let if_block1 = show_if_1 && npc_dialog_index_svelte_create_if_block_2(ctx);
             let each_value_1 = each_ensure_array_like( /*dialogData*/ ctx[0].keyboard || []);
@@ -220491,6 +223135,11 @@ setTimeout(() => {
 
                     dom_append(div3, t3);
                     if (if_block2) if_block2.m(div3, null);
+
+                    if (!mounted) {
+                        dispose = dom_listen(window, "keydown", /*onEnterConfirm*/ ctx[4]);
+                        mounted = true;
+                    }
                 },
                 p(ctx, [dirty]) {
                     if (dirty & /*dialogData*/ 1) show_if_2 = !(0, lodash.isEmpty)( /*dialogData*/ ctx[0].title);
@@ -220525,7 +223174,7 @@ setTimeout(() => {
 
                     if (dirty & /*dialogData*/ 1 && raw_value !== (raw_value = /*dialogData*/ ctx[0].text + "")) div0.innerHTML = raw_value;;
 
-                    if (dirty & /*dialogData, sendAnswer*/ 5) {
+                    if (dirty & /*dialogData, selectedAnswerId, sendAnswer*/ 13) {
                         each_value_1 = each_ensure_array_like( /*dialogData*/ ctx[0].keyboard || []);
                         let i;
 
@@ -220582,6 +223231,8 @@ setTimeout(() => {
                     if (if_block1) if_block1.d();
                     destroy_each(each_blocks, detaching);
                     if (if_block2) if_block2.d();
+                    mounted = false;
+                    dispose();
                 }
             };
         }
@@ -220590,6 +223241,7 @@ setTimeout(() => {
             let dialogData = {};
             let rewards = [];
             let disabledButtons = false;
+            let selectedAnswerId = 0;
 
             const initializeDialog = data => {
                 $$invalidate(0, dialogData = data);
@@ -220613,6 +223265,35 @@ setTimeout(() => {
                 disabledButtons = true;
             };
 
+            const onEnterConfirm = event => {
+                if (disabledButtons) return;
+                const buttons = dialogData.keyboard.flat();
+
+                if (buttons.length === 1 && event.keyCode === 13) {
+                    sendAnswer(buttons[0].id);
+                }
+
+                if (buttons.length > 1) {
+                    if (event.keyCode === 9) {
+                        // Tab
+                        event.preventDefault();
+
+                        const currentIndex = buttons.findIndex(a => a.id === selectedAnswerId);
+                        const nextIndex = (currentIndex + 1) % buttons.length;
+                        $$invalidate(2, selectedAnswerId = buttons[nextIndex].id);
+                    }
+
+                    if (event.keyCode === 13) {
+                        // Enter
+                        const selectedButton = buttons.find(a => a.id === selectedAnswerId);
+
+                        if (selectedButton) {
+                            sendAnswer(selectedButton.id);
+                        }
+                    }
+                }
+            };
+
             const close = () => {
                 cef_sendClientMessage('close.npcDialog');
             };
@@ -220623,7 +223304,15 @@ setTimeout(() => {
             });
 
             const click_handler = answer => sendAnswer(answer.id);
-            return [dialogData, rewards, sendAnswer, click_handler];
+
+            return [
+                dialogData,
+                rewards,
+                selectedAnswerId,
+                sendAnswer,
+                onEnterConfirm,
+                click_handler
+            ];
         }
 
         class Npc_dialog extends Component_SvelteComponent {
@@ -230288,7 +232977,7 @@ setTimeout(() => {
 
         function task_item_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[4] = list[i];
+            child_ctx[5] = list[i];
             return child_ctx;
         }
 
@@ -230410,7 +233099,7 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     if (dirty & /*task*/ 1 && t0_value !== (t0_value = /*task*/ ctx[0].description + "")) dom_set_data(t0, t0_value);
 
-                    if (dirty & /*task*/ 1) {
+                    if (dirty & /*task, $ITEMS*/ 9) {
                         each_value = each_ensure_array_like( /*task*/ ctx[0].redwards);
                         let i;
 
@@ -230478,7 +233167,7 @@ setTimeout(() => {
             let img_src_value;
             let t0;
             let div;
-            let t1_value = ITEMS[ /*reward*/ ctx[4].item].name + "";
+            let t1_value = /*$ITEMS*/ ctx[3][ /*reward*/ ctx[5].item].name + "";
             let t1;
 
             return {
@@ -230487,7 +233176,7 @@ setTimeout(() => {
                     t0 = dom_space();
                     div = dom_element("div");
                     t1 = dom_text(t1_value);
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[4].item}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[5].item}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward");
                     dom_attr(img, "class", "work-record-item__reward-image");
                     dom_attr(div, "class", "work-record-item__reward-name");
@@ -230499,11 +233188,11 @@ setTimeout(() => {
                     dom_append(div, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*task*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[4].item}.webp`)) {
+                    if (dirty & /*task*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[5].item}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if (dirty & /*task*/ 1 && t1_value !== (t1_value = ITEMS[ /*reward*/ ctx[4].item].name + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*$ITEMS, task*/ 9 && t1_value !== (t1_value = /*$ITEMS*/ ctx[3][ /*reward*/ ctx[5].item].name + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -230521,7 +233210,7 @@ setTimeout(() => {
             let img_src_value;
             let t0;
             let div;
-            let t1_value = formatMoney( /*reward*/ ctx[4].amount) + "";
+            let t1_value = formatMoney( /*reward*/ ctx[5].amount) + "";
             let t1;
 
             return {
@@ -230542,7 +233231,7 @@ setTimeout(() => {
                     dom_append(div, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*task*/ 1 && t1_value !== (t1_value = formatMoney( /*reward*/ ctx[4].amount) + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*task*/ 1 && t1_value !== (t1_value = formatMoney( /*reward*/ ctx[5].amount) + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -230562,7 +233251,7 @@ setTimeout(() => {
 
             function select_block_type_1(ctx, dirty) {
                 if (dirty & /*task*/ 1) show_if = null;
-                if (show_if == null) show_if = !!(0, lodash.isNil)( /*reward*/ ctx[4].item);
+                if (show_if == null) show_if = !!(0, lodash.isNil)( /*reward*/ ctx[5].item);
                 if (show_if) return task_item_index_svelte_create_if_block_2;
                 return task_item_index_svelte_create_else_block;
             }
@@ -230621,7 +233310,7 @@ setTimeout(() => {
                     dom_insert(target, div, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(div, "click", stop_propagation( /*click_handler*/ ctx[3]));
+                        dispose = dom_listen(div, "click", stop_propagation( /*click_handler*/ ctx[4]));
                         mounted = true;
                     }
                 },
@@ -230807,6 +233496,8 @@ setTimeout(() => {
         }
 
         function task_item_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $ITEMS;
+            utils_component_subscribe($$self, ITEMS, $$value => $$invalidate(3, $ITEMS = $$value));
             let {
                 task = {}
             } = $$props;
@@ -230824,7 +233515,7 @@ setTimeout(() => {
                 if ('onClick' in $$props) $$invalidate(2, onClick = $$props.onClick);
             };
 
-            return [task, expanded, onClick, click_handler];
+            return [task, expanded, onClick, $ITEMS, click_handler];
         }
 
         class Task_item extends Component_SvelteComponent {
@@ -246284,7 +248975,7 @@ setTimeout(() => {
 
         /* harmony default export */
         const views_container_content_index_svelte = (index_svelte_Container_content);; // CONCATENATED MODULE: ./src/views/inventory/constants.js
-        var _MAP_BIT_TO_REQUEST_I, _MAP_WAREHOUSE_TO_NAM, _MAP_ACTION_TO_NAME, _MAP_ACTION_TO_ICON, _MAP_ITEM_TYPE_TO_DES, _MAP_ITEM_TYPE_TO_ICO, _MAP_ITEM_TYPE_TO_NAM;
+        var _MAP_BIT_TO_REQUEST_I, _INVENTORY_TO_SORT, _MAP_WAREHOUSE_TO_NAM, _MAP_ACTION_TO_NAME, _MAP_ACTION_TO_ICON, _MAP_ITEM_TYPE_TO_DES, _MAP_ITEM_TYPE_TO_ICO, _MAP_ITEM_TYPE_TO_NAM;
 
         function inventory_constants_typeof(o) {
             "@babel/helpers - typeof";
@@ -246529,6 +249220,7 @@ setTimeout(() => {
         var MAP_BIT_TO_REQUEST_ID = (_MAP_BIT_TO_REQUEST_I = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_BIT_TO_REQUEST_I, BUTTONS_BITS.Inventory, VIEW_IDS.Character), BUTTONS_BITS.Security, VIEW_IDS.Security), BUTTONS_BITS.CarInventory, VIEW_IDS.Vehicle), BUTTONS_BITS.Chest, BLOCK_TYPE.BLOCK_TYPE_CHEST), BUTTONS_BITS.HotelRoom, BLOCK_TYPE.BLOCK_TYPE_HOTEL_ROOM), BUTTONS_BITS.Trunk, BLOCK_TYPE.BLOCK_TYPE_TRUNK), BUTTONS_BITS.FamFlat, BLOCK_TYPE.BLOCK_TYPE_FAM_FLAT), BUTTONS_BITS.House, BLOCK_TYPE.BLOCK_TYPE_HOUSE), BUTTONS_BITS.Trailer, BLOCK_TYPE.BLOCK_TYPE_TRAILER), BUTTONS_BITS.Storehouse, BLOCK_TYPE.BLOCK_TYPE_STOREHOUSE), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_BIT_TO_REQUEST_I, BUTTONS_BITS.Pawnshop, BLOCK_TYPE.BLOCK_TYPE_PAWNSHOP), BUTTONS_BITS.Trash, BLOCK_TYPE.BLOCK_TYPE_TRASH), BUTTONS_BITS.TrashBag, BLOCK_TYPE.BLOCK_TYPE_TRASH_BAG), BUTTONS_BITS.SocialHouse, BLOCK_TYPE.BLOCK_TYPE_SOCIAL_HOUSE));
         var SECURITY_STUFF = [BLOCK_TYPE.BLOCK_TYPE_ACTOR_ATTACH, BLOCK_TYPE.BLOCK_TYPE_ACTOR_WEAPON, BLOCK_TYPE.BLOCK_TYPE_ACTOR_INVENTORY];
         var WAREHOUSES = [BLOCK_TYPE.BLOCK_TYPE_CHEST, BLOCK_TYPE.BLOCK_TYPE_HOUSE, BLOCK_TYPE.BLOCK_TYPE_STOREHOUSE, BLOCK_TYPE.BLOCK_TYPE_PAWNSHOP, BLOCK_TYPE.BLOCK_TYPE_TRAILER, BLOCK_TYPE.BLOCK_TYPE_TRASH, BLOCK_TYPE.BLOCK_TYPE_TRUNK, BLOCK_TYPE.BLOCK_TYPE_HOTEL_ROOM, BLOCK_TYPE.BLOCK_TYPE_FAM_FLAT, BLOCK_TYPE.BLOCK_TYPE_TRASH_BAG, BLOCK_TYPE.BLOCK_TYPE_ADMIN_FUND, BLOCK_TYPE.BLOCK_TYPE_FAM_HOUSE, BLOCK_TYPE.BLOCK_TYPE_SOCIAL_HOUSE];
+        var INVENTORY_TO_SORT = (_INVENTORY_TO_SORT = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_INVENTORY_TO_SORT, BLOCK_TYPE.BLOCK_TYPE_CHEST, true), BLOCK_TYPE.BLOCK_TYPE_HOUSE, true), BLOCK_TYPE.BLOCK_TYPE_STOREHOUSE, true), BLOCK_TYPE.BLOCK_TYPE_PAWNSHOP, true), BLOCK_TYPE.BLOCK_TYPE_TRAILER, true), BLOCK_TYPE.BLOCK_TYPE_TRASH, true), BLOCK_TYPE.BLOCK_TYPE_TRUNK, true), BLOCK_TYPE.BLOCK_TYPE_HOTEL_ROOM, true), BLOCK_TYPE.BLOCK_TYPE_FAM_FLAT, true), BLOCK_TYPE.BLOCK_TYPE_TRASH_BAG, true), inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_INVENTORY_TO_SORT, BLOCK_TYPE.BLOCK_TYPE_ADMIN_FUND, true), BLOCK_TYPE.BLOCK_TYPE_FAM_HOUSE, true), BLOCK_TYPE.BLOCK_TYPE_SOCIAL_HOUSE, true));
         var BAGS = [BLOCK_TYPE.BLOCK_TYPE_WALLET, BLOCK_TYPE.BLOCK_TYPE_FISHBAG];
         var MAP_WAREHOUSE_TO_NAME = (_MAP_WAREHOUSE_TO_NAM = {}, inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_WAREHOUSE_TO_NAM, BLOCK_TYPE.BLOCK_TYPE_CHEST, 'Шкаф'), BLOCK_TYPE.BLOCK_TYPE_HOTEL_ROOM, 'Шкаф'), BLOCK_TYPE.BLOCK_TYPE_HOUSE, 'Шкаф'), BLOCK_TYPE.BLOCK_TYPE_FAM_FLAT, 'Шкаф'), BLOCK_TYPE.BLOCK_TYPE_STOREHOUSE, 'Шкаф'), BLOCK_TYPE.BLOCK_TYPE_PAWNSHOP, 'Шкаф'), BLOCK_TYPE.BLOCK_TYPE_TRAILER, 'Шкаф'), BLOCK_TYPE.BLOCK_TYPE_TRASH, 'Мусорка'), BLOCK_TYPE.BLOCK_TYPE_TRUNK, 'Багажник'), BLOCK_TYPE.BLOCK_TYPE_TRASH_BAG, 'Мусорный пакет'), inventory_constants_defineProperty(inventory_constants_defineProperty(_MAP_WAREHOUSE_TO_NAM, BLOCK_TYPE.BLOCK_TYPE_ADMIN_FUND, 'Хранилище админ фонда'), BLOCK_TYPE.BLOCK_TYPE_SOCIAL_HOUSE, 'Социальное жилье'));
         var MAP_BAG_TO_NAME = inventory_constants_defineProperty(inventory_constants_defineProperty({}, BLOCK_TYPE.BLOCK_TYPE_WALLET, 'Бумажник'), BLOCK_TYPE.BLOCK_TYPE_FISHBAG, 'Рюкзак рыболова');
@@ -246779,6 +249471,8 @@ setTimeout(() => {
         var workShopColorItemNeedAmount = store_writable(undefined);
         var workShopEnchantStuffNeedAmount = store_writable(undefined);
         var store_searchQuery = store_writable("");
+        var mapInvSlotToIndex = store_writable({});
+        var autoSortedInvIds = store_writable({});
         var calculateTime = function calculateTime(targetTime) {
             if (targetTime <= 0) {
                 return '';
@@ -246792,14 +249486,29 @@ setTimeout(() => {
                 return "".concat((Math.floor(diff.asHours()) % 24).toString().padStart(2, '0'), ":").concat((Math.floor(diff.asMinutes()) % 60).toString().padStart(2, '0'), ":").concat((Math.floor(diff.asSeconds()) % 60).toString().padStart(2, '0'));
             }
         };
+        var inventorySortFunc = function inventorySortFunc(a, b) {
+            var aHasItem = a.item != null;
+            var bHasItem = b.item != null;
+            if (!aHasItem && !bHasItem) {
+                return 0;
+            };
+            if (!aHasItem) {
+                return 1;
+            };
+            if (!bHasItem) {
+                return -1;
+            };
+            return a.item - b.item;
+        };
         var store_setInventory = function setInventory(itemsDto) {
+            var allItems = get_store_value(ITEMS);
             itemsDto.items.forEach(function(item, index) {
                 if (!(0, lodash.isNil)(item.item)) {
-                    if (!(0, lodash.isNil)(ITEMS[item.item])) {
-                        itemsDto.items[index].name = ITEMS[item.item].name;
-                        itemsDto.items[index].item_type = ITEMS[item.item].type;
-                        itemsDto.items[index].acs_slot = ITEMS[item.item].acs_slot;
-                        itemsDto.items[index].active = ITEMS[item.item].active;
+                    if (!(0, lodash.isNil)(allItems[item.item])) {
+                        itemsDto.items[index].name = allItems[item.item].name;
+                        itemsDto.items[index].item_type = allItems[item.item].type;
+                        itemsDto.items[index].acs_slot = allItems[item.item].acs_slot;
+                        itemsDto.items[index].active = allItems[item.item].active;
                     }
                     if ((0, lodash.isNil)(item.background)) {
                         item.background = null;
@@ -246880,12 +249589,26 @@ setTimeout(() => {
                     });
                 });
             }
+            if (INVENTORY_TO_SORT[itemsDto.type]) {
+                var cachedInvSlotToIndex = get_store_value(mapInvSlotToIndex);
+                var cachedautoSortedInvIds = get_store_value(autoSortedInvIds);
+                if (cachedInvSlotToIndex[itemsDto.type] && cachedautoSortedInvIds[itemsDto.type]) {
+                    cache[itemsDto.type].sort(inventorySortFunc);
+                    cachedInvSlotToIndex[itemsDto.type] = cache[itemsDto.type].reduce(function(res, item, index) {
+                        res[item.slot] = index;
+                        return res;
+                    }, {});
+                    mapInvSlotToIndex.set(cachedInvSlotToIndex);
+                }
+            }
             store_inventories.set(cache);
         };
         var store_commitChanges = function commitChanges(changesDto) {
             var cache = get_store_value(store_inventories);
             var itemsInIntervalCache = get_store_value(itemsInInterval);
             var curSelectedInventoryShopType = get_store_value(selectedInventoryShopType);
+            var allItems = get_store_value(ITEMS);
+            var cachedInvSlotToIndex = get_store_value(mapInvSlotToIndex);
             if (!SECURITY_STUFF.includes(changesDto.type)) {
                 var updatedSlotsCache = get_store_value(updatedSlots);
                 var curUpdateSlots = inventory_store_toConsumableArray(updatedSlotsCache);
@@ -246893,10 +249616,11 @@ setTimeout(() => {
                     var intervalItemIndex = itemsInIntervalCache.findIndex(function(intervalItem) {
                         return item.slot === intervalItem.slotId && changesDto.type === intervalItem.inventoryId;
                     });
+                    var slotIndex = cachedInvSlotToIndex[changesDto.type] ? cachedInvSlotToIndex[changesDto.type][item.slot] : item.slot;
                     if ((0, lodash.isNil)(item.item)) {
-                        cache[changesDto.type][item.slot] = item;
-                        cache[changesDto.type][item.slot].available = changesDto.type === BLOCK_TYPE.BLOCK_TYPE_FOR_TRADE ? 0 : 1;
-                        cache[changesDto.type][item.slot].blackout = 0;
+                        cache[changesDto.type][slotIndex] = item;
+                        cache[changesDto.type][slotIndex].available = changesDto.type === BLOCK_TYPE.BLOCK_TYPE_FOR_TRADE ? 0 : 1;
+                        cache[changesDto.type][slotIndex].blackout = 0;
                     } else {
                         if (!(0, lodash.isNil)(item.time) && item.time > 0 && intervalItemIndex < 0) {
                             var timeLeft = item.time - Math.floor(Date.now() / 1000);
@@ -246905,7 +249629,7 @@ setTimeout(() => {
                                 guardId: -1,
                                 inventoryId: changesDto.type,
                                 item: item.item,
-                                slotId: item.slot,
+                                slotId: slotIndex,
                                 time: item.time,
                                 timeDifference: timeLeft
                             });
@@ -246918,15 +249642,15 @@ setTimeout(() => {
                         if ((0, lodash.isNil)(item.background)) {
                             item.background = null;
                         }
-                        cache[changesDto.type][item.slot].name = ITEMS[item.item].name;
-                        cache[changesDto.type][item.slot].item_type = ITEMS[item.item].type;
-                        cache[changesDto.type][item.slot].acs_slot = ITEMS[item.item].acs_slot;
-                        cache[changesDto.type][item.slot].active = ITEMS[item.item].active;
+                        cache[changesDto.type][slotIndex].name = allItems[item.item].name;
+                        cache[changesDto.type][slotIndex].item_type = allItems[item.item].type;
+                        cache[changesDto.type][slotIndex].acs_slot = allItems[item.item].acs_slot;
+                        cache[changesDto.type][slotIndex].active = allItems[item.item].active;
                         if (get_store_value(isLavka)) {
                             cache[changesDto.type].forEach(function(cacheItem) {
-                                if (item.slot === cacheItem.slot) {
-                                    cache[changesDto.type][item.slot] = inventory_store_objectSpread(inventory_store_objectSpread({}, cache[changesDto.type][item.slot]), item);
-                                    curUpdateSlots = [].concat(inventory_store_toConsumableArray(curUpdateSlots), [item.slot]);
+                                if (slotIndex === cacheItem.slot) {
+                                    cache[changesDto.type][slotIndex] = inventory_store_objectSpread(inventory_store_objectSpread({}, cache[changesDto.type][slotIndex]), item);
+                                    curUpdateSlots = [].concat(inventory_store_toConsumableArray(curUpdateSlots), [slotIndex]);
                                 } else if (!curUpdateSlots.includes(cacheItem.slot)) {
                                     if (curSelectedInventoryShopType === BLOCK_TYPE.BLOCK_TYPE_SHOP_SELL) {
                                         cache[changesDto.type][cacheItem.slot].available = 1;
@@ -246936,7 +249660,7 @@ setTimeout(() => {
                             });
                             updatedSlots.set(curUpdateSlots);
                         } else {
-                            cache[changesDto.type][item.slot] = inventory_store_objectSpread(inventory_store_objectSpread({}, cache[changesDto.type][item.slot]), item);
+                            cache[changesDto.type][slotIndex] = inventory_store_objectSpread(inventory_store_objectSpread({}, cache[changesDto.type][slotIndex]), item);
                         }
                     }
                     itemsInInterval.set(itemsInIntervalCache);
@@ -246972,10 +249696,10 @@ setTimeout(() => {
                             item.background = null;
                         }
                         cache[changesDto.type][item.id][item.slot] = inventory_store_objectSpread(inventory_store_objectSpread({}, cache[changesDto.type][item.id][item.slot]), item);
-                        cache[changesDto.type][item.id][item.slot].item_type = ITEMS[item.item].type;
-                        cache[changesDto.type][item.id][item.slot].acs_slot = ITEMS[item.item].acs_slot;
-                        cache[changesDto.type][item.id][item.slot].active = ITEMS[item.item].active;
-                        cache[changesDto.type][item.id][item.slot].name = ITEMS[item.item].name;
+                        cache[changesDto.type][item.id][item.slot].item_type = allItems[item.item].type;
+                        cache[changesDto.type][item.id][item.slot].acs_slot = allItems[item.item].acs_slot;
+                        cache[changesDto.type][item.id][item.slot].active = allItems[item.item].active;
+                        cache[changesDto.type][item.id][item.slot].name = allItems[item.item].name;
                     }
                     itemsInInterval.set(itemsInIntervalCache);
                 });
@@ -247051,12 +249775,13 @@ setTimeout(() => {
         var initializeCraftCategories = function initializeCraftCategories(craftData) {
             var categoriesCache = get_store_value(craftCategories);
             var curSelectedCategoryId = get_store_value(selectedCategoryId);
+            var allItems = get_store_value(ITEMS);
             craftData.categories.forEach(function(category) {
                 var itemsInfo = category.items.map(function(dataItem, index) {
                     var _dataItem = _slicedToArray(dataItem, 2),
                         id = _dataItem[0],
                         color = _dataItem[1];
-                    return inventory_store_objectSpread(inventory_store_objectSpread({}, ITEMS[id]), {}, {
+                    return inventory_store_objectSpread(inventory_store_objectSpread({}, allItems[id]), {}, {
                         background: !color || color === 0 ? 'rgba(51, 51, 51, 1)' : intToRGBA(color),
                         index: (0, lodash.isNil)(categoriesCache[category.category]) ? index : categoriesCache[category.category].items.length + index
                     });
@@ -247554,8 +250279,7 @@ setTimeout(() => {
         const drag_out_namespaceObject = __webpack_require__.p + "assets/6bcb91990045a387eb2a.mp3";; // CONCATENATED MODULE: ./src/views/inventory/audio/drag_in.mp3
         const drag_in_namespaceObject = __webpack_require__.p + "assets/3b9682037bca2fe29a83.mp3";; // CONCATENATED MODULE: ./src/views/inventory/audio/select-acs.wav
         const select_acs_namespaceObject = __webpack_require__.p + "assets/d14669e614ba3d144ed9.wav";; // CONCATENATED MODULE: ./src/views/inventory/audio/click.mp3
-        const inventory_audio_click_namespaceObject = __webpack_require__.p + "assets/f610408ed87c461157ec.mp3";; // CONCATENATED MODULE: ./src/views/inventory/audio/sort-item.wav
-        const sort_item_namespaceObject = __webpack_require__.p + "assets/598f1f02cd495855ee65.wav";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-info-button/index.svelte
+        const inventory_audio_click_namespaceObject = __webpack_require__.p + "assets/f610408ed87c461157ec.mp3";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-info-button/index.svelte
         /* src\views\inventory\components\inventory-info-button\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -247816,16 +250540,576 @@ setTimeout(() => {
         }
 
         /* harmony default export */
-        const inventory_info_button_index_svelte = (Inventory_info_button);; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-window/index.svelte
+        const inventory_info_button_index_svelte = (Inventory_info_button);; // CONCATENATED MODULE: ./src/views/inventory/audio/sort-item.wav
+        const sort_item_namespaceObject = __webpack_require__.p + "assets/598f1f02cd495855ee65.wav";; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-window/sort-button/index.svelte
+        /* src\views\inventory\components\inventory-window\sort-button\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+        function sort_button_index_svelte_get_each_context(ctx, list, i) {
+            const child_ctx = ctx.slice();
+            child_ctx[13] = list[i];
+            return child_ctx;
+        }
+
+        // (80:1) {:else}
+        function sort_button_index_svelte_create_else_block(ctx) {
+            let div3;
+            let div2;
+            let div0;
+            let ul;
+            let li;
+            let li_class_value;
+            let ul_class_value;
+            let t0;
+            let span;
+            let t2;
+            let div1;
+            let mounted;
+            let dispose;
+            let each_value = each_ensure_array_like( /*lines*/ ctx[5]);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = sort_button_index_svelte_create_each_block(sort_button_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            return {
+                c() {
+                    div3 = dom_element("div");
+                    div2 = dom_element("div");
+                    div0 = dom_element("div");
+                    ul = dom_element("ul");
+                    li = dom_element("li");
+                    t0 = dom_space();
+                    span = dom_element("span");
+                    span.textContent = "Автоматическая сортировка";
+                    t2 = dom_space();
+                    div1 = dom_element("div");
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        each_blocks[i].c();
+                    }
+
+                    dom_attr(li, "class", li_class_value = "sort_button__switcher_item " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                        'sort_button__switcher_item_on' :
+                        'sort_button__switcher_item_off'));
+
+                    dom_attr(ul, "class", ul_class_value = "sort_button__switcher " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                        'sort_button__switcher_on' :
+                        'sort_button__switcher_off'));
+
+                    dom_attr(span, "class", "sort_button__text_line");
+                    dom_attr(div0, "class", "sort_button__switcher_wrapper");
+                    dom_attr(div1, "class", "sort_button__text");
+                    dom_attr(div2, "class", "sort_button__context_inner");
+                    dom_attr(div3, "class", "sort_button__context");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div3, anchor);
+                    dom_append(div3, div2);
+                    dom_append(div2, div0);
+                    dom_append(div0, ul);
+                    dom_append(ul, li);
+                    dom_append(div0, t0);
+                    dom_append(div0, span);
+                    dom_append(div2, t2);
+                    dom_append(div2, div1);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div1, null);
+                        }
+                    }
+
+                    if (!mounted) {
+                        dispose = dom_listen(ul, "click", stop_propagation( /*onClickSwitcher*/ ctx[7]));
+                        mounted = true;
+                    }
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*$autoSortedInvIds, inventoryIdToSort*/ 20 && li_class_value !== (li_class_value = "sort_button__switcher_item " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                            'sort_button__switcher_item_on' :
+                            'sort_button__switcher_item_off'))) {
+                        dom_attr(li, "class", li_class_value);
+                    }
+
+                    if (dirty & /*$autoSortedInvIds, inventoryIdToSort*/ 20 && ul_class_value !== (ul_class_value = "sort_button__switcher " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                            'sort_button__switcher_on' :
+                            'sort_button__switcher_off'))) {
+                        dom_attr(ul, "class", ul_class_value);
+                    }
+
+                    if (dirty & /*lines*/ 32) {
+                        each_value = each_ensure_array_like( /*lines*/ ctx[5]);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = sort_button_index_svelte_get_each_context(ctx, each_value, i);
+
+                            if (each_blocks[i]) {
+                                each_blocks[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks[i] = sort_button_index_svelte_create_each_block(child_ctx);
+                                each_blocks[i].c();
+                                each_blocks[i].m(div1, null);
+                            }
+                        }
+
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
+                        }
+
+                        each_blocks.length = each_value.length;
+                    }
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div3);
+                    }
+
+                    destroy_each(each_blocks, detaching);
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        // (70:1) {#if inventoryIdToSort === BLOCK_TYPE.BLOCK_TYPE_MENU}
+        function sort_button_index_svelte_create_if_block(ctx) {
+            let if_block_anchor;
+            let current;
+            let if_block = /*hovered*/ ctx[3] && sort_button_index_svelte_create_if_block_1(ctx);
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    if_block_anchor = empty();
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    if ( /*hovered*/ ctx[3]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+
+                            if (dirty & /*hovered*/ 8) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = sort_button_index_svelte_create_if_block_1(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(if_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(if_block_anchor);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                }
+            };
+        }
+
+        // (99:5) {#each lines as line}
+        function sort_button_index_svelte_create_each_block(ctx) {
+            let span;
+
+            return {
+                c() {
+                    span = dom_element("span");
+                    span.textContent = `${/*line*/ ctx[13]}`;
+                    dom_attr(span, "class", "sort_button__text_line");
+                },
+                m(target, anchor) {
+                    dom_insert(target, span, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(span);
+                    }
+                }
+            };
+        }
+
+        // (71:2) {#if hovered}
+        function sort_button_index_svelte_create_if_block_1(ctx) {
+            let portal;
+            let current;
+
+            portal = new portal_index_svelte({
+                props: {
+                    $$slots: {
+                        default: [sort_button_index_svelte_create_default_slot]
+                    },
+                    $$scope: {
+                        ctx
+                    }
+                }
+            });
+
+            return {
+                c() {
+                    create_component(portal.$$.fragment);
+                },
+                m(target, anchor) {
+                    mount_component(portal, target, anchor);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const portal_changes = {};
+
+                    if (dirty & /*$$scope, left, top*/ 65539) {
+                        portal_changes.$$scope = {
+                            dirty,
+                            ctx
+                        };
+                    }
+
+                    portal.$set(portal_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(portal.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(portal.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    destroy_component(portal, detaching);
+                }
+            };
+        }
+
+        // (72:3) <Portal>
+        function sort_button_index_svelte_create_default_slot(ctx) {
+            let div3;
+            let div0;
+            let t0;
+            let div1;
+            let t2;
+            let div2;
+
+            return {
+                c() {
+                    div3 = dom_element("div");
+                    div0 = dom_element("div");
+                    t0 = dom_space();
+                    div1 = dom_element("div");
+                    div1.textContent = "Сортировка";
+                    t2 = dom_space();
+                    div2 = dom_element("div");
+                    dom_attr(div0, "class", "inventory-item__tooltip-arrow");
+                    dom_attr(div1, "class", "inventory-item__tooltip-name");
+                    dom_attr(div2, "class", "inventory-item__tooltip-background");
+                    dom_attr(div3, "class", "inventory-item__tooltip");
+                    set_style(div3, "left", /*left*/ ctx[0] + "px");
+                    set_style(div3, "top", /*top*/ ctx[1] + "px");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div3, anchor);
+                    dom_append(div3, div0);
+                    dom_append(div3, t0);
+                    dom_append(div3, div1);
+                    dom_append(div3, t2);
+                    dom_append(div3, div2);
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*left*/ 1) {
+                        set_style(div3, "left", /*left*/ ctx[0] + "px");
+                    }
+
+                    if (dirty & /*top*/ 2) {
+                        set_style(div3, "top", /*top*/ ctx[1] + "px");
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div3);
+                    }
+                }
+            };
+        }
+
+        function sort_button_index_svelte_create_fragment(ctx) {
+            let div1;
+            let div0;
+            let div0_id_value;
+            let div0_class_value;
+            let t;
+            let current_block_type_index;
+            let if_block;
+            let div1_class_value;
+            let current;
+            let mounted;
+            let dispose;
+            const if_block_creators = [sort_button_index_svelte_create_if_block, sort_button_index_svelte_create_else_block];
+            const if_blocks = [];
+
+            function select_block_type(ctx, dirty) {
+                if ( /*inventoryIdToSort*/ ctx[2] === BLOCK_TYPE.BLOCK_TYPE_MENU) return 0;
+                return 1;
+            }
+
+            current_block_type_index = select_block_type(ctx, -1);
+            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+
+            return {
+                c() {
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
+                    t = dom_space();
+                    if_block.c();
+
+                    dom_attr(div0, "id", div0_id_value = /*inventoryIdToSort*/ ctx[2] === BLOCK_TYPE.BLOCK_TYPE_MENU ?
+                        "inventory-sort" :
+                        null);
+
+                    dom_attr(div0, "class", div0_class_value = "sort_button__icon " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                        'sort_button__icon--white' :
+                        '') + " icon-refresh-arrows");
+
+                    dom_attr(div1, "class", div1_class_value = "sort_button " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                        'sort_button--green' :
+                        ''));
+                },
+                m(target, anchor) {
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
+                    dom_append(div1, t);
+                    if_blocks[current_block_type_index].m(div1, null);
+                    current = true;
+
+                    if (!mounted) {
+                        dispose = dom_listen(div0, "click", stop_propagation( /*sort*/ ctx[6]));
+                        mounted = true;
+                    }
+                },
+                p(ctx, [dirty]) {
+                    if (!current || dirty & /*inventoryIdToSort*/ 4 && div0_id_value !== (div0_id_value = /*inventoryIdToSort*/ ctx[2] === BLOCK_TYPE.BLOCK_TYPE_MENU ?
+                            "inventory-sort" :
+                            null)) {
+                        dom_attr(div0, "id", div0_id_value);
+                    }
+
+                    if (!current || dirty & /*$autoSortedInvIds, inventoryIdToSort*/ 20 && div0_class_value !== (div0_class_value = "sort_button__icon " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                            'sort_button__icon--white' :
+                            '') + " icon-refresh-arrows")) {
+                        dom_attr(div0, "class", div0_class_value);
+                    }
+
+                    let previous_block_index = current_block_type_index;
+                    current_block_type_index = select_block_type(ctx, dirty);
+
+                    if (current_block_type_index === previous_block_index) {
+                        if_blocks[current_block_type_index].p(ctx, dirty);
+                    } else {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_blocks[previous_block_index], 1, 1, () => {
+                            if_blocks[previous_block_index] = null;
+                        });
+
+                        transitions_check_outros();
+                        if_block = if_blocks[current_block_type_index];
+
+                        if (!if_block) {
+                            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
+                            if_block.c();
+                        } else {
+                            if_block.p(ctx, dirty);
+                        }
+
+                        transitions_transition_in(if_block, 1);
+                        if_block.m(div1, null);
+                    }
+
+                    if (!current || dirty & /*$autoSortedInvIds, inventoryIdToSort*/ 20 && div1_class_value !== (div1_class_value = "sort_button " + ( /*$autoSortedInvIds*/ ctx[4][ /*inventoryIdToSort*/ ctx[2]] ?
+                            'sort_button--green' :
+                            ''))) {
+                        dom_attr(div1, "class", div1_class_value);
+                    }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(if_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div1);
+                    }
+
+                    if_blocks[current_block_type_index].d();
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        function sort_button_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $mapInvSlotToIndex;
+            let $autoSortedInvIds;
+            let $inventories;
+            utils_component_subscribe($$self, mapInvSlotToIndex, $$value => $$invalidate(10, $mapInvSlotToIndex = $$value));
+            utils_component_subscribe($$self, autoSortedInvIds, $$value => $$invalidate(4, $autoSortedInvIds = $$value));
+            utils_component_subscribe($$self, store_inventories, $$value => $$invalidate(11, $inventories = $$value));
+            let {
+                movingAvailable = false
+            } = $$props;
+            let {
+                left = 0
+            } = $$props;
+            let {
+                top = 0
+            } = $$props;
+            let {
+                windowId = ''
+            } = $$props;
+            let {
+                inventoryIdToSort = ''
+            } = $$props;
+            let {
+                hovered = false
+            } = $$props;
+
+            let lines = [
+                'Применяет временную визуальную сортировку предметов.',
+                'Данная сортировка отображается только у вас.'
+            ];
+
+            const sortingAudio = new Audio(sort_item_namespaceObject);
+
+            const sort = () => {
+                $$invalidate(8, movingAvailable = false);
+
+                if (!inventoryIdToSort) {
+                    return;
+                }
+
+                if (inventoryIdToSort === BLOCK_TYPE.BLOCK_TYPE_MENU) {
+                    cef_sendClientMessage(MAP_WINDOW_ID_TO_SORT_ACTION[windowId]);
+                    return;
+                }
+
+                sortingAudio.play();
+                const sortedInventory = [...$inventories[inventoryIdToSort]].sort(inventorySortFunc);
+                utils_set_store_value(store_inventories, $inventories[inventoryIdToSort] = sortedInventory, $inventories);
+
+                utils_set_store_value(
+                    mapInvSlotToIndex,
+                    $mapInvSlotToIndex[inventoryIdToSort] = sortedInventory.reduce(
+                        (res, item, index) => {
+                            res[item.slot] = index;
+                            return res;
+                        }, {}
+                    ),
+                    $mapInvSlotToIndex
+                );
+            };
+
+            const onClickSwitcher = () => {
+                if (!$autoSortedInvIds[inventoryIdToSort]) {
+                    sort();
+                }
+
+                utils_set_store_value(autoSortedInvIds, $autoSortedInvIds[inventoryIdToSort] = !$autoSortedInvIds[inventoryIdToSort], $autoSortedInvIds);
+            };
+
+            onDestroy(() => {
+                if (!$autoSortedInvIds[inventoryIdToSort]) {
+                    utils_set_store_value(mapInvSlotToIndex, $mapInvSlotToIndex[inventoryIdToSort] = null, $mapInvSlotToIndex);
+                }
+            });
+
+            $$self.$$set = $$props => {
+                if ('movingAvailable' in $$props) $$invalidate(8, movingAvailable = $$props.movingAvailable);
+                if ('left' in $$props) $$invalidate(0, left = $$props.left);
+                if ('top' in $$props) $$invalidate(1, top = $$props.top);
+                if ('windowId' in $$props) $$invalidate(9, windowId = $$props.windowId);
+                if ('inventoryIdToSort' in $$props) $$invalidate(2, inventoryIdToSort = $$props.inventoryIdToSort);
+                if ('hovered' in $$props) $$invalidate(3, hovered = $$props.hovered);
+            };
+
+            return [
+                left,
+                top,
+                inventoryIdToSort,
+                hovered,
+                $autoSortedInvIds,
+                lines,
+                sort,
+                onClickSwitcher,
+                movingAvailable,
+                windowId
+            ];
+        }
+
+        class Sort_button extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+
+                Component_init(this, options, sort_button_index_svelte_instance, sort_button_index_svelte_create_fragment, utils_safe_not_equal, {
+                    movingAvailable: 8,
+                    left: 0,
+                    top: 1,
+                    windowId: 9,
+                    inventoryIdToSort: 2,
+                    hovered: 3
+                });
+            }
+        }
+
+        /* harmony default export */
+        const sort_button_index_svelte = (Sort_button);; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-window/index.svelte
         /* src\views\inventory\components\inventory-window\index.svelte generated by Svelte v4.2.8 */
 
 
         const {
             window: inventory_window_index_svelte_window_1
         } = globals;
-
-
-
 
 
 
@@ -247853,7 +251137,7 @@ setTimeout(() => {
             let current;
             let mounted;
             let dispose;
-            let if_block0 = /*infoButtonEnabled*/ ctx[12] && inventory_window_index_svelte_create_if_block_4(ctx);
+            let if_block0 = /*infoButtonEnabled*/ ctx[12] && inventory_window_index_svelte_create_if_block_3(ctx);
             let if_block1 = /*sortingButtonVisibility*/ ctx[11] && inventory_window_index_svelte_create_if_block_2(ctx);
             let if_block2 = /*exitButtonVisibility*/ ctx[10] && inventory_window_index_svelte_create_if_block_1(ctx);
 
@@ -247904,8 +251188,8 @@ setTimeout(() => {
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div4, "mouseup", /*stopMoving*/ ctx[21]),
-                            dom_listen(div4, "mousedown", stop_propagation( /*startMoving*/ ctx[20]))
+                            dom_listen(div4, "mouseup", /*stopMoving*/ ctx[22]),
+                            dom_listen(div4, "mousedown", stop_propagation( /*startMoving*/ ctx[21]))
                         ];
 
                         mounted = true;
@@ -247925,7 +251209,7 @@ setTimeout(() => {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
-                            if_block0 = inventory_window_index_svelte_create_if_block_4(ctx);
+                            if_block0 = inventory_window_index_svelte_create_if_block_3(ctx);
                             if_block0.c();
                             transitions_transition_in(if_block0, 1);
                             if_block0.m(div3, t4);
@@ -248007,8 +251291,8 @@ setTimeout(() => {
             };
         }
 
-        // (184:2) {#if infoButtonEnabled}
-        function inventory_window_index_svelte_create_if_block_4(ctx) {
+        // (174:2) {#if infoButtonEnabled}
+        function inventory_window_index_svelte_create_if_block_3(ctx) {
             let infobutton;
             let current;
             infobutton = new inventory_info_button_index_svelte({});
@@ -248036,187 +251320,56 @@ setTimeout(() => {
             };
         }
 
-        // (187:4) {#if sortingButtonVisibility}
+        // (177:2) {#if sortingButtonVisibility}
         function inventory_window_index_svelte_create_if_block_2(ctx) {
-            let i;
-            let t;
-            let if_block_anchor;
-            let current;
-            let mounted;
-            let dispose;
-            let if_block = /*hovered*/ ctx[17] && inventory_window_index_svelte_create_if_block_3(ctx);
-
-            return {
-                c() {
-                    i = dom_element("i");
-                    i.innerHTML = ``;
-                    t = dom_space();
-                    if (if_block) if_block.c();
-                    if_block_anchor = empty();
-                    dom_attr(i, "class", "inventory-window__header-control-sort icon-refresh-arrows");
-                    dom_attr(i, "id", "inventory-sort");
-                },
-                m(target, anchor) {
-                    dom_insert(target, i, anchor);
-                    dom_insert(target, t, anchor);
-                    if (if_block) if_block.m(target, anchor);
-                    dom_insert(target, if_block_anchor, anchor);
-                    current = true;
-
-                    if (!mounted) {
-                        dispose = dom_listen(i, "click", stop_propagation( /*sort*/ ctx[23]));
-                        mounted = true;
-                    }
-                },
-                p(ctx, dirty) {
-                    if ( /*hovered*/ ctx[17]) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
-
-                            if (dirty[0] & /*hovered*/ 131072) {
-                                transitions_transition_in(if_block, 1);
-                            }
-                        } else {
-                            if_block = inventory_window_index_svelte_create_if_block_3(ctx);
-                            if_block.c();
-                            transitions_transition_in(if_block, 1);
-                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
-                        }
-                    } else if (if_block) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block, 1, 1, () => {
-                            if_block = null;
-                        });
-
-                        transitions_check_outros();
-                    }
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    current = false;
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(i);
-                        dom_detach(t);
-                        dom_detach(if_block_anchor);
-                    }
-
-                    if (if_block) if_block.d(detaching);
-                    mounted = false;
-                    dispose();
-                }
-            };
-        }
-
-        // (193:6) {#if hovered}
-        function inventory_window_index_svelte_create_if_block_3(ctx) {
-            let portal;
+            let sortbutton;
             let current;
 
-            portal = new portal_index_svelte({
+            sortbutton = new sort_button_index_svelte({
                 props: {
-                    $$slots: {
-                        default: [inventory_window_index_svelte_create_default_slot]
-                    },
-                    $$scope: {
-                        ctx
-                    }
+                    inventoryIdToSort: /*inventoryIdToSort*/ ctx[14],
+                    movingAvailable: /*movingAvailable*/ ctx[16],
+                    left: /*left*/ ctx[19],
+                    top: /*top*/ ctx[20],
+                    windowId: /*windowId*/ ctx[2],
+                    hovered: /*hovered*/ ctx[18]
                 }
             });
 
             return {
                 c() {
-                    create_component(portal.$$.fragment);
+                    create_component(sortbutton.$$.fragment);
                 },
                 m(target, anchor) {
-                    mount_component(portal, target, anchor);
+                    mount_component(sortbutton, target, anchor);
                     current = true;
                 },
                 p(ctx, dirty) {
-                    const portal_changes = {};
-
-                    if (dirty[0] & /*left, top*/ 786432 | dirty[1] & /*$$scope*/ 8) {
-                        portal_changes.$$scope = {
-                            dirty,
-                            ctx
-                        };
-                    }
-
-                    portal.$set(portal_changes);
+                    const sortbutton_changes = {};
+                    if (dirty[0] & /*inventoryIdToSort*/ 16384) sortbutton_changes.inventoryIdToSort = /*inventoryIdToSort*/ ctx[14];
+                    if (dirty[0] & /*movingAvailable*/ 65536) sortbutton_changes.movingAvailable = /*movingAvailable*/ ctx[16];
+                    if (dirty[0] & /*left*/ 524288) sortbutton_changes.left = /*left*/ ctx[19];
+                    if (dirty[0] & /*top*/ 1048576) sortbutton_changes.top = /*top*/ ctx[20];
+                    if (dirty[0] & /*windowId*/ 4) sortbutton_changes.windowId = /*windowId*/ ctx[2];
+                    if (dirty[0] & /*hovered*/ 262144) sortbutton_changes.hovered = /*hovered*/ ctx[18];
+                    sortbutton.$set(sortbutton_changes);
                 },
                 i(local) {
                     if (current) return;
-                    transitions_transition_in(portal.$$.fragment, local);
+                    transitions_transition_in(sortbutton.$$.fragment, local);
                     current = true;
                 },
                 o(local) {
-                    transitions_transition_out(portal.$$.fragment, local);
+                    transitions_transition_out(sortbutton.$$.fragment, local);
                     current = false;
                 },
                 d(detaching) {
-                    destroy_component(portal, detaching);
+                    destroy_component(sortbutton, detaching);
                 }
             };
         }
 
-        // (194:8) <Portal>
-        function inventory_window_index_svelte_create_default_slot(ctx) {
-            let div3;
-            let div0;
-            let t0;
-            let div1;
-            let t2;
-            let div2;
-
-            return {
-                c() {
-                    div3 = dom_element("div");
-                    div0 = dom_element("div");
-                    t0 = dom_space();
-                    div1 = dom_element("div");
-                    div1.textContent = "Сортировка";
-                    t2 = dom_space();
-                    div2 = dom_element("div");
-                    dom_attr(div0, "class", "inventory-item__tooltip-arrow");
-                    dom_attr(div1, "class", "inventory-item__tooltip-name");
-                    dom_attr(div2, "class", "inventory-item__tooltip-background");
-                    dom_attr(div3, "class", "inventory-item__tooltip");
-                    set_style(div3, "left", /*left*/ ctx[18] + "px");
-                    set_style(div3, "top", /*top*/ ctx[19] + "px");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div3, anchor);
-                    dom_append(div3, div0);
-                    dom_append(div3, t0);
-                    dom_append(div3, div1);
-                    dom_append(div3, t2);
-                    dom_append(div3, div2);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*left*/ 262144) {
-                        set_style(div3, "left", /*left*/ ctx[18] + "px");
-                    }
-
-                    if (dirty[0] & /*top*/ 524288) {
-                        set_style(div3, "top", /*top*/ ctx[19] + "px");
-                    }
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div3);
-                    }
-                }
-            };
-        }
-
-        // (203:3) {#if exitButtonVisibility}
+        // (187:2) {#if exitButtonVisibility}
         function inventory_window_index_svelte_create_if_block_1(ctx) {
             let i;
             let mounted;
@@ -248259,8 +251412,8 @@ setTimeout(() => {
             let mounted;
             let dispose;
             let if_block = ! /*contextMenu*/ ctx[13] && inventory_window_index_svelte_create_if_block(ctx);
-            const default_slot_template = /*#slots*/ ctx[28].default;
-            const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[34], null);
+            const default_slot_template = /*#slots*/ ctx[29].default;
+            const default_slot = create_slot(default_slot_template, ctx, /*$$scope*/ ctx[28], null);
 
             return {
                 c() {
@@ -248283,16 +251436,16 @@ setTimeout(() => {
                     }
 
                     /*div_binding*/
-                    ctx[30](div);
+                    ctx[31](div);
                     current = true;
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(inventory_window_index_svelte_window_1, "click", /*click_handler*/ ctx[29]),
-                            dom_listen(inventory_window_index_svelte_window_1, "mousemove", /*moving*/ ctx[22]),
-                            dom_listen(div, "mouseenter", /*mouseenter_handler*/ ctx[31]),
-                            dom_listen(div, "mouseleave", /*mouseleave_handler*/ ctx[32]),
-                            dom_listen(div, "mousedown", /*mousedown_handler*/ ctx[33])
+                            dom_listen(inventory_window_index_svelte_window_1, "click", /*click_handler*/ ctx[30]),
+                            dom_listen(inventory_window_index_svelte_window_1, "mousemove", /*moving*/ ctx[23]),
+                            dom_listen(div, "mouseenter", /*mouseenter_handler*/ ctx[32]),
+                            dom_listen(div, "mouseleave", /*mouseleave_handler*/ ctx[33]),
+                            dom_listen(div, "mousedown", /*mousedown_handler*/ ctx[34])
                         ];
 
                         mounted = true;
@@ -248323,16 +251476,16 @@ setTimeout(() => {
                     }
 
                     if (default_slot) {
-                        if (default_slot.p && (!current || dirty[1] & /*$$scope*/ 8)) {
+                        if (default_slot.p && (!current || dirty[0] & /*$$scope*/ 268435456)) {
                             update_slot_base(
                                 default_slot,
                                 default_slot_template,
                                 ctx,
                                 /*$$scope*/
-                                ctx[34],
+                                ctx[28],
                                 !current ?
-                                get_all_dirty_from_scope( /*$$scope*/ ctx[34]) :
-                                get_slot_changes(default_slot_template, /*$$scope*/ ctx[34], dirty, null),
+                                get_all_dirty_from_scope( /*$$scope*/ ctx[28]) :
+                                get_slot_changes(default_slot_template, /*$$scope*/ ctx[28], dirty, null),
                                 null
                             );
                         }
@@ -248369,7 +251522,7 @@ setTimeout(() => {
                     if (if_block) if_block.d();
                     if (default_slot) default_slot.d(detaching);
                     /*div_binding*/
-                    ctx[30](null);
+                    ctx[31](null);
                     mounted = false;
                     utils_run_all(dispose);
                 }
@@ -248452,15 +251605,17 @@ setTimeout(() => {
             let {
                 contextMenu = false
             } = $$props;
-            const sortingAudio = new Audio(sort_item_namespaceObject);
+            let {
+                inventoryIdToSort = ""
+            } = $$props;
 
             const startMoving = () => {
                 onFocus();
-                $$invalidate(15, movingAvailable = true);
+                $$invalidate(16, movingAvailable = true);
             };
 
             const stopMoving = () => {
-                $$invalidate(15, movingAvailable = false);
+                $$invalidate(16, movingAvailable = false);
 
                 if (savedPositionsEnabled && windowHovered) {
                     const {
@@ -248507,19 +251662,12 @@ setTimeout(() => {
                 }
 
                 if (event.target && event.target.id === "inventory-sort") {
-                    $$invalidate(17, hovered = true);
-                    $$invalidate(18, left = event.clientX);
-                    $$invalidate(19, top = event.clientY);
+                    $$invalidate(18, hovered = true);
+                    $$invalidate(19, left = event.clientX);
+                    $$invalidate(20, top = event.clientY);
                 } else {
-                    $$invalidate(17, hovered = false);
+                    $$invalidate(18, hovered = false);
                 }
-            };
-
-            const sort = () => {
-                // sortingAudio.play();
-                $$invalidate(15, movingAvailable = false);
-
-                cef_sendClientMessage(MAP_WINDOW_ID_TO_SORT_ACTION[windowId]);
             };
 
             onMount(() => {
@@ -248568,17 +251716,17 @@ setTimeout(() => {
                 }
             });
 
-            const click_handler = () => $$invalidate(15, movingAvailable = false);
+            const click_handler = () => $$invalidate(16, movingAvailable = false);
 
             function div_binding($$value) {
                 binding_callbacks[$$value ? 'unshift' : 'push'](() => {
                     windowNode = $$value;
-                    $$invalidate(14, windowNode);
+                    $$invalidate(15, windowNode);
                 });
             }
 
-            const mouseenter_handler = () => $$invalidate(16, windowHovered = true);
-            const mouseleave_handler = () => $$invalidate(16, windowHovered = false);
+            const mouseenter_handler = () => $$invalidate(17, windowHovered = true);
+            const mouseleave_handler = () => $$invalidate(17, windowHovered = false);
             const mousedown_handler = () => onFocus();
 
             $$self.$$set = $$props => {
@@ -248599,7 +251747,8 @@ setTimeout(() => {
                 if ('sortingButtonVisibility' in $$props) $$invalidate(11, sortingButtonVisibility = $$props.sortingButtonVisibility);
                 if ('infoButtonEnabled' in $$props) $$invalidate(12, infoButtonEnabled = $$props.infoButtonEnabled);
                 if ('contextMenu' in $$props) $$invalidate(13, contextMenu = $$props.contextMenu);
-                if ('$$scope' in $$props) $$invalidate(34, $$scope = $$props.$$scope);
+                if ('inventoryIdToSort' in $$props) $$invalidate(14, inventoryIdToSort = $$props.inventoryIdToSort);
+                if ('$$scope' in $$props) $$invalidate(28, $$scope = $$props.$$scope);
             };
 
             $$self.$$.update = () => {
@@ -248612,7 +251761,7 @@ setTimeout(() => {
                     }
                 }
 
-                if ($$self.$$.dirty[0] & /*windowNode, windowLeft, windowTop*/ 16387) {
+                if ($$self.$$.dirty[0] & /*windowNode, windowLeft, windowTop*/ 32771) {
                     $: {
                         if (!(0, lodash.isNil)(windowNode)) {
                             const {
@@ -248657,6 +251806,7 @@ setTimeout(() => {
                 sortingButtonVisibility,
                 infoButtonEnabled,
                 contextMenu,
+                inventoryIdToSort,
                 windowNode,
                 movingAvailable,
                 windowHovered,
@@ -248666,18 +251816,17 @@ setTimeout(() => {
                 startMoving,
                 stopMoving,
                 moving,
-                sort,
                 centeredX,
                 centeredY,
                 savedPositionsEnabled,
                 $inventoryCurrentItem,
+                $$scope,
                 slots,
                 click_handler,
                 div_binding,
                 mouseenter_handler,
                 mouseleave_handler,
-                mousedown_handler,
-                $$scope
+                mousedown_handler
             ];
         }
 
@@ -248707,7 +251856,8 @@ setTimeout(() => {
                         exitButtonVisibility: 10,
                         sortingButtonVisibility: 11,
                         infoButtonEnabled: 12,
-                        contextMenu: 13
+                        contextMenu: 13,
+                        inventoryIdToSort: 14
                     },
                     null,
                     [-1, -1]
@@ -249360,7 +252510,6 @@ setTimeout(() => {
 
 
 
-
         const index_svelte_get_default_slot_changes_1 = dirty => ({
             item: dirty[0] & /*item*/ 1
         });
@@ -249381,7 +252530,7 @@ setTimeout(() => {
             empty: true
         });
 
-        // (603:0) {#if currentItemDragged && !disableItemDrag}
+        // (602:0) {#if currentItemDragged && !disableItemDrag}
         function components_inventory_item_hoc_index_svelte_create_if_block_1(ctx) {
             let portal;
             let current;
@@ -249432,7 +252581,7 @@ setTimeout(() => {
             };
         }
 
-        // (609:12) {#if $inventoryCurrentItem.dragAmount && $inventoryCurrentItem.dragAmount !== -1}
+        // (608:12) {#if $inventoryCurrentItem.dragAmount && $inventoryCurrentItem.dragAmount !== -1}
         function inventory_item_hoc_index_svelte_create_if_block_2(ctx) {
             let div;
             let t_value = /*$inventoryCurrentItem*/ ctx[7].dragAmount + "";
@@ -249459,7 +252608,7 @@ setTimeout(() => {
             };
         }
 
-        // (604:4) <Portal>
+        // (603:4) <Portal>
         function inventory_item_hoc_index_svelte_create_default_slot_1(ctx) {
             let div;
             let t;
@@ -249543,7 +252692,7 @@ setTimeout(() => {
             };
         }
 
-        // (616:0) {#if contextMenuForCurrentItemOpened && !isEmpty($infoData)}
+        // (615:0) {#if contextMenuForCurrentItemOpened && !isEmpty($infoData)}
         function components_inventory_item_hoc_index_svelte_create_if_block(ctx) {
             let div;
             let inventorywindow;
@@ -249628,7 +252777,7 @@ setTimeout(() => {
             };
         }
 
-        // (623:8) <InventoryWindow           savedPositionsEnabled={false}           headerStyle={'gold'}           onClose={() => contextMenuForCurrentItemOpened = false}           contextMenu           title={$inventoryCurrentItem.item.name}>
+        // (622:8) <InventoryWindow           savedPositionsEnabled={false}           headerStyle={'gold'}           onClose={() => contextMenuForCurrentItemOpened = false}           contextMenu           title={$inventoryCurrentItem.item.name}>
         function inventory_item_hoc_index_svelte_create_default_slot(ctx) {
             let info;
             let updating_informationLoaded;
@@ -250753,7 +253902,10 @@ setTimeout(() => {
             9683: whiteFire_namespaceObject,
             9684: whiteFire_namespaceObject,
             9738: whiteFire_namespaceObject,
-            9739: fire_namespaceObject
+            9739: fire_namespaceObject,
+            9719: whiteFire_namespaceObject,
+            9720: fire_namespaceObject,
+            9784: whiteFire_namespaceObject
         };; // CONCATENATED MODULE: ./src/views/inventory/components/inventory-item/index.svelte
         /* src\views\inventory\components\inventory-item\index.svelte generated by Svelte v4.2.8 */
 
@@ -252036,7 +255188,7 @@ setTimeout(() => {
                 props: {
                     item: /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]],
                     availableItemsIds: /*availableItemsIds*/ ctx[3],
-                    slotId: /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot || /*slotId*/ ctx[32],
+                    slotId: /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot ?? /*slotId*/ ctx[32],
                     withContextMenu: /*withContextMenu*/ ctx[4],
                     inventoryId: /*inventoryId*/ ctx[2],
                     disabled: /*disableAllItems*/ ctx[5],
@@ -252061,7 +255213,7 @@ setTimeout(() => {
                     const inventoryitem_changes = {};
                     if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.item = /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]];
                     if (dirty[0] & /*availableItemsIds*/ 8) inventoryitem_changes.availableItemsIds = /*availableItemsIds*/ ctx[3];
-                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.slotId = /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot || /*slotId*/ ctx[32];
+                    if (dirty[0] & /*actualItems*/ 65536) inventoryitem_changes.slotId = /*actualItems*/ ctx[16][ /*slotId*/ ctx[32]].slot ?? /*slotId*/ ctx[32];
                     if (dirty[0] & /*withContextMenu*/ 16) inventoryitem_changes.withContextMenu = /*withContextMenu*/ ctx[4];
                     if (dirty[0] & /*inventoryId*/ 4) inventoryitem_changes.inventoryId = /*inventoryId*/ ctx[2];
                     if (dirty[0] & /*disableAllItems*/ 32) inventoryitem_changes.disabled = /*disableAllItems*/ ctx[5];
@@ -258501,7 +261653,7 @@ setTimeout(() => {
             let img_src_value;
             let t2;
             let if_block2_anchor;
-            let if_block0 = show_if && create_if_block_17(ctx);
+            let if_block0 = show_if && index_svelte_create_if_block_17(ctx);
             let if_block1 = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*$enchantItem*/ ctx[4].item] && workshop_index_svelte_create_if_block_16(ctx);
             let if_block2 = /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[5] !== WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_15(ctx);
 
@@ -258536,7 +261688,7 @@ setTimeout(() => {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = create_if_block_17(ctx);
+                            if_block0 = index_svelte_create_if_block_17(ctx);
                             if_block0.c();
                             if_block0.m(t0.parentNode, t0);
                         }
@@ -258592,7 +261744,7 @@ setTimeout(() => {
         }
 
         // (452:8) {#if !isNil($enchantItem.color)}
-        function create_if_block_17(ctx) {
+        function index_svelte_create_if_block_17(ctx) {
             let div;
 
             return {
@@ -260380,35 +263532,37 @@ setTimeout(() => {
 
 
 
+
+
         function craft_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[48] = list[i];
-            child_ctx[50] = i;
+            child_ctx[49] = list[i];
+            child_ctx[51] = i;
             return child_ctx;
         }
 
         function craft_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[51] = list[i];
-            child_ctx[50] = i;
+            child_ctx[52] = list[i];
+            child_ctx[51] = i;
             return child_ctx;
         }
 
         function craft_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[51] = list[i];
-            child_ctx[50] = i;
+            child_ctx[52] = list[i];
+            child_ctx[51] = i;
             return child_ctx;
         }
 
         function craft_index_svelte_get_each_context_3(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[54] = list[i];
-            child_ctx[50] = i;
+            child_ctx[55] = list[i];
+            child_ctx[51] = i;
             return child_ctx;
         }
 
-        // (268:2) {#each Object.values($craftCategories) as category, index}
+        // (272:2) {#each Object.values($craftCategories) as category, index}
         function craft_index_svelte_create_each_block_3(ctx) {
             let div;
             let inventorybutton;
@@ -260416,16 +263570,16 @@ setTimeout(() => {
             let current;
 
             function func() {
-                return /*func*/ ctx[38]( /*category*/ ctx[54]);
+                return /*func*/ ctx[38]( /*category*/ ctx[55]);
             }
 
             inventorybutton = new inventory_button_index_svelte({
                 props: {
-                    text: MAP_ID_TO_CRAFT_CATEGORY_NAME[ /*category*/ ctx[54].category],
-                    color: /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[54].category ?
+                    text: MAP_ID_TO_CRAFT_CATEGORY_NAME[ /*category*/ ctx[55].category],
+                    color: /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[55].category ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    active: /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[54].category,
+                    active: /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[55].category,
                     onClick: func,
                     fontSize: 'medium'
                 }
@@ -260447,13 +263601,13 @@ setTimeout(() => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
                     const inventorybutton_changes = {};
-                    if (dirty[0] & /*$craftCategories*/ 4) inventorybutton_changes.text = MAP_ID_TO_CRAFT_CATEGORY_NAME[ /*category*/ ctx[54].category];
+                    if (dirty[0] & /*$craftCategories*/ 4) inventorybutton_changes.text = MAP_ID_TO_CRAFT_CATEGORY_NAME[ /*category*/ ctx[55].category];
 
-                    if (dirty[0] & /*$selectedCategoryId, $craftCategories*/ 6) inventorybutton_changes.color = /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[54].category ?
+                    if (dirty[0] & /*$selectedCategoryId, $craftCategories*/ 6) inventorybutton_changes.color = /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[55].category ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey;
 
-                    if (dirty[0] & /*$selectedCategoryId, $craftCategories*/ 6) inventorybutton_changes.active = /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[54].category;
+                    if (dirty[0] & /*$selectedCategoryId, $craftCategories*/ 6) inventorybutton_changes.active = /*$selectedCategoryId*/ ctx[1] === /*category*/ ctx[55].category;
                     if (dirty[0] & /*$craftCategories*/ 4) inventorybutton_changes.onClick = func;
                     inventorybutton.$set(inventorybutton_changes);
                 },
@@ -260476,8 +263630,8 @@ setTimeout(() => {
             };
         }
 
-        // (297:28) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[actualData[index].id]}
-        function index_svelte_create_if_block_17(ctx) {
+        // (301:7) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[actualData[index].id]}
+        function craft_index_svelte_create_if_block_17(ctx) {
             let img;
             let img_src_value;
 
@@ -260485,14 +263639,14 @@ setTimeout(() => {
                 c() {
                     img = dom_element("img");
                     dom_attr(img, "class", "inventory-item__animated-background");
-                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[50]].id])) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[51]].id])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "effect");
                 },
                 m(target, anchor) {
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 262144 && !utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[50]].id])) {
+                    if (dirty[0] & /*actualData*/ 262144 && !utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[51]].id])) {
                         dom_attr(img, "src", img_src_value);
                     }
                 },
@@ -260504,27 +263658,71 @@ setTimeout(() => {
             };
         }
 
-        // (289:4) {#each actualData as item, index}
+        // (308:7) {#key actualData[index].id}
+        function create_key_block_2(ctx) {
+            let imagewithfallback;
+            let current;
+
+            imagewithfallback = new imageWithFallback_index_svelte({
+                props: {
+                    useLoader: true,
+                    src: `${CDN_URL}/assets/images/donate/${/*actualData*/ ctx[18][/*index*/ ctx[51]].id}.webp`,
+                    alt: "craft-item",
+                    class: "craft__item-image",
+                    fallbackImageUrl: question_placeholder_namespaceObject
+                }
+            });
+
+            return {
+                c() {
+                    create_component(imagewithfallback.$$.fragment);
+                },
+                m(target, anchor) {
+                    mount_component(imagewithfallback, target, anchor);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const imagewithfallback_changes = {};
+                    if (dirty[0] & /*actualData*/ 262144) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*actualData*/ ctx[18][/*index*/ ctx[51]].id}.webp`;
+                    imagewithfallback.$set(imagewithfallback_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(imagewithfallback.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(imagewithfallback.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    destroy_component(imagewithfallback, detaching);
+                }
+            };
+        }
+
+        // (293:4) {#each actualData as item, index}
         function craft_index_svelte_create_each_block_2(ctx) {
             let div3;
             let div1;
             let div0;
             let t0;
             let t1;
-            let img;
-            let img_src_value;
+            let previous_key = /*actualData*/ ctx[18][ /*index*/ ctx[51]].id;
             let t2;
             let div2;
-            let t3_value = /*item*/ ctx[51].name + "";
+            let t3_value = /*item*/ ctx[52].name + "";
             let t3;
             let t4;
             let div3_class_value;
+            let current;
             let mounted;
             let dispose;
-            let if_block = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[50]].id] && index_svelte_create_if_block_17(ctx);
+            let if_block = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[51]].id] && craft_index_svelte_create_if_block_17(ctx);
+            let key_block = create_key_block_2(ctx);
 
             function click_handler() {
-                return /*click_handler*/ ctx[39]( /*item*/ ctx[51]);
+                return /*click_handler*/ ctx[39]( /*item*/ ctx[52]);
             }
 
             return {
@@ -260535,20 +263733,17 @@ setTimeout(() => {
                     t0 = dom_space();
                     if (if_block) if_block.c();
                     t1 = dom_space();
-                    img = dom_element("img");
+                    key_block.c();
                     t2 = dom_space();
                     div2 = dom_element("div");
                     t3 = dom_text(t3_value);
                     t4 = dom_space();
                     dom_attr(div0, "class", "inventory-item__gradient");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*actualData*/ ctx[18][/*index*/ ctx[50]].id}.webp`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "alt", "craft-item");
-                    dom_attr(img, "class", "craft__item-image");
                     dom_attr(div1, "class", "inventory-item craft__item-image-wrapper");
-                    set_style(div1, "background-color", /*item*/ ctx[51].background);
+                    set_style(div1, "background-color", /*item*/ ctx[52].background);
                     dom_attr(div2, "class", "craft__item-name");
-                    dom_attr(div3, "class", div3_class_value = "craft__item " + ( /*item*/ ctx[51].forceHide ? 'craft__item--hidden' : ''));
-                    dom_toggle_class(div3, "craft__item--active", /*selectedItem*/ ctx[17].index === /*item*/ ctx[51].index);
+                    dom_attr(div3, "class", div3_class_value = "craft__item " + ( /*item*/ ctx[52].forceHide ? 'craft__item--hidden' : ''));
+                    dom_toggle_class(div3, "craft__item--active", /*selectedItem*/ ctx[17].index === /*item*/ ctx[52].index);
                 },
                 m(target, anchor) {
                     dom_insert(target, div3, anchor);
@@ -260557,11 +263752,12 @@ setTimeout(() => {
                     dom_append(div1, t0);
                     if (if_block) if_block.m(div1, null);
                     dom_append(div1, t1);
-                    dom_append(div1, img);
+                    key_block.m(div1, null);
                     dom_append(div3, t2);
                     dom_append(div3, div2);
                     dom_append(div2, t3);
                     dom_append(div3, t4);
+                    current = true;
 
                     if (!mounted) {
                         dispose = dom_listen(div3, "click", click_handler);
@@ -260571,11 +263767,11 @@ setTimeout(() => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if (MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[50]].id]) {
+                    if (MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*actualData*/ ctx[18][ /*index*/ ctx[51]].id]) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
-                            if_block = index_svelte_create_if_block_17(ctx);
+                            if_block = craft_index_svelte_create_if_block_17(ctx);
                             if_block.c();
                             if_block.m(div1, t1);
                         }
@@ -260584,23 +263780,40 @@ setTimeout(() => {
                         if_block = null;
                     }
 
-                    if (dirty[0] & /*actualData*/ 262144 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*actualData*/ ctx[18][/*index*/ ctx[50]].id}.webp`)) {
-                        dom_attr(img, "src", img_src_value);
+                    if (dirty[0] & /*actualData*/ 262144 && utils_safe_not_equal(previous_key, previous_key = /*actualData*/ ctx[18][ /*index*/ ctx[51]].id)) {
+                        transitions_group_outros();
+                        transitions_transition_out(key_block, 1, 1, utils_noop);
+                        transitions_check_outros();
+                        key_block = create_key_block_2(ctx);
+                        key_block.c();
+                        transitions_transition_in(key_block, 1);
+                        key_block.m(div1, null);
+                    } else {
+                        key_block.p(ctx, dirty);
                     }
 
-                    if (dirty[0] & /*actualData*/ 262144) {
-                        set_style(div1, "background-color", /*item*/ ctx[51].background);
+                    if (!current || dirty[0] & /*actualData*/ 262144) {
+                        set_style(div1, "background-color", /*item*/ ctx[52].background);
                     }
 
-                    if (dirty[0] & /*actualData*/ 262144 && t3_value !== (t3_value = /*item*/ ctx[51].name + "")) dom_set_data(t3, t3_value);
+                    if ((!current || dirty[0] & /*actualData*/ 262144) && t3_value !== (t3_value = /*item*/ ctx[52].name + "")) dom_set_data(t3, t3_value);
 
-                    if (dirty[0] & /*actualData*/ 262144 && div3_class_value !== (div3_class_value = "craft__item " + ( /*item*/ ctx[51].forceHide ? 'craft__item--hidden' : ''))) {
+                    if (!current || dirty[0] & /*actualData*/ 262144 && div3_class_value !== (div3_class_value = "craft__item " + ( /*item*/ ctx[52].forceHide ? 'craft__item--hidden' : ''))) {
                         dom_attr(div3, "class", div3_class_value);
                     }
 
-                    if (dirty[0] & /*actualData, selectedItem, actualData*/ 393216) {
-                        dom_toggle_class(div3, "craft__item--active", /*selectedItem*/ ctx[17].index === /*item*/ ctx[51].index);
+                    if (!current || dirty[0] & /*actualData, selectedItem, actualData*/ 393216) {
+                        dom_toggle_class(div3, "craft__item--active", /*selectedItem*/ ctx[17].index === /*item*/ ctx[52].index);
                     }
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(key_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(key_block);
+                    current = false;
                 },
                 d(detaching) {
                     if (detaching) {
@@ -260608,13 +263821,14 @@ setTimeout(() => {
                     }
 
                     if (if_block) if_block.d();
+                    key_block.d(detaching);
                     mounted = false;
                     dispose();
                 }
             };
         }
 
-        // (312:3) {#if !isNil($additionalInfo.needs)}
+        // (324:3) {#if !isNil($additionalInfo.needs)}
         function craft_index_svelte_create_if_block_1(ctx) {
             let t;
             let show_if = !(0, lodash.isEmpty)( /*actualData*/ ctx[18]);
@@ -260697,7 +263911,7 @@ setTimeout(() => {
             };
         }
 
-        // (313:4) {#if craftAvailable}
+        // (325:4) {#if craftAvailable}
         function craft_index_svelte_create_if_block_14(ctx) {
             let div;
             let show_if;
@@ -260762,7 +263976,7 @@ setTimeout(() => {
             };
         }
 
-        // (319:6) {:else}
+        // (331:6) {:else}
         function craft_index_svelte_create_else_block_1(ctx) {
             let div;
             let div_transition;
@@ -260812,7 +264026,7 @@ setTimeout(() => {
             };
         }
 
-        // (317:29) 
+        // (329:29) 
         function craft_index_svelte_create_if_block_16(ctx) {
             let div;
             let div_transition;
@@ -260862,7 +264076,7 @@ setTimeout(() => {
             };
         }
 
-        // (315:6) {#if isNil($craftResult)}
+        // (327:6) {#if isNil($craftResult)}
         function craft_index_svelte_create_if_block_15(ctx) {
             let div;
             let div_transition;
@@ -260912,15 +264126,14 @@ setTimeout(() => {
             };
         }
 
-        // (324:4) {#if !isEmpty(actualData)}
+        // (336:4) {#if !isEmpty(actualData)}
         function craft_index_svelte_create_if_block_2(ctx) {
             let div4;
             let div1;
             let div0;
             let t0;
             let t1;
-            let img;
-            let img_src_value;
+            let previous_key = /*selectedItem*/ ctx[17];
             let t2;
             let div3;
             let div2;
@@ -260977,6 +264190,7 @@ setTimeout(() => {
             let mounted;
             let dispose;
             let if_block0 = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*selectedItem*/ ctx[17].id] && craft_index_svelte_create_if_block_13(ctx);
+            let key_block = index_svelte_create_key_block_1(ctx);
             let if_block1 = show_if && craft_index_svelte_create_if_block_12(ctx);
             let each_value_1 = each_ensure_array_like( /*$additionalInfo*/ ctx[3].needs);
             let each_blocks = [];
@@ -261009,7 +264223,7 @@ setTimeout(() => {
                     t0 = dom_space();
                     if (if_block0) if_block0.c();
                     t1 = dom_space();
-                    img = dom_element("img");
+                    key_block.c();
                     t2 = dom_space();
                     div3 = dom_element("div");
                     div2 = dom_element("div");
@@ -261070,9 +264284,6 @@ setTimeout(() => {
                     t29 = dom_space();
                     if_block3.c();
                     dom_attr(div0, "class", "inventory-item__gradient");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*selectedItem*/ ctx[17].id}.webp`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "class", "craft__header-image");
-                    dom_attr(img, "alt", "ingridient");
                     dom_attr(div1, "class", "inventory-item craft__header-image__wrapper");
                     set_style(div1, "background-color", /*selectedItem*/ ctx[17].background);
                     dom_attr(div2, "class", "craft__header-title");
@@ -261107,7 +264318,7 @@ setTimeout(() => {
                     dom_append(div1, t0);
                     if (if_block0) if_block0.m(div1, null);
                     dom_append(div1, t1);
-                    dom_append(div1, img);
+                    key_block.m(div1, null);
                     dom_append(div4, t2);
                     dom_append(div4, div3);
                     dom_append(div3, div2);
@@ -261166,7 +264377,7 @@ setTimeout(() => {
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(img, "click", /*click_handler_1*/ ctx[40]),
+                            dom_listen(div1, "click", /*click_handler_1*/ ctx[40]),
                             dom_listen(div9, "click", stop_propagation( /*decreaseAmount*/ ctx[27])),
                             dom_listen(div11, "click", stop_propagation( /*increaseAmount*/ ctx[28])),
                             dom_listen(div12, "click", /*inputAmount*/ ctx[26])
@@ -261189,8 +264400,16 @@ setTimeout(() => {
                         if_block0 = null;
                     }
 
-                    if (!current || dirty[0] & /*selectedItem*/ 131072 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*selectedItem*/ ctx[17].id}.webp`)) {
-                        dom_attr(img, "src", img_src_value);
+                    if (dirty[0] & /*selectedItem*/ 131072 && utils_safe_not_equal(previous_key, previous_key = /*selectedItem*/ ctx[17])) {
+                        transitions_group_outros();
+                        transitions_transition_out(key_block, 1, 1, utils_noop);
+                        transitions_check_outros();
+                        key_block = index_svelte_create_key_block_1(ctx);
+                        key_block.c();
+                        transitions_transition_in(key_block, 1);
+                        key_block.m(div1, null);
+                    } else {
+                        key_block.p(ctx, dirty);
                     }
 
                     if (!current || dirty[0] & /*selectedItem*/ 131072) {
@@ -261285,6 +264504,7 @@ setTimeout(() => {
                 },
                 i(local) {
                     if (current) return;
+                    transitions_transition_in(key_block);
 
                     for (let i = 0; i < each_value_1.length; i += 1) {
                         transitions_transition_in(each_blocks[i]);
@@ -261294,6 +264514,7 @@ setTimeout(() => {
                     current = true;
                 },
                 o(local) {
+                    transitions_transition_out(key_block);
                     each_blocks = each_blocks.filter(Boolean);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
@@ -261313,6 +264534,7 @@ setTimeout(() => {
                     }
 
                     if (if_block0) if_block0.d();
+                    key_block.d(detaching);
                     if (if_block1) if_block1.d();
                     destroy_each(each_blocks, detaching);
                     if (if_block2) if_block2.d();
@@ -261323,7 +264545,7 @@ setTimeout(() => {
             };
         }
 
-        // (331:28) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[selectedItem.id]}
+        // (344:7) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[selectedItem.id]}
         function craft_index_svelte_create_if_block_13(ctx) {
             let img;
             let img_src_value;
@@ -261351,7 +264573,50 @@ setTimeout(() => {
             };
         }
 
-        // (346:7) {#if !isNil($additionalInfo.item_type)}
+        // (351:7) {#key selectedItem}
+        function index_svelte_create_key_block_1(ctx) {
+            let imagewithfallback;
+            let current;
+
+            imagewithfallback = new imageWithFallback_index_svelte({
+                props: {
+                    useLoader: true,
+                    src: `${CDN_URL}/assets/images/donate/${/*selectedItem*/ ctx[17].id}.webp`,
+                    class: "craft__header-image",
+                    alt: "ingridient",
+                    fallbackImageUrl: question_placeholder_namespaceObject
+                }
+            });
+
+            return {
+                c() {
+                    create_component(imagewithfallback.$$.fragment);
+                },
+                m(target, anchor) {
+                    mount_component(imagewithfallback, target, anchor);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const imagewithfallback_changes = {};
+                    if (dirty[0] & /*selectedItem*/ 131072) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*selectedItem*/ ctx[17].id}.webp`;
+                    imagewithfallback.$set(imagewithfallback_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(imagewithfallback.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(imagewithfallback.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    destroy_component(imagewithfallback, detaching);
+                }
+            };
+        }
+
+        // (366:7) {#if !isNil($additionalInfo.item_type)}
         function craft_index_svelte_create_if_block_12(ctx) {
             let div;
             let t_value = MAP_ITEM_TYPE_TO_DESCRIPTION[ /*$additionalInfo*/ ctx[3].item_type] + "";
@@ -261378,7 +264643,7 @@ setTimeout(() => {
             };
         }
 
-        // (366:10) {#if !isNil(item.item) && hovered}
+        // (386:10) {#if !isNil(item.item) && hovered}
         function craft_index_svelte_create_if_block_11(ctx) {
             let portal;
             let current;
@@ -261405,7 +264670,7 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     const portal_changes = {};
 
-                    if (dirty[0] & /*left, top, itemName*/ 90112 | dirty[1] & /*$$scope*/ 33554432) {
+                    if (dirty[0] & /*left, top, itemName*/ 90112 | dirty[1] & /*$$scope*/ 67108864) {
                         portal_changes.$$scope = {
                             dirty,
                             ctx
@@ -261429,7 +264694,7 @@ setTimeout(() => {
             };
         }
 
-        // (367:11) <Portal>
+        // (387:11) <Portal>
         function craft_index_svelte_create_default_slot(ctx) {
             let div3;
             let div0;
@@ -261483,7 +264748,7 @@ setTimeout(() => {
             };
         }
 
-        // (375:10) {#if !isNil(item.background)}
+        // (395:10) {#if !isNil(item.background)}
         function craft_index_svelte_create_if_block_10(ctx) {
             let div;
 
@@ -261503,7 +264768,7 @@ setTimeout(() => {
             };
         }
 
-        // (378:40) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[item.item]}
+        // (398:10) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT[item.item]}
         function craft_index_svelte_create_if_block_9(ctx) {
             let img;
             let img_src_value;
@@ -261512,14 +264777,14 @@ setTimeout(() => {
                 c() {
                     img = dom_element("img");
                     dom_attr(img, "class", "inventory-item__animated-background");
-                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[51].item])) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[52].item])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "effect");
                 },
                 m(target, anchor) {
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$additionalInfo*/ 8 && !utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[51].item])) {
+                    if (dirty[0] & /*$additionalInfo*/ 8 && !utils_src_url_equal(img.src, img_src_value = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[52].item])) {
                         dom_attr(img, "src", img_src_value);
                     }
                 },
@@ -261531,23 +264796,64 @@ setTimeout(() => {
             };
         }
 
-        // (355:8) {#each $additionalInfo.needs as item, index}
+        // (406:11) {#key item}
+        function craft_index_svelte_create_key_block(ctx) {
+            let imagewithfallback;
+            let current;
+
+            imagewithfallback = new imageWithFallback_index_svelte({
+                props: {
+                    src: `${CDN_URL}/assets/images/donate/${/*item*/ ctx[52].item}.webp`,
+                    class: "craft__ingridient-image",
+                    alt: "icon",
+                    fallbackImageUrl: question_placeholder_namespaceObject
+                }
+            });
+
+            return {
+                c() {
+                    create_component(imagewithfallback.$$.fragment);
+                },
+                m(target, anchor) {
+                    mount_component(imagewithfallback, target, anchor);
+                    current = true;
+                },
+                p(ctx, dirty) {
+                    const imagewithfallback_changes = {};
+                    if (dirty[0] & /*$additionalInfo*/ 8) imagewithfallback_changes.src = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[52].item}.webp`;
+                    imagewithfallback.$set(imagewithfallback_changes);
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(imagewithfallback.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(imagewithfallback.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    destroy_component(imagewithfallback, detaching);
+                }
+            };
+        }
+
+        // (375:8) {#each $additionalInfo.needs as item, index}
         function craft_index_svelte_create_each_block_1(ctx) {
             let div2;
-            let show_if_1 = !(0, lodash.isNil)( /*item*/ ctx[51].item) && /*hovered*/ ctx[15];
+            let show_if_1 = !(0, lodash.isNil)( /*item*/ ctx[52].item) && /*hovered*/ ctx[15];
             let t0;
-            let show_if = !(0, lodash.isNil)( /*item*/ ctx[51].background);
+            let show_if = !(0, lodash.isNil)( /*item*/ ctx[52].background);
             let t1;
             let t2;
             let div0;
-            let img;
-            let img_src_value;
+            let previous_key = /*item*/ ctx[52];
             let t3;
             let div1;
-            let t4_value = /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[51].item].amount + "";
+            let t4_value = /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[52].item].amount + "";
             let t4;
             let t5;
-            let t6_value = /*item*/ ctx[51].amount + "";
+            let t6_value = /*item*/ ctx[52].amount + "";
             let t6;
             let div1_class_value;
             let t7;
@@ -261556,18 +264862,19 @@ setTimeout(() => {
             let dispose;
             let if_block0 = show_if_1 && craft_index_svelte_create_if_block_11(ctx);
             let if_block1 = show_if && craft_index_svelte_create_if_block_10(ctx);
-            let if_block2 = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[51].item] && craft_index_svelte_create_if_block_9(ctx);
+            let if_block2 = MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[52].item] && craft_index_svelte_create_if_block_9(ctx);
+            let key_block = craft_index_svelte_create_key_block(ctx);
 
             function click_handler_2() {
-                return /*click_handler_2*/ ctx[41]( /*item*/ ctx[51]);
+                return /*click_handler_2*/ ctx[41]( /*item*/ ctx[52]);
             }
 
             function mouseenter_handler() {
-                return /*mouseenter_handler*/ ctx[42]( /*item*/ ctx[51]);
+                return /*mouseenter_handler*/ ctx[42]( /*item*/ ctx[52]);
             }
 
             function mouseleave_handler() {
-                return /*mouseleave_handler*/ ctx[43]( /*item*/ ctx[51]);
+                return /*mouseleave_handler*/ ctx[43]( /*item*/ ctx[52]);
             }
 
             return {
@@ -261580,29 +264887,26 @@ setTimeout(() => {
                     if (if_block2) if_block2.c();
                     t2 = dom_space();
                     div0 = dom_element("div");
-                    img = dom_element("img");
+                    key_block.c();
                     t3 = dom_space();
                     div1 = dom_element("div");
                     t4 = dom_text(t4_value);
                     t5 = dom_text(" / ");
                     t6 = dom_text(t6_value);
                     t7 = dom_space();
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[51].item}.webp`)) dom_attr(img, "src", img_src_value);
-                    dom_attr(img, "class", "craft__ingridient-image");
-                    dom_attr(img, "alt", "icon");
                     dom_attr(div0, "class", "craft__ingridient-image-wrapper");
 
-                    dom_attr(div1, "class", div1_class_value = "craft__ingridient-amount " + ( /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[51].item].amount >= /*item*/ ctx[51].amount ?
+                    dom_attr(div1, "class", div1_class_value = "craft__ingridient-amount " + ( /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[52].item].amount >= /*item*/ ctx[52].amount ?
                         'craft__ingridient-amount--available' :
                         ''));
 
                     dom_attr(div2, "class", "inventory-item craft__ingridient");
 
-                    set_style(div2, "--bg", (0, lodash.isNil)( /*item*/ ctx[51].background) ?
+                    set_style(div2, "--bg", (0, lodash.isNil)( /*item*/ ctx[52].background) ?
                         'radial-gradient(circle, rgba(255, 255, 255, 0.1) 2%, #131516 66%)' :
-                        intToRGBA( /*item*/ ctx[51].background));
+                        intToRGBA( /*item*/ ctx[52].background));
 
-                    dom_toggle_class(div2, "craft__ingridient--not-enough", ! /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[51].item].enough);
+                    dom_toggle_class(div2, "craft__ingridient--not-enough", ! /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[52].item].enough);
                 },
                 m(target, anchor) {
                     dom_insert(target, div2, anchor);
@@ -261613,7 +264917,7 @@ setTimeout(() => {
                     if (if_block2) if_block2.m(div2, null);
                     dom_append(div2, t2);
                     dom_append(div2, div0);
-                    dom_append(div0, img);
+                    key_block.m(div0, null);
                     dom_append(div2, t3);
                     dom_append(div2, div1);
                     dom_append(div1, t4);
@@ -261634,7 +264938,7 @@ setTimeout(() => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if (dirty[0] & /*$additionalInfo, hovered*/ 32776) show_if_1 = !(0, lodash.isNil)( /*item*/ ctx[51].item) && /*hovered*/ ctx[15];
+                    if (dirty[0] & /*$additionalInfo, hovered*/ 32776) show_if_1 = !(0, lodash.isNil)( /*item*/ ctx[52].item) && /*hovered*/ ctx[15];
 
                     if (show_if_1) {
                         if (if_block0) {
@@ -261659,7 +264963,7 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$additionalInfo*/ 8) show_if = !(0, lodash.isNil)( /*item*/ ctx[51].background);
+                    if (dirty[0] & /*$additionalInfo*/ 8) show_if = !(0, lodash.isNil)( /*item*/ ctx[52].background);
 
                     if (show_if) {
                         if (if_block1) {
@@ -261674,7 +264978,7 @@ setTimeout(() => {
                         if_block1 = null;
                     }
 
-                    if (MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[51].item]) {
+                    if (MAP_ITEM_ID_TO_ANIMATED_EFFECT[ /*item*/ ctx[52].item]) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
@@ -261687,36 +264991,46 @@ setTimeout(() => {
                         if_block2 = null;
                     }
 
-                    if (!current || dirty[0] & /*$additionalInfo*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/${/*item*/ ctx[51].item}.webp`)) {
-                        dom_attr(img, "src", img_src_value);
+                    if (dirty[0] & /*$additionalInfo*/ 8 && utils_safe_not_equal(previous_key, previous_key = /*item*/ ctx[52])) {
+                        transitions_group_outros();
+                        transitions_transition_out(key_block, 1, 1, utils_noop);
+                        transitions_check_outros();
+                        key_block = craft_index_svelte_create_key_block(ctx);
+                        key_block.c();
+                        transitions_transition_in(key_block, 1);
+                        key_block.m(div0, null);
+                    } else {
+                        key_block.p(ctx, dirty);
                     }
 
-                    if ((!current || dirty[0] & /*needsInventoryItems, $additionalInfo*/ 9) && t4_value !== (t4_value = /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[51].item].amount + "")) dom_set_data(t4, t4_value);
-                    if ((!current || dirty[0] & /*$additionalInfo*/ 8) && t6_value !== (t6_value = /*item*/ ctx[51].amount + "")) dom_set_data(t6, t6_value);
+                    if ((!current || dirty[0] & /*needsInventoryItems, $additionalInfo*/ 9) && t4_value !== (t4_value = /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[52].item].amount + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty[0] & /*$additionalInfo*/ 8) && t6_value !== (t6_value = /*item*/ ctx[52].amount + "")) dom_set_data(t6, t6_value);
 
-                    if (!current || dirty[0] & /*needsInventoryItems, $additionalInfo*/ 9 && div1_class_value !== (div1_class_value = "craft__ingridient-amount " + ( /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[51].item].amount >= /*item*/ ctx[51].amount ?
+                    if (!current || dirty[0] & /*needsInventoryItems, $additionalInfo*/ 9 && div1_class_value !== (div1_class_value = "craft__ingridient-amount " + ( /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[52].item].amount >= /*item*/ ctx[52].amount ?
                             'craft__ingridient-amount--available' :
                             ''))) {
                         dom_attr(div1, "class", div1_class_value);
                     }
 
                     if (!current || dirty[0] & /*$additionalInfo*/ 8) {
-                        set_style(div2, "--bg", (0, lodash.isNil)( /*item*/ ctx[51].background) ?
+                        set_style(div2, "--bg", (0, lodash.isNil)( /*item*/ ctx[52].background) ?
                             'radial-gradient(circle, rgba(255, 255, 255, 0.1) 2%, #131516 66%)' :
-                            intToRGBA( /*item*/ ctx[51].background));
+                            intToRGBA( /*item*/ ctx[52].background));
                     }
 
                     if (!current || dirty[0] & /*needsInventoryItems, $additionalInfo*/ 9) {
-                        dom_toggle_class(div2, "craft__ingridient--not-enough", ! /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[51].item].enough);
+                        dom_toggle_class(div2, "craft__ingridient--not-enough", ! /*needsInventoryItems*/ ctx[0][ /*item*/ ctx[52].item].enough);
                     }
                 },
                 i(local) {
                     if (current) return;
                     transitions_transition_in(if_block0);
+                    transitions_transition_in(key_block);
                     current = true;
                 },
                 o(local) {
                     transitions_transition_out(if_block0);
+                    transitions_transition_out(key_block);
                     current = false;
                 },
                 d(detaching) {
@@ -261727,13 +265041,14 @@ setTimeout(() => {
                     if (if_block0) if_block0.d();
                     if (if_block1) if_block1.d();
                     if (if_block2) if_block2.d();
+                    key_block.d(detaching);
                     mounted = false;
                     utils_run_all(dispose);
                 }
             };
         }
 
-        // (399:6) {#if $additionalInfo.has_color}
+        // (426:6) {#if $additionalInfo.has_color}
         function craft_index_svelte_create_if_block_4(ctx) {
             let div3;
             let div0;
@@ -261822,7 +265137,7 @@ setTimeout(() => {
             };
         }
 
-        // (407:10) {#if selectedColorIndex === 0}
+        // (434:10) {#if selectedColorIndex === 0}
         function craft_index_svelte_create_if_block_8(ctx) {
             let i;
 
@@ -261842,7 +265157,7 @@ setTimeout(() => {
             };
         }
 
-        // (412:8) {#if colorsVisible}
+        // (439:8) {#if colorsVisible}
         function craft_index_svelte_create_if_block_5(ctx) {
             let div;
             let each_value = each_ensure_array_like( /*$craftColors*/ ctx[19]);
@@ -261905,7 +265220,7 @@ setTimeout(() => {
             };
         }
 
-        // (420:12) {#if index === 0}
+        // (447:12) {#if index === 0}
         function craft_index_svelte_create_if_block_7(ctx) {
             let i;
 
@@ -261925,7 +265240,7 @@ setTimeout(() => {
             };
         }
 
-        // (423:12) {#if selectedColorIndex === index && selectedColorIndex !== 0}
+        // (450:12) {#if selectedColorIndex === index && selectedColorIndex !== 0}
         function craft_index_svelte_create_if_block_6(ctx) {
             let i;
 
@@ -261945,18 +265260,18 @@ setTimeout(() => {
             };
         }
 
-        // (414:10) {#each $craftColors as color, index}
+        // (441:10) {#each $craftColors as color, index}
         function craft_index_svelte_create_each_block(ctx) {
             let div;
             let t0;
             let t1;
             let mounted;
             let dispose;
-            let if_block0 = /*index*/ ctx[50] === 0 && craft_index_svelte_create_if_block_7(ctx);
-            let if_block1 = /*selectedColorIndex*/ ctx[8] === /*index*/ ctx[50] && /*selectedColorIndex*/ ctx[8] !== 0 && craft_index_svelte_create_if_block_6(ctx);
+            let if_block0 = /*index*/ ctx[51] === 0 && craft_index_svelte_create_if_block_7(ctx);
+            let if_block1 = /*selectedColorIndex*/ ctx[8] === /*index*/ ctx[51] && /*selectedColorIndex*/ ctx[8] !== 0 && craft_index_svelte_create_if_block_6(ctx);
 
             function click_handler_4() {
-                return /*click_handler_4*/ ctx[45]( /*index*/ ctx[50]);
+                return /*click_handler_4*/ ctx[45]( /*index*/ ctx[51]);
             }
 
             return {
@@ -261967,7 +265282,7 @@ setTimeout(() => {
                     if (if_block1) if_block1.c();
                     t1 = dom_space();
                     dom_attr(div, "class", "craft__color");
-                    set_style(div, "--color", intToRGBA( /*color*/ ctx[48].color));
+                    set_style(div, "--color", intToRGBA( /*color*/ ctx[49].color));
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -261984,7 +265299,7 @@ setTimeout(() => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if ( /*selectedColorIndex*/ ctx[8] === /*index*/ ctx[50] && /*selectedColorIndex*/ ctx[8] !== 0) {
+                    if ( /*selectedColorIndex*/ ctx[8] === /*index*/ ctx[51] && /*selectedColorIndex*/ ctx[8] !== 0) {
                         if (if_block1) {
 
                         } else {
@@ -261998,7 +265313,7 @@ setTimeout(() => {
                     }
 
                     if (dirty[0] & /*$craftColors*/ 524288) {
-                        set_style(div, "--color", intToRGBA( /*color*/ ctx[48].color));
+                        set_style(div, "--color", intToRGBA( /*color*/ ctx[49].color));
                     }
                 },
                 d(detaching) {
@@ -262014,7 +265329,7 @@ setTimeout(() => {
             };
         }
 
-        // (463:6) {:else}
+        // (492:6) {:else}
         function craft_index_svelte_create_else_block(ctx) {
             let div;
             let inventorybutton;
@@ -262072,7 +265387,7 @@ setTimeout(() => {
             };
         }
 
-        // (456:6) {#if $craftTimer > 0 && $craftProgressVisibile}
+        // (485:6) {#if $craftTimer > 0 && $craftProgressVisibile}
         function craft_index_svelte_create_if_block_3(ctx) {
             let div1;
             let div0;
@@ -262135,7 +265450,7 @@ setTimeout(() => {
             };
         }
 
-        // (478:2) {#if isEmpty(actualData) && $searchQuery.length >= 1 && !loading}
+        // (507:2) {#if isEmpty(actualData) && $searchQuery.length >= 1 && !loading}
         function craft_index_svelte_create_if_block(ctx) {
             let div;
 
@@ -262223,6 +265538,10 @@ setTimeout(() => {
             for (let i = 0; i < each_value_2.length; i += 1) {
                 each_blocks[i] = craft_index_svelte_create_each_block_2(craft_index_svelte_get_each_context_2(ctx, each_value_2, i));
             }
+
+            const out_1 = i => transitions_transition_out(each_blocks[i], 1, 1, () => {
+                each_blocks[i] = null;
+            });
 
             let if_block0 = show_if_1 && craft_index_svelte_create_if_block_1(ctx);
             let if_block1 = show_if && craft_index_svelte_create_if_block(ctx);
@@ -262363,18 +265682,22 @@ setTimeout(() => {
 
                             if (each_blocks[i]) {
                                 each_blocks[i].p(child_ctx, dirty);
+                                transitions_transition_in(each_blocks[i], 1);
                             } else {
                                 each_blocks[i] = craft_index_svelte_create_each_block_2(child_ctx);
                                 each_blocks[i].c();
+                                transitions_transition_in(each_blocks[i], 1);
                                 each_blocks[i].m(div3, null);
                             }
                         }
 
-                        for (; i < each_blocks.length; i += 1) {
-                            each_blocks[i].d(1);
+                        transitions_group_outros();
+
+                        for (i = each_value_2.length; i < each_blocks.length; i += 1) {
+                            out_1(i);
                         }
 
-                        each_blocks.length = each_value_2.length;
+                        transitions_check_outros();
                     }
 
                     if (!current || dirty[0] & /*loading*/ 4096 && div3_class_value !== (div3_class_value = "craft__items-list " + ( /*loading*/ ctx[12] ?
@@ -262432,6 +265755,11 @@ setTimeout(() => {
                     }
 
                     transitions_transition_in(loader.$$.fragment, local);
+
+                    for (let i = 0; i < each_value_2.length; i += 1) {
+                        transitions_transition_in(each_blocks[i]);
+                    }
+
                     transitions_transition_in(if_block0);
                     current = true;
                 },
@@ -262444,6 +265772,12 @@ setTimeout(() => {
                     }
 
                     transitions_transition_out(loader.$$.fragment, local);
+                    each_blocks = each_blocks.filter(Boolean);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        transitions_transition_out(each_blocks[i]);
+                    }
+
                     transitions_transition_out(if_block0);
                     current = false;
                 },
@@ -262467,6 +265801,7 @@ setTimeout(() => {
         function craft_index_svelte_instance($$self, $$props, $$invalidate) {
             let selectedItem;
             let actualData;
+            let $ITEMS;
             let $selectedCategoryId;
             let $craftCategories;
             let $additionalInfo;
@@ -262476,6 +265811,7 @@ setTimeout(() => {
             let $craftTimer;
             let $craftProgressVisibile;
             let $craftColors;
+            utils_component_subscribe($$self, ITEMS, $$value => $$invalidate(47, $ITEMS = $$value));
             utils_component_subscribe($$self, selectedCategoryId, $$value => $$invalidate(1, $selectedCategoryId = $$value));
             utils_component_subscribe($$self, craftCategories, $$value => $$invalidate(2, $craftCategories = $$value));
             utils_component_subscribe($$self, additionalInfo, $$value => $$invalidate(3, $additionalInfo = $$value));
@@ -262624,7 +265960,7 @@ setTimeout(() => {
 
             let handleHovered = (hov, id) => {
                 $$invalidate(15, hovered = hov);
-                $$invalidate(16, itemName = ITEMS[id] ? ITEMS[id].name : '');
+                $$invalidate(16, itemName = $ITEMS[id] ? $ITEMS[id].name : '');
             };
 
             const handleMouseMove = event => {
@@ -262755,7 +266091,9 @@ setTimeout(() => {
                                             enough: false,
                                             amount: 0
                                         }, needsInventoryItems);
-                                    } else if (needItem.item === inventoryItem.item) {
+                                    }
+
+                                    if (needItem.item === inventoryItem.item) {
                                         $$invalidate(0, needsInventoryItems[needItem.item].amount += Number(inventoryItem.amount), needsInventoryItems);
                                         $$invalidate(0, needsInventoryItems[needItem.item].enough = needsInventoryItems[needItem.item].amount >= needItem.amount, needsInventoryItems);
                                     }
@@ -263691,8 +267029,6 @@ setTimeout(() => {
 
 
 
-        // import { ITEMS } from './items';
-
 
         function inventory_index_svelte_create_if_block_8(ctx) {
             let div;
@@ -263711,7 +267047,8 @@ setTimeout(() => {
                     windowId: WindowsIds.Character,
                     onFocus: /*func*/ ctx[23],
                     exitButtonVisibility: false,
-                    sortingButtonVisibility: false,
+                    sortingButtonVisibility: /*$characterInventorySelectedTab*/ ctx[13] === constants_NavigationTabs.Warehouse && !!INVENTORY_TO_SORT[ /*$warehouseTypeId*/ ctx[14]],
+                    inventoryIdToSort: /*$warehouseTypeId*/ ctx[14],
                     $$slots: {
                         default: [create_default_slot_8]
                     },
@@ -263741,6 +267078,8 @@ setTimeout(() => {
 
                     if (dirty[0] & /*$characterInventorySelectedTab*/ 8192) inventorywindow_changes.headerIcon = MAP_TAB_ID_TO_ICON[ /*$characterInventorySelectedTab*/ ctx[13]];
                     if (dirty[0] & /*selectedWindow*/ 1024) inventorywindow_changes.selectedWindow = /*selectedWindow*/ ctx[10];
+                    if (dirty[0] & /*$characterInventorySelectedTab, $warehouseTypeId*/ 24576) inventorywindow_changes.sortingButtonVisibility = /*$characterInventorySelectedTab*/ ctx[13] === constants_NavigationTabs.Warehouse && !!INVENTORY_TO_SORT[ /*$warehouseTypeId*/ ctx[14]];
+                    if (dirty[0] & /*$warehouseTypeId*/ 16384) inventorywindow_changes.inventoryIdToSort = /*$warehouseTypeId*/ ctx[14];
 
                     if (dirty[2] & /*$$scope*/ 2) {
                         inventorywindow_changes.$$scope = {
@@ -263770,7 +267109,7 @@ setTimeout(() => {
             };
         }
 
-        // (271:2) <InventoryWindow     title={$characterInventorySelectedTab === NavigationTabs.Warehouse ? MAP_WAREHOUSE_TO_NAME[$warehouseTypeId] : MAP_TAB_ID_TO_NAME[$characterInventorySelectedTab]}     headerIcon={MAP_TAB_ID_TO_ICON[$characterInventorySelectedTab]}     onClose={closeInventory}     inventoryId={'character'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Character}     onFocus={() => setPriority(WindowsIds.Character)}     exitButtonVisibility={false}     sortingButtonVisibility={false}    >
+        // (271:2) <InventoryWindow     title={$characterInventorySelectedTab === NavigationTabs.Warehouse ? MAP_WAREHOUSE_TO_NAME[$warehouseTypeId] : MAP_TAB_ID_TO_NAME[$characterInventorySelectedTab]}     headerIcon={MAP_TAB_ID_TO_ICON[$characterInventorySelectedTab]}     onClose={closeInventory}     inventoryId={'character'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Character}     onFocus={() => setPriority(WindowsIds.Character)}     exitButtonVisibility={false}     sortingButtonVisibility={$characterInventorySelectedTab === NavigationTabs.Warehouse && !!INVENTORY_TO_SORT[$warehouseTypeId]}     inventoryIdToSort={$warehouseTypeId}    >
         function create_default_slot_8(ctx) {
             let character;
             let current;
@@ -263799,7 +267138,7 @@ setTimeout(() => {
             };
         }
 
-        // (287:0) {#if mainInventoryVisible && !isNil($inventories[BLOCK_TYPE.BLOCK_TYPE_MENU])}
+        // (288:0) {#if mainInventoryVisible && !isNil($inventories[BLOCK_TYPE.BLOCK_TYPE_MENU])}
         function inventory_index_svelte_create_if_block_7(ctx) {
             let div;
             let inventorywindow;
@@ -263816,6 +267155,7 @@ setTimeout(() => {
                     onFocus: /*func_1*/ ctx[24],
                     sortingButtonVisibility: true,
                     infoButtonEnabled: true,
+                    inventoryIdToSort: BLOCK_TYPE.BLOCK_TYPE_MENU,
                     $$slots: {
                         default: [create_default_slot_7]
                     },
@@ -263868,7 +267208,7 @@ setTimeout(() => {
             };
         }
 
-        // (289:2) <InventoryWindow     title={'Инвентарь'}     headerIcon={'bag'}     onClose={closeInventory}     inventoryId={'main'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Main}     onFocus={() => setPriority(WindowsIds.Main)}     sortingButtonVisibility={true}     infoButtonEnabled    >
+        // (290:2) <InventoryWindow     title={'Инвентарь'}     headerIcon={'bag'}     onClose={closeInventory}     inventoryId={'main'}     selectedWindow={selectedWindow}     windowId={WindowsIds.Main}     onFocus={() => setPriority(WindowsIds.Main)}     sortingButtonVisibility={true}     infoButtonEnabled     inventoryIdToSort={BLOCK_TYPE.BLOCK_TYPE_MENU}    >
         function create_default_slot_7(ctx) {
             let inventorymain;
             let current;
@@ -263910,7 +267250,7 @@ setTimeout(() => {
             };
         }
 
-        // (310:0) {#if overviewVisible}
+        // (312:0) {#if overviewVisible}
         function inventory_index_svelte_create_if_block_6(ctx) {
             let div;
             let inventorywindow;
@@ -263975,7 +267315,7 @@ setTimeout(() => {
             };
         }
 
-        // (312:2) <InventoryWindow title={'Обзор'} headerIcon={'character'} centeredX={true} centeredY={true} onClose={closeInventory} inventoryId={'overview'}>
+        // (314:2) <InventoryWindow title={'Обзор'} headerIcon={'character'} centeredX={true} centeredY={true} onClose={closeInventory} inventoryId={'overview'}>
         function create_default_slot_6(ctx) {
             let overview;
             let current;
@@ -264004,7 +267344,7 @@ setTimeout(() => {
             };
         }
 
-        // (318:0) {#if walletVisible && $bagBlockType > -1}
+        // (320:0) {#if walletVisible && $bagBlockType > -1}
         function inventory_index_svelte_create_if_block_5(ctx) {
             let div;
             let inventorywindow;
@@ -264071,7 +267411,7 @@ setTimeout(() => {
             };
         }
 
-        // (320:2) <InventoryWindow title={MAP_BAG_TO_NAME[$bagBlockType]} headerIcon={'wallet'} onClose={closeWallet}      selectedWindow={selectedWindow}      windowId={WindowsIds.Wallet}      onFocus={() => setPriority(WindowsIds.Wallet)}>
+        // (322:2) <InventoryWindow title={MAP_BAG_TO_NAME[$bagBlockType]} headerIcon={'wallet'} onClose={closeWallet}      selectedWindow={selectedWindow}      windowId={WindowsIds.Wallet}      onFocus={() => setPriority(WindowsIds.Wallet)}>
         function create_default_slot_5(ctx) {
             let wallet;
             let current;
@@ -264114,7 +267454,7 @@ setTimeout(() => {
             };
         }
 
-        // (334:0) {#if shopVisible}
+        // (336:0) {#if shopVisible}
         function inventory_index_svelte_create_if_block_4(ctx) {
             let div;
             let inventorywindow;
@@ -264183,7 +267523,7 @@ setTimeout(() => {
             };
         }
 
-        // (336:2) <InventoryWindow     headerIcon={'shop-spot'}     title={$additionalInfo.name}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Shop}     onFocus={() => setPriority(WindowsIds.Shop)}    >
+        // (338:2) <InventoryWindow     headerIcon={'shop-spot'}     title={$additionalInfo.name}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Shop}     onFocus={() => setPriority(WindowsIds.Shop)}    >
         function create_default_slot_4(ctx) {
             let shop;
             let current;
@@ -264226,7 +267566,7 @@ setTimeout(() => {
             };
         }
 
-        // (357:0) {#if tradeVisible}
+        // (359:0) {#if tradeVisible}
         function inventory_index_svelte_create_if_block_3(ctx) {
             let div;
             let inventorywindow;
@@ -264295,7 +267635,7 @@ setTimeout(() => {
             };
         }
 
-        // (359:2) <InventoryWindow     headerIcon={'list'}     title={`Обмен с ${$additionalInfo.name}`}     centeredX={true}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Trade}     onFocus={() => setPriority(WindowsIds.Trade)}    >
+        // (361:2) <InventoryWindow     headerIcon={'list'}     title={`Обмен с ${$additionalInfo.name}`}     centeredX={true}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Trade}     onFocus={() => setPriority(WindowsIds.Trade)}    >
         function create_default_slot_3(ctx) {
             let trade;
             let current;
@@ -264333,7 +267673,7 @@ setTimeout(() => {
             };
         }
 
-        // (379:0) {#if workshopVisible}
+        // (381:0) {#if workshopVisible}
         function inventory_index_svelte_create_if_block_2(ctx) {
             let div;
             let inventorywindow;
@@ -264349,6 +267689,7 @@ setTimeout(() => {
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Workshop,
                     onFocus: /*func_5*/ ctx[28],
+                    savedPositionsEnabled: false,
                     $$slots: {
                         default: [create_default_slot_2]
                     },
@@ -264401,7 +267742,7 @@ setTimeout(() => {
             };
         }
 
-        // (381:2) <InventoryWindow     headerIcon={'workbrench'}     title={'Верстак'}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Workshop}     onFocus={() => setPriority(WindowsIds.Workshop)}    >
+        // (383:2) <InventoryWindow     headerIcon={'workbrench'}     title={'Верстак'}     centeredX={false}     centeredY={false}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Workshop}     onFocus={() => setPriority(WindowsIds.Workshop)}     savedPositionsEnabled={false}    >
         function create_default_slot_2(ctx) {
             let workshop;
             let current;
@@ -264430,7 +267771,7 @@ setTimeout(() => {
             };
         }
 
-        // (396:0) {#if craftVisible}
+        // (399:0) {#if craftVisible}
         function inventory_index_svelte_create_if_block_1(ctx) {
             let div;
             let inventorywindow;
@@ -264446,6 +267787,7 @@ setTimeout(() => {
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Craft,
                     onFocus: /*func_6*/ ctx[29],
+                    savedPositionsEnabled: false,
                     $$slots: {
                         default: [inventory_index_svelte_create_default_slot_1]
                     },
@@ -264498,7 +267840,7 @@ setTimeout(() => {
             };
         }
 
-        // (398:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Craft}     onFocus={() => setPriority(WindowsIds.Craft)}    >
+        // (401:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Craft}     onFocus={() => setPriority(WindowsIds.Craft)}     savedPositionsEnabled={false}    >
         function inventory_index_svelte_create_default_slot_1(ctx) {
             let craft;
             let current;
@@ -264527,7 +267869,7 @@ setTimeout(() => {
             };
         }
 
-        // (413:0) {#if potionsVisible}
+        // (417:0) {#if potionsVisible}
         function inventory_index_svelte_create_if_block(ctx) {
             let div;
             let inventorywindow;
@@ -264543,6 +267885,7 @@ setTimeout(() => {
                     selectedWindow: /*selectedWindow*/ ctx[10],
                     windowId: WindowsIds.Potions,
                     onFocus: /*func_7*/ ctx[30],
+                    savedPositionsEnabled: false,
                     $$slots: {
                         default: [inventory_index_svelte_create_default_slot]
                     },
@@ -264595,7 +267938,7 @@ setTimeout(() => {
             };
         }
 
-        // (415:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Potions}     onFocus={() => setPriority(WindowsIds.Potions)}    >
+        // (419:2) <InventoryWindow     headerIcon={'cube'}     title={'Создание'}     centeredX={true}     centeredY={true}     onClose={closeInventory}     selectedWindow={selectedWindow}     windowId={WindowsIds.Potions}     onFocus={() => setPriority(WindowsIds.Potions)}     savedPositionsEnabled={false}    >
         function inventory_index_svelte_create_default_slot(ctx) {
             let potions;
             let current;
@@ -273372,11 +276715,11 @@ const getRandomTableNumber = () => {
 
         function reward_banner_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[10] = list[i];
+            child_ctx[11] = list[i];
             return child_ctx;
         }
 
-        // (67:0) {#if !isEmpty(bannerData)}
+        // (84:0) {#if !isEmpty(bannerData)}
         function reward_banner_index_svelte_create_if_block(ctx) {
             let div8;
             let div0;
@@ -273393,18 +276736,17 @@ const getRandomTableNumber = () => {
             let t3;
             let t4;
             let div4;
-            let t5_value = /*bannerData*/ ctx[0].description + "";
+            let raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "";
             let t5;
-            let t6;
             let div5;
-            let t7;
+            let t6;
             let div6;
 
-            let t8_value = ( /*bannerData*/ ctx[0].time > 0 ?
+            let t7_value = ( /*bannerData*/ ctx[0].time > 0 ?
                 `Доступно через ${formatSecondsToDHhMmSs(/*bannerData*/ ctx[0].time)}` :
                 `${/*bannerData*/ ctx[0].buttonName}`) + "";
 
-            let t8;
+            let t7;
             let div8_style_value;
             let current;
             let mounted;
@@ -273440,17 +276782,16 @@ const getRandomTableNumber = () => {
                     t3 = dom_text(t3_value);
                     t4 = dom_space();
                     div4 = dom_element("div");
-                    t5 = dom_text(t5_value);
-                    t6 = dom_space();
+                    t5 = dom_space();
                     div5 = dom_element("div");
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
                     }
 
-                    t7 = dom_space();
+                    t6 = dom_space();
                     div6 = dom_element("div");
-                    t8 = dom_text(t8_value);
+                    t7 = dom_text(t7_value);
                     dom_attr(div0, "class", "reward-banner__exit");
                     dom_attr(div1, "class", "reward-banner__title-caption");
                     dom_toggle_class(div1, "reward-banner__title-caption--pixel", /*bannerData*/ ctx[0].type === 8);
@@ -273479,8 +276820,8 @@ const getRandomTableNumber = () => {
                     dom_append(div2, t3);
                     dom_append(div7, t4);
                     dom_append(div7, div4);
-                    dom_append(div4, t5);
-                    dom_append(div7, t6);
+                    div4.innerHTML = raw_value;
+                    dom_append(div7, t5);
                     dom_append(div7, div5);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
@@ -273489,15 +276830,15 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    dom_append(div7, t7);
+                    dom_append(div7, t6);
                     dom_append(div7, div6);
-                    dom_append(div6, t8);
+                    dom_append(div6, t7);
                     current = true;
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div0, "click", /*closeReward*/ ctx[4]),
-                            dom_listen(div6, "click", /*getReward*/ ctx[3])
+                            dom_listen(div0, "click", /*closeReward*/ ctx[5]),
+                            dom_listen(div6, "click", /*getReward*/ ctx[4])
                         ];
 
                         mounted = true;
@@ -273516,7 +276857,7 @@ const getRandomTableNumber = () => {
                         dom_toggle_class(div2, "reward-banner__title-value--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && t5_value !== (t5_value = /*bannerData*/ ctx[0].description + "")) dom_set_data(t5, t5_value);
+                    if ((!current || dirty & /*bannerData*/ 1) && raw_value !== (raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "")) div4.innerHTML = raw_value;;
 
                     if (dirty & /*bannerData, rewards, CND_URL_MAIN*/ 7) {
                         each_value = each_ensure_array_like( /*rewards*/ ctx[1]);
@@ -273541,9 +276882,9 @@ const getRandomTableNumber = () => {
                         each_blocks.length = each_value.length;
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && t8_value !== (t8_value = ( /*bannerData*/ ctx[0].time > 0 ?
+                    if ((!current || dirty & /*bannerData*/ 1) && t7_value !== (t7_value = ( /*bannerData*/ ctx[0].time > 0 ?
                             `Доступно через ${formatSecondsToDHhMmSs(/*bannerData*/ ctx[0].time)}` :
-                            `${/*bannerData*/ ctx[0].buttonName}`) + "")) dom_set_data(t8, t8_value);
+                            `${/*bannerData*/ ctx[0].buttonName}`) + "")) dom_set_data(t7, t7_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div6, "reward-banner__button--active", /*bannerData*/ ctx[0].time <= 0);
@@ -273575,13 +276916,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (88:7) {#if !isEmpty(reward.badge)}
+        // (105:7) {#if !isEmpty(reward.badge)}
         function reward_banner_index_svelte_create_if_block_1(ctx) {
             let div1;
             let i;
             let t0;
             let div0;
-            let t1_value = /*reward*/ ctx[10].badge + "";
+            let t1_value = /*reward*/ ctx[11].badge + "";
             let t1;
 
             return {
@@ -273603,7 +276944,7 @@ const getRandomTableNumber = () => {
                     dom_append(div0, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 2 && t1_value !== (t1_value = /*reward*/ ctx[10].badge + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*rewards*/ 2 && t1_value !== (t1_value = /*reward*/ ctx[11].badge + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -273613,11 +276954,11 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (85:4) {#each rewards as reward}
+        // (102:4) {#each rewards as reward}
         function reward_banner_index_svelte_create_each_block(ctx) {
             let div5;
             let div4;
-            let show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[10].badge);
+            let show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[11].badge);
             let t0;
             let div0;
             let img;
@@ -273625,11 +276966,11 @@ const getRandomTableNumber = () => {
             let t1;
             let div3;
             let div1;
-            let t2_value = /*reward*/ ctx[10].title + "";
+            let t2_value = /*reward*/ ctx[11].title + "";
             let t2;
             let t3;
             let div2;
-            let t4_value = /*reward*/ ctx[10].value + "";
+            let t4_value = /*reward*/ ctx[11].value + "";
             let t4;
             let t5;
             let if_block = show_if && reward_banner_index_svelte_create_if_block_1(ctx);
@@ -273650,7 +276991,7 @@ const getRandomTableNumber = () => {
                     div2 = dom_element("div");
                     t4 = dom_text(t4_value);
                     t5 = dom_space();
-                    if (!utils_src_url_equal(img.src, img_src_value = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[10].image}`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[11].image}`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward-icon");
                     dom_attr(img, "class", "reward-banner__reward-image");
                     dom_attr(div0, "class", "reward-banner__reward-image-wrapper");
@@ -273680,7 +277021,7 @@ const getRandomTableNumber = () => {
                     dom_append(div5, t5);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 2) show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[10].badge);
+                    if (dirty & /*rewards*/ 2) show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[11].badge);
 
                     if (show_if) {
                         if (if_block) {
@@ -273695,7 +277036,7 @@ const getRandomTableNumber = () => {
                         if_block = null;
                     }
 
-                    if (dirty & /*rewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[10].image}`)) {
+                    if (dirty & /*rewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[11].image}`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
@@ -273703,8 +277044,8 @@ const getRandomTableNumber = () => {
                         dom_toggle_class(div0, "reward-banner__reward-image-wrapper--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if (dirty & /*rewards*/ 2 && t2_value !== (t2_value = /*reward*/ ctx[10].title + "")) dom_set_data(t2, t2_value);
-                    if (dirty & /*rewards*/ 2 && t4_value !== (t4_value = /*reward*/ ctx[10].value + "")) dom_set_data(t4, t4_value);
+                    if (dirty & /*rewards*/ 2 && t2_value !== (t2_value = /*reward*/ ctx[11].title + "")) dom_set_data(t2, t2_value);
+                    if (dirty & /*rewards*/ 2 && t4_value !== (t4_value = /*reward*/ ctx[11].value + "")) dom_set_data(t4, t4_value);
 
                     if (dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div3, "reward-banner__reward-info--pixel", /*bannerData*/ ctx[0].type === 8);
@@ -273791,6 +277132,23 @@ const getRandomTableNumber = () => {
             let rewards = [];
             let timerIntervalId = null;
 
+            const parseColoredText = content => {
+                let placeholderExist = false;
+
+                content = content.replace(/{\w+}/g, replaceValue => {
+                    let placeholder = replaceValue.match(/^{(.+)}$/)[1].toLowerCase();
+                    placeholderExist = true;
+                    return `</span><span style="${`color: #${replaceValue.slice(1, -1)}; max-width: 90%;`}">`;
+                });
+
+                if (placeholderExist) {
+                    content = `${content.replace(/^<\/span>/, '')}</span>`;
+                }
+
+                content = content.replace('\n', '<br>');
+                return content;
+            };
+
             const getReward = () => {
                 if (bannerData.time > 0) {
                     return;
@@ -273845,7 +277203,7 @@ const getRandomTableNumber = () => {
                 }
             });
 
-            return [bannerData, rewards, CND_URL_MAIN, getReward, closeReward];
+            return [bannerData, rewards, CND_URL_MAIN, parseColoredText, getReward, closeReward];
         }
 
         class Reward_banner extends Component_SvelteComponent {
@@ -298537,127 +301895,7 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const component_modal_index_svelte = (component_modal_index_svelte_Modal);; // CONCATENATED MODULE: ./src/components/imageWithFallback/index.svelte
-        /* src\components\imageWithFallback\index.svelte generated by Svelte v4.2.8 */
-
-
-
-
-
-        function imageWithFallback_index_svelte_create_fragment(ctx) {
-            let img;
-            let img_src_value;
-            let mounted;
-            let dispose;
-
-            let img_levels = [{
-                    style: "width: 100%; height: 100%;"
-                },
-                {
-                    src: img_src_value = /*currentSrc*/ ctx[1]
-                },
-                /*$$restProps*/
-                ctx[3],
-                {
-                    alt: /*alt*/ ctx[0]
-                }
-            ];
-
-            let img_data = {};
-
-            for (let i = 0; i < img_levels.length; i += 1) {
-                img_data = utils_assign(img_data, img_levels[i]);
-            }
-
-            return {
-                c() {
-                    img = dom_element("img");
-                    set_attributes(img, img_data);
-                },
-                m(target, anchor) {
-                    dom_insert(target, img, anchor);
-
-                    if (!mounted) {
-                        dispose = dom_listen(img, "error", /*handleError*/ ctx[2]);
-                        mounted = true;
-                    }
-                },
-                p(ctx, [dirty]) {
-                    set_attributes(img, img_data = get_spread_update(img_levels, [{
-                            style: "width: 100%; height: 100%;"
-                        },
-                        dirty & /*currentSrc*/ 2 && !utils_src_url_equal(img.src, img_src_value = /*currentSrc*/ ctx[1]) && {
-                            src: img_src_value
-                        },
-                        dirty & /*$$restProps*/ 8 && /*$$restProps*/ ctx[3],
-                        dirty & /*alt*/ 1 && {
-                            alt: /*alt*/ ctx[0]
-                        }
-                    ]));
-                },
-                i: utils_noop,
-                o: utils_noop,
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(img);
-                    }
-
-                    mounted = false;
-                    dispose();
-                }
-            };
-        }
-
-        function imageWithFallback_index_svelte_instance($$self, $$props, $$invalidate) {
-            const omit_props_names = ["src", "alt", "fallbackImageUrl"];
-            let $$restProps = compute_rest_props($$props, omit_props_names);
-            let {
-                src = ''
-            } = $$props;
-            let {
-                alt = ''
-            } = $$props;
-            let {
-                fallbackImageUrl = `${CDN_URL}/assets/images/inventory/vehicles/512/none.webp`
-            } = $$props;
-            let currentSrc = src;
-
-            const handleError = () => {
-                $$invalidate(1, currentSrc = fallbackImageUrl);
-            };
-
-            $$self.$$set = $$new_props => {
-                $$props = utils_assign(utils_assign({}, $$props), exclude_internal_props($$new_props));
-                $$invalidate(3, $$restProps = compute_rest_props($$props, omit_props_names));
-                if ('src' in $$new_props) $$invalidate(4, src = $$new_props.src);
-                if ('alt' in $$new_props) $$invalidate(0, alt = $$new_props.alt);
-                if ('fallbackImageUrl' in $$new_props) $$invalidate(5, fallbackImageUrl = $$new_props.fallbackImageUrl);
-            };
-
-            $$self.$$.update = () => {
-                if ($$self.$$.dirty & /*src, currentSrc, fallbackImageUrl*/ 50) {
-                    $: if (src && src !== currentSrc && currentSrc !== fallbackImageUrl) {
-                        $$invalidate(1, currentSrc = src);
-                    }
-                }
-            };
-
-            return [alt, currentSrc, handleError, $$restProps, src, fallbackImageUrl];
-        }
-
-        class ImageWithFallback extends Component_SvelteComponent {
-            constructor(options) {
-                super();
-                Component_init(this, options, imageWithFallback_index_svelte_instance, imageWithFallback_index_svelte_create_fragment, utils_safe_not_equal, {
-                    src: 4,
-                    alt: 0,
-                    fallbackImageUrl: 5
-                });
-            }
-        }
-
-        /* harmony default export */
-        const imageWithFallback_index_svelte = (ImageWithFallback);; // CONCATENATED MODULE: ./src/views/donate-shop/component/button/index.svelte
+        const component_modal_index_svelte = (component_modal_index_svelte_Modal);; // CONCATENATED MODULE: ./src/views/donate-shop/component/button/index.svelte
         /* src\views\donate-shop\component\button\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -299179,7 +302417,7 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const light_index_svelte = (Light);; // CONCATENATED MODULE: ./src/views/donate-shop/img/fallback-image.png
-        const fallback_image_namespaceObject = __webpack_require__.p + "assets/65387253fbf46a31d2db.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/component/product/test.webp
+        const donate_shop_img_fallback_image_namespaceObject = __webpack_require__.p + "assets/65387253fbf46a31d2db.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/component/product/test.webp
         const test_namespaceObject = __webpack_require__.p + "assets/b31fd32a5be9294dffc3.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/component/product/testpart.webp
         const testpart_namespaceObject = __webpack_require__.p + "assets/5c1a3a44a69f78802739.webp";; // CONCATENATED MODULE: ./src/views/donate-shop/component/product/index.svelte
         /* src\views\donate-shop\component\product\index.svelte generated by Svelte v4.2.8 */
@@ -299350,7 +302588,7 @@ const getRandomTableNumber = () => {
                     dom_attr(div5, "class", "donate-shop-product__header");
                     dom_toggle_class(div5, "donate-shop-product__header--wide", /*data*/ ctx[0].typeTemplate === Templates.Big);
                     dom_attr(span0, "class", "donate-shop-product__name");
-                    dom_attr(span1, "class", "donate-shop-product__name");
+                    dom_attr(span1, "class", "donate-shop-product__name donate-shop-product__name--second-part");
                     set_style(span1, "--textGradient", "linear-gradient(90deg, " + ( /*data*/ ctx[0].textGradientColor[0] || '#FFF') + " 0%, " + ( /*data*/ ctx[0].textGradientColor[1] || '#FFF') + " 100%)");
                     dom_toggle_class(span1, "donate-shop-product__name--gradient", !(0, lodash.isEmpty)( /*data*/ ctx[0].textGradientColor));
                     dom_attr(div6, "class", "donate-shop-product__name-wrppaer");
@@ -299703,8 +302941,9 @@ const getRandomTableNumber = () => {
 
             imagewithfallback = new imageWithFallback_index_svelte({
                 props: {
+                    useLoader: true,
                     src: `${CDN_URL}/assets/images/donate_shop/${/*data*/ ctx[0].imageId}.${/*data*/ ctx[0].gifId > 0 ? 'gif' : 'webp'}`,
-                    fallbackImageUrl: fallback_image_namespaceObject,
+                    fallbackImageUrl: donate_shop_img_fallback_image_namespaceObject,
                     alt: "item-icon"
                 }
             });
@@ -299744,7 +302983,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (100:28) {#if !isEmpty(badge.icon)}
+        // (101:28) {#if !isEmpty(badge.icon)}
         function product_index_svelte_create_if_block_12(ctx) {
             let div;
             let t_value = unicodeFormatToEmoji( /*badge*/ ctx[9].icon) + "";
@@ -299771,7 +303010,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (95:20) {#each data.badges as badge}
+        // (96:20) {#each data.badges as badge}
         function product_index_svelte_create_each_block(ctx) {
             let div1;
             let show_if = !(0, lodash.isEmpty)( /*badge*/ ctx[9].icon);
@@ -299834,7 +303073,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (112:20) {#if data.endUnixTime >= 0 && data.timeDifference > 0}
+        // (113:20) {#if data.endUnixTime >= 0 && data.timeDifference > 0}
         function product_index_svelte_create_if_block_10(ctx) {
             let i;
             let t;
@@ -299888,7 +303127,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (117:28) {:else}
+        // (118:28) {:else}
         function product_index_svelte_create_else_block_2(ctx) {
             let t_value = moment_default().unix( /*data*/ ctx[0].endUnixTime).format('DD.MM.YYYY') + "";
             let t;
@@ -299911,7 +303150,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (115:28) {#if data.timerView}
+        // (116:28) {#if data.timerView}
         function product_index_svelte_create_if_block_11(ctx) {
             let t_value = /*formatTimeString*/ ctx[7]( /*data*/ ctx[0].timeDifference) + "";
             let t;
@@ -299934,7 +303173,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (126:16) {#if data.typeTemplate === Templates.Exchange || data.typeTemplate === Templates.Add}
+        // (127:16) {#if data.typeTemplate === Templates.Exchange || data.typeTemplate === Templates.Add}
         function product_index_svelte_create_if_block_6(ctx) {
             let show_if = /*data*/ ctx[0].typeTemplate && !(0, lodash.isEmpty)( /*data*/ ctx[0].desc);
             let t0;
@@ -300055,7 +303294,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (127:20) {#if data.typeTemplate && !isEmpty(data.desc)}
+        // (128:20) {#if data.typeTemplate && !isEmpty(data.desc)}
         function product_index_svelte_create_if_block_9(ctx) {
             let div;
             let t_value = /*data*/ ctx[0].desc + "";
@@ -300082,7 +303321,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (136:24) {:else}
+        // (137:24) {:else}
         function product_index_svelte_create_else_block_1(ctx) {
             let i;
 
@@ -300102,7 +303341,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (134:24) {#if data.typeTemplate === Templates.Exchange}
+        // (135:24) {#if data.typeTemplate === Templates.Exchange}
         function product_index_svelte_create_if_block_8(ctx) {
             let img;
             let img_src_value;
@@ -300125,7 +303364,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (144:24) {:else}
+        // (145:24) {:else}
         function product_index_svelte_create_else_block(ctx) {
             let img;
             let img_src_value;
@@ -300148,7 +303387,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (142:24) {#if data.typeTemplate === Templates.Exchange}
+        // (143:24) {#if data.typeTemplate === Templates.Exchange}
         function product_index_svelte_create_if_block_7(ctx) {
             let i;
 
@@ -300168,7 +303407,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (149:16) {#if data.typeTemplate === Templates.Big && !isEmpty(data.desc)}
+        // (150:16) {#if data.typeTemplate === Templates.Big && !isEmpty(data.desc)}
         function product_index_svelte_create_if_block_5(ctx) {
             let div;
             let t_value = /*data*/ ctx[0].desc + "";
@@ -300200,7 +303439,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (166:16) {#if data.typeTemplate === Templates.Standart || data.typeTemplate === Templates.Wide && !isEmpty(data.desc)}
+        // (167:16) {#if data.typeTemplate === Templates.Standart || data.typeTemplate === Templates.Wide && !isEmpty(data.desc)}
         function product_index_svelte_create_if_block_4(ctx) {
             let div;
             let t_value = /*data*/ ctx[0].desc + "";
@@ -300227,7 +303466,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (182:12) {#if data.blockedType >= 0}
+        // (183:12) {#if data.blockedType >= 0}
         function product_index_svelte_create_if_block_1(ctx) {
             let div;
             let current_block_type_index;
@@ -300318,7 +303557,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (189:53) 
+        // (190:53) 
         function product_index_svelte_create_if_block_3(ctx) {
             let div;
             let loader;
@@ -300360,7 +303599,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (184:20) {#if data.blockedType === 1}
+        // (185:20) {#if data.blockedType === 1}
         function product_index_svelte_create_if_block_2(ctx) {
             let i;
             let t0;
@@ -310232,7 +313471,6 @@ const getRandomTableNumber = () => {
          * @param {Array<*>} arr The array to sort (modifies original).
          * @param {!function(*, *): number} compareFnc Comparison function.
          * @api
-         * @deprecated
          */
         function stableSort(arr, compareFnc) {
             const length = arr.length;
@@ -310459,7 +313697,7 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const events_Event = (BaseEvent);
+        const Event = (BaseEvent);
 
         ; // CONCATENATED MODULE: ./node_modules/ol/events/Target.js
         /**
@@ -310554,7 +313792,7 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                const evt = isString ? new events_Event(event) : /** @type {Event} */ (event);
+                const evt = isString ? new Event(event) : /** @type {Event} */ (event);
                 if (!evt.target) {
                     evt.target = this.eventTarget_ || this;
                 }
@@ -311001,7 +314239,7 @@ const getRandomTableNumber = () => {
          * OpenLayers version.
          * @type {string}
          */
-        const util_VERSION = '10.7.0';
+        const util_VERSION = '10.6.1';
 
         ; // CONCATENATED MODULE: ./node_modules/ol/Object.js
         /**
@@ -311017,7 +314255,7 @@ const getRandomTableNumber = () => {
          * @classdesc
          * Events emitted by {@link module:ol/Object~BaseObject} instances are instances of this type.
          */
-        class ObjectEvent extends events_Event {
+        class ObjectEvent extends Event {
             /**
              * @param {string} type The event type.
              * @param {string} key The property name.
@@ -321966,7 +325204,7 @@ const getRandomTableNumber = () => {
          * type.
          * @template T
          */
-        class CollectionEvent extends events_Event {
+        class CollectionEvent extends Event {
             /**
              * @param {import("./CollectionEventType.js").default} type Type.
              * @param {T} element Element.
@@ -322055,10 +325293,10 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {!Array<T>}
                  */
-                this.array_ = array ?? [];
+                this.array_ = array ? array : [];
 
                 if (this.unique_) {
-                    for (let i = 1, ii = this.array_.length; i < ii; ++i) {
+                    for (let i = 0, ii = this.array_.length; i < ii; ++i) {
                         this.assertUnique_(this.array_[i], i);
                     }
                 }
@@ -322173,6 +325411,9 @@ const getRandomTableNumber = () => {
              * @api
              */
             push(elem) {
+                if (this.unique_) {
+                    this.assertUnique_(elem);
+                }
                 const n = this.getLength();
                 this.insertAt(n, elem);
                 return this.getLength();
@@ -322264,9 +325505,8 @@ const getRandomTableNumber = () => {
              * @param {number} [except] Optional index to ignore.
              */
             assertUnique_(elem, except) {
-                const array = this.array_;
-                for (let i = 0, ii = array.length; i < ii; ++i) {
-                    if (array[i] === elem && i !== except) {
+                for (let i = 0, ii = this.array_.length; i < ii; ++i) {
+                    if (this.array_[i] === elem && i !== except) {
                         throw new Error('Duplicate item added to a unique collection');
                     }
                 }
@@ -322287,7 +325527,7 @@ const getRandomTableNumber = () => {
          * Events emitted as map events are instances of this type.
          * See {@link module:ol/Map~Map} for which events trigger a map event.
          */
-        class MapEvent extends events_Event {
+        class MapEvent extends Event {
             /**
              * @param {string} type Event type.
              * @param {import("./Map.js").default} map Map.
@@ -323698,9 +326938,9 @@ const getRandomTableNumber = () => {
          * Create an html canvas element and returns its 2d context.
          * @param {number} [width] Canvas width.
          * @param {number} [height] Canvas height.
-         * @param {Array<HTMLCanvasElement|OffscreenCanvas>} [canvasPool] Canvas pool to take existing canvas from.
+         * @param {Array<HTMLCanvasElement>} [canvasPool] Canvas pool to take existing canvas from.
          * @param {CanvasRenderingContext2DSettings} [settings] CanvasRenderingContext2DSettings
-         * @return {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} The context.
+         * @return {CanvasRenderingContext2D} The context.
          */
         function dom_createCanvasContext2D(width, height, canvasPool, settings) {
             /** @type {HTMLCanvasElement|OffscreenCanvas} */
@@ -323708,9 +326948,7 @@ const getRandomTableNumber = () => {
             if (canvasPool && canvasPool.length) {
                 canvas = /** @type {HTMLCanvasElement} */ (canvasPool.shift());
             } else if (WORKER_OFFSCREEN_CANVAS) {
-                canvas = new(class extends OffscreenCanvas {
-                    style = {};
-                })(width ?? 300, height ?? 150);
+                canvas = new OffscreenCanvas(width || 300, height || 300);
             } else {
                 canvas = document.createElement('canvas');
             }
@@ -323720,18 +326958,17 @@ const getRandomTableNumber = () => {
             if (height) {
                 canvas.height = height;
             }
-            return /** @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} */ (
+            //FIXME Allow OffscreenCanvasRenderingContext2D as return type
+            return /** @type {CanvasRenderingContext2D} */ (
                 canvas.getContext('2d', settings)
             );
         }
 
-        /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
-         */
+        /** @type {CanvasRenderingContext2D} */
         let sharedCanvasContext;
 
         /**
-         * @return {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} Shared canvas context.
+         * @return {CanvasRenderingContext2D} Shared canvas context.
          */
         function getSharedCanvasContext2D() {
             if (!sharedCanvasContext) {
@@ -323743,7 +326980,7 @@ const getRandomTableNumber = () => {
         /**
          * Releases canvas memory to avoid exceeding memory limits in Safari.
          * See https://pqina.nl/blog/total-canvas-memory-use-exceeds-the-maximum-limit/
-         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+         * @param {CanvasRenderingContext2D} context Context.
          */
         function releaseCanvas(context) {
             const canvas = context.canvas;
@@ -323843,78 +327080,6 @@ const getRandomTableNumber = () => {
                 // reorder
                 node.insertBefore(newChild, oldChild);
             }
-        }
-
-        /**
-         * Creates a minimal structure that mocks a DIV to be used by the composite and
-         * layer renderer in a worker environment
-         * @return {HTMLDivElement} mocked DIV
-         */
-        function createMockDiv() {
-            const mockedDiv = new Proxy({
-                /**
-                 * @type {Array<HTMLElement>}
-                 */
-                childNodes: [],
-                /**
-                 * @param {HTMLElement} node html node.
-                 * @return {HTMLElement} html node.
-                 */
-                appendChild: function(node) {
-                    this.childNodes.push(node);
-                    return node;
-                },
-                /**
-                 * dummy function, as this structure is not supposed to have a parent.
-                 */
-                remove: function() {},
-                /**
-                 * @param {HTMLElement} node html node.
-                 * @return {HTMLElement} html node.
-                 */
-                removeChild: function(node) {
-                    const index = this.childNodes.indexOf(node);
-                    if (index === -1) {
-                        throw new Error('Node to remove was not found');
-                    }
-                    this.childNodes.splice(index, 1);
-                    return node;
-                },
-                /**
-                 * @param {HTMLElement} newNode new html node.
-                 * @param {HTMLElement} referenceNode reference html node.
-                 * @return {HTMLElement} new html node.
-                 */
-                insertBefore: function(newNode, referenceNode) {
-                    const index = this.childNodes.indexOf(referenceNode);
-                    if (index === -1) {
-                        throw new Error('Reference node not found');
-                    }
-                    this.childNodes.splice(index, 0, newNode);
-                    return newNode;
-                },
-                style: {},
-            }, {
-                get(target, prop, receiver) {
-                    if (prop === 'firstElementChild') {
-                        return target.childNodes.length > 0 ? target.childNodes[0] : null;
-                    }
-                    return Reflect.get(target, prop, receiver);
-                },
-            }, );
-            return /** @type {HTMLDivElement} */ ( /** @type {*} */ (mockedDiv));
-        }
-
-        /***
-         * @param {*} obj The object to check.
-         * @return {obj is (HTMLCanvasElement | OffscreenCanvas)} The object is a canvas.
-         */
-        function isCanvas(obj) {
-            return (
-                (typeof HTMLCanvasElement !== 'undefined' &&
-                    obj instanceof HTMLCanvasElement) ||
-                (typeof OffscreenCanvas !== 'undefined' && obj instanceof OffscreenCanvas)
-            );
         }
 
         ; // CONCATENATED MODULE: ./node_modules/ol/control/Control.js
@@ -326299,7 +329464,7 @@ const getRandomTableNumber = () => {
          * Events emitted by {@link module:ol/interaction/DragBox~DragBox} instances are instances of
          * this type.
          */
-        class DragBoxEvent extends events_Event {
+        class DragBoxEvent extends Event {
             /**
              * @param {string} type The event type.
              * @param {import("../coordinate.js").Coordinate} coordinate The event coordinate.
@@ -328119,22 +331284,8 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @enum {string}
+         * @typedef {'addlayer'|'removelayer'} GroupEventType
          */
-        const GroupEventType = {
-            /**
-             * Triggered when a layer is added
-             * @event GroupEvent#addlayer
-             * @api
-             */
-            ADDLAYER: 'addlayer',
-            /**
-             * Triggered when a layer is removed
-             * @event GroupEvent#removelayer
-             * @api
-             */
-            REMOVELAYER: 'removelayer',
-        };
 
         /**
          * @classdesc
@@ -328142,7 +331293,7 @@ const getRandomTableNumber = () => {
          * the group or one of its child groups.  When a layer group is added to or removed from another layer group,
          * a single event will be triggered (instead of one per layer in the group added or removed).
          */
-        class GroupEvent extends events_Event {
+        class GroupEvent extends Event {
             /**
              * @param {GroupEventType} type The event type.
              * @param {BaseLayer} layer The layer.
@@ -328164,8 +331315,7 @@ const getRandomTableNumber = () => {
          * @typedef {import("../Observable").OnSignature<import("../Observable").EventTypes, import("../events/Event.js").default, Return> &
          *   import("../Observable").OnSignature<import("./Base").BaseLayerObjectEventTypes|
          *     'change:layers', import("../Object").ObjectEvent, Return> &
-         *   import("../Observable").OnSignature<'addlayer'|'removelayer', GroupEvent, Return> &
-         *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|'addlayer'|'removelayer'|'change:layers', Return>} GroupOnSignature
+         *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|'change:layers', Return>} GroupOnSignature
          */
 
         /**
@@ -328204,7 +331354,6 @@ const getRandomTableNumber = () => {
          *
          * A generic `change` event is triggered when the group/Collection changes.
          *
-         * @fires GroupEvent
          * @api
          */
         class LayerGroup extends Base {
@@ -328303,7 +331452,7 @@ const getRandomTableNumber = () => {
                 for (let i = 0, ii = layersArray.length; i < ii; i++) {
                     const layer = layersArray[i];
                     this.registerLayerListeners_(layer);
-                    this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, layer));
+                    this.dispatchEvent(new GroupEvent('addlayer', layer));
                 }
                 this.changed();
             }
@@ -328324,13 +331473,8 @@ const getRandomTableNumber = () => {
 
                 if (layer instanceof LayerGroup) {
                     listenerKeys.push(
-                        events_listen(layer, GroupEventType.ADDLAYER, this.handleLayerGroupAdd_, this),
-                        events_listen(
-                            layer,
-                            GroupEventType.REMOVELAYER,
-                            this.handleLayerGroupRemove_,
-                            this,
-                        ),
+                        events_listen(layer, 'addlayer', this.handleLayerGroupAdd_, this),
+                        events_listen(layer, 'removelayer', this.handleLayerGroupRemove_, this),
                     );
                 }
 
@@ -328341,14 +331485,14 @@ const getRandomTableNumber = () => {
              * @param {GroupEvent} event The layer group event.
              */
             handleLayerGroupAdd_(event) {
-                this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, event.layer));
+                this.dispatchEvent(new GroupEvent('addlayer', event.layer));
             }
 
             /**
              * @param {GroupEvent} event The layer group event.
              */
             handleLayerGroupRemove_(event) {
-                this.dispatchEvent(new GroupEvent(GroupEventType.REMOVELAYER, event.layer));
+                this.dispatchEvent(new GroupEvent('removelayer', event.layer));
             }
 
             /**
@@ -328358,7 +331502,7 @@ const getRandomTableNumber = () => {
             handleLayersAdd_(collectionEvent) {
                 const layer = collectionEvent.element;
                 this.registerLayerListeners_(layer);
-                this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, layer));
+                this.dispatchEvent(new GroupEvent('addlayer', layer));
                 this.changed();
             }
 
@@ -328371,7 +331515,7 @@ const getRandomTableNumber = () => {
                 const key = getUid(layer);
                 this.listenerKeys_[key].forEach(unlistenByKey);
                 delete this.listenerKeys_[key];
-                this.dispatchEvent(new GroupEvent(GroupEventType.REMOVELAYER, layer));
+                this.dispatchEvent(new GroupEvent('removelayer', layer));
                 this.changed();
             }
 
@@ -328402,9 +331546,7 @@ const getRandomTableNumber = () => {
                 if (collection) {
                     const currentLayers = collection.getArray();
                     for (let i = 0, ii = currentLayers.length; i < ii; ++i) {
-                        this.dispatchEvent(
-                            new GroupEvent(GroupEventType.REMOVELAYER, currentLayers[i]),
-                        );
+                        this.dispatchEvent(new GroupEvent('removelayer', currentLayers[i]));
                     }
                 }
 
@@ -332378,13 +335520,13 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D}
          */
         let taintedTestContext = null;
 
         class IconImage extends events_Target {
             /**
-             * @param {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null} image Image.
+             * @param {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null} image Image.
              * @param {string|undefined} src Src.
              * @param {?string} crossOrigin Cross origin.
              * @param {import("../ImageState.js").default|undefined} imageState Image state.
@@ -332395,13 +335537,13 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|OffscreenCanvas|HTMLCanvasElement|ImageBitmap}
+                 * @type {HTMLImageElement|HTMLCanvasElement|ImageBitmap}
                  */
                 this.hitDetectionImage_ = null;
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null}
+                 * @type {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null}
                  */
                 this.image_ = image;
 
@@ -332413,7 +335555,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {Object<number, HTMLCanvasElement|OffscreenCanvas>}
+                 * @type {Object<number, HTMLCanvasElement>}
                  */
                 this.canvas_ = {};
 
@@ -332513,7 +335655,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image or Canvas element or image bitmap.
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image or Canvas element or image bitmap.
              */
             getImage(pixelRatio) {
                 if (!this.image_) {
@@ -332540,7 +335682,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image element.
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image element.
              */
             getHitDetectionImage() {
                 if (!this.image_) {
@@ -332668,7 +335810,7 @@ const getRandomTableNumber = () => {
         }
 
         /**
-         * @param {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null} image Image.
+         * @param {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null} image Image.
          * @param {string|undefined} cacheKey Src.
          * @param {?string} crossOrigin Cross origin.
          * @param {import("../ImageState.js").default|undefined} imageState Image state.
@@ -332973,7 +336115,7 @@ const getRandomTableNumber = () => {
         const checkedFonts = new ol_Object();
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D}
          */
         let measureContext = null;
 
@@ -333335,7 +336477,7 @@ const getRandomTableNumber = () => {
 
         /**
          * @param {Label} label Label.
-         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+         * @param {CanvasRenderingContext2D} context Context.
          */
         function executeLabelInstructions(label, context) {
             const contextInstructions = label.contextInstructions;
@@ -333728,7 +336870,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLCanvasElement|OffscreenCanvas|null}
+                 * @type {HTMLCanvasElement|null}
                  */
                 this.hitDetectionCanvas_ = null;
 
@@ -333872,7 +337014,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLCanvasElement|OffscreenCanvas} Image element.
+             * @return {HTMLCanvasElement} Image element.
              * @override
              */
             getHitDetectionImage() {
@@ -333887,7 +337029,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image icon.
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLCanvasElement|OffscreenCanvas} Image or Canvas element.
+             * @return {HTMLCanvasElement} Image or Canvas element.
              * @api
              * @override
              */
@@ -333896,7 +337038,7 @@ const getRandomTableNumber = () => {
                 const cacheKey =
                     `${pixelRatio},${this.angle_},${this.radius},${this.radius2_},${this.points_},${fillKey}` +
                     Object.values(this.renderOptions_).join(',');
-                let image = /** @type {HTMLCanvasElement|OffscreenCanvas} */ (
+                let image = /** @type {HTMLCanvasElement} */ (
                     shared.get(cacheKey, null, null)?.getImage(1)
                 );
                 if (!image) {
@@ -334168,7 +337310,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The rendering context.
+             * @param {CanvasRenderingContext2D} context The rendering context.
              * @param {number} pixelRatio The pixel ratio.
              */
             draw_(renderOptions, context, pixelRatio) {
@@ -334203,7 +337345,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @return {HTMLCanvasElement|OffscreenCanvas} Canvas containing the icon
+             * @return {HTMLCanvasElement} Canvas containing the icon
              */
             createHitDetectionCanvas_(renderOptions) {
                 let context;
@@ -334232,7 +337374,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The context to draw in.
+             * @param {CanvasRenderingContext2D} context The context to draw in.
              */
             createPath_(context) {
                 let points = this.points_;
@@ -334258,7 +337400,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The context.
+             * @param {CanvasRenderingContext2D} context The context.
              */
             drawHitDetectionCanvas_(renderOptions, context) {
                 // set origin to canvas center
@@ -334546,7 +337688,7 @@ const getRandomTableNumber = () => {
          * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images. Note that you must provide a
          * `crossOrigin` value if you want to access pixel data with the Canvas renderer.
          * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
-         * @property {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} [img] Image object for the icon.
+         * @property {HTMLImageElement|HTMLCanvasElement|ImageBitmap} [img] Image object for the icon.
          * @property {Array<number>} [displacement=[0, 0]] Displacement of the icon in pixels.
          * Positive values will shift the icon right and up.
          * @property {number} [opacity=1] Opacity of the icon.
@@ -334919,7 +338061,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image icon.
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image or Canvas element. If the Icon
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image or Canvas element. If the Icon
              * style was configured with `src` or with a not let loaded `img`, an `ImageBitmap` will be returned.
              * @api
              * @override
@@ -334956,7 +338098,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image element.
+             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image element.
              * @override
              */
             getHitDetectionImage() {
@@ -335006,21 +338148,6 @@ const getRandomTableNumber = () => {
              */
             getSrc() {
                 return this.iconImage_.getSrc();
-            }
-
-            /**
-             * Set the image URI
-             * @param {string} src Image source URI
-             * @api
-             */
-            setSrc(src) {
-                this.iconImage_ = IconImage_get(
-                    null,
-                    src,
-                    this.crossOrigin_,
-                    ol_ImageState.IDLE,
-                    this.color_,
-                );
             }
 
             /**
@@ -336175,9 +339302,7 @@ const getRandomTableNumber = () => {
                     textAlign: this.getTextAlign(),
                     justify: this.getJustify(),
                     textBaseline: this.getTextBaseline(),
-                    fill: this.getFill() instanceof style_Fill ?
-                        this.getFill().clone() :
-                        this.getFill(),
+                    fill: this.getFill() ? this.getFill().clone() : undefined,
                     stroke: this.getStroke() ? this.getStroke().clone() : undefined,
                     offsetX: this.getOffsetX(),
                     offsetY: this.getOffsetY(),
@@ -338306,13 +341431,13 @@ const getRandomTableNumber = () => {
 
 
 
-        class RenderEvent extends events_Event {
+        class RenderEvent extends Event {
             /**
              * @param {import("./EventType.js").default} type Type.
              * @param {import("../transform.js").Transform} [inversePixelTransform] Transform for
              *     CSS pixels to rendered pixels.
              * @param {import("../Map.js").FrameState} [frameState] Frame state.
-             * @param {?(CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|WebGLRenderingContext)} [context] Context.
+             * @param {?(CanvasRenderingContext2D|WebGLRenderingContext)} [context] Context.
              */
             constructor(type, inversePixelTransform, frameState, context) {
                 super(type);
@@ -338336,7 +341461,7 @@ const getRandomTableNumber = () => {
                  * Canvas context. Not available when the event is dispatched by the map. For Canvas 2D layers,
                  * the context will be the 2D rendering context.  For WebGL layers, the context will be the WebGL
                  * context.
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|WebGLRenderingContext|undefined}
+                 * @type {CanvasRenderingContext2D|WebGLRenderingContext|undefined}
                  * @api
                  */
                 this.context = context;
@@ -338609,8 +341734,6 @@ const getRandomTableNumber = () => {
 
 
 
-
-
         /**
          * @classdesc
          * Canvas map renderer.
@@ -338638,9 +341761,7 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {HTMLDivElement}
                  */
-                this.element_ = WORKER_OFFSCREEN_CANVAS ?
-                    createMockDiv() :
-                    document.createElement('div');
+                this.element_ = document.createElement('div');
                 const style = this.element_.style;
                 style.position = 'absolute';
                 style.width = '100%';
@@ -338650,10 +341771,7 @@ const getRandomTableNumber = () => {
                 this.element_.className = CLASS_UNSELECTABLE + ' ol-layers';
 
                 const container = map.getViewport();
-                if (container) {
-                    // maps in a worker do not have a viewport.
-                    container.insertBefore(this.element_, container.firstChild || null);
-                }
+                container.insertBefore(this.element_, container.firstChild || null);
 
                 /**
                  * @private
@@ -338755,41 +341873,6 @@ const getRandomTableNumber = () => {
 
                 replaceChildren(this.element_, this.children_);
 
-                const map = this.getMap();
-                const mapCanvas = map.getTargetElement();
-                if (isCanvas(mapCanvas)) {
-                    // Canvas composition when container is a canvas
-                    const mapContext = mapCanvas.getContext('2d');
-                    for (const container of this.children_) {
-                        const canvas = container.firstElementChild || container;
-                        const backgroundColor = container.style.backgroundColor;
-                        if (backgroundColor && (!isCanvas(canvas) || canvas.width > 0)) {
-                            mapContext.fillStyle = backgroundColor;
-                            mapContext.fillRect(0, 0, mapCanvas.width, mapCanvas.height);
-                        }
-                        if (isCanvas(canvas) && canvas.width > 0) {
-                            const opacity = container.style.opacity || canvas.style.opacity;
-                            mapContext.globalAlpha = opacity === '' ? 1 : Number(opacity);
-                            const transform = canvas.style.transform;
-                            if (transform) {
-                                // Get the transform parameters from the style's transform matrix
-                                mapContext.setTransform(
-                                    ... /** @type {[number, number, number, number, number, number]} */ (
-                                        fromString(transform)
-                                    ),
-                                );
-                            } else {
-                                const w = parseFloat(canvas.style.width) / canvas.width;
-                                const h = parseFloat(canvas.style.height) / canvas.height;
-                                mapContext.setTransform(w, 0, 0, h, 0, 0);
-                            }
-                            mapContext.drawImage(canvas, 0, 0);
-                        }
-                    }
-                    mapContext.globalAlpha = 1;
-                    mapContext.setTransform(1, 0, 0, 1, 0, 0);
-                }
-
                 this.dispatchRenderEvent(render_EventType.POSTCOMPOSE, frameState);
 
                 if (!this.renderedVisible_) {
@@ -338828,7 +341911,6 @@ const getRandomTableNumber = () => {
         /**
          * @module ol/Map
          */
-
 
 
 
@@ -338937,12 +342019,12 @@ const getRandomTableNumber = () => {
          * @typedef {Object} MapOptions
          * @property {Collection<import("./control/Control.js").default>|Array<import("./control/Control.js").default>} [controls]
          * Controls initially added to the map. If not specified,
-         * {@link module:ol/control/defaults.defaults} is used. In a worker, no controls are added by default.
+         * {@link module:ol/control/defaults.defaults} is used.
          * @property {number} [pixelRatio=window.devicePixelRatio] The ratio between
          * physical pixels and device-independent pixels (dips) on the device.
          * @property {Collection<import("./interaction/Interaction.js").default>|Array<import("./interaction/Interaction.js").default>} [interactions]
          * Interactions that are initially added to the map. If not specified,
-         * {@link module:ol/interaction/defaults.defaults} is used. In a worker, no interactions are added by default.
+         * {@link module:ol/interaction/defaults.defaults} is used.
          * @property {HTMLElement|Document|string} [keyboardEventTarget] The element to
          * listen to keyboard events on. This determines when the `KeyboardPan` and
          * `KeyboardZoom` interactions trigger. For example, if this option is set to
@@ -338963,11 +342045,10 @@ const getRandomTableNumber = () => {
          * Increasing this value can make it easier to click on the map.
          * @property {Collection<import("./Overlay.js").default>|Array<import("./Overlay.js").default>} [overlays]
          * Overlays initially added to the map. By default, no overlays are added.
-         * @property {HTMLElement|string|HTMLCanvasElement|OffscreenCanvas} [target] The container for the map, either the
+         * @property {HTMLElement|string} [target] The container for the map, either the
          * element itself or the `id` of the element. If not specified at construction
          * time, {@link module:ol/Map~Map#setTarget} must be called for the map to be
          * rendered. If passed by element, the container can be in a secondary document.
-         * For use in workers or when exporting a map, use an `OffscreenCanvas` or `HTMLCanvasElement` as target.
          * For accessibility (focus and keyboard events for map navigation), the `target` element must have a
          *  properly configured `tabindex` attribute. If the `target` element is inside a Shadow DOM, the
          *  `tabindex` atribute must be set on the custom element's host element.
@@ -339186,42 +342267,39 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {!HTMLElement}
                  */
-                if (!WORKER_OFFSCREEN_CANVAS) {
-                    this.viewport_ = document.createElement('div');
-                    this.viewport_.className =
-                        'ol-viewport' + ('ontouchstart' in window ? ' ol-touch' : '');
-                    this.viewport_.style.position = 'relative';
-                    this.viewport_.style.overflow = 'hidden';
-                    this.viewport_.style.width = '100%';
-                    this.viewport_.style.height = '100%';
+                this.viewport_ = document.createElement('div');
+                this.viewport_.className =
+                    'ol-viewport' + ('ontouchstart' in window ? ' ol-touch' : '');
+                this.viewport_.style.position = 'relative';
+                this.viewport_.style.overflow = 'hidden';
+                this.viewport_.style.width = '100%';
+                this.viewport_.style.height = '100%';
 
-                    /**
-                     * @private
-                     * @type {!HTMLElement}
-                     */
-                    this.overlayContainer_ = document.createElement('div');
-                    this.overlayContainer_.style.position = 'absolute';
-                    this.overlayContainer_.style.zIndex = '0';
-                    this.overlayContainer_.style.width = '100%';
-                    this.overlayContainer_.style.height = '100%';
-                    this.overlayContainer_.style.pointerEvents = 'none';
-                    this.overlayContainer_.className = 'ol-overlaycontainer';
-                    this.viewport_.appendChild(this.overlayContainer_);
+                /**
+                 * @private
+                 * @type {!HTMLElement}
+                 */
+                this.overlayContainer_ = document.createElement('div');
+                this.overlayContainer_.style.position = 'absolute';
+                this.overlayContainer_.style.zIndex = '0';
+                this.overlayContainer_.style.width = '100%';
+                this.overlayContainer_.style.height = '100%';
+                this.overlayContainer_.style.pointerEvents = 'none';
+                this.overlayContainer_.className = 'ol-overlaycontainer';
+                this.viewport_.appendChild(this.overlayContainer_);
 
-                    /**
-                     * @private
-                     * @type {!HTMLElement}
-                     */
-                    this.overlayContainerStopEvent_ = document.createElement('div');
-                    this.overlayContainerStopEvent_.style.position = 'absolute';
-                    this.overlayContainerStopEvent_.style.zIndex = '0';
-                    this.overlayContainerStopEvent_.style.width = '100%';
-                    this.overlayContainerStopEvent_.style.height = '100%';
-                    this.overlayContainerStopEvent_.style.pointerEvents = 'none';
-                    this.overlayContainerStopEvent_.className =
-                        'ol-overlaycontainer-stopevent';
-                    this.viewport_.appendChild(this.overlayContainerStopEvent_);
-                }
+                /**
+                 * @private
+                 * @type {!HTMLElement}
+                 */
+                this.overlayContainerStopEvent_ = document.createElement('div');
+                this.overlayContainerStopEvent_.style.position = 'absolute';
+                this.overlayContainerStopEvent_.style.zIndex = '0';
+                this.overlayContainerStopEvent_.style.width = '100%';
+                this.overlayContainerStopEvent_.style.height = '100%';
+                this.overlayContainerStopEvent_.style.pointerEvents = 'none';
+                this.overlayContainerStopEvent_.className = 'ol-overlaycontainer-stopevent';
+                this.viewport_.appendChild(this.overlayContainerStopEvent_);
 
                 /**
                  * @private
@@ -339253,21 +342331,17 @@ const getRandomTableNumber = () => {
                  */
                 this.targetElement_ = null;
 
-                if (!WORKER_OFFSCREEN_CANVAS) {
-                    /**
-                     * @private
-                     * @type {ResizeObserver}
-                     */
-                    this.resizeObserver_ = new ResizeObserver(() => this.updateSize());
-                }
+                /**
+                 * @private
+                 * @type {ResizeObserver}
+                 */
+                this.resizeObserver_ = new ResizeObserver(() => this.updateSize());
 
                 /**
                  * @type {Collection<import("./control/Control.js").default>}
                  * @protected
                  */
-                this.controls =
-                    optionsInternal.controls ||
-                    (WORKER_OFFSCREEN_CANVAS ? new ol_Collection() : defaults_defaults());
+                this.controls = optionsInternal.controls || defaults_defaults();
 
                 /**
                  * @type {Collection<import("./interaction/Interaction.js").default>}
@@ -339275,11 +342349,9 @@ const getRandomTableNumber = () => {
                  */
                 this.interactions =
                     optionsInternal.interactions ||
-                    (WORKER_OFFSCREEN_CANVAS ?
-                        new ol_Collection() :
-                        interaction_defaults_defaults({
-                            onFocusOnly: true,
-                        }));
+                    interaction_defaults_defaults({
+                        onFocusOnly: true,
+                    });
 
                 /**
                  * @type {Collection<import("./Overlay.js").default>}
@@ -339492,7 +342564,7 @@ const getRandomTableNumber = () => {
                 this.controls.clear();
                 this.interactions.clear();
                 this.overlays_.clear();
-                this.resizeObserver_?.disconnect();
+                this.resizeObserver_.disconnect();
                 this.setTarget(null);
                 super.disposeInternal();
             }
@@ -340107,8 +343179,8 @@ const getRandomTableNumber = () => {
                     this.viewport_.remove();
                 }
 
-                if (this.targetElement_ && !isCanvas(this.targetElement_)) {
-                    this.resizeObserver_?.unobserve(this.targetElement_);
+                if (this.targetElement_) {
+                    this.resizeObserver_.unobserve(this.targetElement_);
                     const rootNode = this.targetElement_.getRootNode();
                     if (rootNode instanceof ShadowRoot) {
                         this.resizeObserver_.unobserve(rootNode.host);
@@ -340138,73 +343210,67 @@ const getRandomTableNumber = () => {
                         this.animationDelayKey_ = undefined;
                     }
                 } else {
-                    if (!isCanvas(targetElement)) {
-                        targetElement.appendChild(this.viewport_);
-                    }
+                    targetElement.appendChild(this.viewport_);
                     if (!this.renderer_) {
                         this.renderer_ = new Composite(this);
                     }
 
-                    if (!isCanvas(targetElement)) {
-                        this.mapBrowserEventHandler_ = new ol_MapBrowserEventHandler(
-                            this,
-                            this.moveTolerance_,
+                    this.mapBrowserEventHandler_ = new ol_MapBrowserEventHandler(
+                        this,
+                        this.moveTolerance_,
+                    );
+                    for (const key in ol_MapBrowserEventType) {
+                        this.mapBrowserEventHandler_.addEventListener(
+                            ol_MapBrowserEventType[key],
+                            this.handleMapBrowserEvent.bind(this),
                         );
-                        for (const key in ol_MapBrowserEventType) {
-                            this.mapBrowserEventHandler_.addEventListener(
-                                ol_MapBrowserEventType[key],
-                                this.handleMapBrowserEvent.bind(this),
-                            );
-                        }
-                        this.viewport_.addEventListener(
-                            events_EventType.CONTEXTMENU,
-                            this.boundHandleBrowserEvent_,
-                            false,
-                        );
-                        this.viewport_.addEventListener(
-                            events_EventType.WHEEL,
-                            this.boundHandleBrowserEvent_,
-                            PASSIVE_EVENT_LISTENERS ? {
-                                passive: false
-                            } : false,
-                        );
+                    }
+                    this.viewport_.addEventListener(
+                        events_EventType.CONTEXTMENU,
+                        this.boundHandleBrowserEvent_,
+                        false,
+                    );
+                    this.viewport_.addEventListener(
+                        events_EventType.WHEEL,
+                        this.boundHandleBrowserEvent_,
+                        PASSIVE_EVENT_LISTENERS ? {
+                            passive: false
+                        } : false,
+                    );
 
-                        let keyboardEventTarget;
-                        if (!this.keyboardEventTarget_) {
-                            // check if map target is in shadowDOM, if yes use host element as target
-                            const targetRoot = targetElement.getRootNode();
-                            const targetCandidate =
-                                targetRoot instanceof ShadowRoot ? targetRoot.host : targetElement;
-                            keyboardEventTarget = targetCandidate;
-                        } else {
-                            keyboardEventTarget = this.keyboardEventTarget_;
-                        }
-
-                        this.targetChangeHandlerKeys_ = [
-                            events_listen(
-                                keyboardEventTarget,
-                                events_EventType.KEYDOWN,
-                                this.handleBrowserEvent,
-                                this,
-                            ),
-                            events_listen(
-                                keyboardEventTarget,
-                                events_EventType.KEYPRESS,
-                                this.handleBrowserEvent,
-                                this,
-                            ),
-                        ];
-                        if (targetElement instanceof HTMLElement) {
-                            const rootNode = targetElement.getRootNode();
-                            if (rootNode instanceof ShadowRoot) {
-                                this.resizeObserver_.observe(rootNode.host);
-                            }
-                            this.resizeObserver_?.observe(targetElement);
-                        }
+                    let keyboardEventTarget;
+                    if (!this.keyboardEventTarget_) {
+                        // check if map target is in shadowDOM, if yes use host element as target
+                        const targetRoot = targetElement.getRootNode();
+                        const targetCandidate =
+                            targetRoot instanceof ShadowRoot ? targetRoot.host : targetElement;
+                        keyboardEventTarget = targetCandidate;
+                    } else {
+                        keyboardEventTarget = this.keyboardEventTarget_;
                     }
 
-                    this.updateSize();
+                    this.targetChangeHandlerKeys_ = [
+                        events_listen(
+                            keyboardEventTarget,
+                            events_EventType.KEYDOWN,
+                            this.handleBrowserEvent,
+                            this,
+                        ),
+                        events_listen(
+                            keyboardEventTarget,
+                            events_EventType.KEYPRESS,
+                            this.handleBrowserEvent,
+                            this,
+                        ),
+                    ];
+                    const rootNode = targetElement.getRootNode();
+                    if (rootNode instanceof ShadowRoot) {
+                        this.resizeObserver_.observe(rootNode.host);
+                    }
+                    this.resizeObserver_.observe(targetElement);
                 }
+
+                this.updateSize();
                 // updateSize calls setSize, so no need to call this.render
                 // ourselves here.
             }
@@ -340564,25 +343630,19 @@ const getRandomTableNumber = () => {
 
                 let size = undefined;
                 if (targetElement) {
-                    let width, height;
-                    if (isCanvas(targetElement)) {
-                        width = targetElement.width;
-                        height = targetElement.height;
-                    } else {
-                        const computedStyle = getComputedStyle(targetElement);
-                        width =
-                            targetElement.offsetWidth -
-                            parseFloat(computedStyle['borderLeftWidth']) -
-                            parseFloat(computedStyle['paddingLeft']) -
-                            parseFloat(computedStyle['paddingRight']) -
-                            parseFloat(computedStyle['borderRightWidth']);
-                        height =
-                            targetElement.offsetHeight -
-                            parseFloat(computedStyle['borderTopWidth']) -
-                            parseFloat(computedStyle['paddingTop']) -
-                            parseFloat(computedStyle['paddingBottom']) -
-                            parseFloat(computedStyle['borderBottomWidth']);
-                    }
+                    const computedStyle = getComputedStyle(targetElement);
+                    const width =
+                        targetElement.offsetWidth -
+                        parseFloat(computedStyle['borderLeftWidth']) -
+                        parseFloat(computedStyle['paddingLeft']) -
+                        parseFloat(computedStyle['paddingRight']) -
+                        parseFloat(computedStyle['borderRightWidth']);
+                    const height =
+                        targetElement.offsetHeight -
+                        parseFloat(computedStyle['borderTopWidth']) -
+                        parseFloat(computedStyle['paddingTop']) -
+                        parseFloat(computedStyle['paddingBottom']) -
+                        parseFloat(computedStyle['borderBottomWidth']);
                     if (!isNaN(width) && !isNaN(height)) {
                         size = [Math.max(0, width), Math.max(0, height)];
                         if (
@@ -341461,8 +344521,6 @@ const getRandomTableNumber = () => {
          * @module ol/tilecoord
          */
 
-
-
         /**
          * An array of three numbers representing the location of a tile in a tile
          * grid. The order is `z` (zoom level), `x` (column), and `y` (row).
@@ -341517,18 +344575,6 @@ const getRandomTableNumber = () => {
                 .split(',')
                 .map(Number);
             return getKeyZXY(z, x, y);
-        }
-
-        /**
-         * @param {import("./source/Tile.js").default} source The tile source.
-         * @param {string} sourceKey The source key.
-         * @param {number} z The tile z level.
-         * @param {number} x The tile x level.
-         * @param {number} y The tile y level.
-         * @return {string} The cache key.
-         */
-        function tilecoord_getCacheKey(source, sourceKey, z, x, y) {
-            return `${getUid(source)},${sourceKey},${getKeyZXY(z, x, y)}`;
         }
 
         /**
@@ -342688,7 +345734,6 @@ const getRandomTableNumber = () => {
 
 
 
-
         class ImageTile extends ol_Tile {
             /**
              * @param {import("./tilecoord.js").TileCoord} tileCoord Tile coordinate.
@@ -342719,17 +345764,11 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas}
+                 * @type {HTMLImageElement|HTMLCanvasElement}
                  */
-                this.image_;
-
-                if (WORKER_OFFSCREEN_CANVAS) {
-                    this.image_ = new OffscreenCanvas(1, 1);
-                } else {
-                    this.image_ = new Image();
-                    if (crossOrigin !== null) {
-                        this.image_.crossOrigin = crossOrigin;
-                    }
+                this.image_ = new Image();
+                if (crossOrigin !== null) {
+                    this.image_.crossOrigin = crossOrigin;
                 }
 
                 /**
@@ -342746,8 +345785,8 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * Get the HTML image element for this tile (may be a Canvas, OffscreenCanvas, Image, or Video).
-             * @return {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement|HTMLVideoElement} Image.
+             * Get the HTML image element for this tile (may be a Canvas, Image, or Video).
+             * @return {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement} Image.
              * @api
              */
             getImage() {
@@ -342756,21 +345795,13 @@ const getRandomTableNumber = () => {
 
             /**
              * Sets an HTML image element for this tile (may be a Canvas or preloaded Image).
-             * @param {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement} element Element.
+             * @param {HTMLCanvasElement|HTMLImageElement} element Element.
              */
             setImage(element) {
                 this.image_ = element;
                 this.state = TileState.LOADED;
                 this.unlistenImage_();
                 this.changed();
-            }
-
-            /**
-             * Get the cross origin of the ImageTile.
-             * @return {string} Cross origin.
-             */
-            getCrossOrigin() {
-                return this.crossOrigin_;
             }
 
             /**
@@ -342791,16 +345822,11 @@ const getRandomTableNumber = () => {
              * @private
              */
             handleImageLoad_() {
-                if (WORKER_OFFSCREEN_CANVAS) {
-                    // OffscreenCanvas does not have naturalWidth and naturalHeight
+                const image = /** @type {HTMLImageElement} */ (this.image_);
+                if (image.naturalWidth && image.naturalHeight) {
                     this.state = TileState.LOADED;
                 } else {
-                    const image = /** @type {HTMLImageElement} */ (this.image_);
-                    if (image.naturalWidth && image.naturalHeight) {
-                        this.state = TileState.LOADED;
-                    } else {
-                        this.state = TileState.EMPTY;
-                    }
+                    this.state = TileState.EMPTY;
                 }
                 this.unlistenImage_();
                 this.changed();
@@ -342887,7 +345913,7 @@ const getRandomTableNumber = () => {
 
         /**
          * Get a 1-pixel blank image.
-         * @return {HTMLCanvasElement|OffscreenCanvas} Blank image.
+         * @return {HTMLCanvasElement} Blank image.
          */
         function getBlankImage() {
             const ctx = dom_createCanvasContext2D(1, 1);
@@ -342911,7 +345937,7 @@ const getRandomTableNumber = () => {
         let brokenDiagonalRendering_;
 
         /**
-         * @type {Array<HTMLCanvasElement|OffscreenCanvas>}
+         * @type {Array<HTMLCanvasElement>}
          */
         const canvasPool = [];
 
@@ -342919,7 +345945,7 @@ const getRandomTableNumber = () => {
          * This draws a small triangle into a canvas by setting the triangle as the clip region
          * and then drawing a (too large) rectangle
          *
-         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} ctx The context in which to draw the triangle
+         * @param {CanvasRenderingContext2D} ctx The context in which to draw the triangle
          * @param {number} u1 The x-coordinate of the second point. The first point is 0,0.
          * @param {number} v1 The y-coordinate of the second point.
          * @param {number} u2 The x-coordinate of the third point.
@@ -343100,7 +346126,7 @@ const getRandomTableNumber = () => {
          * @param {boolean} [interpolate] Use linear interpolation when resampling.
          * @param {boolean} [drawSingle] Draw single source images directly without stitchContext.
          * @param {boolean} [clipExtent] Clip stitchContext to sourceExtent.
-         * @return {HTMLCanvasElement|OffscreenCanvas} Canvas with reprojected data.
+         * @return {HTMLCanvasElement} Canvas with reprojected data.
          */
         function render(
             width,
@@ -343981,7 +347007,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLCanvasElement|OffscreenCanvas}
+                 * @type {HTMLCanvasElement}
                  */
                 this.canvas_ = null;
 
@@ -344161,7 +347187,7 @@ const getRandomTableNumber = () => {
 
             /**
              * Get the HTML Canvas element for this tile.
-             * @return {HTMLCanvasElement|OffscreenCanvas} Canvas.
+             * @return {HTMLCanvasElement} Canvas.
              */
             getImage() {
                 return this.canvas_;
@@ -344295,12 +347321,7 @@ const getRandomTableNumber = () => {
              */
             release() {
                 if (this.canvas_) {
-                    releaseCanvas(
-                        /** @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} */
-                        (
-                            this.canvas_.getContext('2d')
-                        ),
-                    );
+                    releaseCanvas(this.canvas_.getContext('2d'));
                     canvasPool.push(this.canvas_);
                     this.canvas_ = null;
                 }
@@ -344919,10 +347940,9 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../proj/Projection.js").default} projection Projection.
-             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {TileType|null} Tile.
              */
-            getTile(z, x, y, pixelRatio, projection, tileCache) {
+            getTile(z, x, y, pixelRatio, projection) {
                 return util_abstract();
             }
 
@@ -345015,7 +348035,7 @@ const getRandomTableNumber = () => {
          * Events emitted by {@link module:ol/source/Tile~TileSource} instances are instances of this
          * type.
          */
-        class TileSourceEvent extends events_Event {
+        class TileSourceEvent extends Event {
             /**
              * @param {string} type Type.
              * @param {import("../Tile.js").default} tile The tile.
@@ -345310,8 +348330,6 @@ const getRandomTableNumber = () => {
 
 
 
-
-
         /**
          * @typedef {Object} Options
          * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
@@ -345514,11 +348532,10 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../proj/Projection.js").default} projection Projection.
-             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {!(ImageTile|ReprojTile)} Tile.
              * @override
              */
-            getTile(z, x, y, pixelRatio, projection, tileCache) {
+            getTile(z, x, y, pixelRatio, projection) {
                 const sourceProjection = this.getProjection();
                 if (
                     !sourceProjection ||
@@ -345551,7 +348568,7 @@ const getRandomTableNumber = () => {
                     this.getTilePixelRatio(pixelRatio),
                     this.getGutter(),
                     (z, x, y, pixelRatio) =>
-                    this.getTileInternal(z, x, y, pixelRatio, sourceProjection, tileCache),
+                    this.getTileInternal(z, x, y, pixelRatio, sourceProjection),
                     this.reprojectionErrorThreshold_,
                     this.renderReprojectionEdges_,
                     this.tileOptions,
@@ -345566,20 +348583,12 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {!import("../proj/Projection.js").default} projection Projection.
-             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {!ImageTile} Tile.
              * @protected
              */
-            getTileInternal(z, x, y, pixelRatio, projection, tileCache) {
+            getTileInternal(z, x, y, pixelRatio, projection) {
                 const key = this.getKey();
-                const cacheKey = tilecoord_getCacheKey(this, key, z, x, y);
-                if (tileCache && tileCache.containsKey(cacheKey)) {
-                    const tile = /** @type {!ImageTile} */ (tileCache.get(cacheKey));
-                    return tile;
-                }
-                const tile = this.createTile_(z, x, y, pixelRatio, projection, key);
-                tileCache?.set(cacheKey, tile);
-                return tile;
+                return this.createTile_(z, x, y, pixelRatio, projection, key);
             }
 
             /**
@@ -345623,52 +348632,6 @@ const getRandomTableNumber = () => {
          * @param {string} src Source.
          */
         function defaultTileLoadFunction(imageTile, src) {
-            if (WORKER_OFFSCREEN_CANVAS) {
-                // special treatment for offscreen canvas
-                const crossOrigin = imageTile.getCrossOrigin();
-
-                /** @type {RequestMode} */
-                let mode = 'same-origin';
-                /** @type {RequestCredentials} */
-                let credentials = 'same-origin';
-                if (crossOrigin === 'anonymous' || crossOrigin === '') {
-                    mode = 'cors';
-                    credentials = 'omit';
-                } else if (crossOrigin === 'use-credentials') {
-                    mode = 'cors';
-                    credentials = 'include';
-                }
-
-                fetch(src, {
-                        mode,
-                        credentials,
-                    })
-                    .then((response) => {
-                        if (!response.ok) {
-                            throw new Error(`HTTP ${response.status}`);
-                        }
-                        return response.blob();
-                    })
-                    .then((blob) => {
-                        return createImageBitmap(blob);
-                    })
-                    .then((imageBitmap) => {
-                        const canvas = imageTile.getImage();
-                        canvas.width = imageBitmap.width;
-                        canvas.height = imageBitmap.height;
-                        const ctx = /** @type {OffscreenCanvas} */ (canvas).getContext('2d');
-                        ctx.drawImage(imageBitmap, 0, 0);
-                        imageBitmap.close?.();
-                        // mock the image 'load' event
-                        canvas.dispatchEvent(new Event('load'));
-                    })
-                    .catch(() => {
-                        const canvas = imageTile.getImage();
-                        canvas.dispatchEvent(new Event('error'));
-                    });
-                return;
-            }
-
             /** @type {HTMLImageElement|HTMLVideoElement} */
             (imageTile.getImage()).src =
                 src;
@@ -348497,7 +351460,7 @@ const getRandomTableNumber = () => {
 
 
 
-        /** @typedef {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D & {globalAlpha: any}} ZIndexContextProxy */
+        /** @typedef {CanvasRenderingContext2D & {globalAlpha: any}} ZIndexContextProxy */
 
         /**
          * @extends {CanvasRenderingContext2D}
@@ -348587,7 +351550,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              */
             draw(context) {
                 this.instructions_.forEach((instructionsAtIndex) => {
@@ -348666,7 +351629,7 @@ const getRandomTableNumber = () => {
          */
 
         /**
-         * @typedef {{0: CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D, 1: import('../../size.js').Size, 2: import("../canvas.js").Label|HTMLImageElement|HTMLCanvasElement|HTMLVideoElement, 3: ImageOrLabelDimensions, 4: number, 5: Array<*>, 6: Array<*>}} ReplayImageOrLabelArgs
+         * @typedef {{0: CanvasRenderingContext2D, 1: import('../../size.js').Size, 2: import("../canvas.js").Label|HTMLImageElement|HTMLCanvasElement|HTMLVideoElement, 3: ImageOrLabelDimensions, 4: number, 5: Array<*>, 6: Array<*>}} ReplayImageOrLabelArgs
          */
 
         /**
@@ -349216,7 +352179,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              */
             fill_(context) {
                 const alignAndScale = this.alignAndScaleFill_;
@@ -349238,7 +352201,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {Array<*>} instruction Instruction.
              */
             setStrokeStyle_(context, instruction) {
@@ -349295,7 +352258,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scaled canvas size
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {Array<*>} instructions Instructions array.
@@ -349901,7 +352864,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scaled canvas size.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
@@ -349930,7 +352893,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
              * @param {FeatureCallback<T>} [featureCallback] Feature callback.
@@ -350063,7 +353026,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.hitDetectionContext_ = null;
 
@@ -350075,7 +353038,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.renderedContext_ = null;
 
@@ -350089,7 +353052,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../transform.js").Transform} transform Transform.
              */
             clip(context, transform) {
@@ -350307,7 +353270,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} targetContext Context.
+             * @param {CanvasRenderingContext2D} targetContext Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scale of the context.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
@@ -350507,7 +353470,7 @@ const getRandomTableNumber = () => {
          */
         class CanvasImmediateRenderer extends render_VectorContext {
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../../extent.js").Extent} extent Extent.
              * @param {import("../../transform.js").Transform} transform Transform.
@@ -350528,7 +353491,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.context_ = context;
 
@@ -352524,14 +355487,13 @@ const getRandomTableNumber = () => {
 
 
 
-
         /**
-         * @type {Array<HTMLCanvasElement|OffscreenCanvas>}
+         * @type {Array<HTMLCanvasElement>}
          */
         const Layer_canvasPool = [];
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D}
          */
         let pixelContext = null;
 
@@ -352554,7 +355516,6 @@ const getRandomTableNumber = () => {
                 super(layer);
 
                 /**
-                 * HTMLElement container for the layer to be rendered in.
                  * @protected
                  * @type {HTMLElement}
                  */
@@ -352591,7 +355552,7 @@ const getRandomTableNumber = () => {
                 this.inversePixelTransform = create();
 
                 /**
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.context = null;
 
@@ -352602,7 +355563,6 @@ const getRandomTableNumber = () => {
                 this.deferredContext_ = null;
 
                 /**
-                 * true if the container has been reused from the previous renderer
                  * @type {boolean}
                  */
                 this.containerReused = false;
@@ -352657,7 +355617,6 @@ const getRandomTableNumber = () => {
              * @param {string} [backgroundColor] Background color.
              */
             useContainer(target, transform, backgroundColor) {
-                // renderer canvas to target canvas
                 const layerClassName = this.getLayer().getClassName();
                 let container, context;
                 if (
@@ -352672,7 +355631,7 @@ const getRandomTableNumber = () => {
                             )))
                 ) {
                     const canvas = target.firstElementChild;
-                    if (isCanvas(canvas)) {
+                    if (canvas instanceof HTMLCanvasElement) {
                         context = canvas.getContext('2d');
                     }
                 }
@@ -352690,16 +355649,14 @@ const getRandomTableNumber = () => {
                     this.container.style.backgroundColor = null;
                 }
                 if (!this.container) {
-                    container = WORKER_OFFSCREEN_CANVAS ?
-                        createMockDiv() :
-                        document.createElement('div');
+                    container = document.createElement('div');
                     container.className = layerClassName;
                     let style = container.style;
                     style.position = 'absolute';
                     style.width = '100%';
                     style.height = '100%';
                     context = dom_createCanvasContext2D();
-                    const canvas = /** @type {HTMLCanvasElement} */ (context.canvas);
+                    const canvas = context.canvas;
                     container.appendChild(canvas);
                     style = canvas.style;
                     style.position = 'absolute';
@@ -352718,7 +355675,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @param {import("../../extent.js").Extent} extent Clip extent.
              * @protected
@@ -352776,6 +355733,7 @@ const getRandomTableNumber = () => {
 
                 const canvasTransform = transform_toString(this.pixelTransform);
                 this.useContainer(target, canvasTransform, this.getBackground(frameState));
+
                 if (!this.containerReused) {
                     const canvas = this.context.canvas;
                     if (canvas.width != width || canvas.height != height) {
@@ -352784,21 +355742,15 @@ const getRandomTableNumber = () => {
                     } else {
                         this.context.clearRect(0, 0, width, height);
                     }
-                    if (
-                        canvasTransform !==
-                        /** @type {HTMLCanvasElement} */
-                        (canvas).style.transform
-                    ) {
-                        /** @type {HTMLCanvasElement} */
-                        (canvas).style.transform =
-                            canvasTransform;
+                    if (canvasTransform !== canvas.style.transform) {
+                        canvas.style.transform = canvasTransform;
                     }
                 }
             }
 
             /**
              * @param {import("../../render/EventType.js").default} type Event type.
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @private
              */
@@ -352816,7 +355768,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @protected
              */
@@ -352829,7 +355781,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @protected
              */
@@ -353072,7 +356024,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D}
                  */
                 this.targetContext_ = null;
 
@@ -353825,7 +356777,7 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @typedef {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|HTMLVideoElement|ImageBitmap} ImageLike
+         * @typedef {HTMLImageElement|HTMLCanvasElement|HTMLVideoElement|ImageBitmap} ImageLike
          */
 
         /**
@@ -353869,7 +356821,7 @@ const getRandomTableNumber = () => {
         const disposedError = new Error('disposed');
 
         /**
-         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|null}
+         * @type {CanvasRenderingContext2D|null}
          */
         let sharedContext = null;
 
@@ -354362,6 +357314,18 @@ const getRandomTableNumber = () => {
 
 
         /**
+         * @param {import("../../source/Tile.js").default} source The tile source.
+         * @param {string} sourceKey The source key.
+         * @param {number} z The tile z level.
+         * @param {number} x The tile x level.
+         * @param {number} y The tile y level.
+         * @return {string} The cache key.
+         */
+        function TileLayer_getCacheKey(source, sourceKey, z, x, y) {
+            return `${getUid(source)},${sourceKey},${getKeyZXY(z, x, y)}`;
+        }
+
+        /**
          * @typedef {Object<number, Set<import("../../Tile.js").default>>} TileLookup
          */
 
@@ -354523,12 +357487,6 @@ const getRandomTableNumber = () => {
                  */
                 this.tileCache_ = new structs_LRUCache(cacheSize);
 
-                /**
-                 * @type {import("../../structs/LRUCache.js").default<import("../../Tile.js").default|null>}
-                 * @private
-                 */
-                this.sourceTileCache_ = null;
-
                 this.maxStaleKeys = cacheSize * 0.5;
             }
 
@@ -354537,16 +357495,6 @@ const getRandomTableNumber = () => {
              */
             getTileCache() {
                 return this.tileCache_;
-            }
-
-            /**
-             * @return {LRUCache} Tile cache.
-             */
-            getSourceTileCache() {
-                if (!this.sourceTileCache_) {
-                    this.sourceTileCache_ = new structs_LRUCache(512);
-                }
-                return this.sourceTileCache_;
             }
 
             /**
@@ -354563,7 +357511,7 @@ const getRandomTableNumber = () => {
                 const tileCache = this.tileCache_;
                 const tileLayer = this.getLayer();
                 const tileSource = tileLayer.getSource();
-                const cacheKey = tilecoord_getCacheKey(tileSource, tileSource.getKey(), z, x, y);
+                const cacheKey = TileLayer_getCacheKey(tileSource, tileSource.getKey(), z, x, y);
 
                 /** @type {import("../../Tile.js").default} */
                 let tile;
@@ -354571,17 +357519,12 @@ const getRandomTableNumber = () => {
                 if (tileCache.containsKey(cacheKey)) {
                     tile = tileCache.get(cacheKey);
                 } else {
-                    const projection = frameState.viewState.projection;
-                    const sourceProjection = tileSource.getProjection();
                     tile = tileSource.getTile(
                         z,
                         x,
                         y,
                         frameState.pixelRatio,
-                        projection,
-                        !sourceProjection || equivalent(sourceProjection, projection) ?
-                        undefined :
-                        this.getSourceTileCache(),
+                        frameState.viewState.projection,
                     );
                     if (!tile) {
                         return null;
@@ -354712,18 +357655,8 @@ const getRandomTableNumber = () => {
                     this.renderedSourceRevision_ = sourceRevision;
                     if (this.renderedSourceKey_ === source.getKey()) {
                         this.tileCache_.clear();
-                        this.sourceTileCache_?.clear();
                     }
                 }
-                return true;
-            }
-
-            /**
-             * Determine whether tiles for next extent should be enqueued for rendering.
-             * @return {boolean} Rendering tiles for next extent is supported.
-             * @protected
-             */
-            enqueueTilesForNextExtent() {
                 return true;
             }
 
@@ -354832,7 +357765,7 @@ const getRandomTableNumber = () => {
                 const y = tileCoord[2];
                 const staleKeys = this.getStaleKeys();
                 for (let i = 0; i < staleKeys.length; ++i) {
-                    const cacheKey = tilecoord_getCacheKey(
+                    const cacheKey = TileLayer_getCacheKey(
                         this.getLayer().getSource(),
                         staleKeys[i],
                         z,
@@ -354878,7 +357811,7 @@ const getRandomTableNumber = () => {
                 const sourceKey = source.getKey();
                 for (let x = tileRange.minX; x <= tileRange.maxX; ++x) {
                     for (let y = tileRange.minY; y <= tileRange.maxY; ++y) {
-                        const cacheKey = tilecoord_getCacheKey(source, sourceKey, altZ, x, y);
+                        const cacheKey = TileLayer_getCacheKey(source, sourceKey, altZ, x, y);
                         let loaded = false;
                         if (tileCache.containsKey(cacheKey)) {
                             const tile = tileCache.peek(cacheKey);
@@ -354911,6 +357844,7 @@ const getRandomTableNumber = () => {
              */
             renderFrame(frameState, target) {
                 this.renderComplete = true;
+
                 /**
                  * TODO:
                  *  maybe skip transition when not fully opaque
@@ -354977,7 +357911,7 @@ const getRandomTableNumber = () => {
                  */
 
                 const preload = tileLayer.getPreload();
-                if (frameState.nextExtent && this.enqueueTilesForNextExtent()) {
+                if (frameState.nextExtent) {
                     const targetZ = tileGrid.getZForResolution(
                         viewState.nextResolution,
                         tileSource.zDirection,
@@ -355215,13 +358149,11 @@ const getRandomTableNumber = () => {
                         const tilesCount = wantedTiles ? Object.keys(wantedTiles).length : 0;
                         this.updateCacheSize(tilesCount);
                         this.tileCache_.expireCache();
-                        this.sourceTileCache_?.expireCache();
                     };
 
                     frameState.postRenderFunctions.push(postRenderFunction);
                 }
 
-                // this normally is `div.ol-layer` and is a mocked div in worker
                 return this.container;
             }
 
@@ -355260,7 +358192,6 @@ const getRandomTableNumber = () => {
                         (tile),
                     );
                 }
-
                 if (!image) {
                     return;
                 }
@@ -355298,7 +358229,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLCanvasElement|OffscreenCanvas} Image
+             * @return {HTMLCanvasElement} Image
              */
             getImage() {
                 const context = this.context;
@@ -355308,7 +358239,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image from a tile.
              * @param {import("../../ImageTile.js").default} tile Tile.
-             * @return {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement|HTMLVideoElement} Image.
+             * @return {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement} Image.
              * @protected
              */
             getTileImage(tile) {
@@ -356915,7 +359846,7 @@ const getRandomTableNumber = () => {
          * type.
          * @template {import("../Feature.js").FeatureLike} [FeatureType=import("../Feature.js").default]
          */
-        class VectorSourceEvent extends events_Event {
+        class VectorSourceEvent extends Event {
             /**
              * @param {string} type Type.
              * @param {FeatureType} [feature] Feature.
@@ -367247,7 +370178,9 @@ const getRandomTableNumber = () => {
         const dead_day_namespaceObject = __webpack_require__.p + "assets/04824454039c6dd9d997.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/fear_flame.webm
         const fear_flame_namespaceObject = __webpack_require__.p + "assets/91be39f0371a0138ee59.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/glen_case.webm
         const glen_case_namespaceObject = __webpack_require__.p + "assets/5c5d12c18732e7078d43.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/code26.webm
-        const code26_namespaceObject = __webpack_require__.p + "assets/ce6e5d8986b679dc487c.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
+        const code26_namespaceObject = __webpack_require__.p + "assets/ce6e5d8986b679dc487c.webm";; // CONCATENATED MODULE: ./src/views/open-case/video/new_season.webm
+        const new_season_namespaceObject = __webpack_require__.p + "assets/ec3f6812ea7399f6b1ec.webm";; // CONCATENATED MODULE: ./src/views/open-case/constants.js
+
 
 
 
@@ -367271,7 +370204,8 @@ const getRandomTableNumber = () => {
             dead_day: dead_day_namespaceObject,
             fear_flame: fear_flame_namespaceObject,
             glen: glen_case_namespaceObject,
-            code26: code26_namespaceObject
+            code26: code26_namespaceObject,
+            new_season: new_season_namespaceObject
         };
         var RarityWeight = {
             common: 0,
@@ -368503,21 +371437,21 @@ const getRandomTableNumber = () => {
 
         function open_case_components_main_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[27] = list[i];
+            child_ctx[28] = list[i];
             return child_ctx;
         }
 
         function open_case_components_main_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[27] = list[i];
-            child_ctx[31] = i;
+            child_ctx[28] = list[i];
+            child_ctx[32] = i;
             return child_ctx;
         }
 
         function open_case_components_main_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[32] = list[i];
-            child_ctx[31] = i;
+            child_ctx[33] = list[i];
+            child_ctx[32] = i;
             return child_ctx;
         }
 
@@ -368625,12 +371559,12 @@ const getRandomTableNumber = () => {
 
             similar = new similar_index_svelte({
                 props: {
-                    similarCase: /*similarCase*/ ctx[32]
+                    similarCase: /*similarCase*/ ctx[33]
                 }
             });
 
             function click_handler() {
-                return /*click_handler*/ ctx[14]( /*similarCase*/ ctx[32]);
+                return /*click_handler*/ ctx[14]( /*similarCase*/ ctx[33]);
             }
 
             return {
@@ -368654,7 +371588,7 @@ const getRandomTableNumber = () => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
                     const similar_changes = {};
-                    if (dirty[0] & /*$mainCase*/ 2) similar_changes.similarCase = /*similarCase*/ ctx[32];
+                    if (dirty[0] & /*$mainCase*/ 2) similar_changes.similarCase = /*similarCase*/ ctx[33];
                     similar.$set(similar_changes);
                 },
                 i(local) {
@@ -368666,7 +371600,7 @@ const getRandomTableNumber = () => {
                             add_render_callback(() => {
                                 div_intro = create_in_transition(div, fly, {
                                     duration: 200,
-                                    delay: 130 * ( /*index*/ ctx[31] + 2),
+                                    delay: 130 * ( /*index*/ ctx[32] + 2),
                                     x: -50
                                 });
 
@@ -368697,7 +371631,7 @@ const getRandomTableNumber = () => {
         function open_case_components_main_index_svelte_create_each_block_2(ctx) {
             let if_block_anchor;
             let current;
-            let if_block = /*similarCase*/ ctx[32].id !== /*$mainCase*/ ctx[1].id && main_index_svelte_create_if_block_9(ctx);
+            let if_block = /*similarCase*/ ctx[33].id !== /*$mainCase*/ ctx[1].id && main_index_svelte_create_if_block_9(ctx);
 
             return {
                 c() {
@@ -368710,7 +371644,7 @@ const getRandomTableNumber = () => {
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if ( /*similarCase*/ ctx[32].id !== /*$mainCase*/ ctx[1].id) {
+                    if ( /*similarCase*/ ctx[33].id !== /*$mainCase*/ ctx[1].id) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
 
@@ -369264,8 +372198,8 @@ const getRandomTableNumber = () => {
 
             guaranteed = new guaranteed_index_svelte({
                 props: {
-                    prize: /*prize*/ ctx[27],
-                    isFirst: /*index*/ ctx[31] === 0
+                    prize: /*prize*/ ctx[28],
+                    isFirst: /*index*/ ctx[32] === 0
                 }
             });
 
@@ -369284,7 +372218,7 @@ const getRandomTableNumber = () => {
                 },
                 p(ctx, dirty) {
                     const guaranteed_changes = {};
-                    if (dirty[0] & /*$mainCase*/ 2) guaranteed_changes.prize = /*prize*/ ctx[27];
+                    if (dirty[0] & /*$mainCase*/ 2) guaranteed_changes.prize = /*prize*/ ctx[28];
                     guaranteed.$set(guaranteed_changes);
                 },
                 i(local) {
@@ -369296,7 +372230,7 @@ const getRandomTableNumber = () => {
                             add_render_callback(() => {
                                 div_intro = create_in_transition(div, fly, {
                                     duration: 200,
-                                    delay: 130 * ( /*index*/ ctx[31] + 2),
+                                    delay: 130 * ( /*index*/ ctx[32] + 2),
                                     x: 50
                                 });
 
@@ -369459,11 +372393,11 @@ const getRandomTableNumber = () => {
 
             prize_1 = new prize_index_svelte({
                 props: {
-                    style: /*prize*/ ctx[27].rarity,
-                    count: /*prize*/ ctx[27].countText,
-                    imageSrc: /*prize*/ ctx[27].icon,
-                    id: /*prize*/ ctx[27].item,
-                    text: /*prize*/ ctx[27].name
+                    style: /*prize*/ ctx[28].rarity,
+                    count: /*prize*/ ctx[28].countText,
+                    imageSrc: /*prize*/ ctx[28].icon,
+                    id: /*prize*/ ctx[28].item,
+                    text: /*prize*/ ctx[28].name
                 }
             });
 
@@ -369482,11 +372416,11 @@ const getRandomTableNumber = () => {
                 },
                 p(ctx, dirty) {
                     const prize_1_changes = {};
-                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.style = /*prize*/ ctx[27].rarity;
-                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.count = /*prize*/ ctx[27].countText;
-                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.imageSrc = /*prize*/ ctx[27].icon;
-                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.id = /*prize*/ ctx[27].item;
-                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.text = /*prize*/ ctx[27].name;
+                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.style = /*prize*/ ctx[28].rarity;
+                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.count = /*prize*/ ctx[28].countText;
+                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.imageSrc = /*prize*/ ctx[28].icon;
+                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.id = /*prize*/ ctx[28].item;
+                    if (dirty[0] & /*$mainCase*/ 2) prize_1_changes.text = /*prize*/ ctx[28].name;
                     prize_1.$set(prize_1_changes);
                 },
                 i(local) {
@@ -369510,7 +372444,7 @@ const getRandomTableNumber = () => {
 
         // (483:16) {#each $mainCase.prizes as prize}
         function open_case_components_main_index_svelte_create_each_block(ctx) {
-            let show_if = /*prize*/ ctx[27].garante === 0 && (0, lodash.isNil)( /*prize*/ ctx[27].hideFooter);
+            let show_if = /*prize*/ ctx[28].garante === 0 && (0, lodash.isNil)( /*prize*/ ctx[28].hideFooter);
             let if_block_anchor;
             let current;
             let if_block = show_if && open_case_components_main_index_svelte_create_if_block_1(ctx);
@@ -369526,7 +372460,7 @@ const getRandomTableNumber = () => {
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$mainCase*/ 2) show_if = /*prize*/ ctx[27].garante === 0 && (0, lodash.isNil)( /*prize*/ ctx[27].hideFooter);
+                    if (dirty[0] & /*$mainCase*/ 2) show_if = /*prize*/ ctx[28].garante === 0 && (0, lodash.isNil)( /*prize*/ ctx[28].hideFooter);
 
                     if (show_if) {
                         if (if_block) {
@@ -369800,6 +372734,7 @@ const getRandomTableNumber = () => {
             let $serverApiToken;
             let $serverApiServerId;
             let $similarIds;
+            let $ITEMS;
             utils_component_subscribe($$self, mainCase, $$value => $$invalidate(1, $mainCase = $$value));
             utils_component_subscribe($$self, open_case_store_mainInfo, $$value => $$invalidate(2, $mainInfo = $$value));
             utils_component_subscribe($$self, guaranteedProgresses, $$value => $$invalidate(13, $guaranteedProgresses = $$value));
@@ -369807,6 +372742,7 @@ const getRandomTableNumber = () => {
             utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(21, $serverApiToken = $$value));
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(22, $serverApiServerId = $$value));
             utils_component_subscribe($$self, similarIds, $$value => $$invalidate(23, $similarIds = $$value));
+            utils_component_subscribe($$self, ITEMS, $$value => $$invalidate(24, $ITEMS = $$value));
             let formatter = '';
             let caseResponseData = {};
             let similarResponseData = [];
@@ -369848,7 +372784,7 @@ const getRandomTableNumber = () => {
                 utils_set_store_value(
                     mainCase,
                     $mainCase.prizes = $mainCase.prizes.map(prize => {
-                        const globalItem = ITEMS.find(item => item.id === prize.item);
+                        const globalItem = $ITEMS.find(item => item.id === prize.item);
 
                         if ((0, lodash.isNil)(globalItem)) {
                             return prize;
@@ -389714,17 +392650,16 @@ setTimeout(() => {
                 unregisterupdateArizonaHudNewYearVisible();
             });
 
-            onMount(() => {
-                getAllQualityData();
-                getInventoryData();
-
+            onMount(async () => {
                 if (window.cef) {
                     window.cef.onMyId = id => {
                         utils_set_store_value(browserId, $browserId = id, $browserId);
                     };
 
                     window.cef.GetMyId();
-                    initLinksCDN();
+                    await parseDataFromGameCommandLine();
+                    getAllQualityData();
+                    getInventoryData();
 
                     // onCommandLineContain
                     window.cef.onCommandLineContain = (ARG, CONTAINS) => {
@@ -389783,7 +392718,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "ce10519c");
+                    console.log(`[debug] app init`, "1021", "cb3f3eb9");
                 }
             });
 
@@ -389851,7 +392786,7 @@ setTimeout(() => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "ce10519c");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "cb3f3eb9");
     })();
 
     /******/
