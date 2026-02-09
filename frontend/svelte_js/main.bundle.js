@@ -249276,6 +249276,7 @@ setTimeout(() => {
             Info: 'info',
             Potions: 'potions'
         };
+        var MAP_WINDOW_ID_TO_POS_ID = inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty({}, WindowsIds.Main, WindowsIds.Main), WindowsIds.Character, WindowsIds.Character), WindowsIds.Trade, WindowsIds.Character), WindowsIds.Shop, WindowsIds.Character), WindowsIds.Overview, WindowsIds.Character), WindowsIds.Trunk, WindowsIds.Character), WindowsIds.Workshop, WindowsIds.Character), WindowsIds.Info, WindowsIds.Character);
         var MAP_WINDOW_ID_TO_SORT_ACTION = inventory_constants_defineProperty(inventory_constants_defineProperty({}, WindowsIds.Main, 'inventory.sort'), WindowsIds.Character, 'inventory.warehouse_sort');
         var MAP_ID_TO_CRAFT_CATEGORY_NAME = {
             0: 'Аксессуары',
@@ -251119,6 +251120,7 @@ setTimeout(() => {
 
 
 
+
         function inventory_window_index_svelte_create_if_block(ctx) {
             let div4;
             let div2;
@@ -251291,7 +251293,7 @@ setTimeout(() => {
             };
         }
 
-        // (174:2) {#if infoButtonEnabled}
+        // (183:2) {#if infoButtonEnabled}
         function inventory_window_index_svelte_create_if_block_3(ctx) {
             let infobutton;
             let current;
@@ -251320,7 +251322,7 @@ setTimeout(() => {
             };
         }
 
-        // (177:2) {#if sortingButtonVisibility}
+        // (186:2) {#if sortingButtonVisibility}
         function inventory_window_index_svelte_create_if_block_2(ctx) {
             let sortbutton;
             let current;
@@ -251369,7 +251371,7 @@ setTimeout(() => {
             };
         }
 
-        // (187:2) {#if exitButtonVisibility}
+        // (196:2) {#if exitButtonVisibility}
         function inventory_window_index_svelte_create_if_block_1(ctx) {
             let i;
             let mounted;
@@ -251618,40 +251620,46 @@ setTimeout(() => {
                 $$invalidate(16, movingAvailable = false);
 
                 if (savedPositionsEnabled && windowHovered) {
+                    const windowPosId = MAP_WINDOW_ID_TO_POS_ID[windowId];
+
+                    if (!windowPosId) {
+                        return;
+                    }
+
                     const {
                         x,
                         y
                     } = windowNode.getBoundingClientRect();
 
-                    if ((0, lodash.isNil)($windowPositions[windowId])) {
+                    if ((0, lodash.isNil)($windowPositions[windowPosId])) {
                         utils_set_store_value(
                             windowPositions,
-                            $windowPositions[windowId] = {
-                                windowId,
+                            $windowPositions[windowPosId] = {
+                                windowId: windowPosId,
                                 left: Math.floor(x),
                                 top: Math.floor(y)
                             },
                             $windowPositions
                         );
 
-                        cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowId]));
+                        cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowPosId]));
                     }
 
-                    if ($windowPositions[windowId].left === Math.floor(x) && $windowPositions[windowId].top === Math.floor(y)) {
+                    if ($windowPositions[windowPosId].left === Math.floor(x) && $windowPositions[windowPosId].top === Math.floor(y)) {
                         return;
                     }
 
                     utils_set_store_value(
                         windowPositions,
-                        $windowPositions[windowId] = {
-                            windowId,
+                        $windowPositions[windowPosId] = {
+                            windowId: windowPosId,
                             left: Math.floor(x),
                             top: Math.floor(y)
                         },
                         $windowPositions
                     );
 
-                    cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowId]));
+                    cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowPosId]));
                 }
             };
 
@@ -251672,10 +251680,11 @@ setTimeout(() => {
 
             onMount(() => {
                 parentCoords = windowNode.parentNode.getBoundingClientRect();
+                const windowPosId = MAP_WINDOW_ID_TO_POS_ID[windowId];
 
-                if (!(0, lodash.isNil)($windowPositions[windowId]) && $windowPositions[windowId].top && $windowPositions[windowId].left && savedPositionsEnabled && (!centeredX || !centeredY)) {
-                    $$invalidate(1, windowTop = $windowPositions[windowId].top);
-                    $$invalidate(0, windowLeft = $windowPositions[windowId].left);
+                if (!(0, lodash.isNil)($windowPositions[windowPosId]) && $windowPositions[windowPosId].top && $windowPositions[windowPosId].left && savedPositionsEnabled && (!centeredX || !centeredY)) {
+                    $$invalidate(1, windowTop = $windowPositions[windowPosId].top);
+                    $$invalidate(0, windowLeft = $windowPositions[windowPosId].left);
                 } else {
                     $$invalidate(0, windowLeft = parentCoords.x);
                     $$invalidate(1, windowTop = parentCoords.y);
@@ -251702,11 +251711,11 @@ setTimeout(() => {
                         y
                     } = parentCoords;
 
-                    if ((0, lodash.isNil)($windowPositions[windowId])) {
+                    if ((0, lodash.isNil)($windowPositions[windowPosId])) {
                         utils_set_store_value(
                             windowPositions,
-                            $windowPositions[windowId] = {
-                                windowId,
+                            $windowPositions[windowPosId] = {
+                                windowId: windowPosId,
                                 left: Math.floor(x),
                                 top: Math.floor(y)
                             },
@@ -261800,7 +261809,7 @@ setTimeout(() => {
         // (459:8) {#if $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_15(ctx) {
             let div;
-            let t_value = `+${/*$enchantItem*/ ctx[4].enchant | 0}` + "";
+            let t_value = `+${/*$enchantItem*/ ctx[4].enchant || 0}` + "";
             let t;
 
             return {
@@ -261814,7 +261823,7 @@ setTimeout(() => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = `+${/*$enchantItem*/ ctx[4].enchant | 0}` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = `+${/*$enchantItem*/ ctx[4].enchant || 0}` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -262000,7 +262009,7 @@ setTimeout(() => {
 
             let t1_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[3].amount) ?
                 0 :
-                /*$enchantStuff*/ ctx[3].enchant) + "";
+                /*$enchantStuff*/ ctx[3].enchant || 0) + "";
 
             let t1;
 
@@ -262022,7 +262031,7 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     if (dirty[0] & /*$enchantStuff*/ 8 && t1_value !== (t1_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[3].amount) ?
                             0 :
-                            /*$enchantStuff*/ ctx[3].enchant) + "")) dom_set_data(t1, t1_value);
+                            /*$enchantStuff*/ ctx[3].enchant || 0) + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -262184,7 +262193,7 @@ setTimeout(() => {
         // (526:4) {#if !isEmpty($enchantItem) && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_6(ctx) {
             let div;
-            let t_value = /*$enchantItem*/ ctx[4].enchant + "";
+            let t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + "";
             let t;
 
             return {
@@ -262198,7 +262207,7 @@ setTimeout(() => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = /*$enchantItem*/ ctx[4].enchant + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -262211,7 +262220,7 @@ setTimeout(() => {
         // (536:4) {#if !isEmpty($enchantItem) && $enchantItem.enchant < MAX_ENCHANT_LEVEL && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_5(ctx) {
             let div;
-            let t_value = /*$enchantItem*/ ctx[4].enchant + 1 + "";
+            let t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + 1 + "";
             let t;
 
             return {
@@ -262225,7 +262234,7 @@ setTimeout(() => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = /*$enchantItem*/ ctx[4].enchant + 1 + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + 1 + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -308263,6 +308272,8 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const family_components_main_index_svelte = (family_components_main_index_svelte_Main);; // CONCATENATED MODULE: ./src/views/family/components/members/constants.js
+        var _MAP_HEADER_TO_NAME;
+
         function members_constants_typeof(o) {
             "@babel/helpers - typeof";
             return members_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -308306,6 +308317,10 @@ const getRandomTableNumber = () => {
             Quests: 'quests',
             Penalty: 'penalty'
         };
+        var ViceCityMembersHeaders = {
+            Server: 'server',
+            LastOnline: 'last_online'
+        };
         var RationgHeaders = {
             Placement: 'placement',
             Name: 'name',
@@ -308318,7 +308333,7 @@ const getRandomTableNumber = () => {
         var MAP_TABLE_MODE_TO_CONTROLLER = members_constants_defineProperty(members_constants_defineProperty({}, TableMode.Members, 'getMembers'), TableMode.Rating, 'getRating');
         var MAP_TABLE_MODE_TO_SEARCH_KEY = members_constants_defineProperty(members_constants_defineProperty({}, TableMode.Members, 'nickname'), TableMode.Rating, 'family_name');
         var MAP_TABLE_MODE_TO_PLACEHOLDER = members_constants_defineProperty(members_constants_defineProperty({}, TableMode.Members, 'Укажите ник или ID участника семьи'), TableMode.Rating, 'Укажите название семьи');
-        var MAP_HEADER_TO_NAME = members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty({}, MembersHeaders.Online, 'Статус онлайн'), MembersHeaders.Rank, 'Ранг'), MembersHeaders.Quests, 'Квесты'), MembersHeaders.Penalty, 'Выговоры'), RationgHeaders.Placement, 'Место'), RationgHeaders.Name, 'Название семьи'), RationgHeaders.Level, 'Уровень'), RationgHeaders.Count, 'Участников'), RationgHeaders.Leader, 'Лидер семьи'), RationgHeaders.Flag, 'Флаг');
+        var MAP_HEADER_TO_NAME = (_MAP_HEADER_TO_NAME = {}, members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(_MAP_HEADER_TO_NAME, MembersHeaders.Online, 'Статус онлайн'), MembersHeaders.Rank, 'Ранг'), MembersHeaders.Quests, 'Квесты'), MembersHeaders.Penalty, 'Выговоры'), ViceCityMembersHeaders.Server, 'Сервер'), ViceCityMembersHeaders.LastOnline, 'Последний онлайн'), RationgHeaders.Placement, 'Место'), RationgHeaders.Name, 'Название семьи'), RationgHeaders.Level, 'Уровень'), RationgHeaders.Count, 'Участников'), members_constants_defineProperty(members_constants_defineProperty(_MAP_HEADER_TO_NAME, RationgHeaders.Leader, 'Лидер семьи'), RationgHeaders.Flag, 'Флаг'));
         var MAP_FIELD_TO_NAME = members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty({}, MembersHeaders.Online, 'Online'), MembersHeaders.Rank, 'Ранг'), MembersHeaders.Quests, 'Квесты'), MembersHeaders.Penalty, 'Выговоры');
         var ActionIds = {
             BonusMoney: 'bonusMoney',
@@ -308351,34 +308366,34 @@ const getRandomTableNumber = () => {
 
 
         function members_index_svelte_add_css(target) {
-            append_styles(target, "svelte-1ockr6b", ".family-members__current-server.svelte-1ockr6b{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((28 * var(--global-scale) * var(--global-scale) * 0.44 - (28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__server-name.svelte-1ockr6b{color:#506ED1}.family-members__search.svelte-1ockr6b{position:relative;display:flex;align-items:center;width:100%;border-style:solid;border-color:rgba(255, 255, 255, 0.2);height:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-width:max(calc((1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((1 * var(--global-scale) * var(--global-scale) * 0.44 - (1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1ockr6b{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";width:max(calc((103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((103 * var(--global-scale) * var(--global-scale) * 0.44 - (103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__search-button.svelte-1ockr6b:active{transform:translateY(4%)}.family-members__search-button--disabled.svelte-1ockr6b{opacity:0.7}.family-members__search-button--disabled.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.1)}.family-members__search-button--disabled.svelte-1ockr6b:active{transform:unset}.family-members__clear-icon.svelte-1ockr6b{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";border-radius:50%;color:#FFFFFF;font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__clear-icon.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__clear-icon.svelte-1ockr6b:active{transform:translateY(4%)}.family-members__search-icon.svelte-1ockr6b{color:rgba(255, 255, 255, 0.5);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-input.svelte-1ockr6b{width:80%;background-color:transparent;outline:none;border:none;font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.5);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table.svelte-1ockr6b{background-color:rgba(255, 255, 255, 0.01);overflow:hidden;margin-top:max(calc((34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((34 * var(--global-scale) * var(--global-scale) * 0.44 - (34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head.svelte-1ockr6b{display:grid;grid-template-columns:3fr 1fr 1fr 1fr;height:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head--rating.svelte-1ockr6b{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__table-head-item.svelte-1ockr6b{display:flex;align-items:center;color:rgba(255, 255, 255, 0.6);font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head-item--active.svelte-1ockr6b{color:#FFFFFF}.family-members__table-list-wrapper.svelte-1ockr6b{overflow-y:auto;height:max(calc((630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((630 * var(--global-scale) * var(--global-scale) * 0.44 - (630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar{height:0;width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-button{display:none}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-track{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-track-piece{background:rgba(255, 255, 255, 0.2);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-thumb{background:rgba(255, 255, 255, 0.5);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-corner{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-resizer{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper--rating.svelte-1ockr6b{height:max(calc((590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((590 * var(--global-scale) * var(--global-scale) * 0.44 - (590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list.svelte-1ockr6b{display:flex;flex-direction:column;border-radius:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-empty.svelte-1ockr6b{flex:1 1 auto;display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__loader.svelte-1ockr6b{width:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member.svelte-1ockr6b{width:100%;display:grid;grid-template-columns:3fr 1fr 1fr 1fr;color:#FFFFFF;min-height:max(calc((96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((96 * var(--global-scale) * var(--global-scale) * 0.44 - (96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member--rating.svelte-1ockr6b{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__member--rating.family-members__member--gold.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #D69D35 0%, #FFD35A 100%)}.family-members__member--rating.family-members__member--silver.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #A7A7A7 0%, #D5D5D5 100%)}.family-members__member--rating.family-members__member--bronze.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #855E4D 0%, #E6B098 100%)}.family-members__member--rating.family-members__member--blue.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #35A5D6 0%, #9BE1FF 100%)}.family-members__member-property.svelte-1ockr6b{position:relative;display:flex;align-items:center;color:inherit;font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property--placement.svelte-1ockr6b{padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-role.svelte-1ockr6b{color:rgba(255, 255, 255, 0.5);font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-flag.svelte-1ockr6b{width:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-icon.svelte-1ockr6b{position:absolute;left:min(calc((0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((0 * var(--global-scale) * var(--global-scale) * 0.44 - (0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-wrapper.svelte-1ockr6b{display:flex;align-items:center;position:relative}.family-members__member-context.svelte-1ockr6b{position:absolute;display:flex;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color;width:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-context.svelte-1ockr6b:hover,.family-members__member-context--active.svelte-1ockr6b{color:#FFFFFF}.family-members__member-context-icon.svelte-1ockr6b{pointer-events:none;font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu.svelte-1ockr6b{position:fixed;overflow:hidden;background-color:#191A1F;display:flex;flex-direction:column;align-items:center;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius-top-left:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((213 * var(--global-scale) * var(--global-scale) * 0.44 - (213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1ockr6b{width:100%;display:flex;align-items:center;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color, background-color;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1ockr6b:hover{background-color:rgba(108, 117, 125, 0.1)}.family-members__context-menu-item.svelte-1ockr6b:active{background-color:#16191D}.family-members__context-menu-item-icon.svelte-1ockr6b{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item-text.svelte-1ockr6b{color:inherit;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-loader.svelte-1ockr6b{width:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1ockr6b{background-color:rgba(231, 52, 63, 0.2);display:flex;align-items:center;justify-content:center;border-radius:50%;min-width:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1ockr6b::before{content:\"\";border-radius:50%;background-color:#E7343F;min-width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online--on.svelte-1ockr6b{background-color:rgba(193, 255, 61, 0.2)}.family-members__member-online--on.svelte-1ockr6b::before{background-color:#78FF38}.family-members__footer-button.svelte-1ockr6b{background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color;width:max(calc((225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((225 * var(--global-scale) * var(--global-scale) * 0.44 - (225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((58 * var(--global-scale) * var(--global-scale) * 0.44 - (58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__footer-button-icon.svelte-1ockr6b{color:#FFFFFF;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button-text.svelte-1ockr6b{color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+            append_styles(target, "svelte-1abnkcq", ".family-members__current-server.svelte-1abnkcq{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((28 * var(--global-scale) * var(--global-scale) * 0.44 - (28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__server-name.svelte-1abnkcq{color:#506ED1}.family-members__search.svelte-1abnkcq{position:relative;display:flex;align-items:center;width:100%;border-style:solid;border-color:rgba(255, 255, 255, 0.2);height:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-width:max(calc((1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((1 * var(--global-scale) * var(--global-scale) * 0.44 - (1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1abnkcq{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";width:max(calc((103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((103 * var(--global-scale) * var(--global-scale) * 0.44 - (103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__search-button.svelte-1abnkcq:active{transform:translateY(4%)}.family-members__search-button--disabled.svelte-1abnkcq{opacity:0.7}.family-members__search-button--disabled.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.1)}.family-members__search-button--disabled.svelte-1abnkcq:active{transform:unset}.family-members__clear-icon.svelte-1abnkcq{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";border-radius:50%;color:#FFFFFF;font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__clear-icon.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__clear-icon.svelte-1abnkcq:active{transform:translateY(4%)}.family-members__search-icon.svelte-1abnkcq{color:rgba(255, 255, 255, 0.5);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-input.svelte-1abnkcq{width:80%;background-color:transparent;outline:none;border:none;font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.5);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table.svelte-1abnkcq{background-color:rgba(255, 255, 255, 0.01);overflow:hidden;margin-top:max(calc((34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((34 * var(--global-scale) * var(--global-scale) * 0.44 - (34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head.svelte-1abnkcq{display:grid;grid-template-columns:3fr 1fr 1fr 1fr;height:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head--rating.svelte-1abnkcq{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__table-head--vicecity.svelte-1abnkcq{grid-template-columns:3fr 1fr 1.5fr 2fr}.family-members__table-head-item.svelte-1abnkcq{display:flex;align-items:center;color:rgba(255, 255, 255, 0.6);font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head-item--active.svelte-1abnkcq{color:#FFFFFF}.family-members__table-list-wrapper.svelte-1abnkcq{overflow-y:auto;height:max(calc((630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((630 * var(--global-scale) * var(--global-scale) * 0.44 - (630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar{height:0;width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-button{display:none}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-track{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-track-piece{background:rgba(255, 255, 255, 0.2);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-thumb{background:rgba(255, 255, 255, 0.5);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-corner{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-resizer{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper--rating.svelte-1abnkcq{height:max(calc((590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((590 * var(--global-scale) * var(--global-scale) * 0.44 - (590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list.svelte-1abnkcq{display:flex;flex-direction:column;border-radius:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-empty.svelte-1abnkcq{flex:1 1 auto;display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__loader.svelte-1abnkcq{width:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member.svelte-1abnkcq{width:100%;display:grid;grid-template-columns:3fr 1fr 1fr 1fr;color:#FFFFFF;min-height:max(calc((96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((96 * var(--global-scale) * var(--global-scale) * 0.44 - (96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member--vicecity.svelte-1abnkcq{grid-template-columns:3fr 1fr 1.5fr 2fr}.family-members__member--rating.svelte-1abnkcq{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__member--rating.family-members__member--gold.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #D69D35 0%, #FFD35A 100%)}.family-members__member--rating.family-members__member--silver.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #A7A7A7 0%, #D5D5D5 100%)}.family-members__member--rating.family-members__member--bronze.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #855E4D 0%, #E6B098 100%)}.family-members__member--rating.family-members__member--blue.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #35A5D6 0%, #9BE1FF 100%)}.family-members__member-property.svelte-1abnkcq{position:relative;display:flex;align-items:center;color:inherit;font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property--placement.svelte-1abnkcq{padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-role.svelte-1abnkcq{color:rgba(255, 255, 255, 0.5);font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-flag.svelte-1abnkcq{width:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-icon.svelte-1abnkcq{position:absolute;left:min(calc((0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((0 * var(--global-scale) * var(--global-scale) * 0.44 - (0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-wrapper.svelte-1abnkcq{display:flex;align-items:center;position:relative}.family-members__member-context.svelte-1abnkcq{position:absolute;display:flex;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color;width:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-context.svelte-1abnkcq:hover,.family-members__member-context--active.svelte-1abnkcq{color:#FFFFFF}.family-members__member-context-icon.svelte-1abnkcq{pointer-events:none;font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu.svelte-1abnkcq{position:fixed;overflow:hidden;background-color:#191A1F;display:flex;flex-direction:column;align-items:center;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius-top-left:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((213 * var(--global-scale) * var(--global-scale) * 0.44 - (213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1abnkcq{width:100%;display:flex;align-items:center;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color, background-color;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1abnkcq:hover{background-color:rgba(108, 117, 125, 0.1)}.family-members__context-menu-item.svelte-1abnkcq:active{background-color:#16191D}.family-members__context-menu-item-icon.svelte-1abnkcq{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item-text.svelte-1abnkcq{color:inherit;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-loader.svelte-1abnkcq{width:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1abnkcq{background-color:rgba(231, 52, 63, 0.2);display:flex;align-items:center;justify-content:center;border-radius:50%;min-width:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1abnkcq::before{content:\"\";border-radius:50%;background-color:#E7343F;min-width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online--on.svelte-1abnkcq{background-color:rgba(193, 255, 61, 0.2)}.family-members__member-online--on.svelte-1abnkcq::before{background-color:#78FF38}.family-members__footer-button.svelte-1abnkcq{background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color;width:max(calc((225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((225 * var(--global-scale) * var(--global-scale) * 0.44 - (225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((58 * var(--global-scale) * var(--global-scale) * 0.44 - (58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__footer-button-icon.svelte-1abnkcq{color:#FFFFFF;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button-text.svelte-1abnkcq{color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
         }
 
         function members_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[41] = list[i];
+            child_ctx[44] = list[i];
             return child_ctx;
         }
 
         function members_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[44] = list[i];
-            child_ctx[46] = i;
+            child_ctx[47] = list[i];
+            child_ctx[49] = i;
             return child_ctx;
         }
 
         function members_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[47] = list[i];
+            child_ctx[50] = list[i];
             return child_ctx;
         }
 
-        // (590:4) {#if mode === TableMode.Rating}
-        function members_index_svelte_create_if_block_11(ctx) {
+        // (658:4) {#if mode === TableMode.Rating}
+        function members_index_svelte_create_if_block_14(ctx) {
             let div;
             let t0;
             let span;
-            let t1_value = SERVERS[ /*$serverApiServerId*/ ctx[12]] + "";
+            let t1_value = SERVERS[ /*$serverApiServerId*/ ctx[13]] + "";
             let t1;
 
             return {
@@ -308387,8 +308402,8 @@ const getRandomTableNumber = () => {
                     t0 = dom_text("Рейтинг семей сервера ");
                     span = dom_element("span");
                     t1 = dom_text(t1_value);
-                    dom_attr(span, "class", "family-members__server-name svelte-1ockr6b");
-                    dom_attr(div, "class", "family-members__current-server svelte-1ockr6b");
+                    dom_attr(span, "class", "family-members__server-name svelte-1abnkcq");
+                    dom_attr(div, "class", "family-members__current-server svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -308397,7 +308412,7 @@ const getRandomTableNumber = () => {
                     dom_append(span, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$serverApiServerId*/ 4096 && t1_value !== (t1_value = SERVERS[ /*$serverApiServerId*/ ctx[12]] + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*$serverApiServerId*/ 8192 && t1_value !== (t1_value = SERVERS[ /*$serverApiServerId*/ ctx[13]] + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -308407,8 +308422,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (605:8) {#if searchMode}
-        function members_index_svelte_create_if_block_10(ctx) {
+        // (673:8) {#if searchMode}
+        function members_index_svelte_create_if_block_13(ctx) {
             let i;
             let mounted;
             let dispose;
@@ -308416,13 +308431,13 @@ const getRandomTableNumber = () => {
             return {
                 c() {
                     i = dom_element("i");
-                    dom_attr(i, "class", "family-members__clear-icon icon-close svelte-1ockr6b");
+                    dom_attr(i, "class", "family-members__clear-icon icon-close svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(i, "click", /*clearSearch*/ ctx[15]);
+                        dispose = dom_listen(i, "click", /*clearSearch*/ ctx[17]);
                         mounted = true;
                     }
                 },
@@ -308438,8 +308453,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (625:20) {#if mode === TableMode.Members && field !== MembersHeaders.Rank && field !== MembersHeaders.Penalty}
-        function members_index_svelte_create_if_block_9(ctx) {
+        // (693:20) {#if mode === TableMode.Members && field !== MembersHeaders.Rank && field !== MembersHeaders.Penalty}
+        function members_index_svelte_create_if_block_12(ctx) {
             let i;
             let i_class_value;
 
@@ -308447,7 +308462,7 @@ const getRandomTableNumber = () => {
                 c() {
                     i = dom_element("i");
 
-                    dom_attr(i, "class", i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[9][ /*field*/ ctx[47]] ?
+                    dom_attr(i, "class", i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[10][ /*field*/ ctx[50]] ?
                         'up' :
                         'down'));
                 },
@@ -308455,7 +308470,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, i, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*colsSortState, headers*/ 576 && i_class_value !== (i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[9][ /*field*/ ctx[47]] ?
+                    if (dirty[0] & /*colsSortState, headers*/ 1088 && i_class_value !== (i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[10][ /*field*/ ctx[50]] ?
                             'up' :
                             'down'))) {
                         dom_attr(i, "class", i_class_value);
@@ -308469,20 +308484,20 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (618:12) {#each headers as field}
+        // (686:12) {#each headers as field}
         function members_index_svelte_create_each_block_2(ctx) {
             let div1;
             let div0;
-            let t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[47]] + "";
+            let t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[50]] + "";
             let t0;
             let t1;
             let t2;
             let mounted;
             let dispose;
-            let if_block = /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[47] !== MembersHeaders.Rank && /*field*/ ctx[47] !== MembersHeaders.Penalty && members_index_svelte_create_if_block_9(ctx);
+            let if_block = /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[50] !== MembersHeaders.Rank && /*field*/ ctx[50] !== MembersHeaders.Penalty && members_index_svelte_create_if_block_12(ctx);
 
             function click_handler() {
-                return /*click_handler*/ ctx[26]( /*field*/ ctx[47]);
+                return /*click_handler*/ ctx[28]( /*field*/ ctx[50]);
             }
 
             return {
@@ -308494,8 +308509,8 @@ const getRandomTableNumber = () => {
                     if (if_block) if_block.c();
                     t2 = dom_space();
                     dom_attr(div0, "class", "family-members__table-head-item-name");
-                    dom_attr(div1, "class", "family-members__table-head-item svelte-1ockr6b");
-                    dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[9][ /*field*/ ctx[47]]);
+                    dom_attr(div1, "class", "family-members__table-head-item svelte-1abnkcq");
+                    dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[10][ /*field*/ ctx[50]]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -308512,13 +308527,13 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if (dirty[0] & /*headers*/ 64 && t0_value !== (t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[47]] + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*headers*/ 64 && t0_value !== (t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[50]] + "")) dom_set_data(t0, t0_value);
 
-                    if ( /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[47] !== MembersHeaders.Rank && /*field*/ ctx[47] !== MembersHeaders.Penalty) {
+                    if ( /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[50] !== MembersHeaders.Rank && /*field*/ ctx[50] !== MembersHeaders.Penalty) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
-                            if_block = members_index_svelte_create_if_block_9(ctx);
+                            if_block = members_index_svelte_create_if_block_12(ctx);
                             if_block.c();
                             if_block.m(div1, t2);
                         }
@@ -308527,8 +308542,8 @@ const getRandomTableNumber = () => {
                         if_block = null;
                     }
 
-                    if (dirty[0] & /*colsSortState, headers*/ 576) {
-                        dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[9][ /*field*/ ctx[47]]);
+                    if (dirty[0] & /*colsSortState, headers*/ 1088) {
+                        dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[10][ /*field*/ ctx[50]]);
                     }
                 },
                 d(detaching) {
@@ -308543,7 +308558,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (647:16) {:else}
+        // (715:16) {:else}
         function members_index_svelte_create_else_block(ctx) {
             let each_1_anchor;
             let each_value_1 = each_ensure_array_like( /*actualData*/ ctx[0]);
@@ -308571,7 +308586,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, each_1_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*selectedMemberIndex, openContextMenu, actualData, $familyInfo, mode*/ 133169) {
+                    if (dirty[0] & /*isViceCity, selectedMemberIndex, openContextMenu, actualData, $familyInfo, formatDate, mode*/ 561713) {
                         each_value_1 = each_ensure_array_like( /*actualData*/ ctx[0]);
                         let i;
 
@@ -308606,7 +308621,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (643:46) 
+        // (711:46) 
         function members_index_svelte_create_if_block_2(ctx) {
             let div;
 
@@ -308614,7 +308629,7 @@ const getRandomTableNumber = () => {
                 c() {
                     div = dom_element("div");
                     div.textContent = "Ничего не найдено";
-                    dom_attr(div, "class", "family-members__table-empty svelte-1ockr6b");
+                    dom_attr(div, "class", "family-members__table-empty svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -308630,7 +308645,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (637:16) {#if isNil(actualData)}
+        // (705:16) {#if isNil(actualData)}
         function members_index_svelte_create_if_block_1(ctx) {
             let div1;
             let div0;
@@ -308643,8 +308658,8 @@ const getRandomTableNumber = () => {
                     div1 = dom_element("div");
                     div0 = dom_element("div");
                     create_component(loader.$$.fragment);
-                    dom_attr(div0, "class", "family-members__loader svelte-1ockr6b");
-                    dom_attr(div1, "class", "family-members__table-empty svelte-1ockr6b");
+                    dom_attr(div0, "class", "family-members__loader svelte-1abnkcq");
+                    dom_attr(div1, "class", "family-members__table-empty svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -308672,39 +308687,38 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (680:24) {:else}
-        function members_index_svelte_create_else_block_2(ctx) {
-            let div6;
+        // (755:24) {:else}
+        function members_index_svelte_create_else_block_3(ctx) {
+            let div5;
             let div0;
             let t0;
-            let t1_value = /*index*/ ctx[46] + 1 + "";
+            let t1_value = /*index*/ ctx[49] + 1 + "";
             let t1;
             let t2;
             let div1;
-            let t3_value = /*member*/ ctx[44].name + "";
+            let t3_value = /*member*/ ctx[47].name + "";
             let t3;
             let t4;
             let div2;
-            let t5_value = /*member*/ ctx[44].level + "";
+            let t5_value = /*member*/ ctx[47].level + "";
             let t5;
             let t6;
             let div3;
-            let t7_value = /*member*/ ctx[44].member_count + "";
+            let t7_value = /*member*/ ctx[47].member_count + "";
             let t7;
             let t8;
             let div4;
-            let t9_value = /*member*/ ctx[44].leader + "";
+            let t9_value = /*member*/ ctx[47].leader + "";
             let t9;
             let t10;
-            let div5;
             let t11;
-            let div6_class_value;
-            let if_block0 = /*member*/ ctx[44].placement > 0 && /*member*/ ctx[44].placement < 4 && members_index_svelte_create_if_block_8(ctx);
-            let if_block1 = /*member*/ ctx[44].flagid > 0 && members_index_svelte_create_if_block_7(ctx);
+            let div5_class_value;
+            let if_block0 = /*member*/ ctx[47].placement > 0 && /*member*/ ctx[47].placement < 4 && members_index_svelte_create_if_block_11(ctx);
+            let if_block1 = ! /*isViceCity*/ ctx[9] && members_index_svelte_create_if_block_9(ctx);
 
             return {
                 c() {
-                    div6 = dom_element("div");
+                    div5 = dom_element("div");
                     div0 = dom_element("div");
                     if (if_block0) if_block0.c();
                     t0 = dom_space();
@@ -308722,47 +308736,44 @@ const getRandomTableNumber = () => {
                     div4 = dom_element("div");
                     t9 = dom_text(t9_value);
                     t10 = dom_space();
-                    div5 = dom_element("div");
                     if (if_block1) if_block1.c();
                     t11 = dom_space();
-                    dom_attr(div0, "class", "family-members__member-property family-members__member-property--placement svelte-1ockr6b");
-                    dom_attr(div1, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div2, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div3, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div4, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div5, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div6, "class", div6_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[44].placementStyle + " svelte-1ockr6b");
-                    dom_toggle_class(div6, "family-members__member--blue", /*member*/ ctx[44].name === /*$familyInfo*/ ctx[11].title);
+                    dom_attr(div0, "class", "family-members__member-property family-members__member-property--placement svelte-1abnkcq");
+                    dom_attr(div1, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div2, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div3, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div4, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div5, "class", div5_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[47].placementStyle + " svelte-1abnkcq");
+                    dom_toggle_class(div5, "family-members__member--blue", /*member*/ ctx[47].name === /*$familyInfo*/ ctx[12].title);
                 },
                 m(target, anchor) {
-                    dom_insert(target, div6, anchor);
-                    dom_append(div6, div0);
+                    dom_insert(target, div5, anchor);
+                    dom_append(div5, div0);
                     if (if_block0) if_block0.m(div0, null);
                     dom_append(div0, t0);
                     dom_append(div0, t1);
-                    dom_append(div6, t2);
-                    dom_append(div6, div1);
+                    dom_append(div5, t2);
+                    dom_append(div5, div1);
                     dom_append(div1, t3);
-                    dom_append(div6, t4);
-                    dom_append(div6, div2);
+                    dom_append(div5, t4);
+                    dom_append(div5, div2);
                     dom_append(div2, t5);
-                    dom_append(div6, t6);
-                    dom_append(div6, div3);
+                    dom_append(div5, t6);
+                    dom_append(div5, div3);
                     dom_append(div3, t7);
-                    dom_append(div6, t8);
-                    dom_append(div6, div4);
+                    dom_append(div5, t8);
+                    dom_append(div5, div4);
                     dom_append(div4, t9);
-                    dom_append(div6, t10);
-                    dom_append(div6, div5);
+                    dom_append(div5, t10);
                     if (if_block1) if_block1.m(div5, null);
-                    dom_append(div6, t11);
+                    dom_append(div5, t11);
                 },
                 p(ctx, dirty) {
-                    if ( /*member*/ ctx[44].placement > 0 && /*member*/ ctx[44].placement < 4) {
+                    if ( /*member*/ ctx[47].placement > 0 && /*member*/ ctx[47].placement < 4) {
                         if (if_block0) {
 
                         } else {
-                            if_block0 = members_index_svelte_create_if_block_8(ctx);
+                            if_block0 = members_index_svelte_create_if_block_11(ctx);
                             if_block0.c();
                             if_block0.m(div0, t0);
                         }
@@ -308771,35 +308782,35 @@ const getRandomTableNumber = () => {
                         if_block0 = null;
                     }
 
-                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[44].name + "")) dom_set_data(t3, t3_value);
-                    if (dirty[0] & /*actualData*/ 1 && t5_value !== (t5_value = /*member*/ ctx[44].level + "")) dom_set_data(t5, t5_value);
-                    if (dirty[0] & /*actualData*/ 1 && t7_value !== (t7_value = /*member*/ ctx[44].member_count + "")) dom_set_data(t7, t7_value);
-                    if (dirty[0] & /*actualData*/ 1 && t9_value !== (t9_value = /*member*/ ctx[44].leader + "")) dom_set_data(t9, t9_value);
+                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[47].name + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*actualData*/ 1 && t5_value !== (t5_value = /*member*/ ctx[47].level + "")) dom_set_data(t5, t5_value);
+                    if (dirty[0] & /*actualData*/ 1 && t7_value !== (t7_value = /*member*/ ctx[47].member_count + "")) dom_set_data(t7, t7_value);
+                    if (dirty[0] & /*actualData*/ 1 && t9_value !== (t9_value = /*member*/ ctx[47].leader + "")) dom_set_data(t9, t9_value);
 
-                    if ( /*member*/ ctx[44].flagid > 0) {
+                    if (! /*isViceCity*/ ctx[9]) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = members_index_svelte_create_if_block_7(ctx);
+                            if_block1 = members_index_svelte_create_if_block_9(ctx);
                             if_block1.c();
-                            if_block1.m(div5, null);
+                            if_block1.m(div5, t11);
                         }
                     } else if (if_block1) {
                         if_block1.d(1);
                         if_block1 = null;
                     }
 
-                    if (dirty[0] & /*actualData*/ 1 && div6_class_value !== (div6_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[44].placementStyle + " svelte-1ockr6b")) {
-                        dom_attr(div6, "class", div6_class_value);
+                    if (dirty[0] & /*actualData*/ 1 && div5_class_value !== (div5_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[47].placementStyle + " svelte-1abnkcq")) {
+                        dom_attr(div5, "class", div5_class_value);
                     }
 
-                    if (dirty[0] & /*actualData, actualData, $familyInfo*/ 2049) {
-                        dom_toggle_class(div6, "family-members__member--blue", /*member*/ ctx[44].name === /*$familyInfo*/ ctx[11].title);
+                    if (dirty[0] & /*actualData, actualData, $familyInfo*/ 4097) {
+                        dom_toggle_class(div5, "family-members__member--blue", /*member*/ ctx[47].name === /*$familyInfo*/ ctx[12].title);
                     }
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div6);
+                        dom_detach(div5);
                     }
 
                     if (if_block0) if_block0.d();
@@ -308808,40 +308819,42 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (649:24) {#if mode === TableMode.Members}
+        // (717:24) {#if mode === TableMode.Members}
         function members_index_svelte_create_if_block_3(ctx) {
-            let div6;
+            let div4;
             let div2;
             let div0;
             let t0;
             let div1;
             let t1;
-            let show_if = !(0, lodash.isEmpty)( /*member*/ ctx[44].role);
+            let show_if = !(0, lodash.isEmpty)( /*member*/ ctx[47].role);
             let t2;
             let div3;
-            let t3_value = /*member*/ ctx[44].family_rank + "";
+            let t3_value = /*member*/ ctx[47].family_rank + "";
             let t3;
             let t4;
-            let div4;
-            let t5_value = /*member*/ ctx[44].quests + "";
             let t5;
-            let t6;
-            let div5;
-            let t7;
 
             function select_block_type_2(ctx, dirty) {
-                if ( /*member*/ ctx[44].online_status === 1001) return members_index_svelte_create_if_block_6;
-                return members_index_svelte_create_else_block_1;
+                if ( /*member*/ ctx[47].online_status === 1001) return members_index_svelte_create_if_block_8;
+                return members_index_svelte_create_else_block_2;
             }
 
             let current_block_type = select_block_type_2(ctx, [-1, -1]);
             let if_block0 = current_block_type(ctx);
-            let if_block1 = show_if && members_index_svelte_create_if_block_5(ctx);
-            let if_block2 = /*$familyInfo*/ ctx[11].management && members_index_svelte_create_if_block_4(ctx);
+            let if_block1 = show_if && members_index_svelte_create_if_block_7(ctx);
+
+            function select_block_type_3(ctx, dirty) {
+                if (! /*isViceCity*/ ctx[9]) return members_index_svelte_create_if_block_4;
+                return members_index_svelte_create_else_block_1;
+            }
+
+            let current_block_type_1 = select_block_type_3(ctx, [-1, -1]);
+            let if_block2 = current_block_type_1(ctx);
 
             return {
                 c() {
-                    div6 = dom_element("div");
+                    div4 = dom_element("div");
                     div2 = dom_element("div");
                     div0 = dom_element("div");
                     t0 = dom_space();
@@ -308853,44 +308866,35 @@ const getRandomTableNumber = () => {
                     div3 = dom_element("div");
                     t3 = dom_text(t3_value);
                     t4 = dom_space();
-                    div4 = dom_element("div");
-                    t5 = dom_text(t5_value);
-                    t6 = dom_space();
-                    div5 = dom_element("div");
-                    if (if_block2) if_block2.c();
-                    t7 = dom_space();
-                    dom_attr(div0, "class", "family-members__member-online svelte-1ockr6b");
-                    dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[44].online_status === 1001 ? 0 : 1);
+                    if_block2.c();
+                    t5 = dom_space();
+                    dom_attr(div0, "class", "family-members__member-online svelte-1abnkcq");
+                    dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[47].online_status === 1001 ? 0 : 1);
                     dom_attr(div1, "class", "family-members__member-name-wrapper");
-                    dom_attr(div2, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div3, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div4, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div5, "class", "family-members__member-property-wrapper svelte-1ockr6b");
-                    dom_attr(div6, "class", "family-members__member svelte-1ockr6b");
+                    dom_attr(div2, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div3, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div4, "class", "family-members__member svelte-1abnkcq");
+                    dom_toggle_class(div4, "family-members__member--vicecity", /*isViceCity*/ ctx[9]);
                 },
                 m(target, anchor) {
-                    dom_insert(target, div6, anchor);
-                    dom_append(div6, div2);
+                    dom_insert(target, div4, anchor);
+                    dom_append(div4, div2);
                     dom_append(div2, div0);
                     dom_append(div2, t0);
                     dom_append(div2, div1);
                     if_block0.m(div1, null);
                     dom_append(div1, t1);
                     if (if_block1) if_block1.m(div1, null);
-                    dom_append(div6, t2);
-                    dom_append(div6, div3);
+                    dom_append(div4, t2);
+                    dom_append(div4, div3);
                     dom_append(div3, t3);
-                    dom_append(div6, t4);
-                    dom_append(div6, div4);
+                    dom_append(div4, t4);
+                    if_block2.m(div4, null);
                     dom_append(div4, t5);
-                    dom_append(div6, t6);
-                    dom_append(div6, div5);
-                    if (if_block2) if_block2.m(div5, null);
-                    dom_append(div6, t7);
                 },
                 p(ctx, dirty) {
                     if (dirty[0] & /*actualData*/ 1) {
-                        dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[44].online_status === 1001 ? 0 : 1);
+                        dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[47].online_status === 1001 ? 0 : 1);
                     }
 
                     if (current_block_type === (current_block_type = select_block_type_2(ctx, dirty)) && if_block0) {
@@ -308905,13 +308909,13 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    if (dirty[0] & /*actualData*/ 1) show_if = !(0, lodash.isEmpty)( /*member*/ ctx[44].role);
+                    if (dirty[0] & /*actualData*/ 1) show_if = !(0, lodash.isEmpty)( /*member*/ ctx[47].role);
 
                     if (show_if) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = members_index_svelte_create_if_block_5(ctx);
+                            if_block1 = members_index_svelte_create_if_block_7(ctx);
                             if_block1.c();
                             if_block1.m(div1, null);
                         }
@@ -308920,42 +308924,44 @@ const getRandomTableNumber = () => {
                         if_block1 = null;
                     }
 
-                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[44].family_rank + "")) dom_set_data(t3, t3_value);
-                    if (dirty[0] & /*actualData*/ 1 && t5_value !== (t5_value = /*member*/ ctx[44].quests + "")) dom_set_data(t5, t5_value);
+                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[47].family_rank + "")) dom_set_data(t3, t3_value);
 
-                    if ( /*$familyInfo*/ ctx[11].management) {
-                        if (if_block2) {
-                            if_block2.p(ctx, dirty);
-                        } else {
-                            if_block2 = members_index_svelte_create_if_block_4(ctx);
-                            if_block2.c();
-                            if_block2.m(div5, null);
-                        }
-                    } else if (if_block2) {
+                    if (current_block_type_1 === (current_block_type_1 = select_block_type_3(ctx, dirty)) && if_block2) {
+                        if_block2.p(ctx, dirty);
+                    } else {
                         if_block2.d(1);
-                        if_block2 = null;
+                        if_block2 = current_block_type_1(ctx);
+
+                        if (if_block2) {
+                            if_block2.c();
+                            if_block2.m(div4, t5);
+                        }
+                    }
+
+                    if (dirty[0] & /*isViceCity*/ 512) {
+                        dom_toggle_class(div4, "family-members__member--vicecity", /*isViceCity*/ ctx[9]);
                     }
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div6);
+                        dom_detach(div4);
                     }
 
                     if_block0.d();
                     if (if_block1) if_block1.d();
-                    if (if_block2) if_block2.d();
+                    if_block2.d();
                 }
             };
         }
 
-        // (686:36) {#if member.placement > 0 && member.placement < 4}
-        function members_index_svelte_create_if_block_8(ctx) {
+        // (761:36) {#if member.placement > 0 && member.placement < 4}
+        function members_index_svelte_create_if_block_11(ctx) {
             let i;
 
             return {
                 c() {
                     i = dom_element("i");
-                    dom_attr(i, "class", "family-members__member-property-icon icon-star-token svelte-1ockr6b");
+                    dom_attr(i, "class", "family-members__member-property-icon icon-star-token svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
@@ -308968,23 +308974,62 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (697:36) {#if member.flagid > 0}
-        function members_index_svelte_create_if_block_7(ctx) {
+        // (771:32) {#if !isViceCity}
+        function members_index_svelte_create_if_block_9(ctx) {
+            let div;
+            let if_block = /*member*/ ctx[47].flagid > 0 && members_index_svelte_create_if_block_10(ctx);
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    if (if_block) if_block.c();
+                    dom_attr(div, "class", "family-members__member-property svelte-1abnkcq");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    if (if_block) if_block.m(div, null);
+                },
+                p(ctx, dirty) {
+                    if ( /*member*/ ctx[47].flagid > 0) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = members_index_svelte_create_if_block_10(ctx);
+                            if_block.c();
+                            if_block.m(div, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    if (if_block) if_block.d();
+                }
+            };
+        }
+
+        // (773:40) {#if member.flagid > 0}
+        function members_index_svelte_create_if_block_10(ctx) {
             let img;
             let img_src_value;
 
             return {
                 c() {
                     img = dom_element("img");
-                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[44].flagid])) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[47].flagid])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "flag");
-                    dom_attr(img, "class", "family-members__member-property-flag svelte-1ockr6b");
+                    dom_attr(img, "class", "family-members__member-property-flag svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && !utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[44].flagid])) {
+                    if (dirty[0] & /*actualData*/ 1 && !utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[47].flagid])) {
                         dom_attr(img, "src", img_src_value);
                     }
                 },
@@ -308996,100 +309041,96 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (657:40) {:else}
+        // (725:40) {:else}
+        function members_index_svelte_create_else_block_2(ctx) {
+            let div;
+            let t_value = `${/*member*/ ctx[47].nickname} (ID: ${/*member*/ ctx[47].online_status})` + "";
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text(t_value);
+                    dom_attr(div, "class", "family-members__member-name");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[47].nickname} (ID: ${/*member*/ ctx[47].online_status})` + "")) dom_set_data(t, t_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (723:40) {#if member.online_status === 1001}
+        function members_index_svelte_create_if_block_8(ctx) {
+            let div;
+            let t_value = `${/*member*/ ctx[47].nickname} (Был ${/*member*/ ctx[47].formate_date_ago})` + "";
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text(t_value);
+                    dom_attr(div, "class", "family-members__member-name");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[47].nickname} (Был ${/*member*/ ctx[47].formate_date_ago})` + "")) dom_set_data(t, t_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (728:40) {#if !isEmpty(member.role)}
+        function members_index_svelte_create_if_block_7(ctx) {
+            let div;
+            let t_value = /*member*/ ctx[47].role + "";
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text(t_value);
+                    dom_attr(div, "class", "family-members__member-role svelte-1abnkcq");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = /*member*/ ctx[47].role + "")) dom_set_data(t, t_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (750:32) {:else}
         function members_index_svelte_create_else_block_1(ctx) {
-            let div;
-            let t_value = `${/*member*/ ctx[44].nickname} (ID: ${/*member*/ ctx[44].online_status})` + "";
-            let t;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    t = dom_text(t_value);
-                    dom_attr(div, "class", "family-members__member-name");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    dom_append(div, t);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[44].nickname} (ID: ${/*member*/ ctx[44].online_status})` + "")) dom_set_data(t, t_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
-        // (655:40) {#if member.online_status === 1001}
-        function members_index_svelte_create_if_block_6(ctx) {
-            let div;
-            let t_value = `${/*member*/ ctx[44].nickname} (Был ${/*member*/ ctx[44].formate_date_ago})` + "";
-            let t;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    t = dom_text(t_value);
-                    dom_attr(div, "class", "family-members__member-name");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    dom_append(div, t);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[44].nickname} (Был ${/*member*/ ctx[44].formate_date_ago})` + "")) dom_set_data(t, t_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
-        // (660:40) {#if !isEmpty(member.role)}
-        function members_index_svelte_create_if_block_5(ctx) {
-            let div;
-            let t_value = /*member*/ ctx[44].role + "";
-            let t;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    t = dom_text(t_value);
-                    dom_attr(div, "class", "family-members__member-role svelte-1ockr6b");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    dom_append(div, t);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = /*member*/ ctx[44].role + "")) dom_set_data(t, t_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
-        // (668:36) {#if $familyInfo.management}
-        function members_index_svelte_create_if_block_4(ctx) {
             let div0;
-            let t0_value = /*member*/ ctx[44].warns + "";
+            let t0_value = (SERVERS[ /*member*/ ctx[47].server_id] || /*member*/ ctx[47].server_id) + "";
             let t0;
             let t1;
             let div1;
-            let mounted;
-            let dispose;
-
-            function click_handler_1(...args) {
-                return /*click_handler_1*/ ctx[27]( /*member*/ ctx[44], /*index*/ ctx[46], ...args);
-            }
+            let t2_value = /*formatDate*/ ctx[15]( /*member*/ ctx[47].formate_date_unix) + "";
+            let t2;
 
             return {
                 c() {
@@ -309097,28 +309138,90 @@ const getRandomTableNumber = () => {
                     t0 = dom_text(t0_value);
                     t1 = dom_space();
                     div1 = dom_element("div");
-                    div1.innerHTML = `<i class="family-members__member-context-icon icon-dotted-menu svelte-1ockr6b"></i>`;
-                    dom_attr(div0, "class", "family-members__member-property svelte-1ockr6b");
-                    dom_attr(div1, "class", "family-members__member-context svelte-1ockr6b");
-                    dom_toggle_class(div1, "family-members__member-context--active", /*index*/ ctx[46] === /*selectedMemberIndex*/ ctx[4]);
+                    t2 = dom_text(t2_value);
+                    dom_attr(div0, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div1, "class", "family-members__member-property svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, div0, anchor);
                     dom_append(div0, t0);
                     dom_insert(target, t1, anchor);
                     dom_insert(target, div1, anchor);
-
-                    if (!mounted) {
-                        dispose = dom_listen(div1, "click", click_handler_1);
-                        mounted = true;
-                    }
+                    dom_append(div1, t2);
                 },
-                p(new_ctx, dirty) {
-                    ctx = new_ctx;
-                    if (dirty[0] & /*actualData*/ 1 && t0_value !== (t0_value = /*member*/ ctx[44].warns + "")) dom_set_data(t0, t0_value);
+                p(ctx, dirty) {
+                    if (dirty[0] & /*actualData*/ 1 && t0_value !== (t0_value = (SERVERS[ /*member*/ ctx[47].server_id] || /*member*/ ctx[47].server_id) + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*actualData*/ 1 && t2_value !== (t2_value = /*formatDate*/ ctx[15]( /*member*/ ctx[47].formate_date_unix) + "")) dom_set_data(t2, t2_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div0);
+                        dom_detach(t1);
+                        dom_detach(div1);
+                    }
+                }
+            };
+        }
 
-                    if (dirty[0] & /*selectedMemberIndex*/ 16) {
-                        dom_toggle_class(div1, "family-members__member-context--active", /*index*/ ctx[46] === /*selectedMemberIndex*/ ctx[4]);
+        // (734:32) {#if !isViceCity}
+        function members_index_svelte_create_if_block_4(ctx) {
+            let div0;
+            let t0_value = /*member*/ ctx[47].quests + "";
+            let t0;
+            let t1;
+            let div1;
+            let t2;
+            let if_block0 = /*$familyInfo*/ ctx[12].management && members_index_svelte_create_if_block_6(ctx);
+            let if_block1 = /*$familyInfo*/ ctx[12].management && members_index_svelte_create_if_block_5(ctx);
+
+            return {
+                c() {
+                    div0 = dom_element("div");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    if (if_block0) if_block0.c();
+                    t2 = dom_space();
+                    if (if_block1) if_block1.c();
+                    dom_attr(div0, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div1, "class", "family-members__member-property-wrapper svelte-1abnkcq");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div0, anchor);
+                    dom_append(div0, t0);
+                    dom_insert(target, t1, anchor);
+                    dom_insert(target, div1, anchor);
+                    if (if_block0) if_block0.m(div1, null);
+                    dom_append(div1, t2);
+                    if (if_block1) if_block1.m(div1, null);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*actualData*/ 1 && t0_value !== (t0_value = /*member*/ ctx[47].quests + "")) dom_set_data(t0, t0_value);
+
+                    if ( /*$familyInfo*/ ctx[12].management) {
+                        if (if_block0) {
+                            if_block0.p(ctx, dirty);
+                        } else {
+                            if_block0 = members_index_svelte_create_if_block_6(ctx);
+                            if_block0.c();
+                            if_block0.m(div1, t2);
+                        }
+                    } else if (if_block0) {
+                        if_block0.d(1);
+                        if_block0 = null;
+                    }
+
+                    if ( /*$familyInfo*/ ctx[12].management) {
+                        if (if_block1) {
+                            if_block1.p(ctx, dirty);
+                        } else {
+                            if_block1 = members_index_svelte_create_if_block_5(ctx);
+                            if_block1.c();
+                            if_block1.m(div1, null);
+                        }
+                    } else if (if_block1) {
+                        if_block1.d(1);
+                        if_block1 = null;
                     }
                 },
                 d(detaching) {
@@ -309128,19 +309231,89 @@ const getRandomTableNumber = () => {
                         dom_detach(div1);
                     }
 
+                    if (if_block0) if_block0.d();
+                    if (if_block1) if_block1.d();
+                }
+            };
+        }
+
+        // (737:40) {#if $familyInfo.management}
+        function members_index_svelte_create_if_block_6(ctx) {
+            let div;
+            let t_value = /*member*/ ctx[47].warns + "";
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text(t_value);
+                    dom_attr(div, "class", "family-members__member-property svelte-1abnkcq");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = /*member*/ ctx[47].warns + "")) dom_set_data(t, t_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (740:40) {#if $familyInfo.management}
+        function members_index_svelte_create_if_block_5(ctx) {
+            let div;
+            let mounted;
+            let dispose;
+
+            function click_handler_1(...args) {
+                return /*click_handler_1*/ ctx[29]( /*member*/ ctx[47], /*index*/ ctx[49], ...args);
+            }
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    div.innerHTML = `<i class="family-members__member-context-icon icon-dotted-menu svelte-1abnkcq"></i>`;
+                    dom_attr(div, "class", "family-members__member-context svelte-1abnkcq");
+                    dom_toggle_class(div, "family-members__member-context--active", /*index*/ ctx[49] === /*selectedMemberIndex*/ ctx[4]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div, "click", click_handler_1);
+                        mounted = true;
+                    }
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+
+                    if (dirty[0] & /*selectedMemberIndex*/ 16) {
+                        dom_toggle_class(div, "family-members__member-context--active", /*index*/ ctx[49] === /*selectedMemberIndex*/ ctx[4]);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
                     mounted = false;
                     dispose();
                 }
             };
         }
 
-        // (648:20) {#each actualData as member, index}
+        // (716:20) {#each actualData as member, index}
         function members_index_svelte_create_each_block_1(ctx) {
             let if_block_anchor;
 
             function select_block_type_1(ctx, dirty) {
                 if ( /*mode*/ ctx[5] === TableMode.Members) return members_index_svelte_create_if_block_3;
-                return members_index_svelte_create_else_block_2;
+                return members_index_svelte_create_else_block_3;
             }
 
             let current_block_type = select_block_type_1(ctx, [-1, -1]);
@@ -309178,7 +309351,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (714:4) {#if selectedMemberIndex >= 0}
+        // (791:4) {#if selectedMemberIndex >= 0}
         function members_index_svelte_create_if_block(ctx) {
             let div;
             let each_value = each_ensure_array_like( /*contextItems*/ ctx[7]);
@@ -309196,9 +309369,9 @@ const getRandomTableNumber = () => {
                         each_blocks[i].c();
                     }
 
-                    dom_attr(div, "class", "family-members__context-menu svelte-1ockr6b");
-                    set_style(div, "top", `${/*contextPosition*/ ctx[10].y}px`);
-                    set_style(div, "left", `${/*contextPosition*/ ctx[10].x}px`);
+                    dom_attr(div, "class", "family-members__context-menu svelte-1abnkcq");
+                    set_style(div, "top", `${/*contextPosition*/ ctx[11].y}px`);
+                    set_style(div, "left", `${/*contextPosition*/ ctx[11].x}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -309210,7 +309383,7 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*doAction, contextItems, selectedMemberIndex*/ 2097296) {
+                    if (dirty[0] & /*doAction, contextItems, selectedMemberIndex*/ 8388752) {
                         each_value = each_ensure_array_like( /*contextItems*/ ctx[7]);
                         let i;
 
@@ -309233,12 +309406,12 @@ const getRandomTableNumber = () => {
                         each_blocks.length = each_value.length;
                     }
 
-                    if (dirty[0] & /*contextPosition*/ 1024) {
-                        set_style(div, "top", `${/*contextPosition*/ ctx[10].y}px`);
+                    if (dirty[0] & /*contextPosition*/ 2048) {
+                        set_style(div, "top", `${/*contextPosition*/ ctx[11].y}px`);
                     }
 
-                    if (dirty[0] & /*contextPosition*/ 1024) {
-                        set_style(div, "left", `${/*contextPosition*/ ctx[10].x}px`);
+                    if (dirty[0] & /*contextPosition*/ 2048) {
+                        set_style(div, "left", `${/*contextPosition*/ ctx[11].x}px`);
                     }
                 },
                 d(detaching) {
@@ -309251,21 +309424,21 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (716:12) {#each contextItems as id}
+        // (793:12) {#each contextItems as id}
         function members_index_svelte_create_each_block(ctx) {
             let div1;
             let i;
             let i_class_value;
             let t0;
             let div0;
-            let t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[41]] + "";
+            let t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[44]] + "";
             let t1;
             let t2;
             let mounted;
             let dispose;
 
             function click_handler_3() {
-                return /*click_handler_3*/ ctx[30]( /*id*/ ctx[41]);
+                return /*click_handler_3*/ ctx[32]( /*id*/ ctx[44]);
             }
 
             return {
@@ -309276,9 +309449,9 @@ const getRandomTableNumber = () => {
                     div0 = dom_element("div");
                     t1 = dom_text(t1_value);
                     t2 = dom_space();
-                    dom_attr(i, "class", i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[41]] + " svelte-1ockr6b");
-                    dom_attr(div0, "class", "family-members__context-menu-item-text svelte-1ockr6b");
-                    dom_attr(div1, "class", "family-members__context-menu-item svelte-1ockr6b");
+                    dom_attr(i, "class", i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[44]] + " svelte-1abnkcq");
+                    dom_attr(div0, "class", "family-members__context-menu-item-text svelte-1abnkcq");
+                    dom_attr(div1, "class", "family-members__context-menu-item svelte-1abnkcq");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -309296,11 +309469,11 @@ const getRandomTableNumber = () => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if (dirty[0] & /*contextItems*/ 128 && i_class_value !== (i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[41]] + " svelte-1ockr6b")) {
+                    if (dirty[0] & /*contextItems*/ 128 && i_class_value !== (i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[44]] + " svelte-1abnkcq")) {
                         dom_attr(i, "class", i_class_value);
                     }
 
-                    if (dirty[0] & /*contextItems*/ 128 && t1_value !== (t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[41]] + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*contextItems*/ 128 && t1_value !== (t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[44]] + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -309351,8 +309524,8 @@ const getRandomTableNumber = () => {
             let current;
             let mounted;
             let dispose;
-            let if_block0 = /*mode*/ ctx[5] === TableMode.Rating && members_index_svelte_create_if_block_11(ctx);
-            let if_block1 = /*searchMode*/ ctx[8] && members_index_svelte_create_if_block_10(ctx);
+            let if_block0 = /*mode*/ ctx[5] === TableMode.Rating && members_index_svelte_create_if_block_14(ctx);
+            let if_block1 = /*searchMode*/ ctx[8] && members_index_svelte_create_if_block_13(ctx);
             let each_value_2 = each_ensure_array_like( /*headers*/ ctx[6]);
             let each_blocks = [];
 
@@ -309411,25 +309584,26 @@ const getRandomTableNumber = () => {
                     t9 = dom_text(t9_value);
                     t10 = dom_space();
                     if (if_block3) if_block3.c();
-                    dom_attr(i0, "class", "family-members__search-icon icon-magnifier svelte-1ockr6b");
-                    dom_attr(input, "class", "family-members__search-input svelte-1ockr6b");
+                    dom_attr(i0, "class", "family-members__search-icon icon-magnifier svelte-1abnkcq");
+                    dom_attr(input, "class", "family-members__search-input svelte-1abnkcq");
                     dom_attr(input, "type", "text");
                     dom_attr(input, "placeholder", input_placeholder_value = MAP_TABLE_MODE_TO_PLACEHOLDER[ /*mode*/ ctx[5]]);
-                    dom_attr(div0, "class", "family-members__search-button svelte-1ockr6b");
+                    dom_attr(div0, "class", "family-members__search-button svelte-1abnkcq");
                     dom_toggle_class(div0, "family-members__search-button--disabled", /*query*/ ctx[1].length < 3);
-                    dom_attr(div1, "class", "family-members__search svelte-1ockr6b");
-                    dom_attr(div2, "class", "family-members__table-head svelte-1ockr6b");
+                    dom_attr(div1, "class", "family-members__search svelte-1abnkcq");
+                    dom_attr(div2, "class", "family-members__table-head svelte-1abnkcq");
                     dom_toggle_class(div2, "family-members__table-head--rating", /*mode*/ ctx[5] === TableMode.Rating);
-                    dom_attr(div3, "class", "family-members__table-list svelte-1ockr6b");
-                    dom_attr(div4, "class", div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1ockr6b");
-                    dom_attr(div5, "class", "family-members__table svelte-1ockr6b");
+                    dom_toggle_class(div2, "family-members__table-head--vicecity", /*isViceCity*/ ctx[9] && /*mode*/ ctx[5] === TableMode.Members);
+                    dom_attr(div3, "class", "family-members__table-list svelte-1abnkcq");
+                    dom_attr(div4, "class", div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1abnkcq");
+                    dom_attr(div5, "class", "family-members__table svelte-1abnkcq");
 
                     dom_attr(i1, "class", i1_class_value = "family-members__footer-button-icon " + ( /*mode*/ ctx[5] === TableMode.Members ?
                         'icon-rating' :
-                        'icon-chevron-left') + " svelte-1ockr6b");
+                        'icon-chevron-left') + " svelte-1abnkcq");
 
-                    dom_attr(div6, "class", "family-members__footer-button-text svelte-1ockr6b");
-                    dom_attr(div7, "class", "family-members__footer-button svelte-1ockr6b");
+                    dom_attr(div6, "class", "family-members__footer-button-text svelte-1abnkcq");
+                    dom_attr(div7, "class", "family-members__footer-button svelte-1abnkcq");
                     dom_attr(div8, "class", "family-members");
                 },
                 m(target, anchor) {
@@ -309460,7 +309634,7 @@ const getRandomTableNumber = () => {
                     dom_append(div4, div3);
                     if_blocks[current_block_type_index].m(div3, null);
                     /*div4_binding*/
-                    ctx[28](div4);
+                    ctx[30](div4);
                     dom_append(div8, t7);
                     dom_append(div8, div7);
                     dom_append(div7, i1);
@@ -309470,19 +309644,19 @@ const getRandomTableNumber = () => {
                     dom_append(div8, t10);
                     if (if_block3) if_block3.m(div8, null);
                     /*div8_binding*/
-                    ctx[31](div8);
+                    ctx[33](div8);
                     current = true;
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(members_index_svelte_window_1, "click", /*clickHandler*/ ctx[19]),
-                            dom_listen(members_index_svelte_window_1, "keydown", /*keydownHandler*/ ctx[20]),
-                            dom_listen(input, "input", /*input_input_handler*/ ctx[23]),
-                            dom_listen(input, "focus", /*focus_handler*/ ctx[24]),
-                            dom_listen(input, "blur", /*blur_handler*/ ctx[25]),
-                            dom_listen(div0, "click", /*search*/ ctx[14]),
-                            dom_listen(div4, "scroll", /*scrollHandler*/ ctx[18]),
-                            dom_listen(div7, "click", /*click_handler_2*/ ctx[29])
+                            dom_listen(members_index_svelte_window_1, "click", /*clickHandler*/ ctx[21]),
+                            dom_listen(members_index_svelte_window_1, "keydown", /*keydownHandler*/ ctx[22]),
+                            dom_listen(input, "input", /*input_input_handler*/ ctx[25]),
+                            dom_listen(input, "focus", /*focus_handler*/ ctx[26]),
+                            dom_listen(input, "blur", /*blur_handler*/ ctx[27]),
+                            dom_listen(div0, "click", /*search*/ ctx[16]),
+                            dom_listen(div4, "scroll", /*scrollHandler*/ ctx[20]),
+                            dom_listen(div7, "click", /*click_handler_2*/ ctx[31])
                         ];
 
                         mounted = true;
@@ -309493,7 +309667,7 @@ const getRandomTableNumber = () => {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = members_index_svelte_create_if_block_11(ctx);
+                            if_block0 = members_index_svelte_create_if_block_14(ctx);
                             if_block0.c();
                             if_block0.m(div8, t0);
                         }
@@ -309514,7 +309688,7 @@ const getRandomTableNumber = () => {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = members_index_svelte_create_if_block_10(ctx);
+                            if_block1 = members_index_svelte_create_if_block_13(ctx);
                             if_block1.c();
                             if_block1.m(div1, t3);
                         }
@@ -309527,7 +309701,7 @@ const getRandomTableNumber = () => {
                         dom_toggle_class(div0, "family-members__search-button--disabled", /*query*/ ctx[1].length < 3);
                     }
 
-                    if (dirty[0] & /*colsSortState, headers, sort, mode*/ 66144) {
+                    if (dirty[0] & /*colsSortState, headers, sort, mode*/ 263264) {
                         each_value_2 = each_ensure_array_like( /*headers*/ ctx[6]);
                         let i;
 
@@ -309552,6 +309726,10 @@ const getRandomTableNumber = () => {
 
                     if (!current || dirty[0] & /*mode*/ 32) {
                         dom_toggle_class(div2, "family-members__table-head--rating", /*mode*/ ctx[5] === TableMode.Rating);
+                    }
+
+                    if (!current || dirty[0] & /*isViceCity, mode*/ 544) {
+                        dom_toggle_class(div2, "family-members__table-head--vicecity", /*isViceCity*/ ctx[9] && /*mode*/ ctx[5] === TableMode.Members);
                     }
 
                     let previous_block_index = current_block_type_index;
@@ -309580,13 +309758,13 @@ const getRandomTableNumber = () => {
                         if_block2.m(div3, null);
                     }
 
-                    if (!current || dirty[0] & /*mode*/ 32 && div4_class_value !== (div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1ockr6b")) {
+                    if (!current || dirty[0] & /*mode*/ 32 && div4_class_value !== (div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1abnkcq")) {
                         dom_attr(div4, "class", div4_class_value);
                     }
 
                     if (!current || dirty[0] & /*mode*/ 32 && i1_class_value !== (i1_class_value = "family-members__footer-button-icon " + ( /*mode*/ ctx[5] === TableMode.Members ?
                             'icon-rating' :
-                            'icon-chevron-left') + " svelte-1ockr6b")) {
+                            'icon-chevron-left') + " svelte-1abnkcq")) {
                         dom_attr(i1, "class", i1_class_value);
                     }
 
@@ -309626,10 +309804,10 @@ const getRandomTableNumber = () => {
                     destroy_each(each_blocks, detaching);
                     if_blocks[current_block_type_index].d();
                     /*div4_binding*/
-                    ctx[28](null);
+                    ctx[30](null);
                     if (if_block3) if_block3.d();
                     /*div8_binding*/
-                    ctx[31](null);
+                    ctx[33](null);
                     mounted = false;
                     utils_run_all(dispose);
                 }
@@ -309642,11 +309820,11 @@ const getRandomTableNumber = () => {
             let $serverApiServerId;
             let $contextBits;
             let $inputActive;
-            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(38, $serverApiToken = $$value));
-            utils_component_subscribe($$self, familyInfo, $$value => $$invalidate(11, $familyInfo = $$value));
-            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(12, $serverApiServerId = $$value));
-            utils_component_subscribe($$self, contextBits, $$value => $$invalidate(39, $contextBits = $$value));
-            utils_component_subscribe($$self, inputActive, $$value => $$invalidate(13, $inputActive = $$value));
+            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(40, $serverApiToken = $$value));
+            utils_component_subscribe($$self, familyInfo, $$value => $$invalidate(12, $familyInfo = $$value));
+            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(13, $serverApiServerId = $$value));
+            utils_component_subscribe($$self, contextBits, $$value => $$invalidate(41, $contextBits = $$value));
+            utils_component_subscribe($$self, inputActive, $$value => $$invalidate(14, $inputActive = $$value));
             let actualData = null;
             let query = '';
             let pageMember = 1;
@@ -309662,8 +309840,22 @@ const getRandomTableNumber = () => {
             let headers = [];
             let contextItems = [];
             let searchMode = false;
+            let isViceCity = false;
             const colsSortState = {};
             const contextPosition = {};
+
+            const formatDate = timestamp => {
+                if (!timestamp) return '-';
+                const date = new Date(timestamp);
+
+                return date.toLocaleDateString('ru-RU', {
+                    day: '2-digit',
+                    month: '2-digit',
+                    year: 'numeric',
+                    hour: '2-digit',
+                    minute: '2-digit'
+                });
+            };
 
             const search = async () => {
                 if ((0, lodash.isEmpty)(query)) {
@@ -309688,15 +309880,35 @@ const getRandomTableNumber = () => {
                     }
                 }).then(response => {
                     if (mode === TableMode.Members) {
-                        $$invalidate(0, actualData = response.data);
+                        $$invalidate(9, isViceCity = response.data.isViceCity || false);
+                        $$invalidate(0, actualData = response.data.items || response.data);
 
                         $$invalidate(0, actualData = actualData.map(item => {
                             return {
                                 ...item
                             };
                         }));
+
+                        updateHeaders();
                     } else {
-                        $$invalidate(0, actualData = response.data);
+                        $$invalidate(9, isViceCity = response.data.isViceCity || false);
+                        const ratingItems = response.data.items || response.data;
+
+                        $$invalidate(0, actualData = ratingItems.map((item, index) => {
+                            let placement = index + 1;
+
+                            let placementStyle = index < 3 ?
+                                MAP_PALCE_TO_CLASS[placement] :
+                                MAP_PALCE_TO_CLASS[0];
+
+                            return {
+                                ...item,
+                                placement,
+                                placementStyle
+                            };
+                        }));
+
+                        updateHeaders();
                     }
                 }).catch(error => {
                     console.log('getRating error', JSON.stringify(error));
@@ -309725,22 +309937,34 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                if (colsSortState[field]) {
+                if (field === ViceCityMembersHeaders.LastOnline) {
+                    if (colsSortState[field]) {
+                        $$invalidate(0, actualData = actualData.sort((a, b) => (b.formate_date_unix || 0) - (a.formate_date_unix || 0)));
+                    } else {
+                        $$invalidate(0, actualData = actualData.sort((a, b) => (a.formate_date_unix || 0) - (b.formate_date_unix || 0)));
+                    }
+                } else if (field === ViceCityMembersHeaders.Server) {
+                    if (colsSortState[field]) {
+                        $$invalidate(0, actualData = actualData.sort((a, b) => (b.server_id || 0) - (a.server_id || 0)));
+                    } else {
+                        $$invalidate(0, actualData = actualData.sort((a, b) => (a.server_id || 0) - (b.server_id || 0)));
+                    }
+                } else if (colsSortState[field]) {
                     $$invalidate(0, actualData = actualData.sort((a, b) => b[field] - a[field]));
                 } else {
                     $$invalidate(0, actualData = actualData.sort((a, b) => a[field] - b[field]));
                 }
 
                 Object.keys(colsSortState).forEach(key => {
-                    $$invalidate(9, colsSortState[key] = key === field ? !colsSortState[key] : false, colsSortState);
+                    $$invalidate(10, colsSortState[key] = key === field ? !colsSortState[key] : false, colsSortState);
                 });
             };
 
             const openContextMenu = (event, member, index) => {
                 const offsetX = (window.innerWidth - mainNode.clientWidth) / 2.1;
                 const offsetY = mainNode.getBoundingClientRect().y;
-                $$invalidate(10, contextPosition.x = event.pageX - offsetX, contextPosition);
-                $$invalidate(10, contextPosition.y = event.pageY - offsetY, contextPosition);
+                $$invalidate(11, contextPosition.x = event.pageX - offsetX, contextPosition);
+                $$invalidate(11, contextPosition.y = event.pageY - offsetY, contextPosition);
 
                 $$invalidate(7, contextItems = Object.values(ActionIds).filter(item => {
                     if (members[index].online_status) {
@@ -309798,6 +310022,32 @@ const getRandomTableNumber = () => {
                 utils_set_store_value(contextBits, $contextBits = 0, $contextBits);
             };
 
+            const updateHeaders = () => {
+                $$invalidate(6, headers = Object.values(MAP_TABLE_MODE_TO_HEADERS[mode]));
+
+                if (isViceCity && mode === TableMode.Members) {
+                    $$invalidate(6, headers = headers.filter(item => item !== MembersHeaders.Quests && item !== MembersHeaders.Penalty));
+
+                    $$invalidate(6, headers = [
+                        ...headers,
+                        ViceCityMembersHeaders.Server,
+                        ViceCityMembersHeaders.LastOnline
+                    ]);
+                }
+
+                if (isViceCity && mode === TableMode.Rating) {
+                    $$invalidate(6, headers = headers.filter(item => item !== RationgHeaders.Flag));
+                }
+
+                if (mode === TableMode.Members) {
+                    headers.forEach(item => {
+                        if (colsSortState[item] === undefined) {
+                            $$invalidate(10, colsSortState[item] = false, colsSortState);
+                        }
+                    });
+                }
+            };
+
             const changeTable = type => {
                 if (disabled) {
                     return;
@@ -309810,13 +310060,27 @@ const getRandomTableNumber = () => {
                 clearSearch();
                 $$invalidate(6, headers = Object.values(MAP_TABLE_MODE_TO_HEADERS[type]));
 
+                if (isViceCity && mode === TableMode.Members) {
+                    $$invalidate(6, headers = headers.filter(item => item !== MembersHeaders.Quests && item !== MembersHeaders.Penalty));
+
+                    $$invalidate(6, headers = [
+                        ...headers,
+                        ViceCityMembersHeaders.Server,
+                        ViceCityMembersHeaders.LastOnline
+                    ]);
+                }
+
+                if (isViceCity && mode === TableMode.Rating) {
+                    $$invalidate(6, headers = headers.filter(item => item !== RationgHeaders.Flag));
+                }
+
                 if (!(0, lodash.isNil)(scrollNode)) {
                     $$invalidate(2, scrollNode.scrollTop = 0, scrollNode);
                 }
 
                 if (mode === TableMode.Members) {
                     headers.forEach(item => {
-                        $$invalidate(9, colsSortState[item] = false, colsSortState);
+                        $$invalidate(10, colsSortState[item] = false, colsSortState);
                     });
                 }
 
@@ -309853,9 +310117,9 @@ const getRandomTableNumber = () => {
                     }
                 }).then(response => {
                     if (mode === TableMode.Members) {
-                        members = (0, lodash.isEmpty)(members) ?
-                            response.data :
-                            [...members, ...response.data];
+                        $$invalidate(9, isViceCity = response.data.isViceCity || false);
+                        const items = response.data.items || response.data;
+                        members = (0, lodash.isEmpty)(members) ? items : [...members, ...items];
 
                         members = members.map(item => {
                             const member = {
@@ -309863,10 +310127,15 @@ const getRandomTableNumber = () => {
                             };
                             return member;
                         });
+
+                        updateHeaders();
+                        endReached = (0, lodash.isEmpty)(items); // end of list
                     } else {
+                        const ratingItems = response.data.items || response.data;
+
                         familyRating = (0, lodash.isNil)(familyRating) ?
-                            response.data :
-                            [...familyRating, ...response.data];
+                            ratingItems :
+                            [...familyRating, ...ratingItems];
 
                         familyRating = familyRating.map((item, index) => {
                             let placement = index + 1;
@@ -309881,11 +310150,12 @@ const getRandomTableNumber = () => {
                                 placementStyle
                             };
                         });
+
+                        endReached = (0, lodash.isEmpty)(ratingItems); // end of list
                     }
 
                     $$invalidate(0, actualData = mode === TableMode.Members ? members : familyRating);
                     disabled = false;
-                    endReached = (0, lodash.isEmpty)(response.data); // end of list
                 }).catch(error => {
                     console.log('getRating error', JSON.stringify(error));
                 });
@@ -309948,11 +310218,13 @@ const getRandomTableNumber = () => {
                 headers,
                 contextItems,
                 searchMode,
+                isViceCity,
                 colsSortState,
                 contextPosition,
                 $familyInfo,
                 $serverApiServerId,
                 $inputActive,
+                formatDate,
                 search,
                 clearSearch,
                 sort,
@@ -393025,7 +393297,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "216ca36c");
+                    console.log(`[debug] app init`, "1021", "836c8305");
                 }
             });
 
@@ -393093,7 +393365,7 @@ setTimeout(() => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "216ca36c");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "836c8305");
     })();
 
     /******/
