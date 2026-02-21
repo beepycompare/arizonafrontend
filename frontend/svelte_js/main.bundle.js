@@ -49976,607 +49976,6 @@
         var lodash_default = /*#__PURE__*/ __webpack_require__.n(lodash);; // CONCATENATED MODULE: ./node_modules/svelte/src/runtime/index.js
 
 
-        ; // CONCATENATED MODULE: ./node_modules/svelte/src/runtime/easing/index.js
-        /*
-        Adapted from https://github.com/mattdesl
-        Distributed under MIT License https://github.com/mattdesl/eases/blob/master/LICENSE.md
-        */
-
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function backInOut(t) {
-            const s = 1.70158 * 1.525;
-            if ((t *= 2) < 1) return 0.5 * (t * t * ((s + 1) * t - s));
-            return 0.5 * ((t -= 2) * t * ((s + 1) * t + s) + 2);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function backIn(t) {
-            const s = 1.70158;
-            return t * t * ((s + 1) * t - s);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function backOut(t) {
-            const s = 1.70158;
-            return --t * t * ((s + 1) * t + s) + 1;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function bounceOut(t) {
-            const a = 4.0 / 11.0;
-            const b = 8.0 / 11.0;
-            const c = 9.0 / 10.0;
-            const ca = 4356.0 / 361.0;
-            const cb = 35442.0 / 1805.0;
-            const cc = 16061.0 / 1805.0;
-            const t2 = t * t;
-            return t < a ?
-                7.5625 * t2 :
-                t < b ?
-                9.075 * t2 - 9.9 * t + 3.4 :
-                t < c ?
-                ca * t2 - cb * t + cc :
-                10.8 * t * t - 20.52 * t + 10.72;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function bounceInOut(t) {
-            return t < 0.5 ? 0.5 * (1.0 - bounceOut(1.0 - t * 2.0)) : 0.5 * bounceOut(t * 2.0 - 1.0) + 0.5;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function bounceIn(t) {
-            return 1.0 - bounceOut(1.0 - t);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function circInOut(t) {
-            if ((t *= 2) < 1) return -0.5 * (Math.sqrt(1 - t * t) - 1);
-            return 0.5 * (Math.sqrt(1 - (t -= 2) * t) + 1);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function circIn(t) {
-            return 1.0 - Math.sqrt(1.0 - t * t);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function circOut(t) {
-            return Math.sqrt(1 - --t * t);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function easing_cubicInOut(t) {
-            return t < 0.5 ? 4.0 * t * t * t : 0.5 * Math.pow(2.0 * t - 2.0, 3.0) + 1.0;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function cubicIn(t) {
-            return t * t * t;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function cubicOut(t) {
-            const f = t - 1.0;
-            return f * f * f + 1.0;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function elasticInOut(t) {
-            return t < 0.5 ?
-                0.5 * Math.sin(((+13.0 * Math.PI) / 2) * 2.0 * t) * Math.pow(2.0, 10.0 * (2.0 * t - 1.0)) :
-                0.5 *
-                Math.sin(((-13.0 * Math.PI) / 2) * (2.0 * t - 1.0 + 1.0)) *
-                Math.pow(2.0, -10.0 * (2.0 * t - 1.0)) +
-                1.0;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function elasticIn(t) {
-            return Math.sin((13.0 * t * Math.PI) / 2) * Math.pow(2.0, 10.0 * (t - 1.0));
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function elasticOut(t) {
-            return Math.sin((-13.0 * (t + 1.0) * Math.PI) / 2) * Math.pow(2.0, -10.0 * t) + 1.0;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function expoInOut(t) {
-            return t === 0.0 || t === 1.0 ?
-                t :
-                t < 0.5 ?
-                +0.5 * Math.pow(2.0, 20.0 * t - 10.0) :
-                -0.5 * Math.pow(2.0, 10.0 - t * 20.0) + 1.0;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function expoIn(t) {
-            return t === 0.0 ? t : Math.pow(2.0, 10.0 * (t - 1.0));
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function expoOut(t) {
-            return t === 1.0 ? t : 1.0 - Math.pow(2.0, -10.0 * t);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quadInOut(t) {
-            t /= 0.5;
-            if (t < 1) return 0.5 * t * t;
-            t--;
-            return -0.5 * (t * (t - 2) - 1);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quadIn(t) {
-            return t * t;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quadOut(t) {
-            return -t * (t - 2.0);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quartInOut(t) {
-            return t < 0.5 ? +8.0 * Math.pow(t, 4.0) : -8.0 * Math.pow(t - 1.0, 4.0) + 1.0;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quartIn(t) {
-            return Math.pow(t, 4.0);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quartOut(t) {
-            return Math.pow(t - 1.0, 3.0) * (1.0 - t) + 1.0;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quintInOut(t) {
-            if ((t *= 2) < 1) return 0.5 * t * t * t * t * t;
-            return 0.5 * ((t -= 2) * t * t * t * t + 2);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quintIn(t) {
-            return t * t * t * t * t;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function quintOut(t) {
-            return --t * t * t * t * t + 1;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function sineInOut(t) {
-            return -0.5 * (Math.cos(Math.PI * t) - 1);
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function sineIn(t) {
-            const v = Math.cos(t * Math.PI * 0.5);
-            if (Math.abs(v) < 1e-14) return 1;
-            else return 1 - v;
-        }
-
-        /**
-         * https://svelte.dev/docs/svelte-easing
-         * @param {number} t
-         * @returns {number}
-         */
-        function sineOut(t) {
-            return Math.sin((t * Math.PI) / 2);
-        }
-
-        ; // CONCATENATED MODULE: ./node_modules/svelte/src/runtime/transition/index.js
-
-
-
-        /**
-         * Animates a `blur` filter alongside an element's opacity.
-         *
-         * https://svelte.dev/docs/svelte-transition#blur
-         * @param {Element} node
-         * @param {import('./public').BlurParams} [params]
-         * @returns {import('./public').TransitionConfig}
-         */
-        function transition_blur(
-            node, {
-                delay = 0,
-                duration = 400,
-                easing = easing_cubicInOut,
-                amount = 5,
-                opacity = 0
-            } = {}
-        ) {
-            const style = getComputedStyle(node);
-            const target_opacity = +style.opacity;
-            const f = style.filter === 'none' ? '' : style.filter;
-            const od = target_opacity * (1 - opacity);
-            const [value, unit] = split_css_unit(amount);
-            return {
-                delay,
-                duration,
-                easing,
-                css: (_t, u) => `opacity: ${target_opacity - od * u}; filter: ${f} blur(${u * value}${unit});`
-            };
-        }
-
-        /**
-         * Animates the opacity of an element from 0 to the current opacity for `in` transitions and from the current opacity to 0 for `out` transitions.
-         *
-         * https://svelte.dev/docs/svelte-transition#fade
-         * @param {Element} node
-         * @param {import('./public').FadeParams} [params]
-         * @returns {import('./public').TransitionConfig}
-         */
-        function fade(node, {
-            delay = 0,
-            duration = 400,
-            easing = identity
-        } = {}) {
-            const o = +getComputedStyle(node).opacity;
-            return {
-                delay,
-                duration,
-                easing,
-                css: (t) => `opacity: ${t * o}`
-            };
-        }
-
-        /**
-         * Animates the x and y positions and the opacity of an element. `in` transitions animate from the provided values, passed as parameters to the element's default values. `out` transitions animate from the element's default values to the provided values.
-         *
-         * https://svelte.dev/docs/svelte-transition#fly
-         * @param {Element} node
-         * @param {import('./public').FlyParams} [params]
-         * @returns {import('./public').TransitionConfig}
-         */
-        function fly(
-            node, {
-                delay = 0,
-                duration = 400,
-                easing = cubicOut,
-                x = 0,
-                y = 0,
-                opacity = 0
-            } = {}
-        ) {
-            const style = getComputedStyle(node);
-            const target_opacity = +style.opacity;
-            const transform = style.transform === 'none' ? '' : style.transform;
-            const od = target_opacity * (1 - opacity);
-            const [xValue, xUnit] = split_css_unit(x);
-            const [yValue, yUnit] = split_css_unit(y);
-            return {
-                delay,
-                duration,
-                easing,
-                css: (t, u) => `
-			transform: ${transform} translate(${(1 - t) * xValue}${xUnit}, ${(1 - t) * yValue}${yUnit});
-			opacity: ${target_opacity - od * u}`
-            };
-        }
-
-        /**
-         * Slides an element in and out.
-         *
-         * https://svelte.dev/docs/svelte-transition#slide
-         * @param {Element} node
-         * @param {import('./public').SlideParams} [params]
-         * @returns {import('./public').TransitionConfig}
-         */
-        function slide(node, {
-            delay = 0,
-            duration = 400,
-            easing = cubicOut,
-            axis = 'y'
-        } = {}) {
-            const style = getComputedStyle(node);
-            const opacity = +style.opacity;
-            const primary_property = axis === 'y' ? 'height' : 'width';
-            const primary_property_value = parseFloat(style[primary_property]);
-            const secondary_properties = axis === 'y' ? ['top', 'bottom'] : ['left', 'right'];
-            const capitalized_secondary_properties = secondary_properties.map(
-                (e) => `${e[0].toUpperCase()}${e.slice(1)}`
-            );
-            const padding_start_value = parseFloat(style[`padding${capitalized_secondary_properties[0]}`]);
-            const padding_end_value = parseFloat(style[`padding${capitalized_secondary_properties[1]}`]);
-            const margin_start_value = parseFloat(style[`margin${capitalized_secondary_properties[0]}`]);
-            const margin_end_value = parseFloat(style[`margin${capitalized_secondary_properties[1]}`]);
-            const border_width_start_value = parseFloat(
-                style[`border${capitalized_secondary_properties[0]}Width`]
-            );
-            const border_width_end_value = parseFloat(
-                style[`border${capitalized_secondary_properties[1]}Width`]
-            );
-            return {
-                delay,
-                duration,
-                easing,
-                css: (t) =>
-                    'overflow: hidden;' +
-                    `opacity: ${Math.min(t * 20, 1) * opacity};` +
-                    `${primary_property}: ${t * primary_property_value}px;` +
-                    `padding-${secondary_properties[0]}: ${t * padding_start_value}px;` +
-                    `padding-${secondary_properties[1]}: ${t * padding_end_value}px;` +
-                    `margin-${secondary_properties[0]}: ${t * margin_start_value}px;` +
-                    `margin-${secondary_properties[1]}: ${t * margin_end_value}px;` +
-                    `border-${secondary_properties[0]}-width: ${t * border_width_start_value}px;` +
-                    `border-${secondary_properties[1]}-width: ${t * border_width_end_value}px;`
-            };
-        }
-
-        /**
-         * Animates the opacity and scale of an element. `in` transitions animate from an element's current (default) values to the provided values, passed as parameters. `out` transitions animate from the provided values to an element's default values.
-         *
-         * https://svelte.dev/docs/svelte-transition#scale
-         * @param {Element} node
-         * @param {import('./public').ScaleParams} [params]
-         * @returns {import('./public').TransitionConfig}
-         */
-        function scale(
-            node, {
-                delay = 0,
-                duration = 400,
-                easing = cubicOut,
-                start = 0,
-                opacity = 0
-            } = {}
-        ) {
-            const style = getComputedStyle(node);
-            const target_opacity = +style.opacity;
-            const transform = style.transform === 'none' ? '' : style.transform;
-            const sd = 1 - start;
-            const od = target_opacity * (1 - opacity);
-            return {
-                delay,
-                duration,
-                easing,
-                css: (_t, u) => `
-			transform: ${transform} scale(${1 - sd * u});
-			opacity: ${target_opacity - od * u}
-		`
-            };
-        }
-
-        /**
-         * Animates the stroke of an SVG element, like a snake in a tube. `in` transitions begin with the path invisible and draw the path to the screen over time. `out` transitions start in a visible state and gradually erase the path. `draw` only works with elements that have a `getTotalLength` method, like `<path>` and `<polyline>`.
-         *
-         * https://svelte.dev/docs/svelte-transition#draw
-         * @param {SVGElement & { getTotalLength(): number }} node
-         * @param {import('./public').DrawParams} [params]
-         * @returns {import('./public').TransitionConfig}
-         */
-        function draw(node, {
-            delay = 0,
-            speed,
-            duration,
-            easing = cubicInOut
-        } = {}) {
-            let len = node.getTotalLength();
-            const style = getComputedStyle(node);
-            if (style.strokeLinecap !== 'butt') {
-                len += parseInt(style.strokeWidth);
-            }
-            if (duration === undefined) {
-                if (speed === undefined) {
-                    duration = 800;
-                } else {
-                    duration = len / speed;
-                }
-            } else if (typeof duration === 'function') {
-                duration = duration(len);
-            }
-            return {
-                delay,
-                duration,
-                easing,
-                css: (_, u) => `
-			stroke-dasharray: ${len};
-			stroke-dashoffset: ${u * len};
-		`
-            };
-        }
-
-        /**
-         * The `crossfade` function creates a pair of [transitions](/docs#template-syntax-element-directives-transition-fn) called `send` and `receive`. When an element is 'sent', it looks for a corresponding element being 'received', and generates a transition that transforms the element to its counterpart's position and fades it out. When an element is 'received', the reverse happens. If there is no counterpart, the `fallback` transition is used.
-         *
-         * https://svelte.dev/docs/svelte-transition#crossfade
-         * @param {import('./public').CrossfadeParams & {
-         * 	fallback?: (node: Element, params: import('./public').CrossfadeParams, intro: boolean) => import('./public').TransitionConfig;
-         * }} params
-         * @returns {[(node: any, params: import('./public').CrossfadeParams & { key: any; }) => () => import('./public').TransitionConfig, (node: any, params: import('./public').CrossfadeParams & { key: any; }) => () => import('./public').TransitionConfig]}
-         */
-        function crossfade({
-            fallback,
-            ...defaults
-        }) {
-            /** @type {Map<any, Element>} */
-            const to_receive = new Map();
-            /** @type {Map<any, Element>} */
-            const to_send = new Map();
-            /**
-             * @param {Element} from_node
-             * @param {Element} node
-             * @param {import('./public').CrossfadeParams} params
-             * @returns {import('./public').TransitionConfig}
-             */
-            function crossfade(from_node, node, params) {
-                const {
-                    delay = 0,
-                        duration = (d) => Math.sqrt(d) * 30,
-                        easing = cubicOut
-                } = utils_assign(utils_assign({}, defaults), params);
-                const from = from_node.getBoundingClientRect();
-                const to = node.getBoundingClientRect();
-                const dx = from.left - to.left;
-                const dy = from.top - to.top;
-                const dw = from.width / to.width;
-                const dh = from.height / to.height;
-                const d = Math.sqrt(dx * dx + dy * dy);
-                const style = getComputedStyle(node);
-                const transform = style.transform === 'none' ? '' : style.transform;
-                const opacity = +style.opacity;
-                return {
-                    delay,
-                    duration: utils_is_function(duration) ? duration(d) : duration,
-                    easing,
-                    css: (t, u) => `
-				opacity: ${t * opacity};
-				transform-origin: top left;
-				transform: ${transform} translate(${u * dx}px,${u * dy}px) scale(${t + (1 - t) * dw}, ${
-				t + (1 - t) * dh
-			});
-			`
-                };
-            }
-
-            /**
-             * @param {Map<any, Element>} items
-             * @param {Map<any, Element>} counterparts
-             * @param {boolean} intro
-             * @returns {(node: any, params: import('./public').CrossfadeParams & { key: any; }) => () => import('./public').TransitionConfig}
-             */
-            function transition(items, counterparts, intro) {
-                return (node, params) => {
-                    items.set(params.key, node);
-                    return () => {
-                        if (counterparts.has(params.key)) {
-                            const other_node = counterparts.get(params.key);
-                            counterparts.delete(params.key);
-                            return crossfade(other_node, node, params);
-                        }
-                        // if the node is disappearing altogether
-                        // (i.e. wasn't claimed by the other list)
-                        // then we need to supply an outro
-                        items.delete(params.key);
-                        return fallback && fallback(node, params, intro);
-                    };
-                };
-            }
-            return [transition(to_send, to_receive, false), transition(to_receive, to_send, true)];
-        }
-
         ; // CONCATENATED MODULE: ./src/utils/cef-events.js
         function _toConsumableArray(r) {
             return _arrayWithoutHoles(r) || _iterableToArray(r) || _unsupportedIterableToArray(r) || _nonIterableSpread();
@@ -51327,7 +50726,6 @@
             1: 'https://reserve-server-api.arizona.games'
         });
         var CDN_URLS = [CDN_CONFIG[CDN_CHANNEL_TYPES.CDN_CHANNEL_RESOURCES][0], CDN_CONFIG[CDN_CHANNEL_TYPES.CDN_CHANNEL_SOUNDS][0], CDN_CONFIG[CDN_CHANNEL_TYPES.CDN_CHANNEL_SERVER_API][0]];
-        var CDN_URL_DOMAIN = CDN_URLS[CDN_CHANNEL_TYPES.CDN_CHANNEL_RESOURCES];
         var CDN_URL = CDN_URLS[CDN_CHANNEL_TYPES.CDN_CHANNEL_RESOURCES] + CDN_URL_PROJECT;
         var CDN_SOUNDS_URL = CDN_URLS[CDN_CHANNEL_TYPES.CDN_CHANNEL_SOUNDS];
         var SERVER_API_URL = CDN_URLS[CDN_CHANNEL_TYPES.CDN_CHANNEL_SERVER_API];
@@ -51341,7 +50739,6 @@
                 switch (channelType) {
                     case CDN_CHANNEL_TYPES.CDN_CHANNEL_RESOURCES:
                         CDN_URL = url + CDN_URL_PROJECT;
-                        CDN_URL_DOMAIN = url;
                         break;
                     case CDN_CHANNEL_TYPES.CDN_CHANNEL_SOUNDS:
                         CDN_SOUNDS_URL = url;
@@ -124021,314 +123418,7 @@
         }
 
         /* harmony default export */
-        const action_button_index_svelte = (Action_button);; // CONCATENATED MODULE: ./src/shared/loader/index.svelte
-        /* src\shared\loader\index.svelte generated by Svelte v4.2.8 */
-
-
-
-
-
-        function loader_index_svelte_create_fragment(ctx) {
-            let div;
-            let div_class_value;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    dom_attr(div, "class", div_class_value = "loader loader--" + /*style*/ ctx[0]);
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                },
-                p(ctx, [dirty]) {
-                    if (dirty & /*style*/ 1 && div_class_value !== (div_class_value = "loader loader--" + /*style*/ ctx[0])) {
-                        dom_attr(div, "class", div_class_value);
-                    }
-                },
-                i: utils_noop,
-                o: utils_noop,
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
-        function loader_index_svelte_instance($$self, $$props, $$invalidate) {
-            let {
-                style = ''
-            } = $$props;
-
-            $$self.$$set = $$props => {
-                if ('style' in $$props) $$invalidate(0, style = $$props.style);
-            };
-
-            return [style];
-        }
-
-        class Loader extends Component_SvelteComponent {
-            constructor(options) {
-                super();
-                Component_init(this, options, loader_index_svelte_instance, loader_index_svelte_create_fragment, utils_safe_not_equal, {
-                    style: 0
-                });
-            }
-        }
-
-        /* harmony default export */
-        const loader_index_svelte = (Loader);; // CONCATENATED MODULE: ./src/components/imageWithFallback/index.svelte
-        /* src\components\imageWithFallback\index.svelte generated by Svelte v4.2.8 */
-
-
-
-
-
-
-        function index_svelte_create_if_block(ctx) {
-            let div;
-            let loader;
-            let current;
-            loader = new loader_index_svelte({
-                props: {
-                    style: 'fade'
-                }
-            });
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    create_component(loader.$$.fragment);
-                    dom_attr(div, "class", "image-with-fallback__loader-wrapper");
-                    set_style(div, "width", "50%");
-                    set_style(div, "height", "50%");
-                    set_style(div, "display", "flex");
-                    set_style(div, "align-items", "center");
-                    set_style(div, "justify-content", "center");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    mount_component(loader, div, null);
-                    current = true;
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(loader.$$.fragment, local);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(loader.$$.fragment, local);
-                    current = false;
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-
-                    destroy_component(loader);
-                }
-            };
-        }
-
-        function imageWithFallback_index_svelte_create_fragment(ctx) {
-            let t;
-            let img;
-            let img_style_value;
-            let img_src_value;
-            let current;
-            let mounted;
-            let dispose;
-            let if_block = /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] && index_svelte_create_if_block(ctx);
-
-            let img_levels = [{
-                    style: img_style_value = "width: 100%; height: 100%; display: " + ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] ?
-                        'none' :
-                        '') + ";"
-                },
-                {
-                    src: img_src_value = /*currentSrc*/ ctx[2]
-                },
-                /*$$restProps*/
-                ctx[6],
-                {
-                    alt: /*alt*/ ctx[0]
-                }
-            ];
-
-            let img_data = {};
-
-            for (let i = 0; i < img_levels.length; i += 1) {
-                img_data = utils_assign(img_data, img_levels[i]);
-            }
-
-            return {
-                c() {
-                    if (if_block) if_block.c();
-                    t = dom_space();
-                    img = dom_element("img");
-                    set_attributes(img, img_data);
-                },
-                m(target, anchor) {
-                    if (if_block) if_block.m(target, anchor);
-                    dom_insert(target, t, anchor);
-                    dom_insert(target, img, anchor);
-                    current = true;
-
-                    if (!mounted) {
-                        dispose = [
-                            dom_listen(img, "error", /*handleError*/ ctx[4]),
-                            dom_listen(img, "load", /*handleLoad*/ ctx[5])
-                        ];
-
-                        mounted = true;
-                    }
-                },
-                p(ctx, [dirty]) {
-                    if ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3]) {
-                        if (if_block) {
-                            if (dirty & /*useLoader, loaderVisible*/ 10) {
-                                transitions_transition_in(if_block, 1);
-                            }
-                        } else {
-                            if_block = index_svelte_create_if_block(ctx);
-                            if_block.c();
-                            transitions_transition_in(if_block, 1);
-                            if_block.m(t.parentNode, t);
-                        }
-                    } else if (if_block) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block, 1, 1, () => {
-                            if_block = null;
-                        });
-
-                        transitions_check_outros();
-                    }
-
-                    set_attributes(img, img_data = get_spread_update(img_levels, [
-                        (!current || dirty & /*useLoader, loaderVisible*/ 10 && img_style_value !== (img_style_value = "width: 100%; height: 100%; display: " + ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] ?
-                            'none' :
-                            '') + ";")) && {
-                            style: img_style_value
-                        },
-                        (!current || dirty & /*currentSrc*/ 4 && !utils_src_url_equal(img.src, img_src_value = /*currentSrc*/ ctx[2])) && {
-                            src: img_src_value
-                        },
-                        dirty & /*$$restProps*/ 64 && /*$$restProps*/ ctx[6],
-                        (!current || dirty & /*alt*/ 1) && {
-                            alt: /*alt*/ ctx[0]
-                        }
-                    ]));
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    current = false;
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(t);
-                        dom_detach(img);
-                    }
-
-                    if (if_block) if_block.d(detaching);
-                    mounted = false;
-                    utils_run_all(dispose);
-                }
-            };
-        }
-
-        function imageWithFallback_index_svelte_instance($$self, $$props, $$invalidate) {
-            const omit_props_names = ["placeholderSrc", "src", "alt", "useLoader", "fallbackImageUrl"];
-            let $$restProps = compute_rest_props($$props, omit_props_names);
-            let {
-                placeholderSrc = ''
-            } = $$props;
-            let {
-                src = ''
-            } = $$props;
-            let {
-                alt = ''
-            } = $$props;
-            let {
-                useLoader = false
-            } = $$props;
-            let {
-                fallbackImageUrl = `${CDN_URL}/assets/images/inventory/vehicles/512/none.webp`
-            } = $$props;
-            let loaderVisible = true && useLoader;
-            let hasError = false;
-            let currentSrc = placeholderSrc || src;
-
-            const handleError = () => {
-                $$invalidate(2, currentSrc = fallbackImageUrl || placeholderSrc);
-                hasError = true;
-                $$invalidate(3, loaderVisible = false);
-            };
-
-            const handleLoad = () => {
-                if (hasError) {
-                    $$invalidate(2, currentSrc = fallbackImageUrl || placeholderSrc);
-                } else {
-                    $$invalidate(2, currentSrc = src);
-                }
-
-                $$invalidate(3, loaderVisible = false);
-            };
-
-            $$self.$$set = $$new_props => {
-                $$props = utils_assign(utils_assign({}, $$props), exclude_internal_props($$new_props));
-                $$invalidate(6, $$restProps = compute_rest_props($$props, omit_props_names));
-                if ('placeholderSrc' in $$new_props) $$invalidate(7, placeholderSrc = $$new_props.placeholderSrc);
-                if ('src' in $$new_props) $$invalidate(8, src = $$new_props.src);
-                if ('alt' in $$new_props) $$invalidate(0, alt = $$new_props.alt);
-                if ('useLoader' in $$new_props) $$invalidate(1, useLoader = $$new_props.useLoader);
-                if ('fallbackImageUrl' in $$new_props) $$invalidate(9, fallbackImageUrl = $$new_props.fallbackImageUrl);
-            };
-
-            $$self.$$.update = () => {
-                if ($$self.$$.dirty & /*src, currentSrc, fallbackImageUrl, placeholderSrc*/ 900) {
-                    $: if (src && src !== currentSrc && currentSrc !== fallbackImageUrl && currentSrc !== placeholderSrc) {
-                        $$invalidate(2, currentSrc = src);
-                    }
-                }
-            };
-
-            return [
-                alt,
-                useLoader,
-                currentSrc,
-                loaderVisible,
-                handleError,
-                handleLoad,
-                $$restProps,
-                placeholderSrc,
-                src,
-                fallbackImageUrl
-            ];
-        }
-
-        class ImageWithFallback extends Component_SvelteComponent {
-            constructor(options) {
-                super();
-
-                Component_init(this, options, imageWithFallback_index_svelte_instance, imageWithFallback_index_svelte_create_fragment, utils_safe_not_equal, {
-                    placeholderSrc: 7,
-                    src: 8,
-                    alt: 0,
-                    useLoader: 1,
-                    fallbackImageUrl: 9
-                });
-            }
-        }
-
-        /* harmony default export */
-        const imageWithFallback_index_svelte = (ImageWithFallback);; // CONCATENATED MODULE: ./src/modals/business-info/img/fallback.png
-        const fallback_namespaceObject = __webpack_require__.p + "assets/f155902ca3d67d9edb2f.webp";; // CONCATENATED MODULE: ./src/modals/business-info/index.svelte
+        const action_button_index_svelte = (Action_button);; // CONCATENATED MODULE: ./src/modals/business-info/index.svelte
         /* src\modals\business-info\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -124338,10 +123428,8 @@
 
 
 
-
-
         function add_css(target) {
-            append_styles(target, "svelte-1etpyvw", ".business-info.svelte-1etpyvw{position:fixed;height:fit-content;top:50%;transform:translateY(-45%);width:max(calc((360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((360 * var(--global-scale) * var(--global-scale) * 0.44 - (360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((65 * var(--global-scale) * var(--global-scale) - 65 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((65 * var(--global-scale) * var(--global-scale) * 0.44 - (65 * var(--global-scale) * var(--global-scale) - 65 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info.svelte-1etpyvw::before{content:\"\";top:0;right:0;position:absolute;height:100%;background:#20232F;z-index:-1;filter:blur(calc(0.0520833333 * 100vw + 0px));width:max(calc((500 * var(--global-scale) * var(--global-scale) - 500 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((500 * var(--global-scale) * var(--global-scale) * 0.44 - (500 * var(--global-scale) * var(--global-scale) - 500 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:min(calc((-130 * var(--global-scale) * var(--global-scale) - -130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-130 * var(--global-scale) * var(--global-scale) * 0.44 - (-130 * var(--global-scale) * var(--global-scale) - -130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.business-info__title.svelte-1etpyvw{font-family:\"GothamPro-Bold\";color:#FFFFFF;font-size:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__description.svelte-1etpyvw{font-family:\"GothamPro-Light\";color:#FFFFFF;width:max(calc((360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((360 * var(--global-scale) * var(--global-scale) * 0.44 - (360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__img-wrapper.svelte-1etpyvw{overflow:hidden;margin-top:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((356 * var(--global-scale) * var(--global-scale) - 356 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((356 * var(--global-scale) * var(--global-scale) * 0.44 - (356 * var(--global-scale) * var(--global-scale) - 356 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((200 * var(--global-scale) * var(--global-scale) * 0.44 - (200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info-wrapper.svelte-1etpyvw{margin-top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info.svelte-1etpyvw{display:flex;justify-content:space-between;width:max(calc((360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((360 * var(--global-scale) * var(--global-scale) * 0.44 - (360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info.svelte-1etpyvw:not(:first-child){margin-top:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info-title.svelte-1etpyvw{font-family:\"GothamPro-Light\";color:rgba(255, 255, 255, 0.8);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info-value.svelte-1etpyvw{font-family:\"GothamPro\";color:#FFFFFF;font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__buttons-wrapper.svelte-1etpyvw{display:flex;margin-top:max(calc((47 * var(--global-scale) * var(--global-scale) - 47 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((47 * var(--global-scale) * var(--global-scale) * 0.44 - (47 * var(--global-scale) * var(--global-scale) - 47 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__buttons.svelte-1etpyvw:not(:first-child){margin-left:max(calc((53 * var(--global-scale) * var(--global-scale) - 53 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((53 * var(--global-scale) * var(--global-scale) * 0.44 - (53 * var(--global-scale) * var(--global-scale) - 53 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+            append_styles(target, "svelte-1rti8y0", ".business-info.svelte-1rti8y0{position:fixed;height:fit-content;top:50%;transform:translateY(-45%);width:max(calc((360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((360 * var(--global-scale) * var(--global-scale) * 0.44 - (360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((65 * var(--global-scale) * var(--global-scale) - 65 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((65 * var(--global-scale) * var(--global-scale) * 0.44 - (65 * var(--global-scale) * var(--global-scale) - 65 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info.svelte-1rti8y0::before{content:\"\";top:0;right:0;position:absolute;height:100%;background:#20232F;z-index:-1;filter:blur(calc(0.0520833333 * 100vw + 0px));width:max(calc((500 * var(--global-scale) * var(--global-scale) - 500 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((500 * var(--global-scale) * var(--global-scale) * 0.44 - (500 * var(--global-scale) * var(--global-scale) - 500 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:min(calc((-130 * var(--global-scale) * var(--global-scale) - -130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-130 * var(--global-scale) * var(--global-scale) * 0.44 - (-130 * var(--global-scale) * var(--global-scale) - -130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.business-info__title.svelte-1rti8y0{font-family:\"GothamPro-Bold\";color:#FFFFFF;font-size:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__description.svelte-1rti8y0{font-family:\"GothamPro-Light\";color:#FFFFFF;width:max(calc((360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((360 * var(--global-scale) * var(--global-scale) * 0.44 - (360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__img.svelte-1rti8y0{margin-top:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((356 * var(--global-scale) * var(--global-scale) - 356 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((356 * var(--global-scale) * var(--global-scale) * 0.44 - (356 * var(--global-scale) * var(--global-scale) - 356 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info-wrapper.svelte-1rti8y0{margin-top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info.svelte-1rti8y0{display:flex;justify-content:space-between;width:max(calc((360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((360 * var(--global-scale) * var(--global-scale) * 0.44 - (360 * var(--global-scale) * var(--global-scale) - 360 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info.svelte-1rti8y0:not(:first-child){margin-top:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info-title.svelte-1rti8y0{font-family:\"GothamPro-Light\";color:rgba(255, 255, 255, 0.8);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__info-value.svelte-1rti8y0{font-family:\"GothamPro\";color:#FFFFFF;font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__buttons-wrapper.svelte-1rti8y0{display:flex;margin-top:max(calc((47 * var(--global-scale) * var(--global-scale) - 47 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((47 * var(--global-scale) * var(--global-scale) * 0.44 - (47 * var(--global-scale) * var(--global-scale) - 47 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.business-info__buttons.svelte-1rti8y0:not(:first-child){margin-left:max(calc((53 * var(--global-scale) * var(--global-scale) - 53 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((53 * var(--global-scale) * var(--global-scale) * 0.44 - (53 * var(--global-scale) * var(--global-scale) - 53 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
         }
 
         function get_each_context(ctx, list, i) {
@@ -124356,10 +123444,9 @@
             return child_ctx;
         }
 
-        // (97:4) {#if !isEmpty(businessInfo.img)}
+        // (92:4) {#if !isEmpty(businessInfo.img)}
         function index_svelte_create_if_block_2(ctx) {
             let if_block_anchor;
-            let current;
             let if_block = /*businessInfo*/ ctx[0].img && index_svelte_create_if_block_3(ctx);
 
             return {
@@ -124370,40 +123457,20 @@
                 m(target, anchor) {
                     if (if_block) if_block.m(target, anchor);
                     dom_insert(target, if_block_anchor, anchor);
-                    current = true;
                 },
                 p(ctx, dirty) {
                     if ( /*businessInfo*/ ctx[0].img) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
-
-                            if (dirty & /*businessInfo*/ 1) {
-                                transitions_transition_in(if_block, 1);
-                            }
                         } else {
                             if_block = index_svelte_create_if_block_3(ctx);
                             if_block.c();
-                            transitions_transition_in(if_block, 1);
                             if_block.m(if_block_anchor.parentNode, if_block_anchor);
                         }
                     } else if (if_block) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block, 1, 1, () => {
-                            if_block = null;
-                        });
-
-                        transitions_check_outros();
+                        if_block.d(1);
+                        if_block = null;
                     }
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    current = false;
                 },
                 d(detaching) {
                     if (detaching) {
@@ -124415,58 +123482,35 @@
             };
         }
 
-        // (98:8) {#if businessInfo.img}
+        // (93:8) {#if businessInfo.img}
         function index_svelte_create_if_block_3(ctx) {
-            let div;
-            let imagewithfallback;
-            let current;
-
-            imagewithfallback = new imageWithFallback_index_svelte({
-                props: {
-                    fallbackImageUrl: fallback_namespaceObject,
-                    placeholderSrc: fallback_namespaceObject,
-                    src: `${CDN_URL}/systems/image_business_temp/${/*businessInfo*/ ctx[0].img}.webp`,
-                    alt: "business-img",
-                    class: "business-info__img"
-                }
-            });
+            let img;
+            let img_src_value;
 
             return {
                 c() {
-                    div = dom_element("div");
-                    create_component(imagewithfallback.$$.fragment);
-                    dom_attr(div, "class", "business-info__img-wrapper svelte-1etpyvw");
+                    img = dom_element("img");
+                    dom_attr(img, "class", "business-info__img svelte-1rti8y0");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/image_business_temp/${/*businessInfo*/ ctx[0].img}.webp`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "business-img");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    mount_component(imagewithfallback, div, null);
-                    current = true;
+                    dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    const imagewithfallback_changes = {};
-                    if (dirty & /*businessInfo*/ 1) imagewithfallback_changes.src = `${CDN_URL}/systems/image_business_temp/${/*businessInfo*/ ctx[0].img}.webp`;
-                    imagewithfallback.$set(imagewithfallback_changes);
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(imagewithfallback.$$.fragment, local);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(imagewithfallback.$$.fragment, local);
-                    current = false;
+                    if (dirty & /*businessInfo*/ 1 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/systems/image_business_temp/${/*businessInfo*/ ctx[0].img}.webp`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div);
+                        dom_detach(img);
                     }
-
-                    destroy_component(imagewithfallback);
                 }
             };
         }
 
-        // (110:4) {#if !isEmpty(businessInfo.info)}
+        // (100:4) {#if !isEmpty(businessInfo.info)}
         function index_svelte_create_if_block_1(ctx) {
             let div;
             let each_value_1 = each_ensure_array_like( /*businessInfo*/ ctx[0].info);
@@ -124484,7 +123528,7 @@
                         each_blocks[i].c();
                     }
 
-                    dom_attr(div, "class", "business-info__info-wrapper svelte-1etpyvw");
+                    dom_attr(div, "class", "business-info__info-wrapper svelte-1rti8y0");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -124529,7 +123573,7 @@
             };
         }
 
-        // (112:12) {#each businessInfo.info as info}
+        // (102:12) {#each businessInfo.info as info}
         function create_each_block_1(ctx) {
             let div;
             let p0;
@@ -124550,9 +123594,9 @@
                     p1 = dom_element("p");
                     t2 = dom_text(t2_value);
                     t3 = dom_space();
-                    dom_attr(p0, "class", "business-info__info-title svelte-1etpyvw");
-                    dom_attr(p1, "class", "business-info__info-value svelte-1etpyvw");
-                    dom_attr(div, "class", "business-info__info svelte-1etpyvw");
+                    dom_attr(p0, "class", "business-info__info-title svelte-1rti8y0");
+                    dom_attr(p1, "class", "business-info__info-value svelte-1rti8y0");
+                    dom_attr(div, "class", "business-info__info svelte-1rti8y0");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -124575,8 +123619,8 @@
             };
         }
 
-        // (124:4) {#if !isEmpty(businessInfo.buttons)}
-        function business_info_index_svelte_create_if_block(ctx) {
+        // (114:4) {#if !isEmpty(businessInfo.buttons)}
+        function index_svelte_create_if_block(ctx) {
             let div;
             let current;
             let each_value = each_ensure_array_like( /*businessInfo*/ ctx[0].buttons);
@@ -124598,7 +123642,7 @@
                         each_blocks[i].c();
                     }
 
-                    dom_attr(div, "class", "business-info__buttons-wrapper svelte-1etpyvw");
+                    dom_attr(div, "class", "business-info__buttons-wrapper svelte-1rti8y0");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -124667,7 +123711,7 @@
             };
         }
 
-        // (126:12) {#each businessInfo.buttons as button}
+        // (116:12) {#each businessInfo.buttons as button}
         function create_each_block(ctx) {
             let div;
             let actionbutton;
@@ -124692,7 +123736,7 @@
                     div = dom_element("div");
                     create_component(actionbutton.$$.fragment);
                     t = dom_space();
-                    dom_attr(div, "class", "business-info__buttons svelte-1etpyvw");
+                    dom_attr(div, "class", "business-info__buttons svelte-1rti8y0");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -124746,7 +123790,7 @@
             let current;
             let if_block0 = show_if_2 && index_svelte_create_if_block_2(ctx);
             let if_block1 = show_if_1 && index_svelte_create_if_block_1(ctx);
-            let if_block2 = show_if && business_info_index_svelte_create_if_block(ctx);
+            let if_block2 = show_if && index_svelte_create_if_block(ctx);
 
             return {
                 c() {
@@ -124762,9 +123806,9 @@
                     if (if_block1) if_block1.c();
                     t5 = dom_space();
                     if (if_block2) if_block2.c();
-                    dom_attr(p0, "class", "business-info__title svelte-1etpyvw");
-                    dom_attr(p1, "class", "business-info__description svelte-1etpyvw");
-                    dom_attr(div, "class", "business-info svelte-1etpyvw");
+                    dom_attr(p0, "class", "business-info__title svelte-1rti8y0");
+                    dom_attr(p1, "class", "business-info__description svelte-1rti8y0");
+                    dom_attr(div, "class", "business-info svelte-1rti8y0");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -124789,24 +123833,14 @@
                     if (show_if_2) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
-
-                            if (dirty & /*businessInfo*/ 1) {
-                                transitions_transition_in(if_block0, 1);
-                            }
                         } else {
                             if_block0 = index_svelte_create_if_block_2(ctx);
                             if_block0.c();
-                            transitions_transition_in(if_block0, 1);
                             if_block0.m(div, t4);
                         }
                     } else if (if_block0) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block0, 1, 1, () => {
-                            if_block0 = null;
-                        });
-
-                        transitions_check_outros();
+                        if_block0.d(1);
+                        if_block0 = null;
                     }
 
                     if (dirty & /*businessInfo*/ 1) show_if_1 = !(0, lodash.isEmpty)( /*businessInfo*/ ctx[0].info);
@@ -124834,7 +123868,7 @@
                                 transitions_transition_in(if_block2, 1);
                             }
                         } else {
-                            if_block2 = business_info_index_svelte_create_if_block(ctx);
+                            if_block2 = index_svelte_create_if_block(ctx);
                             if_block2.c();
                             transitions_transition_in(if_block2, 1);
                             if_block2.m(div, null);
@@ -124851,12 +123885,10 @@
                 },
                 i(local) {
                     if (current) return;
-                    transitions_transition_in(if_block0);
                     transitions_transition_in(if_block2);
                     current = true;
                 },
                 o(local) {
-                    transitions_transition_out(if_block0);
                     transitions_transition_out(if_block2);
                     current = false;
                 },
@@ -124900,7 +123932,608 @@
         }
 
         /* harmony default export */
-        const business_info_index_svelte = (Business_info);; // CONCATENATED MODULE: ./src/modals/interaction-sidebar/index.svelte
+        const business_info_index_svelte = (Business_info);; // CONCATENATED MODULE: ./node_modules/svelte/src/runtime/easing/index.js
+        /*
+        Adapted from https://github.com/mattdesl
+        Distributed under MIT License https://github.com/mattdesl/eases/blob/master/LICENSE.md
+        */
+
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function backInOut(t) {
+            const s = 1.70158 * 1.525;
+            if ((t *= 2) < 1) return 0.5 * (t * t * ((s + 1) * t - s));
+            return 0.5 * ((t -= 2) * t * ((s + 1) * t + s) + 2);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function backIn(t) {
+            const s = 1.70158;
+            return t * t * ((s + 1) * t - s);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function backOut(t) {
+            const s = 1.70158;
+            return --t * t * ((s + 1) * t + s) + 1;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function bounceOut(t) {
+            const a = 4.0 / 11.0;
+            const b = 8.0 / 11.0;
+            const c = 9.0 / 10.0;
+            const ca = 4356.0 / 361.0;
+            const cb = 35442.0 / 1805.0;
+            const cc = 16061.0 / 1805.0;
+            const t2 = t * t;
+            return t < a ?
+                7.5625 * t2 :
+                t < b ?
+                9.075 * t2 - 9.9 * t + 3.4 :
+                t < c ?
+                ca * t2 - cb * t + cc :
+                10.8 * t * t - 20.52 * t + 10.72;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function bounceInOut(t) {
+            return t < 0.5 ? 0.5 * (1.0 - bounceOut(1.0 - t * 2.0)) : 0.5 * bounceOut(t * 2.0 - 1.0) + 0.5;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function bounceIn(t) {
+            return 1.0 - bounceOut(1.0 - t);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function circInOut(t) {
+            if ((t *= 2) < 1) return -0.5 * (Math.sqrt(1 - t * t) - 1);
+            return 0.5 * (Math.sqrt(1 - (t -= 2) * t) + 1);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function circIn(t) {
+            return 1.0 - Math.sqrt(1.0 - t * t);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function circOut(t) {
+            return Math.sqrt(1 - --t * t);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function easing_cubicInOut(t) {
+            return t < 0.5 ? 4.0 * t * t * t : 0.5 * Math.pow(2.0 * t - 2.0, 3.0) + 1.0;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function cubicIn(t) {
+            return t * t * t;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function cubicOut(t) {
+            const f = t - 1.0;
+            return f * f * f + 1.0;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function elasticInOut(t) {
+            return t < 0.5 ?
+                0.5 * Math.sin(((+13.0 * Math.PI) / 2) * 2.0 * t) * Math.pow(2.0, 10.0 * (2.0 * t - 1.0)) :
+                0.5 *
+                Math.sin(((-13.0 * Math.PI) / 2) * (2.0 * t - 1.0 + 1.0)) *
+                Math.pow(2.0, -10.0 * (2.0 * t - 1.0)) +
+                1.0;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function elasticIn(t) {
+            return Math.sin((13.0 * t * Math.PI) / 2) * Math.pow(2.0, 10.0 * (t - 1.0));
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function elasticOut(t) {
+            return Math.sin((-13.0 * (t + 1.0) * Math.PI) / 2) * Math.pow(2.0, -10.0 * t) + 1.0;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function expoInOut(t) {
+            return t === 0.0 || t === 1.0 ?
+                t :
+                t < 0.5 ?
+                +0.5 * Math.pow(2.0, 20.0 * t - 10.0) :
+                -0.5 * Math.pow(2.0, 10.0 - t * 20.0) + 1.0;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function expoIn(t) {
+            return t === 0.0 ? t : Math.pow(2.0, 10.0 * (t - 1.0));
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function expoOut(t) {
+            return t === 1.0 ? t : 1.0 - Math.pow(2.0, -10.0 * t);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quadInOut(t) {
+            t /= 0.5;
+            if (t < 1) return 0.5 * t * t;
+            t--;
+            return -0.5 * (t * (t - 2) - 1);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quadIn(t) {
+            return t * t;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quadOut(t) {
+            return -t * (t - 2.0);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quartInOut(t) {
+            return t < 0.5 ? +8.0 * Math.pow(t, 4.0) : -8.0 * Math.pow(t - 1.0, 4.0) + 1.0;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quartIn(t) {
+            return Math.pow(t, 4.0);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quartOut(t) {
+            return Math.pow(t - 1.0, 3.0) * (1.0 - t) + 1.0;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quintInOut(t) {
+            if ((t *= 2) < 1) return 0.5 * t * t * t * t * t;
+            return 0.5 * ((t -= 2) * t * t * t * t + 2);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quintIn(t) {
+            return t * t * t * t * t;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function quintOut(t) {
+            return --t * t * t * t * t + 1;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function sineInOut(t) {
+            return -0.5 * (Math.cos(Math.PI * t) - 1);
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function sineIn(t) {
+            const v = Math.cos(t * Math.PI * 0.5);
+            if (Math.abs(v) < 1e-14) return 1;
+            else return 1 - v;
+        }
+
+        /**
+         * https://svelte.dev/docs/svelte-easing
+         * @param {number} t
+         * @returns {number}
+         */
+        function sineOut(t) {
+            return Math.sin((t * Math.PI) / 2);
+        }
+
+        ; // CONCATENATED MODULE: ./node_modules/svelte/src/runtime/transition/index.js
+
+
+
+        /**
+         * Animates a `blur` filter alongside an element's opacity.
+         *
+         * https://svelte.dev/docs/svelte-transition#blur
+         * @param {Element} node
+         * @param {import('./public').BlurParams} [params]
+         * @returns {import('./public').TransitionConfig}
+         */
+        function transition_blur(
+            node, {
+                delay = 0,
+                duration = 400,
+                easing = easing_cubicInOut,
+                amount = 5,
+                opacity = 0
+            } = {}
+        ) {
+            const style = getComputedStyle(node);
+            const target_opacity = +style.opacity;
+            const f = style.filter === 'none' ? '' : style.filter;
+            const od = target_opacity * (1 - opacity);
+            const [value, unit] = split_css_unit(amount);
+            return {
+                delay,
+                duration,
+                easing,
+                css: (_t, u) => `opacity: ${target_opacity - od * u}; filter: ${f} blur(${u * value}${unit});`
+            };
+        }
+
+        /**
+         * Animates the opacity of an element from 0 to the current opacity for `in` transitions and from the current opacity to 0 for `out` transitions.
+         *
+         * https://svelte.dev/docs/svelte-transition#fade
+         * @param {Element} node
+         * @param {import('./public').FadeParams} [params]
+         * @returns {import('./public').TransitionConfig}
+         */
+        function fade(node, {
+            delay = 0,
+            duration = 400,
+            easing = identity
+        } = {}) {
+            const o = +getComputedStyle(node).opacity;
+            return {
+                delay,
+                duration,
+                easing,
+                css: (t) => `opacity: ${t * o}`
+            };
+        }
+
+        /**
+         * Animates the x and y positions and the opacity of an element. `in` transitions animate from the provided values, passed as parameters to the element's default values. `out` transitions animate from the element's default values to the provided values.
+         *
+         * https://svelte.dev/docs/svelte-transition#fly
+         * @param {Element} node
+         * @param {import('./public').FlyParams} [params]
+         * @returns {import('./public').TransitionConfig}
+         */
+        function fly(
+            node, {
+                delay = 0,
+                duration = 400,
+                easing = cubicOut,
+                x = 0,
+                y = 0,
+                opacity = 0
+            } = {}
+        ) {
+            const style = getComputedStyle(node);
+            const target_opacity = +style.opacity;
+            const transform = style.transform === 'none' ? '' : style.transform;
+            const od = target_opacity * (1 - opacity);
+            const [xValue, xUnit] = split_css_unit(x);
+            const [yValue, yUnit] = split_css_unit(y);
+            return {
+                delay,
+                duration,
+                easing,
+                css: (t, u) => `
+			transform: ${transform} translate(${(1 - t) * xValue}${xUnit}, ${(1 - t) * yValue}${yUnit});
+			opacity: ${target_opacity - od * u}`
+            };
+        }
+
+        /**
+         * Slides an element in and out.
+         *
+         * https://svelte.dev/docs/svelte-transition#slide
+         * @param {Element} node
+         * @param {import('./public').SlideParams} [params]
+         * @returns {import('./public').TransitionConfig}
+         */
+        function slide(node, {
+            delay = 0,
+            duration = 400,
+            easing = cubicOut,
+            axis = 'y'
+        } = {}) {
+            const style = getComputedStyle(node);
+            const opacity = +style.opacity;
+            const primary_property = axis === 'y' ? 'height' : 'width';
+            const primary_property_value = parseFloat(style[primary_property]);
+            const secondary_properties = axis === 'y' ? ['top', 'bottom'] : ['left', 'right'];
+            const capitalized_secondary_properties = secondary_properties.map(
+                (e) => `${e[0].toUpperCase()}${e.slice(1)}`
+            );
+            const padding_start_value = parseFloat(style[`padding${capitalized_secondary_properties[0]}`]);
+            const padding_end_value = parseFloat(style[`padding${capitalized_secondary_properties[1]}`]);
+            const margin_start_value = parseFloat(style[`margin${capitalized_secondary_properties[0]}`]);
+            const margin_end_value = parseFloat(style[`margin${capitalized_secondary_properties[1]}`]);
+            const border_width_start_value = parseFloat(
+                style[`border${capitalized_secondary_properties[0]}Width`]
+            );
+            const border_width_end_value = parseFloat(
+                style[`border${capitalized_secondary_properties[1]}Width`]
+            );
+            return {
+                delay,
+                duration,
+                easing,
+                css: (t) =>
+                    'overflow: hidden;' +
+                    `opacity: ${Math.min(t * 20, 1) * opacity};` +
+                    `${primary_property}: ${t * primary_property_value}px;` +
+                    `padding-${secondary_properties[0]}: ${t * padding_start_value}px;` +
+                    `padding-${secondary_properties[1]}: ${t * padding_end_value}px;` +
+                    `margin-${secondary_properties[0]}: ${t * margin_start_value}px;` +
+                    `margin-${secondary_properties[1]}: ${t * margin_end_value}px;` +
+                    `border-${secondary_properties[0]}-width: ${t * border_width_start_value}px;` +
+                    `border-${secondary_properties[1]}-width: ${t * border_width_end_value}px;`
+            };
+        }
+
+        /**
+         * Animates the opacity and scale of an element. `in` transitions animate from an element's current (default) values to the provided values, passed as parameters. `out` transitions animate from the provided values to an element's default values.
+         *
+         * https://svelte.dev/docs/svelte-transition#scale
+         * @param {Element} node
+         * @param {import('./public').ScaleParams} [params]
+         * @returns {import('./public').TransitionConfig}
+         */
+        function scale(
+            node, {
+                delay = 0,
+                duration = 400,
+                easing = cubicOut,
+                start = 0,
+                opacity = 0
+            } = {}
+        ) {
+            const style = getComputedStyle(node);
+            const target_opacity = +style.opacity;
+            const transform = style.transform === 'none' ? '' : style.transform;
+            const sd = 1 - start;
+            const od = target_opacity * (1 - opacity);
+            return {
+                delay,
+                duration,
+                easing,
+                css: (_t, u) => `
+			transform: ${transform} scale(${1 - sd * u});
+			opacity: ${target_opacity - od * u}
+		`
+            };
+        }
+
+        /**
+         * Animates the stroke of an SVG element, like a snake in a tube. `in` transitions begin with the path invisible and draw the path to the screen over time. `out` transitions start in a visible state and gradually erase the path. `draw` only works with elements that have a `getTotalLength` method, like `<path>` and `<polyline>`.
+         *
+         * https://svelte.dev/docs/svelte-transition#draw
+         * @param {SVGElement & { getTotalLength(): number }} node
+         * @param {import('./public').DrawParams} [params]
+         * @returns {import('./public').TransitionConfig}
+         */
+        function draw(node, {
+            delay = 0,
+            speed,
+            duration,
+            easing = cubicInOut
+        } = {}) {
+            let len = node.getTotalLength();
+            const style = getComputedStyle(node);
+            if (style.strokeLinecap !== 'butt') {
+                len += parseInt(style.strokeWidth);
+            }
+            if (duration === undefined) {
+                if (speed === undefined) {
+                    duration = 800;
+                } else {
+                    duration = len / speed;
+                }
+            } else if (typeof duration === 'function') {
+                duration = duration(len);
+            }
+            return {
+                delay,
+                duration,
+                easing,
+                css: (_, u) => `
+			stroke-dasharray: ${len};
+			stroke-dashoffset: ${u * len};
+		`
+            };
+        }
+
+        /**
+         * The `crossfade` function creates a pair of [transitions](/docs#template-syntax-element-directives-transition-fn) called `send` and `receive`. When an element is 'sent', it looks for a corresponding element being 'received', and generates a transition that transforms the element to its counterpart's position and fades it out. When an element is 'received', the reverse happens. If there is no counterpart, the `fallback` transition is used.
+         *
+         * https://svelte.dev/docs/svelte-transition#crossfade
+         * @param {import('./public').CrossfadeParams & {
+         * 	fallback?: (node: Element, params: import('./public').CrossfadeParams, intro: boolean) => import('./public').TransitionConfig;
+         * }} params
+         * @returns {[(node: any, params: import('./public').CrossfadeParams & { key: any; }) => () => import('./public').TransitionConfig, (node: any, params: import('./public').CrossfadeParams & { key: any; }) => () => import('./public').TransitionConfig]}
+         */
+        function crossfade({
+            fallback,
+            ...defaults
+        }) {
+            /** @type {Map<any, Element>} */
+            const to_receive = new Map();
+            /** @type {Map<any, Element>} */
+            const to_send = new Map();
+            /**
+             * @param {Element} from_node
+             * @param {Element} node
+             * @param {import('./public').CrossfadeParams} params
+             * @returns {import('./public').TransitionConfig}
+             */
+            function crossfade(from_node, node, params) {
+                const {
+                    delay = 0,
+                        duration = (d) => Math.sqrt(d) * 30,
+                        easing = cubicOut
+                } = utils_assign(utils_assign({}, defaults), params);
+                const from = from_node.getBoundingClientRect();
+                const to = node.getBoundingClientRect();
+                const dx = from.left - to.left;
+                const dy = from.top - to.top;
+                const dw = from.width / to.width;
+                const dh = from.height / to.height;
+                const d = Math.sqrt(dx * dx + dy * dy);
+                const style = getComputedStyle(node);
+                const transform = style.transform === 'none' ? '' : style.transform;
+                const opacity = +style.opacity;
+                return {
+                    delay,
+                    duration: utils_is_function(duration) ? duration(d) : duration,
+                    easing,
+                    css: (t, u) => `
+				opacity: ${t * opacity};
+				transform-origin: top left;
+				transform: ${transform} translate(${u * dx}px,${u * dy}px) scale(${t + (1 - t) * dw}, ${
+				t + (1 - t) * dh
+			});
+			`
+                };
+            }
+
+            /**
+             * @param {Map<any, Element>} items
+             * @param {Map<any, Element>} counterparts
+             * @param {boolean} intro
+             * @returns {(node: any, params: import('./public').CrossfadeParams & { key: any; }) => () => import('./public').TransitionConfig}
+             */
+            function transition(items, counterparts, intro) {
+                return (node, params) => {
+                    items.set(params.key, node);
+                    return () => {
+                        if (counterparts.has(params.key)) {
+                            const other_node = counterparts.get(params.key);
+                            counterparts.delete(params.key);
+                            return crossfade(other_node, node, params);
+                        }
+                        // if the node is disappearing altogether
+                        // (i.e. wasn't claimed by the other list)
+                        // then we need to supply an outro
+                        items.delete(params.key);
+                        return fallback && fallback(node, params, intro);
+                    };
+                };
+            }
+            return [transition(to_send, to_receive, false), transition(to_receive, to_send, true)];
+        }
+
+        ; // CONCATENATED MODULE: ./src/modals/interaction-sidebar/index.svelte
         /* src\modals\interaction-sidebar\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -129566,7 +129199,63 @@
         }
 
         /* harmony default export */
-        const shared_action_button_index_svelte = (index_svelte_Action_button);; // CONCATENATED MODULE: ./src/modals/vehicle-menu/constants.js
+        const shared_action_button_index_svelte = (index_svelte_Action_button);; // CONCATENATED MODULE: ./src/shared/loader/index.svelte
+        /* src\shared\loader\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+        function loader_index_svelte_create_fragment(ctx) {
+            let div;
+            let div_class_value;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    dom_attr(div, "class", div_class_value = "loader loader--" + /*style*/ ctx[0]);
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                },
+                p(ctx, [dirty]) {
+                    if (dirty & /*style*/ 1 && div_class_value !== (div_class_value = "loader loader--" + /*style*/ ctx[0])) {
+                        dom_attr(div, "class", div_class_value);
+                    }
+                },
+                i: utils_noop,
+                o: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        function loader_index_svelte_instance($$self, $$props, $$invalidate) {
+            let {
+                style = ''
+            } = $$props;
+
+            $$self.$$set = $$props => {
+                if ('style' in $$props) $$invalidate(0, style = $$props.style);
+            };
+
+            return [style];
+        }
+
+        class Loader extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+                Component_init(this, options, loader_index_svelte_instance, loader_index_svelte_create_fragment, utils_safe_not_equal, {
+                    style: 0
+                });
+            }
+        }
+
+        /* harmony default export */
+        const loader_index_svelte = (Loader);; // CONCATENATED MODULE: ./src/modals/vehicle-menu/constants.js
         var _MAP_STATUS_TO_NAME;
 
         function vehicle_menu_constants_typeof(o) {
@@ -156932,7 +156621,7 @@
             return child_ctx;
         }
 
-        // (329:4) {:else}
+        // (327:4) {:else}
         function index_svelte_create_else_block_2(ctx) {
             let div;
             let loader;
@@ -156974,8 +156663,8 @@
             };
         }
 
-        // (322:29) 
-        function create_if_block_7(ctx) {
+        // (320:29) 
+        function quests_index_svelte_create_if_block_6(ctx) {
             let div2;
             let div0;
             let t1;
@@ -157056,8 +156745,8 @@
             let t9;
             let div9;
             let t11;
-            let div20;
-            let div19;
+            let div34;
+            let div33;
             let div15;
             let div11;
             let t12;
@@ -157067,7 +156756,7 @@
             let div13;
             let div12;
             let t15;
-            let show_if_1 = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[6]);
+            let show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[6]);
             let t16;
             let div18;
             let div16;
@@ -157075,26 +156764,70 @@
             let t17;
             let div17;
             let t18;
-            let show_if = !(0, lodash.isEmpty)( /*selectedQuest*/ ctx[3]);
+            let div32;
+            let div31;
+            let div19;
+            let t19_value = /*selectedQuest*/ ctx[3].title + "";
+            let t19;
+            let t20;
+            let div20;
+            let t21_value = /*selectedQuest*/ ctx[3].hint + "";
+            let t21;
+            let t22;
+            let div28;
+            let div25;
+            let div23;
+            let div21;
+            let t23_value = formatMoney(Math.min( /*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress)) + "";
+            let t23;
+            let t24;
+            let div22;
+            let t25;
+            let t26_value = formatMoney( /*selectedQuest*/ ctx[3].totalProgress) + "";
+            let t26;
+            let t27;
+            let div24;
+            let t28;
+            let div27;
+            let div26;
+            let t29;
+            let div29;
+            let t31;
+            let div30;
+            let t32;
             let current;
             let mounted;
             let dispose;
             let each_value_2 = each_ensure_array_like(Object.values(CATEGORIES));
-            let each_blocks_1 = [];
+            let each_blocks_2 = [];
 
             for (let i = 0; i < each_value_2.length; i += 1) {
-                each_blocks_1[i] = index_svelte_create_each_block_2(index_svelte_get_each_context_2(ctx, each_value_2, i));
+                each_blocks_2[i] = index_svelte_create_each_block_2(index_svelte_get_each_context_2(ctx, each_value_2, i));
             }
 
-            let if_block0 = show_if_1 && quests_index_svelte_create_if_block_6(ctx);
+            let if_block0 = show_if && quests_index_svelte_create_if_block_5(ctx);
             let each_value_1 = each_ensure_array_like( /*$quests*/ ctx[0][ /*selectedCategory*/ ctx[1]]);
-            let each_blocks = [];
+            let each_blocks_1 = [];
 
             for (let i = 0; i < each_value_1.length; i += 1) {
-                each_blocks[i] = quests_index_svelte_create_each_block_1(quests_index_svelte_get_each_context_1(ctx, each_value_1, i));
+                each_blocks_1[i] = quests_index_svelte_create_each_block_1(quests_index_svelte_get_each_context_1(ctx, each_value_1, i));
             }
 
-            let if_block1 = show_if && quests_index_svelte_create_if_block_1(ctx);
+            function select_block_type_2(ctx, dirty) {
+                if ( /*selectedQuest*/ ctx[3].currentProgress < /*selectedQuest*/ ctx[3].totalProgress) return quests_index_svelte_create_if_block_2;
+                return quests_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type_2(ctx, [-1, -1]);
+            let if_block1 = current_block_type(ctx);
+            let each_value = each_ensure_array_like( /*selectedQuest*/ ctx[3].rewards);
+            let each_blocks = [];
+
+            for (let i = 0; i < each_value.length; i += 1) {
+                each_blocks[i] = quests_index_svelte_create_each_block(quests_index_svelte_get_each_context(ctx, each_value, i));
+            }
+
+            let if_block2 = /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium && quests_index_svelte_create_if_block_1(ctx);
 
             return {
                 c() {
@@ -157122,13 +156855,13 @@
                     div9 = dom_element("div");
                     div9.textContent = "Купить уровень";
                     t11 = dom_space();
-                    div20 = dom_element("div");
-                    div19 = dom_element("div");
+                    div34 = dom_element("div");
+                    div33 = dom_element("div");
                     div15 = dom_element("div");
                     div11 = dom_element("div");
 
-                    for (let i = 0; i < each_blocks_1.length; i += 1) {
-                        each_blocks_1[i].c();
+                    for (let i = 0; i < each_blocks_2.length; i += 1) {
+                        each_blocks_2[i].c();
                     }
 
                     t12 = dom_space();
@@ -157146,12 +156879,46 @@
                     t17 = dom_space();
                     div17 = dom_element("div");
 
+                    for (let i = 0; i < each_blocks_1.length; i += 1) {
+                        each_blocks_1[i].c();
+                    }
+
+                    t18 = dom_space();
+                    div32 = dom_element("div");
+                    div31 = dom_element("div");
+                    div19 = dom_element("div");
+                    t19 = dom_text(t19_value);
+                    t20 = dom_space();
+                    div20 = dom_element("div");
+                    t21 = dom_text(t21_value);
+                    t22 = dom_space();
+                    div28 = dom_element("div");
+                    div25 = dom_element("div");
+                    div23 = dom_element("div");
+                    div21 = dom_element("div");
+                    t23 = dom_text(t23_value);
+                    t24 = dom_space();
+                    div22 = dom_element("div");
+                    t25 = dom_text(" / ");
+                    t26 = dom_text(t26_value);
+                    t27 = dom_space();
+                    div24 = dom_element("div");
+                    if_block1.c();
+                    t28 = dom_space();
+                    div27 = dom_element("div");
+                    div26 = dom_element("div");
+                    t29 = dom_space();
+                    div29 = dom_element("div");
+                    div29.textContent = "Награды:";
+                    t31 = dom_space();
+                    div30 = dom_element("div");
+
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
                     }
 
-                    t18 = dom_space();
-                    if (if_block1) if_block1.c();
+                    t32 = dom_space();
+                    if (if_block2) if_block2.c();
                     dom_attr(div0, "class", "battle-pass-quests__level-current-value");
                     dom_attr(div1, "class", "battle-pass-quests__level-current-caption");
                     dom_attr(div2, "class", "battle-pass-quests__level-current");
@@ -157176,8 +156943,28 @@
                     dom_attr(div16, "class", "battle-pass-quests__main-title");
                     dom_attr(div17, "class", "battle-pass-quests__quests");
                     dom_attr(div18, "class", "battle-pass-quests__quests-wrapper");
-                    dom_attr(div19, "class", "battle-pass-quests__main-wrapper");
-                    dom_attr(div20, "class", "battle-pass-quests__main");
+                    dom_attr(div19, "class", "battle-pass-quests__details-title");
+                    dom_attr(div20, "class", "battle-pass-quests__details-description");
+                    dom_toggle_class(div20, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    dom_attr(div21, "class", "battle-pass-quests__details-progress-current");
+                    dom_attr(div22, "class", "battle-pass-quests__details-progress-total");
+                    dom_attr(div23, "class", "battle-pass-quests__details-progress-count");
+                    dom_attr(div24, "class", "battle-pass-quests__details-progress-percents");
+                    dom_attr(div25, "class", "battle-pass-quests__details-progress-marks");
+                    dom_toggle_class(div25, "battle-pass-quests__details-progress-marks--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
+                    dom_attr(div26, "class", "battle-pass-quests__details-progress-bar battle-pass-quests__details-progress-bar--current");
+                    dom_toggle_class(div26, "battle-pass-quests__details-progress-bar--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
+                    dom_attr(div27, "class", "battle-pass-quests__details-progress-bar");
+                    set_style(div27, "--details-progress-percents", `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%`);
+                    dom_attr(div28, "class", "battle-pass-quests__details-progress-wrapper");
+                    dom_attr(div29, "class", "battle-pass-quests__rewards-caption");
+                    dom_attr(div30, "class", "battle-pass-quests__details-rewards");
+                    dom_attr(div31, "class", "battle-pass-quests__details-wrapper");
+                    dom_toggle_class(div31, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    dom_attr(div32, "class", "battle-pass-quests__details");
+                    dom_toggle_class(div32, "battle-pass-quests__details--premium", /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    dom_attr(div33, "class", "battle-pass-quests__main-wrapper");
+                    dom_attr(div34, "class", "battle-pass-quests__main");
                 },
                 m(target, anchor) {
                     dom_insert(target, div10, anchor);
@@ -157201,14 +156988,14 @@
                     dom_append(div10, t9);
                     dom_append(div10, div9);
                     dom_insert(target, t11, anchor);
-                    dom_insert(target, div20, anchor);
-                    dom_append(div20, div19);
-                    dom_append(div19, div15);
+                    dom_insert(target, div34, anchor);
+                    dom_append(div34, div33);
+                    dom_append(div33, div15);
                     dom_append(div15, div11);
 
-                    for (let i = 0; i < each_blocks_1.length; i += 1) {
-                        if (each_blocks_1[i]) {
-                            each_blocks_1[i].m(div11, null);
+                    for (let i = 0; i < each_blocks_2.length; i += 1) {
+                        if (each_blocks_2[i]) {
+                            each_blocks_2[i].m(div11, null);
                         }
                     }
 
@@ -157220,21 +157007,56 @@
                     dom_append(div13, div12);
                     dom_append(div13, t15);
                     if (if_block0) if_block0.m(div13, null);
-                    dom_append(div19, t16);
-                    dom_append(div19, div18);
+                    dom_append(div33, t16);
+                    dom_append(div33, div18);
                     dom_append(div18, div16);
                     div16.innerHTML = raw_value;
                     dom_append(div18, t17);
                     dom_append(div18, div17);
 
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        if (each_blocks[i]) {
-                            each_blocks[i].m(div17, null);
+                    for (let i = 0; i < each_blocks_1.length; i += 1) {
+                        if (each_blocks_1[i]) {
+                            each_blocks_1[i].m(div17, null);
                         }
                     }
 
-                    dom_append(div19, t18);
-                    if (if_block1) if_block1.m(div19, null);
+                    dom_append(div33, t18);
+                    dom_append(div33, div32);
+                    dom_append(div32, div31);
+                    dom_append(div31, div19);
+                    dom_append(div19, t19);
+                    dom_append(div31, t20);
+                    dom_append(div31, div20);
+                    dom_append(div20, t21);
+                    dom_append(div31, t22);
+                    dom_append(div31, div28);
+                    dom_append(div28, div25);
+                    dom_append(div25, div23);
+                    dom_append(div23, div21);
+                    dom_append(div21, t23);
+                    dom_append(div23, t24);
+                    dom_append(div23, div22);
+                    dom_append(div22, t25);
+                    dom_append(div22, t26);
+                    dom_append(div25, t27);
+                    dom_append(div25, div24);
+                    if_block1.m(div24, null);
+                    dom_append(div28, t28);
+                    dom_append(div28, div27);
+                    dom_append(div27, div26);
+                    dom_append(div31, t29);
+                    dom_append(div31, div29);
+                    dom_append(div31, t31);
+                    dom_append(div31, div30);
+
+                    for (let i = 0; i < each_blocks.length; i += 1) {
+                        if (each_blocks[i]) {
+                            each_blocks[i].m(div30, null);
+                        }
+                    }
+
+                    dom_append(div32, t32);
+                    if (if_block2) if_block2.m(div32, null);
                     current = true;
 
                     if (!mounted) {
@@ -157257,29 +157079,29 @@
                         for (i = 0; i < each_value_2.length; i += 1) {
                             const child_ctx = index_svelte_get_each_context_2(ctx, each_value_2, i);
 
-                            if (each_blocks_1[i]) {
-                                each_blocks_1[i].p(child_ctx, dirty);
+                            if (each_blocks_2[i]) {
+                                each_blocks_2[i].p(child_ctx, dirty);
                             } else {
-                                each_blocks_1[i] = index_svelte_create_each_block_2(child_ctx);
-                                each_blocks_1[i].c();
-                                each_blocks_1[i].m(div11, null);
+                                each_blocks_2[i] = index_svelte_create_each_block_2(child_ctx);
+                                each_blocks_2[i].c();
+                                each_blocks_2[i].m(div11, null);
                             }
                         }
 
-                        for (; i < each_blocks_1.length; i += 1) {
-                            each_blocks_1[i].d(1);
+                        for (; i < each_blocks_2.length; i += 1) {
+                            each_blocks_2[i].d(1);
                         }
 
-                        each_blocks_1.length = each_value_2.length;
+                        each_blocks_2.length = each_value_2.length;
                     }
 
-                    if (dirty[0] & /*$battlePassData*/ 64) show_if_1 = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[6]);
+                    if (dirty[0] & /*$battlePassData*/ 64) show_if = !(0, lodash.isEmpty)( /*$battlePassData*/ ctx[6]);
 
-                    if (show_if_1) {
+                    if (show_if) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = quests_index_svelte_create_if_block_6(ctx);
+                            if_block0 = quests_index_svelte_create_if_block_5(ctx);
                             if_block0.c();
                             if_block0.m(div13, null);
                         }
@@ -157297,12 +157119,69 @@
                         for (i = 0; i < each_value_1.length; i += 1) {
                             const child_ctx = quests_index_svelte_get_each_context_1(ctx, each_value_1, i);
 
+                            if (each_blocks_1[i]) {
+                                each_blocks_1[i].p(child_ctx, dirty);
+                            } else {
+                                each_blocks_1[i] = quests_index_svelte_create_each_block_1(child_ctx);
+                                each_blocks_1[i].c();
+                                each_blocks_1[i].m(div17, null);
+                            }
+                        }
+
+                        for (; i < each_blocks_1.length; i += 1) {
+                            each_blocks_1[i].d(1);
+                        }
+
+                        each_blocks_1.length = each_value_1.length;
+                    }
+
+                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t19_value !== (t19_value = /*selectedQuest*/ ctx[3].title + "")) dom_set_data(t19, t19_value);
+                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t21_value !== (t21_value = /*selectedQuest*/ ctx[3].hint + "")) dom_set_data(t21, t21_value);
+
+                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
+                        dom_toggle_class(div20, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    }
+
+                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t23_value !== (t23_value = formatMoney(Math.min( /*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress)) + "")) dom_set_data(t23, t23_value);
+                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t26_value !== (t26_value = formatMoney( /*selectedQuest*/ ctx[3].totalProgress) + "")) dom_set_data(t26, t26_value);
+
+                    if (current_block_type === (current_block_type = select_block_type_2(ctx, dirty)) && if_block1) {
+                        if_block1.p(ctx, dirty);
+                    } else {
+                        if_block1.d(1);
+                        if_block1 = current_block_type(ctx);
+
+                        if (if_block1) {
+                            if_block1.c();
+                            if_block1.m(div24, null);
+                        }
+                    }
+
+                    if (!current || dirty[0] & /*selectedQuest*/ 8) {
+                        dom_toggle_class(div25, "battle-pass-quests__details-progress-marks--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
+                    }
+
+                    if (!current || dirty[0] & /*selectedQuest*/ 8) {
+                        dom_toggle_class(div26, "battle-pass-quests__details-progress-bar--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
+                    }
+
+                    if (!current || dirty[0] & /*selectedQuest*/ 8) {
+                        set_style(div27, "--details-progress-percents", `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%`);
+                    }
+
+                    if (dirty[0] & /*selectedQuest*/ 8) {
+                        each_value = each_ensure_array_like( /*selectedQuest*/ ctx[3].rewards);
+                        let i;
+
+                        for (i = 0; i < each_value.length; i += 1) {
+                            const child_ctx = quests_index_svelte_get_each_context(ctx, each_value, i);
+
                             if (each_blocks[i]) {
                                 each_blocks[i].p(child_ctx, dirty);
                             } else {
-                                each_blocks[i] = quests_index_svelte_create_each_block_1(child_ctx);
+                                each_blocks[i] = quests_index_svelte_create_each_block(child_ctx);
                                 each_blocks[i].c();
-                                each_blocks[i].m(div17, null);
+                                each_blocks[i].m(div30, null);
                             }
                         }
 
@@ -157310,54 +157189,62 @@
                             each_blocks[i].d(1);
                         }
 
-                        each_blocks.length = each_value_1.length;
+                        each_blocks.length = each_value.length;
                     }
 
-                    if (dirty[0] & /*selectedQuest*/ 8) show_if = !(0, lodash.isEmpty)( /*selectedQuest*/ ctx[3]);
+                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
+                        dom_toggle_class(div31, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    }
 
-                    if (show_if) {
-                        if (if_block1) {
-                            if_block1.p(ctx, dirty);
+                    if ( /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium) {
+                        if (if_block2) {
+                            if_block2.p(ctx, dirty);
 
-                            if (dirty[0] & /*selectedQuest*/ 8) {
-                                transitions_transition_in(if_block1, 1);
+                            if (dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
+                                transitions_transition_in(if_block2, 1);
                             }
                         } else {
-                            if_block1 = quests_index_svelte_create_if_block_1(ctx);
-                            if_block1.c();
-                            transitions_transition_in(if_block1, 1);
-                            if_block1.m(div19, null);
+                            if_block2 = quests_index_svelte_create_if_block_1(ctx);
+                            if_block2.c();
+                            transitions_transition_in(if_block2, 1);
+                            if_block2.m(div32, null);
                         }
-                    } else if (if_block1) {
+                    } else if (if_block2) {
                         transitions_group_outros();
 
-                        transitions_transition_out(if_block1, 1, 1, () => {
-                            if_block1 = null;
+                        transitions_transition_out(if_block2, 1, 1, () => {
+                            if_block2 = null;
                         });
 
                         transitions_check_outros();
                     }
+
+                    if (!current || dirty[0] & /*selectedCategory*/ 2) {
+                        dom_toggle_class(div32, "battle-pass-quests__details--premium", /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
+                    }
                 },
                 i(local) {
                     if (current) return;
-                    transitions_transition_in(if_block1);
+                    transitions_transition_in(if_block2);
                     current = true;
                 },
                 o(local) {
-                    transitions_transition_out(if_block1);
+                    transitions_transition_out(if_block2);
                     current = false;
                 },
                 d(detaching) {
                     if (detaching) {
                         dom_detach(div10);
                         dom_detach(t11);
-                        dom_detach(div20);
+                        dom_detach(div34);
                     }
 
-                    destroy_each(each_blocks_1, detaching);
+                    destroy_each(each_blocks_2, detaching);
                     if (if_block0) if_block0.d();
+                    destroy_each(each_blocks_1, detaching);
+                    if_block1.d();
                     destroy_each(each_blocks, detaching);
-                    if (if_block1) if_block1.d();
+                    if (if_block2) if_block2.d();
                     mounted = false;
                     dispose();
                 }
@@ -157420,7 +157307,7 @@
         }
 
         // (205:28) {#if !isEmpty($battlePassData)}
-        function quests_index_svelte_create_if_block_6(ctx) {
+        function quests_index_svelte_create_if_block_5(ctx) {
             let div;
             let t_value = /*calculateDaysLeft*/ ctx[7]( /*$battlePassData*/ ctx[6].timestampMissionTime) + "";
             let t;
@@ -157447,7 +157334,7 @@
         }
 
         // (215:28) {#if quest.visible}
-        function quests_index_svelte_create_if_block_4(ctx) {
+        function quests_index_svelte_create_if_block_3(ctx) {
             let div14;
             let div10;
             let div0;
@@ -157488,7 +157375,7 @@
             let dispose;
 
             function select_block_type_1(ctx, dirty) {
-                if ( /*quest*/ ctx[29].currentProgress < /*quest*/ ctx[29].totalProgress) return quests_index_svelte_create_if_block_5;
+                if ( /*quest*/ ctx[29].currentProgress < /*quest*/ ctx[29].totalProgress) return quests_index_svelte_create_if_block_4;
                 return quests_index_svelte_create_else_block_1;
             }
 
@@ -157670,7 +157557,7 @@
         }
 
         // (236:52) {#if quest.currentProgress < quest.totalProgress}
-        function quests_index_svelte_create_if_block_5(ctx) {
+        function quests_index_svelte_create_if_block_4(ctx) {
             let t_value = `${Math.floor(countPercents(/*quest*/ ctx[29].currentProgress, /*quest*/ ctx[29].totalProgress))}%` + "";
             let t;
 
@@ -157695,7 +157582,7 @@
         // (214:24) {#each $quests[selectedCategory] as quest}
         function quests_index_svelte_create_each_block_1(ctx) {
             let if_block_anchor;
-            let if_block = /*quest*/ ctx[29].visible && quests_index_svelte_create_if_block_4(ctx);
+            let if_block = /*quest*/ ctx[29].visible && quests_index_svelte_create_if_block_3(ctx);
 
             return {
                 c() {
@@ -157711,7 +157598,7 @@
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
-                            if_block = quests_index_svelte_create_if_block_4(ctx);
+                            if_block = quests_index_svelte_create_if_block_3(ctx);
                             if_block.c();
                             if_block.m(if_block_anchor.parentNode, if_block_anchor);
                         }
@@ -157730,265 +157617,7 @@
             };
         }
 
-        // (259:16) {#if !isEmpty(selectedQuest)}
-        function quests_index_svelte_create_if_block_1(ctx) {
-            let div13;
-            let div12;
-            let div0;
-            let t0_value = /*selectedQuest*/ ctx[3].title + "";
-            let t0;
-            let t1;
-            let div1;
-            let t2_value = /*selectedQuest*/ ctx[3].hint + "";
-            let t2;
-            let t3;
-            let div9;
-            let div6;
-            let div4;
-            let div2;
-            let t4_value = formatMoney(Math.min( /*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress)) + "";
-            let t4;
-            let t5;
-            let div3;
-            let t6;
-            let t7_value = formatMoney( /*selectedQuest*/ ctx[3].totalProgress) + "";
-            let t7;
-            let t8;
-            let div5;
-            let t9;
-            let div8;
-            let div7;
-            let t10;
-            let div10;
-            let t12;
-            let div11;
-            let t13;
-            let current;
-
-            function select_block_type_2(ctx, dirty) {
-                if ( /*selectedQuest*/ ctx[3].currentProgress < /*selectedQuest*/ ctx[3].totalProgress) return quests_index_svelte_create_if_block_3;
-                return quests_index_svelte_create_else_block;
-            }
-
-            let current_block_type = select_block_type_2(ctx, [-1, -1]);
-            let if_block0 = current_block_type(ctx);
-            let each_value = each_ensure_array_like( /*selectedQuest*/ ctx[3].rewards);
-            let each_blocks = [];
-
-            for (let i = 0; i < each_value.length; i += 1) {
-                each_blocks[i] = quests_index_svelte_create_each_block(quests_index_svelte_get_each_context(ctx, each_value, i));
-            }
-
-            let if_block1 = /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium && quests_index_svelte_create_if_block_2(ctx);
-
-            return {
-                c() {
-                    div13 = dom_element("div");
-                    div12 = dom_element("div");
-                    div0 = dom_element("div");
-                    t0 = dom_text(t0_value);
-                    t1 = dom_space();
-                    div1 = dom_element("div");
-                    t2 = dom_text(t2_value);
-                    t3 = dom_space();
-                    div9 = dom_element("div");
-                    div6 = dom_element("div");
-                    div4 = dom_element("div");
-                    div2 = dom_element("div");
-                    t4 = dom_text(t4_value);
-                    t5 = dom_space();
-                    div3 = dom_element("div");
-                    t6 = dom_text(" / ");
-                    t7 = dom_text(t7_value);
-                    t8 = dom_space();
-                    div5 = dom_element("div");
-                    if_block0.c();
-                    t9 = dom_space();
-                    div8 = dom_element("div");
-                    div7 = dom_element("div");
-                    t10 = dom_space();
-                    div10 = dom_element("div");
-                    div10.textContent = "Награды:";
-                    t12 = dom_space();
-                    div11 = dom_element("div");
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        each_blocks[i].c();
-                    }
-
-                    t13 = dom_space();
-                    if (if_block1) if_block1.c();
-                    dom_attr(div0, "class", "battle-pass-quests__details-title");
-                    dom_attr(div1, "class", "battle-pass-quests__details-description");
-                    dom_toggle_class(div1, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
-                    dom_attr(div2, "class", "battle-pass-quests__details-progress-current");
-                    dom_attr(div3, "class", "battle-pass-quests__details-progress-total");
-                    dom_attr(div4, "class", "battle-pass-quests__details-progress-count");
-                    dom_attr(div5, "class", "battle-pass-quests__details-progress-percents");
-                    dom_attr(div6, "class", "battle-pass-quests__details-progress-marks");
-                    dom_toggle_class(div6, "battle-pass-quests__details-progress-marks--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
-                    dom_attr(div7, "class", "battle-pass-quests__details-progress-bar battle-pass-quests__details-progress-bar--current");
-                    dom_toggle_class(div7, "battle-pass-quests__details-progress-bar--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
-                    dom_attr(div8, "class", "battle-pass-quests__details-progress-bar");
-                    set_style(div8, "--details-progress-percents", `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%`);
-                    dom_attr(div9, "class", "battle-pass-quests__details-progress-wrapper");
-                    dom_attr(div10, "class", "battle-pass-quests__rewards-caption");
-                    dom_attr(div11, "class", "battle-pass-quests__details-rewards");
-                    dom_attr(div12, "class", "battle-pass-quests__details-wrapper");
-                    dom_toggle_class(div12, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
-                    dom_attr(div13, "class", "battle-pass-quests__details");
-                    dom_toggle_class(div13, "battle-pass-quests__details--premium", /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
-                },
-                m(target, anchor) {
-                    dom_insert(target, div13, anchor);
-                    dom_append(div13, div12);
-                    dom_append(div12, div0);
-                    dom_append(div0, t0);
-                    dom_append(div12, t1);
-                    dom_append(div12, div1);
-                    dom_append(div1, t2);
-                    dom_append(div12, t3);
-                    dom_append(div12, div9);
-                    dom_append(div9, div6);
-                    dom_append(div6, div4);
-                    dom_append(div4, div2);
-                    dom_append(div2, t4);
-                    dom_append(div4, t5);
-                    dom_append(div4, div3);
-                    dom_append(div3, t6);
-                    dom_append(div3, t7);
-                    dom_append(div6, t8);
-                    dom_append(div6, div5);
-                    if_block0.m(div5, null);
-                    dom_append(div9, t9);
-                    dom_append(div9, div8);
-                    dom_append(div8, div7);
-                    dom_append(div12, t10);
-                    dom_append(div12, div10);
-                    dom_append(div12, t12);
-                    dom_append(div12, div11);
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        if (each_blocks[i]) {
-                            each_blocks[i].m(div11, null);
-                        }
-                    }
-
-                    dom_append(div13, t13);
-                    if (if_block1) if_block1.m(div13, null);
-                    current = true;
-                },
-                p(ctx, dirty) {
-                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t0_value !== (t0_value = /*selectedQuest*/ ctx[3].title + "")) dom_set_data(t0, t0_value);
-                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t2_value !== (t2_value = /*selectedQuest*/ ctx[3].hint + "")) dom_set_data(t2, t2_value);
-
-                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
-                        dom_toggle_class(div1, "battle-pass-quests__details-description--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
-                    }
-
-                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t4_value !== (t4_value = formatMoney(Math.min( /*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress)) + "")) dom_set_data(t4, t4_value);
-                    if ((!current || dirty[0] & /*selectedQuest*/ 8) && t7_value !== (t7_value = formatMoney( /*selectedQuest*/ ctx[3].totalProgress) + "")) dom_set_data(t7, t7_value);
-
-                    if (current_block_type === (current_block_type = select_block_type_2(ctx, dirty)) && if_block0) {
-                        if_block0.p(ctx, dirty);
-                    } else {
-                        if_block0.d(1);
-                        if_block0 = current_block_type(ctx);
-
-                        if (if_block0) {
-                            if_block0.c();
-                            if_block0.m(div5, null);
-                        }
-                    }
-
-                    if (!current || dirty[0] & /*selectedQuest*/ 8) {
-                        dom_toggle_class(div6, "battle-pass-quests__details-progress-marks--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
-                    }
-
-                    if (!current || dirty[0] & /*selectedQuest*/ 8) {
-                        dom_toggle_class(div7, "battle-pass-quests__details-progress-bar--complete", /*selectedQuest*/ ctx[3].currentProgress >= /*selectedQuest*/ ctx[3].totalProgress);
-                    }
-
-                    if (!current || dirty[0] & /*selectedQuest*/ 8) {
-                        set_style(div8, "--details-progress-percents", `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%`);
-                    }
-
-                    if (dirty[0] & /*selectedQuest*/ 8) {
-                        each_value = each_ensure_array_like( /*selectedQuest*/ ctx[3].rewards);
-                        let i;
-
-                        for (i = 0; i < each_value.length; i += 1) {
-                            const child_ctx = quests_index_svelte_get_each_context(ctx, each_value, i);
-
-                            if (each_blocks[i]) {
-                                each_blocks[i].p(child_ctx, dirty);
-                            } else {
-                                each_blocks[i] = quests_index_svelte_create_each_block(child_ctx);
-                                each_blocks[i].c();
-                                each_blocks[i].m(div11, null);
-                            }
-                        }
-
-                        for (; i < each_blocks.length; i += 1) {
-                            each_blocks[i].d(1);
-                        }
-
-                        each_blocks.length = each_value.length;
-                    }
-
-                    if (!current || dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
-                        dom_toggle_class(div12, "battle-pass-quests__details-wrapper--locked", /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
-                    }
-
-                    if ( /*$battlePassData*/ ctx[6].premium === 0 && /*selectedCategory*/ ctx[1] === CATEGORIES.Premium) {
-                        if (if_block1) {
-                            if_block1.p(ctx, dirty);
-
-                            if (dirty[0] & /*$battlePassData, selectedCategory*/ 66) {
-                                transitions_transition_in(if_block1, 1);
-                            }
-                        } else {
-                            if_block1 = quests_index_svelte_create_if_block_2(ctx);
-                            if_block1.c();
-                            transitions_transition_in(if_block1, 1);
-                            if_block1.m(div13, null);
-                        }
-                    } else if (if_block1) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block1, 1, 1, () => {
-                            if_block1 = null;
-                        });
-
-                        transitions_check_outros();
-                    }
-
-                    if (!current || dirty[0] & /*selectedCategory*/ 2) {
-                        dom_toggle_class(div13, "battle-pass-quests__details--premium", /*selectedCategory*/ ctx[1] === CATEGORIES.Premium);
-                    }
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block1);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block1);
-                    current = false;
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div13);
-                    }
-
-                    if_block0.d();
-                    destroy_each(each_blocks, detaching);
-                    if (if_block1) if_block1.d();
-                }
-            };
-        }
-
-        // (279:40) {:else}
+        // (278:36) {:else}
         function quests_index_svelte_create_else_block(ctx) {
             let i;
             let div;
@@ -158015,8 +157644,8 @@
             };
         }
 
-        // (277:40) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
-        function quests_index_svelte_create_if_block_3(ctx) {
+        // (276:36) {#if selectedQuest.currentProgress < selectedQuest.totalProgress}
+        function quests_index_svelte_create_if_block_2(ctx) {
             let t_value = `${Math.floor(countPercents(/*selectedQuest*/ ctx[3].currentProgress, /*selectedQuest*/ ctx[3].totalProgress))}%` + "";
             let t;
 
@@ -158038,7 +157667,7 @@
             };
         }
 
-        // (290:36) {#each selectedQuest.rewards as reward}
+        // (289:32) {#each selectedQuest.rewards as reward}
         function quests_index_svelte_create_each_block(ctx) {
             let div2;
             let div0;
@@ -158090,8 +157719,8 @@
             };
         }
 
-        // (307:24) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
-        function quests_index_svelte_create_if_block_2(ctx) {
+        // (306:20) {#if $battlePassData.premium === 0 && selectedCategory === CATEGORIES.Premium}
+        function quests_index_svelte_create_if_block_1(ctx) {
             let div0;
             let t0;
             let div3;
@@ -158172,7 +157801,7 @@
             let if_block;
             let div_intro;
             let current;
-            const if_block_creators = [quests_index_svelte_create_if_block, create_if_block_7, index_svelte_create_else_block_2];
+            const if_block_creators = [quests_index_svelte_create_if_block, quests_index_svelte_create_if_block_6, index_svelte_create_else_block_2];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
@@ -158443,7 +158072,246 @@
         }
 
         /* harmony default export */
-        const quests_index_svelte = (Quests);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/clock.svg
+        const quests_index_svelte = (Quests);; // CONCATENATED MODULE: ./src/components/imageWithFallback/index.svelte
+        /* src\components\imageWithFallback\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
+
+
+        function imageWithFallback_index_svelte_create_if_block(ctx) {
+            let div;
+            let loader;
+            let current;
+            loader = new loader_index_svelte({
+                props: {
+                    style: 'fade'
+                }
+            });
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    create_component(loader.$$.fragment);
+                    dom_attr(div, "class", "image-with-fallback__loader-wrapper");
+                    set_style(div, "width", "50%");
+                    set_style(div, "height", "50%");
+                    set_style(div, "display", "flex");
+                    set_style(div, "align-items", "center");
+                    set_style(div, "justify-content", "center");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    mount_component(loader, div, null);
+                    current = true;
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(loader.$$.fragment, local);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(loader.$$.fragment, local);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+
+                    destroy_component(loader);
+                }
+            };
+        }
+
+        function imageWithFallback_index_svelte_create_fragment(ctx) {
+            let t;
+            let img;
+            let img_style_value;
+            let img_src_value;
+            let current;
+            let mounted;
+            let dispose;
+            let if_block = /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] && imageWithFallback_index_svelte_create_if_block(ctx);
+
+            let img_levels = [{
+                    style: img_style_value = "width: 100%; height: 100%; display: " + ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] ?
+                        'none' :
+                        '') + ";"
+                },
+                {
+                    src: img_src_value = /*currentSrc*/ ctx[2]
+                },
+                /*$$restProps*/
+                ctx[6],
+                {
+                    alt: /*alt*/ ctx[0]
+                }
+            ];
+
+            let img_data = {};
+
+            for (let i = 0; i < img_levels.length; i += 1) {
+                img_data = utils_assign(img_data, img_levels[i]);
+            }
+
+            return {
+                c() {
+                    if (if_block) if_block.c();
+                    t = dom_space();
+                    img = dom_element("img");
+                    set_attributes(img, img_data);
+                },
+                m(target, anchor) {
+                    if (if_block) if_block.m(target, anchor);
+                    dom_insert(target, t, anchor);
+                    dom_insert(target, img, anchor);
+                    current = true;
+
+                    if (!mounted) {
+                        dispose = [
+                            dom_listen(img, "error", /*handleError*/ ctx[4]),
+                            dom_listen(img, "load", function() {
+                                if (utils_is_function( /*useLoader*/ ctx[1] ? /*handleLoad*/ ctx[5] : null))( /*useLoader*/ ctx[1] ? /*handleLoad*/ ctx[5] : null).apply(this, arguments);
+                            })
+                        ];
+
+                        mounted = true;
+                    }
+                },
+                p(new_ctx, [dirty]) {
+                    ctx = new_ctx;
+
+                    if ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3]) {
+                        if (if_block) {
+                            if (dirty & /*useLoader, loaderVisible*/ 10) {
+                                transitions_transition_in(if_block, 1);
+                            }
+                        } else {
+                            if_block = imageWithFallback_index_svelte_create_if_block(ctx);
+                            if_block.c();
+                            transitions_transition_in(if_block, 1);
+                            if_block.m(t.parentNode, t);
+                        }
+                    } else if (if_block) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block, 1, 1, () => {
+                            if_block = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    set_attributes(img, img_data = get_spread_update(img_levels, [
+                        (!current || dirty & /*useLoader, loaderVisible*/ 10 && img_style_value !== (img_style_value = "width: 100%; height: 100%; display: " + ( /*useLoader*/ ctx[1] && /*loaderVisible*/ ctx[3] ?
+                            'none' :
+                            '') + ";")) && {
+                            style: img_style_value
+                        },
+                        (!current || dirty & /*currentSrc*/ 4 && !utils_src_url_equal(img.src, img_src_value = /*currentSrc*/ ctx[2])) && {
+                            src: img_src_value
+                        },
+                        dirty & /*$$restProps*/ 64 && /*$$restProps*/ ctx[6],
+                        (!current || dirty & /*alt*/ 1) && {
+                            alt: /*alt*/ ctx[0]
+                        }
+                    ]));
+                },
+                i(local) {
+                    if (current) return;
+                    transitions_transition_in(if_block);
+                    current = true;
+                },
+                o(local) {
+                    transitions_transition_out(if_block);
+                    current = false;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(t);
+                        dom_detach(img);
+                    }
+
+                    if (if_block) if_block.d(detaching);
+                    mounted = false;
+                    utils_run_all(dispose);
+                }
+            };
+        }
+
+        function imageWithFallback_index_svelte_instance($$self, $$props, $$invalidate) {
+            const omit_props_names = ["src", "alt", "useLoader", "fallbackImageUrl"];
+            let $$restProps = compute_rest_props($$props, omit_props_names);
+            let {
+                src = ''
+            } = $$props;
+            let {
+                alt = ''
+            } = $$props;
+            let {
+                useLoader = false
+            } = $$props;
+            let {
+                fallbackImageUrl = `${CDN_URL}/assets/images/inventory/vehicles/512/none.webp`
+            } = $$props;
+            let loaderVisible = true && useLoader;
+            let currentSrc = src;
+
+            const handleError = () => {
+                $$invalidate(2, currentSrc = fallbackImageUrl);
+            };
+
+            const handleLoad = () => {
+                $$invalidate(3, loaderVisible = false);
+            };
+
+            $$self.$$set = $$new_props => {
+                $$props = utils_assign(utils_assign({}, $$props), exclude_internal_props($$new_props));
+                $$invalidate(6, $$restProps = compute_rest_props($$props, omit_props_names));
+                if ('src' in $$new_props) $$invalidate(7, src = $$new_props.src);
+                if ('alt' in $$new_props) $$invalidate(0, alt = $$new_props.alt);
+                if ('useLoader' in $$new_props) $$invalidate(1, useLoader = $$new_props.useLoader);
+                if ('fallbackImageUrl' in $$new_props) $$invalidate(8, fallbackImageUrl = $$new_props.fallbackImageUrl);
+            };
+
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*src, currentSrc, fallbackImageUrl*/ 388) {
+                    $: if (src && src !== currentSrc && currentSrc !== fallbackImageUrl) {
+                        $$invalidate(2, currentSrc = src);
+                    }
+                }
+            };
+
+            return [
+                alt,
+                useLoader,
+                currentSrc,
+                loaderVisible,
+                handleError,
+                handleLoad,
+                $$restProps,
+                src,
+                fallbackImageUrl
+            ];
+        }
+
+        class ImageWithFallback extends Component_SvelteComponent {
+            constructor(options) {
+                super();
+
+                Component_init(this, options, imageWithFallback_index_svelte_instance, imageWithFallback_index_svelte_create_fragment, utils_safe_not_equal, {
+                    src: 7,
+                    alt: 0,
+                    useLoader: 1,
+                    fallbackImageUrl: 8
+                });
+            }
+        }
+
+        /* harmony default export */
+        const imageWithFallback_index_svelte = (ImageWithFallback);; // CONCATENATED MODULE: ./src/views/arizona-pass/img/clock.svg
         const clock_namespaceObject = __webpack_require__.p + "assets/81b640ea9cecde72fc50.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/thunder.svg
         const thunder_namespaceObject = __webpack_require__.p + "assets/39402a929bcb859ff553.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/reset-black.svg
         const reset_black_namespaceObject = __webpack_require__.p + "assets/fe7ea7485ec3a68c392d.svg";; // CONCATENATED MODULE: ./src/views/arizona-pass/img/logo-over.png
@@ -160977,7 +160845,7 @@
         }
 
         // (306:32) {#if reward.count > 0}
-        function index_svelte_create_if_block_7(ctx) {
+        function create_if_block_7(ctx) {
             let div;
             let t_value = `${/*reward*/ ctx[32].count} шт.` + "";
             let t;
@@ -161265,7 +161133,7 @@
             let t4;
             let current;
             let key_block = index_svelte_create_key_block(ctx);
-            let if_block0 = /*reward*/ ctx[32].count > 0 && index_svelte_create_if_block_7(ctx);
+            let if_block0 = /*reward*/ ctx[32].count > 0 && create_if_block_7(ctx);
             const if_block_creators = [main_index_svelte_create_if_block_4, main_index_svelte_create_if_block_6, main_index_svelte_create_else_block_2];
             const if_blocks = [];
 
@@ -161326,7 +161194,7 @@
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = index_svelte_create_if_block_7(ctx);
+                            if_block0 = create_if_block_7(ctx);
                             if_block0.c();
                             if_block0.m(div1, t3);
                         }
@@ -166161,7 +166029,7 @@
 
 
 
-        function modal_index_svelte_create_if_block_7(ctx) {
+        function index_svelte_create_if_block_7(ctx) {
             let input;
             let mounted;
             let dispose;
@@ -166495,7 +166363,7 @@
                 if ( /*container*/ ctx[1].typePrice === 0) return modal_index_svelte_create_if_block_4;
                 if ( /*container*/ ctx[1].typePrice === 1) return modal_index_svelte_create_if_block_5;
                 if ( /*container*/ ctx[1].typePrice === 2) return modal_index_svelte_create_if_block_6;
-                if ( /*container*/ ctx[1].typePrice === 3) return modal_index_svelte_create_if_block_7;
+                if ( /*container*/ ctx[1].typePrice === 3) return index_svelte_create_if_block_7;
             }
 
             let current_block_type = select_block_type(ctx, -1);
@@ -180056,11 +179924,6 @@
             var dateStr = moment_default()(unix * 1000).format(messageTimeDifference > secondsOfToday ? 'DD MMM' : 'HH:mm');
             return dateStr;
         };
-
-        var getUserImageSrc = function getUserImageSrc(userImage) {
-            var result = userImage.startsWith('/') ? "".concat(CDN_URL_DOMAIN).concat(userImage) : userImage;
-            return result;
-        };
         var isContactBot = function isContactBot(contactId) {
             return contactId === -1;
         };; // CONCATENATED MODULE: ./src/views/hud/components/messenger-notifications/index.svelte
@@ -183913,7 +183776,7 @@
                     t7 = dom_text(t7_value);
                     t8 = dom_space();
                     if_block3.c();
-                    if (!utils_src_url_equal(img.src, img_src_value = getUserImageSrc( /*contact*/ ctx[0].userImage))) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = /*contact*/ ctx[0].userImage)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "avatar");
                     dom_attr(img, "class", img_class_value = "messenger-chat__avatar" + (isContactBot( /*contact*/ ctx[0].id) ? '__bot' : ''));
                     dom_attr(div0, "class", "messenger-contact__avatar-cutter");
@@ -183968,7 +183831,7 @@
                 p(new_ctx, [dirty]) {
                     ctx = new_ctx;
 
-                    if (dirty & /*contact*/ 1 && !utils_src_url_equal(img.src, img_src_value = getUserImageSrc( /*contact*/ ctx[0].userImage))) {
+                    if (dirty & /*contact*/ 1 && !utils_src_url_equal(img.src, img_src_value = /*contact*/ ctx[0].userImage)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
@@ -184373,7 +184236,6 @@
 
 
 
-
         function contacts_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
             child_ctx[40] = list[i];
@@ -184381,7 +184243,7 @@
             return child_ctx;
         }
 
-        // (383:1) {#if $selectedContactsMode !== ContactsMode.Regular}
+        // (382:1) {#if $selectedContactsMode !== ContactsMode.Regular}
         function contacts_index_svelte_create_if_block_3(ctx) {
             let div;
             let searchinput;
@@ -184449,7 +184311,7 @@
             };
         }
 
-        // (402:31) 
+        // (401:31) 
         function contacts_index_svelte_create_if_block_2(ctx) {
             let div;
             let current;
@@ -184561,7 +184423,7 @@
             };
         }
 
-        // (393:1) {#if isEmpty($contacts) && !isEmpty(holderMode)}
+        // (392:1) {#if isEmpty($contacts) && !isEmpty(holderMode)}
         function contacts_index_svelte_create_if_block(ctx) {
             let holder;
             let t;
@@ -184627,7 +184489,7 @@
             };
         }
 
-        // (404:3) {#each (($selectedContactsMode === ContactsMode.Create && !isEmpty(query)) ? localSearchResult : $contacts) as item, index}
+        // (403:3) {#each (($selectedContactsMode === ContactsMode.Create && !isEmpty(query)) ? localSearchResult : $contacts) as item, index}
         function contacts_index_svelte_create_each_block(ctx) {
             let contact;
             let current;
@@ -184691,7 +184553,7 @@
             };
         }
 
-        // (395:2) {#if holderMode === Modes.EmptyContacts}
+        // (394:2) {#if holderMode === Modes.EmptyContacts}
         function contacts_index_svelte_create_if_block_1(ctx) {
             let div1;
             let div0;
@@ -184931,7 +184793,7 @@
             const unregisterTokenUpdate = registerEvent('event.token.update', updateToken);
 
             const openChat = contactDto => {
-                lib_axios.get(`${SERVER_API_URL}/messenger/contact/${contactDto.id}?tel=${contactDto.tel}`, {
+                lib_axios.get(`${API_URL}/contact/${contactDto.id}?tel=${contactDto.tel}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -184959,7 +184821,7 @@
                 disabled = true;
                 $$invalidate(2, holderMode = constants_Modes.LoadingContacts);
 
-                lib_axios.get(`${SERVER_API_URL}/messenger/chats?limit=${index_svelte_PAGE_SIZE}&page=${page}`, {
+                lib_axios.get(`${API_URL}/chats?limit=${index_svelte_PAGE_SIZE}&page=${page}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -185000,7 +184862,7 @@
                 disabled = true;
                 $$invalidate(2, holderMode = constants_Modes.LoadingContacts);
 
-                lib_axios.get(`${SERVER_API_URL}/messenger/contacts?limit=${index_svelte_PAGE_SIZE}&page=${page}`, {
+                lib_axios.get(`${API_URL}/contacts?limit=${index_svelte_PAGE_SIZE}&page=${page}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -185077,7 +184939,7 @@
 
                 disabled = true;
 
-                lib_axios.get(`${SERVER_API_URL}/messenger/contacts?query=${query}&page=${page}&limit=${index_svelte_PAGE_SIZE}`, {
+                lib_axios.get(`${API_URL}/contacts?query=${query}&page=${page}&limit=${index_svelte_PAGE_SIZE}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -185118,7 +184980,7 @@
             };
 
             const udpateChat = chatInfo => {
-                lib_axios.get(`${SERVER_API_URL}/messenger/chats?id=${chatInfo.id}&page=${1}&limit=${1}`, {
+                lib_axios.get(`${API_URL}/chats?id=${chatInfo.id}&page=${1}&limit=${1}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -185402,7 +185264,6 @@
 
 
 
-
         function settings_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
             child_ctx[17] = list[i];
@@ -185410,7 +185271,7 @@
             return child_ctx;
         }
 
-        // (108:1) {#if !isEmpty($settings) && !hasError}
+        // (107:1) {#if !isEmpty($settings) && !hasError}
         function settings_index_svelte_create_if_block_1(ctx) {
             let div2;
             let div0;
@@ -185478,7 +185339,7 @@
                     t10 = dom_space();
                     div11 = dom_element("div");
                     div11.innerHTML = `<div class="messenger-settings__notifications-toggle-tumbler"> </div>`;
-                    if (!utils_src_url_equal(img.src, img_src_value = getUserImageSrc( /*$settings*/ ctx[2].userImage))) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = /*$settings*/ ctx[2].userImage)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "avatar");
                     dom_attr(img, "class", "messenger-settings__avatar");
                     dom_attr(div0, "class", "messenger-settings__avatar-cutter");
@@ -185538,7 +185399,7 @@
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$settings*/ 4 && !utils_src_url_equal(img.src, img_src_value = getUserImageSrc( /*$settings*/ ctx[2].userImage))) {
+                    if (dirty & /*$settings*/ 4 && !utils_src_url_equal(img.src, img_src_value = /*$settings*/ ctx[2].userImage)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
@@ -185592,7 +185453,7 @@
             };
         }
 
-        // (128:5) {#each Object.values(Colors) as color, index}
+        // (127:5) {#each Object.values(Colors) as color, index}
         function settings_index_svelte_create_each_block(ctx) {
             let div1;
             let div0;
@@ -185643,7 +185504,7 @@
             };
         }
 
-        // (155:1) {#if hasError}
+        // (154:1) {#if hasError}
         function settings_index_svelte_create_if_block(ctx) {
             let holder;
             let current;
@@ -185826,7 +185687,7 @@
             });
 
             const getSettings = () => {
-                lib_axios.get(`${SERVER_API_URL}/messenger/config`, {
+                lib_axios.get(`${API_URL}/config`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -185897,7 +185758,6 @@
         /* harmony default export */
         const settings_index_svelte = (Settings);; // CONCATENATED MODULE: ./src/views/phone/apps/messenger/components/chat/index.svelte
         /* src\views\phone\apps\messenger\components\chat\index.svelte generated by Svelte v4.2.8 */
-
 
 
 
@@ -187015,7 +186875,7 @@
                     if (if_block4) if_block4.c();
                     dom_attr(i, "class", "messenger-chat__back ui-left-chevron");
                     dom_attr(div0, "class", "messenger-chat__title-wrapper");
-                    if (!utils_src_url_equal(img.src, img_src_value = getUserImageSrc( /*$selectedContact*/ ctx[12].userImage))) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = /*$selectedContact*/ ctx[12].userImage)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "avatar");
 
                     dom_attr(img, "class", img_class_value = "messenger-chat__avatar" + (isContactBot( /*$selectedContact*/ ctx[12].id) ?
@@ -187084,7 +186944,7 @@
                     }
                 },
                 p(ctx, dirty) {
-                    if (!current || dirty[0] & /*$selectedContact*/ 4096 && !utils_src_url_equal(img.src, img_src_value = getUserImageSrc( /*$selectedContact*/ ctx[12].userImage))) {
+                    if (!current || dirty[0] & /*$selectedContact*/ 4096 && !utils_src_url_equal(img.src, img_src_value = /*$selectedContact*/ ctx[12].userImage)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
@@ -187302,7 +187162,7 @@
 
                 $$invalidate(4, holderMode = constants_Modes.LoadingMesseges);
 
-                lib_axios.get(`${SERVER_API_URL}/messenger/chats/${$selectedContact.id}/messages?limit=${chat_index_svelte_PAGE_SIZE}&page=${page}`, {
+                lib_axios.get(`${API_URL}/chats/${$selectedContact.id}/messages?limit=${chat_index_svelte_PAGE_SIZE}&page=${page}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -187541,7 +187401,7 @@
                     return;
                 }
 
-                lib_axios.get(`${SERVER_API_URL}/messenger/chats/${chatInfo.id}/messages?limit=${1}&page=${1}`, {
+                lib_axios.get(`${API_URL}/chats/${chatInfo.id}/messages?limit=${1}&page=${1}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -187770,6 +187630,7 @@
 
         var constants_IMAGE_HOLDER = "".concat(CDN_URL, "/assets/images/inventory/skins/256/-1.webp");
         var MESSENGER_INVALID_CHAT_ID = -2;
+        var API_URL = 'https://messenger.arizona-five.com/messenger';
         var Pages = {
             Main: 'main',
             Create: 'create',
@@ -202219,7 +202080,7 @@ setTimeout(() => {
                 lastSearchName = $searchQuery;
                 $$invalidate(0, loading = true);
 
-                lib_axios.get(GetUrlAPI(API_URL.GetByName), {
+                lib_axios.get(GetUrlAPI(constants_API_URL.GetByName), {
                     params: {
                         name: $searchQuery
                     }
@@ -202667,7 +202528,7 @@ setTimeout(() => {
                     0 :
                     $viewPlaylist[$viewPlaylist.length - 1].index + 1;
 
-                lib_axios.get(GetUrlAPI(API_URL.GetByGenre), {
+                lib_axios.get(GetUrlAPI(constants_API_URL.GetByGenre), {
                     params: {
                         type: genre,
                         perPage: azpotify_constants_PAGE_SIZE,
@@ -202724,7 +202585,7 @@ setTimeout(() => {
                     return;
                 }
 
-                lib_axios.get(GetUrlAPI(API_URL.GetByIDs) + `?list=` + $favorites.toString()).then(response => {
+                lib_axios.get(GetUrlAPI(constants_API_URL.GetByIDs) + `?list=` + $favorites.toString()).then(response => {
                     utils_set_store_value(viewPlaylist, $viewPlaylist = [], $viewPlaylist);
 
                     response.data.map((item, i) => {
@@ -202860,7 +202721,7 @@ setTimeout(() => {
         var azpotify_constants_MAP_PAGE_TO_COMPONENT = azpotify_constants_defineProperty(azpotify_constants_defineProperty(azpotify_constants_defineProperty({}, azpotify_constants_Pages.GenresGrid, genres_grid_index_svelte), azpotify_constants_Pages.Search, search_index_svelte), azpotify_constants_Pages.TrackList, track_list_index_svelte);
         var MAP_PAGE_TO_HEADER = azpotify_constants_defineProperty(azpotify_constants_defineProperty({}, azpotify_constants_Pages.GenresGrid, 'azpotify'), azpotify_constants_Pages.Search, 'Поиск');
 
-        var API_URL = {
+        var constants_API_URL = {
             GetByGenre: '/client/azpotify/v3/az-spotify/getByCategorie',
             GetByName: '/client/azpotify/v1/az-spotify-v2/search',
             GetByIDs: '/client/azpotify/v1/az-spotify-v2/getFavorites'
@@ -203977,7 +203838,7 @@ setTimeout(() => {
 
                     utils_set_store_value(activePlaylistPage, $activePlaylistPage += 1, $activePlaylistPage);
 
-                    lib_axios.get(GetUrlAPI(API_URL.GetByGenre), {
+                    lib_axios.get(GetUrlAPI(constants_API_URL.GetByGenre), {
                         params: {
                             type: $activeGenre,
                             perPage: azpotify_constants_PAGE_SIZE,
@@ -204535,7 +204396,6 @@ setTimeout(() => {
 
 
 
-
         function messenger_index_svelte_create_if_block(ctx) {
             let div3;
             let div1;
@@ -204807,7 +204667,7 @@ setTimeout(() => {
                     return;
                 }
 
-                lib_axios.get(`${SERVER_API_URL}/messenger/contact/${$openDefaultChat.id}?tel=${$openDefaultChat.tel}`, {
+                lib_axios.get(`${API_URL}/contact/${$openDefaultChat.id}?tel=${$openDefaultChat.tel}`, {
                     headers: {
                         "Authorization": $token
                     }
@@ -205504,7 +205364,7 @@ setTimeout(() => {
         const money_namespaceObject = __webpack_require__.p + "assets/736da26e5fdfc6d29f12.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/img/vcdol.svg
         const vcdol_namespaceObject = __webpack_require__.p + "assets/f88e0e6dfdec522c3fbc.svg";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/img/smile.png
         const smile_namespaceObject = __webpack_require__.p + "assets/4db3f0d69277a3f7a568.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/img/fallback.png
-        const rent_list_img_fallback_namespaceObject = __webpack_require__.p + "assets/19636cd2026a667590f3.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/index.svelte
+        const fallback_namespaceObject = __webpack_require__.p + "assets/19636cd2026a667590f3.webp";; // CONCATENATED MODULE: ./src/views/phone/apps/arizona-rent/components/rent-list/index.svelte
         /* src\views\phone\apps\arizona-rent\components\rent-list\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -206060,7 +205920,7 @@ setTimeout(() => {
                 props: {
                     class: "rent-list__content-item-background-img",
                     src: `${CDN_URL}/systems/house_int/${/*rent*/ ctx[48].houseInt}.webp`,
-                    fallbackImageUrl: rent_list_img_fallback_namespaceObject,
+                    fallbackImageUrl: fallback_namespaceObject,
                     alt: "house"
                 }
             });
@@ -209186,39 +209046,6 @@ setTimeout(() => {
 
 
 
-
-
-        function app_grid_item_index_svelte_create_if_block(ctx) {
-            let div;
-            let p;
-            let t_value = /*$playerUnreadStats*/ ctx[4].unreadMessengerMessages + "";
-            let t;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    p = dom_element("p");
-                    t = dom_text(t_value);
-                    dom_attr(p, "class", "app__tip-unread-notification");
-                    dom_attr(div, "class", "app__tip-button");
-                    set_style(div, "background", "#E02E2E");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    dom_append(div, p);
-                    dom_append(p, t);
-                },
-                p(ctx, dirty) {
-                    if (dirty & /*$playerUnreadStats*/ 16 && t_value !== (t_value = /*$playerUnreadStats*/ ctx[4].unreadMessengerMessages + "")) dom_set_data(t, t_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
         function app_grid_item_index_svelte_create_fragment(ctx) {
             let div;
             let img;
@@ -209226,10 +209053,8 @@ setTimeout(() => {
             let t0;
             let span;
             let t1;
-            let t2;
             let mounted;
             let dispose;
-            let if_block = /*appId*/ ctx[3] === Apps.Sms && /*$playerUnreadStats*/ ctx[4].unreadMessengerMessages && app_grid_item_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
@@ -209238,8 +209063,6 @@ setTimeout(() => {
                     t0 = dom_space();
                     span = dom_element("span");
                     t1 = dom_text( /*title*/ ctx[0]);
-                    t2 = dom_space();
-                    if (if_block) if_block.c();
                     dom_attr(img, "class", "app__icon");
                     if (!utils_src_url_equal(img.src, img_src_value = /*icon*/ ctx[1])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "app-icon");
@@ -209252,8 +209075,6 @@ setTimeout(() => {
                     dom_append(div, t0);
                     dom_append(div, span);
                     dom_append(span, t1);
-                    dom_append(div, t2);
-                    if (if_block) if_block.m(div, null);
 
                     if (!mounted) {
                         dispose = dom_listen(div, "click", function() {
@@ -209271,19 +209092,6 @@ setTimeout(() => {
                     }
 
                     if (dirty & /*title*/ 1) dom_set_data(t1, /*title*/ ctx[0]);
-
-                    if ( /*appId*/ ctx[3] === Apps.Sms && /*$playerUnreadStats*/ ctx[4].unreadMessengerMessages) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
-                        } else {
-                            if_block = app_grid_item_index_svelte_create_if_block(ctx);
-                            if_block.c();
-                            if_block.m(div, null);
-                        }
-                    } else if (if_block) {
-                        if_block.d(1);
-                        if_block = null;
-                    }
                 },
                 i: utils_noop,
                 o: utils_noop,
@@ -209292,7 +209100,6 @@ setTimeout(() => {
                         dom_detach(div);
                     }
 
-                    if (if_block) if_block.d();
                     mounted = false;
                     dispose();
                 }
@@ -209300,8 +209107,6 @@ setTimeout(() => {
         }
 
         function app_grid_item_index_svelte_instance($$self, $$props, $$invalidate) {
-            let $playerUnreadStats;
-            utils_component_subscribe($$self, playerUnreadStats, $$value => $$invalidate(4, $playerUnreadStats = $$value));
             let {
                 title = ''
             } = $$props;
@@ -209315,18 +209120,13 @@ setTimeout(() => {
                 }
             } = $$props;
 
-            let {
-                appId = ''
-            } = $$props;
-
             $$self.$$set = $$props => {
                 if ('title' in $$props) $$invalidate(0, title = $$props.title);
                 if ('icon' in $$props) $$invalidate(1, icon = $$props.icon);
                 if ('pickApp' in $$props) $$invalidate(2, pickApp = $$props.pickApp);
-                if ('appId' in $$props) $$invalidate(3, appId = $$props.appId);
             };
 
-            return [title, icon, pickApp, appId, $playerUnreadStats];
+            return [title, icon, pickApp];
         }
 
         class App_grid_item extends Component_SvelteComponent {
@@ -209335,8 +209135,7 @@ setTimeout(() => {
                 Component_init(this, options, app_grid_item_index_svelte_instance, app_grid_item_index_svelte_create_fragment, utils_safe_not_equal, {
                     title: 0,
                     icon: 1,
-                    pickApp: 2,
-                    appId: 3
+                    pickApp: 2
                 });
             }
         }
@@ -209385,7 +209184,7 @@ setTimeout(() => {
             return child_ctx;
         }
 
-        // (174:2) {:else}
+        // (169:2) {:else}
         function phone_index_svelte_create_else_block_1(ctx) {
             let switch_instance;
             let switch_instance_anchor;
@@ -209548,52 +209347,50 @@ setTimeout(() => {
             };
         }
 
-        // (146:7) {#each appList as appId}
+        // (146:7) {#each appList as app}
         function phone_index_svelte_create_each_block_2(ctx) {
-            let app;
+            let app_1;
             let current;
 
             function func() {
-                return /*func*/ ctx[10]( /*appId*/ ctx[35]);
+                return /*func*/ ctx[10]( /*app*/ ctx[35]);
             }
 
-            app = new app_grid_item_index_svelte({
+            app_1 = new app_grid_item_index_svelte({
                 props: {
-                    icon: MAP_APP_TAG_TO_ICON[ /*appId*/ ctx[35]],
-                    title: MAP_APP_TAG_TO_TITLE[ /*appId*/ ctx[35]],
-                    pickApp: func,
-                    appId: /*appId*/ ctx[35]
+                    icon: MAP_APP_TAG_TO_ICON[ /*app*/ ctx[35]],
+                    title: MAP_APP_TAG_TO_TITLE[ /*app*/ ctx[35]],
+                    pickApp: func
                 }
             });
 
             return {
                 c() {
-                    create_component(app.$$.fragment);
+                    create_component(app_1.$$.fragment);
                 },
                 m(target, anchor) {
-                    mount_component(app, target, anchor);
+                    mount_component(app_1, target, anchor);
                     current = true;
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    const app_changes = {};
-                    if (dirty[0] & /*apps*/ 2) app_changes.icon = MAP_APP_TAG_TO_ICON[ /*appId*/ ctx[35]];
-                    if (dirty[0] & /*apps*/ 2) app_changes.title = MAP_APP_TAG_TO_TITLE[ /*appId*/ ctx[35]];
-                    if (dirty[0] & /*apps*/ 2) app_changes.pickApp = func;
-                    if (dirty[0] & /*apps*/ 2) app_changes.appId = /*appId*/ ctx[35];
-                    app.$set(app_changes);
+                    const app_1_changes = {};
+                    if (dirty[0] & /*apps*/ 2) app_1_changes.icon = MAP_APP_TAG_TO_ICON[ /*app*/ ctx[35]];
+                    if (dirty[0] & /*apps*/ 2) app_1_changes.title = MAP_APP_TAG_TO_TITLE[ /*app*/ ctx[35]];
+                    if (dirty[0] & /*apps*/ 2) app_1_changes.pickApp = func;
+                    app_1.$set(app_1_changes);
                 },
                 i(local) {
                     if (current) return;
-                    transitions_transition_in(app.$$.fragment, local);
+                    transitions_transition_in(app_1.$$.fragment, local);
                     current = true;
                 },
                 o(local) {
-                    transitions_transition_out(app.$$.fragment, local);
+                    transitions_transition_out(app_1.$$.fragment, local);
                     current = false;
                 },
                 d(detaching) {
-                    destroy_component(app, detaching);
+                    destroy_component(app_1, detaching);
                 }
             };
         }
@@ -209782,7 +209579,7 @@ setTimeout(() => {
             };
         }
 
-        // (163:6) {#each navigationDots as dot, pageIndex (pageIndex)}
+        // (158:6) {#each navigationDots as dot, pageIndex (pageIndex)}
         function phone_index_svelte_create_each_block(key_1, ctx) {
             let span;
             let mounted;
@@ -209828,7 +209625,7 @@ setTimeout(() => {
             };
         }
 
-        // (157:5) 
+        // (152:5) 
         function create_dots_slot(ctx) {
             let div;
             let each_blocks = [];
@@ -209957,7 +209754,7 @@ setTimeout(() => {
             };
         }
 
-        // (184:4) {#if $playerIsDriver && $runningApp === Apps.Azpotify}
+        // (179:4) {#if $playerIsDriver && $runningApp === Apps.Azpotify}
         function phone_index_svelte_create_if_block(ctx) {
             let show_if;
             let if_block_anchor;
@@ -210002,7 +209799,7 @@ setTimeout(() => {
             };
         }
 
-        // (187:5) {:else}
+        // (182:5) {:else}
         function phone_index_svelte_create_else_block(ctx) {
             let img;
             let img_src_value;
@@ -210025,7 +209822,7 @@ setTimeout(() => {
             };
         }
 
-        // (185:5) {#if IPHONE_BORDERS.includes(phoneOptions.border)}
+        // (180:5) {#if IPHONE_BORDERS.includes(phoneOptions.border)}
         function phone_index_svelte_create_if_block_1(ctx) {
             let img;
             let img_src_value;
@@ -210348,7 +210145,7 @@ setTimeout(() => {
             });
 
             const click_handler = (showPage, pageIndex) => showPage(pageIndex);
-            const func = appId => pickApp(appId, true);
+            const func = app => pickApp(app, true);
 
             function carousel_1_binding($$value) {
                 binding_callbacks[$$value ? 'unshift' : 'push'](() => {
@@ -249479,7 +249276,6 @@ setTimeout(() => {
             Info: 'info',
             Potions: 'potions'
         };
-        var MAP_WINDOW_ID_TO_POS_ID = inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty(inventory_constants_defineProperty({}, WindowsIds.Main, WindowsIds.Main), WindowsIds.Character, WindowsIds.Character), WindowsIds.Trade, WindowsIds.Character), WindowsIds.Shop, WindowsIds.Character), WindowsIds.Overview, WindowsIds.Character), WindowsIds.Trunk, WindowsIds.Character), WindowsIds.Workshop, WindowsIds.Character), WindowsIds.Info, WindowsIds.Character);
         var MAP_WINDOW_ID_TO_SORT_ACTION = inventory_constants_defineProperty(inventory_constants_defineProperty({}, WindowsIds.Main, 'inventory.sort'), WindowsIds.Character, 'inventory.warehouse_sort');
         var MAP_ID_TO_CRAFT_CATEGORY_NAME = {
             0: 'Аксессуары',
@@ -251323,7 +251119,6 @@ setTimeout(() => {
 
 
 
-
         function inventory_window_index_svelte_create_if_block(ctx) {
             let div4;
             let div2;
@@ -251496,7 +251291,7 @@ setTimeout(() => {
             };
         }
 
-        // (183:2) {#if infoButtonEnabled}
+        // (174:2) {#if infoButtonEnabled}
         function inventory_window_index_svelte_create_if_block_3(ctx) {
             let infobutton;
             let current;
@@ -251525,7 +251320,7 @@ setTimeout(() => {
             };
         }
 
-        // (186:2) {#if sortingButtonVisibility}
+        // (177:2) {#if sortingButtonVisibility}
         function inventory_window_index_svelte_create_if_block_2(ctx) {
             let sortbutton;
             let current;
@@ -251574,7 +251369,7 @@ setTimeout(() => {
             };
         }
 
-        // (196:2) {#if exitButtonVisibility}
+        // (187:2) {#if exitButtonVisibility}
         function inventory_window_index_svelte_create_if_block_1(ctx) {
             let i;
             let mounted;
@@ -251823,46 +251618,40 @@ setTimeout(() => {
                 $$invalidate(16, movingAvailable = false);
 
                 if (savedPositionsEnabled && windowHovered) {
-                    const windowPosId = MAP_WINDOW_ID_TO_POS_ID[windowId];
-
-                    if (!windowPosId) {
-                        return;
-                    }
-
                     const {
                         x,
                         y
                     } = windowNode.getBoundingClientRect();
 
-                    if ((0, lodash.isNil)($windowPositions[windowPosId])) {
+                    if ((0, lodash.isNil)($windowPositions[windowId])) {
                         utils_set_store_value(
                             windowPositions,
-                            $windowPositions[windowPosId] = {
-                                windowId: windowPosId,
+                            $windowPositions[windowId] = {
+                                windowId,
                                 left: Math.floor(x),
                                 top: Math.floor(y)
                             },
                             $windowPositions
                         );
 
-                        cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowPosId]));
+                        cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowId]));
                     }
 
-                    if ($windowPositions[windowPosId].left === Math.floor(x) && $windowPositions[windowPosId].top === Math.floor(y)) {
+                    if ($windowPositions[windowId].left === Math.floor(x) && $windowPositions[windowId].top === Math.floor(y)) {
                         return;
                     }
 
                     utils_set_store_value(
                         windowPositions,
-                        $windowPositions[windowPosId] = {
-                            windowId: windowPosId,
+                        $windowPositions[windowId] = {
+                            windowId,
                             left: Math.floor(x),
                             top: Math.floor(y)
                         },
                         $windowPositions
                     );
 
-                    cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowPosId]));
+                    cef_sendClientMessage('inventory.saveWindowPositions', JSON.stringify($windowPositions[windowId]));
                 }
             };
 
@@ -251883,11 +251672,10 @@ setTimeout(() => {
 
             onMount(() => {
                 parentCoords = windowNode.parentNode.getBoundingClientRect();
-                const windowPosId = MAP_WINDOW_ID_TO_POS_ID[windowId];
 
-                if (!(0, lodash.isNil)($windowPositions[windowPosId]) && $windowPositions[windowPosId].top && $windowPositions[windowPosId].left && savedPositionsEnabled && (!centeredX || !centeredY)) {
-                    $$invalidate(1, windowTop = $windowPositions[windowPosId].top);
-                    $$invalidate(0, windowLeft = $windowPositions[windowPosId].left);
+                if (!(0, lodash.isNil)($windowPositions[windowId]) && $windowPositions[windowId].top && $windowPositions[windowId].left && savedPositionsEnabled && (!centeredX || !centeredY)) {
+                    $$invalidate(1, windowTop = $windowPositions[windowId].top);
+                    $$invalidate(0, windowLeft = $windowPositions[windowId].left);
                 } else {
                     $$invalidate(0, windowLeft = parentCoords.x);
                     $$invalidate(1, windowTop = parentCoords.y);
@@ -251914,11 +251702,11 @@ setTimeout(() => {
                         y
                     } = parentCoords;
 
-                    if ((0, lodash.isNil)($windowPositions[windowPosId])) {
+                    if ((0, lodash.isNil)($windowPositions[windowId])) {
                         utils_set_store_value(
                             windowPositions,
-                            $windowPositions[windowPosId] = {
-                                windowId: windowPosId,
+                            $windowPositions[windowId] = {
+                                windowId,
                                 left: Math.floor(x),
                                 top: Math.floor(y)
                             },
@@ -262012,7 +261800,7 @@ setTimeout(() => {
         // (459:8) {#if $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_15(ctx) {
             let div;
-            let t_value = `+${/*$enchantItem*/ ctx[4].enchant || 0}` + "";
+            let t_value = `+${/*$enchantItem*/ ctx[4].enchant | 0}` + "";
             let t;
 
             return {
@@ -262026,7 +261814,7 @@ setTimeout(() => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = `+${/*$enchantItem*/ ctx[4].enchant || 0}` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = `+${/*$enchantItem*/ ctx[4].enchant | 0}` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -262212,7 +262000,7 @@ setTimeout(() => {
 
             let t1_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[3].amount) ?
                 0 :
-                /*$enchantStuff*/ ctx[3].enchant || 0) + "";
+                /*$enchantStuff*/ ctx[3].enchant) + "";
 
             let t1;
 
@@ -262234,7 +262022,7 @@ setTimeout(() => {
                 p(ctx, dirty) {
                     if (dirty[0] & /*$enchantStuff*/ 8 && t1_value !== (t1_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[3].amount) ?
                             0 :
-                            /*$enchantStuff*/ ctx[3].enchant || 0) + "")) dom_set_data(t1, t1_value);
+                            /*$enchantStuff*/ ctx[3].enchant) + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -262396,7 +262184,7 @@ setTimeout(() => {
         // (526:4) {#if !isEmpty($enchantItem) && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_6(ctx) {
             let div;
-            let t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + "";
+            let t_value = /*$enchantItem*/ ctx[4].enchant + "";
             let t;
 
             return {
@@ -262410,7 +262198,7 @@ setTimeout(() => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = /*$enchantItem*/ ctx[4].enchant + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -262423,7 +262211,7 @@ setTimeout(() => {
         // (536:4) {#if !isEmpty($enchantItem) && $enchantItem.enchant < MAX_ENCHANT_LEVEL && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_5(ctx) {
             let div;
-            let t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + 1 + "";
+            let t_value = /*$enchantItem*/ ctx[4].enchant + 1 + "";
             let t;
 
             return {
@@ -262437,7 +262225,7 @@ setTimeout(() => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = ( /*$enchantItem*/ ctx[4].enchant || 0) + 1 + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*$enchantItem*/ 16 && t_value !== (t_value = /*$enchantItem*/ ctx[4].enchant + 1 + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -276906,38 +276694,7 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const slots_machine_index_svelte = (Slots_machine);; // CONCATENATED MODULE: ./src/views/reward-banner/img/bg-mock.png
-        const bg_mock_namespaceObject = __webpack_require__.p + "assets/7b750a19e0e42e5614ba.webp";; // CONCATENATED MODULE: ./src/views/reward-banner/mock.js
-
-        var BANNER_DATA_MOCK = {
-            background: 'background_2.png',
-            title: 'Возвращение',
-            description: 'Мы рады видеть тебя снова в нашей игре! В знак благодарности мы хотим сделать тебе приятный подарок, который сделает это возвращение незабываемым и позволит вспомнить неповторимую атмосферу Arizona Online!',
-            time: 111115,
-            color: '#FFAA11'
-        };
-        var REWARDS_DATA_MOCK = [{
-            title: 'ADD VIP',
-            value: '3 дня',
-            badge: '',
-            image: 'sample.png'
-        }, {
-            title: 'Сет аксессуаров',
-            value: 'Величественный мидас',
-            badge: '3 дн',
-            image: 'sample.png'
-        }, {
-            title: 'AZ Coins',
-            value: '20',
-            badge: '',
-            image: 'sample.png'
-        }, {
-            title: 'Автомобиль',
-            value: 'Mitsubishi Evo 8',
-            badge: '24 PayDay (часа)',
-            image: 'sample.png'
-        }];; // CONCATENATED MODULE: ./src/views/reward-banner/img/fallback.png
-        const reward_banner_img_fallback_namespaceObject = __webpack_require__.p + "assets/2f040bc443f1c4ddda5b.webp";; // CONCATENATED MODULE: ./src/views/reward-banner/index.svelte
+        const slots_machine_index_svelte = (Slots_machine);; // CONCATENATED MODULE: ./src/views/reward-banner/index.svelte
         /* src\views\reward-banner\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -276949,7 +276706,8 @@ const getRandomTableNumber = () => {
 
 
 
-
+        // import { BANNER_DATA_MOCK } from './mock';
+        // import bgImageMock from './img/bg-mock.png';
 
 
 
@@ -276960,51 +276718,38 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (85:0) {#if !isEmpty(bannerData)}
+        // (84:0) {#if !isEmpty(bannerData)}
         function reward_banner_index_svelte_create_if_block(ctx) {
-            let div9;
-            let div0;
-            let imagewithfallback;
-            let t0;
-            let div1;
-            let actionbutton;
-            let t1;
             let div8;
-            let div4;
-            let div2;
-            let t2_value = /*bannerData*/ ctx[0].titleHeaders + "";
-            let t2;
-            let t3;
+            let div0;
+            let actionbutton;
+            let t0;
+            let div7;
             let div3;
-            let t4_value = /*bannerData*/ ctx[0].title + "";
+            let div1;
+            let t1_value = /*bannerData*/ ctx[0].titleHeaders + "";
+            let t1;
+            let t2;
+            let div2;
+            let t3_value = /*bannerData*/ ctx[0].title + "";
+            let t3;
             let t4;
+            let div4;
+            let raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "";
             let t5;
             let div5;
-            let raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "";
             let t6;
             let div6;
-            let t7;
-            let div7;
 
-            let t8_value = ( /*bannerData*/ ctx[0].time > 0 ?
+            let t7_value = ( /*bannerData*/ ctx[0].time > 0 ?
                 `Доступно через ${formatSecondsToDHhMmSs(/*bannerData*/ ctx[0].time)}` :
                 `${/*bannerData*/ ctx[0].buttonName}`) + "";
 
-            let t8;
-            let div9_style_value;
+            let t7;
+            let div8_style_value;
             let current;
             let mounted;
             let dispose;
-
-            imagewithfallback = new imageWithFallback_index_svelte({
-                props: {
-                    placeholderSrc: reward_banner_img_fallback_namespaceObject,
-                    fallbackImageUrl: reward_banner_img_fallback_namespaceObject,
-                    src: `${/*CND_URL_MAIN*/ ctx[2]}/background/${/*bannerData*/ ctx[0].background}`,
-                    alt: "reward-icon",
-                    class: "reward-banner__reward-image-background"
-                }
-            });
 
             actionbutton = new shared_action_button_index_svelte({
                 props: {
@@ -277021,111 +276766,97 @@ const getRandomTableNumber = () => {
                 each_blocks[i] = reward_banner_index_svelte_create_each_block(reward_banner_index_svelte_get_each_context(ctx, each_value, i));
             }
 
-            const out = i => transitions_transition_out(each_blocks[i], 1, 1, () => {
-                each_blocks[i] = null;
-            });
-
             return {
                 c() {
-                    div9 = dom_element("div");
-                    div0 = dom_element("div");
-                    create_component(imagewithfallback.$$.fragment);
-                    t0 = dom_space();
-                    div1 = dom_element("div");
-                    create_component(actionbutton.$$.fragment);
-                    t1 = dom_space();
                     div8 = dom_element("div");
-                    div4 = dom_element("div");
-                    div2 = dom_element("div");
-                    t2 = dom_text(t2_value);
-                    t3 = dom_space();
+                    div0 = dom_element("div");
+                    create_component(actionbutton.$$.fragment);
+                    t0 = dom_space();
+                    div7 = dom_element("div");
                     div3 = dom_element("div");
-                    t4 = dom_text(t4_value);
+                    div1 = dom_element("div");
+                    t1 = dom_text(t1_value);
+                    t2 = dom_space();
+                    div2 = dom_element("div");
+                    t3 = dom_text(t3_value);
+                    t4 = dom_space();
+                    div4 = dom_element("div");
                     t5 = dom_space();
                     div5 = dom_element("div");
-                    t6 = dom_space();
-                    div6 = dom_element("div");
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
                     }
 
-                    t7 = dom_space();
-                    div7 = dom_element("div");
-                    t8 = dom_text(t8_value);
-                    dom_attr(div0, "class", "reward-banner__reward-image-background-wrapper");
-                    dom_attr(div1, "class", "reward-banner__exit");
-                    dom_attr(div2, "class", "reward-banner__title-caption");
-                    dom_toggle_class(div2, "reward-banner__title-caption--pixel", /*bannerData*/ ctx[0].type === 8);
-                    dom_attr(div3, "class", "reward-banner__title-value");
-                    dom_toggle_class(div3, "reward-banner__title-value--pixel", /*bannerData*/ ctx[0].type === 8);
-                    dom_attr(div4, "class", "reward-banner__title");
-                    dom_attr(div5, "class", "reward-banner__description");
-                    dom_attr(div6, "class", "reward-banner__rewards-grid");
-                    dom_attr(div7, "class", "reward-banner__button");
-                    dom_toggle_class(div7, "reward-banner__button--active", /*bannerData*/ ctx[0].time <= 0);
-                    dom_attr(div8, "class", "reward-banner__content");
-                    dom_attr(div9, "class", "reward-banner");
-                    dom_attr(div9, "style", div9_style_value = `--accentColor: ${/*bannerData*/ ctx[0].color}`);
+                    t6 = dom_space();
+                    div6 = dom_element("div");
+                    t7 = dom_text(t7_value);
+                    dom_attr(div0, "class", "reward-banner__exit");
+                    dom_attr(div1, "class", "reward-banner__title-caption");
+                    dom_toggle_class(div1, "reward-banner__title-caption--pixel", /*bannerData*/ ctx[0].type === 8);
+                    dom_attr(div2, "class", "reward-banner__title-value");
+                    dom_toggle_class(div2, "reward-banner__title-value--pixel", /*bannerData*/ ctx[0].type === 8);
+                    dom_attr(div3, "class", "reward-banner__title");
+                    dom_attr(div4, "class", "reward-banner__description");
+                    dom_attr(div5, "class", "reward-banner__rewards-grid");
+                    dom_attr(div6, "class", "reward-banner__button");
+                    dom_toggle_class(div6, "reward-banner__button--active", /*bannerData*/ ctx[0].time <= 0);
+                    dom_attr(div7, "class", "reward-banner__content");
+                    dom_attr(div8, "class", "reward-banner");
+                    dom_attr(div8, "style", div8_style_value = `--bg: url(${/*CND_URL_MAIN*/ ctx[2]}/background/${/*bannerData*/ ctx[0].background}); --accentColor: ${/*bannerData*/ ctx[0].color}`);
                 },
                 m(target, anchor) {
-                    dom_insert(target, div9, anchor);
-                    dom_append(div9, div0);
-                    mount_component(imagewithfallback, div0, null);
-                    dom_append(div9, t0);
-                    dom_append(div9, div1);
-                    mount_component(actionbutton, div1, null);
-                    dom_append(div9, t1);
-                    dom_append(div9, div8);
-                    dom_append(div8, div4);
-                    dom_append(div4, div2);
-                    dom_append(div2, t2);
-                    dom_append(div4, t3);
-                    dom_append(div4, div3);
-                    dom_append(div3, t4);
-                    dom_append(div8, t5);
-                    dom_append(div8, div5);
-                    div5.innerHTML = raw_value;
-                    dom_append(div8, t6);
-                    dom_append(div8, div6);
+                    dom_insert(target, div8, anchor);
+                    dom_append(div8, div0);
+                    mount_component(actionbutton, div0, null);
+                    dom_append(div8, t0);
+                    dom_append(div8, div7);
+                    dom_append(div7, div3);
+                    dom_append(div3, div1);
+                    dom_append(div1, t1);
+                    dom_append(div3, t2);
+                    dom_append(div3, div2);
+                    dom_append(div2, t3);
+                    dom_append(div7, t4);
+                    dom_append(div7, div4);
+                    div4.innerHTML = raw_value;
+                    dom_append(div7, t5);
+                    dom_append(div7, div5);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         if (each_blocks[i]) {
-                            each_blocks[i].m(div6, null);
+                            each_blocks[i].m(div5, null);
                         }
                     }
 
-                    dom_append(div8, t7);
-                    dom_append(div8, div7);
-                    dom_append(div7, t8);
+                    dom_append(div7, t6);
+                    dom_append(div7, div6);
+                    dom_append(div6, t7);
                     current = true;
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div1, "click", /*closeReward*/ ctx[5]),
-                            dom_listen(div7, "click", /*getReward*/ ctx[4])
+                            dom_listen(div0, "click", /*closeReward*/ ctx[5]),
+                            dom_listen(div6, "click", /*getReward*/ ctx[4])
                         ];
 
                         mounted = true;
                     }
                 },
                 p(ctx, dirty) {
-                    const imagewithfallback_changes = {};
-                    if (dirty & /*bannerData*/ 1) imagewithfallback_changes.src = `${/*CND_URL_MAIN*/ ctx[2]}/background/${/*bannerData*/ ctx[0].background}`;
-                    imagewithfallback.$set(imagewithfallback_changes);
-                    if ((!current || dirty & /*bannerData*/ 1) && t2_value !== (t2_value = /*bannerData*/ ctx[0].titleHeaders + "")) dom_set_data(t2, t2_value);
+                    if ((!current || dirty & /*bannerData*/ 1) && t1_value !== (t1_value = /*bannerData*/ ctx[0].titleHeaders + "")) dom_set_data(t1, t1_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
-                        dom_toggle_class(div2, "reward-banner__title-caption--pixel", /*bannerData*/ ctx[0].type === 8);
+                        dom_toggle_class(div1, "reward-banner__title-caption--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && t4_value !== (t4_value = /*bannerData*/ ctx[0].title + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty & /*bannerData*/ 1) && t3_value !== (t3_value = /*bannerData*/ ctx[0].title + "")) dom_set_data(t3, t3_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
-                        dom_toggle_class(div3, "reward-banner__title-value--pixel", /*bannerData*/ ctx[0].type === 8);
+                        dom_toggle_class(div2, "reward-banner__title-value--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && raw_value !== (raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "")) div5.innerHTML = raw_value;;
+                    if ((!current || dirty & /*bannerData*/ 1) && raw_value !== (raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "")) div4.innerHTML = raw_value;;
 
                     if (dirty & /*bannerData, rewards, CND_URL_MAIN*/ 7) {
                         each_value = each_ensure_array_like( /*rewards*/ ctx[1]);
@@ -277136,64 +276867,46 @@ const getRandomTableNumber = () => {
 
                             if (each_blocks[i]) {
                                 each_blocks[i].p(child_ctx, dirty);
-                                transitions_transition_in(each_blocks[i], 1);
                             } else {
                                 each_blocks[i] = reward_banner_index_svelte_create_each_block(child_ctx);
                                 each_blocks[i].c();
-                                transitions_transition_in(each_blocks[i], 1);
-                                each_blocks[i].m(div6, null);
+                                each_blocks[i].m(div5, null);
                             }
                         }
 
-                        transitions_group_outros();
-
-                        for (i = each_value.length; i < each_blocks.length; i += 1) {
-                            out(i);
+                        for (; i < each_blocks.length; i += 1) {
+                            each_blocks[i].d(1);
                         }
 
-                        transitions_check_outros();
+                        each_blocks.length = each_value.length;
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && t8_value !== (t8_value = ( /*bannerData*/ ctx[0].time > 0 ?
+                    if ((!current || dirty & /*bannerData*/ 1) && t7_value !== (t7_value = ( /*bannerData*/ ctx[0].time > 0 ?
                             `Доступно через ${formatSecondsToDHhMmSs(/*bannerData*/ ctx[0].time)}` :
-                            `${/*bannerData*/ ctx[0].buttonName}`) + "")) dom_set_data(t8, t8_value);
+                            `${/*bannerData*/ ctx[0].buttonName}`) + "")) dom_set_data(t7, t7_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
-                        dom_toggle_class(div7, "reward-banner__button--active", /*bannerData*/ ctx[0].time <= 0);
+                        dom_toggle_class(div6, "reward-banner__button--active", /*bannerData*/ ctx[0].time <= 0);
                     }
 
-                    if (!current || dirty & /*bannerData*/ 1 && div9_style_value !== (div9_style_value = `--accentColor: ${/*bannerData*/ ctx[0].color}`)) {
-                        dom_attr(div9, "style", div9_style_value);
+                    if (!current || dirty & /*bannerData*/ 1 && div8_style_value !== (div8_style_value = `--bg: url(${/*CND_URL_MAIN*/ ctx[2]}/background/${/*bannerData*/ ctx[0].background}); --accentColor: ${/*bannerData*/ ctx[0].color}`)) {
+                        dom_attr(div8, "style", div8_style_value);
                     }
                 },
                 i(local) {
                     if (current) return;
-                    transitions_transition_in(imagewithfallback.$$.fragment, local);
                     transitions_transition_in(actionbutton.$$.fragment, local);
-
-                    for (let i = 0; i < each_value.length; i += 1) {
-                        transitions_transition_in(each_blocks[i]);
-                    }
-
                     current = true;
                 },
                 o(local) {
-                    transitions_transition_out(imagewithfallback.$$.fragment, local);
                     transitions_transition_out(actionbutton.$$.fragment, local);
-                    each_blocks = each_blocks.filter(Boolean);
-
-                    for (let i = 0; i < each_blocks.length; i += 1) {
-                        transitions_transition_out(each_blocks[i]);
-                    }
-
                     current = false;
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div9);
+                        dom_detach(div8);
                     }
 
-                    destroy_component(imagewithfallback);
                     destroy_component(actionbutton);
                     destroy_each(each_blocks, detaching);
                     mounted = false;
@@ -277202,7 +276915,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (115:7) {#if !isEmpty(reward.badge)}
+        // (105:7) {#if !isEmpty(reward.badge)}
         function reward_banner_index_svelte_create_if_block_1(ctx) {
             let div1;
             let i;
@@ -277240,14 +276953,15 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (112:4) {#each rewards as reward}
+        // (102:4) {#each rewards as reward}
         function reward_banner_index_svelte_create_each_block(ctx) {
             let div5;
             let div4;
             let show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[11].badge);
             let t0;
             let div0;
-            let imagewithfallback;
+            let img;
+            let img_src_value;
             let t1;
             let div3;
             let div1;
@@ -277258,18 +276972,7 @@ const getRandomTableNumber = () => {
             let t4_value = /*reward*/ ctx[11].value + "";
             let t4;
             let t5;
-            let current;
             let if_block = show_if && reward_banner_index_svelte_create_if_block_1(ctx);
-
-            imagewithfallback = new imageWithFallback_index_svelte({
-                props: {
-                    fallbackImageUrl: reward_banner_img_fallback_namespaceObject,
-                    src: `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[11].image}`,
-                    alt: "reward-icon",
-                    class: "reward-banner__reward-image",
-                    useLoader: true
-                }
-            });
 
             return {
                 c() {
@@ -277278,7 +276981,7 @@ const getRandomTableNumber = () => {
                     if (if_block) if_block.c();
                     t0 = dom_space();
                     div0 = dom_element("div");
-                    create_component(imagewithfallback.$$.fragment);
+                    img = dom_element("img");
                     t1 = dom_space();
                     div3 = dom_element("div");
                     div1 = dom_element("div");
@@ -277287,6 +276990,9 @@ const getRandomTableNumber = () => {
                     div2 = dom_element("div");
                     t4 = dom_text(t4_value);
                     t5 = dom_space();
+                    if (!utils_src_url_equal(img.src, img_src_value = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[11].image}`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "reward-icon");
+                    dom_attr(img, "class", "reward-banner__reward-image");
                     dom_attr(div0, "class", "reward-banner__reward-image-wrapper");
                     dom_toggle_class(div0, "reward-banner__reward-image-wrapper--pixel", /*bannerData*/ ctx[0].type === 8);
                     dom_attr(div1, "class", "reward-banner__reward-title");
@@ -277303,7 +277009,7 @@ const getRandomTableNumber = () => {
                     if (if_block) if_block.m(div4, null);
                     dom_append(div4, t0);
                     dom_append(div4, div0);
-                    mount_component(imagewithfallback, div0, null);
+                    dom_append(div0, img);
                     dom_append(div4, t1);
                     dom_append(div4, div3);
                     dom_append(div3, div1);
@@ -277312,7 +277018,6 @@ const getRandomTableNumber = () => {
                     dom_append(div3, div2);
                     dom_append(div2, t4);
                     dom_append(div5, t5);
-                    current = true;
                 },
                 p(ctx, dirty) {
                     if (dirty & /*rewards*/ 2) show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[11].badge);
@@ -277330,33 +277035,24 @@ const getRandomTableNumber = () => {
                         if_block = null;
                     }
 
-                    const imagewithfallback_changes = {};
-                    if (dirty & /*rewards*/ 2) imagewithfallback_changes.src = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[11].image}`;
-                    imagewithfallback.$set(imagewithfallback_changes);
+                    if (dirty & /*rewards*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[11].image}`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
 
-                    if (!current || dirty & /*bannerData*/ 1) {
+                    if (dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div0, "reward-banner__reward-image-wrapper--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if ((!current || dirty & /*rewards*/ 2) && t2_value !== (t2_value = /*reward*/ ctx[11].title + "")) dom_set_data(t2, t2_value);
-                    if ((!current || dirty & /*rewards*/ 2) && t4_value !== (t4_value = /*reward*/ ctx[11].value + "")) dom_set_data(t4, t4_value);
+                    if (dirty & /*rewards*/ 2 && t2_value !== (t2_value = /*reward*/ ctx[11].title + "")) dom_set_data(t2, t2_value);
+                    if (dirty & /*rewards*/ 2 && t4_value !== (t4_value = /*reward*/ ctx[11].value + "")) dom_set_data(t4, t4_value);
 
-                    if (!current || dirty & /*bannerData*/ 1) {
+                    if (dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div3, "reward-banner__reward-info--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if (!current || dirty & /*bannerData*/ 1) {
+                    if (dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div4, "reward-banner__reward--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(imagewithfallback.$$.fragment, local);
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(imagewithfallback.$$.fragment, local);
-                    current = false;
                 },
                 d(detaching) {
                     if (detaching) {
@@ -277364,7 +277060,6 @@ const getRandomTableNumber = () => {
                     }
 
                     if (if_block) if_block.d();
-                    destroy_component(imagewithfallback);
                 }
             };
         }
@@ -300532,7 +300227,7 @@ const getRandomTableNumber = () => {
                     };
                 }).filter(Boolean);
 
-                speed = getResolutionScale(PIXELS_STEP) * 1.25;
+                speed = getResolutionScale(PIXELS_STEP);
                 initialOffsetLeft = getResolutionScale(OUT_OF_SIGHT_OFFSET);
 
                 generatorInterval = setInterval(
@@ -305296,7 +304991,7 @@ const getRandomTableNumber = () => {
 
 
 
-        // import { SERVER_MOCK, MODAL_SETTINGS_MOCK } from './mock';
+
 
 
         function donate_shop_index_svelte_get_each_context(ctx, list, i) {
@@ -305306,10 +305001,10 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (311:8) {:else}
+        // (306:8) {:else}
         function donate_shop_index_svelte_create_else_block_1(ctx) {
             let div;
-            let each_value = each_ensure_array_like( /*$categories*/ ctx[3]);
+            let each_value = each_ensure_array_like( /*$categories*/ ctx[4]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value.length; i += 1) {
@@ -305336,8 +305031,8 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$categoriesDisabled, hoveredCategoryId, $categories, selectCategory, $selectedCategoryId*/ 1321) {
-                        each_value = each_ensure_array_like( /*$categories*/ ctx[3]);
+                    if (dirty[0] & /*$categoriesDisabled, hoveredCategoryId, $categories, selectCategory, $selectedCategoryId*/ 1109) {
+                        each_value = each_ensure_array_like( /*$categories*/ ctx[4]);
                         let i;
 
                         for (i = 0; i < each_value.length; i += 1) {
@@ -305371,7 +305066,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (307:8) {#if isEmpty($categories)}
+        // (302:8) {#if isEmpty($categories)}
         function donate_shop_index_svelte_create_if_block_4(ctx) {
             let div;
             let loader;
@@ -305413,7 +305108,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (314:20) {#if category.visible}
+        // (309:20) {#if category.visible}
         function donate_shop_index_svelte_create_if_block_5(ctx) {
             let div3;
             let div2;
@@ -305432,7 +305127,7 @@ const getRandomTableNumber = () => {
             let t6;
             let mounted;
             let dispose;
-            let if_block0 = ( /*hoveredCategoryId*/ ctx[0] === /*category*/ ctx[39].key || /*$selectedCategoryId*/ ctx[8] === /*category*/ ctx[39].key) && donate_shop_index_svelte_create_if_block_8(ctx);
+            let if_block0 = ( /*hoveredCategoryId*/ ctx[0] === /*category*/ ctx[39].key || /*$selectedCategoryId*/ ctx[2] === /*category*/ ctx[39].key) && donate_shop_index_svelte_create_if_block_8(ctx);
             let if_block1 = show_if && donate_shop_index_svelte_create_if_block_7(ctx);
             let if_block2 = /*category*/ ctx[39].isNew && donate_shop_index_svelte_create_if_block_6(ctx);
 
@@ -305477,10 +305172,10 @@ const getRandomTableNumber = () => {
                     set_style(div2, "--hoverHalfColor", `linear-gradient(90deg, transparent 20%, ${/*category*/ ctx[39].hoverColorId} 100%)`);
                     set_style(div2, "--hoverFullColor", `linear-gradient(90deg, ${/*category*/ ctx[39].hoverColorId}66 0%, ${/*category*/ ctx[39].hoverColorId}CC 100%)`);
                     set_style(div2, "--flareGradient", `radial-gradient(ellipse, ${/*category*/ ctx[39].hoverColorId}66 15%, transparent 70%)`);
-                    dom_toggle_class(div2, "donate-shop__navigation-item-border--active", /*category*/ ctx[39].key === /*$selectedCategoryId*/ ctx[8]);
+                    dom_toggle_class(div2, "donate-shop__navigation-item-border--active", /*category*/ ctx[39].key === /*$selectedCategoryId*/ ctx[2]);
                     dom_toggle_class(div2, "donate-shop__navigation-item-border--hidden", /*category*/ ctx[39].borderColorId === 0);
                     dom_attr(div3, "class", "donate-shop__navigation-item");
-                    dom_toggle_class(div3, "donate-shop__navigation-item--disabled", /*$categoriesDisabled*/ ctx[5]);
+                    dom_toggle_class(div3, "donate-shop__navigation-item--disabled", /*$categoriesDisabled*/ ctx[6]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div3, anchor);
@@ -305512,11 +305207,11 @@ const getRandomTableNumber = () => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div0, "background-image", "url(" + MAP_ID_TO_CATEGORY_BACKGROUND[ /*category*/ ctx[39].backgroundId] + ")");
                     }
 
-                    if ( /*hoveredCategoryId*/ ctx[0] === /*category*/ ctx[39].key || /*$selectedCategoryId*/ ctx[8] === /*category*/ ctx[39].key) {
+                    if ( /*hoveredCategoryId*/ ctx[0] === /*category*/ ctx[39].key || /*$selectedCategoryId*/ ctx[2] === /*category*/ ctx[39].key) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -305529,12 +305224,12 @@ const getRandomTableNumber = () => {
                         if_block0 = null;
                     }
 
-                    if (dirty[0] & /*$categories*/ 8 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate_category/${/*category*/ ctx[39].imageId}.webp`)) {
+                    if (dirty[0] & /*$categories*/ 16 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate_category/${/*category*/ ctx[39].imageId}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8 && t3_value !== (t3_value = /*category*/ ctx[39].name + "")) dom_set_data(t3, t3_value);
-                    if (dirty[0] & /*$categories*/ 8) show_if = !(0, lodash.isEmpty)( /*category*/ ctx[39].borderColorId);
+                    if (dirty[0] & /*$categories*/ 16 && t3_value !== (t3_value = /*category*/ ctx[39].name + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*$categories*/ 16) show_if = !(0, lodash.isEmpty)( /*category*/ ctx[39].borderColorId);
 
                     if (show_if) {
                         if (if_block1) {
@@ -305562,52 +305257,52 @@ const getRandomTableNumber = () => {
                         if_block2 = null;
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--gradientRegular", `linear-gradient(90deg, ${/*category*/ ctx[39].borderColorId[0]} 0%, ${/*category*/ ctx[39].borderColorId[1]} 100%)`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--gradientHover", `linear-gradient(180deg, ${/*category*/ ctx[39].borderColorId[0]} 0%, ${/*category*/ ctx[39].borderColorId[1]} 100%)`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--gradientClick", `linear-gradient(270deg, ${/*category*/ ctx[39].borderColorId[0]} 0%, ${/*category*/ ctx[39].borderColorId[1]} 100%)`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--gradientActive", `linear-gradient(0deg, ${/*category*/ ctx[39].borderColorId[0]} 0%, ${/*category*/ ctx[39].borderColorId[1]} 100%)`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--shadowBoxFull", `0px 0px 24px 0px ${/*category*/ ctx[39].hoverColorId}`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--shadowBoxOpacity", `0px 0px 16px 0px ${/*category*/ ctx[39].hoverColorId}1a`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--hoverHalfColor", `linear-gradient(90deg, transparent 20%, ${/*category*/ ctx[39].hoverColorId} 100%)`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--hoverFullColor", `linear-gradient(90deg, ${/*category*/ ctx[39].hoverColorId}66 0%, ${/*category*/ ctx[39].hoverColorId}CC 100%)`);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         set_style(div2, "--flareGradient", `radial-gradient(ellipse, ${/*category*/ ctx[39].hoverColorId}66 15%, transparent 70%)`);
                     }
 
-                    if (dirty[0] & /*$categories, $selectedCategoryId*/ 264) {
-                        dom_toggle_class(div2, "donate-shop__navigation-item-border--active", /*category*/ ctx[39].key === /*$selectedCategoryId*/ ctx[8]);
+                    if (dirty[0] & /*$categories, $selectedCategoryId*/ 20) {
+                        dom_toggle_class(div2, "donate-shop__navigation-item-border--active", /*category*/ ctx[39].key === /*$selectedCategoryId*/ ctx[2]);
                     }
 
-                    if (dirty[0] & /*$categories*/ 8) {
+                    if (dirty[0] & /*$categories*/ 16) {
                         dom_toggle_class(div2, "donate-shop__navigation-item-border--hidden", /*category*/ ctx[39].borderColorId === 0);
                     }
 
-                    if (dirty[0] & /*$categoriesDisabled*/ 32) {
-                        dom_toggle_class(div3, "donate-shop__navigation-item--disabled", /*$categoriesDisabled*/ ctx[5]);
+                    if (dirty[0] & /*$categoriesDisabled*/ 64) {
+                        dom_toggle_class(div3, "donate-shop__navigation-item--disabled", /*$categoriesDisabled*/ ctx[6]);
                     }
                 },
                 d(detaching) {
@@ -305624,7 +305319,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (342:32) {#if hoveredCategoryId === category.key || $selectedCategoryId === category.key}
+        // (337:32) {#if hoveredCategoryId === category.key || $selectedCategoryId === category.key}
         function donate_shop_index_svelte_create_if_block_8(ctx) {
             let div;
 
@@ -305632,19 +305327,19 @@ const getRandomTableNumber = () => {
                 c() {
                     div = dom_element("div");
                     dom_attr(div, "class", "donate-shop__navigation-hover-overlay");
-                    dom_toggle_class(div, "donate-shop__navigation-hover-overlay--hidden", /*hoveredCategoryId*/ ctx[0] !== /*category*/ ctx[39].key && /*$selectedCategoryId*/ ctx[8] !== /*category*/ ctx[39].key);
-                    dom_toggle_class(div, "donate-shop__navigation-hover-overlay--active", /*$selectedCategoryId*/ ctx[8] === /*category*/ ctx[39].key);
+                    dom_toggle_class(div, "donate-shop__navigation-hover-overlay--hidden", /*hoveredCategoryId*/ ctx[0] !== /*category*/ ctx[39].key && /*$selectedCategoryId*/ ctx[2] !== /*category*/ ctx[39].key);
+                    dom_toggle_class(div, "donate-shop__navigation-hover-overlay--active", /*$selectedCategoryId*/ ctx[2] === /*category*/ ctx[39].key);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*hoveredCategoryId, $categories, $selectedCategoryId*/ 265) {
-                        dom_toggle_class(div, "donate-shop__navigation-hover-overlay--hidden", /*hoveredCategoryId*/ ctx[0] !== /*category*/ ctx[39].key && /*$selectedCategoryId*/ ctx[8] !== /*category*/ ctx[39].key);
+                    if (dirty[0] & /*hoveredCategoryId, $categories, $selectedCategoryId*/ 21) {
+                        dom_toggle_class(div, "donate-shop__navigation-hover-overlay--hidden", /*hoveredCategoryId*/ ctx[0] !== /*category*/ ctx[39].key && /*$selectedCategoryId*/ ctx[2] !== /*category*/ ctx[39].key);
                     }
 
-                    if (dirty[0] & /*$selectedCategoryId, $categories*/ 264) {
-                        dom_toggle_class(div, "donate-shop__navigation-hover-overlay--active", /*$selectedCategoryId*/ ctx[8] === /*category*/ ctx[39].key);
+                    if (dirty[0] & /*$selectedCategoryId, $categories*/ 20) {
+                        dom_toggle_class(div, "donate-shop__navigation-hover-overlay--active", /*$selectedCategoryId*/ ctx[2] === /*category*/ ctx[39].key);
                     }
                 },
                 d(detaching) {
@@ -305655,7 +305350,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (351:32) {#if !isEmpty(category.borderColorId)}
+        // (346:32) {#if !isEmpty(category.borderColorId)}
         function donate_shop_index_svelte_create_if_block_7(ctx) {
             let div1;
             let div0;
@@ -305665,7 +305360,7 @@ const getRandomTableNumber = () => {
                     div1 = dom_element("div");
                     div0 = dom_element("div");
                     dom_attr(div0, "class", "donate-shop__navigation-item-flare");
-                    set_style(div0, "animation-delay", 4 * _randomHelper(0, /*$categories*/ ctx[3].length) + "s");
+                    set_style(div0, "animation-delay", 4 * _randomHelper(0, /*$categories*/ ctx[4].length) + "s");
                     dom_attr(div1, "class", "donate-shop__navigation-item-flare-wrapper");
                 },
                 m(target, anchor) {
@@ -305673,8 +305368,8 @@ const getRandomTableNumber = () => {
                     dom_append(div1, div0);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$categories*/ 8) {
-                        set_style(div0, "animation-delay", 4 * _randomHelper(0, /*$categories*/ ctx[3].length) + "s");
+                    if (dirty[0] & /*$categories*/ 16) {
+                        set_style(div0, "animation-delay", 4 * _randomHelper(0, /*$categories*/ ctx[4].length) + "s");
                     }
                 },
                 d(detaching) {
@@ -305685,7 +305380,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (356:32) {#if category.isNew}
+        // (351:32) {#if category.isNew}
         function donate_shop_index_svelte_create_if_block_6(ctx) {
             let div;
 
@@ -305706,7 +305401,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (313:16) {#each $categories as category, index}
+        // (308:16) {#each $categories as category, index}
         function donate_shop_index_svelte_create_each_block(ctx) {
             let if_block_anchor;
             let if_block = /*category*/ ctx[39].visible && donate_shop_index_svelte_create_if_block_5(ctx);
@@ -305744,14 +305439,14 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (367:8) {#if $mainInfo.buttonEventStatus}
+        // (362:8) {#if $mainInfo.buttonEventStatus}
         function donate_shop_index_svelte_create_if_block_3(ctx) {
             let div1;
             let img;
             let img_src_value;
             let t0;
             let div0;
-            let t1_value = ( /*$mainInfo*/ ctx[2].buttonEventName || '') + "";
+            let t1_value = ( /*$mainInfo*/ ctx[3].buttonEventName || '') + "";
             let t1;
             let mounted;
             let dispose;
@@ -305782,7 +305477,7 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$mainInfo*/ 4 && t1_value !== (t1_value = ( /*$mainInfo*/ ctx[2].buttonEventName || '') + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*$mainInfo*/ 8 && t1_value !== (t1_value = ( /*$mainInfo*/ ctx[3].buttonEventName || '') + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -305795,11 +305490,11 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (391:12) {#if $mainInfo.getBoostPayment > 3}
+        // (386:12) {#if $mainInfo.getBoostPayment > 3}
         function donate_shop_index_svelte_create_if_block_2(ctx) {
             let div;
             let t0;
-            let t1_value = /*$mainInfo*/ ctx[2].getBoostPayment + "";
+            let t1_value = /*$mainInfo*/ ctx[3].getBoostPayment + "";
             let t1;
 
             return {
@@ -305815,7 +305510,7 @@ const getRandomTableNumber = () => {
                     dom_append(div, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$mainInfo*/ 4 && t1_value !== (t1_value = /*$mainInfo*/ ctx[2].getBoostPayment + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*$mainInfo*/ 8 && t1_value !== (t1_value = /*$mainInfo*/ ctx[3].getBoostPayment + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -305825,7 +305520,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (406:12) {:else}
+        // (400:8) {:else}
         function donate_shop_index_svelte_create_else_block(ctx) {
             let switch_instance;
             let updating_items;
@@ -305842,8 +305537,8 @@ const getRandomTableNumber = () => {
             function switch_props(ctx, dirty) {
                 let switch_instance_props = {};
 
-                if ( /*$products*/ ctx[6][ /*$selectedCategoryId*/ ctx[8]] !== void 0) {
-                    switch_instance_props.items = /*$products*/ ctx[6][ /*$selectedCategoryId*/ ctx[8]];
+                if ( /*$products*/ ctx[7][ /*$selectedCategoryId*/ ctx[2]] !== void 0) {
+                    switch_instance_props.items = /*$products*/ ctx[7][ /*$selectedCategoryId*/ ctx[2]];
                 }
 
                 return {
@@ -305891,9 +305586,9 @@ const getRandomTableNumber = () => {
                     } else if (switch_value) {
                         const switch_instance_changes = {};
 
-                        if (!updating_items && dirty[0] & /*$products, $selectedCategoryId*/ 320) {
+                        if (!updating_items && dirty[0] & /*$products, $selectedCategoryId*/ 132) {
                             updating_items = true;
-                            switch_instance_changes.items = /*$products*/ ctx[6][ /*$selectedCategoryId*/ ctx[8]];
+                            switch_instance_changes.items = /*$products*/ ctx[7][ /*$selectedCategoryId*/ ctx[2]];
                             add_flush_callback(() => updating_items = false);
                         }
 
@@ -305919,7 +305614,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (402:12) {#if isEmpty($products[$selectedCategoryId])}
+        // (396:8) {#if isEmpty($products[$selectedCategoryId])}
         function donate_shop_index_svelte_create_if_block_1(ctx) {
             let div;
             let loader;
@@ -305961,101 +305656,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (400:4) {#key $selectedCategoryId}
-        function donate_shop_index_svelte_create_key_block(ctx) {
-            let div;
-            let show_if;
-            let current_block_type_index;
-            let if_block;
-            let div_intro;
-            let current;
-            const if_block_creators = [donate_shop_index_svelte_create_if_block_1, donate_shop_index_svelte_create_else_block];
-            const if_blocks = [];
-
-            function select_block_type_1(ctx, dirty) {
-                if (dirty[0] & /*$products, $selectedCategoryId*/ 320) show_if = null;
-                if (show_if == null) show_if = !!(0, lodash.isEmpty)( /*$products*/ ctx[6][ /*$selectedCategoryId*/ ctx[8]]);
-                if (show_if) return 0;
-                return 1;
-            }
-
-            current_block_type_index = select_block_type_1(ctx, [-1, -1]);
-            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    if_block.c();
-                    dom_attr(div, "class", "donate-shop__content");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    if_blocks[current_block_type_index].m(div, null);
-                    /*div_binding*/
-                    ctx[21](div);
-                    current = true;
-                },
-                p(ctx, dirty) {
-                    let previous_block_index = current_block_type_index;
-                    current_block_type_index = select_block_type_1(ctx, dirty);
-
-                    if (current_block_type_index === previous_block_index) {
-                        if_blocks[current_block_type_index].p(ctx, dirty);
-                    } else {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_blocks[previous_block_index], 1, 1, () => {
-                            if_blocks[previous_block_index] = null;
-                        });
-
-                        transitions_check_outros();
-                        if_block = if_blocks[current_block_type_index];
-
-                        if (!if_block) {
-                            if_block = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-                            if_block.c();
-                        } else {
-                            if_block.p(ctx, dirty);
-                        }
-
-                        transitions_transition_in(if_block, 1);
-                        if_block.m(div, null);
-                    }
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-
-                    if (local) {
-                        if (!div_intro) {
-                            add_render_callback(() => {
-                                div_intro = create_in_transition(div, fade, {
-                                    duration: 200
-                                });
-                                div_intro.start();
-                            });
-                        }
-                    }
-
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    current = false;
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-
-                    if_blocks[current_block_type_index].d();
-                    /*div_binding*/
-                    ctx[21](null);
-                }
-            };
-        }
-
-        // (412:4) {#if $modalSettings.visibility}
+        // (405:4) {#if $modalSettings.visibility}
         function donate_shop_index_svelte_create_if_block(ctx) {
             let div;
             let modal;
@@ -306099,11 +305700,11 @@ const getRandomTableNumber = () => {
         }
 
         function donate_shop_index_svelte_create_fragment(ctx) {
-            let div11;
+            let div12;
             let div1;
             let div0;
             let t1;
-            let show_if;
+            let show_if_1;
             let current_block_type_index;
             let if_block0;
             let t2;
@@ -306112,7 +305713,7 @@ const getRandomTableNumber = () => {
             let div5;
             let div3;
             let div2;
-            let t4_value = formatMoney( /*$mainInfo*/ ctx[2].countMoney || 0) + "";
+            let t4_value = formatMoney( /*$mainInfo*/ ctx[3].countMoney || 0) + "";
             let t4;
             let t5;
             let i0;
@@ -306122,7 +305723,7 @@ const getRandomTableNumber = () => {
             let div9;
             let div7;
             let div6;
-            let t8_value = `${formatMoney(/*$mainInfo*/ ctx[2].countDonate || 0)} AZ` + "";
+            let t8_value = `${formatMoney(/*$mainInfo*/ ctx[3].countDonate || 0)} AZ` + "";
             let t8;
             let t9;
             let img;
@@ -306133,7 +305734,10 @@ const getRandomTableNumber = () => {
             let t12;
             let actionbutton;
             let t13;
-            let previous_key = /*$selectedCategoryId*/ ctx[8];
+            let div11;
+            let show_if;
+            let current_block_type_index_1;
+            let if_block3;
             let t14;
             let current;
             let mounted;
@@ -306142,16 +305746,16 @@ const getRandomTableNumber = () => {
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
-                if (dirty[0] & /*$categories*/ 8) show_if = null;
-                if (show_if == null) show_if = !!(0, lodash.isEmpty)( /*$categories*/ ctx[3]);
-                if (show_if) return 0;
+                if (dirty[0] & /*$categories*/ 16) show_if_1 = null;
+                if (show_if_1 == null) show_if_1 = !!(0, lodash.isEmpty)( /*$categories*/ ctx[4]);
+                if (show_if_1) return 0;
                 return 1;
             }
 
             current_block_type_index = select_block_type(ctx, [-1, -1]);
             if_block0 = if_blocks[current_block_type_index] = if_block_creators[current_block_type_index](ctx);
-            let if_block1 = /*$mainInfo*/ ctx[2].buttonEventStatus && donate_shop_index_svelte_create_if_block_3(ctx);
-            let if_block2 = /*$mainInfo*/ ctx[2].getBoostPayment > 3 && donate_shop_index_svelte_create_if_block_2(ctx);
+            let if_block1 = /*$mainInfo*/ ctx[3].buttonEventStatus && donate_shop_index_svelte_create_if_block_3(ctx);
+            let if_block2 = /*$mainInfo*/ ctx[3].getBoostPayment > 3 && donate_shop_index_svelte_create_if_block_2(ctx);
 
             actionbutton = new shared_action_button_index_svelte({
                 props: {
@@ -306161,12 +305765,23 @@ const getRandomTableNumber = () => {
                 }
             });
 
-            let key_block = donate_shop_index_svelte_create_key_block(ctx);
-            let if_block3 = /*$modalSettings*/ ctx[4].visibility && donate_shop_index_svelte_create_if_block(ctx);
+            const if_block_creators_1 = [donate_shop_index_svelte_create_if_block_1, donate_shop_index_svelte_create_else_block];
+            const if_blocks_1 = [];
+
+            function select_block_type_1(ctx, dirty) {
+                if (dirty[0] & /*$products, $selectedCategoryId*/ 132) show_if = null;
+                if (show_if == null) show_if = !!(0, lodash.isEmpty)( /*$products*/ ctx[7][ /*$selectedCategoryId*/ ctx[2]]);
+                if (show_if) return 0;
+                return 1;
+            }
+
+            current_block_type_index_1 = select_block_type_1(ctx, [-1, -1]);
+            if_block3 = if_blocks_1[current_block_type_index_1] = if_block_creators_1[current_block_type_index_1](ctx);
+            let if_block4 = /*$modalSettings*/ ctx[5].visibility && donate_shop_index_svelte_create_if_block(ctx);
 
             return {
                 c() {
-                    div11 = dom_element("div");
+                    div12 = dom_element("div");
                     div1 = dom_element("div");
                     div0 = dom_element("div");
                     div0.textContent = "МАГАЗИН";
@@ -306200,9 +305815,10 @@ const getRandomTableNumber = () => {
                     t12 = dom_space();
                     create_component(actionbutton.$$.fragment);
                     t13 = dom_space();
-                    key_block.c();
+                    div11 = dom_element("div");
+                    if_block3.c();
                     t14 = dom_space();
-                    if (if_block3) if_block3.c();
+                    if (if_block4) if_block4.c();
                     dom_attr(div0, "class", "donate-shop__navigation-title");
                     dom_attr(div1, "class", "donate-shop__navigation");
                     dom_attr(div2, "class", "donate-shop__coins-value");
@@ -306218,16 +305834,17 @@ const getRandomTableNumber = () => {
                     dom_attr(div8, "class", "donate-shop__coins-add donate-shop__coins-add--yellow");
                     dom_attr(div9, "class", "donate-shop__coins-field");
                     dom_attr(div10, "class", "donate-shop__coins");
-                    dom_attr(div11, "class", "donate-shop");
+                    dom_attr(div11, "class", "donate-shop__content");
+                    dom_attr(div12, "class", "donate-shop");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div11, anchor);
-                    dom_append(div11, div1);
+                    dom_insert(target, div12, anchor);
+                    dom_append(div12, div1);
                     dom_append(div1, div0);
                     dom_append(div1, t1);
                     if_blocks[current_block_type_index].m(div1, null);
-                    dom_append(div11, t2);
-                    dom_append(div11, div10);
+                    dom_append(div12, t2);
+                    dom_append(div12, div10);
                     if (if_block1) if_block1.m(div10, null);
                     dom_append(div10, t3);
                     dom_append(div10, div5);
@@ -306251,10 +305868,13 @@ const getRandomTableNumber = () => {
                     if (if_block2) if_block2.m(div9, null);
                     dom_append(div10, t12);
                     mount_component(actionbutton, div10, null);
-                    dom_append(div11, t13);
-                    key_block.m(div11, null);
-                    dom_append(div11, t14);
-                    if (if_block3) if_block3.m(div11, null);
+                    dom_append(div12, t13);
+                    dom_append(div12, div11);
+                    if_blocks_1[current_block_type_index_1].m(div11, null);
+                    /*div11_binding*/
+                    ctx[21](div11);
+                    dom_append(div12, t14);
+                    if (if_block4) if_block4.m(div12, null);
                     current = true;
 
                     if (!mounted) {
@@ -306293,7 +305913,7 @@ const getRandomTableNumber = () => {
                         if_block0.m(div1, null);
                     }
 
-                    if ( /*$mainInfo*/ ctx[2].buttonEventStatus) {
+                    if ( /*$mainInfo*/ ctx[3].buttonEventStatus) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
@@ -306306,10 +305926,10 @@ const getRandomTableNumber = () => {
                         if_block1 = null;
                     }
 
-                    if ((!current || dirty[0] & /*$mainInfo*/ 4) && t4_value !== (t4_value = formatMoney( /*$mainInfo*/ ctx[2].countMoney || 0) + "")) dom_set_data(t4, t4_value);
-                    if ((!current || dirty[0] & /*$mainInfo*/ 4) && t8_value !== (t8_value = `${formatMoney(/*$mainInfo*/ ctx[2].countDonate || 0)} AZ` + "")) dom_set_data(t8, t8_value);
+                    if ((!current || dirty[0] & /*$mainInfo*/ 8) && t4_value !== (t4_value = formatMoney( /*$mainInfo*/ ctx[3].countMoney || 0) + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty[0] & /*$mainInfo*/ 8) && t8_value !== (t8_value = `${formatMoney(/*$mainInfo*/ ctx[3].countDonate || 0)} AZ` + "")) dom_set_data(t8, t8_value);
 
-                    if ( /*$mainInfo*/ ctx[2].getBoostPayment > 3) {
+                    if ( /*$mainInfo*/ ctx[3].getBoostPayment > 3) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
@@ -306322,36 +305942,50 @@ const getRandomTableNumber = () => {
                         if_block2 = null;
                     }
 
-                    if (dirty[0] & /*$selectedCategoryId*/ 256 && utils_safe_not_equal(previous_key, previous_key = /*$selectedCategoryId*/ ctx[8])) {
-                        transitions_group_outros();
-                        transitions_transition_out(key_block, 1, 1, utils_noop);
-                        transitions_check_outros();
-                        key_block = donate_shop_index_svelte_create_key_block(ctx);
-                        key_block.c();
-                        transitions_transition_in(key_block, 1);
-                        key_block.m(div11, t14);
+                    let previous_block_index_1 = current_block_type_index_1;
+                    current_block_type_index_1 = select_block_type_1(ctx, dirty);
+
+                    if (current_block_type_index_1 === previous_block_index_1) {
+                        if_blocks_1[current_block_type_index_1].p(ctx, dirty);
                     } else {
-                        key_block.p(ctx, dirty);
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_blocks_1[previous_block_index_1], 1, 1, () => {
+                            if_blocks_1[previous_block_index_1] = null;
+                        });
+
+                        transitions_check_outros();
+                        if_block3 = if_blocks_1[current_block_type_index_1];
+
+                        if (!if_block3) {
+                            if_block3 = if_blocks_1[current_block_type_index_1] = if_block_creators_1[current_block_type_index_1](ctx);
+                            if_block3.c();
+                        } else {
+                            if_block3.p(ctx, dirty);
+                        }
+
+                        transitions_transition_in(if_block3, 1);
+                        if_block3.m(div11, null);
                     }
 
-                    if ( /*$modalSettings*/ ctx[4].visibility) {
-                        if (if_block3) {
-                            if_block3.p(ctx, dirty);
+                    if ( /*$modalSettings*/ ctx[5].visibility) {
+                        if (if_block4) {
+                            if_block4.p(ctx, dirty);
 
-                            if (dirty[0] & /*$modalSettings*/ 16) {
-                                transitions_transition_in(if_block3, 1);
+                            if (dirty[0] & /*$modalSettings*/ 32) {
+                                transitions_transition_in(if_block4, 1);
                             }
                         } else {
-                            if_block3 = donate_shop_index_svelte_create_if_block(ctx);
-                            if_block3.c();
-                            transitions_transition_in(if_block3, 1);
-                            if_block3.m(div11, null);
+                            if_block4 = donate_shop_index_svelte_create_if_block(ctx);
+                            if_block4.c();
+                            transitions_transition_in(if_block4, 1);
+                            if_block4.m(div12, null);
                         }
-                    } else if (if_block3) {
+                    } else if (if_block4) {
                         transitions_group_outros();
 
-                        transitions_transition_out(if_block3, 1, 1, () => {
-                            if_block3 = null;
+                        transitions_transition_out(if_block4, 1, 1, () => {
+                            if_block4 = null;
                         });
 
                         transitions_check_outros();
@@ -306361,28 +305995,30 @@ const getRandomTableNumber = () => {
                     if (current) return;
                     transitions_transition_in(if_block0);
                     transitions_transition_in(actionbutton.$$.fragment, local);
-                    transitions_transition_in(key_block);
                     transitions_transition_in(if_block3);
+                    transitions_transition_in(if_block4);
                     current = true;
                 },
                 o(local) {
                     transitions_transition_out(if_block0);
                     transitions_transition_out(actionbutton.$$.fragment, local);
-                    transitions_transition_out(key_block);
                     transitions_transition_out(if_block3);
+                    transitions_transition_out(if_block4);
                     current = false;
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div11);
+                        dom_detach(div12);
                     }
 
                     if_blocks[current_block_type_index].d();
                     if (if_block1) if_block1.d();
                     if (if_block2) if_block2.d();
                     destroy_component(actionbutton);
-                    key_block.d(detaching);
-                    if (if_block3) if_block3.d();
+                    if_blocks_1[current_block_type_index_1].d();
+                    /*div11_binding*/
+                    ctx[21](null);
+                    if (if_block4) if_block4.d();
                     mounted = false;
                     utils_run_all(dispose);
                 }
@@ -306390,6 +306026,7 @@ const getRandomTableNumber = () => {
         }
 
         function donate_shop_index_svelte_instance($$self, $$props, $$invalidate) {
+            let $selectedCategoryId;
             let $mainInfo;
             let $categories;
             let $modalSettings;
@@ -306398,18 +306035,17 @@ const getRandomTableNumber = () => {
             let $donateSettings;
             let $serverApiServerId;
             let $serverApiToken;
-            let $selectedCategoryId;
             let $layoutTemplate;
             let $selectedScreen;
-            utils_component_subscribe($$self, mainInfo, $$value => $$invalidate(2, $mainInfo = $$value));
-            utils_component_subscribe($$self, categories, $$value => $$invalidate(3, $categories = $$value));
-            utils_component_subscribe($$self, modalSettings, $$value => $$invalidate(4, $modalSettings = $$value));
-            utils_component_subscribe($$self, categoriesDisabled, $$value => $$invalidate(5, $categoriesDisabled = $$value));
-            utils_component_subscribe($$self, products, $$value => $$invalidate(6, $products = $$value));
-            utils_component_subscribe($$self, donateSettings, $$value => $$invalidate(7, $donateSettings = $$value));
+            utils_component_subscribe($$self, store_selectedCategoryId, $$value => $$invalidate(2, $selectedCategoryId = $$value));
+            utils_component_subscribe($$self, mainInfo, $$value => $$invalidate(3, $mainInfo = $$value));
+            utils_component_subscribe($$self, categories, $$value => $$invalidate(4, $categories = $$value));
+            utils_component_subscribe($$self, modalSettings, $$value => $$invalidate(5, $modalSettings = $$value));
+            utils_component_subscribe($$self, categoriesDisabled, $$value => $$invalidate(6, $categoriesDisabled = $$value));
+            utils_component_subscribe($$self, products, $$value => $$invalidate(7, $products = $$value));
+            utils_component_subscribe($$self, donateSettings, $$value => $$invalidate(8, $donateSettings = $$value));
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(25, $serverApiServerId = $$value));
             utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(26, $serverApiToken = $$value));
-            utils_component_subscribe($$self, store_selectedCategoryId, $$value => $$invalidate(8, $selectedCategoryId = $$value));
             utils_component_subscribe($$self, layoutTemplate, $$value => $$invalidate(27, $layoutTemplate = $$value));
             utils_component_subscribe($$self, store_selectedScreen, $$value => $$invalidate(9, $selectedScreen = $$value));
             let hoveredCategoryId = -1;
@@ -306435,11 +306071,7 @@ const getRandomTableNumber = () => {
                 );
 
                 utils_set_store_value(layoutTemplate, $layoutTemplate = LayoutTemplate[category.gridTemplate], $layoutTemplate);
-
-                if ($selectedCategoryId !== category.key) {
-                    donate_shop_sounds_soundManager.play('click');
-                }
-
+                donate_shop_sounds_soundManager.play('click');
                 cef_sendClientMessage('donateShop.selectCategory', category.key);
             };
 
@@ -306466,10 +306098,10 @@ const getRandomTableNumber = () => {
                 donate_shop_sounds_soundManager.play('click');
             };
 
-            const getProducts = async () => {
+            const getProducts = () => {
                 console.log(`[getProducts]: project: ${SERVER_API_PROJECT}, key: donate_settings, server: ${$serverApiServerId}`);
 
-                return lib_axios.get(`${SERVER_API_URL}/client/json/table/get?project=${SERVER_API_PROJECT}&key=donate_items&server=${$serverApiServerId}`, {
+                lib_axios.get(`${SERVER_API_URL}/client/json/table/get?project=${SERVER_API_PROJECT}&key=donate_items&server=${$serverApiServerId}`, {
                     headers: {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
@@ -306477,8 +306109,6 @@ const getRandomTableNumber = () => {
                     if ((0, lodash.isEmpty)(response.data)) {
                         return;
                     }
-
-                    const updatedProducts = {};
 
                     response.data.forEach(item => {
                         const timeDifference = item.endUnixTime - moment_default()().unix();
@@ -306488,15 +306118,15 @@ const getRandomTableNumber = () => {
                             timerView,
                             timeDifference
                         };
-                        updatedProducts[item.category] = [...updatedProducts[item.category] || [], augmentedItem].sort((a, b) => a.position - b.position);
+                        utils_set_store_value(products, $products[item.category] = [...$products[item.category], augmentedItem].sort((a, b) => a.position - b.position), $products);
 
                         if (item.discount > 0 && item.category !== actionCategoryId && item.category !== 0) {
-                            updatedProducts[actionCategoryId] = [...updatedProducts[actionCategoryId] || [], augmentedItem].sort((a, b) => a.position - b.position);
+                            utils_set_store_value(products, $products[actionCategoryId] = [...$products[actionCategoryId], augmentedItem].sort((a, b) => a.position - b.position), $products);
                         }
 
                         if (timerView) {
-                            const itemIndex = updatedProducts[item.category].findIndex(findItem => findItem.key === item.key);
-                            const actionItemIndex = (updatedProducts[actionCategoryId] || []).findIndex(findItem => findItem.key === item.key);
+                            const itemIndex = $products[item.category].findIndex(findItem => findItem.key === item.key);
+                            const actionItemIndex = $products[actionCategoryId].findIndex(findItem => findItem.key === item.key);
 
                             timerItems.push({
                                 category: augmentedItem.category,
@@ -306511,8 +306141,6 @@ const getRandomTableNumber = () => {
                             }
                         }
                     });
-
-                    utils_set_store_value(products, $products = updatedProducts, $products);
 
                     if (timerItems.length > 0 && (0, lodash.isNil)(interval)) {
                         interval = setInterval(
@@ -306542,8 +306170,8 @@ const getRandomTableNumber = () => {
                 });
             };
 
-            const getCategories = async () => {
-                return lib_axios.get(`${SERVER_API_URL}/client/json/table/get?project=${SERVER_API_PROJECT}&key=donate_category&server=${$serverApiServerId}`, {
+            const getCategories = () => {
+                lib_axios.get(`${SERVER_API_URL}/client/json/table/get?project=${SERVER_API_PROJECT}&key=donate_category&server=${$serverApiServerId}`, {
                     headers: {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
@@ -306555,10 +306183,14 @@ const getRandomTableNumber = () => {
                     utils_set_store_value(categories, $categories = response.data, $categories);
 
                     $categories.forEach(item => {
+                        utils_set_store_value(products, $products[item.key] = [], $products);
+
                         if (actionCategoryId === -1 && item.isActionCategory) {
                             actionCategoryId = item.key;
                         }
                     });
+
+                    getProducts();
                 }).catch(error => {
                     if (!(0, lodash.isNil)(error.response) && (error.response.status === 401 || error.response.status === 403)) {
                         console.log(JSON.stringify(error));
@@ -306595,9 +306227,7 @@ const getRandomTableNumber = () => {
                 utils_set_store_value(
                     products,
                     $products[productDto.category] = $products[productDto.category].map(item => {
-                        let temp = {
-                            ...item
-                        };
+                        let temp = item;
 
                         if (item.key === productDto.key) {
                             temp = {
@@ -306611,7 +306241,9 @@ const getRandomTableNumber = () => {
                     $products
                 );
 
-                products.set($products);
+                utils_set_store_value(products, $products = {
+                    ...$products
+                }, $products);
 
                 if (!productDto.loading) {
                     utils_set_store_value(categoriesDisabled, $categoriesDisabled = false, $categoriesDisabled);
@@ -306653,22 +306285,14 @@ const getRandomTableNumber = () => {
             };
 
             getDonateSettings();
-
-            onMount(() => {
-                Promise.allSettled([getCategories(), getProducts()]);
-            });
+            getCategories();
 
             onDestroy(() => {
                 unregregisterSelectedCategory();
                 unregregisterMainInfo();
                 unregregisterUpdateProduct();
                 unregregisterUpdateModalSettings();
-
-                // Main category
-                selectCategory({
-                    key: 0,
-                    gridTemplate: 0
-                });
+                utils_set_store_value(store_selectedCategoryId, $selectedCategoryId = 0, $selectedCategoryId);
 
                 if (!(0, lodash.isNil)(interval)) {
                     clearInterval(interval);
@@ -306688,7 +306312,7 @@ const getRandomTableNumber = () => {
                 }
             }
 
-            function div_binding($$value) {
+            function div11_binding($$value) {
                 binding_callbacks[$$value ? 'unshift' : 'push'](() => {
                     scrollNode = $$value;
                     $$invalidate(1, scrollNode);
@@ -306698,13 +306322,13 @@ const getRandomTableNumber = () => {
             return [
                 hoveredCategoryId,
                 scrollNode,
+                $selectedCategoryId,
                 $mainInfo,
                 $categories,
                 $modalSettings,
                 $categoriesDisabled,
                 $products,
                 $donateSettings,
-                $selectedCategoryId,
                 $selectedScreen,
                 selectCategory,
                 openModal,
@@ -306717,7 +306341,7 @@ const getRandomTableNumber = () => {
                 click_handler,
                 click_handler_1,
                 switch_instance_items_binding,
-                div_binding
+                div11_binding
             ];
         }
 
@@ -307097,7 +306721,6 @@ const getRandomTableNumber = () => {
         var createData = store_writable({});
         var mapBusiness = store_writable([]);
         var serverApiFamilyId = store_writable(0);
-        var membersCount = store_writable(0);
         var initializeMainInfo = function initializeMainInfo() {
             var dto = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
             return familyInfo.set(dto);
@@ -307588,7 +307211,7 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (407:8) {#if !isEmpty($familyInfo.message)}
+        // (408:8) {#if !isEmpty($familyInfo.message)}
         function family_components_main_index_svelte_create_if_block_2(ctx) {
             let div1;
             let i;
@@ -307626,7 +307249,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (464:20) {#if !isNil($familyInfo.leaders)}
+        // (465:20) {#if !isNil($familyInfo.leaders)}
         function family_components_main_index_svelte_create_if_block(ctx) {
             let div;
             let each_value = each_ensure_array_like(new Array(4));
@@ -307689,7 +307312,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (475:32) {:else}
+        // (476:32) {:else}
         function family_components_main_index_svelte_create_else_block(ctx) {
             let div3;
 
@@ -307711,7 +307334,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (467:32) {#if !isNil($familyInfo.leaders[index])}
+        // (468:32) {#if !isNil($familyInfo.leaders[index])}
         function family_components_main_index_svelte_create_if_block_1(ctx) {
             let div4;
             let div0;
@@ -307773,7 +307396,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (466:28) {#each new Array(4) as leader, index}
+        // (467:28) {#each new Array(4) as leader, index}
         function family_components_main_index_svelte_create_each_block(ctx) {
             let show_if;
             let if_block_anchor;
@@ -307979,8 +307602,8 @@ const getRandomTableNumber = () => {
                     title: MAP_STAT_TO_NAME[Stats.Count],
                     titleIcon: MAP_STAT_TO_ICON[Stats.Count],
                     bgIcon: MAP_STAT_TO_BG_ICON[Stats.Count],
-                    value: /*$membersCount*/ ctx[0] >= 0 ?
-                        `${formatMoney(/*$membersCount*/ ctx[0])} человек` :
+                    value: /*membersCount*/ ctx[0] >= 0 ?
+                        `${formatMoney(/*membersCount*/ ctx[0])} человек` :
                         '0 человек',
                     onClick: /*func_1*/ ctx[4]
                 }
@@ -308431,8 +308054,8 @@ const getRandomTableNumber = () => {
                     stat0.$set(stat0_changes);
                     const stat1_changes = {};
 
-                    if (dirty & /*$membersCount*/ 1) stat1_changes.value = /*$membersCount*/ ctx[0] >= 0 ?
-                        `${formatMoney(/*$membersCount*/ ctx[0])} человек` :
+                    if (dirty & /*membersCount*/ 1) stat1_changes.value = /*membersCount*/ ctx[0] >= 0 ?
+                        `${formatMoney(/*membersCount*/ ctx[0])} человек` :
                         '0 человек';
 
                     stat1.$set(stat1_changes);
@@ -308576,15 +308199,14 @@ const getRandomTableNumber = () => {
         }
 
         function family_components_main_index_svelte_instance($$self, $$props, $$invalidate) {
-            let $membersCount;
             let $serverApiToken;
             let $familyInfo;
             let $serverApiServerId;
-            utils_component_subscribe($$self, membersCount, $$value => $$invalidate(0, $membersCount = $$value));
             utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(14, $serverApiToken = $$value));
             utils_component_subscribe($$self, familyInfo, $$value => $$invalidate(1, $familyInfo = $$value));
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(15, $serverApiServerId = $$value));
             const doAction = statId => cef_sendClientMessage(`familyMenu.main.${MAP_STAT_TO_ACTION[statId]}`);
+            let membersCount = -1;
 
             const getMembersCount = () => {
                 lib_axios.get(`${SERVER_API_URL}/client/family/getMembersCount?project=${SERVER_API_PROJECT}&server=${$serverApiServerId}&family_id=${$familyInfo.id}`, {
@@ -308592,7 +308214,7 @@ const getRandomTableNumber = () => {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
                 }).then(response => {
-                    utils_set_store_value(membersCount, $membersCount = response.data.count, $membersCount);
+                    $$invalidate(0, membersCount = response.data.count);
                 }).catch(error => {
                     console.log('getMembersCount error', JSON.stringify(error));
                 });
@@ -308615,7 +308237,7 @@ const getRandomTableNumber = () => {
             const click_handler_5 = () => cef_sendClientMessage('familyMenu.main.leave');
 
             return [
-                $membersCount,
+                membersCount,
                 $familyInfo,
                 doAction,
                 func,
@@ -308641,8 +308263,6 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const family_components_main_index_svelte = (family_components_main_index_svelte_Main);; // CONCATENATED MODULE: ./src/views/family/components/members/constants.js
-        var _MAP_HEADER_TO_NAME;
-
         function members_constants_typeof(o) {
             "@babel/helpers - typeof";
             return members_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -308686,10 +308306,6 @@ const getRandomTableNumber = () => {
             Quests: 'quests',
             Penalty: 'penalty'
         };
-        var ViceCityMembersHeaders = {
-            Server: 'server',
-            LastOnline: 'last_online'
-        };
         var RationgHeaders = {
             Placement: 'placement',
             Name: 'name',
@@ -308702,7 +308318,7 @@ const getRandomTableNumber = () => {
         var MAP_TABLE_MODE_TO_CONTROLLER = members_constants_defineProperty(members_constants_defineProperty({}, TableMode.Members, 'getMembers'), TableMode.Rating, 'getRating');
         var MAP_TABLE_MODE_TO_SEARCH_KEY = members_constants_defineProperty(members_constants_defineProperty({}, TableMode.Members, 'nickname'), TableMode.Rating, 'family_name');
         var MAP_TABLE_MODE_TO_PLACEHOLDER = members_constants_defineProperty(members_constants_defineProperty({}, TableMode.Members, 'Укажите ник или ID участника семьи'), TableMode.Rating, 'Укажите название семьи');
-        var MAP_HEADER_TO_NAME = (_MAP_HEADER_TO_NAME = {}, members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(_MAP_HEADER_TO_NAME, MembersHeaders.Online, 'Статус онлайн'), MembersHeaders.Rank, 'Ранг'), MembersHeaders.Quests, 'Квесты'), MembersHeaders.Penalty, 'Выговоры'), ViceCityMembersHeaders.Server, 'Сервер'), ViceCityMembersHeaders.LastOnline, 'Последний онлайн'), RationgHeaders.Placement, 'Место'), RationgHeaders.Name, 'Название семьи'), RationgHeaders.Level, 'Уровень'), RationgHeaders.Count, 'Участников'), members_constants_defineProperty(members_constants_defineProperty(_MAP_HEADER_TO_NAME, RationgHeaders.Leader, 'Лидер семьи'), RationgHeaders.Flag, 'Флаг'));
+        var MAP_HEADER_TO_NAME = members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty({}, MembersHeaders.Online, 'Статус онлайн'), MembersHeaders.Rank, 'Ранг'), MembersHeaders.Quests, 'Квесты'), MembersHeaders.Penalty, 'Выговоры'), RationgHeaders.Placement, 'Место'), RationgHeaders.Name, 'Название семьи'), RationgHeaders.Level, 'Уровень'), RationgHeaders.Count, 'Участников'), RationgHeaders.Leader, 'Лидер семьи'), RationgHeaders.Flag, 'Флаг');
         var MAP_FIELD_TO_NAME = members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty(members_constants_defineProperty({}, MembersHeaders.Online, 'Online'), MembersHeaders.Rank, 'Ранг'), MembersHeaders.Quests, 'Квесты'), MembersHeaders.Penalty, 'Выговоры');
         var ActionIds = {
             BonusMoney: 'bonusMoney',
@@ -308735,34 +308351,34 @@ const getRandomTableNumber = () => {
 
 
         function members_index_svelte_add_css(target) {
-            append_styles(target, "svelte-1abnkcq", ".family-members__current-server.svelte-1abnkcq{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((28 * var(--global-scale) * var(--global-scale) * 0.44 - (28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__server-name.svelte-1abnkcq{color:#506ED1}.family-members__search.svelte-1abnkcq{position:relative;display:flex;align-items:center;width:100%;border-style:solid;border-color:rgba(255, 255, 255, 0.2);height:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-width:max(calc((1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((1 * var(--global-scale) * var(--global-scale) * 0.44 - (1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1abnkcq{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";width:max(calc((103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((103 * var(--global-scale) * var(--global-scale) * 0.44 - (103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__search-button.svelte-1abnkcq:active{transform:translateY(4%)}.family-members__search-button--disabled.svelte-1abnkcq{opacity:0.7}.family-members__search-button--disabled.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.1)}.family-members__search-button--disabled.svelte-1abnkcq:active{transform:unset}.family-members__clear-icon.svelte-1abnkcq{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";border-radius:50%;color:#FFFFFF;font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__clear-icon.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__clear-icon.svelte-1abnkcq:active{transform:translateY(4%)}.family-members__search-icon.svelte-1abnkcq{color:rgba(255, 255, 255, 0.5);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-input.svelte-1abnkcq{width:80%;background-color:transparent;outline:none;border:none;font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.5);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table.svelte-1abnkcq{background-color:rgba(255, 255, 255, 0.01);overflow:hidden;margin-top:max(calc((34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((34 * var(--global-scale) * var(--global-scale) * 0.44 - (34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head.svelte-1abnkcq{display:grid;grid-template-columns:3fr 1fr 1fr 1fr;height:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head--rating.svelte-1abnkcq{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__table-head--vicecity.svelte-1abnkcq{grid-template-columns:3fr 1fr 1.5fr 2fr}.family-members__table-head-item.svelte-1abnkcq{display:flex;align-items:center;color:rgba(255, 255, 255, 0.6);font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head-item--active.svelte-1abnkcq{color:#FFFFFF}.family-members__table-list-wrapper.svelte-1abnkcq{overflow-y:auto;height:max(calc((630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((630 * var(--global-scale) * var(--global-scale) * 0.44 - (630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar{height:0;width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-button{display:none}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-track{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-track-piece{background:rgba(255, 255, 255, 0.2);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-thumb{background:rgba(255, 255, 255, 0.5);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-scrollbar-corner{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1abnkcq::-webkit-resizer{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper--rating.svelte-1abnkcq{height:max(calc((590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((590 * var(--global-scale) * var(--global-scale) * 0.44 - (590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list.svelte-1abnkcq{display:flex;flex-direction:column;border-radius:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-empty.svelte-1abnkcq{flex:1 1 auto;display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__loader.svelte-1abnkcq{width:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member.svelte-1abnkcq{width:100%;display:grid;grid-template-columns:3fr 1fr 1fr 1fr;color:#FFFFFF;min-height:max(calc((96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((96 * var(--global-scale) * var(--global-scale) * 0.44 - (96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member--vicecity.svelte-1abnkcq{grid-template-columns:3fr 1fr 1.5fr 2fr}.family-members__member--rating.svelte-1abnkcq{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__member--rating.family-members__member--gold.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #D69D35 0%, #FFD35A 100%)}.family-members__member--rating.family-members__member--silver.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #A7A7A7 0%, #D5D5D5 100%)}.family-members__member--rating.family-members__member--bronze.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #855E4D 0%, #E6B098 100%)}.family-members__member--rating.family-members__member--blue.svelte-1abnkcq{color:#111111;background:linear-gradient(90deg, #35A5D6 0%, #9BE1FF 100%)}.family-members__member-property.svelte-1abnkcq{position:relative;display:flex;align-items:center;color:inherit;font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property--placement.svelte-1abnkcq{padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-role.svelte-1abnkcq{color:rgba(255, 255, 255, 0.5);font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-flag.svelte-1abnkcq{width:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-icon.svelte-1abnkcq{position:absolute;left:min(calc((0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((0 * var(--global-scale) * var(--global-scale) * 0.44 - (0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-wrapper.svelte-1abnkcq{display:flex;align-items:center;position:relative}.family-members__member-context.svelte-1abnkcq{position:absolute;display:flex;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color;width:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-context.svelte-1abnkcq:hover,.family-members__member-context--active.svelte-1abnkcq{color:#FFFFFF}.family-members__member-context-icon.svelte-1abnkcq{pointer-events:none;font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu.svelte-1abnkcq{position:fixed;overflow:hidden;background-color:#191A1F;display:flex;flex-direction:column;align-items:center;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius-top-left:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((213 * var(--global-scale) * var(--global-scale) * 0.44 - (213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1abnkcq{width:100%;display:flex;align-items:center;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color, background-color;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1abnkcq:hover{background-color:rgba(108, 117, 125, 0.1)}.family-members__context-menu-item.svelte-1abnkcq:active{background-color:#16191D}.family-members__context-menu-item-icon.svelte-1abnkcq{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item-text.svelte-1abnkcq{color:inherit;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-loader.svelte-1abnkcq{width:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1abnkcq{background-color:rgba(231, 52, 63, 0.2);display:flex;align-items:center;justify-content:center;border-radius:50%;min-width:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1abnkcq::before{content:\"\";border-radius:50%;background-color:#E7343F;min-width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online--on.svelte-1abnkcq{background-color:rgba(193, 255, 61, 0.2)}.family-members__member-online--on.svelte-1abnkcq::before{background-color:#78FF38}.family-members__footer-button.svelte-1abnkcq{background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color;width:max(calc((225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((225 * var(--global-scale) * var(--global-scale) * 0.44 - (225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((58 * var(--global-scale) * var(--global-scale) * 0.44 - (58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button.svelte-1abnkcq:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__footer-button-icon.svelte-1abnkcq{color:#FFFFFF;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button-text.svelte-1abnkcq{color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+            append_styles(target, "svelte-1ockr6b", ".family-members__current-server.svelte-1ockr6b{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((28 * var(--global-scale) * var(--global-scale) * 0.44 - (28 * var(--global-scale) * var(--global-scale) - 28 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__server-name.svelte-1ockr6b{color:#506ED1}.family-members__search.svelte-1ockr6b{position:relative;display:flex;align-items:center;width:100%;border-style:solid;border-color:rgba(255, 255, 255, 0.2);height:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-width:max(calc((1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((1 * var(--global-scale) * var(--global-scale) * 0.44 - (1 * var(--global-scale) * var(--global-scale) - 1 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1ockr6b{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";width:max(calc((103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((103 * var(--global-scale) * var(--global-scale) * 0.44 - (103 * var(--global-scale) * var(--global-scale) - 103 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-button.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__search-button.svelte-1ockr6b:active{transform:translateY(4%)}.family-members__search-button--disabled.svelte-1ockr6b{opacity:0.7}.family-members__search-button--disabled.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.1)}.family-members__search-button--disabled.svelte-1ockr6b:active{transform:unset}.family-members__clear-icon.svelte-1ockr6b{position:absolute;background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color, transform;color:#FFFFFF;font-family:\"HeadingNowRegular\";border-radius:50%;color:#FFFFFF;font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__clear-icon.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__clear-icon.svelte-1ockr6b:active{transform:translateY(4%)}.family-members__search-icon.svelte-1ockr6b{color:rgba(255, 255, 255, 0.5);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__search-input.svelte-1ockr6b{width:80%;background-color:transparent;outline:none;border:none;font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.5);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table.svelte-1ockr6b{background-color:rgba(255, 255, 255, 0.01);overflow:hidden;margin-top:max(calc((34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((34 * var(--global-scale) * var(--global-scale) * 0.44 - (34 * var(--global-scale) * var(--global-scale) - 34 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head.svelte-1ockr6b{display:grid;grid-template-columns:3fr 1fr 1fr 1fr;height:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head--rating.svelte-1ockr6b{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__table-head-item.svelte-1ockr6b{display:flex;align-items:center;color:rgba(255, 255, 255, 0.6);font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-head-item--active.svelte-1ockr6b{color:#FFFFFF}.family-members__table-list-wrapper.svelte-1ockr6b{overflow-y:auto;height:max(calc((630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((630 * var(--global-scale) * var(--global-scale) * 0.44 - (630 * var(--global-scale) * var(--global-scale) - 630 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar{height:0;width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-button{display:none}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-track{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-track-piece{background:rgba(255, 255, 255, 0.2);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-thumb{background:rgba(255, 255, 255, 0.5);border-radius:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-scrollbar-corner{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper.svelte-1ockr6b::-webkit-resizer{background-color:rgba(255, 255, 255, 0.2)}.family-members__table-list-wrapper--rating.svelte-1ockr6b{height:max(calc((590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((590 * var(--global-scale) * var(--global-scale) * 0.44 - (590 * var(--global-scale) * var(--global-scale) - 590 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-list.svelte-1ockr6b{display:flex;flex-direction:column;border-radius:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__table-empty.svelte-1ockr6b{flex:1 1 auto;display:flex;align-items:center;justify-content:center;color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__loader.svelte-1ockr6b{width:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member.svelte-1ockr6b{width:100%;display:grid;grid-template-columns:3fr 1fr 1fr 1fr;color:#FFFFFF;min-height:max(calc((96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((96 * var(--global-scale) * var(--global-scale) * 0.44 - (96 * var(--global-scale) * var(--global-scale) - 96 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member--rating.svelte-1ockr6b{grid-template-columns:1fr 3fr 2fr 2fr 3fr 1fr}.family-members__member--rating.family-members__member--gold.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #D69D35 0%, #FFD35A 100%)}.family-members__member--rating.family-members__member--silver.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #A7A7A7 0%, #D5D5D5 100%)}.family-members__member--rating.family-members__member--bronze.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #855E4D 0%, #E6B098 100%)}.family-members__member--rating.family-members__member--blue.svelte-1ockr6b{color:#111111;background:linear-gradient(90deg, #35A5D6 0%, #9BE1FF 100%)}.family-members__member-property.svelte-1ockr6b{position:relative;display:flex;align-items:center;color:inherit;font-family:\"HeadingNowRegular\";gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property--placement.svelte-1ockr6b{padding-left:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-role.svelte-1ockr6b{color:rgba(255, 255, 255, 0.5);font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-flag.svelte-1ockr6b{width:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-icon.svelte-1ockr6b{position:absolute;left:min(calc((0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((0 * var(--global-scale) * var(--global-scale) * 0.44 - (0 * var(--global-scale) * var(--global-scale) - 0 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-property-wrapper.svelte-1ockr6b{display:flex;align-items:center;position:relative}.family-members__member-context.svelte-1ockr6b{position:absolute;display:flex;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color;width:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-context.svelte-1ockr6b:hover,.family-members__member-context--active.svelte-1ockr6b{color:#FFFFFF}.family-members__member-context-icon.svelte-1ockr6b{pointer-events:none;font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu.svelte-1ockr6b{position:fixed;overflow:hidden;background-color:#191A1F;display:flex;flex-direction:column;align-items:center;border-radius:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius-top-left:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((213 * var(--global-scale) * var(--global-scale) * 0.44 - (213 * var(--global-scale) * var(--global-scale) - 213 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1ockr6b{width:100%;display:flex;align-items:center;justify-content:center;color:rgba(255, 255, 255, 0.5);transition:0.1s ease-out;transition-property:color, background-color;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item.svelte-1ockr6b:hover{background-color:rgba(108, 117, 125, 0.1)}.family-members__context-menu-item.svelte-1ockr6b:active{background-color:#16191D}.family-members__context-menu-item-icon.svelte-1ockr6b{color:inherit;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-item-text.svelte-1ockr6b{color:inherit;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__context-menu-loader.svelte-1ockr6b{width:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1ockr6b{background-color:rgba(231, 52, 63, 0.2);display:flex;align-items:center;justify-content:center;border-radius:50%;min-width:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online.svelte-1ockr6b::before{content:\"\";border-radius:50%;background-color:#E7343F;min-width:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);min-height:max(calc((8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((8 * var(--global-scale) * var(--global-scale) * 0.44 - (8 * var(--global-scale) * var(--global-scale) - 8 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__member-online--on.svelte-1ockr6b{background-color:rgba(193, 255, 61, 0.2)}.family-members__member-online--on.svelte-1ockr6b::before{background-color:#78FF38}.family-members__footer-button.svelte-1ockr6b{background-color:rgba(255, 255, 255, 0.1);display:flex;align-items:center;justify-content:center;transition:0.1s ease-out;transition-property:background-color;width:max(calc((225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((225 * var(--global-scale) * var(--global-scale) * 0.44 - (225 * var(--global-scale) * var(--global-scale) - 225 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((58 * var(--global-scale) * var(--global-scale) * 0.44 - (58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button.svelte-1ockr6b:hover{background-color:rgba(255, 255, 255, 0.3)}.family-members__footer-button-icon.svelte-1ockr6b{color:#FFFFFF;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.family-members__footer-button-text.svelte-1ockr6b{color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
         }
 
         function members_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[44] = list[i];
+            child_ctx[41] = list[i];
             return child_ctx;
         }
 
         function members_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[47] = list[i];
-            child_ctx[49] = i;
+            child_ctx[44] = list[i];
+            child_ctx[46] = i;
             return child_ctx;
         }
 
         function members_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[50] = list[i];
+            child_ctx[47] = list[i];
             return child_ctx;
         }
 
-        // (658:4) {#if mode === TableMode.Rating}
-        function members_index_svelte_create_if_block_14(ctx) {
+        // (590:4) {#if mode === TableMode.Rating}
+        function members_index_svelte_create_if_block_11(ctx) {
             let div;
             let t0;
             let span;
-            let t1_value = SERVERS[ /*$serverApiServerId*/ ctx[13]] + "";
+            let t1_value = SERVERS[ /*$serverApiServerId*/ ctx[12]] + "";
             let t1;
 
             return {
@@ -308771,8 +308387,8 @@ const getRandomTableNumber = () => {
                     t0 = dom_text("Рейтинг семей сервера ");
                     span = dom_element("span");
                     t1 = dom_text(t1_value);
-                    dom_attr(span, "class", "family-members__server-name svelte-1abnkcq");
-                    dom_attr(div, "class", "family-members__current-server svelte-1abnkcq");
+                    dom_attr(span, "class", "family-members__server-name svelte-1ockr6b");
+                    dom_attr(div, "class", "family-members__current-server svelte-1ockr6b");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -308781,7 +308397,7 @@ const getRandomTableNumber = () => {
                     dom_append(span, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$serverApiServerId*/ 8192 && t1_value !== (t1_value = SERVERS[ /*$serverApiServerId*/ ctx[13]] + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*$serverApiServerId*/ 4096 && t1_value !== (t1_value = SERVERS[ /*$serverApiServerId*/ ctx[12]] + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -308791,8 +308407,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (673:8) {#if searchMode}
-        function members_index_svelte_create_if_block_13(ctx) {
+        // (605:8) {#if searchMode}
+        function members_index_svelte_create_if_block_10(ctx) {
             let i;
             let mounted;
             let dispose;
@@ -308800,13 +308416,13 @@ const getRandomTableNumber = () => {
             return {
                 c() {
                     i = dom_element("i");
-                    dom_attr(i, "class", "family-members__clear-icon icon-close svelte-1abnkcq");
+                    dom_attr(i, "class", "family-members__clear-icon icon-close svelte-1ockr6b");
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(i, "click", /*clearSearch*/ ctx[17]);
+                        dispose = dom_listen(i, "click", /*clearSearch*/ ctx[15]);
                         mounted = true;
                     }
                 },
@@ -308822,8 +308438,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (693:20) {#if mode === TableMode.Members && field !== MembersHeaders.Rank && field !== MembersHeaders.Penalty}
-        function members_index_svelte_create_if_block_12(ctx) {
+        // (625:20) {#if mode === TableMode.Members && field !== MembersHeaders.Rank && field !== MembersHeaders.Penalty}
+        function members_index_svelte_create_if_block_9(ctx) {
             let i;
             let i_class_value;
 
@@ -308831,7 +308447,7 @@ const getRandomTableNumber = () => {
                 c() {
                     i = dom_element("i");
 
-                    dom_attr(i, "class", i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[10][ /*field*/ ctx[50]] ?
+                    dom_attr(i, "class", i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[9][ /*field*/ ctx[47]] ?
                         'up' :
                         'down'));
                 },
@@ -308839,7 +308455,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, i, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*colsSortState, headers*/ 1088 && i_class_value !== (i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[10][ /*field*/ ctx[50]] ?
+                    if (dirty[0] & /*colsSortState, headers*/ 576 && i_class_value !== (i_class_value = "family-members__table-head-item-icon icon-chevron-" + ( /*colsSortState*/ ctx[9][ /*field*/ ctx[47]] ?
                             'up' :
                             'down'))) {
                         dom_attr(i, "class", i_class_value);
@@ -308853,20 +308469,20 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (686:12) {#each headers as field}
+        // (618:12) {#each headers as field}
         function members_index_svelte_create_each_block_2(ctx) {
             let div1;
             let div0;
-            let t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[50]] + "";
+            let t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[47]] + "";
             let t0;
             let t1;
             let t2;
             let mounted;
             let dispose;
-            let if_block = /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[50] !== MembersHeaders.Rank && /*field*/ ctx[50] !== MembersHeaders.Penalty && members_index_svelte_create_if_block_12(ctx);
+            let if_block = /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[47] !== MembersHeaders.Rank && /*field*/ ctx[47] !== MembersHeaders.Penalty && members_index_svelte_create_if_block_9(ctx);
 
             function click_handler() {
-                return /*click_handler*/ ctx[28]( /*field*/ ctx[50]);
+                return /*click_handler*/ ctx[26]( /*field*/ ctx[47]);
             }
 
             return {
@@ -308878,8 +308494,8 @@ const getRandomTableNumber = () => {
                     if (if_block) if_block.c();
                     t2 = dom_space();
                     dom_attr(div0, "class", "family-members__table-head-item-name");
-                    dom_attr(div1, "class", "family-members__table-head-item svelte-1abnkcq");
-                    dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[10][ /*field*/ ctx[50]]);
+                    dom_attr(div1, "class", "family-members__table-head-item svelte-1ockr6b");
+                    dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[9][ /*field*/ ctx[47]]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -308896,13 +308512,13 @@ const getRandomTableNumber = () => {
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
-                    if (dirty[0] & /*headers*/ 64 && t0_value !== (t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[50]] + "")) dom_set_data(t0, t0_value);
+                    if (dirty[0] & /*headers*/ 64 && t0_value !== (t0_value = MAP_HEADER_TO_NAME[ /*field*/ ctx[47]] + "")) dom_set_data(t0, t0_value);
 
-                    if ( /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[50] !== MembersHeaders.Rank && /*field*/ ctx[50] !== MembersHeaders.Penalty) {
+                    if ( /*mode*/ ctx[5] === TableMode.Members && /*field*/ ctx[47] !== MembersHeaders.Rank && /*field*/ ctx[47] !== MembersHeaders.Penalty) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
-                            if_block = members_index_svelte_create_if_block_12(ctx);
+                            if_block = members_index_svelte_create_if_block_9(ctx);
                             if_block.c();
                             if_block.m(div1, t2);
                         }
@@ -308911,8 +308527,8 @@ const getRandomTableNumber = () => {
                         if_block = null;
                     }
 
-                    if (dirty[0] & /*colsSortState, headers*/ 1088) {
-                        dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[10][ /*field*/ ctx[50]]);
+                    if (dirty[0] & /*colsSortState, headers*/ 576) {
+                        dom_toggle_class(div1, "family-members__table-head-item--active", /*colsSortState*/ ctx[9][ /*field*/ ctx[47]]);
                     }
                 },
                 d(detaching) {
@@ -308927,7 +308543,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (715:16) {:else}
+        // (647:16) {:else}
         function members_index_svelte_create_else_block(ctx) {
             let each_1_anchor;
             let each_value_1 = each_ensure_array_like( /*actualData*/ ctx[0]);
@@ -308955,7 +308571,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, each_1_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*isViceCity, selectedMemberIndex, openContextMenu, actualData, $familyInfo, formatDate, mode*/ 561713) {
+                    if (dirty[0] & /*selectedMemberIndex, openContextMenu, actualData, $familyInfo, mode*/ 133169) {
                         each_value_1 = each_ensure_array_like( /*actualData*/ ctx[0]);
                         let i;
 
@@ -308990,7 +308606,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (711:46) 
+        // (643:46) 
         function members_index_svelte_create_if_block_2(ctx) {
             let div;
 
@@ -308998,7 +308614,7 @@ const getRandomTableNumber = () => {
                 c() {
                     div = dom_element("div");
                     div.textContent = "Ничего не найдено";
-                    dom_attr(div, "class", "family-members__table-empty svelte-1abnkcq");
+                    dom_attr(div, "class", "family-members__table-empty svelte-1ockr6b");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -309014,7 +308630,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (705:16) {#if isNil(actualData)}
+        // (637:16) {#if isNil(actualData)}
         function members_index_svelte_create_if_block_1(ctx) {
             let div1;
             let div0;
@@ -309027,8 +308643,8 @@ const getRandomTableNumber = () => {
                     div1 = dom_element("div");
                     div0 = dom_element("div");
                     create_component(loader.$$.fragment);
-                    dom_attr(div0, "class", "family-members__loader svelte-1abnkcq");
-                    dom_attr(div1, "class", "family-members__table-empty svelte-1abnkcq");
+                    dom_attr(div0, "class", "family-members__loader svelte-1ockr6b");
+                    dom_attr(div1, "class", "family-members__table-empty svelte-1ockr6b");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -309056,38 +308672,39 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (755:24) {:else}
-        function members_index_svelte_create_else_block_3(ctx) {
-            let div5;
+        // (680:24) {:else}
+        function members_index_svelte_create_else_block_2(ctx) {
+            let div6;
             let div0;
             let t0;
-            let t1_value = /*index*/ ctx[49] + 1 + "";
+            let t1_value = /*index*/ ctx[46] + 1 + "";
             let t1;
             let t2;
             let div1;
-            let t3_value = /*member*/ ctx[47].name + "";
+            let t3_value = /*member*/ ctx[44].name + "";
             let t3;
             let t4;
             let div2;
-            let t5_value = /*member*/ ctx[47].level + "";
+            let t5_value = /*member*/ ctx[44].level + "";
             let t5;
             let t6;
             let div3;
-            let t7_value = /*member*/ ctx[47].member_count + "";
+            let t7_value = /*member*/ ctx[44].member_count + "";
             let t7;
             let t8;
             let div4;
-            let t9_value = /*member*/ ctx[47].leader + "";
+            let t9_value = /*member*/ ctx[44].leader + "";
             let t9;
             let t10;
+            let div5;
             let t11;
-            let div5_class_value;
-            let if_block0 = /*member*/ ctx[47].placement > 0 && /*member*/ ctx[47].placement < 4 && members_index_svelte_create_if_block_11(ctx);
-            let if_block1 = ! /*isViceCity*/ ctx[9] && members_index_svelte_create_if_block_9(ctx);
+            let div6_class_value;
+            let if_block0 = /*member*/ ctx[44].placement > 0 && /*member*/ ctx[44].placement < 4 && members_index_svelte_create_if_block_8(ctx);
+            let if_block1 = /*member*/ ctx[44].flagid > 0 && members_index_svelte_create_if_block_7(ctx);
 
             return {
                 c() {
-                    div5 = dom_element("div");
+                    div6 = dom_element("div");
                     div0 = dom_element("div");
                     if (if_block0) if_block0.c();
                     t0 = dom_space();
@@ -309105,44 +308722,47 @@ const getRandomTableNumber = () => {
                     div4 = dom_element("div");
                     t9 = dom_text(t9_value);
                     t10 = dom_space();
+                    div5 = dom_element("div");
                     if (if_block1) if_block1.c();
                     t11 = dom_space();
-                    dom_attr(div0, "class", "family-members__member-property family-members__member-property--placement svelte-1abnkcq");
-                    dom_attr(div1, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div2, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div3, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div4, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div5, "class", div5_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[47].placementStyle + " svelte-1abnkcq");
-                    dom_toggle_class(div5, "family-members__member--blue", /*member*/ ctx[47].name === /*$familyInfo*/ ctx[12].title);
+                    dom_attr(div0, "class", "family-members__member-property family-members__member-property--placement svelte-1ockr6b");
+                    dom_attr(div1, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div2, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div3, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div4, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div5, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div6, "class", div6_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[44].placementStyle + " svelte-1ockr6b");
+                    dom_toggle_class(div6, "family-members__member--blue", /*member*/ ctx[44].name === /*$familyInfo*/ ctx[11].title);
                 },
                 m(target, anchor) {
-                    dom_insert(target, div5, anchor);
-                    dom_append(div5, div0);
+                    dom_insert(target, div6, anchor);
+                    dom_append(div6, div0);
                     if (if_block0) if_block0.m(div0, null);
                     dom_append(div0, t0);
                     dom_append(div0, t1);
-                    dom_append(div5, t2);
-                    dom_append(div5, div1);
+                    dom_append(div6, t2);
+                    dom_append(div6, div1);
                     dom_append(div1, t3);
-                    dom_append(div5, t4);
-                    dom_append(div5, div2);
+                    dom_append(div6, t4);
+                    dom_append(div6, div2);
                     dom_append(div2, t5);
-                    dom_append(div5, t6);
-                    dom_append(div5, div3);
+                    dom_append(div6, t6);
+                    dom_append(div6, div3);
                     dom_append(div3, t7);
-                    dom_append(div5, t8);
-                    dom_append(div5, div4);
+                    dom_append(div6, t8);
+                    dom_append(div6, div4);
                     dom_append(div4, t9);
-                    dom_append(div5, t10);
+                    dom_append(div6, t10);
+                    dom_append(div6, div5);
                     if (if_block1) if_block1.m(div5, null);
-                    dom_append(div5, t11);
+                    dom_append(div6, t11);
                 },
                 p(ctx, dirty) {
-                    if ( /*member*/ ctx[47].placement > 0 && /*member*/ ctx[47].placement < 4) {
+                    if ( /*member*/ ctx[44].placement > 0 && /*member*/ ctx[44].placement < 4) {
                         if (if_block0) {
 
                         } else {
-                            if_block0 = members_index_svelte_create_if_block_11(ctx);
+                            if_block0 = members_index_svelte_create_if_block_8(ctx);
                             if_block0.c();
                             if_block0.m(div0, t0);
                         }
@@ -309151,35 +308771,35 @@ const getRandomTableNumber = () => {
                         if_block0 = null;
                     }
 
-                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[47].name + "")) dom_set_data(t3, t3_value);
-                    if (dirty[0] & /*actualData*/ 1 && t5_value !== (t5_value = /*member*/ ctx[47].level + "")) dom_set_data(t5, t5_value);
-                    if (dirty[0] & /*actualData*/ 1 && t7_value !== (t7_value = /*member*/ ctx[47].member_count + "")) dom_set_data(t7, t7_value);
-                    if (dirty[0] & /*actualData*/ 1 && t9_value !== (t9_value = /*member*/ ctx[47].leader + "")) dom_set_data(t9, t9_value);
+                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[44].name + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*actualData*/ 1 && t5_value !== (t5_value = /*member*/ ctx[44].level + "")) dom_set_data(t5, t5_value);
+                    if (dirty[0] & /*actualData*/ 1 && t7_value !== (t7_value = /*member*/ ctx[44].member_count + "")) dom_set_data(t7, t7_value);
+                    if (dirty[0] & /*actualData*/ 1 && t9_value !== (t9_value = /*member*/ ctx[44].leader + "")) dom_set_data(t9, t9_value);
 
-                    if (! /*isViceCity*/ ctx[9]) {
+                    if ( /*member*/ ctx[44].flagid > 0) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = members_index_svelte_create_if_block_9(ctx);
+                            if_block1 = members_index_svelte_create_if_block_7(ctx);
                             if_block1.c();
-                            if_block1.m(div5, t11);
+                            if_block1.m(div5, null);
                         }
                     } else if (if_block1) {
                         if_block1.d(1);
                         if_block1 = null;
                     }
 
-                    if (dirty[0] & /*actualData*/ 1 && div5_class_value !== (div5_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[47].placementStyle + " svelte-1abnkcq")) {
-                        dom_attr(div5, "class", div5_class_value);
+                    if (dirty[0] & /*actualData*/ 1 && div6_class_value !== (div6_class_value = "family-members__member family-members__member--rating family-members__member--" + /*member*/ ctx[44].placementStyle + " svelte-1ockr6b")) {
+                        dom_attr(div6, "class", div6_class_value);
                     }
 
-                    if (dirty[0] & /*actualData, actualData, $familyInfo*/ 4097) {
-                        dom_toggle_class(div5, "family-members__member--blue", /*member*/ ctx[47].name === /*$familyInfo*/ ctx[12].title);
+                    if (dirty[0] & /*actualData, actualData, $familyInfo*/ 2049) {
+                        dom_toggle_class(div6, "family-members__member--blue", /*member*/ ctx[44].name === /*$familyInfo*/ ctx[11].title);
                     }
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div5);
+                        dom_detach(div6);
                     }
 
                     if (if_block0) if_block0.d();
@@ -309188,42 +308808,40 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (717:24) {#if mode === TableMode.Members}
+        // (649:24) {#if mode === TableMode.Members}
         function members_index_svelte_create_if_block_3(ctx) {
-            let div4;
+            let div6;
             let div2;
             let div0;
             let t0;
             let div1;
             let t1;
-            let show_if = !(0, lodash.isEmpty)( /*member*/ ctx[47].role);
+            let show_if = !(0, lodash.isEmpty)( /*member*/ ctx[44].role);
             let t2;
             let div3;
-            let t3_value = /*member*/ ctx[47].family_rank + "";
+            let t3_value = /*member*/ ctx[44].family_rank + "";
             let t3;
             let t4;
+            let div4;
+            let t5_value = /*member*/ ctx[44].quests + "";
             let t5;
+            let t6;
+            let div5;
+            let t7;
 
             function select_block_type_2(ctx, dirty) {
-                if ( /*member*/ ctx[47].online_status === 1001) return members_index_svelte_create_if_block_8;
-                return members_index_svelte_create_else_block_2;
+                if ( /*member*/ ctx[44].online_status === 1001) return members_index_svelte_create_if_block_6;
+                return members_index_svelte_create_else_block_1;
             }
 
             let current_block_type = select_block_type_2(ctx, [-1, -1]);
             let if_block0 = current_block_type(ctx);
-            let if_block1 = show_if && members_index_svelte_create_if_block_7(ctx);
-
-            function select_block_type_3(ctx, dirty) {
-                if (! /*isViceCity*/ ctx[9]) return members_index_svelte_create_if_block_4;
-                return members_index_svelte_create_else_block_1;
-            }
-
-            let current_block_type_1 = select_block_type_3(ctx, [-1, -1]);
-            let if_block2 = current_block_type_1(ctx);
+            let if_block1 = show_if && members_index_svelte_create_if_block_5(ctx);
+            let if_block2 = /*$familyInfo*/ ctx[11].management && members_index_svelte_create_if_block_4(ctx);
 
             return {
                 c() {
-                    div4 = dom_element("div");
+                    div6 = dom_element("div");
                     div2 = dom_element("div");
                     div0 = dom_element("div");
                     t0 = dom_space();
@@ -309235,35 +308853,44 @@ const getRandomTableNumber = () => {
                     div3 = dom_element("div");
                     t3 = dom_text(t3_value);
                     t4 = dom_space();
-                    if_block2.c();
-                    t5 = dom_space();
-                    dom_attr(div0, "class", "family-members__member-online svelte-1abnkcq");
-                    dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[47].online_status === 1001 ? 0 : 1);
+                    div4 = dom_element("div");
+                    t5 = dom_text(t5_value);
+                    t6 = dom_space();
+                    div5 = dom_element("div");
+                    if (if_block2) if_block2.c();
+                    t7 = dom_space();
+                    dom_attr(div0, "class", "family-members__member-online svelte-1ockr6b");
+                    dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[44].online_status === 1001 ? 0 : 1);
                     dom_attr(div1, "class", "family-members__member-name-wrapper");
-                    dom_attr(div2, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div3, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div4, "class", "family-members__member svelte-1abnkcq");
-                    dom_toggle_class(div4, "family-members__member--vicecity", /*isViceCity*/ ctx[9]);
+                    dom_attr(div2, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div3, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div4, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div5, "class", "family-members__member-property-wrapper svelte-1ockr6b");
+                    dom_attr(div6, "class", "family-members__member svelte-1ockr6b");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div4, anchor);
-                    dom_append(div4, div2);
+                    dom_insert(target, div6, anchor);
+                    dom_append(div6, div2);
                     dom_append(div2, div0);
                     dom_append(div2, t0);
                     dom_append(div2, div1);
                     if_block0.m(div1, null);
                     dom_append(div1, t1);
                     if (if_block1) if_block1.m(div1, null);
-                    dom_append(div4, t2);
-                    dom_append(div4, div3);
+                    dom_append(div6, t2);
+                    dom_append(div6, div3);
                     dom_append(div3, t3);
-                    dom_append(div4, t4);
-                    if_block2.m(div4, null);
+                    dom_append(div6, t4);
+                    dom_append(div6, div4);
                     dom_append(div4, t5);
+                    dom_append(div6, t6);
+                    dom_append(div6, div5);
+                    if (if_block2) if_block2.m(div5, null);
+                    dom_append(div6, t7);
                 },
                 p(ctx, dirty) {
                     if (dirty[0] & /*actualData*/ 1) {
-                        dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[47].online_status === 1001 ? 0 : 1);
+                        dom_toggle_class(div0, "family-members__member-online--on", /*member*/ ctx[44].online_status === 1001 ? 0 : 1);
                     }
 
                     if (current_block_type === (current_block_type = select_block_type_2(ctx, dirty)) && if_block0) {
@@ -309278,13 +308905,13 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    if (dirty[0] & /*actualData*/ 1) show_if = !(0, lodash.isEmpty)( /*member*/ ctx[47].role);
+                    if (dirty[0] & /*actualData*/ 1) show_if = !(0, lodash.isEmpty)( /*member*/ ctx[44].role);
 
                     if (show_if) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = members_index_svelte_create_if_block_7(ctx);
+                            if_block1 = members_index_svelte_create_if_block_5(ctx);
                             if_block1.c();
                             if_block1.m(div1, null);
                         }
@@ -309293,44 +308920,42 @@ const getRandomTableNumber = () => {
                         if_block1 = null;
                     }
 
-                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[47].family_rank + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*actualData*/ 1 && t3_value !== (t3_value = /*member*/ ctx[44].family_rank + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*actualData*/ 1 && t5_value !== (t5_value = /*member*/ ctx[44].quests + "")) dom_set_data(t5, t5_value);
 
-                    if (current_block_type_1 === (current_block_type_1 = select_block_type_3(ctx, dirty)) && if_block2) {
-                        if_block2.p(ctx, dirty);
-                    } else {
-                        if_block2.d(1);
-                        if_block2 = current_block_type_1(ctx);
-
+                    if ( /*$familyInfo*/ ctx[11].management) {
                         if (if_block2) {
+                            if_block2.p(ctx, dirty);
+                        } else {
+                            if_block2 = members_index_svelte_create_if_block_4(ctx);
                             if_block2.c();
-                            if_block2.m(div4, t5);
+                            if_block2.m(div5, null);
                         }
-                    }
-
-                    if (dirty[0] & /*isViceCity*/ 512) {
-                        dom_toggle_class(div4, "family-members__member--vicecity", /*isViceCity*/ ctx[9]);
+                    } else if (if_block2) {
+                        if_block2.d(1);
+                        if_block2 = null;
                     }
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div4);
+                        dom_detach(div6);
                     }
 
                     if_block0.d();
                     if (if_block1) if_block1.d();
-                    if_block2.d();
+                    if (if_block2) if_block2.d();
                 }
             };
         }
 
-        // (761:36) {#if member.placement > 0 && member.placement < 4}
-        function members_index_svelte_create_if_block_11(ctx) {
+        // (686:36) {#if member.placement > 0 && member.placement < 4}
+        function members_index_svelte_create_if_block_8(ctx) {
             let i;
 
             return {
                 c() {
                     i = dom_element("i");
-                    dom_attr(i, "class", "family-members__member-property-icon icon-star-token svelte-1abnkcq");
+                    dom_attr(i, "class", "family-members__member-property-icon icon-star-token svelte-1ockr6b");
                 },
                 m(target, anchor) {
                     dom_insert(target, i, anchor);
@@ -309343,62 +308968,23 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (771:32) {#if !isViceCity}
-        function members_index_svelte_create_if_block_9(ctx) {
-            let div;
-            let if_block = /*member*/ ctx[47].flagid > 0 && members_index_svelte_create_if_block_10(ctx);
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    if (if_block) if_block.c();
-                    dom_attr(div, "class", "family-members__member-property svelte-1abnkcq");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    if (if_block) if_block.m(div, null);
-                },
-                p(ctx, dirty) {
-                    if ( /*member*/ ctx[47].flagid > 0) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
-                        } else {
-                            if_block = members_index_svelte_create_if_block_10(ctx);
-                            if_block.c();
-                            if_block.m(div, null);
-                        }
-                    } else if (if_block) {
-                        if_block.d(1);
-                        if_block = null;
-                    }
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-
-                    if (if_block) if_block.d();
-                }
-            };
-        }
-
-        // (773:40) {#if member.flagid > 0}
-        function members_index_svelte_create_if_block_10(ctx) {
+        // (697:36) {#if member.flagid > 0}
+        function members_index_svelte_create_if_block_7(ctx) {
             let img;
             let img_src_value;
 
             return {
                 c() {
                     img = dom_element("img");
-                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[47].flagid])) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[44].flagid])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "flag");
-                    dom_attr(img, "class", "family-members__member-property-flag svelte-1abnkcq");
+                    dom_attr(img, "class", "family-members__member-property-flag svelte-1ockr6b");
                 },
                 m(target, anchor) {
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && !utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[47].flagid])) {
+                    if (dirty[0] & /*actualData*/ 1 && !utils_src_url_equal(img.src, img_src_value = MAP_ID_TO_FLAG[ /*member*/ ctx[44].flagid])) {
                         dom_attr(img, "src", img_src_value);
                     }
                 },
@@ -309410,220 +308996,51 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (725:40) {:else}
-        function members_index_svelte_create_else_block_2(ctx) {
-            let div;
-            let t_value = `${/*member*/ ctx[47].nickname} (ID: ${/*member*/ ctx[47].online_status})` + "";
-            let t;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    t = dom_text(t_value);
-                    dom_attr(div, "class", "family-members__member-name");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    dom_append(div, t);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[47].nickname} (ID: ${/*member*/ ctx[47].online_status})` + "")) dom_set_data(t, t_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
-        // (723:40) {#if member.online_status === 1001}
-        function members_index_svelte_create_if_block_8(ctx) {
-            let div;
-            let t_value = `${/*member*/ ctx[47].nickname} (Был ${/*member*/ ctx[47].formate_date_ago})` + "";
-            let t;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    t = dom_text(t_value);
-                    dom_attr(div, "class", "family-members__member-name");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    dom_append(div, t);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[47].nickname} (Был ${/*member*/ ctx[47].formate_date_ago})` + "")) dom_set_data(t, t_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
-        // (728:40) {#if !isEmpty(member.role)}
-        function members_index_svelte_create_if_block_7(ctx) {
-            let div;
-            let t_value = /*member*/ ctx[47].role + "";
-            let t;
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    t = dom_text(t_value);
-                    dom_attr(div, "class", "family-members__member-role svelte-1abnkcq");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    dom_append(div, t);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = /*member*/ ctx[47].role + "")) dom_set_data(t, t_value);
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-                }
-            };
-        }
-
-        // (750:32) {:else}
+        // (657:40) {:else}
         function members_index_svelte_create_else_block_1(ctx) {
-            let div0;
-            let t0_value = (SERVERS[ /*member*/ ctx[47].server_id] || /*member*/ ctx[47].server_id) + "";
-            let t0;
-            let t1;
-            let div1;
-            let t2_value = /*formatDate*/ ctx[15]( /*member*/ ctx[47].formate_date_unix) + "";
-            let t2;
+            let div;
+            let t_value = `${/*member*/ ctx[44].nickname} (ID: ${/*member*/ ctx[44].online_status})` + "";
+            let t;
 
             return {
                 c() {
-                    div0 = dom_element("div");
-                    t0 = dom_text(t0_value);
-                    t1 = dom_space();
-                    div1 = dom_element("div");
-                    t2 = dom_text(t2_value);
-                    dom_attr(div0, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div1, "class", "family-members__member-property svelte-1abnkcq");
+                    div = dom_element("div");
+                    t = dom_text(t_value);
+                    dom_attr(div, "class", "family-members__member-name");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div0, anchor);
-                    dom_append(div0, t0);
-                    dom_insert(target, t1, anchor);
-                    dom_insert(target, div1, anchor);
-                    dom_append(div1, t2);
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t0_value !== (t0_value = (SERVERS[ /*member*/ ctx[47].server_id] || /*member*/ ctx[47].server_id) + "")) dom_set_data(t0, t0_value);
-                    if (dirty[0] & /*actualData*/ 1 && t2_value !== (t2_value = /*formatDate*/ ctx[15]( /*member*/ ctx[47].formate_date_unix) + "")) dom_set_data(t2, t2_value);
+                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[44].nickname} (ID: ${/*member*/ ctx[44].online_status})` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div0);
-                        dom_detach(t1);
-                        dom_detach(div1);
+                        dom_detach(div);
                     }
                 }
             };
         }
 
-        // (734:32) {#if !isViceCity}
-        function members_index_svelte_create_if_block_4(ctx) {
-            let div0;
-            let t0_value = /*member*/ ctx[47].quests + "";
-            let t0;
-            let t1;
-            let div1;
-            let t2;
-            let if_block0 = /*$familyInfo*/ ctx[12].management && members_index_svelte_create_if_block_6(ctx);
-            let if_block1 = /*$familyInfo*/ ctx[12].management && members_index_svelte_create_if_block_5(ctx);
-
-            return {
-                c() {
-                    div0 = dom_element("div");
-                    t0 = dom_text(t0_value);
-                    t1 = dom_space();
-                    div1 = dom_element("div");
-                    if (if_block0) if_block0.c();
-                    t2 = dom_space();
-                    if (if_block1) if_block1.c();
-                    dom_attr(div0, "class", "family-members__member-property svelte-1abnkcq");
-                    dom_attr(div1, "class", "family-members__member-property-wrapper svelte-1abnkcq");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div0, anchor);
-                    dom_append(div0, t0);
-                    dom_insert(target, t1, anchor);
-                    dom_insert(target, div1, anchor);
-                    if (if_block0) if_block0.m(div1, null);
-                    dom_append(div1, t2);
-                    if (if_block1) if_block1.m(div1, null);
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t0_value !== (t0_value = /*member*/ ctx[47].quests + "")) dom_set_data(t0, t0_value);
-
-                    if ( /*$familyInfo*/ ctx[12].management) {
-                        if (if_block0) {
-                            if_block0.p(ctx, dirty);
-                        } else {
-                            if_block0 = members_index_svelte_create_if_block_6(ctx);
-                            if_block0.c();
-                            if_block0.m(div1, t2);
-                        }
-                    } else if (if_block0) {
-                        if_block0.d(1);
-                        if_block0 = null;
-                    }
-
-                    if ( /*$familyInfo*/ ctx[12].management) {
-                        if (if_block1) {
-                            if_block1.p(ctx, dirty);
-                        } else {
-                            if_block1 = members_index_svelte_create_if_block_5(ctx);
-                            if_block1.c();
-                            if_block1.m(div1, null);
-                        }
-                    } else if (if_block1) {
-                        if_block1.d(1);
-                        if_block1 = null;
-                    }
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div0);
-                        dom_detach(t1);
-                        dom_detach(div1);
-                    }
-
-                    if (if_block0) if_block0.d();
-                    if (if_block1) if_block1.d();
-                }
-            };
-        }
-
-        // (737:40) {#if $familyInfo.management}
+        // (655:40) {#if member.online_status === 1001}
         function members_index_svelte_create_if_block_6(ctx) {
             let div;
-            let t_value = /*member*/ ctx[47].warns + "";
+            let t_value = `${/*member*/ ctx[44].nickname} (Был ${/*member*/ ctx[44].formate_date_ago})` + "";
             let t;
 
             return {
                 c() {
                     div = dom_element("div");
                     t = dom_text(t_value);
-                    dom_attr(div, "class", "family-members__member-property svelte-1abnkcq");
+                    dom_attr(div, "class", "family-members__member-name");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = /*member*/ ctx[47].warns + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = `${/*member*/ ctx[44].nickname} (Был ${/*member*/ ctx[44].formate_date_ago})` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -309633,41 +309050,82 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (740:40) {#if $familyInfo.management}
+        // (660:40) {#if !isEmpty(member.role)}
         function members_index_svelte_create_if_block_5(ctx) {
             let div;
+            let t_value = /*member*/ ctx[44].role + "";
+            let t;
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    t = dom_text(t_value);
+                    dom_attr(div, "class", "family-members__member-role svelte-1ockr6b");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    dom_append(div, t);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*actualData*/ 1 && t_value !== (t_value = /*member*/ ctx[44].role + "")) dom_set_data(t, t_value);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (668:36) {#if $familyInfo.management}
+        function members_index_svelte_create_if_block_4(ctx) {
+            let div0;
+            let t0_value = /*member*/ ctx[44].warns + "";
+            let t0;
+            let t1;
+            let div1;
             let mounted;
             let dispose;
 
             function click_handler_1(...args) {
-                return /*click_handler_1*/ ctx[29]( /*member*/ ctx[47], /*index*/ ctx[49], ...args);
+                return /*click_handler_1*/ ctx[27]( /*member*/ ctx[44], /*index*/ ctx[46], ...args);
             }
 
             return {
                 c() {
-                    div = dom_element("div");
-                    div.innerHTML = `<i class="family-members__member-context-icon icon-dotted-menu svelte-1abnkcq"></i>`;
-                    dom_attr(div, "class", "family-members__member-context svelte-1abnkcq");
-                    dom_toggle_class(div, "family-members__member-context--active", /*index*/ ctx[49] === /*selectedMemberIndex*/ ctx[4]);
+                    div0 = dom_element("div");
+                    t0 = dom_text(t0_value);
+                    t1 = dom_space();
+                    div1 = dom_element("div");
+                    div1.innerHTML = `<i class="family-members__member-context-icon icon-dotted-menu svelte-1ockr6b"></i>`;
+                    dom_attr(div0, "class", "family-members__member-property svelte-1ockr6b");
+                    dom_attr(div1, "class", "family-members__member-context svelte-1ockr6b");
+                    dom_toggle_class(div1, "family-members__member-context--active", /*index*/ ctx[46] === /*selectedMemberIndex*/ ctx[4]);
                 },
                 m(target, anchor) {
-                    dom_insert(target, div, anchor);
+                    dom_insert(target, div0, anchor);
+                    dom_append(div0, t0);
+                    dom_insert(target, t1, anchor);
+                    dom_insert(target, div1, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(div, "click", click_handler_1);
+                        dispose = dom_listen(div1, "click", click_handler_1);
                         mounted = true;
                     }
                 },
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
+                    if (dirty[0] & /*actualData*/ 1 && t0_value !== (t0_value = /*member*/ ctx[44].warns + "")) dom_set_data(t0, t0_value);
 
                     if (dirty[0] & /*selectedMemberIndex*/ 16) {
-                        dom_toggle_class(div, "family-members__member-context--active", /*index*/ ctx[49] === /*selectedMemberIndex*/ ctx[4]);
+                        dom_toggle_class(div1, "family-members__member-context--active", /*index*/ ctx[46] === /*selectedMemberIndex*/ ctx[4]);
                     }
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div);
+                        dom_detach(div0);
+                        dom_detach(t1);
+                        dom_detach(div1);
                     }
 
                     mounted = false;
@@ -309676,13 +309134,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (716:20) {#each actualData as member, index}
+        // (648:20) {#each actualData as member, index}
         function members_index_svelte_create_each_block_1(ctx) {
             let if_block_anchor;
 
             function select_block_type_1(ctx, dirty) {
                 if ( /*mode*/ ctx[5] === TableMode.Members) return members_index_svelte_create_if_block_3;
-                return members_index_svelte_create_else_block_3;
+                return members_index_svelte_create_else_block_2;
             }
 
             let current_block_type = select_block_type_1(ctx, [-1, -1]);
@@ -309720,7 +309178,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (791:4) {#if selectedMemberIndex >= 0}
+        // (714:4) {#if selectedMemberIndex >= 0}
         function members_index_svelte_create_if_block(ctx) {
             let div;
             let each_value = each_ensure_array_like( /*contextItems*/ ctx[7]);
@@ -309738,9 +309196,9 @@ const getRandomTableNumber = () => {
                         each_blocks[i].c();
                     }
 
-                    dom_attr(div, "class", "family-members__context-menu svelte-1abnkcq");
-                    set_style(div, "top", `${/*contextPosition*/ ctx[11].y}px`);
-                    set_style(div, "left", `${/*contextPosition*/ ctx[11].x}px`);
+                    dom_attr(div, "class", "family-members__context-menu svelte-1ockr6b");
+                    set_style(div, "top", `${/*contextPosition*/ ctx[10].y}px`);
+                    set_style(div, "left", `${/*contextPosition*/ ctx[10].x}px`);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -309752,7 +309210,7 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*doAction, contextItems, selectedMemberIndex*/ 8388752) {
+                    if (dirty[0] & /*doAction, contextItems, selectedMemberIndex*/ 2097296) {
                         each_value = each_ensure_array_like( /*contextItems*/ ctx[7]);
                         let i;
 
@@ -309775,12 +309233,12 @@ const getRandomTableNumber = () => {
                         each_blocks.length = each_value.length;
                     }
 
-                    if (dirty[0] & /*contextPosition*/ 2048) {
-                        set_style(div, "top", `${/*contextPosition*/ ctx[11].y}px`);
+                    if (dirty[0] & /*contextPosition*/ 1024) {
+                        set_style(div, "top", `${/*contextPosition*/ ctx[10].y}px`);
                     }
 
-                    if (dirty[0] & /*contextPosition*/ 2048) {
-                        set_style(div, "left", `${/*contextPosition*/ ctx[11].x}px`);
+                    if (dirty[0] & /*contextPosition*/ 1024) {
+                        set_style(div, "left", `${/*contextPosition*/ ctx[10].x}px`);
                     }
                 },
                 d(detaching) {
@@ -309793,21 +309251,21 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (793:12) {#each contextItems as id}
+        // (716:12) {#each contextItems as id}
         function members_index_svelte_create_each_block(ctx) {
             let div1;
             let i;
             let i_class_value;
             let t0;
             let div0;
-            let t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[44]] + "";
+            let t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[41]] + "";
             let t1;
             let t2;
             let mounted;
             let dispose;
 
             function click_handler_3() {
-                return /*click_handler_3*/ ctx[32]( /*id*/ ctx[44]);
+                return /*click_handler_3*/ ctx[30]( /*id*/ ctx[41]);
             }
 
             return {
@@ -309818,9 +309276,9 @@ const getRandomTableNumber = () => {
                     div0 = dom_element("div");
                     t1 = dom_text(t1_value);
                     t2 = dom_space();
-                    dom_attr(i, "class", i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[44]] + " svelte-1abnkcq");
-                    dom_attr(div0, "class", "family-members__context-menu-item-text svelte-1abnkcq");
-                    dom_attr(div1, "class", "family-members__context-menu-item svelte-1abnkcq");
+                    dom_attr(i, "class", i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[41]] + " svelte-1ockr6b");
+                    dom_attr(div0, "class", "family-members__context-menu-item-text svelte-1ockr6b");
+                    dom_attr(div1, "class", "family-members__context-menu-item svelte-1ockr6b");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -309838,11 +309296,11 @@ const getRandomTableNumber = () => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if (dirty[0] & /*contextItems*/ 128 && i_class_value !== (i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[44]] + " svelte-1abnkcq")) {
+                    if (dirty[0] & /*contextItems*/ 128 && i_class_value !== (i_class_value = "family-members__context-menu-item-icon " + MAP_ID_TO_ICON[ /*id*/ ctx[41]] + " svelte-1ockr6b")) {
                         dom_attr(i, "class", i_class_value);
                     }
 
-                    if (dirty[0] & /*contextItems*/ 128 && t1_value !== (t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[44]] + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*contextItems*/ 128 && t1_value !== (t1_value = MAP_ID_TO_NAME[ /*id*/ ctx[41]] + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -309893,8 +309351,8 @@ const getRandomTableNumber = () => {
             let current;
             let mounted;
             let dispose;
-            let if_block0 = /*mode*/ ctx[5] === TableMode.Rating && members_index_svelte_create_if_block_14(ctx);
-            let if_block1 = /*searchMode*/ ctx[8] && members_index_svelte_create_if_block_13(ctx);
+            let if_block0 = /*mode*/ ctx[5] === TableMode.Rating && members_index_svelte_create_if_block_11(ctx);
+            let if_block1 = /*searchMode*/ ctx[8] && members_index_svelte_create_if_block_10(ctx);
             let each_value_2 = each_ensure_array_like( /*headers*/ ctx[6]);
             let each_blocks = [];
 
@@ -309953,26 +309411,25 @@ const getRandomTableNumber = () => {
                     t9 = dom_text(t9_value);
                     t10 = dom_space();
                     if (if_block3) if_block3.c();
-                    dom_attr(i0, "class", "family-members__search-icon icon-magnifier svelte-1abnkcq");
-                    dom_attr(input, "class", "family-members__search-input svelte-1abnkcq");
+                    dom_attr(i0, "class", "family-members__search-icon icon-magnifier svelte-1ockr6b");
+                    dom_attr(input, "class", "family-members__search-input svelte-1ockr6b");
                     dom_attr(input, "type", "text");
                     dom_attr(input, "placeholder", input_placeholder_value = MAP_TABLE_MODE_TO_PLACEHOLDER[ /*mode*/ ctx[5]]);
-                    dom_attr(div0, "class", "family-members__search-button svelte-1abnkcq");
+                    dom_attr(div0, "class", "family-members__search-button svelte-1ockr6b");
                     dom_toggle_class(div0, "family-members__search-button--disabled", /*query*/ ctx[1].length < 3);
-                    dom_attr(div1, "class", "family-members__search svelte-1abnkcq");
-                    dom_attr(div2, "class", "family-members__table-head svelte-1abnkcq");
+                    dom_attr(div1, "class", "family-members__search svelte-1ockr6b");
+                    dom_attr(div2, "class", "family-members__table-head svelte-1ockr6b");
                     dom_toggle_class(div2, "family-members__table-head--rating", /*mode*/ ctx[5] === TableMode.Rating);
-                    dom_toggle_class(div2, "family-members__table-head--vicecity", /*isViceCity*/ ctx[9] && /*mode*/ ctx[5] === TableMode.Members);
-                    dom_attr(div3, "class", "family-members__table-list svelte-1abnkcq");
-                    dom_attr(div4, "class", div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1abnkcq");
-                    dom_attr(div5, "class", "family-members__table svelte-1abnkcq");
+                    dom_attr(div3, "class", "family-members__table-list svelte-1ockr6b");
+                    dom_attr(div4, "class", div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1ockr6b");
+                    dom_attr(div5, "class", "family-members__table svelte-1ockr6b");
 
                     dom_attr(i1, "class", i1_class_value = "family-members__footer-button-icon " + ( /*mode*/ ctx[5] === TableMode.Members ?
                         'icon-rating' :
-                        'icon-chevron-left') + " svelte-1abnkcq");
+                        'icon-chevron-left') + " svelte-1ockr6b");
 
-                    dom_attr(div6, "class", "family-members__footer-button-text svelte-1abnkcq");
-                    dom_attr(div7, "class", "family-members__footer-button svelte-1abnkcq");
+                    dom_attr(div6, "class", "family-members__footer-button-text svelte-1ockr6b");
+                    dom_attr(div7, "class", "family-members__footer-button svelte-1ockr6b");
                     dom_attr(div8, "class", "family-members");
                 },
                 m(target, anchor) {
@@ -310003,7 +309460,7 @@ const getRandomTableNumber = () => {
                     dom_append(div4, div3);
                     if_blocks[current_block_type_index].m(div3, null);
                     /*div4_binding*/
-                    ctx[30](div4);
+                    ctx[28](div4);
                     dom_append(div8, t7);
                     dom_append(div8, div7);
                     dom_append(div7, i1);
@@ -310013,19 +309470,19 @@ const getRandomTableNumber = () => {
                     dom_append(div8, t10);
                     if (if_block3) if_block3.m(div8, null);
                     /*div8_binding*/
-                    ctx[33](div8);
+                    ctx[31](div8);
                     current = true;
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(members_index_svelte_window_1, "click", /*clickHandler*/ ctx[21]),
-                            dom_listen(members_index_svelte_window_1, "keydown", /*keydownHandler*/ ctx[22]),
-                            dom_listen(input, "input", /*input_input_handler*/ ctx[25]),
-                            dom_listen(input, "focus", /*focus_handler*/ ctx[26]),
-                            dom_listen(input, "blur", /*blur_handler*/ ctx[27]),
-                            dom_listen(div0, "click", /*search*/ ctx[16]),
-                            dom_listen(div4, "scroll", /*scrollHandler*/ ctx[20]),
-                            dom_listen(div7, "click", /*click_handler_2*/ ctx[31])
+                            dom_listen(members_index_svelte_window_1, "click", /*clickHandler*/ ctx[19]),
+                            dom_listen(members_index_svelte_window_1, "keydown", /*keydownHandler*/ ctx[20]),
+                            dom_listen(input, "input", /*input_input_handler*/ ctx[23]),
+                            dom_listen(input, "focus", /*focus_handler*/ ctx[24]),
+                            dom_listen(input, "blur", /*blur_handler*/ ctx[25]),
+                            dom_listen(div0, "click", /*search*/ ctx[14]),
+                            dom_listen(div4, "scroll", /*scrollHandler*/ ctx[18]),
+                            dom_listen(div7, "click", /*click_handler_2*/ ctx[29])
                         ];
 
                         mounted = true;
@@ -310036,7 +309493,7 @@ const getRandomTableNumber = () => {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = members_index_svelte_create_if_block_14(ctx);
+                            if_block0 = members_index_svelte_create_if_block_11(ctx);
                             if_block0.c();
                             if_block0.m(div8, t0);
                         }
@@ -310057,7 +309514,7 @@ const getRandomTableNumber = () => {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = members_index_svelte_create_if_block_13(ctx);
+                            if_block1 = members_index_svelte_create_if_block_10(ctx);
                             if_block1.c();
                             if_block1.m(div1, t3);
                         }
@@ -310070,7 +309527,7 @@ const getRandomTableNumber = () => {
                         dom_toggle_class(div0, "family-members__search-button--disabled", /*query*/ ctx[1].length < 3);
                     }
 
-                    if (dirty[0] & /*colsSortState, headers, sort, mode*/ 263264) {
+                    if (dirty[0] & /*colsSortState, headers, sort, mode*/ 66144) {
                         each_value_2 = each_ensure_array_like( /*headers*/ ctx[6]);
                         let i;
 
@@ -310095,10 +309552,6 @@ const getRandomTableNumber = () => {
 
                     if (!current || dirty[0] & /*mode*/ 32) {
                         dom_toggle_class(div2, "family-members__table-head--rating", /*mode*/ ctx[5] === TableMode.Rating);
-                    }
-
-                    if (!current || dirty[0] & /*isViceCity, mode*/ 544) {
-                        dom_toggle_class(div2, "family-members__table-head--vicecity", /*isViceCity*/ ctx[9] && /*mode*/ ctx[5] === TableMode.Members);
                     }
 
                     let previous_block_index = current_block_type_index;
@@ -310127,13 +309580,13 @@ const getRandomTableNumber = () => {
                         if_block2.m(div3, null);
                     }
 
-                    if (!current || dirty[0] & /*mode*/ 32 && div4_class_value !== (div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1abnkcq")) {
+                    if (!current || dirty[0] & /*mode*/ 32 && div4_class_value !== (div4_class_value = "family-members__table-list-wrapper family-members__table-list-wrapper--" + /*mode*/ ctx[5] + " svelte-1ockr6b")) {
                         dom_attr(div4, "class", div4_class_value);
                     }
 
                     if (!current || dirty[0] & /*mode*/ 32 && i1_class_value !== (i1_class_value = "family-members__footer-button-icon " + ( /*mode*/ ctx[5] === TableMode.Members ?
                             'icon-rating' :
-                            'icon-chevron-left') + " svelte-1abnkcq")) {
+                            'icon-chevron-left') + " svelte-1ockr6b")) {
                         dom_attr(i1, "class", i1_class_value);
                     }
 
@@ -310173,10 +309626,10 @@ const getRandomTableNumber = () => {
                     destroy_each(each_blocks, detaching);
                     if_blocks[current_block_type_index].d();
                     /*div4_binding*/
-                    ctx[30](null);
+                    ctx[28](null);
                     if (if_block3) if_block3.d();
                     /*div8_binding*/
-                    ctx[33](null);
+                    ctx[31](null);
                     mounted = false;
                     utils_run_all(dispose);
                 }
@@ -310189,11 +309642,11 @@ const getRandomTableNumber = () => {
             let $serverApiServerId;
             let $contextBits;
             let $inputActive;
-            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(40, $serverApiToken = $$value));
-            utils_component_subscribe($$self, familyInfo, $$value => $$invalidate(12, $familyInfo = $$value));
-            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(13, $serverApiServerId = $$value));
-            utils_component_subscribe($$self, contextBits, $$value => $$invalidate(41, $contextBits = $$value));
-            utils_component_subscribe($$self, inputActive, $$value => $$invalidate(14, $inputActive = $$value));
+            utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(38, $serverApiToken = $$value));
+            utils_component_subscribe($$self, familyInfo, $$value => $$invalidate(11, $familyInfo = $$value));
+            utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(12, $serverApiServerId = $$value));
+            utils_component_subscribe($$self, contextBits, $$value => $$invalidate(39, $contextBits = $$value));
+            utils_component_subscribe($$self, inputActive, $$value => $$invalidate(13, $inputActive = $$value));
             let actualData = null;
             let query = '';
             let pageMember = 1;
@@ -310209,22 +309662,8 @@ const getRandomTableNumber = () => {
             let headers = [];
             let contextItems = [];
             let searchMode = false;
-            let isViceCity = false;
             const colsSortState = {};
             const contextPosition = {};
-
-            const formatDate = timestamp => {
-                if (!timestamp) return '-';
-                const date = new Date(timestamp);
-
-                return date.toLocaleDateString('ru-RU', {
-                    day: '2-digit',
-                    month: '2-digit',
-                    year: 'numeric',
-                    hour: '2-digit',
-                    minute: '2-digit'
-                });
-            };
 
             const search = async () => {
                 if ((0, lodash.isEmpty)(query)) {
@@ -310249,35 +309688,15 @@ const getRandomTableNumber = () => {
                     }
                 }).then(response => {
                     if (mode === TableMode.Members) {
-                        $$invalidate(9, isViceCity = response.data.isViceCity || false);
-                        $$invalidate(0, actualData = response.data.items || response.data);
+                        $$invalidate(0, actualData = response.data);
 
                         $$invalidate(0, actualData = actualData.map(item => {
                             return {
                                 ...item
                             };
                         }));
-
-                        updateHeaders();
                     } else {
-                        $$invalidate(9, isViceCity = response.data.isViceCity || false);
-                        const ratingItems = response.data.items || response.data;
-
-                        $$invalidate(0, actualData = ratingItems.map((item, index) => {
-                            let placement = index + 1;
-
-                            let placementStyle = index < 3 ?
-                                MAP_PALCE_TO_CLASS[placement] :
-                                MAP_PALCE_TO_CLASS[0];
-
-                            return {
-                                ...item,
-                                placement,
-                                placementStyle
-                            };
-                        }));
-
-                        updateHeaders();
+                        $$invalidate(0, actualData = response.data);
                     }
                 }).catch(error => {
                     console.log('getRating error', JSON.stringify(error));
@@ -310306,34 +309725,22 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                if (field === ViceCityMembersHeaders.LastOnline) {
-                    if (colsSortState[field]) {
-                        $$invalidate(0, actualData = actualData.sort((a, b) => (b.formate_date_unix || 0) - (a.formate_date_unix || 0)));
-                    } else {
-                        $$invalidate(0, actualData = actualData.sort((a, b) => (a.formate_date_unix || 0) - (b.formate_date_unix || 0)));
-                    }
-                } else if (field === ViceCityMembersHeaders.Server) {
-                    if (colsSortState[field]) {
-                        $$invalidate(0, actualData = actualData.sort((a, b) => (b.server_id || 0) - (a.server_id || 0)));
-                    } else {
-                        $$invalidate(0, actualData = actualData.sort((a, b) => (a.server_id || 0) - (b.server_id || 0)));
-                    }
-                } else if (colsSortState[field]) {
+                if (colsSortState[field]) {
                     $$invalidate(0, actualData = actualData.sort((a, b) => b[field] - a[field]));
                 } else {
                     $$invalidate(0, actualData = actualData.sort((a, b) => a[field] - b[field]));
                 }
 
                 Object.keys(colsSortState).forEach(key => {
-                    $$invalidate(10, colsSortState[key] = key === field ? !colsSortState[key] : false, colsSortState);
+                    $$invalidate(9, colsSortState[key] = key === field ? !colsSortState[key] : false, colsSortState);
                 });
             };
 
             const openContextMenu = (event, member, index) => {
                 const offsetX = (window.innerWidth - mainNode.clientWidth) / 2.1;
                 const offsetY = mainNode.getBoundingClientRect().y;
-                $$invalidate(11, contextPosition.x = event.pageX - offsetX, contextPosition);
-                $$invalidate(11, contextPosition.y = event.pageY - offsetY, contextPosition);
+                $$invalidate(10, contextPosition.x = event.pageX - offsetX, contextPosition);
+                $$invalidate(10, contextPosition.y = event.pageY - offsetY, contextPosition);
 
                 $$invalidate(7, contextItems = Object.values(ActionIds).filter(item => {
                     if (members[index].online_status) {
@@ -310391,32 +309798,6 @@ const getRandomTableNumber = () => {
                 utils_set_store_value(contextBits, $contextBits = 0, $contextBits);
             };
 
-            const updateHeaders = () => {
-                $$invalidate(6, headers = Object.values(MAP_TABLE_MODE_TO_HEADERS[mode]));
-
-                if (isViceCity && mode === TableMode.Members) {
-                    $$invalidate(6, headers = headers.filter(item => item !== MembersHeaders.Quests && item !== MembersHeaders.Penalty));
-
-                    $$invalidate(6, headers = [
-                        ...headers,
-                        ViceCityMembersHeaders.Server,
-                        ViceCityMembersHeaders.LastOnline
-                    ]);
-                }
-
-                if (isViceCity && mode === TableMode.Rating) {
-                    $$invalidate(6, headers = headers.filter(item => item !== RationgHeaders.Flag));
-                }
-
-                if (mode === TableMode.Members) {
-                    headers.forEach(item => {
-                        if (colsSortState[item] === undefined) {
-                            $$invalidate(10, colsSortState[item] = false, colsSortState);
-                        }
-                    });
-                }
-            };
-
             const changeTable = type => {
                 if (disabled) {
                     return;
@@ -310429,27 +309810,13 @@ const getRandomTableNumber = () => {
                 clearSearch();
                 $$invalidate(6, headers = Object.values(MAP_TABLE_MODE_TO_HEADERS[type]));
 
-                if (isViceCity && mode === TableMode.Members) {
-                    $$invalidate(6, headers = headers.filter(item => item !== MembersHeaders.Quests && item !== MembersHeaders.Penalty));
-
-                    $$invalidate(6, headers = [
-                        ...headers,
-                        ViceCityMembersHeaders.Server,
-                        ViceCityMembersHeaders.LastOnline
-                    ]);
-                }
-
-                if (isViceCity && mode === TableMode.Rating) {
-                    $$invalidate(6, headers = headers.filter(item => item !== RationgHeaders.Flag));
-                }
-
                 if (!(0, lodash.isNil)(scrollNode)) {
                     $$invalidate(2, scrollNode.scrollTop = 0, scrollNode);
                 }
 
                 if (mode === TableMode.Members) {
                     headers.forEach(item => {
-                        $$invalidate(10, colsSortState[item] = false, colsSortState);
+                        $$invalidate(9, colsSortState[item] = false, colsSortState);
                     });
                 }
 
@@ -310486,9 +309853,9 @@ const getRandomTableNumber = () => {
                     }
                 }).then(response => {
                     if (mode === TableMode.Members) {
-                        $$invalidate(9, isViceCity = response.data.isViceCity || false);
-                        const items = response.data.items || response.data;
-                        members = (0, lodash.isEmpty)(members) ? items : [...members, ...items];
+                        members = (0, lodash.isEmpty)(members) ?
+                            response.data :
+                            [...members, ...response.data];
 
                         members = members.map(item => {
                             const member = {
@@ -310496,15 +309863,10 @@ const getRandomTableNumber = () => {
                             };
                             return member;
                         });
-
-                        updateHeaders();
-                        endReached = (0, lodash.isEmpty)(items); // end of list
                     } else {
-                        const ratingItems = response.data.items || response.data;
-
                         familyRating = (0, lodash.isNil)(familyRating) ?
-                            ratingItems :
-                            [...familyRating, ...ratingItems];
+                            response.data :
+                            [...familyRating, ...response.data];
 
                         familyRating = familyRating.map((item, index) => {
                             let placement = index + 1;
@@ -310519,12 +309881,11 @@ const getRandomTableNumber = () => {
                                 placementStyle
                             };
                         });
-
-                        endReached = (0, lodash.isEmpty)(ratingItems); // end of list
                     }
 
                     $$invalidate(0, actualData = mode === TableMode.Members ? members : familyRating);
                     disabled = false;
+                    endReached = (0, lodash.isEmpty)(response.data); // end of list
                 }).catch(error => {
                     console.log('getRating error', JSON.stringify(error));
                 });
@@ -310587,13 +309948,11 @@ const getRandomTableNumber = () => {
                 headers,
                 contextItems,
                 searchMode,
-                isViceCity,
                 colsSortState,
                 contextPosition,
                 $familyInfo,
                 $serverApiServerId,
                 $inputActive,
-                formatDate,
                 search,
                 clearSearch,
                 sort,
@@ -314111,6 +313470,7 @@ const getRandomTableNumber = () => {
          * @param {Array<*>} arr The array to sort (modifies original).
          * @param {!function(*, *): number} compareFnc Comparison function.
          * @api
+         * @deprecated
          */
         function stableSort(arr, compareFnc) {
             const length = arr.length;
@@ -314337,7 +313697,7 @@ const getRandomTableNumber = () => {
         }
 
         /* harmony default export */
-        const Event = (BaseEvent);
+        const events_Event = (BaseEvent);
 
         ; // CONCATENATED MODULE: ./node_modules/ol/events/Target.js
         /**
@@ -314432,7 +313792,7 @@ const getRandomTableNumber = () => {
                     return;
                 }
 
-                const evt = isString ? new Event(event) : /** @type {Event} */ (event);
+                const evt = isString ? new events_Event(event) : /** @type {Event} */ (event);
                 if (!evt.target) {
                     evt.target = this.eventTarget_ || this;
                 }
@@ -314879,7 +314239,7 @@ const getRandomTableNumber = () => {
          * OpenLayers version.
          * @type {string}
          */
-        const util_VERSION = '10.6.1';
+        const util_VERSION = '10.7.0';
 
         ; // CONCATENATED MODULE: ./node_modules/ol/Object.js
         /**
@@ -314895,7 +314255,7 @@ const getRandomTableNumber = () => {
          * @classdesc
          * Events emitted by {@link module:ol/Object~BaseObject} instances are instances of this type.
          */
-        class ObjectEvent extends Event {
+        class ObjectEvent extends events_Event {
             /**
              * @param {string} type The event type.
              * @param {string} key The property name.
@@ -325844,7 +325204,7 @@ const getRandomTableNumber = () => {
          * type.
          * @template T
          */
-        class CollectionEvent extends Event {
+        class CollectionEvent extends events_Event {
             /**
              * @param {import("./CollectionEventType.js").default} type Type.
              * @param {T} element Element.
@@ -325933,10 +325293,10 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {!Array<T>}
                  */
-                this.array_ = array ? array : [];
+                this.array_ = array ?? [];
 
                 if (this.unique_) {
-                    for (let i = 0, ii = this.array_.length; i < ii; ++i) {
+                    for (let i = 1, ii = this.array_.length; i < ii; ++i) {
                         this.assertUnique_(this.array_[i], i);
                     }
                 }
@@ -326051,9 +325411,6 @@ const getRandomTableNumber = () => {
              * @api
              */
             push(elem) {
-                if (this.unique_) {
-                    this.assertUnique_(elem);
-                }
                 const n = this.getLength();
                 this.insertAt(n, elem);
                 return this.getLength();
@@ -326145,8 +325502,9 @@ const getRandomTableNumber = () => {
              * @param {number} [except] Optional index to ignore.
              */
             assertUnique_(elem, except) {
-                for (let i = 0, ii = this.array_.length; i < ii; ++i) {
-                    if (this.array_[i] === elem && i !== except) {
+                const array = this.array_;
+                for (let i = 0, ii = array.length; i < ii; ++i) {
+                    if (array[i] === elem && i !== except) {
                         throw new Error('Duplicate item added to a unique collection');
                     }
                 }
@@ -326167,7 +325525,7 @@ const getRandomTableNumber = () => {
          * Events emitted as map events are instances of this type.
          * See {@link module:ol/Map~Map} for which events trigger a map event.
          */
-        class MapEvent extends Event {
+        class MapEvent extends events_Event {
             /**
              * @param {string} type Event type.
              * @param {import("./Map.js").default} map Map.
@@ -327578,9 +326936,9 @@ const getRandomTableNumber = () => {
          * Create an html canvas element and returns its 2d context.
          * @param {number} [width] Canvas width.
          * @param {number} [height] Canvas height.
-         * @param {Array<HTMLCanvasElement>} [canvasPool] Canvas pool to take existing canvas from.
+         * @param {Array<HTMLCanvasElement|OffscreenCanvas>} [canvasPool] Canvas pool to take existing canvas from.
          * @param {CanvasRenderingContext2DSettings} [settings] CanvasRenderingContext2DSettings
-         * @return {CanvasRenderingContext2D} The context.
+         * @return {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} The context.
          */
         function dom_createCanvasContext2D(width, height, canvasPool, settings) {
             /** @type {HTMLCanvasElement|OffscreenCanvas} */
@@ -327588,7 +326946,9 @@ const getRandomTableNumber = () => {
             if (canvasPool && canvasPool.length) {
                 canvas = /** @type {HTMLCanvasElement} */ (canvasPool.shift());
             } else if (WORKER_OFFSCREEN_CANVAS) {
-                canvas = new OffscreenCanvas(width || 300, height || 300);
+                canvas = new(class extends OffscreenCanvas {
+                    style = {};
+                })(width ?? 300, height ?? 150);
             } else {
                 canvas = document.createElement('canvas');
             }
@@ -327598,17 +326958,18 @@ const getRandomTableNumber = () => {
             if (height) {
                 canvas.height = height;
             }
-            //FIXME Allow OffscreenCanvasRenderingContext2D as return type
-            return /** @type {CanvasRenderingContext2D} */ (
+            return /** @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} */ (
                 canvas.getContext('2d', settings)
             );
         }
 
-        /** @type {CanvasRenderingContext2D} */
+        /**
+         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
+         */
         let sharedCanvasContext;
 
         /**
-         * @return {CanvasRenderingContext2D} Shared canvas context.
+         * @return {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} Shared canvas context.
          */
         function getSharedCanvasContext2D() {
             if (!sharedCanvasContext) {
@@ -327620,7 +326981,7 @@ const getRandomTableNumber = () => {
         /**
          * Releases canvas memory to avoid exceeding memory limits in Safari.
          * See https://pqina.nl/blog/total-canvas-memory-use-exceeds-the-maximum-limit/
-         * @param {CanvasRenderingContext2D} context Context.
+         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
          */
         function releaseCanvas(context) {
             const canvas = context.canvas;
@@ -327720,6 +327081,78 @@ const getRandomTableNumber = () => {
                 // reorder
                 node.insertBefore(newChild, oldChild);
             }
+        }
+
+        /**
+         * Creates a minimal structure that mocks a DIV to be used by the composite and
+         * layer renderer in a worker environment
+         * @return {HTMLDivElement} mocked DIV
+         */
+        function createMockDiv() {
+            const mockedDiv = new Proxy({
+                /**
+                 * @type {Array<HTMLElement>}
+                 */
+                childNodes: [],
+                /**
+                 * @param {HTMLElement} node html node.
+                 * @return {HTMLElement} html node.
+                 */
+                appendChild: function(node) {
+                    this.childNodes.push(node);
+                    return node;
+                },
+                /**
+                 * dummy function, as this structure is not supposed to have a parent.
+                 */
+                remove: function() {},
+                /**
+                 * @param {HTMLElement} node html node.
+                 * @return {HTMLElement} html node.
+                 */
+                removeChild: function(node) {
+                    const index = this.childNodes.indexOf(node);
+                    if (index === -1) {
+                        throw new Error('Node to remove was not found');
+                    }
+                    this.childNodes.splice(index, 1);
+                    return node;
+                },
+                /**
+                 * @param {HTMLElement} newNode new html node.
+                 * @param {HTMLElement} referenceNode reference html node.
+                 * @return {HTMLElement} new html node.
+                 */
+                insertBefore: function(newNode, referenceNode) {
+                    const index = this.childNodes.indexOf(referenceNode);
+                    if (index === -1) {
+                        throw new Error('Reference node not found');
+                    }
+                    this.childNodes.splice(index, 0, newNode);
+                    return newNode;
+                },
+                style: {},
+            }, {
+                get(target, prop, receiver) {
+                    if (prop === 'firstElementChild') {
+                        return target.childNodes.length > 0 ? target.childNodes[0] : null;
+                    }
+                    return Reflect.get(target, prop, receiver);
+                },
+            }, );
+            return /** @type {HTMLDivElement} */ ( /** @type {*} */ (mockedDiv));
+        }
+
+        /***
+         * @param {*} obj The object to check.
+         * @return {obj is (HTMLCanvasElement | OffscreenCanvas)} The object is a canvas.
+         */
+        function isCanvas(obj) {
+            return (
+                (typeof HTMLCanvasElement !== 'undefined' &&
+                    obj instanceof HTMLCanvasElement) ||
+                (typeof OffscreenCanvas !== 'undefined' && obj instanceof OffscreenCanvas)
+            );
         }
 
         ; // CONCATENATED MODULE: ./node_modules/ol/control/Control.js
@@ -330104,7 +329537,7 @@ const getRandomTableNumber = () => {
          * Events emitted by {@link module:ol/interaction/DragBox~DragBox} instances are instances of
          * this type.
          */
-        class DragBoxEvent extends Event {
+        class DragBoxEvent extends events_Event {
             /**
              * @param {string} type The event type.
              * @param {import("../coordinate.js").Coordinate} coordinate The event coordinate.
@@ -331924,8 +331357,22 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @typedef {'addlayer'|'removelayer'} GroupEventType
+         * @enum {string}
          */
+        const GroupEventType = {
+            /**
+             * Triggered when a layer is added
+             * @event GroupEvent#addlayer
+             * @api
+             */
+            ADDLAYER: 'addlayer',
+            /**
+             * Triggered when a layer is removed
+             * @event GroupEvent#removelayer
+             * @api
+             */
+            REMOVELAYER: 'removelayer',
+        };
 
         /**
          * @classdesc
@@ -331933,7 +331380,7 @@ const getRandomTableNumber = () => {
          * the group or one of its child groups.  When a layer group is added to or removed from another layer group,
          * a single event will be triggered (instead of one per layer in the group added or removed).
          */
-        class GroupEvent extends Event {
+        class GroupEvent extends events_Event {
             /**
              * @param {GroupEventType} type The event type.
              * @param {BaseLayer} layer The layer.
@@ -331955,7 +331402,8 @@ const getRandomTableNumber = () => {
          * @typedef {import("../Observable").OnSignature<import("../Observable").EventTypes, import("../events/Event.js").default, Return> &
          *   import("../Observable").OnSignature<import("./Base").BaseLayerObjectEventTypes|
          *     'change:layers', import("../Object").ObjectEvent, Return> &
-         *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|'change:layers', Return>} GroupOnSignature
+         *   import("../Observable").OnSignature<'addlayer'|'removelayer', GroupEvent, Return> &
+         *   import("../Observable").CombinedOnSignature<import("../Observable").EventTypes|import("./Base").BaseLayerObjectEventTypes|'addlayer'|'removelayer'|'change:layers', Return>} GroupOnSignature
          */
 
         /**
@@ -331994,6 +331442,7 @@ const getRandomTableNumber = () => {
          *
          * A generic `change` event is triggered when the group/Collection changes.
          *
+         * @fires GroupEvent
          * @api
          */
         class LayerGroup extends Base {
@@ -332092,7 +331541,7 @@ const getRandomTableNumber = () => {
                 for (let i = 0, ii = layersArray.length; i < ii; i++) {
                     const layer = layersArray[i];
                     this.registerLayerListeners_(layer);
-                    this.dispatchEvent(new GroupEvent('addlayer', layer));
+                    this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, layer));
                 }
                 this.changed();
             }
@@ -332113,8 +331562,13 @@ const getRandomTableNumber = () => {
 
                 if (layer instanceof LayerGroup) {
                     listenerKeys.push(
-                        events_listen(layer, 'addlayer', this.handleLayerGroupAdd_, this),
-                        events_listen(layer, 'removelayer', this.handleLayerGroupRemove_, this),
+                        events_listen(layer, GroupEventType.ADDLAYER, this.handleLayerGroupAdd_, this),
+                        events_listen(
+                            layer,
+                            GroupEventType.REMOVELAYER,
+                            this.handleLayerGroupRemove_,
+                            this,
+                        ),
                     );
                 }
 
@@ -332125,14 +331579,14 @@ const getRandomTableNumber = () => {
              * @param {GroupEvent} event The layer group event.
              */
             handleLayerGroupAdd_(event) {
-                this.dispatchEvent(new GroupEvent('addlayer', event.layer));
+                this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, event.layer));
             }
 
             /**
              * @param {GroupEvent} event The layer group event.
              */
             handleLayerGroupRemove_(event) {
-                this.dispatchEvent(new GroupEvent('removelayer', event.layer));
+                this.dispatchEvent(new GroupEvent(GroupEventType.REMOVELAYER, event.layer));
             }
 
             /**
@@ -332142,7 +331596,7 @@ const getRandomTableNumber = () => {
             handleLayersAdd_(collectionEvent) {
                 const layer = collectionEvent.element;
                 this.registerLayerListeners_(layer);
-                this.dispatchEvent(new GroupEvent('addlayer', layer));
+                this.dispatchEvent(new GroupEvent(GroupEventType.ADDLAYER, layer));
                 this.changed();
             }
 
@@ -332155,7 +331609,7 @@ const getRandomTableNumber = () => {
                 const key = getUid(layer);
                 this.listenerKeys_[key].forEach(unlistenByKey);
                 delete this.listenerKeys_[key];
-                this.dispatchEvent(new GroupEvent('removelayer', layer));
+                this.dispatchEvent(new GroupEvent(GroupEventType.REMOVELAYER, layer));
                 this.changed();
             }
 
@@ -332186,7 +331640,9 @@ const getRandomTableNumber = () => {
                 if (collection) {
                     const currentLayers = collection.getArray();
                     for (let i = 0, ii = currentLayers.length; i < ii; ++i) {
-                        this.dispatchEvent(new GroupEvent('removelayer', currentLayers[i]));
+                        this.dispatchEvent(
+                            new GroupEvent(GroupEventType.REMOVELAYER, currentLayers[i]),
+                        );
                     }
                 }
 
@@ -336160,13 +335616,13 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @type {CanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
          */
         let taintedTestContext = null;
 
         class IconImage extends events_Target {
             /**
-             * @param {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null} image Image.
+             * @param {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null} image Image.
              * @param {string|undefined} src Src.
              * @param {?string} crossOrigin Cross origin.
              * @param {import("../ImageState.js").default|undefined} imageState Image state.
@@ -336177,13 +335633,13 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|HTMLCanvasElement|ImageBitmap}
+                 * @type {HTMLImageElement|OffscreenCanvas|HTMLCanvasElement|ImageBitmap}
                  */
                 this.hitDetectionImage_ = null;
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null}
+                 * @type {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null}
                  */
                 this.image_ = image;
 
@@ -336195,7 +335651,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {Object<number, HTMLCanvasElement>}
+                 * @type {Object<number, HTMLCanvasElement|OffscreenCanvas>}
                  */
                 this.canvas_ = {};
 
@@ -336295,7 +335751,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image or Canvas element or image bitmap.
+             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image or Canvas element or image bitmap.
              */
             getImage(pixelRatio) {
                 if (!this.image_) {
@@ -336322,7 +335778,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image element.
+             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image element.
              */
             getHitDetectionImage() {
                 if (!this.image_) {
@@ -336450,7 +335906,7 @@ const getRandomTableNumber = () => {
         }
 
         /**
-         * @param {HTMLImageElement|HTMLCanvasElement|ImageBitmap|null} image Image.
+         * @param {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap|null} image Image.
          * @param {string|undefined} cacheKey Src.
          * @param {?string} crossOrigin Cross origin.
          * @param {import("../ImageState.js").default|undefined} imageState Image state.
@@ -336755,7 +336211,7 @@ const getRandomTableNumber = () => {
         const checkedFonts = new ol_Object();
 
         /**
-         * @type {CanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
          */
         let measureContext = null;
 
@@ -337117,7 +336573,7 @@ const getRandomTableNumber = () => {
 
         /**
          * @param {Label} label Label.
-         * @param {CanvasRenderingContext2D} context Context.
+         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
          */
         function executeLabelInstructions(label, context) {
             const contextInstructions = label.contextInstructions;
@@ -337510,7 +336966,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLCanvasElement|null}
+                 * @type {HTMLCanvasElement|OffscreenCanvas|null}
                  */
                 this.hitDetectionCanvas_ = null;
 
@@ -337654,7 +337110,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLCanvasElement} Image element.
+             * @return {HTMLCanvasElement|OffscreenCanvas} Image element.
              * @override
              */
             getHitDetectionImage() {
@@ -337669,7 +337125,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image icon.
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLCanvasElement} Image or Canvas element.
+             * @return {HTMLCanvasElement|OffscreenCanvas} Image or Canvas element.
              * @api
              * @override
              */
@@ -337678,7 +337134,7 @@ const getRandomTableNumber = () => {
                 const cacheKey =
                     `${pixelRatio},${this.angle_},${this.radius},${this.radius2_},${this.points_},${fillKey}` +
                     Object.values(this.renderOptions_).join(',');
-                let image = /** @type {HTMLCanvasElement} */ (
+                let image = /** @type {HTMLCanvasElement|OffscreenCanvas} */ (
                     shared.get(cacheKey, null, null)?.getImage(1)
                 );
                 if (!image) {
@@ -337950,7 +337406,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @param {CanvasRenderingContext2D} context The rendering context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The rendering context.
              * @param {number} pixelRatio The pixel ratio.
              */
             draw_(renderOptions, context, pixelRatio) {
@@ -337985,7 +337441,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @return {HTMLCanvasElement} Canvas containing the icon
+             * @return {HTMLCanvasElement|OffscreenCanvas} Canvas containing the icon
              */
             createHitDetectionCanvas_(renderOptions) {
                 let context;
@@ -338014,7 +337470,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D} context The context to draw in.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The context to draw in.
              */
             createPath_(context) {
                 let points = this.points_;
@@ -338040,7 +337496,7 @@ const getRandomTableNumber = () => {
             /**
              * @private
              * @param {RenderOptions} renderOptions Render options.
-             * @param {CanvasRenderingContext2D} context The context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context The context.
              */
             drawHitDetectionCanvas_(renderOptions, context) {
                 // set origin to canvas center
@@ -338328,7 +337784,7 @@ const getRandomTableNumber = () => {
          * @property {null|string} [crossOrigin] The `crossOrigin` attribute for loaded images. Note that you must provide a
          * `crossOrigin` value if you want to access pixel data with the Canvas renderer.
          * See https://developer.mozilla.org/en-US/docs/Web/HTML/CORS_enabled_image for more detail.
-         * @property {HTMLImageElement|HTMLCanvasElement|ImageBitmap} [img] Image object for the icon.
+         * @property {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} [img] Image object for the icon.
          * @property {Array<number>} [displacement=[0, 0]] Displacement of the icon in pixels.
          * Positive values will shift the icon right and up.
          * @property {number} [opacity=1] Opacity of the icon.
@@ -338701,7 +338157,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image icon.
              * @param {number} pixelRatio Pixel ratio.
-             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image or Canvas element. If the Icon
+             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image or Canvas element. If the Icon
              * style was configured with `src` or with a not let loaded `img`, an `ImageBitmap` will be returned.
              * @api
              * @override
@@ -338738,7 +338194,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLImageElement|HTMLCanvasElement|ImageBitmap} Image element.
+             * @return {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|ImageBitmap} Image element.
              * @override
              */
             getHitDetectionImage() {
@@ -338788,6 +338244,21 @@ const getRandomTableNumber = () => {
              */
             getSrc() {
                 return this.iconImage_.getSrc();
+            }
+
+            /**
+             * Set the image URI
+             * @param {string} src Image source URI
+             * @api
+             */
+            setSrc(src) {
+                this.iconImage_ = IconImage_get(
+                    null,
+                    src,
+                    this.crossOrigin_,
+                    ol_ImageState.IDLE,
+                    this.color_,
+                );
             }
 
             /**
@@ -339942,7 +339413,9 @@ const getRandomTableNumber = () => {
                     textAlign: this.getTextAlign(),
                     justify: this.getJustify(),
                     textBaseline: this.getTextBaseline(),
-                    fill: this.getFill() ? this.getFill().clone() : undefined,
+                    fill: this.getFill() instanceof style_Fill ?
+                        this.getFill().clone() :
+                        this.getFill(),
                     stroke: this.getStroke() ? this.getStroke().clone() : undefined,
                     offsetX: this.getOffsetX(),
                     offsetY: this.getOffsetY(),
@@ -342071,13 +341544,13 @@ const getRandomTableNumber = () => {
 
 
 
-        class RenderEvent extends Event {
+        class RenderEvent extends events_Event {
             /**
              * @param {import("./EventType.js").default} type Type.
              * @param {import("../transform.js").Transform} [inversePixelTransform] Transform for
              *     CSS pixels to rendered pixels.
              * @param {import("../Map.js").FrameState} [frameState] Frame state.
-             * @param {?(CanvasRenderingContext2D|WebGLRenderingContext)} [context] Context.
+             * @param {?(CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|WebGLRenderingContext)} [context] Context.
              */
             constructor(type, inversePixelTransform, frameState, context) {
                 super(type);
@@ -342101,7 +341574,7 @@ const getRandomTableNumber = () => {
                  * Canvas context. Not available when the event is dispatched by the map. For Canvas 2D layers,
                  * the context will be the 2D rendering context.  For WebGL layers, the context will be the WebGL
                  * context.
-                 * @type {CanvasRenderingContext2D|WebGLRenderingContext|undefined}
+                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|WebGLRenderingContext|undefined}
                  * @api
                  */
                 this.context = context;
@@ -342374,6 +341847,8 @@ const getRandomTableNumber = () => {
 
 
 
+
+
         /**
          * @classdesc
          * Canvas map renderer.
@@ -342401,7 +341876,9 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {HTMLDivElement}
                  */
-                this.element_ = document.createElement('div');
+                this.element_ = WORKER_OFFSCREEN_CANVAS ?
+                    createMockDiv() :
+                    document.createElement('div');
                 const style = this.element_.style;
                 style.position = 'absolute';
                 style.width = '100%';
@@ -342411,7 +341888,10 @@ const getRandomTableNumber = () => {
                 this.element_.className = CLASS_UNSELECTABLE + ' ol-layers';
 
                 const container = map.getViewport();
-                container.insertBefore(this.element_, container.firstChild || null);
+                if (container) {
+                    // maps in a worker do not have a viewport.
+                    container.insertBefore(this.element_, container.firstChild || null);
+                }
 
                 /**
                  * @private
@@ -342513,6 +341993,41 @@ const getRandomTableNumber = () => {
 
                 replaceChildren(this.element_, this.children_);
 
+                const map = this.getMap();
+                const mapCanvas = map.getTargetElement();
+                if (isCanvas(mapCanvas)) {
+                    // Canvas composition when container is a canvas
+                    const mapContext = mapCanvas.getContext('2d');
+                    for (const container of this.children_) {
+                        const canvas = container.firstElementChild || container;
+                        const backgroundColor = container.style.backgroundColor;
+                        if (backgroundColor && (!isCanvas(canvas) || canvas.width > 0)) {
+                            mapContext.fillStyle = backgroundColor;
+                            mapContext.fillRect(0, 0, mapCanvas.width, mapCanvas.height);
+                        }
+                        if (isCanvas(canvas) && canvas.width > 0) {
+                            const opacity = container.style.opacity || canvas.style.opacity;
+                            mapContext.globalAlpha = opacity === '' ? 1 : Number(opacity);
+                            const transform = canvas.style.transform;
+                            if (transform) {
+                                // Get the transform parameters from the style's transform matrix
+                                mapContext.setTransform(
+                                    ... /** @type {[number, number, number, number, number, number]} */ (
+                                        fromString(transform)
+                                    ),
+                                );
+                            } else {
+                                const w = parseFloat(canvas.style.width) / canvas.width;
+                                const h = parseFloat(canvas.style.height) / canvas.height;
+                                mapContext.setTransform(w, 0, 0, h, 0, 0);
+                            }
+                            mapContext.drawImage(canvas, 0, 0);
+                        }
+                    }
+                    mapContext.globalAlpha = 1;
+                    mapContext.setTransform(1, 0, 0, 1, 0, 0);
+                }
+
                 this.dispatchRenderEvent(render_EventType.POSTCOMPOSE, frameState);
 
                 if (!this.renderedVisible_) {
@@ -342551,6 +342066,7 @@ const getRandomTableNumber = () => {
         /**
          * @module ol/Map
          */
+
 
 
 
@@ -342659,12 +342175,12 @@ const getRandomTableNumber = () => {
          * @typedef {Object} MapOptions
          * @property {Collection<import("./control/Control.js").default>|Array<import("./control/Control.js").default>} [controls]
          * Controls initially added to the map. If not specified,
-         * {@link module:ol/control/defaults.defaults} is used.
+         * {@link module:ol/control/defaults.defaults} is used. In a worker, no controls are added by default.
          * @property {number} [pixelRatio=window.devicePixelRatio] The ratio between
          * physical pixels and device-independent pixels (dips) on the device.
          * @property {Collection<import("./interaction/Interaction.js").default>|Array<import("./interaction/Interaction.js").default>} [interactions]
          * Interactions that are initially added to the map. If not specified,
-         * {@link module:ol/interaction/defaults.defaults} is used.
+         * {@link module:ol/interaction/defaults.defaults} is used. In a worker, no interactions are added by default.
          * @property {HTMLElement|Document|string} [keyboardEventTarget] The element to
          * listen to keyboard events on. This determines when the `KeyboardPan` and
          * `KeyboardZoom` interactions trigger. For example, if this option is set to
@@ -342685,10 +342201,11 @@ const getRandomTableNumber = () => {
          * Increasing this value can make it easier to click on the map.
          * @property {Collection<import("./Overlay.js").default>|Array<import("./Overlay.js").default>} [overlays]
          * Overlays initially added to the map. By default, no overlays are added.
-         * @property {HTMLElement|string} [target] The container for the map, either the
+         * @property {HTMLElement|string|HTMLCanvasElement|OffscreenCanvas} [target] The container for the map, either the
          * element itself or the `id` of the element. If not specified at construction
          * time, {@link module:ol/Map~Map#setTarget} must be called for the map to be
          * rendered. If passed by element, the container can be in a secondary document.
+         * For use in workers or when exporting a map, use an `OffscreenCanvas` or `HTMLCanvasElement` as target.
          * For accessibility (focus and keyboard events for map navigation), the `target` element must have a
          *  properly configured `tabindex` attribute. If the `target` element is inside a Shadow DOM, the
          *  `tabindex` atribute must be set on the custom element's host element.
@@ -342907,39 +342424,42 @@ const getRandomTableNumber = () => {
                  * @private
                  * @type {!HTMLElement}
                  */
-                this.viewport_ = document.createElement('div');
-                this.viewport_.className =
-                    'ol-viewport' + ('ontouchstart' in window ? ' ol-touch' : '');
-                this.viewport_.style.position = 'relative';
-                this.viewport_.style.overflow = 'hidden';
-                this.viewport_.style.width = '100%';
-                this.viewport_.style.height = '100%';
+                if (!WORKER_OFFSCREEN_CANVAS) {
+                    this.viewport_ = document.createElement('div');
+                    this.viewport_.className =
+                        'ol-viewport' + ('ontouchstart' in window ? ' ol-touch' : '');
+                    this.viewport_.style.position = 'relative';
+                    this.viewport_.style.overflow = 'hidden';
+                    this.viewport_.style.width = '100%';
+                    this.viewport_.style.height = '100%';
 
-                /**
-                 * @private
-                 * @type {!HTMLElement}
-                 */
-                this.overlayContainer_ = document.createElement('div');
-                this.overlayContainer_.style.position = 'absolute';
-                this.overlayContainer_.style.zIndex = '0';
-                this.overlayContainer_.style.width = '100%';
-                this.overlayContainer_.style.height = '100%';
-                this.overlayContainer_.style.pointerEvents = 'none';
-                this.overlayContainer_.className = 'ol-overlaycontainer';
-                this.viewport_.appendChild(this.overlayContainer_);
+                    /**
+                     * @private
+                     * @type {!HTMLElement}
+                     */
+                    this.overlayContainer_ = document.createElement('div');
+                    this.overlayContainer_.style.position = 'absolute';
+                    this.overlayContainer_.style.zIndex = '0';
+                    this.overlayContainer_.style.width = '100%';
+                    this.overlayContainer_.style.height = '100%';
+                    this.overlayContainer_.style.pointerEvents = 'none';
+                    this.overlayContainer_.className = 'ol-overlaycontainer';
+                    this.viewport_.appendChild(this.overlayContainer_);
 
-                /**
-                 * @private
-                 * @type {!HTMLElement}
-                 */
-                this.overlayContainerStopEvent_ = document.createElement('div');
-                this.overlayContainerStopEvent_.style.position = 'absolute';
-                this.overlayContainerStopEvent_.style.zIndex = '0';
-                this.overlayContainerStopEvent_.style.width = '100%';
-                this.overlayContainerStopEvent_.style.height = '100%';
-                this.overlayContainerStopEvent_.style.pointerEvents = 'none';
-                this.overlayContainerStopEvent_.className = 'ol-overlaycontainer-stopevent';
-                this.viewport_.appendChild(this.overlayContainerStopEvent_);
+                    /**
+                     * @private
+                     * @type {!HTMLElement}
+                     */
+                    this.overlayContainerStopEvent_ = document.createElement('div');
+                    this.overlayContainerStopEvent_.style.position = 'absolute';
+                    this.overlayContainerStopEvent_.style.zIndex = '0';
+                    this.overlayContainerStopEvent_.style.width = '100%';
+                    this.overlayContainerStopEvent_.style.height = '100%';
+                    this.overlayContainerStopEvent_.style.pointerEvents = 'none';
+                    this.overlayContainerStopEvent_.className =
+                        'ol-overlaycontainer-stopevent';
+                    this.viewport_.appendChild(this.overlayContainerStopEvent_);
+                }
 
                 /**
                  * @private
@@ -342971,17 +342491,21 @@ const getRandomTableNumber = () => {
                  */
                 this.targetElement_ = null;
 
-                /**
-                 * @private
-                 * @type {ResizeObserver}
-                 */
-                this.resizeObserver_ = new ResizeObserver(() => this.updateSize());
+                if (!WORKER_OFFSCREEN_CANVAS) {
+                    /**
+                     * @private
+                     * @type {ResizeObserver}
+                     */
+                    this.resizeObserver_ = new ResizeObserver(() => this.updateSize());
+                }
 
                 /**
                  * @type {Collection<import("./control/Control.js").default>}
                  * @protected
                  */
-                this.controls = optionsInternal.controls || defaults_defaults();
+                this.controls =
+                    optionsInternal.controls ||
+                    (WORKER_OFFSCREEN_CANVAS ? new ol_Collection() : defaults_defaults());
 
                 /**
                  * @type {Collection<import("./interaction/Interaction.js").default>}
@@ -342989,9 +342513,11 @@ const getRandomTableNumber = () => {
                  */
                 this.interactions =
                     optionsInternal.interactions ||
-                    interaction_defaults_defaults({
-                        onFocusOnly: true,
-                    });
+                    (WORKER_OFFSCREEN_CANVAS ?
+                        new ol_Collection() :
+                        interaction_defaults_defaults({
+                            onFocusOnly: true,
+                        }));
 
                 /**
                  * @type {Collection<import("./Overlay.js").default>}
@@ -343204,7 +342730,7 @@ const getRandomTableNumber = () => {
                 this.controls.clear();
                 this.interactions.clear();
                 this.overlays_.clear();
-                this.resizeObserver_.disconnect();
+                this.resizeObserver_?.disconnect();
                 this.setTarget(null);
                 super.disposeInternal();
             }
@@ -343819,8 +343345,8 @@ const getRandomTableNumber = () => {
                     this.viewport_.remove();
                 }
 
-                if (this.targetElement_) {
-                    this.resizeObserver_.unobserve(this.targetElement_);
+                if (this.targetElement_ && !isCanvas(this.targetElement_)) {
+                    this.resizeObserver_?.unobserve(this.targetElement_);
                     const rootNode = this.targetElement_.getRootNode();
                     if (rootNode instanceof ShadowRoot) {
                         this.resizeObserver_.unobserve(rootNode.host);
@@ -343850,67 +343376,73 @@ const getRandomTableNumber = () => {
                         this.animationDelayKey_ = undefined;
                     }
                 } else {
-                    targetElement.appendChild(this.viewport_);
+                    if (!isCanvas(targetElement)) {
+                        targetElement.appendChild(this.viewport_);
+                    }
                     if (!this.renderer_) {
                         this.renderer_ = new Composite(this);
                     }
 
-                    this.mapBrowserEventHandler_ = new ol_MapBrowserEventHandler(
-                        this,
-                        this.moveTolerance_,
-                    );
-                    for (const key in ol_MapBrowserEventType) {
-                        this.mapBrowserEventHandler_.addEventListener(
-                            ol_MapBrowserEventType[key],
-                            this.handleMapBrowserEvent.bind(this),
+                    if (!isCanvas(targetElement)) {
+                        this.mapBrowserEventHandler_ = new ol_MapBrowserEventHandler(
+                            this,
+                            this.moveTolerance_,
                         );
-                    }
-                    this.viewport_.addEventListener(
-                        events_EventType.CONTEXTMENU,
-                        this.boundHandleBrowserEvent_,
-                        false,
-                    );
-                    this.viewport_.addEventListener(
-                        events_EventType.WHEEL,
-                        this.boundHandleBrowserEvent_,
-                        PASSIVE_EVENT_LISTENERS ? {
-                            passive: false
-                        } : false,
-                    );
+                        for (const key in ol_MapBrowserEventType) {
+                            this.mapBrowserEventHandler_.addEventListener(
+                                ol_MapBrowserEventType[key],
+                                this.handleMapBrowserEvent.bind(this),
+                            );
+                        }
+                        this.viewport_.addEventListener(
+                            events_EventType.CONTEXTMENU,
+                            this.boundHandleBrowserEvent_,
+                            false,
+                        );
+                        this.viewport_.addEventListener(
+                            events_EventType.WHEEL,
+                            this.boundHandleBrowserEvent_,
+                            PASSIVE_EVENT_LISTENERS ? {
+                                passive: false
+                            } : false,
+                        );
 
-                    let keyboardEventTarget;
-                    if (!this.keyboardEventTarget_) {
-                        // check if map target is in shadowDOM, if yes use host element as target
-                        const targetRoot = targetElement.getRootNode();
-                        const targetCandidate =
-                            targetRoot instanceof ShadowRoot ? targetRoot.host : targetElement;
-                        keyboardEventTarget = targetCandidate;
-                    } else {
-                        keyboardEventTarget = this.keyboardEventTarget_;
+                        let keyboardEventTarget;
+                        if (!this.keyboardEventTarget_) {
+                            // check if map target is in shadowDOM, if yes use host element as target
+                            const targetRoot = targetElement.getRootNode();
+                            const targetCandidate =
+                                targetRoot instanceof ShadowRoot ? targetRoot.host : targetElement;
+                            keyboardEventTarget = targetCandidate;
+                        } else {
+                            keyboardEventTarget = this.keyboardEventTarget_;
+                        }
+
+                        this.targetChangeHandlerKeys_ = [
+                            events_listen(
+                                keyboardEventTarget,
+                                events_EventType.KEYDOWN,
+                                this.handleBrowserEvent,
+                                this,
+                            ),
+                            events_listen(
+                                keyboardEventTarget,
+                                events_EventType.KEYPRESS,
+                                this.handleBrowserEvent,
+                                this,
+                            ),
+                        ];
+                        if (targetElement instanceof HTMLElement) {
+                            const rootNode = targetElement.getRootNode();
+                            if (rootNode instanceof ShadowRoot) {
+                                this.resizeObserver_.observe(rootNode.host);
+                            }
+                            this.resizeObserver_?.observe(targetElement);
+                        }
                     }
 
-                    this.targetChangeHandlerKeys_ = [
-                        events_listen(
-                            keyboardEventTarget,
-                            events_EventType.KEYDOWN,
-                            this.handleBrowserEvent,
-                            this,
-                        ),
-                        events_listen(
-                            keyboardEventTarget,
-                            events_EventType.KEYPRESS,
-                            this.handleBrowserEvent,
-                            this,
-                        ),
-                    ];
-                    const rootNode = targetElement.getRootNode();
-                    if (rootNode instanceof ShadowRoot) {
-                        this.resizeObserver_.observe(rootNode.host);
-                    }
-                    this.resizeObserver_.observe(targetElement);
+                    this.updateSize();
                 }
-
-                this.updateSize();
                 // updateSize calls setSize, so no need to call this.render
                 // ourselves here.
             }
@@ -344270,19 +343802,25 @@ const getRandomTableNumber = () => {
 
                 let size = undefined;
                 if (targetElement) {
-                    const computedStyle = getComputedStyle(targetElement);
-                    const width =
-                        targetElement.offsetWidth -
-                        parseFloat(computedStyle['borderLeftWidth']) -
-                        parseFloat(computedStyle['paddingLeft']) -
-                        parseFloat(computedStyle['paddingRight']) -
-                        parseFloat(computedStyle['borderRightWidth']);
-                    const height =
-                        targetElement.offsetHeight -
-                        parseFloat(computedStyle['borderTopWidth']) -
-                        parseFloat(computedStyle['paddingTop']) -
-                        parseFloat(computedStyle['paddingBottom']) -
-                        parseFloat(computedStyle['borderBottomWidth']);
+                    let width, height;
+                    if (isCanvas(targetElement)) {
+                        width = targetElement.width;
+                        height = targetElement.height;
+                    } else {
+                        const computedStyle = getComputedStyle(targetElement);
+                        width =
+                            targetElement.offsetWidth -
+                            parseFloat(computedStyle['borderLeftWidth']) -
+                            parseFloat(computedStyle['paddingLeft']) -
+                            parseFloat(computedStyle['paddingRight']) -
+                            parseFloat(computedStyle['borderRightWidth']);
+                        height =
+                            targetElement.offsetHeight -
+                            parseFloat(computedStyle['borderTopWidth']) -
+                            parseFloat(computedStyle['paddingTop']) -
+                            parseFloat(computedStyle['paddingBottom']) -
+                            parseFloat(computedStyle['borderBottomWidth']);
+                    }
                     if (!isNaN(width) && !isNaN(height)) {
                         size = [Math.max(0, width), Math.max(0, height)];
                         if (
@@ -345161,6 +344699,8 @@ const getRandomTableNumber = () => {
          * @module ol/tilecoord
          */
 
+
+
         /**
          * An array of three numbers representing the location of a tile in a tile
          * grid. The order is `z` (zoom level), `x` (column), and `y` (row).
@@ -345215,6 +344755,18 @@ const getRandomTableNumber = () => {
                 .split(',')
                 .map(Number);
             return getKeyZXY(z, x, y);
+        }
+
+        /**
+         * @param {import("./source/Tile.js").default} source The tile source.
+         * @param {string} sourceKey The source key.
+         * @param {number} z The tile z level.
+         * @param {number} x The tile x level.
+         * @param {number} y The tile y level.
+         * @return {string} The cache key.
+         */
+        function tilecoord_getCacheKey(source, sourceKey, z, x, y) {
+            return `${getUid(source)},${sourceKey},${getKeyZXY(z, x, y)}`;
         }
 
         /**
@@ -346374,6 +345926,7 @@ const getRandomTableNumber = () => {
 
 
 
+
         class ImageTile extends ol_Tile {
             /**
              * @param {import("./tilecoord.js").TileCoord} tileCoord Tile coordinate.
@@ -346404,11 +345957,17 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLImageElement|HTMLCanvasElement}
+                 * @type {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas}
                  */
-                this.image_ = new Image();
-                if (crossOrigin !== null) {
-                    this.image_.crossOrigin = crossOrigin;
+                this.image_;
+
+                if (WORKER_OFFSCREEN_CANVAS) {
+                    this.image_ = new OffscreenCanvas(1, 1);
+                } else {
+                    this.image_ = new Image();
+                    if (crossOrigin !== null) {
+                        this.image_.crossOrigin = crossOrigin;
+                    }
                 }
 
                 /**
@@ -346425,8 +345984,8 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * Get the HTML image element for this tile (may be a Canvas, Image, or Video).
-             * @return {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement} Image.
+             * Get the HTML image element for this tile (may be a Canvas, OffscreenCanvas, Image, or Video).
+             * @return {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement|HTMLVideoElement} Image.
              * @api
              */
             getImage() {
@@ -346435,13 +345994,21 @@ const getRandomTableNumber = () => {
 
             /**
              * Sets an HTML image element for this tile (may be a Canvas or preloaded Image).
-             * @param {HTMLCanvasElement|HTMLImageElement} element Element.
+             * @param {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement} element Element.
              */
             setImage(element) {
                 this.image_ = element;
                 this.state = TileState.LOADED;
                 this.unlistenImage_();
                 this.changed();
+            }
+
+            /**
+             * Get the cross origin of the ImageTile.
+             * @return {string} Cross origin.
+             */
+            getCrossOrigin() {
+                return this.crossOrigin_;
             }
 
             /**
@@ -346462,11 +346029,16 @@ const getRandomTableNumber = () => {
              * @private
              */
             handleImageLoad_() {
-                const image = /** @type {HTMLImageElement} */ (this.image_);
-                if (image.naturalWidth && image.naturalHeight) {
+                if (WORKER_OFFSCREEN_CANVAS) {
+                    // OffscreenCanvas does not have naturalWidth and naturalHeight
                     this.state = TileState.LOADED;
                 } else {
-                    this.state = TileState.EMPTY;
+                    const image = /** @type {HTMLImageElement} */ (this.image_);
+                    if (image.naturalWidth && image.naturalHeight) {
+                        this.state = TileState.LOADED;
+                    } else {
+                        this.state = TileState.EMPTY;
+                    }
                 }
                 this.unlistenImage_();
                 this.changed();
@@ -346553,7 +346125,7 @@ const getRandomTableNumber = () => {
 
         /**
          * Get a 1-pixel blank image.
-         * @return {HTMLCanvasElement} Blank image.
+         * @return {HTMLCanvasElement|OffscreenCanvas} Blank image.
          */
         function getBlankImage() {
             const ctx = dom_createCanvasContext2D(1, 1);
@@ -346577,7 +346149,7 @@ const getRandomTableNumber = () => {
         let brokenDiagonalRendering_;
 
         /**
-         * @type {Array<HTMLCanvasElement>}
+         * @type {Array<HTMLCanvasElement|OffscreenCanvas>}
          */
         const canvasPool = [];
 
@@ -346585,7 +346157,7 @@ const getRandomTableNumber = () => {
          * This draws a small triangle into a canvas by setting the triangle as the clip region
          * and then drawing a (too large) rectangle
          *
-         * @param {CanvasRenderingContext2D} ctx The context in which to draw the triangle
+         * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} ctx The context in which to draw the triangle
          * @param {number} u1 The x-coordinate of the second point. The first point is 0,0.
          * @param {number} v1 The y-coordinate of the second point.
          * @param {number} u2 The x-coordinate of the third point.
@@ -346766,7 +346338,7 @@ const getRandomTableNumber = () => {
          * @param {boolean} [interpolate] Use linear interpolation when resampling.
          * @param {boolean} [drawSingle] Draw single source images directly without stitchContext.
          * @param {boolean} [clipExtent] Clip stitchContext to sourceExtent.
-         * @return {HTMLCanvasElement} Canvas with reprojected data.
+         * @return {HTMLCanvasElement|OffscreenCanvas} Canvas with reprojected data.
          */
         function render(
             width,
@@ -347647,7 +347219,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {HTMLCanvasElement}
+                 * @type {HTMLCanvasElement|OffscreenCanvas}
                  */
                 this.canvas_ = null;
 
@@ -347827,7 +347399,7 @@ const getRandomTableNumber = () => {
 
             /**
              * Get the HTML Canvas element for this tile.
-             * @return {HTMLCanvasElement} Canvas.
+             * @return {HTMLCanvasElement|OffscreenCanvas} Canvas.
              */
             getImage() {
                 return this.canvas_;
@@ -347961,7 +347533,12 @@ const getRandomTableNumber = () => {
              */
             release() {
                 if (this.canvas_) {
-                    releaseCanvas(this.canvas_.getContext('2d'));
+                    releaseCanvas(
+                        /** @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} */
+                        (
+                            this.canvas_.getContext('2d')
+                        ),
+                    );
                     canvasPool.push(this.canvas_);
                     this.canvas_ = null;
                 }
@@ -348580,9 +348157,10 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../proj/Projection.js").default} projection Projection.
+             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {TileType|null} Tile.
              */
-            getTile(z, x, y, pixelRatio, projection) {
+            getTile(z, x, y, pixelRatio, projection, tileCache) {
                 return util_abstract();
             }
 
@@ -348675,7 +348253,7 @@ const getRandomTableNumber = () => {
          * Events emitted by {@link module:ol/source/Tile~TileSource} instances are instances of this
          * type.
          */
-        class TileSourceEvent extends Event {
+        class TileSourceEvent extends events_Event {
             /**
              * @param {string} type Type.
              * @param {import("../Tile.js").default} tile The tile.
@@ -348970,6 +348548,8 @@ const getRandomTableNumber = () => {
 
 
 
+
+
         /**
          * @typedef {Object} Options
          * @property {import("./Source.js").AttributionLike} [attributions] Attributions.
@@ -349172,10 +348752,11 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../proj/Projection.js").default} projection Projection.
+             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {!(ImageTile|ReprojTile)} Tile.
              * @override
              */
-            getTile(z, x, y, pixelRatio, projection) {
+            getTile(z, x, y, pixelRatio, projection, tileCache) {
                 const sourceProjection = this.getProjection();
                 if (
                     !sourceProjection ||
@@ -349208,7 +348789,7 @@ const getRandomTableNumber = () => {
                     this.getTilePixelRatio(pixelRatio),
                     this.getGutter(),
                     (z, x, y, pixelRatio) =>
-                    this.getTileInternal(z, x, y, pixelRatio, sourceProjection),
+                    this.getTileInternal(z, x, y, pixelRatio, sourceProjection, tileCache),
                     this.reprojectionErrorThreshold_,
                     this.renderReprojectionEdges_,
                     this.tileOptions,
@@ -349223,12 +348804,20 @@ const getRandomTableNumber = () => {
              * @param {number} y Tile coordinate y.
              * @param {number} pixelRatio Pixel ratio.
              * @param {!import("../proj/Projection.js").default} projection Projection.
+             * @param {import("../structs/LRUCache.js").default<import("../Tile.js").default>} [tileCache] Tile cache.
              * @return {!ImageTile} Tile.
              * @protected
              */
-            getTileInternal(z, x, y, pixelRatio, projection) {
+            getTileInternal(z, x, y, pixelRatio, projection, tileCache) {
                 const key = this.getKey();
-                return this.createTile_(z, x, y, pixelRatio, projection, key);
+                const cacheKey = tilecoord_getCacheKey(this, key, z, x, y);
+                if (tileCache && tileCache.containsKey(cacheKey)) {
+                    const tile = /** @type {!ImageTile} */ (tileCache.get(cacheKey));
+                    return tile;
+                }
+                const tile = this.createTile_(z, x, y, pixelRatio, projection, key);
+                tileCache?.set(cacheKey, tile);
+                return tile;
             }
 
             /**
@@ -349272,6 +348861,52 @@ const getRandomTableNumber = () => {
          * @param {string} src Source.
          */
         function defaultTileLoadFunction(imageTile, src) {
+            if (WORKER_OFFSCREEN_CANVAS) {
+                // special treatment for offscreen canvas
+                const crossOrigin = imageTile.getCrossOrigin();
+
+                /** @type {RequestMode} */
+                let mode = 'same-origin';
+                /** @type {RequestCredentials} */
+                let credentials = 'same-origin';
+                if (crossOrigin === 'anonymous' || crossOrigin === '') {
+                    mode = 'cors';
+                    credentials = 'omit';
+                } else if (crossOrigin === 'use-credentials') {
+                    mode = 'cors';
+                    credentials = 'include';
+                }
+
+                fetch(src, {
+                        mode,
+                        credentials,
+                    })
+                    .then((response) => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP ${response.status}`);
+                        }
+                        return response.blob();
+                    })
+                    .then((blob) => {
+                        return createImageBitmap(blob);
+                    })
+                    .then((imageBitmap) => {
+                        const canvas = imageTile.getImage();
+                        canvas.width = imageBitmap.width;
+                        canvas.height = imageBitmap.height;
+                        const ctx = /** @type {OffscreenCanvas} */ (canvas).getContext('2d');
+                        ctx.drawImage(imageBitmap, 0, 0);
+                        imageBitmap.close?.();
+                        // mock the image 'load' event
+                        canvas.dispatchEvent(new Event('load'));
+                    })
+                    .catch(() => {
+                        const canvas = imageTile.getImage();
+                        canvas.dispatchEvent(new Event('error'));
+                    });
+                return;
+            }
+
             /** @type {HTMLImageElement|HTMLVideoElement} */
             (imageTile.getImage()).src =
                 src;
@@ -352100,7 +351735,7 @@ const getRandomTableNumber = () => {
 
 
 
-        /** @typedef {CanvasRenderingContext2D & {globalAlpha: any}} ZIndexContextProxy */
+        /** @typedef {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D & {globalAlpha: any}} ZIndexContextProxy */
 
         /**
          * @extends {CanvasRenderingContext2D}
@@ -352190,7 +351825,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              */
             draw(context) {
                 this.instructions_.forEach((instructionsAtIndex) => {
@@ -352269,7 +351904,7 @@ const getRandomTableNumber = () => {
          */
 
         /**
-         * @typedef {{0: CanvasRenderingContext2D, 1: import('../../size.js').Size, 2: import("../canvas.js").Label|HTMLImageElement|HTMLCanvasElement|HTMLVideoElement, 3: ImageOrLabelDimensions, 4: number, 5: Array<*>, 6: Array<*>}} ReplayImageOrLabelArgs
+         * @typedef {{0: CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D, 1: import('../../size.js').Size, 2: import("../canvas.js").Label|HTMLImageElement|HTMLCanvasElement|HTMLVideoElement, 3: ImageOrLabelDimensions, 4: number, 5: Array<*>, 6: Array<*>}} ReplayImageOrLabelArgs
          */
 
         /**
@@ -352819,7 +352454,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              */
             fill_(context) {
                 const alignAndScale = this.alignAndScaleFill_;
@@ -352841,7 +352476,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {Array<*>} instruction Instruction.
              */
             setStrokeStyle_(context, instruction) {
@@ -352898,7 +352533,7 @@ const getRandomTableNumber = () => {
 
             /**
              * @private
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scaled canvas size
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {Array<*>} instructions Instructions array.
@@ -353504,7 +353139,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scaled canvas size.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
@@ -353533,7 +353168,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
              * @param {FeatureCallback<T>} [featureCallback] Feature callback.
@@ -353666,7 +353301,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
                  */
                 this.hitDetectionContext_ = null;
 
@@ -353678,7 +353313,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
                  */
                 this.renderedContext_ = null;
 
@@ -353692,7 +353327,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import("../../transform.js").Transform} transform Transform.
              */
             clip(context, transform) {
@@ -353910,7 +353545,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} targetContext Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} targetContext Context.
              * @param {import('../../size.js').Size} scaledCanvasSize Scale of the context.
              * @param {import("../../transform.js").Transform} transform Transform.
              * @param {number} viewRotation View rotation.
@@ -354110,7 +353745,7 @@ const getRandomTableNumber = () => {
          */
         class CanvasImmediateRenderer extends render_VectorContext {
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {number} pixelRatio Pixel ratio.
              * @param {import("../../extent.js").Extent} extent Extent.
              * @param {import("../../transform.js").Transform} transform Transform.
@@ -354131,7 +353766,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
                  */
                 this.context_ = context;
 
@@ -356127,13 +355762,14 @@ const getRandomTableNumber = () => {
 
 
 
+
         /**
-         * @type {Array<HTMLCanvasElement>}
+         * @type {Array<HTMLCanvasElement|OffscreenCanvas>}
          */
         const Layer_canvasPool = [];
 
         /**
-         * @type {CanvasRenderingContext2D}
+         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
          */
         let pixelContext = null;
 
@@ -356156,6 +355792,7 @@ const getRandomTableNumber = () => {
                 super(layer);
 
                 /**
+                 * HTMLElement container for the layer to be rendered in.
                  * @protected
                  * @type {HTMLElement}
                  */
@@ -356192,7 +355829,7 @@ const getRandomTableNumber = () => {
                 this.inversePixelTransform = create();
 
                 /**
-                 * @type {CanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
                  */
                 this.context = null;
 
@@ -356203,6 +355840,7 @@ const getRandomTableNumber = () => {
                 this.deferredContext_ = null;
 
                 /**
+                 * true if the container has been reused from the previous renderer
                  * @type {boolean}
                  */
                 this.containerReused = false;
@@ -356257,6 +355895,7 @@ const getRandomTableNumber = () => {
              * @param {string} [backgroundColor] Background color.
              */
             useContainer(target, transform, backgroundColor) {
+                // renderer canvas to target canvas
                 const layerClassName = this.getLayer().getClassName();
                 let container, context;
                 if (
@@ -356271,7 +355910,7 @@ const getRandomTableNumber = () => {
                             )))
                 ) {
                     const canvas = target.firstElementChild;
-                    if (canvas instanceof HTMLCanvasElement) {
+                    if (isCanvas(canvas)) {
                         context = canvas.getContext('2d');
                     }
                 }
@@ -356289,14 +355928,16 @@ const getRandomTableNumber = () => {
                     this.container.style.backgroundColor = null;
                 }
                 if (!this.container) {
-                    container = document.createElement('div');
+                    container = WORKER_OFFSCREEN_CANVAS ?
+                        createMockDiv() :
+                        document.createElement('div');
                     container.className = layerClassName;
                     let style = container.style;
                     style.position = 'absolute';
                     style.width = '100%';
                     style.height = '100%';
                     context = dom_createCanvasContext2D();
-                    const canvas = context.canvas;
+                    const canvas = /** @type {HTMLCanvasElement} */ (context.canvas);
                     container.appendChild(canvas);
                     style = canvas.style;
                     style.position = 'absolute';
@@ -356315,7 +355956,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @param {import("../../extent.js").Extent} extent Clip extent.
              * @protected
@@ -356373,7 +356014,6 @@ const getRandomTableNumber = () => {
 
                 const canvasTransform = transform_toString(this.pixelTransform);
                 this.useContainer(target, canvasTransform, this.getBackground(frameState));
-
                 if (!this.containerReused) {
                     const canvas = this.context.canvas;
                     if (canvas.width != width || canvas.height != height) {
@@ -356382,15 +356022,21 @@ const getRandomTableNumber = () => {
                     } else {
                         this.context.clearRect(0, 0, width, height);
                     }
-                    if (canvasTransform !== canvas.style.transform) {
-                        canvas.style.transform = canvasTransform;
+                    if (
+                        canvasTransform !==
+                        /** @type {HTMLCanvasElement} */
+                        (canvas).style.transform
+                    ) {
+                        /** @type {HTMLCanvasElement} */
+                        (canvas).style.transform =
+                            canvasTransform;
                     }
                 }
             }
 
             /**
              * @param {import("../../render/EventType.js").default} type Event type.
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @private
              */
@@ -356408,7 +356054,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @protected
              */
@@ -356421,7 +356067,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @param {CanvasRenderingContext2D} context Context.
+             * @param {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D} context Context.
              * @param {import("../../Map.js").FrameState} frameState Frame state.
              * @protected
              */
@@ -356664,7 +356310,7 @@ const getRandomTableNumber = () => {
 
                 /**
                  * @private
-                 * @type {CanvasRenderingContext2D}
+                 * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D}
                  */
                 this.targetContext_ = null;
 
@@ -357417,7 +357063,7 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @typedef {HTMLImageElement|HTMLCanvasElement|HTMLVideoElement|ImageBitmap} ImageLike
+         * @typedef {HTMLImageElement|HTMLCanvasElement|OffscreenCanvas|HTMLVideoElement|ImageBitmap} ImageLike
          */
 
         /**
@@ -357461,7 +357107,7 @@ const getRandomTableNumber = () => {
         const disposedError = new Error('disposed');
 
         /**
-         * @type {CanvasRenderingContext2D|null}
+         * @type {CanvasRenderingContext2D|OffscreenCanvasRenderingContext2D|null}
          */
         let sharedContext = null;
 
@@ -357954,18 +357600,6 @@ const getRandomTableNumber = () => {
 
 
         /**
-         * @param {import("../../source/Tile.js").default} source The tile source.
-         * @param {string} sourceKey The source key.
-         * @param {number} z The tile z level.
-         * @param {number} x The tile x level.
-         * @param {number} y The tile y level.
-         * @return {string} The cache key.
-         */
-        function TileLayer_getCacheKey(source, sourceKey, z, x, y) {
-            return `${getUid(source)},${sourceKey},${getKeyZXY(z, x, y)}`;
-        }
-
-        /**
          * @typedef {Object<number, Set<import("../../Tile.js").default>>} TileLookup
          */
 
@@ -358127,6 +357761,12 @@ const getRandomTableNumber = () => {
                  */
                 this.tileCache_ = new structs_LRUCache(cacheSize);
 
+                /**
+                 * @type {import("../../structs/LRUCache.js").default<import("../../Tile.js").default|null>}
+                 * @private
+                 */
+                this.sourceTileCache_ = null;
+
                 this.maxStaleKeys = cacheSize * 0.5;
             }
 
@@ -358135,6 +357775,16 @@ const getRandomTableNumber = () => {
              */
             getTileCache() {
                 return this.tileCache_;
+            }
+
+            /**
+             * @return {LRUCache} Tile cache.
+             */
+            getSourceTileCache() {
+                if (!this.sourceTileCache_) {
+                    this.sourceTileCache_ = new structs_LRUCache(512);
+                }
+                return this.sourceTileCache_;
             }
 
             /**
@@ -358151,7 +357801,7 @@ const getRandomTableNumber = () => {
                 const tileCache = this.tileCache_;
                 const tileLayer = this.getLayer();
                 const tileSource = tileLayer.getSource();
-                const cacheKey = TileLayer_getCacheKey(tileSource, tileSource.getKey(), z, x, y);
+                const cacheKey = tilecoord_getCacheKey(tileSource, tileSource.getKey(), z, x, y);
 
                 /** @type {import("../../Tile.js").default} */
                 let tile;
@@ -358159,12 +357809,17 @@ const getRandomTableNumber = () => {
                 if (tileCache.containsKey(cacheKey)) {
                     tile = tileCache.get(cacheKey);
                 } else {
+                    const projection = frameState.viewState.projection;
+                    const sourceProjection = tileSource.getProjection();
                     tile = tileSource.getTile(
                         z,
                         x,
                         y,
                         frameState.pixelRatio,
-                        frameState.viewState.projection,
+                        projection,
+                        !sourceProjection || equivalent(sourceProjection, projection) ?
+                        undefined :
+                        this.getSourceTileCache(),
                     );
                     if (!tile) {
                         return null;
@@ -358295,8 +357950,18 @@ const getRandomTableNumber = () => {
                     this.renderedSourceRevision_ = sourceRevision;
                     if (this.renderedSourceKey_ === source.getKey()) {
                         this.tileCache_.clear();
+                        this.sourceTileCache_?.clear();
                     }
                 }
+                return true;
+            }
+
+            /**
+             * Determine whether tiles for next extent should be enqueued for rendering.
+             * @return {boolean} Rendering tiles for next extent is supported.
+             * @protected
+             */
+            enqueueTilesForNextExtent() {
                 return true;
             }
 
@@ -358405,7 +358070,7 @@ const getRandomTableNumber = () => {
                 const y = tileCoord[2];
                 const staleKeys = this.getStaleKeys();
                 for (let i = 0; i < staleKeys.length; ++i) {
-                    const cacheKey = TileLayer_getCacheKey(
+                    const cacheKey = tilecoord_getCacheKey(
                         this.getLayer().getSource(),
                         staleKeys[i],
                         z,
@@ -358451,7 +358116,7 @@ const getRandomTableNumber = () => {
                 const sourceKey = source.getKey();
                 for (let x = tileRange.minX; x <= tileRange.maxX; ++x) {
                     for (let y = tileRange.minY; y <= tileRange.maxY; ++y) {
-                        const cacheKey = TileLayer_getCacheKey(source, sourceKey, altZ, x, y);
+                        const cacheKey = tilecoord_getCacheKey(source, sourceKey, altZ, x, y);
                         let loaded = false;
                         if (tileCache.containsKey(cacheKey)) {
                             const tile = tileCache.peek(cacheKey);
@@ -358484,7 +358149,6 @@ const getRandomTableNumber = () => {
              */
             renderFrame(frameState, target) {
                 this.renderComplete = true;
-
                 /**
                  * TODO:
                  *  maybe skip transition when not fully opaque
@@ -358551,7 +358215,7 @@ const getRandomTableNumber = () => {
                  */
 
                 const preload = tileLayer.getPreload();
-                if (frameState.nextExtent) {
+                if (frameState.nextExtent && this.enqueueTilesForNextExtent()) {
                     const targetZ = tileGrid.getZForResolution(
                         viewState.nextResolution,
                         tileSource.zDirection,
@@ -358789,11 +358453,13 @@ const getRandomTableNumber = () => {
                         const tilesCount = wantedTiles ? Object.keys(wantedTiles).length : 0;
                         this.updateCacheSize(tilesCount);
                         this.tileCache_.expireCache();
+                        this.sourceTileCache_?.expireCache();
                     };
 
                     frameState.postRenderFunctions.push(postRenderFunction);
                 }
 
+                // this normally is `div.ol-layer` and is a mocked div in worker
                 return this.container;
             }
 
@@ -358832,6 +358498,7 @@ const getRandomTableNumber = () => {
                         (tile),
                     );
                 }
+
                 if (!image) {
                     return;
                 }
@@ -358869,7 +358536,7 @@ const getRandomTableNumber = () => {
             }
 
             /**
-             * @return {HTMLCanvasElement} Image
+             * @return {HTMLCanvasElement|OffscreenCanvas} Image
              */
             getImage() {
                 const context = this.context;
@@ -358879,7 +358546,7 @@ const getRandomTableNumber = () => {
             /**
              * Get the image from a tile.
              * @param {import("../../ImageTile.js").default} tile Tile.
-             * @return {HTMLCanvasElement|HTMLImageElement|HTMLVideoElement} Image.
+             * @return {HTMLCanvasElement|OffscreenCanvas|HTMLImageElement|HTMLVideoElement} Image.
              * @protected
              */
             getTileImage(tile) {
@@ -360486,7 +360153,7 @@ const getRandomTableNumber = () => {
          * type.
          * @template {import("../Feature.js").FeatureLike} [FeatureType=import("../Feature.js").default]
          */
-        class VectorSourceEvent extends Event {
+        class VectorSourceEvent extends events_Event {
             /**
              * @param {string} type Type.
              * @param {FeatureType} [feature] Feature.
@@ -368342,11 +368009,6 @@ const getRandomTableNumber = () => {
         var store_mainInfo = store_writable({});
         var store_mapBusiness = store_writable([]);
         var interactionDisabled = store_writable(false);
-        var gangZones = store_writable([]);
-        var featureCaptures = store_writable(null);
-        var fractionTop = store_writable(null);
-        var fractionCaptures = store_writable(null);
-        var territoryCount = store_writable(' ');
         var store_initializeMainInfo = function initializeMainInfo() {
             var dto = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
             return store_mainInfo.set(dto);
@@ -368365,8 +368027,33 @@ const getRandomTableNumber = () => {
         const img_flower_namespaceObject = __webpack_require__.p + "assets/0b4e22f66fc9da9f94ac.svg";; // CONCATENATED MODULE: ./src/views/ghetto-map/img/flower-green.svg
         const flower_green_namespaceObject = __webpack_require__.p + "assets/efcb9683817b09e57fd3.svg";; // CONCATENATED MODULE: ./src/views/ghetto-map/img/spawns/hangout.svg
         const hangout_namespaceObject = __webpack_require__.p + "assets/0079e48743c5a9356ff4.svg";; // CONCATENATED MODULE: ./src/views/ghetto-map/img/logo.png
-        const ghetto_map_img_logo_namespaceObject = __webpack_require__.p + "assets/36096b9529ce0b8f3a3c.webp";; // CONCATENATED MODULE: ./src/views/ghetto-map/index.svelte
+        const ghetto_map_img_logo_namespaceObject = __webpack_require__.p + "assets/36096b9529ce0b8f3a3c.webp";; // CONCATENATED MODULE: ./src/views/ghetto-map/mock.js
+        var FRACTION_INFO_MOCK = {
+            id: 11,
+            territories: 38,
+            fights_count: 21
+        };
+        var mock_MAP_BUSINESS_MOCK = [{
+            "id": 29,
+            "ukrop": 1000,
+            "balance": 1500
+        }];
+        var MAP_GANG_ZONES = [{
+            "id": 23,
+            "fraction_id": 11,
+            "money": 273618200,
+            "respects": 18008
+        }];
+        var mock_CAPTURES_MOCK = [{
+            "defend_fraction_id": 13,
+            "attack_fraction_id": 12,
+            "gangzone_id": 12,
+            "date_unix": 1751202000
+        }];; // CONCATENATED MODULE: ./src/views/ghetto-map/index.svelte
         /* src\views\ghetto-map\index.svelte generated by Svelte v4.2.8 */
+
+
+
 
 
 
@@ -368406,24 +368093,24 @@ const getRandomTableNumber = () => {
 
         function ghetto_map_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[41] = list[i];
-            child_ctx[43] = i;
+            child_ctx[45] = list[i];
+            child_ctx[47] = i;
             return child_ctx;
         }
 
         function ghetto_map_index_svelte_get_each_context_1(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[44] = list[i];
+            child_ctx[48] = list[i];
             return child_ctx;
         }
 
         function ghetto_map_index_svelte_get_each_context_2(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[44] = list[i];
+            child_ctx[48] = list[i];
             return child_ctx;
         }
 
-        // (909:16) {#if popupContent.fraction_id >= 0}
+        // (926:16) {#if popupContent.fraction_id >= 0}
         function ghetto_map_index_svelte_create_if_block_12(ctx) {
             let img;
             let img_src_value;
@@ -368431,7 +368118,7 @@ const getRandomTableNumber = () => {
             return {
                 c() {
                     img = dom_element("img");
-                    if (!utils_src_url_equal(img.src, img_src_value = MAP_FRACTION_ID_TO_LOGO[ /*popupContent*/ ctx[4].fraction_id])) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = MAP_FRACTION_ID_TO_LOGO[ /*popupContent*/ ctx[8].fraction_id])) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "logo");
                     dom_attr(img, "class", "ghetto-map__popup-owner-logo svelte-5qexgx");
                 },
@@ -368439,7 +368126,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*popupContent*/ 16 && !utils_src_url_equal(img.src, img_src_value = MAP_FRACTION_ID_TO_LOGO[ /*popupContent*/ ctx[4].fraction_id])) {
+                    if (dirty[0] & /*popupContent*/ 256 && !utils_src_url_equal(img.src, img_src_value = MAP_FRACTION_ID_TO_LOGO[ /*popupContent*/ ctx[8].fraction_id])) {
                         dom_attr(img, "src", img_src_value);
                     }
                 },
@@ -368451,13 +368138,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (917:16) {#if popupContent.money > 0}
+        // (934:16) {#if popupContent.money > 0}
         function ghetto_map_index_svelte_create_if_block_11(ctx) {
             let div1;
             let div0;
             let t1;
             let span;
-            let t2_value = `${formatMoney(/*popupContent*/ ctx[4].money)} $` + "";
+            let t2_value = `${formatMoney(/*popupContent*/ ctx[8].money)} $` + "";
             let t2;
 
             return {
@@ -368480,7 +368167,7 @@ const getRandomTableNumber = () => {
                     dom_append(span, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*popupContent*/ 16 && t2_value !== (t2_value = `${formatMoney(/*popupContent*/ ctx[4].money)} $` + "")) dom_set_data(t2, t2_value);
+                    if (dirty[0] & /*popupContent*/ 256 && t2_value !== (t2_value = `${formatMoney(/*popupContent*/ ctx[8].money)} $` + "")) dom_set_data(t2, t2_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -368490,13 +368177,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (925:16) {#if popupContent.respects > 0}
+        // (942:16) {#if popupContent.respects > 0}
         function ghetto_map_index_svelte_create_if_block_10(ctx) {
             let div1;
             let div0;
             let t1;
             let span;
-            let t2_value = `${formatMoney(/*popupContent*/ ctx[4].respects)}` + "";
+            let t2_value = `${formatMoney(/*popupContent*/ ctx[8].respects)}` + "";
             let t2;
 
             return {
@@ -368519,7 +368206,7 @@ const getRandomTableNumber = () => {
                     dom_append(span, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*popupContent*/ 16 && t2_value !== (t2_value = `${formatMoney(/*popupContent*/ ctx[4].respects)}` + "")) dom_set_data(t2, t2_value);
+                    if (dirty[0] & /*popupContent*/ 256 && t2_value !== (t2_value = `${formatMoney(/*popupContent*/ ctx[8].respects)}` + "")) dom_set_data(t2, t2_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -368529,7 +368216,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (933:16) {#if popupContent.hasBusiness}
+        // (950:16) {#if popupContent.hasBusiness}
         function ghetto_map_index_svelte_create_if_block_9(ctx) {
             let div1;
             let img;
@@ -368538,7 +368225,7 @@ const getRandomTableNumber = () => {
             let div0;
             let t2;
             let span;
-            let t3_value = formatMoney( /*popupContent*/ ctx[4].ukrop) + "";
+            let t3_value = formatMoney( /*popupContent*/ ctx[8].ukrop) + "";
             let t3;
 
             return {
@@ -368568,7 +368255,7 @@ const getRandomTableNumber = () => {
                     dom_append(span, t3);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*popupContent*/ 16 && t3_value !== (t3_value = formatMoney( /*popupContent*/ ctx[4].ukrop) + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*popupContent*/ 256 && t3_value !== (t3_value = formatMoney( /*popupContent*/ ctx[8].ukrop) + "")) dom_set_data(t3, t3_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -368578,7 +368265,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (942:16) {#if popupContent.hasBusiness}
+        // (959:16) {#if popupContent.hasBusiness}
         function ghetto_map_index_svelte_create_if_block_8(ctx) {
             let div1;
             let img;
@@ -368587,7 +368274,7 @@ const getRandomTableNumber = () => {
             let div0;
             let t2;
             let span;
-            let t3_value = `${formatMoney(/*popupContent*/ ctx[4].balance)} $` + "";
+            let t3_value = `${formatMoney(/*popupContent*/ ctx[8].balance)} $` + "";
             let t3;
 
             return {
@@ -368617,7 +368304,7 @@ const getRandomTableNumber = () => {
                     dom_append(span, t3);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*popupContent*/ 16 && t3_value !== (t3_value = `${formatMoney(/*popupContent*/ ctx[4].balance)} $` + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*popupContent*/ 256 && t3_value !== (t3_value = `${formatMoney(/*popupContent*/ ctx[8].balance)} $` + "")) dom_set_data(t3, t3_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -368627,7 +368314,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (959:16) {#if !isNil($gangZones)}
+        // (976:16) {#if !isNil(gangZones)}
         function ghetto_map_index_svelte_create_if_block_7(ctx) {
             let div;
             let t0;
@@ -368661,7 +368348,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (967:16) {#if !isNil($fractionCaptures)}
+        // (984:16) {#if !isNil(fractionCaptures)}
         function ghetto_map_index_svelte_create_if_block_6(ctx) {
             let div;
             let t0;
@@ -368676,7 +368363,7 @@ const getRandomTableNumber = () => {
                     div = dom_element("div");
                     t0 = dom_text("Моя банда приняла участие в ");
                     span = dom_element("span");
-                    t1 = dom_text( /*$territoryCount*/ ctx[5]);
+                    t1 = dom_text( /*territoryCount*/ ctx[2]);
                     t2 = dom_text(" сражениях ");
                     br = dom_element("br");
                     t3 = dom_text(" за 30 дней");
@@ -368693,7 +368380,7 @@ const getRandomTableNumber = () => {
                     dom_append(div, t3);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$territoryCount*/ 32) dom_set_data(t1, /*$territoryCount*/ ctx[5]);
+                    if (dirty[0] & /*territoryCount*/ 4) dom_set_data(t1, /*territoryCount*/ ctx[2]);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -368703,10 +368390,10 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (990:16) {:else}
+        // (1007:16) {:else}
         function ghetto_map_index_svelte_create_else_block_2(ctx) {
             let div;
-            let each_value_2 = each_ensure_array_like( /*$fractionCaptures*/ ctx[8]);
+            let each_value_2 = each_ensure_array_like( /*fractionCaptures*/ ctx[5]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value_2.length; i += 1) {
@@ -368733,8 +368420,8 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$fractionCaptures*/ 256) {
-                        each_value_2 = each_ensure_array_like( /*$fractionCaptures*/ ctx[8]);
+                    if (dirty[0] & /*fractionCaptures*/ 32) {
+                        each_value_2 = each_ensure_array_like( /*fractionCaptures*/ ctx[5]);
                         let i;
 
                         for (i = 0; i < each_value_2.length; i += 1) {
@@ -368768,7 +368455,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (986:53) 
+        // (1003:52) 
         function ghetto_map_index_svelte_create_if_block_5(ctx) {
             let div;
 
@@ -368792,7 +368479,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (980:16) {#if isNil($fractionCaptures)}
+        // (997:16) {#if isNil(fractionCaptures)}
         function ghetto_map_index_svelte_create_if_block_4(ctx) {
             let div1;
             let div0;
@@ -368834,21 +368521,21 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (992:24) {#each $fractionCaptures as item}
+        // (1009:24) {#each fractionCaptures as item}
         function ghetto_map_index_svelte_create_each_block_2(ctx) {
             let div8;
             let div0;
             let t0;
-            let t1_value = ( /*item*/ ctx[44].gangzone_id || 0) + "";
+            let t1_value = ( /*item*/ ctx[48].gangzone_id || 0) + "";
             let t1;
             let t2;
             let div1;
-            let t3_value = moment_timezone_default().unix( /*item*/ ctx[44].date_unix).tz("Europe/Moscow").format('HH:mm') + "";
+            let t3_value = moment_timezone_default().unix( /*item*/ ctx[48].date_unix).tz("Europe/Moscow").format('HH:mm') + "";
             let t3;
             let t4;
             let div4;
             let div2;
-            let t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].attack_fraction_id] + "";
+            let t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].attack_fraction_id] + "";
             let t5;
             let t6;
             let div3;
@@ -368857,7 +368544,7 @@ const getRandomTableNumber = () => {
             let t9;
             let div7;
             let div5;
-            let t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].defend_fraction_id] + "";
+            let t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].defend_fraction_id] + "";
             let t10;
             let t11;
             let div6;
@@ -368893,8 +368580,8 @@ const getRandomTableNumber = () => {
                     dom_attr(div1, "class", "ghetto-map__fight-time svelte-5qexgx");
                     dom_attr(div2, "class", "ghetto-map__fight-side-name svelte-5qexgx");
 
-                    set_style(div2, "color", /*item*/ ctx[44].attack_fraction_id !== constants_Fractions.NightWolfs ?
-                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].attack_fraction_id] :
+                    set_style(div2, "color", /*item*/ ctx[48].attack_fraction_id !== constants_Fractions.NightWolfs ?
+                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].attack_fraction_id] :
                         'rgba(255, 255, 255, 0.6)');
 
                     dom_attr(div3, "class", "ghetto-map__fight-side-caption svelte-5qexgx");
@@ -368902,8 +368589,8 @@ const getRandomTableNumber = () => {
                     dom_attr(i, "class", "ghetto-map__fight-separator icon-vs svelte-5qexgx");
                     dom_attr(div5, "class", "ghetto-map__fight-side-name svelte-5qexgx");
 
-                    set_style(div5, "color", /*item*/ ctx[44].defend_fraction_id !== constants_Fractions.NightWolfs ?
-                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].defend_fraction_id] :
+                    set_style(div5, "color", /*item*/ ctx[48].defend_fraction_id !== constants_Fractions.NightWolfs ?
+                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].defend_fraction_id] :
                         'rgba(255, 255, 255, 0.6)');
 
                     dom_attr(div6, "class", "ghetto-map__fight-side-caption ghetto-map__fight-side-caption--defense svelte-5qexgx");
@@ -368935,21 +368622,21 @@ const getRandomTableNumber = () => {
                     dom_append(div8, t13);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$fractionCaptures*/ 256 && t1_value !== (t1_value = ( /*item*/ ctx[44].gangzone_id || 0) + "")) dom_set_data(t1, t1_value);
-                    if (dirty[0] & /*$fractionCaptures*/ 256 && t3_value !== (t3_value = moment_timezone_default().unix( /*item*/ ctx[44].date_unix).tz("Europe/Moscow").format('HH:mm') + "")) dom_set_data(t3, t3_value);
-                    if (dirty[0] & /*$fractionCaptures*/ 256 && t5_value !== (t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].attack_fraction_id] + "")) dom_set_data(t5, t5_value);
+                    if (dirty[0] & /*fractionCaptures*/ 32 && t1_value !== (t1_value = ( /*item*/ ctx[48].gangzone_id || 0) + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*fractionCaptures*/ 32 && t3_value !== (t3_value = moment_timezone_default().unix( /*item*/ ctx[48].date_unix).tz("Europe/Moscow").format('HH:mm') + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*fractionCaptures*/ 32 && t5_value !== (t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].attack_fraction_id] + "")) dom_set_data(t5, t5_value);
 
-                    if (dirty[0] & /*$fractionCaptures*/ 256) {
-                        set_style(div2, "color", /*item*/ ctx[44].attack_fraction_id !== constants_Fractions.NightWolfs ?
-                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].attack_fraction_id] :
+                    if (dirty[0] & /*fractionCaptures*/ 32) {
+                        set_style(div2, "color", /*item*/ ctx[48].attack_fraction_id !== constants_Fractions.NightWolfs ?
+                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].attack_fraction_id] :
                             'rgba(255, 255, 255, 0.6)');
                     }
 
-                    if (dirty[0] & /*$fractionCaptures*/ 256 && t10_value !== (t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].defend_fraction_id] + "")) dom_set_data(t10, t10_value);
+                    if (dirty[0] & /*fractionCaptures*/ 32 && t10_value !== (t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].defend_fraction_id] + "")) dom_set_data(t10, t10_value);
 
-                    if (dirty[0] & /*$fractionCaptures*/ 256) {
-                        set_style(div5, "color", /*item*/ ctx[44].defend_fraction_id !== constants_Fractions.NightWolfs ?
-                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].defend_fraction_id] :
+                    if (dirty[0] & /*fractionCaptures*/ 32) {
+                        set_style(div5, "color", /*item*/ ctx[48].defend_fraction_id !== constants_Fractions.NightWolfs ?
+                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].defend_fraction_id] :
                             'rgba(255, 255, 255, 0.6)');
                     }
                 },
@@ -368961,10 +368648,10 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1041:16) {:else}
+        // (1058:16) {:else}
         function ghetto_map_index_svelte_create_else_block_1(ctx) {
             let div;
-            let each_value_1 = each_ensure_array_like( /*$featureCaptures*/ ctx[7]);
+            let each_value_1 = each_ensure_array_like( /*featureCaptures*/ ctx[6]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value_1.length; i += 1) {
@@ -368991,8 +368678,8 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$featureCaptures*/ 128) {
-                        each_value_1 = each_ensure_array_like( /*$featureCaptures*/ ctx[7]);
+                    if (dirty[0] & /*featureCaptures*/ 64) {
+                        each_value_1 = each_ensure_array_like( /*featureCaptures*/ ctx[6]);
                         let i;
 
                         for (i = 0; i < each_value_1.length; i += 1) {
@@ -369026,7 +368713,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1037:52) 
+        // (1054:51) 
         function ghetto_map_index_svelte_create_if_block_3(ctx) {
             let div;
 
@@ -369050,7 +368737,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1031:16) {#if isNil($featureCaptures)}
+        // (1048:16) {#if isNil(featureCaptures)}
         function ghetto_map_index_svelte_create_if_block_2(ctx) {
             let div1;
             let div0;
@@ -369092,21 +368779,21 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1043:24) {#each $featureCaptures as item}
+        // (1060:24) {#each featureCaptures as item}
         function ghetto_map_index_svelte_create_each_block_1(ctx) {
             let div8;
             let div0;
             let t0;
-            let t1_value = ( /*item*/ ctx[44].gangzone_id || 0) + "";
+            let t1_value = ( /*item*/ ctx[48].gangzone_id || 0) + "";
             let t1;
             let t2;
             let div1;
-            let t3_value = moment_timezone_default().unix( /*item*/ ctx[44].date_unix).tz("Europe/Moscow").format('HH:mm') + "";
+            let t3_value = moment_timezone_default().unix( /*item*/ ctx[48].date_unix).tz("Europe/Moscow").format('HH:mm') + "";
             let t3;
             let t4;
             let div4;
             let div2;
-            let t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].attack_fraction_id] + "";
+            let t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].attack_fraction_id] + "";
             let t5;
             let t6;
             let div3;
@@ -369115,7 +368802,7 @@ const getRandomTableNumber = () => {
             let t9;
             let div7;
             let div5;
-            let t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].defend_fraction_id] + "";
+            let t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].defend_fraction_id] + "";
             let t10;
             let t11;
             let div6;
@@ -369151,8 +368838,8 @@ const getRandomTableNumber = () => {
                     dom_attr(div1, "class", "ghetto-map__fight-time svelte-5qexgx");
                     dom_attr(div2, "class", "ghetto-map__fight-side-name svelte-5qexgx");
 
-                    set_style(div2, "color", /*item*/ ctx[44].attack_fraction_id !== constants_Fractions.NightWolfs ?
-                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].attack_fraction_id] :
+                    set_style(div2, "color", /*item*/ ctx[48].attack_fraction_id !== constants_Fractions.NightWolfs ?
+                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].attack_fraction_id] :
                         'rgba(255, 255, 255, 0.6)');
 
                     dom_attr(div3, "class", "ghetto-map__fight-side-caption svelte-5qexgx");
@@ -369160,8 +368847,8 @@ const getRandomTableNumber = () => {
                     dom_attr(i, "class", "ghetto-map__fight-separator icon-vs svelte-5qexgx");
                     dom_attr(div5, "class", "ghetto-map__fight-side-name svelte-5qexgx");
 
-                    set_style(div5, "color", /*item*/ ctx[44].defend_fraction_id !== constants_Fractions.NightWolfs ?
-                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].defend_fraction_id] :
+                    set_style(div5, "color", /*item*/ ctx[48].defend_fraction_id !== constants_Fractions.NightWolfs ?
+                        MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].defend_fraction_id] :
                         'rgba(255, 255, 255, 0.6)');
 
                     dom_attr(div6, "class", "ghetto-map__fight-side-caption ghetto-map__fight-side-caption--defense svelte-5qexgx");
@@ -369193,21 +368880,21 @@ const getRandomTableNumber = () => {
                     dom_append(div8, t13);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$featureCaptures*/ 128 && t1_value !== (t1_value = ( /*item*/ ctx[44].gangzone_id || 0) + "")) dom_set_data(t1, t1_value);
-                    if (dirty[0] & /*$featureCaptures*/ 128 && t3_value !== (t3_value = moment_timezone_default().unix( /*item*/ ctx[44].date_unix).tz("Europe/Moscow").format('HH:mm') + "")) dom_set_data(t3, t3_value);
-                    if (dirty[0] & /*$featureCaptures*/ 128 && t5_value !== (t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].attack_fraction_id] + "")) dom_set_data(t5, t5_value);
+                    if (dirty[0] & /*featureCaptures*/ 64 && t1_value !== (t1_value = ( /*item*/ ctx[48].gangzone_id || 0) + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*featureCaptures*/ 64 && t3_value !== (t3_value = moment_timezone_default().unix( /*item*/ ctx[48].date_unix).tz("Europe/Moscow").format('HH:mm') + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*featureCaptures*/ 64 && t5_value !== (t5_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].attack_fraction_id] + "")) dom_set_data(t5, t5_value);
 
-                    if (dirty[0] & /*$featureCaptures*/ 128) {
-                        set_style(div2, "color", /*item*/ ctx[44].attack_fraction_id !== constants_Fractions.NightWolfs ?
-                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].attack_fraction_id] :
+                    if (dirty[0] & /*featureCaptures*/ 64) {
+                        set_style(div2, "color", /*item*/ ctx[48].attack_fraction_id !== constants_Fractions.NightWolfs ?
+                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].attack_fraction_id] :
                             'rgba(255, 255, 255, 0.6)');
                     }
 
-                    if (dirty[0] & /*$featureCaptures*/ 128 && t10_value !== (t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[44].defend_fraction_id] + "")) dom_set_data(t10, t10_value);
+                    if (dirty[0] & /*featureCaptures*/ 64 && t10_value !== (t10_value = MAP_FRACTION_ID_TO_NAME[ /*item*/ ctx[48].defend_fraction_id] + "")) dom_set_data(t10, t10_value);
 
-                    if (dirty[0] & /*$featureCaptures*/ 128) {
-                        set_style(div5, "color", /*item*/ ctx[44].defend_fraction_id !== constants_Fractions.NightWolfs ?
-                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[44].defend_fraction_id] :
+                    if (dirty[0] & /*featureCaptures*/ 64) {
+                        set_style(div5, "color", /*item*/ ctx[48].defend_fraction_id !== constants_Fractions.NightWolfs ?
+                            MAP_FRACTION_ID_TO_COLOR[ /*item*/ ctx[48].defend_fraction_id] :
                             'rgba(255, 255, 255, 0.6)');
                     }
                 },
@@ -369219,10 +368906,10 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1095:16) {:else}
+        // (1112:16) {:else}
         function ghetto_map_index_svelte_create_else_block(ctx) {
             let each_1_anchor;
-            let each_value = each_ensure_array_like( /*$fractionTop*/ ctx[6]);
+            let each_value = each_ensure_array_like( /*fractionTop*/ ctx[4]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value.length; i += 1) {
@@ -369247,8 +368934,8 @@ const getRandomTableNumber = () => {
                     dom_insert(target, each_1_anchor, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$fractionTop*/ 64) {
-                        each_value = each_ensure_array_like( /*$fractionTop*/ ctx[6]);
+                    if (dirty[0] & /*fractionTop*/ 16) {
+                        each_value = each_ensure_array_like( /*fractionTop*/ ctx[4]);
                         let i;
 
                         for (i = 0; i < each_value.length; i += 1) {
@@ -369282,7 +368969,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1091:48) 
+        // (1108:47) 
         function ghetto_map_index_svelte_create_if_block_1(ctx) {
             let div;
 
@@ -369306,7 +368993,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1085:16) {#if isNil($fractionTop)}
+        // (1102:16) {#if isNil(fractionTop)}
         function ghetto_map_index_svelte_create_if_block(ctx) {
             let div1;
             let div0;
@@ -369348,17 +369035,17 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1096:20) {#each $fractionTop as placement, index}
+        // (1113:20) {#each fractionTop as placement, index}
         function ghetto_map_index_svelte_create_each_block(ctx) {
             let div3;
             let div0;
             let t1;
             let div1;
-            let t2_value = MAP_FRACTION_ID_TO_NAME[ /*placement*/ ctx[41].fraction_id] + "";
+            let t2_value = MAP_FRACTION_ID_TO_NAME[ /*placement*/ ctx[45].fraction_id] + "";
             let t2;
             let t3;
             let div2;
-            let t4_value = `${/*placement*/ ctx[41].territories} ${pluralize(/*placement*/ ctx[41].territories, ['территория', 'территории', 'территорий'])}` + "";
+            let t4_value = `${/*placement*/ ctx[45].territories} ${pluralize(/*placement*/ ctx[45].territories, ['территория', 'территории', 'территорий'])}` + "";
             let t4;
             let t5;
 
@@ -369366,7 +369053,7 @@ const getRandomTableNumber = () => {
                 c() {
                     div3 = dom_element("div");
                     div0 = dom_element("div");
-                    div0.textContent = `${`${/*index*/ ctx[43] + 1} место`}`;
+                    div0.textContent = `${`${/*index*/ ctx[47] + 1} место`}`;
                     t1 = dom_space();
                     div1 = dom_element("div");
                     t2 = dom_text(t2_value);
@@ -369391,8 +369078,8 @@ const getRandomTableNumber = () => {
                     dom_append(div3, t5);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$fractionTop*/ 64 && t2_value !== (t2_value = MAP_FRACTION_ID_TO_NAME[ /*placement*/ ctx[41].fraction_id] + "")) dom_set_data(t2, t2_value);
-                    if (dirty[0] & /*$fractionTop*/ 64 && t4_value !== (t4_value = `${/*placement*/ ctx[41].territories} ${pluralize(/*placement*/ ctx[41].territories, ['территория', 'территории', 'территорий'])}` + "")) dom_set_data(t4, t4_value);
+                    if (dirty[0] & /*fractionTop*/ 16 && t2_value !== (t2_value = MAP_FRACTION_ID_TO_NAME[ /*placement*/ ctx[45].fraction_id] + "")) dom_set_data(t2, t2_value);
+                    if (dirty[0] & /*fractionTop*/ 16 && t4_value !== (t4_value = `${/*placement*/ ctx[45].territories} ${pluralize(/*placement*/ ctx[45].territories, ['территория', 'территории', 'территорий'])}` + "")) dom_set_data(t4, t4_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -369412,16 +369099,16 @@ const getRandomTableNumber = () => {
             let t1;
             let div5;
             let div1;
-            let t2_value = `Территория № ${/*popupContent*/ ctx[4].territoryId}` + "";
+            let t2_value = `Территория № ${/*popupContent*/ ctx[8].territoryId}` + "";
             let t2;
             let t3;
             let div3;
             let t4;
             let div2;
 
-            let t5_value = ((0, lodash.isNil)( /*popupContent*/ ctx[4].fraction_name) ?
+            let t5_value = ((0, lodash.isNil)( /*popupContent*/ ctx[8].fraction_name) ?
                 'Свободная территория' :
-                /*popupContent*/ ctx[4].fraction_name) + "";
+                /*popupContent*/ ctx[8].fraction_name) + "";
 
             let t5;
             let t6;
@@ -369435,9 +369122,9 @@ const getRandomTableNumber = () => {
             let div7;
             let t13;
             let div8;
-            let show_if_7 = !(0, lodash.isNil)( /*$gangZones*/ ctx[9]);
+            let show_if_7 = !(0, lodash.isNil)( /*gangZones*/ ctx[9]);
             let t14;
-            let show_if_6 = !(0, lodash.isNil)( /*$fractionCaptures*/ ctx[8]);
+            let show_if_6 = !(0, lodash.isNil)( /*fractionCaptures*/ ctx[5]);
             let t15;
             let div13;
             let div11;
@@ -369472,22 +369159,22 @@ const getRandomTableNumber = () => {
             let current;
             let mounted;
             let dispose;
-            let if_block0 = /*popupContent*/ ctx[4].fraction_id >= 0 && ghetto_map_index_svelte_create_if_block_12(ctx);
-            let if_block1 = /*popupContent*/ ctx[4].money > 0 && ghetto_map_index_svelte_create_if_block_11(ctx);
-            let if_block2 = /*popupContent*/ ctx[4].respects > 0 && ghetto_map_index_svelte_create_if_block_10(ctx);
-            let if_block3 = /*popupContent*/ ctx[4].hasBusiness && ghetto_map_index_svelte_create_if_block_9(ctx);
-            let if_block4 = /*popupContent*/ ctx[4].hasBusiness && ghetto_map_index_svelte_create_if_block_8(ctx);
+            let if_block0 = /*popupContent*/ ctx[8].fraction_id >= 0 && ghetto_map_index_svelte_create_if_block_12(ctx);
+            let if_block1 = /*popupContent*/ ctx[8].money > 0 && ghetto_map_index_svelte_create_if_block_11(ctx);
+            let if_block2 = /*popupContent*/ ctx[8].respects > 0 && ghetto_map_index_svelte_create_if_block_10(ctx);
+            let if_block3 = /*popupContent*/ ctx[8].hasBusiness && ghetto_map_index_svelte_create_if_block_9(ctx);
+            let if_block4 = /*popupContent*/ ctx[8].hasBusiness && ghetto_map_index_svelte_create_if_block_8(ctx);
             let if_block5 = show_if_7 && ghetto_map_index_svelte_create_if_block_7(ctx);
             let if_block6 = show_if_6 && ghetto_map_index_svelte_create_if_block_6(ctx);
             const if_block_creators = [ghetto_map_index_svelte_create_if_block_4, ghetto_map_index_svelte_create_if_block_5, ghetto_map_index_svelte_create_else_block_2];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
-                if (dirty[0] & /*$fractionCaptures*/ 256) show_if_4 = null;
-                if (dirty[0] & /*$fractionCaptures*/ 256) show_if_5 = null;
-                if (show_if_4 == null) show_if_4 = !!(0, lodash.isNil)( /*$fractionCaptures*/ ctx[8]);
+                if (dirty[0] & /*fractionCaptures*/ 32) show_if_4 = null;
+                if (dirty[0] & /*fractionCaptures*/ 32) show_if_5 = null;
+                if (show_if_4 == null) show_if_4 = !!(0, lodash.isNil)( /*fractionCaptures*/ ctx[5]);
                 if (show_if_4) return 0;
-                if (show_if_5 == null) show_if_5 = !!(0, lodash.isEmpty)( /*$fractionCaptures*/ ctx[8]);
+                if (show_if_5 == null) show_if_5 = !!(0, lodash.isEmpty)( /*fractionCaptures*/ ctx[5]);
                 if (show_if_5) return 1;
                 return 2;
             }
@@ -369498,11 +369185,11 @@ const getRandomTableNumber = () => {
             const if_blocks_1 = [];
 
             function select_block_type_1(ctx, dirty) {
-                if (dirty[0] & /*$featureCaptures*/ 128) show_if_2 = null;
-                if (dirty[0] & /*$featureCaptures*/ 128) show_if_3 = null;
-                if (show_if_2 == null) show_if_2 = !!(0, lodash.isNil)( /*$featureCaptures*/ ctx[7]);
+                if (dirty[0] & /*featureCaptures*/ 64) show_if_2 = null;
+                if (dirty[0] & /*featureCaptures*/ 64) show_if_3 = null;
+                if (show_if_2 == null) show_if_2 = !!(0, lodash.isNil)( /*featureCaptures*/ ctx[6]);
                 if (show_if_2) return 0;
-                if (show_if_3 == null) show_if_3 = !!(0, lodash.isEmpty)( /*$featureCaptures*/ ctx[7]);
+                if (show_if_3 == null) show_if_3 = !!(0, lodash.isEmpty)( /*featureCaptures*/ ctx[6]);
                 if (show_if_3) return 1;
                 return 2;
             }
@@ -369513,11 +369200,11 @@ const getRandomTableNumber = () => {
             const if_blocks_2 = [];
 
             function select_block_type_2(ctx, dirty) {
-                if (dirty[0] & /*$fractionTop*/ 64) show_if = null;
-                if (dirty[0] & /*$fractionTop*/ 64) show_if_1 = null;
-                if (show_if == null) show_if = !!(0, lodash.isNil)( /*$fractionTop*/ ctx[6]);
+                if (dirty[0] & /*fractionTop*/ 16) show_if = null;
+                if (dirty[0] & /*fractionTop*/ 16) show_if_1 = null;
+                if (show_if == null) show_if = !!(0, lodash.isNil)( /*fractionTop*/ ctx[4]);
                 if (show_if) return 0;
-                if (show_if_1 == null) show_if_1 = !!(0, lodash.isEmpty)( /*$fractionTop*/ ctx[6]);
+                if (show_if_1 == null) show_if_1 = !!(0, lodash.isEmpty)( /*fractionTop*/ ctx[4]);
                 if (show_if_1) return 1;
                 return 2;
             }
@@ -369597,10 +369284,10 @@ const getRandomTableNumber = () => {
                     dom_attr(div3, "class", "ghetto-map__popup-owner svelte-5qexgx");
                     dom_attr(div4, "class", "ghetto-map__popup-attributes svelte-5qexgx");
                     dom_attr(div5, "id", "popup");
-                    dom_attr(div5, "class", div5_class_value = "ghetto-map__popup ghetto-map__popup--" + /*popupContent*/ ctx[4].positioningClass + " svelte-5qexgx");
-                    set_style(div5, "--nameColor", MAP_FRACTION_ID_TO_COLOR[ /*popupContent*/ ctx[4].fraction_id]);
-                    set_style(div5, "--bgColor", `${MAP_FRACTION_ID_TO_COLOR[/*popupContent*/ ctx[4].fraction_id]}25`);
-                    dom_toggle_class(div5, "ghetto-map__popup--hide", ! /*popupVisible*/ ctx[3]);
+                    dom_attr(div5, "class", div5_class_value = "ghetto-map__popup ghetto-map__popup--" + /*popupContent*/ ctx[8].positioningClass + " svelte-5qexgx");
+                    set_style(div5, "--nameColor", MAP_FRACTION_ID_TO_COLOR[ /*popupContent*/ ctx[8].fraction_id]);
+                    set_style(div5, "--bgColor", `${MAP_FRACTION_ID_TO_COLOR[/*popupContent*/ ctx[8].fraction_id]}25`);
+                    dom_toggle_class(div5, "ghetto-map__popup--hide", ! /*popupVisible*/ ctx[7]);
                     dom_attr(div7, "class", "ghetto-map__information-header svelte-5qexgx");
                     dom_attr(div8, "class", "ghetto-map__information-list svelte-5qexgx");
                     dom_attr(div9, "class", "ghetto-map__information svelte-5qexgx");
@@ -369689,9 +369376,9 @@ const getRandomTableNumber = () => {
                     }
                 },
                 p(ctx, dirty) {
-                    if ((!current || dirty[0] & /*popupContent*/ 16) && t2_value !== (t2_value = `Территория № ${/*popupContent*/ ctx[4].territoryId}` + "")) dom_set_data(t2, t2_value);
+                    if ((!current || dirty[0] & /*popupContent*/ 256) && t2_value !== (t2_value = `Территория № ${/*popupContent*/ ctx[8].territoryId}` + "")) dom_set_data(t2, t2_value);
 
-                    if ( /*popupContent*/ ctx[4].fraction_id >= 0) {
+                    if ( /*popupContent*/ ctx[8].fraction_id >= 0) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
@@ -369704,11 +369391,11 @@ const getRandomTableNumber = () => {
                         if_block0 = null;
                     }
 
-                    if ((!current || dirty[0] & /*popupContent*/ 16) && t5_value !== (t5_value = ((0, lodash.isNil)( /*popupContent*/ ctx[4].fraction_name) ?
+                    if ((!current || dirty[0] & /*popupContent*/ 256) && t5_value !== (t5_value = ((0, lodash.isNil)( /*popupContent*/ ctx[8].fraction_name) ?
                             'Свободная территория' :
-                            /*popupContent*/ ctx[4].fraction_name) + "")) dom_set_data(t5, t5_value);
+                            /*popupContent*/ ctx[8].fraction_name) + "")) dom_set_data(t5, t5_value);
 
-                    if ( /*popupContent*/ ctx[4].money > 0) {
+                    if ( /*popupContent*/ ctx[8].money > 0) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
@@ -369721,7 +369408,7 @@ const getRandomTableNumber = () => {
                         if_block1 = null;
                     }
 
-                    if ( /*popupContent*/ ctx[4].respects > 0) {
+                    if ( /*popupContent*/ ctx[8].respects > 0) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
@@ -369734,7 +369421,7 @@ const getRandomTableNumber = () => {
                         if_block2 = null;
                     }
 
-                    if ( /*popupContent*/ ctx[4].hasBusiness) {
+                    if ( /*popupContent*/ ctx[8].hasBusiness) {
                         if (if_block3) {
                             if_block3.p(ctx, dirty);
                         } else {
@@ -369747,7 +369434,7 @@ const getRandomTableNumber = () => {
                         if_block3 = null;
                     }
 
-                    if ( /*popupContent*/ ctx[4].hasBusiness) {
+                    if ( /*popupContent*/ ctx[8].hasBusiness) {
                         if (if_block4) {
                             if_block4.p(ctx, dirty);
                         } else {
@@ -369760,23 +369447,23 @@ const getRandomTableNumber = () => {
                         if_block4 = null;
                     }
 
-                    if (!current || dirty[0] & /*popupContent*/ 16 && div5_class_value !== (div5_class_value = "ghetto-map__popup ghetto-map__popup--" + /*popupContent*/ ctx[4].positioningClass + " svelte-5qexgx")) {
+                    if (!current || dirty[0] & /*popupContent*/ 256 && div5_class_value !== (div5_class_value = "ghetto-map__popup ghetto-map__popup--" + /*popupContent*/ ctx[8].positioningClass + " svelte-5qexgx")) {
                         dom_attr(div5, "class", div5_class_value);
                     }
 
-                    if (!current || dirty[0] & /*popupContent*/ 16) {
-                        set_style(div5, "--nameColor", MAP_FRACTION_ID_TO_COLOR[ /*popupContent*/ ctx[4].fraction_id]);
+                    if (!current || dirty[0] & /*popupContent*/ 256) {
+                        set_style(div5, "--nameColor", MAP_FRACTION_ID_TO_COLOR[ /*popupContent*/ ctx[8].fraction_id]);
                     }
 
-                    if (!current || dirty[0] & /*popupContent*/ 16) {
-                        set_style(div5, "--bgColor", `${MAP_FRACTION_ID_TO_COLOR[/*popupContent*/ ctx[4].fraction_id]}25`);
+                    if (!current || dirty[0] & /*popupContent*/ 256) {
+                        set_style(div5, "--bgColor", `${MAP_FRACTION_ID_TO_COLOR[/*popupContent*/ ctx[8].fraction_id]}25`);
                     }
 
-                    if (!current || dirty[0] & /*popupContent, popupVisible*/ 24) {
-                        dom_toggle_class(div5, "ghetto-map__popup--hide", ! /*popupVisible*/ ctx[3]);
+                    if (!current || dirty[0] & /*popupContent, popupVisible*/ 384) {
+                        dom_toggle_class(div5, "ghetto-map__popup--hide", ! /*popupVisible*/ ctx[7]);
                     }
 
-                    if (dirty[0] & /*$gangZones*/ 512) show_if_7 = !(0, lodash.isNil)( /*$gangZones*/ ctx[9]);
+                    if (dirty[0] & /*gangZones*/ 512) show_if_7 = !(0, lodash.isNil)( /*gangZones*/ ctx[9]);
 
                     if (show_if_7) {
                         if (if_block5) {
@@ -369791,7 +369478,7 @@ const getRandomTableNumber = () => {
                         if_block5 = null;
                     }
 
-                    if (dirty[0] & /*$fractionCaptures*/ 256) show_if_6 = !(0, lodash.isNil)( /*$fractionCaptures*/ ctx[8]);
+                    if (dirty[0] & /*fractionCaptures*/ 32) show_if_6 = !(0, lodash.isNil)( /*fractionCaptures*/ ctx[5]);
 
                     if (show_if_6) {
                         if (if_block6) {
@@ -369928,55 +369615,50 @@ const getRandomTableNumber = () => {
         function ghetto_map_index_svelte_instance($$self, $$props, $$invalidate) {
             let $mainInfo;
             let $interactionDisabled;
-            let $territoryCount;
             let $serverApiToken;
             let $serverApiServerId;
-            let $fractionTop;
-            let $featureCaptures;
-            let $fractionCaptures;
             let $mapBusiness;
-            let $gangZones;
             utils_component_subscribe($$self, store_mainInfo, $$value => $$invalidate(0, $mainInfo = $$value));
             utils_component_subscribe($$self, interactionDisabled, $$value => $$invalidate(17, $interactionDisabled = $$value));
-            utils_component_subscribe($$self, territoryCount, $$value => $$invalidate(5, $territoryCount = $$value));
             utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(18, $serverApiToken = $$value));
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(19, $serverApiServerId = $$value));
-            utils_component_subscribe($$self, fractionTop, $$value => $$invalidate(6, $fractionTop = $$value));
-            utils_component_subscribe($$self, featureCaptures, $$value => $$invalidate(7, $featureCaptures = $$value));
-            utils_component_subscribe($$self, fractionCaptures, $$value => $$invalidate(8, $fractionCaptures = $$value));
             utils_component_subscribe($$self, store_mapBusiness, $$value => $$invalidate(20, $mapBusiness = $$value));
-            utils_component_subscribe($$self, gangZones, $$value => $$invalidate(9, $gangZones = $$value));
             const source = new source_Vector();
             let mapElement = null;
             let map = null;
+            let territoryOwners = [];
+            let territoryUniqs = [];
+            let territoryFamilies = [];
+            let territoryCount = ' ';
             let popupOverlay = null;
+            let popupData = {};
             let interaction = {};
             let popupRef = null;
+            let fractionTop = null;
+            let fractionCaptures = null;
+            let featureCaptures = null;
             let popupVisible = false;
             let popupContent = {};
             let hoveredFeature = null;
+            let gangZones = [];
             const cellWidth = (constants_END_COORDS.x - constants_START_COORDS.x) / index_svelte_gridWidth;
             const cellHeight = (constants_END_COORDS.y - constants_START_COORDS.y) / index_svelte_gridHeight;
             const gridSource = new source_Vector();
 
             const clearGangZones = () => {
-                utils_set_store_value(gangZones, $gangZones = [], $gangZones);
+                $$invalidate(9, gangZones = []);
                 gridSource.clear();
 
-                utils_set_store_value(
-                    gangZones,
-                    $gangZones = Array.from(TERRITORY_ORDER, (item, index) => {
-                        return {
-                            ...constants_BASE_GANG_ZONE,
-                            territoryId: item
-                        };
-                    }),
-                    $gangZones
-                );
+                $$invalidate(9, gangZones = Array.from(TERRITORY_ORDER, (item, index) => {
+                    return {
+                        ...constants_BASE_GANG_ZONE,
+                        territoryId: item
+                    };
+                }));
             };
 
             const createGrid = () => {
-                $gangZones.forEach((item, index) => {
+                gangZones.forEach((item, index) => {
                     const baseLon = constants_START_COORDS.x;
                     const lonStep = cellWidth;
                     const baseLat = constants_START_COORDS.y;
@@ -370129,69 +369811,61 @@ const getRandomTableNumber = () => {
                 }).then(response => {
                     clearGangZones();
 
-                    utils_set_store_value(
-                        gangZones,
-                        $gangZones = $gangZones.map((territory, index) => {
-                            let data = response.data.find(dtoItem => dtoItem.id === territory.territoryId);
+                    $$invalidate(9, gangZones = gangZones.map((territory, index) => {
+                        let data = response.data.find(dtoItem => dtoItem.id === territory.territoryId);
 
-                            if ((0, lodash.isNil)(data)) {
-                                data = {
-                                    ...territory,
-                                    territoryId: territory.territoryId
-                                };
-                            } else {
-                                let imageSrc = data.drugden ? hangout_namespaceObject : null;
-
-                                imageSrc = data.respawn_fraction_id > 0 ?
-                                    MAP_FRACTION_TO_SPAWN_ICON[data.respawn_fraction_id] :
-                                    imageSrc;
-
-                                data = {
-                                    ...data,
-                                    territoryId: territory.territoryId,
-                                    fraction_name: MAP_FRACTION_ID_TO_NAME[data.fraction_id],
-                                    fraction_color_hex: MAP_FRACTION_ID_TO_COLOR[data.fraction_id],
-                                    fraction_color_fill: data.drugden ?
-                                        DRUGDEN_FILL_COLOR :
-                                        `${MAP_FRACTION_ID_TO_COLOR[data.fraction_id]}${constants_COLOR_FILL_HEX_OPACITY}`,
-                                    fraction_color_hover: `${MAP_FRACTION_ID_TO_COLOR[data.fraction_id]}${constants_COLOR_HOVER_HEX_OPACITY}`,
-                                    hasBusiness: false,
-                                    icon: imageSrc
-                                };
-                            }
-
-                            return Object.values(constants_Fractions).includes(data.fraction_id) ?
-                                data :
-                                {
-                                    ...constants_BASE_GANG_ZONE,
-                                    territoryId: territory.territoryId
-                                };
-                        }),
-                        $gangZones
-                    );
-
-                    utils_set_store_value(
-                        gangZones,
-                        $gangZones = $gangZones.map(territory => {
-                            let updateTerritory = {
-                                ...territory
+                        if ((0, lodash.isNil)(data)) {
+                            data = {
+                                ...territory,
+                                territoryId: territory.territoryId
                             };
-                            const bis = $mapBusiness.find(business => business.id === territory.territoryId);
+                        } else {
+                            let imageSrc = data.drugden ? hangout_namespaceObject : null;
 
-                            if (!(0, lodash.isNil)(bis)) {
-                                updateTerritory = {
-                                    ...territory,
-                                    ukrop: bis.ukrop,
-                                    balance: bis.balance,
-                                    icon: img_flower_namespaceObject,
-                                    hasBusiness: true
-                                };
-                            }
+                            imageSrc = data.respawn_fraction_id > 0 ?
+                                MAP_FRACTION_TO_SPAWN_ICON[data.respawn_fraction_id] :
+                                imageSrc;
 
-                            return updateTerritory;
-                        }),
-                        $gangZones
-                    );
+                            data = {
+                                ...data,
+                                territoryId: territory.territoryId,
+                                fraction_name: MAP_FRACTION_ID_TO_NAME[data.fraction_id],
+                                fraction_color_hex: MAP_FRACTION_ID_TO_COLOR[data.fraction_id],
+                                fraction_color_fill: data.drugden ?
+                                    DRUGDEN_FILL_COLOR :
+                                    `${MAP_FRACTION_ID_TO_COLOR[data.fraction_id]}${constants_COLOR_FILL_HEX_OPACITY}`,
+                                fraction_color_hover: `${MAP_FRACTION_ID_TO_COLOR[data.fraction_id]}${constants_COLOR_HOVER_HEX_OPACITY}`,
+                                hasBusiness: false,
+                                icon: imageSrc
+                            };
+                        }
+
+                        return Object.values(constants_Fractions).includes(data.fraction_id) ?
+                            data :
+                            {
+                                ...constants_BASE_GANG_ZONE,
+                                territoryId: territory.territoryId
+                            };
+                    }));
+
+                    $$invalidate(9, gangZones = gangZones.map(territory => {
+                        let updateTerritory = {
+                            ...territory
+                        };
+                        const bis = $mapBusiness.find(business => business.id === territory.territoryId);
+
+                        if (!(0, lodash.isNil)(bis)) {
+                            updateTerritory = {
+                                ...territory,
+                                ukrop: bis.ukrop,
+                                balance: bis.balance,
+                                icon: img_flower_namespaceObject,
+                                hasBusiness: true
+                            };
+                        }
+
+                        return updateTerritory;
+                    }));
 
                     createGrid();
                 }).catch(() => {
@@ -370205,7 +369879,7 @@ const getRandomTableNumber = () => {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
                 }).then(response => {
-                    utils_set_store_value(fractionCaptures, $fractionCaptures = response.data, $fractionCaptures);
+                    $$invalidate(5, fractionCaptures = response.data);
                 }).catch(error => {
                     console.log('getCaptures error', JSON.stringify(error));
                 });
@@ -370218,7 +369892,7 @@ const getRandomTableNumber = () => {
                     }
                 }).then(response => {
                     const unixNow = moment_timezone_default()().unix();
-                    utils_set_store_value(featureCaptures, $featureCaptures = response.data.filter(capture => capture.date_unix > unixNow), $featureCaptures);
+                    $$invalidate(6, featureCaptures = response.data.filter(capture => capture.date_unix > unixNow));
                 }).catch(error => {
                     console.log('getCapturesAll error', JSON.stringify(error));
                 });
@@ -370230,7 +369904,7 @@ const getRandomTableNumber = () => {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
                 }).then(response => {
-                    utils_set_store_value(fractionTop, $fractionTop = response.data.slice(0, 3), $fractionTop);
+                    $$invalidate(4, fractionTop = response.data.slice(0, 3));
                 }).catch(error => {
                     console.log('getTop error', JSON.stringify(error));
                 });
@@ -370242,7 +369916,7 @@ const getRandomTableNumber = () => {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
                 }).then(response => {
-                    utils_set_store_value(territoryCount, $territoryCount = response.data.count, $territoryCount);
+                    $$invalidate(2, territoryCount = response.data.count);
                 }).catch(error => {
                     console.log('getTerritoryCount error', JSON.stringify(error));
                 });
@@ -370315,7 +369989,7 @@ const getRandomTableNumber = () => {
                     if (!(0, lodash.isNil)(feature)) {
                         hoveredFeature = feature;
                         gridLayer.changed();
-                        $$invalidate(4, popupContent = feature.get('fraction'));
+                        $$invalidate(8, popupContent = feature.get('fraction'));
                         const center = getCenter(feature.getGeometry().getExtent());
                         let positioning;
                         let offset;
@@ -370334,16 +370008,16 @@ const getRandomTableNumber = () => {
                             offset = [-25, -25];
                         }
 
-                        $$invalidate(4, popupContent.positioningClass = positioning, popupContent);
+                        $$invalidate(8, popupContent.positioningClass = positioning, popupContent);
                         popupOverlay.setPositioning(positioning);
                         popupOverlay.setOffset(offset);
                         popupOverlay.setPosition(center);
-                        $$invalidate(3, popupVisible = true);
+                        $$invalidate(7, popupVisible = true);
                     } else if (!(0, lodash.isNil)(hoveredFeature)) {
                         hoveredFeature = null;
                         gridLayer.changed();
                         popupOverlay.setPosition(undefined);
-                        $$invalidate(3, popupVisible = false);
+                        $$invalidate(7, popupVisible = false);
                     }
                 });
             });
@@ -370366,7 +370040,7 @@ const getRandomTableNumber = () => {
             function div5_binding($$value) {
                 binding_callbacks[$$value ? 'unshift' : 'push'](() => {
                     popupRef = $$value;
-                    $$invalidate(2, popupRef);
+                    $$invalidate(3, popupRef);
                 });
             }
 
@@ -370390,14 +370064,14 @@ const getRandomTableNumber = () => {
             return [
                 $mainInfo,
                 mapElement,
+                territoryCount,
                 popupRef,
+                fractionTop,
+                fractionCaptures,
+                featureCaptures,
                 popupVisible,
                 popupContent,
-                $territoryCount,
-                $fractionTop,
-                $featureCaptures,
-                $fractionCaptures,
-                $gangZones,
+                gangZones,
                 div0_binding,
                 div5_binding,
                 click_handler,
@@ -372088,7 +371762,7 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (394:12) {#if !isEmpty($mainCase.similar)}
+        // (385:12) {#if !isEmpty($mainCase.similar)}
         function components_main_index_svelte_create_if_block_8(ctx) {
             let div;
             let current;
@@ -372180,7 +371854,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (397:24) {#if similarCase.id !== $mainCase.id}
+        // (388:24) {#if similarCase.id !== $mainCase.id}
         function main_index_svelte_create_if_block_9(ctx) {
             let div;
             let similar;
@@ -372260,7 +371934,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (396:20) {#each $mainCase.similar as similarCase, index}
+        // (387:20) {#each $mainCase.similar as similarCase, index}
         function open_case_components_main_index_svelte_create_each_block_2(ctx) {
             let if_block_anchor;
             let current;
@@ -372319,7 +371993,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (465:8) {:else}
+        // (456:8) {:else}
         function open_case_components_main_index_svelte_create_else_block(ctx) {
             let div;
             let loader;
@@ -372357,7 +372031,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (411:8) {#if !isEmpty($mainCase)}
+        // (402:8) {#if !isEmpty($mainCase)}
         function open_case_components_main_index_svelte_create_if_block_3(ctx) {
             let div4;
             let div0;
@@ -372587,7 +372261,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (415:16) {#if $mainCase.unix > 0}
+        // (406:16) {#if $mainCase.unix > 0}
         function components_main_index_svelte_create_if_block_7(ctx) {
             let div1;
             let i;
@@ -372625,7 +372299,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (426:20) {#if $mainInfo.count === 0 && $mainCase.price !== 0}
+        // (417:20) {#if $mainInfo.count === 0 && $mainCase.price !== 0}
         function open_case_components_main_index_svelte_create_if_block_6(ctx) {
             let div;
             let mounted;
@@ -372662,7 +372336,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (445:24) {#if $mainInfo.count === 0 && $mainCase.discount !== 0 && scaler >= $mainCase.discount_count && $mainCase.price !== 0}
+        // (436:24) {#if $mainInfo.count === 0 && $mainCase.discount !== 0 && scaler >= $mainCase.discount_count && $mainCase.price !== 0}
         function open_case_components_main_index_svelte_create_if_block_5(ctx) {
             let div;
             let t0;
@@ -372695,7 +372369,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (451:20) {#if $mainInfo.count === 0 && $mainCase.price !== 0}
+        // (442:20) {#if $mainInfo.count === 0 && $mainCase.price !== 0}
         function open_case_components_main_index_svelte_create_if_block_4(ctx) {
             let div;
             let mounted;
@@ -372732,7 +372406,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (477:16) {#if !isEmpty($mainCase.guaranteed)}
+        // (468:16) {#if !isEmpty($mainCase.guaranteed)}
         function open_case_components_main_index_svelte_create_if_block_2(ctx) {
             let each_1_anchor;
             let current;
@@ -372821,7 +372495,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (478:20) {#each $mainCase.guaranteed as prize, index}
+        // (469:20) {#each $mainCase.guaranteed as prize, index}
         function open_case_components_main_index_svelte_create_each_block_1(ctx) {
             let div;
             let guaranteed;
@@ -372888,7 +372562,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (488:4) {#if prizesInitialized}
+        // (479:4) {#if prizesInitialized}
         function open_case_components_main_index_svelte_create_if_block(ctx) {
             let div2;
             let div0;
@@ -373017,7 +372691,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (493:20) {#if prize.garante === 0 && isNil(prize.hideFooter)}
+        // (484:20) {#if prize.garante === 0 && isNil(prize.hideFooter)}
         function open_case_components_main_index_svelte_create_if_block_1(ctx) {
             let div;
             let prize_1;
@@ -373075,7 +372749,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (492:16) {#each $mainCase.prizes as prize}
+        // (483:16) {#each $mainCase.prizes as prize}
         function open_case_components_main_index_svelte_create_each_block(ctx) {
             let show_if = /*prize*/ ctx[28].garante === 0 && (0, lodash.isNil)( /*prize*/ ctx[28].hideFooter);
             let if_block_anchor;
@@ -373404,7 +373078,6 @@ const getRandomTableNumber = () => {
             };
 
             const createCase = () => {
-                // caseResponseData = $cases.find(item => item.id === $mainInfo.caseId) || caseResponseData;
                 utils_set_store_value(
                     mainCase,
                     $mainCase = {
@@ -373454,7 +373127,7 @@ const getRandomTableNumber = () => {
                 $$invalidate(3, formatter = $mainCase.unix - moment_default()().unix() < index_svelte_daySeconds ?
                     'HH:mm' :
                     'DD.MM.YYYY');
-            }; // $mainCase = $mainCase;
+            };
 
             const getSimilar = () => {
                 lib_axios.get(`${SERVER_API_URL}/client/json/table/get?project=${SERVER_API_PROJECT}&server=${$serverApiServerId}&key=cases_similar`, {
@@ -373475,9 +373148,6 @@ const getRandomTableNumber = () => {
             };
 
             const getCases = () => {
-                // if (!isEmpty(caseResponseData)) {
-                //     createCase();
-                // }
                 lib_axios.get(`${SERVER_API_URL}/client/json/table/get?project=${SERVER_API_PROJECT}&server=${$serverApiServerId}&key=cases`, {
                     headers: {
                         Authorization: `Bearer ${$serverApiToken}`
@@ -373527,7 +373197,7 @@ const getRandomTableNumber = () => {
                             );
 
                             utils_set_store_value(guaranteedProgresses, $guaranteedProgresses = -1, $guaranteedProgresses);
-                        } // $mainCase = $mainCase;
+                        }
                     }
                 }
 
@@ -383982,168 +383652,7 @@ const getRandomTableNumber = () => {
             pizzaDelivery: 'pizzaDelivery',
             postman: 'postman'
         };
-        var MAP_JOB_TO_ICON = (_MAP_JOB_TO_ICON = {}, employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(_MAP_JOB_TO_ICON, Job.mechanic, 'icon-job-mechanic'), Job.cashCollector, 'icon-job-cash-collector'), Job.truckDriver, 'icon-job-truck-driver'), Job.hauler, 'icon-job-hauler'), Job.garbageCollector, 'icon-job-garbage-collector'), Job.foodCourier, 'icon-job-food-courier'), Job.pilot, 'icon-job-pilot'), Job.tramDriver, 'icon-job-tram-driver'), Job.trainDriver, 'icon-job-train-driver'), Job.headFarmer, 'icon-job-head-farmer'), employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(_MAP_JOB_TO_ICON, Job.moversChief, 'icon-job-movers-chief'), Job.plantManager, 'icon-job-plant-manager'), Job.roadWorker, 'icon-job-road-worker'), Job.hotdogSeller, 'icon-job-hotdog-seller'), Job.parkingValet, 'icon-job-parking-valet'), Job.taxi, 'icon-job-taxi'), Job.busDriver, 'icon-job-bus-driver'), Job.oilBarrelDelivery, 'icon-job-oil-barrel-delivery'), Job.offshoreBarrelDelivery, 'icon-job-offshore-barrel-delivery'), Job.fishSales, 'icon-job-fish-sales'), employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(_MAP_JOB_TO_ICON, Job.lifeguard, 'icon-job-lifeguard'), Job.forkliftDriver, 'icon-job-forklift-driver'), Job.pizzaDelivery, 'icon-job-pizza-delivery'), Job.postman, 'icon-job-postman'));; // CONCATENATED MODULE: ./src/views/employment-center/mock.js
-        var EMPLOYMENTS_MOCK = [{
-            "id": 1,
-            "type": 0,
-            "name": "Таксист",
-            "icon": "taxi",
-            "description": 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. \n \n The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-            "minLevel": 115,
-            "avgHourSalary": 10000,
-            "bonusSalary": {
-                "percent": 10,
-                "endUnixTime": 1759521897
-            }
-        }, {
-            "id": 2,
-            "type": 1,
-            "name": "Рыбак",
-            "icon": "fishSales",
-            "description": 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. \n \n The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-            "minLevel": 1,
-            "avgHourSalary": 10000,
-            "bonusSalary": {
-                "percent": 10,
-                "endUnixTime": 1759474200
-            }
-        }, {
-            "id": 4,
-            "type": 1,
-            "name": "пилот гражданской авиации",
-            "icon": "pilot",
-            "description": 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. \n \n The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-            "minLevel": 1,
-            "avgHourSalary": 10000,
-            "bonusSalary": {
-                "percent": 0,
-                "endUnixTime": 1758721897
-            }
-        }, {
-            "id": 3,
-            "type": 0,
-            "name": "Рыбак",
-            "icon": "fishSales",
-            "description": 'Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32. \n \n The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham.',
-            "minLevel": 3,
-            "avgHourSalary": 10000,
-            "bonusSalary": {
-                "percent": 25,
-                "endUnixTime": 0
-            }
-        }];
-        var PLAYER_MOCK = {
-            "playerLevel": 12,
-            "playerJob": 3,
-            "currencyType": 0
-        };
-        var mock_INFO_MOCK = {
-            "buttonBits": 5,
-            "buttonBitsWhite": 1,
-            "hourSalary": 0,
-            "additionalInfo": [{
-                "name": "Бонусы от предметов",
-                "value": 115
-            }],
-            "myBonusesInfo": [{
-                "name": "Шляпа Вин-Пикселя",
-                "value": 100,
-                "valueMax": 0,
-                "image": 1001,
-                "imageType": 3,
-                "isShow": 1,
-                "desc": "Бонус действует для участников гос организаций \n с 10:00 до 20:00."
-            }, {
-                "name": "Скин: Байкер в прошлом (ID: 978)",
-                "value": 4,
-                "valueMax": 0,
-                "image": 8638,
-                "imageType": 0,
-                "isShow": 0,
-                "desc": "Бонус действует для участников гос организаций \n с 10:00 до 20:00."
-            }, {
-                "name": "Volvo FH 12(1001)",
-                "value": 20,
-                "valueMax": 0,
-                "image": 1002,
-                "imageType": 3,
-                "isShow": 0,
-                "desc": "70% если в группе 3 участника\n100% если в группе 4 участника"
-            }, {
-                "name": "Tesla Semi(1003)",
-                "value": 20,
-                "valueMax": 0,
-                "image": 1003,
-                "imageType": 3,
-                "isShow": 0,
-                "desc": "70% если в группе 3 участника\n100% если в группе 4 участника"
-            }, {
-                "name": "Western Star(1004)",
-                "value": 20,
-                "valueMax": 0,
-                "image": 1004,
-                "imageType": 3,
-                "isShow": 0,
-                "desc": "Бонус действует для участников гос организаций \n с 10:00 до 20:00."
-            }, {
-                "name": "Madcar(1028)",
-                "value": 20,
-                "valueMax": 0,
-                "image": 1028,
-                "imageType": 3,
-                "isShow": 1,
-                "desc": "Бонус действует для участников гос организаций \n с 10:00 до 20:00."
-            }, {
-                "name": "Scania Chimera(1163)",
-                "value": 70,
-                "valueMax": 0,
-                "image": 1163,
-                "imageType": 3,
-                "isShow": 1,
-                "desc": "70% если в группе 3 участника\n100% если в группе 4 участника"
-            }, {
-                "name": "Эликсир",
-                "value": 25,
-                "valueMax": 0,
-                "image": 6170,
-                "imageType": 0,
-                "isShow": 1,
-                "desc": ""
-            }, {
-                "name": "Грамота ветерана",
-                "value": 5,
-                "valueMax": 0,
-                "image": 7953,
-                "imageType": 0,
-                "isShow": 0,
-                "desc": ""
-            }, {
-                "name": "Семейный флаг",
-                "value": 0,
-                "valueMax": 0,
-                "image": 1,
-                "imageType": 2,
-                "isShow": 1,
-                "desc": ""
-            }, {
-                "name": "Личная группа",
-                "value": 50,
-                "valueMax": 100,
-                "image": 1,
-                "imageType": 1,
-                "isShow": 0,
-                "desc": "Процент зависит от кол-ва участников в группе."
-            }]
-        };
-        var SELECT_EMPLOYMENT_MOCK = {
-            type: 0,
-            id: 4
-        };; // CONCATENATED MODULE: ./src/views/employment-center/store.js
-
-
-
-
-        var employments = store_writable({});; // CONCATENATED MODULE: ./src/views/employment-center/index.svelte
+        var MAP_JOB_TO_ICON = (_MAP_JOB_TO_ICON = {}, employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(_MAP_JOB_TO_ICON, Job.mechanic, 'icon-job-mechanic'), Job.cashCollector, 'icon-job-cash-collector'), Job.truckDriver, 'icon-job-truck-driver'), Job.hauler, 'icon-job-hauler'), Job.garbageCollector, 'icon-job-garbage-collector'), Job.foodCourier, 'icon-job-food-courier'), Job.pilot, 'icon-job-pilot'), Job.tramDriver, 'icon-job-tram-driver'), Job.trainDriver, 'icon-job-train-driver'), Job.headFarmer, 'icon-job-head-farmer'), employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(_MAP_JOB_TO_ICON, Job.moversChief, 'icon-job-movers-chief'), Job.plantManager, 'icon-job-plant-manager'), Job.roadWorker, 'icon-job-road-worker'), Job.hotdogSeller, 'icon-job-hotdog-seller'), Job.parkingValet, 'icon-job-parking-valet'), Job.taxi, 'icon-job-taxi'), Job.busDriver, 'icon-job-bus-driver'), Job.oilBarrelDelivery, 'icon-job-oil-barrel-delivery'), Job.offshoreBarrelDelivery, 'icon-job-offshore-barrel-delivery'), Job.fishSales, 'icon-job-fish-sales'), employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(employment_center_constants_defineProperty(_MAP_JOB_TO_ICON, Job.lifeguard, 'icon-job-lifeguard'), Job.forkliftDriver, 'icon-job-forklift-driver'), Job.pizzaDelivery, 'icon-job-pizza-delivery'), Job.postman, 'icon-job-postman'));; // CONCATENATED MODULE: ./src/views/employment-center/index.svelte
         /* src\views\employment-center\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -384173,7 +383682,6 @@ const getRandomTableNumber = () => {
 
 
 
-
         function employment_center_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
             child_ctx[38] = list[i];
@@ -384187,14 +383695,14 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (217:1) {:else}
+        // (213:1) {:else}
         function employment_center_index_svelte_create_else_block(ctx) {
             let div5;
             let div3;
             let div0;
-            let show_if_2 = !(0, lodash.isNil)( /*$employments*/ ctx[1][0]);
+            let show_if_2 = !(0, lodash.isNil)( /*employments*/ ctx[0][0]);
             let t0;
-            let show_if_1 = !(0, lodash.isNil)( /*$employments*/ ctx[1][1]);
+            let show_if_1 = !(0, lodash.isNil)( /*employments*/ ctx[0][1]);
             let t1;
             let div2;
             let div1;
@@ -384205,7 +383713,7 @@ const getRandomTableNumber = () => {
             let current;
             let if_block0 = show_if_2 && employment_center_index_svelte_create_if_block_13(ctx);
             let if_block1 = show_if_1 && employment_center_index_svelte_create_if_block_12(ctx);
-            let each_value_1 = each_ensure_array_like( /*$employments*/ ctx[1][ /*selectedEmploymentType*/ ctx[0]]);
+            let each_value_1 = each_ensure_array_like( /*employments*/ ctx[0][ /*selectedEmploymentType*/ ctx[1]]);
             let each_blocks = [];
 
             for (let i = 0; i < each_value_1.length; i += 1) {
@@ -384268,13 +383776,13 @@ const getRandomTableNumber = () => {
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$employments*/ 2) show_if_2 = !(0, lodash.isNil)( /*$employments*/ ctx[1][0]);
+                    if (dirty[0] & /*employments*/ 1) show_if_2 = !(0, lodash.isNil)( /*employments*/ ctx[0][0]);
 
                     if (show_if_2) {
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
 
-                            if (dirty[0] & /*$employments*/ 2) {
+                            if (dirty[0] & /*employments*/ 1) {
                                 transitions_transition_in(if_block0, 1);
                             }
                         } else {
@@ -384293,13 +383801,13 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$employments*/ 2) show_if_1 = !(0, lodash.isNil)( /*$employments*/ ctx[1][1]);
+                    if (dirty[0] & /*employments*/ 1) show_if_1 = !(0, lodash.isNil)( /*employments*/ ctx[0][1]);
 
                     if (show_if_1) {
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
 
-                            if (dirty[0] & /*$employments*/ 2) {
+                            if (dirty[0] & /*employments*/ 1) {
                                 transitions_transition_in(if_block1, 1);
                             }
                         } else {
@@ -384318,8 +383826,8 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*selectedEmployment, $employments, selectedEmploymentType, changeEmployment, playerData*/ 2063) {
-                        each_value_1 = each_ensure_array_like( /*$employments*/ ctx[1][ /*selectedEmploymentType*/ ctx[0]]);
+                    if (dirty[0] & /*selectedEmployment, employments, selectedEmploymentType, changeEmployment, playerData*/ 2063) {
+                        each_value_1 = each_ensure_array_like( /*employments*/ ctx[0][ /*selectedEmploymentType*/ ctx[1]]);
                         let i;
 
                         for (i = 0; i < each_value_1.length; i += 1) {
@@ -384418,7 +383926,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (213:1) {#if isEmpty($employments)}
+        // (209:1) {#if isEmpty(employments)}
         function employment_center_index_svelte_create_if_block(ctx) {
             let div;
             let loader;
@@ -384460,7 +383968,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (222:5) {#if !isNil($employments[0])}
+        // (218:5) {#if !isNil(employments[0])}
         function employment_center_index_svelte_create_if_block_13(ctx) {
             let div;
             let button;
@@ -384470,7 +383978,7 @@ const getRandomTableNumber = () => {
                 props: {
                     text: 'работы',
                     onClick: /*func*/ ctx[18],
-                    active: /*selectedEmploymentType*/ ctx[0] === 0
+                    active: /*selectedEmploymentType*/ ctx[1] === 0
                 }
             });
 
@@ -384487,7 +383995,7 @@ const getRandomTableNumber = () => {
                 },
                 p(ctx, dirty) {
                     const button_changes = {};
-                    if (dirty[0] & /*selectedEmploymentType*/ 1) button_changes.active = /*selectedEmploymentType*/ ctx[0] === 0;
+                    if (dirty[0] & /*selectedEmploymentType*/ 2) button_changes.active = /*selectedEmploymentType*/ ctx[1] === 0;
                     button.$set(button_changes);
                 },
                 i(local) {
@@ -384509,7 +384017,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (231:5) {#if !isNil($employments[1])}
+        // (227:5) {#if !isNil(employments[1])}
         function employment_center_index_svelte_create_if_block_12(ctx) {
             let div;
             let button;
@@ -384519,7 +384027,7 @@ const getRandomTableNumber = () => {
                 props: {
                     text: 'подработки',
                     onClick: /*func_1*/ ctx[19],
-                    active: /*selectedEmploymentType*/ ctx[0] === 1
+                    active: /*selectedEmploymentType*/ ctx[1] === 1
                 }
             });
 
@@ -384536,7 +384044,7 @@ const getRandomTableNumber = () => {
                 },
                 p(ctx, dirty) {
                     const button_changes = {};
-                    if (dirty[0] & /*selectedEmploymentType*/ 1) button_changes.active = /*selectedEmploymentType*/ ctx[0] === 1;
+                    if (dirty[0] & /*selectedEmploymentType*/ 2) button_changes.active = /*selectedEmploymentType*/ ctx[1] === 1;
                     button.$set(button_changes);
                 },
                 i(local) {
@@ -384558,7 +384066,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (263:10) {#if item.bonusSalary.percent > 0}
+        // (259:10) {#if item.bonusSalary.percent > 0}
         function employment_center_index_svelte_create_if_block_11(ctx) {
             let div;
             let t_value = `+${/*item*/ ctx[41].bonusSalary.percent}%` + "";
@@ -384575,7 +384083,7 @@ const getRandomTableNumber = () => {
                     dom_append(div, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$employments, selectedEmploymentType*/ 3 && t_value !== (t_value = `+${/*item*/ ctx[41].bonusSalary.percent}%` + "")) dom_set_data(t, t_value);
+                    if (dirty[0] & /*employments, selectedEmploymentType*/ 3 && t_value !== (t_value = `+${/*item*/ ctx[41].bonusSalary.percent}%` + "")) dom_set_data(t, t_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -384585,7 +384093,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (268:10) {#if playerData.playerJob === item.id}
+        // (264:10) {#if playerData.playerJob === item.id}
         function employment_center_index_svelte_create_if_block_10(ctx) {
             let div;
 
@@ -384606,7 +384114,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (243:6) {#each $employments[selectedEmploymentType] as item}
+        // (239:6) {#each employments[selectedEmploymentType] as item}
         function employment_center_index_svelte_create_each_block_1(ctx) {
             let div5;
             let div0;
@@ -384692,17 +384200,17 @@ const getRandomTableNumber = () => {
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if (dirty[0] & /*$employments, selectedEmploymentType*/ 3 && i_class_value !== (i_class_value = "employment-center__employment-icon " + MAP_JOB_TO_ICON[ /*item*/ ctx[41].icon])) {
+                    if (dirty[0] & /*employments, selectedEmploymentType*/ 3 && i_class_value !== (i_class_value = "employment-center__employment-icon " + MAP_JOB_TO_ICON[ /*item*/ ctx[41].icon])) {
                         dom_attr(i, "class", i_class_value);
                     }
 
-                    if (dirty[0] & /*$employments, selectedEmploymentType*/ 3 && t1_value !== (t1_value = /*item*/ ctx[41].name + "")) dom_set_data(t1, t1_value);
+                    if (dirty[0] & /*employments, selectedEmploymentType*/ 3 && t1_value !== (t1_value = /*item*/ ctx[41].name + "")) dom_set_data(t1, t1_value);
 
-                    if (dirty[0] & /*$employments, selectedEmploymentType, playerData*/ 7 && t3_value !== (t3_value = `${/*item*/ ctx[41].minLevel > /*playerData*/ ctx[2].playerLevel
+                    if (dirty[0] & /*employments, selectedEmploymentType, playerData*/ 7 && t3_value !== (t3_value = `${/*item*/ ctx[41].minLevel > /*playerData*/ ctx[2].playerLevel
 			? 'необходим'
 			: ''} ${/*item*/ ctx[41].minLevel} Уровень` + "")) dom_set_data(t3, t3_value);
 
-                    if (dirty[0] & /*$employments, selectedEmploymentType, playerData*/ 7) {
+                    if (dirty[0] & /*employments, selectedEmploymentType, playerData*/ 7) {
                         dom_toggle_class(div2, "employment-center__employment-badge--red", /*item*/ ctx[41].minLevel > /*playerData*/ ctx[2].playerLevel);
                     }
 
@@ -384732,7 +384240,7 @@ const getRandomTableNumber = () => {
                         if_block1 = null;
                     }
 
-                    if (dirty[0] & /*selectedEmployment, $employments, selectedEmploymentType*/ 11) {
+                    if (dirty[0] & /*selectedEmployment, employments, selectedEmploymentType*/ 11) {
                         dom_toggle_class(div5, "employment-center__employment--active", /*selectedEmployment*/ ctx[3].id === /*item*/ ctx[41].id);
                     }
                 },
@@ -384749,7 +384257,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (281:4) {#if !isEmpty(selectedEmployment) && !isEmpty(playerData) && !isEmpty(info)}
+        // (277:4) {#if !isEmpty(selectedEmployment) && !isEmpty(playerData) && !isEmpty(info)}
         function employment_center_index_svelte_create_if_block_2(ctx) {
             let div17;
             let div0;
@@ -385097,7 +384605,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (292:7) {#if selectedEmployment.bonusSalary.percent > 0}
+        // (288:7) {#if selectedEmployment.bonusSalary.percent > 0}
         function employment_center_index_svelte_create_if_block_8(ctx) {
             let div1;
             let div0;
@@ -385154,7 +384662,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (300:9) {#if selectedEmployment.bonusSalary.endUnixTime > 0}
+        // (296:9) {#if selectedEmployment.bonusSalary.endUnixTime > 0}
         function employment_center_index_svelte_create_if_block_9(ctx) {
             let div1;
             let i;
@@ -385191,7 +384699,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (331:10) {#if tooltipVisible}
+        // (327:10) {#if tooltipVisible}
         function employment_center_index_svelte_create_if_block_7(ctx) {
             let div;
             let tooltip;
@@ -385240,7 +384748,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (349:10) {:else}
+        // (345:10) {:else}
         function employment_center_index_svelte_create_else_block_1(ctx) {
             let div;
             let t_value = `+${/*summaryBonus*/ ctx[9]}%` + "";
@@ -385272,7 +384780,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (345:10) {#if isEmpty(info.myBonusesInfo)}
+        // (341:10) {#if isEmpty(info.myBonusesInfo)}
         function employment_center_index_svelte_create_if_block_6(ctx) {
             let div;
 
@@ -385294,7 +384802,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (354:10) {#if !isEmpty(info.myBonusesInfo)}
+        // (350:10) {#if !isEmpty(info.myBonusesInfo)}
         function employment_center_index_svelte_create_if_block_5(ctx) {
             let div;
             let button;
@@ -385339,7 +384847,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (376:7) {#if info.buttonBits > 0}
+        // (372:7) {#if info.buttonBits > 0}
         function employment_center_index_svelte_create_if_block_3(ctx) {
             let div;
             let current;
@@ -385431,7 +384939,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (379:10) {#if bit & info.buttonBits}
+        // (375:10) {#if bit & info.buttonBits}
         function employment_center_index_svelte_create_if_block_4(ctx) {
             let div;
             let button;
@@ -385490,7 +384998,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (378:9) {#each Object.values(ButtonsBit) as bit, index}
+        // (374:9) {#each Object.values(ButtonsBit) as bit, index}
         function employment_center_index_svelte_create_each_block(ctx) {
             let if_block_anchor;
             let current;
@@ -385549,7 +385057,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (397:3) {#if modalVisible}
+        // (393:3) {#if modalVisible}
         function employment_center_index_svelte_create_if_block_1(ctx) {
             let div;
             let modal;
@@ -385617,8 +385125,8 @@ const getRandomTableNumber = () => {
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
-                if (dirty[0] & /*$employments*/ 2) show_if = null;
-                if (show_if == null) show_if = !!(0, lodash.isEmpty)( /*$employments*/ ctx[1]);
+                if (dirty[0] & /*employments*/ 1) show_if = null;
+                if (show_if == null) show_if = !!(0, lodash.isEmpty)( /*employments*/ ctx[0]);
                 if (show_if) return 0;
                 return 1;
             }
@@ -385708,12 +385216,11 @@ const getRandomTableNumber = () => {
         }
 
         function employment_center_index_svelte_instance($$self, $$props, $$invalidate) {
-            let $employments;
             let $serverApiToken;
             let $serverApiServerId;
-            utils_component_subscribe($$self, employments, $$value => $$invalidate(1, $employments = $$value));
             utils_component_subscribe($$self, serverApiToken, $$value => $$invalidate(27, $serverApiToken = $$value));
             utils_component_subscribe($$self, serverApiServerId, $$value => $$invalidate(28, $serverApiServerId = $$value));
+            let employments = {};
             let playerData = {};
             let selectedEmploymentType = 0;
             let selectedEmployment = {};
@@ -385744,11 +385251,11 @@ const getRandomTableNumber = () => {
             };
 
             const selectEmploymentType = typeId => {
-                if ((0, lodash.isEmpty)($employments)) {
+                if ((0, lodash.isEmpty)(employments)) {
                     return;
                 }
 
-                $$invalidate(0, selectedEmploymentType = typeId);
+                $$invalidate(1, selectedEmploymentType = typeId);
             };
 
             const changeEmployment = employment => {
@@ -385776,17 +385283,13 @@ const getRandomTableNumber = () => {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
                 }).then(response => {
-                    const updatedEmployments = {};
-
                     response.data.forEach(item => {
-                        if ((0, lodash.isNil)(updatedEmployments[item.type])) {
-                            updatedEmployments[item.type] = [];
+                        if ((0, lodash.isNil)(employments[item.type])) {
+                            $$invalidate(0, employments[item.type] = [], employments);
                         }
 
-                        updatedEmployments[item.type] = [...updatedEmployments[item.type] || [], item];
+                        $$invalidate(0, employments[item.type] = [...employments[item.type], item], employments);
                     });
-
-                    utils_set_store_value(employments, $employments = updatedEmployments, $employments);
                 }).catch(error => {
                     console.log('getEmployments error', JSON.stringify(error));
                 });
@@ -385897,13 +385400,13 @@ const getRandomTableNumber = () => {
             const func_2 = bit => buttonHandler(bit);
 
             $$self.$$.update = () => {
-                if ($$self.$$.dirty[0] & /*$employments, forceSelectingData, selectedEmploymentType*/ 131075) {
+                if ($$self.$$.dirty[0] & /*employments, forceSelectingData, selectedEmploymentType*/ 131075) {
                     $: {
-                        if (!(0, lodash.isEmpty)($employments) && !(0, lodash.isEmpty)(forceSelectingData)) {
+                        if (!(0, lodash.isEmpty)(employments) && !(0, lodash.isEmpty)(forceSelectingData)) {
                             selectEmploymentType(forceSelectingData.type);
 
                             if (forceSelectingData.id >= 0) {
-                                const employment = $employments[selectedEmploymentType].find(findItem => findItem.id === forceSelectingData.id);
+                                const employment = employments[selectedEmploymentType].find(findItem => findItem.id === forceSelectingData.id);
                                 changeEmployment(employment);
                             }
 
@@ -385914,8 +385417,8 @@ const getRandomTableNumber = () => {
             };
 
             return [
+                employments,
                 selectedEmploymentType,
-                $employments,
                 playerData,
                 selectedEmployment,
                 info,
@@ -392260,7 +391763,6 @@ setTimeout(() => {
 
 
 
-
         // import BattleRoyaleZoneWarning from './views/battle-royale/zone-warning/index.svelte';
         // import BattleRoyaleRedEffect from './views/battle-royale/red-effect/index.svelte';
 
@@ -392366,7 +391868,7 @@ setTimeout(() => {
             };
         }
 
-        // (341:0) {#if arizonaHudVisible}
+        // (336:0) {#if arizonaHudVisible}
         function App_svelte_create_if_block_12(ctx) {
             let arizonahud;
             let current;
@@ -392395,7 +391897,7 @@ setTimeout(() => {
             };
         }
 
-        // (345:0) {#if hudVisible}
+        // (340:0) {#if hudVisible}
         function App_svelte_create_if_block_11(ctx) {
             let hud;
             let current;
@@ -392424,7 +391926,7 @@ setTimeout(() => {
             };
         }
 
-        // (348:0) {#if radioVisible}
+        // (343:0) {#if radioVisible}
         function App_svelte_create_if_block_10(ctx) {
             let radio;
             let current;
@@ -392453,7 +391955,7 @@ setTimeout(() => {
             };
         }
 
-        // (352:0) {#if battleroyaleHudVisible}
+        // (347:0) {#if battleroyaleHudVisible}
         function App_svelte_create_if_block_9(ctx) {
             let battleroyalehud;
             let current;
@@ -392482,7 +391984,7 @@ setTimeout(() => {
             };
         }
 
-        // (356:0) {#if $battleroyaleMapVisible}
+        // (351:0) {#if $battleroyaleMapVisible}
         function App_svelte_create_if_block_8(ctx) {
             let battleroyalemap;
             let current;
@@ -392511,7 +392013,7 @@ setTimeout(() => {
             };
         }
 
-        // (359:0) {#if horizontalPhoneVisible}
+        // (354:0) {#if horizontalPhoneVisible}
         function App_svelte_create_if_block_7(ctx) {
             let horizontalphone;
             let current;
@@ -392540,7 +392042,7 @@ setTimeout(() => {
             };
         }
 
-        // (363:0) {#if phoneVisible}
+        // (358:0) {#if phoneVisible}
         function App_svelte_create_if_block_6(ctx) {
             let phone;
             let current;
@@ -392569,7 +392071,7 @@ setTimeout(() => {
             };
         }
 
-        // (367:0) {#if $videoBackgroundVisible}
+        // (362:0) {#if $videoBackgroundVisible}
         function App_svelte_create_if_block_5(ctx) {
             let videobackground;
             let current;
@@ -392598,7 +392100,7 @@ setTimeout(() => {
             };
         }
 
-        // (373:2) {#if !isNil(views[$selectedView])}
+        // (366:0) {#if !isNil(views[$selectedView])}
         function App_svelte_create_if_block_4(ctx) {
             let switch_instance;
             let switch_instance_anchor;
@@ -392667,95 +392169,7 @@ setTimeout(() => {
             };
         }
 
-        // (371:0) {#key $selectedView}
-        function App_svelte_create_key_block(ctx) {
-            let div;
-            let show_if = !(0, lodash.isNil)( /*views*/ ctx[14][ /*$selectedView*/ ctx[13]]);
-            let div_intro;
-            let div_outro;
-            let current;
-            let if_block = show_if && App_svelte_create_if_block_4(ctx);
-
-            return {
-                c() {
-                    div = dom_element("div");
-                    if (if_block) if_block.c();
-                    set_style(div, "width", "100vw");
-                    set_style(div, "height", "100vh");
-                    set_style(div, "position", "fixed");
-                },
-                m(target, anchor) {
-                    dom_insert(target, div, anchor);
-                    if (if_block) if_block.m(div, null);
-                    current = true;
-                },
-                p(ctx, dirty) {
-                    if (dirty[0] & /*$selectedView*/ 8192) show_if = !(0, lodash.isNil)( /*views*/ ctx[14][ /*$selectedView*/ ctx[13]]);
-
-                    if (show_if) {
-                        if (if_block) {
-                            if_block.p(ctx, dirty);
-
-                            if (dirty[0] & /*$selectedView*/ 8192) {
-                                transitions_transition_in(if_block, 1);
-                            }
-                        } else {
-                            if_block = App_svelte_create_if_block_4(ctx);
-                            if_block.c();
-                            transitions_transition_in(if_block, 1);
-                            if_block.m(div, null);
-                        }
-                    } else if (if_block) {
-                        transitions_group_outros();
-
-                        transitions_transition_out(if_block, 1, 1, () => {
-                            if_block = null;
-                        });
-
-                        transitions_check_outros();
-                    }
-                },
-                i(local) {
-                    if (current) return;
-                    transitions_transition_in(if_block);
-
-                    if (local) {
-                        add_render_callback(() => {
-                            if (!current) return;
-                            if (div_outro) div_outro.end(1);
-                            div_intro = create_in_transition(div, fade, {
-                                duration: 200
-                            });
-                            div_intro.start();
-                        });
-                    }
-
-                    current = true;
-                },
-                o(local) {
-                    transitions_transition_out(if_block);
-                    if (div_intro) div_intro.invalidate();
-
-                    if (local) {
-                        div_outro = create_out_transition(div, fade, {
-                            duration: 150
-                        });
-                    }
-
-                    current = false;
-                },
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(div);
-                    }
-
-                    if (if_block) if_block.d();
-                    if (detaching && div_outro) div_outro.end();
-                }
-            };
-        }
-
-        // (379:0) {#if actionProgressBarVisible}
+        // (370:0) {#if actionProgressBarVisible}
         function App_svelte_create_if_block_3(ctx) {
             let actionprogressbar;
             let current;
@@ -392784,7 +392198,7 @@ setTimeout(() => {
             };
         }
 
-        // (383:0) {#if clickerVisible}
+        // (374:0) {#if clickerVisible}
         function App_svelte_create_if_block_2(ctx) {
             let clicker;
             let current;
@@ -392813,7 +392227,7 @@ setTimeout(() => {
             };
         }
 
-        // (387:0) {#if countdownVisible}
+        // (378:0) {#if countdownVisible}
         function App_svelte_create_if_block_1(ctx) {
             let countdown;
             let current;
@@ -392842,7 +392256,7 @@ setTimeout(() => {
             };
         }
 
-        // (391:0) {#if arizonaHudNewYearVisible}
+        // (382:0) {#if arizonaHudNewYearVisible}
         function App_svelte_create_if_block(ctx) {
             let arizonahudnewyear;
             let current;
@@ -392881,7 +392295,7 @@ setTimeout(() => {
             let t6;
             let t7;
             let t8;
-            let previous_key = /*$selectedView*/ ctx[13];
+            let show_if = !(0, lodash.isNil)( /*views*/ ctx[14][ /*$selectedView*/ ctx[13]]);
             let t9;
             let t10;
             let t11;
@@ -392904,11 +392318,11 @@ setTimeout(() => {
             let if_block6 = /*horizontalPhoneVisible*/ ctx[6] && App_svelte_create_if_block_7(ctx);
             let if_block7 = /*phoneVisible*/ ctx[5] && App_svelte_create_if_block_6(ctx);
             let if_block8 = /*$videoBackgroundVisible*/ ctx[11] && App_svelte_create_if_block_5(ctx);
-            let key_block = App_svelte_create_key_block(ctx);
-            let if_block9 = /*actionProgressBarVisible*/ ctx[3] && App_svelte_create_if_block_3(ctx);
-            let if_block10 = /*clickerVisible*/ ctx[7] && App_svelte_create_if_block_2(ctx);
-            let if_block11 = /*countdownVisible*/ ctx[9] && App_svelte_create_if_block_1(ctx);
-            let if_block12 = /*arizonaHudNewYearVisible*/ ctx[8] && App_svelte_create_if_block(ctx);
+            let if_block9 = show_if && App_svelte_create_if_block_4(ctx);
+            let if_block10 = /*actionProgressBarVisible*/ ctx[3] && App_svelte_create_if_block_3(ctx);
+            let if_block11 = /*clickerVisible*/ ctx[7] && App_svelte_create_if_block_2(ctx);
+            let if_block12 = /*countdownVisible*/ ctx[9] && App_svelte_create_if_block_1(ctx);
+            let if_block13 = /*arizonaHudNewYearVisible*/ ctx[8] && App_svelte_create_if_block(ctx);
             syncpacketslog = new sync_packets_log_index_svelte({});
             portalscontainer = new container_svelte({});
             modalsroot = new modals_root_index_svelte({});
@@ -392934,15 +392348,15 @@ setTimeout(() => {
                     t7 = dom_space();
                     if (if_block8) if_block8.c();
                     t8 = dom_space();
-                    key_block.c();
-                    t9 = dom_space();
                     if (if_block9) if_block9.c();
-                    t10 = dom_space();
+                    t9 = dom_space();
                     if (if_block10) if_block10.c();
-                    t11 = dom_space();
+                    t10 = dom_space();
                     if (if_block11) if_block11.c();
-                    t12 = dom_space();
+                    t11 = dom_space();
                     if (if_block12) if_block12.c();
+                    t12 = dom_space();
+                    if (if_block13) if_block13.c();
                     t13 = dom_space();
                     create_component(syncpacketslog.$$.fragment);
                     t14 = dom_space();
@@ -392971,15 +392385,15 @@ setTimeout(() => {
                     dom_insert(target, t7, anchor);
                     if (if_block8) if_block8.m(target, anchor);
                     dom_insert(target, t8, anchor);
-                    key_block.m(target, anchor);
-                    dom_insert(target, t9, anchor);
                     if (if_block9) if_block9.m(target, anchor);
-                    dom_insert(target, t10, anchor);
+                    dom_insert(target, t9, anchor);
                     if (if_block10) if_block10.m(target, anchor);
-                    dom_insert(target, t11, anchor);
+                    dom_insert(target, t10, anchor);
                     if (if_block11) if_block11.m(target, anchor);
-                    dom_insert(target, t12, anchor);
+                    dom_insert(target, t11, anchor);
                     if (if_block12) if_block12.m(target, anchor);
+                    dom_insert(target, t12, anchor);
+                    if (if_block13) if_block13.m(target, anchor);
                     dom_insert(target, t13, anchor);
                     mount_component(syncpacketslog, target, anchor);
                     dom_insert(target, t14, anchor);
@@ -393180,28 +392594,20 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if (dirty[0] & /*$selectedView*/ 8192 && utils_safe_not_equal(previous_key, previous_key = /*$selectedView*/ ctx[13])) {
-                        transitions_group_outros();
-                        transitions_transition_out(key_block, 1, 1, utils_noop);
-                        transitions_check_outros();
-                        key_block = App_svelte_create_key_block(ctx);
-                        key_block.c();
-                        transitions_transition_in(key_block, 1);
-                        key_block.m(t9.parentNode, t9);
-                    } else {
-                        key_block.p(ctx, dirty);
-                    }
+                    if (dirty[0] & /*$selectedView*/ 8192) show_if = !(0, lodash.isNil)( /*views*/ ctx[14][ /*$selectedView*/ ctx[13]]);
 
-                    if ( /*actionProgressBarVisible*/ ctx[3]) {
+                    if (show_if) {
                         if (if_block9) {
-                            if (dirty[0] & /*actionProgressBarVisible*/ 8) {
+                            if_block9.p(ctx, dirty);
+
+                            if (dirty[0] & /*$selectedView*/ 8192) {
                                 transitions_transition_in(if_block9, 1);
                             }
                         } else {
-                            if_block9 = App_svelte_create_if_block_3(ctx);
+                            if_block9 = App_svelte_create_if_block_4(ctx);
                             if_block9.c();
                             transitions_transition_in(if_block9, 1);
-                            if_block9.m(t10.parentNode, t10);
+                            if_block9.m(t9.parentNode, t9);
                         }
                     } else if (if_block9) {
                         transitions_group_outros();
@@ -393213,16 +392619,16 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if ( /*clickerVisible*/ ctx[7]) {
+                    if ( /*actionProgressBarVisible*/ ctx[3]) {
                         if (if_block10) {
-                            if (dirty[0] & /*clickerVisible*/ 128) {
+                            if (dirty[0] & /*actionProgressBarVisible*/ 8) {
                                 transitions_transition_in(if_block10, 1);
                             }
                         } else {
-                            if_block10 = App_svelte_create_if_block_2(ctx);
+                            if_block10 = App_svelte_create_if_block_3(ctx);
                             if_block10.c();
                             transitions_transition_in(if_block10, 1);
-                            if_block10.m(t11.parentNode, t11);
+                            if_block10.m(t10.parentNode, t10);
                         }
                     } else if (if_block10) {
                         transitions_group_outros();
@@ -393234,16 +392640,16 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if ( /*countdownVisible*/ ctx[9]) {
+                    if ( /*clickerVisible*/ ctx[7]) {
                         if (if_block11) {
-                            if (dirty[0] & /*countdownVisible*/ 512) {
+                            if (dirty[0] & /*clickerVisible*/ 128) {
                                 transitions_transition_in(if_block11, 1);
                             }
                         } else {
-                            if_block11 = App_svelte_create_if_block_1(ctx);
+                            if_block11 = App_svelte_create_if_block_2(ctx);
                             if_block11.c();
                             transitions_transition_in(if_block11, 1);
-                            if_block11.m(t12.parentNode, t12);
+                            if_block11.m(t11.parentNode, t11);
                         }
                     } else if (if_block11) {
                         transitions_group_outros();
@@ -393255,22 +392661,43 @@ setTimeout(() => {
                         transitions_check_outros();
                     }
 
-                    if ( /*arizonaHudNewYearVisible*/ ctx[8]) {
+                    if ( /*countdownVisible*/ ctx[9]) {
                         if (if_block12) {
-                            if (dirty[0] & /*arizonaHudNewYearVisible*/ 256) {
+                            if (dirty[0] & /*countdownVisible*/ 512) {
                                 transitions_transition_in(if_block12, 1);
                             }
                         } else {
-                            if_block12 = App_svelte_create_if_block(ctx);
+                            if_block12 = App_svelte_create_if_block_1(ctx);
                             if_block12.c();
                             transitions_transition_in(if_block12, 1);
-                            if_block12.m(t13.parentNode, t13);
+                            if_block12.m(t12.parentNode, t12);
                         }
                     } else if (if_block12) {
                         transitions_group_outros();
 
                         transitions_transition_out(if_block12, 1, 1, () => {
                             if_block12 = null;
+                        });
+
+                        transitions_check_outros();
+                    }
+
+                    if ( /*arizonaHudNewYearVisible*/ ctx[8]) {
+                        if (if_block13) {
+                            if (dirty[0] & /*arizonaHudNewYearVisible*/ 256) {
+                                transitions_transition_in(if_block13, 1);
+                            }
+                        } else {
+                            if_block13 = App_svelte_create_if_block(ctx);
+                            if_block13.c();
+                            transitions_transition_in(if_block13, 1);
+                            if_block13.m(t13.parentNode, t13);
+                        }
+                    } else if (if_block13) {
+                        transitions_group_outros();
+
+                        transitions_transition_out(if_block13, 1, 1, () => {
+                            if_block13 = null;
                         });
 
                         transitions_check_outros();
@@ -393287,11 +392714,11 @@ setTimeout(() => {
                     transitions_transition_in(if_block6);
                     transitions_transition_in(if_block7);
                     transitions_transition_in(if_block8);
-                    transitions_transition_in(key_block);
                     transitions_transition_in(if_block9);
                     transitions_transition_in(if_block10);
                     transitions_transition_in(if_block11);
                     transitions_transition_in(if_block12);
+                    transitions_transition_in(if_block13);
                     transitions_transition_in(syncpacketslog.$$.fragment, local);
                     transitions_transition_in(portalscontainer.$$.fragment, local);
                     transitions_transition_in(modalsroot.$$.fragment, local);
@@ -393308,11 +392735,11 @@ setTimeout(() => {
                     transitions_transition_out(if_block6);
                     transitions_transition_out(if_block7);
                     transitions_transition_out(if_block8);
-                    transitions_transition_out(key_block);
                     transitions_transition_out(if_block9);
                     transitions_transition_out(if_block10);
                     transitions_transition_out(if_block11);
                     transitions_transition_out(if_block12);
+                    transitions_transition_out(if_block13);
                     transitions_transition_out(syncpacketslog.$$.fragment, local);
                     transitions_transition_out(portalscontainer.$$.fragment, local);
                     transitions_transition_out(modalsroot.$$.fragment, local);
@@ -393349,11 +392776,11 @@ setTimeout(() => {
                     if (if_block6) if_block6.d(detaching);
                     if (if_block7) if_block7.d(detaching);
                     if (if_block8) if_block8.d(detaching);
-                    key_block.d(detaching);
                     if (if_block9) if_block9.d(detaching);
                     if (if_block10) if_block10.d(detaching);
                     if (if_block11) if_block11.d(detaching);
                     if (if_block12) if_block12.d(detaching);
+                    if (if_block13) if_block13.d(detaching);
                     destroy_component(syncpacketslog, detaching);
                     destroy_component(portalscontainer, detaching);
                     destroy_component(modalsroot, detaching);
@@ -393532,10 +392959,6 @@ setTimeout(() => {
 
             onMount(async () => {
                 if (window.cef) {
-                    if (window.cef.HideSplash) {
-                        window.cef.HideSplash();
-                    }
-
                     window.cef.onMyId = id => {
                         utils_set_store_value(browserId, $browserId = id, $browserId);
                     };
@@ -393602,7 +393025,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "00190c14");
+                    console.log(`[debug] app init`, "1021", "216ca36c");
                 }
             });
 
@@ -393670,7 +393093,7 @@ setTimeout(() => {
         const src = (( /* unused pure expression or super */ null && (app)));
         window.executeEvent = executeEvent;
         cef_sendClientMessage('onSvelteAppInit');
-        cef_sendClientMessage('onSvelteAppVersion', "1021", "00190c14");
+        cef_sendClientMessage('onSvelteAppVersion', "1021", "216ca36c");
     })();
 
     /******/
