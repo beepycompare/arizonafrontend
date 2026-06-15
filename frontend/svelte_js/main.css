@@ -49768,6 +49768,12 @@ body {
     }
 }
 
+@media(min-width:3840px)and (max-height:1080px) {
+    body {
+        --global-scale: .5
+    }
+}
+
 body,
 html {
     height: 100vh !important;
