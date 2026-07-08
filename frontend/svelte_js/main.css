@@ -11942,10 +11942,6 @@
     transform: translateY(5%)
 }
 
-.hotkeys-tips__tip-button--battlepass-animated {
-    animation: battlepassPulse 1.5s ease-in-out infinite
-}
-
 .hotkeys-tips__tip-button--radial {
     background-color: #ffbf00;
     color: hsla(0, 0%, 7%, .8);
@@ -32003,7 +31999,7 @@
 .inventory-item-hoc--dragged {
     pointer-events: none;
     position: fixed;
-    z-index: 1
+    z-index: 10001
 }
 
 .inventory-item-hoc--hidden {
@@ -32274,6 +32270,7 @@
 .inventory-item__activity-icon {
     color: #fff;
     font-size: max(calc((var(--global-scale)*14*var(--global-scale) - var(--global-scale)*14*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*14*var(--global-scale)*0.44 - (var(--global-scale)*14*var(--global-scale) - var(--global-scale)*14*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
+    pointer-events: none;
     position: absolute;
     right: max(calc((var(--global-scale)*8*var(--global-scale) - var(--global-scale)*8*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*8*var(--global-scale)*0.44 - (var(--global-scale)*8*var(--global-scale) - var(--global-scale)*8*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     text-shadow: 2px 2px 3px #111, 2px 2px 4px #111;
@@ -32309,6 +32306,7 @@
     color: #fff;
     font-family: HeadingNowRegular;
     font-size: max(calc((var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*10*var(--global-scale)*0.44 - (var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
+    pointer-events: none;
     position: absolute;
     right: max(calc((var(--global-scale)*8*var(--global-scale) - var(--global-scale)*8*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*8*var(--global-scale)*0.44 - (var(--global-scale)*8*var(--global-scale) - var(--global-scale)*8*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     text-shadow: 2px 2px 3px #111, 2px 2px 4px #111
@@ -32328,6 +32326,7 @@
     flex-direction: column;
     height: 100%;
     justify-content: center;
+    pointer-events: none;
     width: 100%
 }
 
@@ -32356,6 +32355,7 @@
     display: flex;
     height: max(calc((var(--global-scale)*22*var(--global-scale) - var(--global-scale)*22*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*22*var(--global-scale)*0.44 - (var(--global-scale)*22*var(--global-scale) - var(--global-scale)*22*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     justify-content: center;
+    pointer-events: none;
     position: absolute;
     right: 0;
     width: max(calc((var(--global-scale)*22*var(--global-scale) - var(--global-scale)*22*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*22*var(--global-scale)*0.44 - (var(--global-scale)*22*var(--global-scale) - var(--global-scale)*22*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px)
@@ -32366,6 +32366,7 @@
     border-radius: max(calc((var(--global-scale)*2*var(--global-scale) - var(--global-scale)*2*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*2*var(--global-scale)*0.44 - (var(--global-scale)*2*var(--global-scale) - var(--global-scale)*2*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     height: max(calc((var(--global-scale)*12*var(--global-scale) - var(--global-scale)*12*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*12*var(--global-scale)*0.44 - (var(--global-scale)*12*var(--global-scale) - var(--global-scale)*12*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     left: max(calc((var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*10*var(--global-scale)*0.44 - (var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
+    pointer-events: none;
     position: absolute;
     top: max(calc((var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*10*var(--global-scale)*0.44 - (var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     width: max(calc((var(--global-scale)*12*var(--global-scale) - var(--global-scale)*12*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*12*var(--global-scale)*0.44 - (var(--global-scale)*12*var(--global-scale) - var(--global-scale)*12*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px)
@@ -32386,7 +32387,8 @@
     position: absolute;
     top: 0;
     transform: translateX(-50%) translateY(100%);
-    white-space: pre
+    white-space: pre;
+    z-index: 10001
 }
 
 .inventory-item__tooltip-background {
@@ -32417,6 +32419,20 @@
     position: absolute;
     top: 0;
     transform: translateX(-50%) translateY(-70%)
+}
+
+.inventory-item--anim-hidden {
+    --bg: radial-gradient(circle, hsla(0, 0%, 100%, .1) 2%, #131516 66%)
+}
+
+.inventory-item--anim-hidden .inventory-item__activity-icon,
+.inventory-item--anim-hidden .inventory-item__amount,
+.inventory-item--anim-hidden .inventory-item__animated-background,
+.inventory-item--anim-hidden .inventory-item__background,
+.inventory-item--anim-hidden .inventory-item__color,
+.inventory-item--anim-hidden .inventory-item__gradient,
+.inventory-item--anim-hidden .inventory-item__image {
+    opacity: 0 !important
 }
 
 .inventory-grid__grid {
@@ -35081,6 +35097,32 @@
     font-size: max(calc((var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*10*var(--global-scale)*0.44 - (var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     height: max(calc((var(--global-scale)*14*var(--global-scale) - var(--global-scale)*14*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*14*var(--global-scale)*0.44 - (var(--global-scale)*14*var(--global-scale) - var(--global-scale)*14*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     width: max(calc((var(--global-scale)*14*var(--global-scale) - var(--global-scale)*14*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*14*var(--global-scale)*0.44 - (var(--global-scale)*14*var(--global-scale) - var(--global-scale)*14*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px)
+}
+
+.move-anim-clip {
+    overflow: hidden;
+    pointer-events: none;
+    position: fixed;
+    z-index: 9999
+}
+
+.move-anim-clip--top {
+    z-index: 10000
+}
+
+.move-anim-ghost {
+    pointer-events: none;
+    position: absolute
+}
+
+.move-anim-ghost,
+.move-anim-ghost--fast {
+    transition: transform .15s linear
+}
+
+.inventory-item--anim-ghost {
+    height: 100%;
+    width: 100%
 }
 
 .inventory {
