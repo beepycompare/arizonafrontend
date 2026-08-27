@@ -26071,7 +26071,7 @@
 
 .sign-in-form__checkbox:checked {
     background-color: #ff2323;
-    background-image: url(assets/6234cdace9224ecaaa66.svg);
+    background-image: url(assets/351bec28e96e019a0926.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: contain
@@ -30337,7 +30337,7 @@
 }
 
 .crate-roulette-background:before {
-    background: url(assets/2311e3d5a910f2cfdc1f.svg) no-repeat bottom;
+    background: url(assets/66ded2c9d48ff5166425.svg) no-repeat bottom;
     background-size: cover;
     content: "";
     display: block;
@@ -30349,7 +30349,7 @@
 }
 
 .crate-roulette-background:after {
-    background: url(assets/a116478e74fa3d2de3cd.svg) no-repeat top;
+    background: url(assets/88c6c8ea66e2dcc4dbdf.svg) no-repeat top;
     background-size: cover;
     bottom: 0;
     content: "";
@@ -33224,7 +33224,7 @@
 }
 
 .inventory-button--red {
-    background-image: url(assets/dc611a2c8b403e869315.svg);
+    background-image: url(assets/91ba8c2ea9b709a3310d.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff
@@ -33285,7 +33285,7 @@
 }
 
 .inventory-button--green {
-    background-image: url(assets/d0b43127dd0a89cbf78e.svg);
+    background-image: url(assets/b20fda0de6c8a3b3b470.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff
@@ -34697,6 +34697,18 @@
 
 .character-vehicle__indicator-bar-current--fuel {
     background-color: #d4f54d
+}
+
+.character-vehicle__indicator-bar-current--fuel-good {
+    background-color: #3ac747
+}
+
+.character-vehicle__indicator-bar-current--fuel-middle {
+    background-color: #ff7a00
+}
+
+.character-vehicle__indicator-bar-current--fuel-bad {
+    background-color: #ff4343
 }
 
 .character-vehicle__indicator-bar-current--engine {
@@ -39317,7 +39329,7 @@
 }
 
 .rewards-new-year__item--completed {
-    background: url(assets/82cbb31e85ac5be09f5e.svg) 50% no-repeat;
+    background: url(assets/a63550aee09d5237889f.svg) 50% no-repeat;
     background-size: cover
 }
 
@@ -39326,7 +39338,7 @@
 }
 
 .rewards-new-year__item--maxProgress {
-    background: url(assets/82cbb31e85ac5be09f5e.svg) 50% no-repeat;
+    background: url(assets/a63550aee09d5237889f.svg) 50% no-repeat;
     background-size: cover
 }
 
@@ -39335,7 +39347,7 @@
 }
 
 .rewards-new-year__item--in-progress {
-    background: url(assets/55c0615fdca15013e10a.svg) 50% no-repeat;
+    background: url(assets/e2db7768d96b5e23d3b0.svg) 50% no-repeat;
     background-size: cover
 }
 
@@ -39515,7 +39527,7 @@
 }
 
 .blueprint__cells {
-    background-image: url(assets/5186e5948f0218e5b148.svg);
+    background-image: url(assets/aeb1219ce9839619c1bd.svg);
     border-color: #fff;
     border-style: solid;
     border-width: max(calc((var(--global-scale)*2*var(--global-scale) - var(--global-scale)*2*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*2*var(--global-scale)*0.44 - (var(--global-scale)*2*var(--global-scale) - var(--global-scale)*2*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
@@ -39528,7 +39540,7 @@
 }
 
 .blueprint__cells--halloween {
-    background-image: url(assets/cf8c965eec8039675d49.svg)
+    background-image: url(assets/ef8c5605e61edb246266.svg)
 }
 
 .blueprint__cells--halloween,
@@ -39542,7 +39554,7 @@
 }
 
 .blueprint__cells--snowman {
-    background-image: url(assets/b6fea4f98792e14e8f7c.svg)
+    background-image: url(assets/fd754ec0a64132456e55.svg)
 }
 
 .blueprint__weapon {
@@ -39919,32 +39931,32 @@
 }
 
 .documents__content-bg--pasport {
-    background-image: url(assets/89cff6fec43c2a90e528.svg), url(assets/45ee451c6cc4ae3946bf.svg)
+    background-image: url(assets/a358a4534ff8dcba3631.svg), url(assets/52d3fb405b8e6c6754fb.svg)
 }
 
 .documents__content-bg--license {
-    background-image: url(assets/45ee451c6cc4ae3946bf.svg)
+    background-image: url(assets/52d3fb405b8e6c6754fb.svg)
 }
 
 .documents__content-bg--medical {
-    background-image: url(assets/0f488b0e641cec14432b.svg), url(assets/45ee451c6cc4ae3946bf.svg)
+    background-image: url(assets/137ebc008e9654cb4cf4.svg), url(assets/52d3fb405b8e6c6754fb.svg)
 }
 
 .documents__content-bg--military {
-    background-image: url(assets/6c52e238cae0e2880273.svg), url(assets/45ee451c6cc4ae3946bf.svg)
+    background-image: url(assets/e70cd9340004b959a6ef.svg), url(assets/52d3fb405b8e6c6754fb.svg)
 }
 
 .documents__content-bg--property {
-    background-image: url(assets/983eabd35f5e1f1be060.svg), url(assets/983eabd35f5e1f1be060.svg)
+    background-image: url(assets/638e2662fac459dd78a5.svg), url(assets/638e2662fac459dd78a5.svg)
 }
 
 .documents__content-bg--vehicle {
-    background-image: url(assets/50831f87e0f0075dafca.svg), url(assets/983eabd35f5e1f1be060.svg)
+    background-image: url(assets/f980df4f138fcd288802.svg), url(assets/638e2662fac459dd78a5.svg)
 }
 
 .documents__content-bg--vip {
     background-color: #304670;
-    background-image: url(assets/b314f9438340bcbff75a.svg), url(assets/983eabd35f5e1f1be060.svg)
+    background-image: url(assets/148e5a9daf67cba9cef3.svg), url(assets/638e2662fac459dd78a5.svg)
 }
 
 .documents__content-bg--empty {
@@ -39954,12 +39966,12 @@
 
 .documents__content-bg--property.documents__content-bg--empty {
     background-color: #f7f5ed;
-    background-image: url(assets/983eabd35f5e1f1be060.svg), url(assets/983eabd35f5e1f1be060.svg)
+    background-image: url(assets/638e2662fac459dd78a5.svg), url(assets/638e2662fac459dd78a5.svg)
 }
 
 .documents__content-bg--vehicle.documents__content-bg--empty {
     background-color: #d0cfff;
-    background-image: url(assets/50831f87e0f0075dafca.svg), url(assets/983eabd35f5e1f1be060.svg)
+    background-image: url(assets/f980df4f138fcd288802.svg), url(assets/638e2662fac459dd78a5.svg)
 }
 
 .find-game {
@@ -44025,7 +44037,7 @@
 }
 
 .family-create__money:before {
-    background-image: url(assets/f61afc2ea7750a8518a9.svg);
+    background-image: url(assets/28d5dae801c378bed2a2.svg);
     background-repeat: no-repeat;
     background-size: contain;
     content: "";
@@ -44866,7 +44878,7 @@
 }
 
 .atm-hud-instruction-icon {
-    background-image: url(assets/38d208913c8d47cfe047.svg);
+    background-image: url(assets/eeba3d6f8266329169e9.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -45315,7 +45327,7 @@
 }
 
 .feed-chicken-hud-instruction-icon {
-    background-image: url(assets/38d208913c8d47cfe047.svg);
+    background-image: url(assets/eeba3d6f8266329169e9.svg);
     background-repeat: no-repeat;
     background-size: cover;
     color: #fff;
@@ -45465,7 +45477,7 @@
 
 .open-case-similar {
     align-items: center;
-    background-image: url(assets/d9bcfd250c4d152ec960.svg);
+    background-image: url(assets/492cf8dfe906dc8ae7fb.svg);
     border-color: hsla(0, 0%, 100%, .1);
     border-radius: max(calc((var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800))*100vw + calc((var(--global-scale)*10*var(--global-scale)*0.44 - (var(--global-scale)*10*var(--global-scale) - var(--global-scale)*10*var(--global-scale)*0.44)/(var(--global-scale)*1920 - var(--global-scale)*800)*800*var(--global-scale))*1px), 1px);
     border-style: solid;
@@ -45488,7 +45500,7 @@
 }
 
 .open-case-similar:hover {
-    background-image: url(assets/6500bf01f58d175bb8b3.svg)
+    background-image: url(assets/6bf8f6a535cef257af2f.svg)
 }
 
 .open-case-similar:active {
@@ -45606,7 +45618,7 @@
 
 .open-case-guaranteed {
     align-items: center;
-    background-image: url(assets/d9bcfd250c4d152ec960.svg);
+    background-image: url(assets/492cf8dfe906dc8ae7fb.svg);
     background-position: 50%;
     background-repeat: no-repeat;
     background-size: cover;
@@ -45631,7 +45643,7 @@
 }
 
 .open-case-guaranteed:hover {
-    background-image: url(assets/6500bf01f58d175bb8b3.svg)
+    background-image: url(assets/6bf8f6a535cef257af2f.svg)
 }
 
 .open-case-guaranteed--gold,
@@ -49083,7 +49095,7 @@
 
 .employment-center__employment-image-wrapper {
     align-items: center;
-    background-image: url(assets/52adf82b023900426055.svg);
+    background-image: url(assets/8df6f67b8c7168478679.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -49151,7 +49163,7 @@
 
 .employment-center__employment-content {
     align-items: flex-start;
-    background-image: url(assets/fa0574622344d16887f3.svg);
+    background-image: url(assets/a9f0aa7df5e77e752290.svg);
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -53221,7 +53233,7 @@ input {
 @font-face {
     font-display: block;
     font-family: icon;
-    src: url(app.icon.f06701df1022c326d93b220c22a9e0d2.eot?#iefix) format("embedded-opentype"), url(app.icon.8b80ccb599d7cf50cf41621c80df9d45.woff) format("woff"), url(app.icon.df5df089643024aae54f4970f37cc63c.woff2) format("woff2"), url(app.icon.def84ecbe7f57443893dd1528cef1c4a.ttf) format("truetype"), url(app.icon.9a8aaa349b905f6c2b33c13d6ac490f3.svg#icon) format("svg")
+    src: url(app.icon.8c46cdb0970c8fe3d4ebdcdd3fb63d5e.eot?#iefix) format("embedded-opentype"), url(app.icon.550e35d30b13ad2a22252e75ec0035ba.woff) format("woff"), url(app.icon.c6e30dab25d8cd1bfcf6fc59007ffce4.woff2) format("woff2"), url(app.icon.216f44e95a599f5b75d00e1b4cc44f7d.ttf) format("truetype"), url(app.icon.8f71501e65bab8acc4baf7ba17f5014e.svg#icon) format("svg")
 }
 
 .icon {
@@ -55451,138 +55463,142 @@ input {
     content: "\f32a"
 }
 
-.icon-type-license:before {
+.icon-type-investment:before {
     content: "\f32b"
 }
 
-.icon-type-med:before {
+.icon-type-license:before {
     content: "\f32c"
 }
 
-.icon-type-other:before {
+.icon-type-med:before {
     content: "\f32d"
 }
 
-.icon-type-property:before {
+.icon-type-other:before {
     content: "\f32e"
 }
 
-.icon-type-quest:before {
+.icon-type-property:before {
     content: "\f32f"
 }
 
-.icon-type-scroll:before {
+.icon-type-quest:before {
     content: "\f330"
 }
 
-.icon-type-source:before {
+.icon-type-scroll:before {
     content: "\f331"
 }
 
-.icon-type-tuning-up:before {
+.icon-type-source:before {
     content: "\f332"
 }
 
-.icon-type-tuning:before {
+.icon-type-tuning-up:before {
     content: "\f333"
 }
 
-.icon-type-vehicle:before {
+.icon-type-tuning:before {
     content: "\f334"
 }
 
-.icon-uah:before {
+.icon-type-vehicle:before {
     content: "\f335"
 }
 
-.icon-up:before {
+.icon-uah:before {
     content: "\f336"
 }
 
-.icon-upgrade-up:before {
+.icon-up:before {
     content: "\f337"
 }
 
-.icon-user-add:before {
+.icon-upgrade-up:before {
     content: "\f338"
 }
 
-.icon-user-check:before {
+.icon-user-add:before {
     content: "\f339"
 }
 
-.icon-user-guard:before {
+.icon-user-check:before {
     content: "\f33a"
 }
 
-.icon-user-remove:before {
+.icon-user-guard:before {
     content: "\f33b"
 }
 
-.icon-users:before {
+.icon-user-remove:before {
     content: "\f33c"
 }
 
-.icon-vc-circle:before {
+.icon-users:before {
     content: "\f33d"
 }
 
-.icon-vc:before {
+.icon-vc-circle:before {
     content: "\f33e"
 }
 
-.icon-vehicle:before {
+.icon-vc:before {
     content: "\f33f"
 }
 
-.icon-verification:before {
+.icon-vehicle:before {
     content: "\f340"
 }
 
-.icon-videocard:before {
+.icon-verification:before {
     content: "\f341"
 }
 
-.icon-volume:before {
+.icon-videocard:before {
     content: "\f342"
 }
 
-.icon-vs:before {
+.icon-volume:before {
     content: "\f343"
 }
 
-.icon-wallet-arrow-up:before {
+.icon-vs:before {
     content: "\f344"
 }
 
-.icon-wallet:before {
+.icon-wallet-arrow-up:before {
     content: "\f345"
 }
 
-.icon-warehouse-truckers:before {
+.icon-wallet:before {
     content: "\f346"
 }
 
-.icon-warning-triangle:before {
+.icon-warehouse-truckers:before {
     content: "\f347"
 }
 
-.icon-watch:before {
+.icon-warning-triangle:before {
     content: "\f348"
 }
 
-.icon-weapon:before {
+.icon-watch:before {
     content: "\f349"
 }
 
-.icon-wheel:before {
+.icon-weapon:before {
     content: "\f34a"
 }
 
-.icon-workbrench:before {
+.icon-wheel:before {
     content: "\f34b"
 }
 
-.icon-сlothes:before {
+.icon-workbrench:before {
     content: "\f34c"
+}
+
+.icon-сlothes:before {
+    content: "\f34d"
 }
