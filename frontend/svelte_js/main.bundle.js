@@ -46094,6 +46094,7 @@
                     "./damage-informer.webp": 42361,
                     "./dialog-color.webp": 19117,
                     "./dynamic-crosshair.webp": 36425,
+                    "./dynamic-shadow.webp": 18796,
                     "./family-name.webp": 92237,
                     "./fog-distance.webp": 93980,
                     "./fogdist.webp": 27959,
@@ -49375,7 +49376,7 @@
             ((module, __unused_webpack_exports, __webpack_require__) => {
 
                 "use strict";
-                module.exports = __webpack_require__.p + "assets/898e905bbf522315d2a2.webp";
+                module.exports = __webpack_require__.p + "assets/2e226db0b07144bda4c3.webp";
 
                 /***/
             }),
@@ -49386,7 +49387,7 @@
             ((module, __unused_webpack_exports, __webpack_require__) => {
 
                 "use strict";
-                module.exports = __webpack_require__.p + "assets/1b0ebf6ccc0487a2cf61.webp";
+                module.exports = __webpack_require__.p + "assets/7f2940fabd8731c3b7b7.webp";
 
                 /***/
             }),
@@ -49464,6 +49465,17 @@
 
                 "use strict";
                 module.exports = __webpack_require__.p + "assets/554e448bd685c5b36721.webp";
+
+                /***/
+            }),
+
+        /***/
+        18796:
+            /***/
+            ((module, __unused_webpack_exports, __webpack_require__) => {
+
+                "use strict";
+                module.exports = __webpack_require__.p + "assets/c2c1f8a0fdb6074b52d8.webp";
 
                 /***/
             }),
@@ -55096,7 +55108,16 @@
                 return;
             }
             var validatedArgs = argsDto.replace(/[\\]/g, '\\\\').replace(/[\/]/g, '\\/').replace(/[\b]/g, '\\b').replace(/[\f]/g, '\\f').replace(/[\n]/g, '\\n').replace(/[\r]/g, '\\r').replace(/[\t]/g, '\\t');
-            var eventData = JSON.parse(validatedArgs);
+            var eventData;
+            try {
+                eventData = JSON.parse(validatedArgs);
+            } catch (error) {
+                var legacyStringArg = validatedArgs.match(/^\[([\w.-]+)\]$/);
+                if (!legacyStringArg) {
+                    throw error;
+                }
+                eventData = [legacyStringArg[1]];
+            }
             if (Array.isArray(eventData)) {
                 registeredEvents[eventName].apply(registeredEvents, _toConsumableArray(eventData));
             } else {
@@ -59122,7 +59143,18 @@
                 };
                 window.cef.IsCommandLineContain(flag);
             });
-        };; // CONCATENATED MODULE: ./src/views/main-menu/components/settings/azvoice-keymap.js
+        };; // CONCATENATED MODULE: ./src/store/vehicle.js
+
+        var playerVehicleId = store_writable(0);
+        var vehicleLights = store_writable(0);
+        var vehicleDoor = store_writable(0);
+        var vehicleEngine = store_writable(0);
+        var vehicleHP = store_writable(0);
+        var vehicleLaunchProgress = store_writable(0);
+        var vehicleLaunchActivated = store_writable(false);
+        var vehicleSpeed = store_writable(0);
+        var vehicleTurnLeft = store_writable(false);
+        var vehicleTurnRight = store_writable(false);; // CONCATENATED MODULE: ./src/views/main-menu/components/settings/azvoice-keymap.js
         var AZVOICE_KEY_MAP = {
             48: '0',
             49: '1',
@@ -59418,6 +59450,7 @@
 
 
 
+
         var vehicleFuelType = store_writable(null);
         var vehiclePower = store_writable(null);
         var vehiclePowerIsActive = store_writable(false);
@@ -59528,6 +59561,9 @@
         });
         registerEvent('event.arizonahud.vehicleFuelType', function(value) {
             return vehicleFuelType.set(value);
+        });
+        registerEvent('event.arizonahud.vehicleDoor', function(value) {
+            return vehicleDoor.set(Boolean(Number(value)));
         });
         registerEvent('event.arizonahud.nearBoomBox', function(value) {
             return nearBoomBox.set(value);
@@ -59810,18 +59846,7 @@
             serverHudInfo.set(temp);
             updateAZVoiceHotkyesTips();
         };
-        var unregisterServerInfo = registerEvent('event.arizonahud.serverInfo', initializeServerInfo);; // CONCATENATED MODULE: ./src/store/vehicle.js
-
-        var playerVehicleId = store_writable(0);
-        var vehicleLights = store_writable(0);
-        var vehicleDoor = store_writable(0);
-        var vehicleEngine = store_writable(0);
-        var vehicleHP = store_writable(0);
-        var vehicleLaunchProgress = store_writable(0);
-        var vehicleLaunchActivated = store_writable(false);
-        var vehicleSpeed = store_writable(0);
-        var vehicleTurnLeft = store_writable(false);
-        var vehicleTurnRight = store_writable(false);; // CONCATENATED MODULE: ./src/store/keyboard.js
+        var unregisterServerInfo = registerEvent('event.arizonahud.serverInfo', initializeServerInfo);; // CONCATENATED MODULE: ./src/store/keyboard.js
 
         var languageLayout = store_writable('');
         var capsLockEnabled = store_writable(false);; // CONCATENATED MODULE: ./src/utils/client-callback-method-manager/client-callback-method-manager.js
@@ -59904,9 +59929,6 @@
                 });
                 this.registerClientCallback(MAP_CLIENT_METHOD_TO_CALLBACK_NAME[ClientMethod.GetVehLights], function(vehId, value) {
                     return vehicleLights.set(value);
-                });
-                this.registerClientCallback(MAP_CLIENT_METHOD_TO_CALLBACK_NAME[ClientMethod.GetVehClosed], function(vehId, value) {
-                    return vehicleDoor.set(value);
                 });
                 this.registerClientCallback(MAP_CLIENT_METHOD_TO_CALLBACK_NAME[ClientMethod.GetVehEngine], function(vehId, value) {
                     return vehicleEngine.set(value);
@@ -68393,7 +68415,7 @@
             "name": "Золотая рулетка",
             "icon": "557.webp",
             "acs_slot": -1,
-            "type": 15,
+            "type": 1,
             "active": 0,
             "stack": 1000
         }, {
@@ -73561,7 +73583,7 @@
             "name": "Пропуск в офис ФБР",
             "icon": "1203.webp",
             "acs_slot": -1,
-            "type": 18,
+            "type": 15,
             "active": 0,
             "stack": 1
         }, {
@@ -79246,7 +79268,7 @@
             "stack": 1
         }, {
             "id": 1914,
-            "name": "Сюндук за спиной",
+            "name": "Сундук за спиной",
             "icon": "1914.webp",
             "acs_slot": 5,
             "type": 3,
@@ -134505,7 +134527,7 @@
             "stack": 50
         }, {
             "id": 8819,
-            "name": "Осколок легендарной нашивке монстра",
+            "name": "Осколок легендарной нашивки монстра",
             "icon": "8819.webp",
             "acs_slot": -1,
             "type": 15,
@@ -145247,7 +145269,8 @@
             "acs_slot": 0,
             "type": 10,
             "active": 0,
-            "stack": 1
+            "stack": 1,
+            "effect": "fire.gif"
         }, {
             "id": 10122,
             "name": "Shadow Moon",
@@ -147860,6 +147883,254 @@
             "type": 15,
             "active": 0,
             "stack": 20
+        }, {
+            "id": 10433,
+            "name": "Сертификат С 35 Power Slide",
+            "icon": "10433.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0,
+            "stack": 100
+        }, {
+            "id": 10434,
+            "name": "Сертификат FC 326 Power",
+            "icon": "10434.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0,
+            "stack": 100
+        }, {
+            "id": 10435,
+            "name": "Сертификат Soar Angel Drift",
+            "icon": "10435.webp",
+            "acs_slot": -1,
+            "type": 2,
+            "active": 0,
+            "stack": 100
+        }, {
+            "id": 10436,
+            "name": "Выхлоп коллекции Street (Laurell Street)",
+            "icon": "10436.webp",
+            "acs_slot": 6,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10437,
+            "name": "Передний бампер коллекции Street (Laurell Street)",
+            "icon": "10437.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10438,
+            "name": "Задний бампер коллекции Street (Laurell Street)",
+            "icon": "10438.webp",
+            "acs_slot": 12,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10439,
+            "name": "Каркас безопасности коллекции Street (Laurell Street)",
+            "icon": "10439.webp",
+            "acs_slot": 2,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10440,
+            "name": "Спойлер коллекции Street (Laurell Street)",
+            "icon": "10440.webp",
+            "acs_slot": 0,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10441,
+            "name": "Комплект крыльев коллекции Street (Laurell Street)",
+            "icon": "10441.webp",
+            "acs_slot": 3,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10442,
+            "name": "Диски коллекции Street (Laurell Street)",
+            "icon": "10442.webp",
+            "acs_slot": 7,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10443,
+            "name": "Капот коллекции Street (Laurell Street)",
+            "icon": "10443.webp",
+            "acs_slot": 1,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10444,
+            "name": "Винил коллекции Street (Laurell Street)",
+            "icon": "10444.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10445,
+            "name": "Выхлоп коллекции Street (FC Street)",
+            "icon": "10445.webp",
+            "acs_slot": 6,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10446,
+            "name": "Передний бампер коллекции Street (FC Street)",
+            "icon": "10446.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10447,
+            "name": "Задний бампер коллекции Street (FC Street)",
+            "icon": "10447.webp",
+            "acs_slot": 12,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10448,
+            "name": "Каркас безопасности коллекции Street (FC Street)",
+            "icon": "10448.webp",
+            "acs_slot": 2,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10449,
+            "name": "Спойлер коллекции Street (FC Street)",
+            "icon": "10449.webp",
+            "acs_slot": 0,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10450,
+            "name": "Комплект крыльев коллекции Street (FC Street)",
+            "icon": "10450.webp",
+            "acs_slot": 3,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10451,
+            "name": "Диски коллекции Street (FC Street)",
+            "icon": "10451.webp",
+            "acs_slot": 7,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10452,
+            "name": "Капот коллекции Street (FC Street)",
+            "icon": "10452.webp",
+            "acs_slot": 1,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10453,
+            "name": "Винил коллекции Street (FC Street)",
+            "icon": "10453.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10454,
+            "name": "Выхлоп коллекции Street (Soarex Street)",
+            "icon": "10454.webp",
+            "acs_slot": 6,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10455,
+            "name": "Передний бампер коллекции Street (Soarex Street)",
+            "icon": "10455.webp",
+            "acs_slot": 11,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10456,
+            "name": "Задний бампер коллекции Street (Soarex Street)",
+            "icon": "10456.webp",
+            "acs_slot": 12,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10457,
+            "name": "Каркас безопасности коллекции Street (Soarex Street)",
+            "icon": "10457.webp",
+            "acs_slot": 2,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10458,
+            "name": "Спойлер коллекции Street (Soarex Street)",
+            "icon": "10458.webp",
+            "acs_slot": 0,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10459,
+            "name": "Комплект крыльев коллекции Street (Soarex Street)",
+            "icon": "10459.webp",
+            "acs_slot": 3,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10460,
+            "name": "Диски коллекции Street (Soarex Street)",
+            "icon": "10460.webp",
+            "acs_slot": 7,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10461,
+            "name": "Капот коллекции Street (Soarex Street)",
+            "icon": "10461.webp",
+            "acs_slot": 1,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10462,
+            "name": "Винил коллекции Street (Soarex Street)",
+            "icon": "10462.webp",
+            "acs_slot": -1,
+            "type": 23,
+            "active": 0,
+            "stack": 1
+        }, {
+            "id": 10463,
+            "name": "Случайное авто коллекции Street",
+            "icon": "10463.webp",
+            "acs_slot": -1,
+            "type": 15,
+            "active": 0,
+            "stack": 1
         }];; // CONCATENATED MODULE: ./src/store/inventory.js
         function inventory_regenerator() {
             var e, t, r = "function" == typeof Symbol ? Symbol : {},
@@ -153519,7 +153790,8 @@
         const taxes_6_namespaceObject = __webpack_require__.p + "assets/1fa28a409f80fd48cf9f.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/taxes/7.png
         const taxes_7_namespaceObject = __webpack_require__.p + "assets/61546d59f0cc9ba36fae.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/taxes/8.png
         const taxes_8_namespaceObject = __webpack_require__.p + "assets/9e804032866291973fdb.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/taxes/9.png
-        const taxes_9_namespaceObject = __webpack_require__.p + "assets/2189fea50e1239edfa45.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/fractions/1.png
+        const taxes_9_namespaceObject = __webpack_require__.p + "assets/2189fea50e1239edfa45.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/taxes/10.png
+        const taxes_10_namespaceObject = __webpack_require__.p + "assets/3abb341b1d87d8c68a95.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/fractions/1.png
         const fractions_1_namespaceObject = __webpack_require__.p + "assets/6904d65ade0bc030100e.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/fractions/2.png
         const fractions_2_namespaceObject = __webpack_require__.p + "assets/a813ea7ec92384082180.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/fractions/3.png
         const fractions_3_namespaceObject = __webpack_require__.p + "assets/c2da44b602ed4d9b9aeb.webp";; // CONCATENATED MODULE: ./src/views/bank/img/main/fractions/4.png
@@ -153628,6 +153900,7 @@
 
 
 
+
         var ACCOUNTS_BUTTONS = [{
             text: 'снять',
             icon: 'icon-sign',
@@ -153688,9 +153961,10 @@
             HotelRoomLease: 5,
             HomeTaxes: 6,
             BusinessTaxes: 7,
-            FamilyApartmentTax: 8
+            FamilyApartmentTax: 8,
+            TrailerTax: 9
         };
-        var TAXES_INFO = main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty({}, TAXES.LegalFine, {
+        var TAXES_INFO = main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty(main_constants_defineProperty({}, TAXES.LegalFine, {
             title: 'Оплатить судебный\nштраф',
             bg: taxes_1_namespaceObject
         }), TAXES.CommunalPayments, {
@@ -153717,6 +153991,9 @@
         }), TAXES.FamilyApartmentTax, {
             title: 'Оплатить налог\nсемейной квартиры',
             bg: taxes_9_namespaceObject
+        }), TAXES.TrailerTax, {
+            title: 'Оплатить налог\nза трейлер',
+            bg: taxes_10_namespaceObject
         });
         var ORGANIZATIONS = {
             LSPD: 1,
@@ -153876,6 +154153,10 @@
                     disabled: true
                 }, {
                     id: TAXES.FamilyApartmentTax,
+                    tax: 0,
+                    disabled: true
+                }, {
+                    id: TAXES.TrailerTax,
                     tax: 0,
                     disabled: true
                 }]
@@ -172386,15 +172667,6 @@
             Gradient: 'gradient',
             Default: 'default'
         };; // CONCATENATED MODULE: ./src/views/inventory/store.js
-        function inventory_store_typeof(o) {
-            "@babel/helpers - typeof";
-            return inventory_store_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
-                return typeof o;
-            } : function(o) {
-                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
-            }, inventory_store_typeof(o);
-        }
-
         function store_slicedToArray(r, e) {
             return store_arrayWithHoles(r) || store_iterableToArrayLimit(r, e) || inventory_store_unsupportedIterableToArray(r, e) || store_nonIterableRest();
         }
@@ -172430,6 +172702,15 @@
 
         function store_arrayWithHoles(r) {
             if (Array.isArray(r)) return r;
+        }
+
+        function inventory_store_typeof(o) {
+            "@babel/helpers - typeof";
+            return inventory_store_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, inventory_store_typeof(o);
         }
 
         function inventory_store_toConsumableArray(r) {
@@ -172547,6 +172828,7 @@
         var workshopCurrentTab = store_writable('');
         var workshopGunContext = store_writable(false);
         var workshopEnchantItemId = store_writable(6065);
+        var workshopStoneItemId = store_writable(0);
         var potionsTimer = store_writable(-1);
         var potionsResult = store_writable(null);
         var shopOpened = store_writable(false);
@@ -172925,6 +173207,10 @@
             var itemId = Number((_ref = (_config$itemId = config === null || config === void 0 ? void 0 : config.itemId) !== null && _config$itemId !== void 0 ? _config$itemId : config === null || config === void 0 ? void 0 : config.item) !== null && _ref !== void 0 ? _ref : config);
             if (Number.isInteger(itemId) && itemId > 0) {
                 workshopEnchantItemId.set(itemId);
+            }
+            if (config && inventory_store_typeof(config) === 'object') {
+                var stoneItemId = Number(config.stoneItemId);
+                workshopStoneItemId.set(Number.isInteger(stoneItemId) && stoneItemId > 0 ? stoneItemId : 0);
             }
         };
         var playerInventoryHandler = function playerInventoryHandler(playerInventoryData) {
@@ -176225,7 +176511,7 @@
             Confirm: 'confirm',
             Setkey: 'setkey'
         };
-        var GRAPHIC_RESTRICTION_FIELDS = [89, 88, 'enableStochastic', 'enableCarGraphics', 'enableCarCartoon', 'waterLevel', 'enableBetterSkybox'];
+        var GRAPHIC_RESTRICTION_FIELDS = [89, 88, 'enableStochastic', 'enableCarGraphics', 'enableCarCartoon', 'waterLevel', 'enableBetterSkybox', 'dynamicShadowsLevel'];
         var SHADERS_SETTINGS_ID = [RegKeys.EnableStochastic, RegKeys.EnableCarGraphics, RegKeys.EnableCarCartoon, RegKeys.WaterLevel, RegKeys.EnableBetterSkybox, RegKeys.DynamicShadowsLevel];
         var RegSettingsPool = [RegKeys.EnableStochastic, RegKeys.EnableCarGraphics, RegKeys.EnableCarCartoon, RegKeys.WaterLevel, RegKeys.EnableBetterSkybox, RegKeys.DynamicShadowsLevel, RegKeys.DynamicFog, RegKeys.FogDistance, RegKeys.Particles, RegKeys.CustomNameTag, RegKeys.CustomTarget, RegKeys.AmbientVolume, RegKeys.AccessoriesDistance, RegKeys.VehiclesMinLODDistance, RegKeys.WeaponSound, RegKeys.NightLight];
         var REGKEY_TO_SETTINGS_ID = (_REGKEY_TO_SETTINGS_I = {}, settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(_REGKEY_TO_SETTINGS_I, "".concat(RegPaths.Settings, ":").concat(RegKeys.EnableStochastic), 'enableStochastic'), "".concat(RegPaths.Settings, ":").concat(RegKeys.EnableCarGraphics), 'enableCarGraphics'), "".concat(RegPaths.Settings, ":").concat(RegKeys.EnableCarCartoon), 'enableCarCartoon'), "".concat(RegPaths.Settings, ":").concat(RegKeys.WaterLevel), 'waterLevel'), "".concat(RegPaths.Settings, ":").concat(RegKeys.EnableBetterSkybox), 'enableBetterSkybox'), "".concat(RegPaths.Settings, ":").concat(RegKeys.DynamicShadowsLevel), 'dynamicShadowsLevel'), "".concat(RegPaths.Settings, ":").concat(RegKeys.DynamicFog), 'dynamicFog'), "".concat(RegPaths.Settings, ":").concat(RegKeys.FogDistance), 'fogDistance'), "".concat(RegPaths.Settings, ":").concat(RegKeys.Particles), 'particles'), "".concat(RegPaths.Settings, ":").concat(RegKeys.CustomNameTag), 'customNameTag'), settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(settings_constants_defineProperty(_REGKEY_TO_SETTINGS_I, "".concat(RegPaths.Settings, ":").concat(RegKeys.CustomTarget), 'customTarget'), "".concat(RegPaths.Settings, ":").concat(RegKeys.AmbientVolume), 'ambientVolume'), "".concat(RegPaths.Settings, ":").concat(RegKeys.AccessoriesDistance), 'accessoriesDistance'), "".concat(RegPaths.Settings, ":").concat(RegKeys.VehiclesMinLODDistance), 'vehiclesMinLODDistance'), "".concat(RegPaths.Settings, ":").concat(RegKeys.WeaponSound), 'weaponSound'), "".concat(RegPaths.Settings, ":").concat(RegKeys.NightLight), 'nightLight'));
@@ -177503,9 +177789,9 @@
                 items: [{
                     id: 89,
                     title: '[BETA] Режим творчества',
-                    description: 'Открывает конфигуратор графики.<br>Встроенная функция тонкого редактирования графики в игре для продвинутых пользователей.<br>Настрой, сохрани и поделись своим пресетом с другими! После сохранения вы получите предмет пресета в инвентарь, который сможете продать, передать или клонировать сколько угодно.<br><br><i>Нельзя открыть, если уже установлен активный пресет</i><br><br><b>BETA - Данный функционал доступен в тестовом режиме и активно дорабатывается.</b>',
+                    description: 'Открывает конфигуратор графики.<br>Встроенная функция тонкого редактирования графики в игре для продвинутых пользователей.<br>Настрой, сохрани и поделись своим пресетом с другими! После сохранения вы получите предмет пресета в инвентарь, который сможете продать, передать или клонировать сколько угодно.<br><br><i>Нельзя открыть, если уже установлен активный пресет</i><br><br><b>BETA - Данный функционал доступен в тестовом режиме и активно дорабатывается.</b> <br><b>Подробнее о работе с конфигуратором можно узнать в <a class="main-menu-settings__info-description-link" href="https://help.arizona-rp.com/hc/arizona-rp/articles/1790236012-graphic_configurator">статье в базе знаний</a></b>',
                     type: ControlTypes.Button,
-                    image: 'creative-mode-2.webp',
+                    image: 'creative-mode-1.webp',
                     value: 'Открыть',
                     defaultValue: false,
                     available: true,
@@ -177519,7 +177805,7 @@
                     title: '[BETA] Использовать ПРЕСЕТ',
                     description: 'Открывает окно выбора готовых графических пресетов из вашего инвентаря.<br><br>Вы можете самостоятельно создать пресет в режиме творчества или получить предмет графического пресета от других игроков!<br><i>Применять пресет можно раз в 15 секунд.</i><br><br><b>BETA - Данный функционал доступен в тестовом режиме и активно дорабатывается.</b>',
                     type: ControlTypes.Button,
-                    image: 'creative-mode-1.webp',
+                    image: 'creative-mode-2.webp',
                     value: 'Открыть список',
                     defaultValue: false,
                     available: true,
@@ -177628,16 +177914,16 @@
                     }
                 }, {
                     id: 'dynamicShadowsLevel',
-                    title: 'Динамические тени',
-                    description: 'Настройка качества динамических теней от окружения, игроков и машин<br><br><b>Внимание! Высокие настройки снижают производительность</b>.',
+                    title: '[BETA] Динамические тени',
+                    description: '[BETA] Настройка качества динамических теней от окружения, игроков и машин<br><br><b>Выкл</b> — Тени отключены от окружения вовсе<br><b>Низкие</b> — Упрощенные тени от транспорта, объектов и игроков<br><b>Средние</b> — Полностью динамические тени от транспорта и игроков<br><b>Высокие</b> — Динамические тени от зданий, объектов, транспорта и игроков<br><b>Ультра</b> — Динамические тени от всего окружения в высоком качестве<br><br><b>Внимание! Высокие и ультра настройки сильно снижают производительность</b>.',
                     type: ControlTypes.Selector,
-                    value: 0,
-                    defaultValue: 0,
-                    list: ['ВЫКЛ', 'Низкое', 'Среднее', 'Высокое'],
-                    available: false,
-                    warningText: 'Скоро будет доступно',
-                    warningVisible: true,
-                    image: null,
+                    value: 1,
+                    defaultValue: 1,
+                    list: ['ВЫКЛ', 'Низкое', 'Среднее', 'Высокое', 'Ультра'],
+                    available: true,
+                    warningText: '',
+                    warningVisible: false,
+                    image: 'dynamic-shadow.webp',
                     onActivate: function onActivate(id, value) {
                         window.cef.RegWrite2(RegPaths.Settings, RegKeys.DynamicShadowsLevel, value, true);
                     }
@@ -179688,6 +179974,35 @@
                 readSettingByIndex();
             };
             readSettingByIndex();
+        };; // CONCATENATED MODULE: ./src/utils/external-links.js
+        var ABSOLUTE_HTTP_URL_REGEXP = /^https?:\/\//i;
+        var resolveExternalAnchor = function resolveExternalAnchor(target) {
+            var _target$closest;
+            var anchor = target === null || target === void 0 || (_target$closest = target.closest) === null || _target$closest === void 0 ? void 0 : _target$closest.call(target, 'a');
+            if (!anchor || anchor.hasAttribute('download')) {
+                return null;
+            }
+            var rawHref = anchor.getAttribute('href') || '';
+            if (!ABSOLUTE_HTTP_URL_REGEXP.test(rawHref)) {
+                return null;
+            }
+            return anchor.protocol === 'http:' || anchor.protocol === 'https:' ? anchor : null;
+        };
+        var handleClick = function handleClick(event) {
+            var _window$cef;
+            var anchor = resolveExternalAnchor(event.target);
+            if (!anchor) {
+                return;
+            }
+            event.preventDefault();
+            event.stopPropagation();
+            (_window$cef = window.cef) === null || _window$cef === void 0 || _window$cef.Open(anchor.href, 1);
+        };
+        var registerExternalLinksHandler = function registerExternalLinksHandler() {
+            document.addEventListener('click', handleClick, true);
+            return function() {
+                return document.removeEventListener('click', handleClick, true);
+            };
         };; // CONCATENATED MODULE: ./src/views/video-background/store.js
 
 
@@ -179716,7 +180031,130 @@
                 window.cef.RegWrite2(RegPaths.Auth, RegKeys.BlockVideo, value.toString(), false);
             }
         };
-        registerEvent('event.videoBackground.blockVideoByTime', blockVideoByTime);; // CONCATENATED MODULE: ./src/components/modals-root/index.svelte
+        registerEvent('event.videoBackground.blockVideoByTime', blockVideoByTime);; // CONCATENATED MODULE: ./src/views/video-background/video-src/auth_video.webm
+        const auth_video_namespaceObject = __webpack_require__.p + "assets/9d1d5862fd782dd654ec.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/registration_video.webm
+        const registration_video_namespaceObject = __webpack_require__.p + "assets/b9a423791933f20bc44c.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/situation_1.webm
+        const situation_1_namespaceObject = __webpack_require__.p + "assets/35c0690ed0f7a7c23ed6.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/situation_2.webm
+        const situation_2_namespaceObject = __webpack_require__.p + "assets/5bec31d2c12b75f6d6bb.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/court_process.webm
+        const court_process_namespaceObject = __webpack_require__.p + "assets/f2ae7ecfe629115cba06.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/court_process_2.webm
+        const court_process_2_namespaceObject = __webpack_require__.p + "assets/372842d8bf7cb138377f.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_1.webm
+        const video_1_namespaceObject = __webpack_require__.p + "assets/35ddfedf642420b18f71.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_2.webm
+        const video_2_namespaceObject = __webpack_require__.p + "assets/fe4eb458f81139d26e25.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_3.webm
+        const video_3_namespaceObject = __webpack_require__.p + "assets/3821b0455771af309471.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_4.webm
+        const video_4_namespaceObject = __webpack_require__.p + "assets/c96eaa3190f346e7e98c.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_5.webm
+        const video_5_namespaceObject = __webpack_require__.p + "assets/b663ed14320627c4b4b4.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_6.webm
+        const video_6_namespaceObject = __webpack_require__.p + "assets/cc0f41f3dcc946cafa1f.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_7.webm
+        const video_7_namespaceObject = __webpack_require__.p + "assets/bf12242fdc29cff92280.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_8.webm
+        const video_8_namespaceObject = __webpack_require__.p + "assets/f6af9b94b05a5eb27bdd.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_9.webm
+        const video_9_namespaceObject = __webpack_require__.p + "assets/b870f9de979e83c67b79.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene1.webm
+        const scene1_namespaceObject = __webpack_require__.p + "assets/bb34fffa9abe8da12a33.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene2.webm
+        const scene2_namespaceObject = __webpack_require__.p + "assets/a83bde2ac3364600f52d.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene3.webm
+        const scene3_namespaceObject = __webpack_require__.p + "assets/0c13e49ccd34e39e7215.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene4.webm
+        const scene4_namespaceObject = __webpack_require__.p + "assets/203682aeedc4442d82b3.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene5.webm
+        const scene5_namespaceObject = __webpack_require__.p + "assets/cb06ba0444710b717989.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene6.webm
+        const scene6_namespaceObject = __webpack_require__.p + "assets/31203e98d5fa24d87984.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene7.webm
+        const scene7_namespaceObject = __webpack_require__.p + "assets/552dca20b39e0329888e.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/calendar_event/calendar_street_c35.webm
+        const calendar_street_c35_namespaceObject = __webpack_require__.p + "assets/59c6acabafb53e932bb3.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/calendar_event/calendar_street_fc.webm
+        const calendar_street_fc_namespaceObject = __webpack_require__.p + "assets/47d75a6396b35ef15760.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/calendar_event/calendar_street_soar.webm
+        const calendar_street_soar_namespaceObject = __webpack_require__.p + "assets/c0119be30458b4eeb94e.webm";; // CONCATENATED MODULE: ./src/views/video-background/constants.js
+        var _MAP_NAME_TO_VIDEO_SR, _MAP_VIDEO_IS_CONTROL, _MAP_NAME_TO_CLASS;
+
+        function video_background_constants_typeof(o) {
+            "@babel/helpers - typeof";
+            return video_background_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
+                return typeof o;
+            } : function(o) {
+                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
+            }, video_background_constants_typeof(o);
+        }
+
+        function video_background_constants_defineProperty(e, r, t) {
+            return (r = video_background_constants_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
+                value: t,
+                enumerable: !0,
+                configurable: !0,
+                writable: !0
+            }) : e[r] = t, e;
+        }
+
+        function video_background_constants_toPropertyKey(t) {
+            var i = video_background_constants_toPrimitive(t, "string");
+            return "symbol" == video_background_constants_typeof(i) ? i : i + "";
+        }
+
+        function video_background_constants_toPrimitive(t, r) {
+            if ("object" != video_background_constants_typeof(t) || !t) return t;
+            var e = t[Symbol.toPrimitive];
+            if (void 0 !== e) {
+                var i = e.call(t, r || "default");
+                if ("object" != video_background_constants_typeof(i)) return i;
+                throw new TypeError("@@toPrimitive must return a primitive value.");
+            }
+            return ("string" === r ? String : Number)(t);
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        var PlayerStates = {
+            Pause: 'pause',
+            Play: 'play',
+            Mute: 'mute',
+            Unmute: 'unmute'
+        };
+        var MAP_PLAYERSTATE_TO_ICON = video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty({}, PlayerStates.Pause, 'auth-play'), PlayerStates.Play, 'auth-pause'), PlayerStates.Mute, 'auth-volume-high'), PlayerStates.Unmute, 'auth-volume-mute');
+        var Names = {
+            Signin: 'signin',
+            Signup: 'signup',
+            SituationVideo1: 'SituationVideo1',
+            SituationVideo2: 'SituationVideo2',
+            CourtProcessVideo: 'CourtProcessVideo',
+            CourtProcessVideo_2: 'CourtProcessVideo_2',
+            halloweenScene1: 'QuestNewPlayerVideo_1',
+            halloweenScene2: 'QuestNewPlayerVideo_2',
+            halloweenScene3: 'QuestNewPlayerVideo_3',
+            halloweenScene4: 'QuestNewPlayerVideo_4',
+            halloweenScene5: 'QuestNewPlayerVideo_5',
+            halloweenScene6: 'QuestNewPlayerVideo_6',
+            halloweenScene7: 'QuestNewPlayerVideo_7',
+            halloweenScene8: 'QuestNewPlayerVideo_8',
+            halloweenScene9: 'QuestNewPlayerVideo_9',
+            armyQuestScene1: 'QuestArmyVideo1',
+            armyQuestScene2: 'QuestArmyVideo2',
+            armyQuestScene3: 'QuestArmyVideo3',
+            armyQuestScene4: 'QuestArmyVideo4',
+            armyQuestScene5: 'QuestArmyVideo5',
+            armyQuestScene6: 'QuestArmyVideo6',
+            armyQuestScene7: 'QuestArmyVideo7',
+            calendarEventScene1: 'calendar_street_c35',
+            calendarEventScene2: 'calendar_street_fc',
+            calendarEventScene3: 'calendar_street_soar'
+        };
+        var MAP_NAME_TO_VIDEO_SRC = (_MAP_NAME_TO_VIDEO_SR = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.Signin, auth_video_namespaceObject), Names.Signup, registration_video_namespaceObject), Names.SituationVideo1, situation_1_namespaceObject), Names.SituationVideo2, situation_2_namespaceObject), Names.CourtProcessVideo, court_process_namespaceObject), Names.CourtProcessVideo_2, court_process_2_namespaceObject), Names.halloweenScene1, video_1_namespaceObject), Names.halloweenScene2, video_2_namespaceObject), Names.halloweenScene3, video_3_namespaceObject), Names.halloweenScene4, video_4_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.halloweenScene5, video_5_namespaceObject), Names.halloweenScene6, video_6_namespaceObject), Names.halloweenScene7, video_7_namespaceObject), Names.halloweenScene8, video_8_namespaceObject), Names.halloweenScene9, video_9_namespaceObject), Names.armyQuestScene1, scene1_namespaceObject), Names.armyQuestScene2, scene2_namespaceObject), Names.armyQuestScene3, scene3_namespaceObject), Names.armyQuestScene4, scene4_namespaceObject), Names.armyQuestScene5, scene5_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.armyQuestScene6, scene6_namespaceObject), Names.armyQuestScene7, scene7_namespaceObject), Names.calendarEventScene1, calendar_street_c35_namespaceObject), Names.calendarEventScene2, calendar_street_fc_namespaceObject), Names.calendarEventScene3, calendar_street_soar_namespaceObject));
+        var MAP_VIDEO_IS_CONTROLABLE = (_MAP_VIDEO_IS_CONTROL = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.Signin, true), Names.Signup, true), Names.SituationVideo1, false), Names.SituationVideo2, false), Names.CourtProcessVideo, false), Names.CourtProcessVideo_2, false), Names.halloweenScene1, false), Names.halloweenScene2, false), Names.halloweenScene3, false), Names.halloweenScene4, false), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.halloweenScene5, false), Names.halloweenScene6, false), Names.halloweenScene7, false), Names.halloweenScene8, false), Names.halloweenScene9, false), Names.armyQuestScene1, false), Names.armyQuestScene2, false), Names.armyQuestScene3, false), Names.armyQuestScene4, false), Names.armyQuestScene5, false), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.armyQuestScene6, false), Names.armyQuestScene7, false), Names.calendarEventScene1, false), Names.calendarEventScene2, false), Names.calendarEventScene3, false));
+        var MAP_VIDEO_IS_LOOPED = video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty({}, Names.calendarEventScene1, false), Names.calendarEventScene2, false), Names.calendarEventScene3, false);
+        var MAP_NAME_TO_CLASS = (_MAP_NAME_TO_CLASS = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.Signin, ''), Names.Signup, ''), Names.SituationVideo1, ''), Names.SituationVideo2, ''), Names.CourtProcessVideo, ''), Names.CourtProcessVideo_2, ''), Names.halloweenScene1, ''), Names.halloweenScene2, ''), Names.halloweenScene3, ''), Names.halloweenScene4, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.halloweenScene5, ''), Names.halloweenScene6, ''), Names.halloweenScene7, ''), Names.halloweenScene8, ''), Names.halloweenScene9, ''), Names.armyQuestScene1, ''), Names.armyQuestScene2, ''), Names.armyQuestScene3, ''), Names.armyQuestScene4, ''), Names.armyQuestScene5, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.armyQuestScene6, ''), Names.armyQuestScene7, ''), Names.calendarEventScene1, ''), Names.calendarEventScene2, ''), Names.calendarEventScene3, ''));; // CONCATENATED MODULE: ./src/components/modals-root/index.svelte
         /* src\components\modals-root\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -222697,7 +223135,7 @@
                     dom_attr(img1, "class", "items-notification__top-logo");
 
                     if (!utils_src_url_equal(img1.src, img1_src_value = !(0, lodash.isNil)( /*$notificationDetails*/ ctx[0].imageType) ?
-                            `${CDN_URL}/systems/hud_notification/${/*$notificationDetails*/ ctx[0].imageType + 1}.webp` :
+                            `${CDN_URL}/systems/hud_notification/${/*$notificationDetails*/ ctx[0].imageType}.webp` :
                             default_logo_namespaceObject)) dom_attr(img1, "src", img1_src_value);
 
                     dom_attr(img1, "alt", "logo");
@@ -222741,7 +223179,7 @@
                 },
                 p(ctx, dirty) {
                     if (!current || dirty & /*$notificationDetails*/ 1 && !utils_src_url_equal(img1.src, img1_src_value = !(0, lodash.isNil)( /*$notificationDetails*/ ctx[0].imageType) ?
-                            `${CDN_URL}/systems/hud_notification/${/*$notificationDetails*/ ctx[0].imageType + 1}.webp` :
+                            `${CDN_URL}/systems/hud_notification/${/*$notificationDetails*/ ctx[0].imageType}.webp` :
                             default_logo_namespaceObject)) {
                         dom_attr(img1, "src", img1_src_value);
                     }
@@ -276244,120 +276682,7 @@
         }
 
         /* harmony default export */
-        const server_info_index_svelte = (Server_info);; // CONCATENATED MODULE: ./src/views/video-background/video-src/auth_video.webm
-        const auth_video_namespaceObject = __webpack_require__.p + "assets/9d1d5862fd782dd654ec.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/registration_video.webm
-        const registration_video_namespaceObject = __webpack_require__.p + "assets/b9a423791933f20bc44c.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/situation_1.webm
-        const situation_1_namespaceObject = __webpack_require__.p + "assets/35c0690ed0f7a7c23ed6.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/situation_2.webm
-        const situation_2_namespaceObject = __webpack_require__.p + "assets/5bec31d2c12b75f6d6bb.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/court_process.webm
-        const court_process_namespaceObject = __webpack_require__.p + "assets/f2ae7ecfe629115cba06.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/court_process_2.webm
-        const court_process_2_namespaceObject = __webpack_require__.p + "assets/372842d8bf7cb138377f.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_1.webm
-        const video_1_namespaceObject = __webpack_require__.p + "assets/35ddfedf642420b18f71.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_2.webm
-        const video_2_namespaceObject = __webpack_require__.p + "assets/fe4eb458f81139d26e25.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_3.webm
-        const video_3_namespaceObject = __webpack_require__.p + "assets/3821b0455771af309471.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_4.webm
-        const video_4_namespaceObject = __webpack_require__.p + "assets/c96eaa3190f346e7e98c.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_5.webm
-        const video_5_namespaceObject = __webpack_require__.p + "assets/b663ed14320627c4b4b4.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_6.webm
-        const video_6_namespaceObject = __webpack_require__.p + "assets/cc0f41f3dcc946cafa1f.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_7.webm
-        const video_7_namespaceObject = __webpack_require__.p + "assets/bf12242fdc29cff92280.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_8.webm
-        const video_8_namespaceObject = __webpack_require__.p + "assets/f6af9b94b05a5eb27bdd.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/quest_new_player/video_9.webm
-        const video_9_namespaceObject = __webpack_require__.p + "assets/b870f9de979e83c67b79.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene1.webm
-        const scene1_namespaceObject = __webpack_require__.p + "assets/bb34fffa9abe8da12a33.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene2.webm
-        const scene2_namespaceObject = __webpack_require__.p + "assets/a83bde2ac3364600f52d.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene3.webm
-        const scene3_namespaceObject = __webpack_require__.p + "assets/0c13e49ccd34e39e7215.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene4.webm
-        const scene4_namespaceObject = __webpack_require__.p + "assets/203682aeedc4442d82b3.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene5.webm
-        const scene5_namespaceObject = __webpack_require__.p + "assets/cb06ba0444710b717989.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene6.webm
-        const scene6_namespaceObject = __webpack_require__.p + "assets/31203e98d5fa24d87984.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/army_quest/scene7.webm
-        const scene7_namespaceObject = __webpack_require__.p + "assets/552dca20b39e0329888e.webm";; // CONCATENATED MODULE: ./src/views/video-background/constants.js
-        var _MAP_NAME_TO_VIDEO_SR, _MAP_VIDEO_IS_CONTROL, _MAP_NAME_TO_CLASS;
-
-        function video_background_constants_typeof(o) {
-            "@babel/helpers - typeof";
-            return video_background_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
-                return typeof o;
-            } : function(o) {
-                return o && "function" == typeof Symbol && o.constructor === Symbol && o !== Symbol.prototype ? "symbol" : typeof o;
-            }, video_background_constants_typeof(o);
-        }
-
-        function video_background_constants_defineProperty(e, r, t) {
-            return (r = video_background_constants_toPropertyKey(r)) in e ? Object.defineProperty(e, r, {
-                value: t,
-                enumerable: !0,
-                configurable: !0,
-                writable: !0
-            }) : e[r] = t, e;
-        }
-
-        function video_background_constants_toPropertyKey(t) {
-            var i = video_background_constants_toPrimitive(t, "string");
-            return "symbol" == video_background_constants_typeof(i) ? i : i + "";
-        }
-
-        function video_background_constants_toPrimitive(t, r) {
-            if ("object" != video_background_constants_typeof(t) || !t) return t;
-            var e = t[Symbol.toPrimitive];
-            if (void 0 !== e) {
-                var i = e.call(t, r || "default");
-                if ("object" != video_background_constants_typeof(i)) return i;
-                throw new TypeError("@@toPrimitive must return a primitive value.");
-            }
-            return ("string" === r ? String : Number)(t);
-        }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        var PlayerStates = {
-            Pause: 'pause',
-            Play: 'play',
-            Mute: 'mute',
-            Unmute: 'unmute'
-        };
-        var MAP_PLAYERSTATE_TO_ICON = video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty({}, PlayerStates.Pause, 'auth-play'), PlayerStates.Play, 'auth-pause'), PlayerStates.Mute, 'auth-volume-high'), PlayerStates.Unmute, 'auth-volume-mute');
-        var Names = {
-            Signin: 'signin',
-            Signup: 'signup',
-            SituationVideo1: 'SituationVideo1',
-            SituationVideo2: 'SituationVideo2',
-            CourtProcessVideo: 'CourtProcessVideo',
-            CourtProcessVideo_2: 'CourtProcessVideo_2',
-            halloweenScene1: 'QuestNewPlayerVideo_1',
-            halloweenScene2: 'QuestNewPlayerVideo_2',
-            halloweenScene3: 'QuestNewPlayerVideo_3',
-            halloweenScene4: 'QuestNewPlayerVideo_4',
-            halloweenScene5: 'QuestNewPlayerVideo_5',
-            halloweenScene6: 'QuestNewPlayerVideo_6',
-            halloweenScene7: 'QuestNewPlayerVideo_7',
-            halloweenScene8: 'QuestNewPlayerVideo_8',
-            halloweenScene9: 'QuestNewPlayerVideo_9',
-            armyQuestScene1: 'QuestArmyVideo1',
-            armyQuestScene2: 'QuestArmyVideo2',
-            armyQuestScene3: 'QuestArmyVideo3',
-            armyQuestScene4: 'QuestArmyVideo4',
-            armyQuestScene5: 'QuestArmyVideo5',
-            armyQuestScene6: 'QuestArmyVideo6',
-            armyQuestScene7: 'QuestArmyVideo7'
-        };
-        var MAP_NAME_TO_VIDEO_SRC = (_MAP_NAME_TO_VIDEO_SR = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.Signin, auth_video_namespaceObject), Names.Signup, registration_video_namespaceObject), Names.SituationVideo1, situation_1_namespaceObject), Names.SituationVideo2, situation_2_namespaceObject), Names.CourtProcessVideo, court_process_namespaceObject), Names.CourtProcessVideo_2, court_process_2_namespaceObject), Names.halloweenScene1, video_1_namespaceObject), Names.halloweenScene2, video_2_namespaceObject), Names.halloweenScene3, video_3_namespaceObject), Names.halloweenScene4, video_4_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.halloweenScene5, video_5_namespaceObject), Names.halloweenScene6, video_6_namespaceObject), Names.halloweenScene7, video_7_namespaceObject), Names.halloweenScene8, video_8_namespaceObject), Names.halloweenScene9, video_9_namespaceObject), Names.armyQuestScene1, scene1_namespaceObject), Names.armyQuestScene2, scene2_namespaceObject), Names.armyQuestScene3, scene3_namespaceObject), Names.armyQuestScene4, scene4_namespaceObject), Names.armyQuestScene5, scene5_namespaceObject), video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_VIDEO_SR, Names.armyQuestScene6, scene6_namespaceObject), Names.armyQuestScene7, scene7_namespaceObject));
-        var MAP_VIDEO_IS_CONTROLABLE = (_MAP_VIDEO_IS_CONTROL = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.Signin, true), Names.Signup, true), Names.SituationVideo1, false), Names.SituationVideo2, false), Names.CourtProcessVideo, false), Names.CourtProcessVideo_2, false), Names.halloweenScene1, false), Names.halloweenScene2, false), Names.halloweenScene3, false), Names.halloweenScene4, false), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.halloweenScene5, false), Names.halloweenScene6, false), Names.halloweenScene7, false), Names.halloweenScene8, false), Names.halloweenScene9, false), Names.armyQuestScene1, false), Names.armyQuestScene2, false), Names.armyQuestScene3, false), Names.armyQuestScene4, false), Names.armyQuestScene5, false), video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_VIDEO_IS_CONTROL, Names.armyQuestScene6, false), Names.armyQuestScene7, false));
-        var MAP_NAME_TO_CLASS = (_MAP_NAME_TO_CLASS = {}, video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.Signin, ''), Names.Signup, ''), Names.SituationVideo1, ''), Names.SituationVideo2, ''), Names.CourtProcessVideo, ''), Names.CourtProcessVideo_2, ''), Names.halloweenScene1, ''), Names.halloweenScene2, ''), Names.halloweenScene3, ''), Names.halloweenScene4, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.halloweenScene5, ''), Names.halloweenScene6, ''), Names.halloweenScene7, ''), Names.halloweenScene8, ''), Names.halloweenScene9, ''), Names.armyQuestScene1, ''), Names.armyQuestScene2, ''), Names.armyQuestScene3, ''), Names.armyQuestScene4, ''), Names.armyQuestScene5, ''), video_background_constants_defineProperty(video_background_constants_defineProperty(_MAP_NAME_TO_CLASS, Names.armyQuestScene6, ''), Names.armyQuestScene7, ''));; // CONCATENATED MODULE: ./src/views/auth/components/sign-in-form/index.svelte
+        const server_info_index_svelte = (Server_info);; // CONCATENATED MODULE: ./src/views/auth/components/sign-in-form/index.svelte
         /* src\views\auth\components\sign-in-form\index.svelte generated by Svelte v4.2.8 */
 
 
@@ -280799,6 +281124,7 @@
             let video;
             let source;
             let source_src_value;
+            let video_loop_value;
             let t;
             let current;
             let if_block = MAP_VIDEO_IS_CONTROLABLE[ /*$videoName*/ ctx[4]] && video_background_index_svelte_create_if_block(ctx);
@@ -280814,7 +281140,7 @@
                     dom_attr(source, "type", "video/webm");
                     video.playsInline = true;
                     video.autoplay = true;
-                    video.loop = true;
+                    video.loop = video_loop_value = MAP_VIDEO_IS_LOOPED[ /*$videoName*/ ctx[4]] !== false;
                     dom_attr(video, "class", "video-background__player");
                     dom_attr(div, "class", "video-background");
                 },
@@ -280831,6 +281157,10 @@
                 p(ctx, [dirty]) {
                     if (!current || dirty & /*videoFile*/ 2 && !utils_src_url_equal(source.src, source_src_value = /*videoFile*/ ctx[1])) {
                         dom_attr(source, "src", source_src_value);
+                    }
+
+                    if (!current || dirty & /*$videoName*/ 16 && video_loop_value !== (video_loop_value = MAP_VIDEO_IS_LOOPED[ /*$videoName*/ ctx[4]] !== false)) {
+                        video.loop = video_loop_value;
                     }
 
                     if (MAP_VIDEO_IS_CONTROLABLE[ /*$videoName*/ ctx[4]]) {
@@ -308355,6 +308685,9 @@
             return ("string" === r ? String : Number)(t);
         }
         var MAX_ENCHANT_LEVEL = 14;
+        var ENCHANT_STONE_ITEM_ID = 1187;
+        var ENCHANT_AMULET_ITEM_ID = 1420;
+        var ARMOUR_SHARPENING_ITEM_ID = 5736;
         var WorkshopTabs = {
             Enchant: 'enchant',
             Repaint: 'repaint',
@@ -308374,7 +308707,7 @@
         var MAP_TAB_TO_DESCRIPTION = workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty({}, WorkshopTabs.Repaint, 'Перенесите предмет, краску и камень заточки в необходимые ячейки.'), WorkshopTabs.Enchant, 'Перенесите предмет и камень заточки в необходимые ячейки.'), WorkshopTabs.Repair, 'Перенесите предмет в ячейку.'), WorkshopTabs.Disassemble, 'Перенесите предмет в ячейку.'), WorkshopTabs.Transfer, 'Перенесите коллекционный и обычный аксессуары в ячейки'), WorkshopTabs.GunAttachment, 'Перенесите профессиональный обвес, заточку обвеса и точильный камень в нужные ячейки.'), WorkshopTabs.GunWeapon, 'Перенесите скин на оружие, заточку на оружие и материалы в нужные ячейки.');
         var MAP_TAB_TO_ACTION = workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty({}, WorkshopTabs.Repaint, 'Перенесите предмет, краску и камень заточки в необходимые ячейки.'), WorkshopTabs.Enchant, 'Перенесите предмет и камень заточки в необходимые ячейки.'), WorkshopTabs.Repair, 'Перенесите предмет в ячейку.'), WorkshopTabs.Disassemble, 'Перенесите предмет в ячейку.');
         var MAP_TAB_TO_START = workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty({}, WorkshopTabs.Repaint, 'Перенесите предмет, краску и камень заточки в необходимые ячейки.'), WorkshopTabs.Enchant, 'Перенесите предмет и камень заточки в необходимые ячейки.'), WorkshopTabs.Repair, 'Перенесите предмет в ячейку.'), WorkshopTabs.Disassemble, 'Перенесите предмет в ячейку.');
-        var MAP_TAB_TO_AMOUNT = workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty({}, WorkshopTabs.Repaint, 7), WorkshopTabs.Enchant, 1), WorkshopTabs.Disassemble, 1), WorkshopTabs.GunAttachment, 1), WorkshopTabs.GunWeapon, 1);
+        var MAP_TAB_TO_AMOUNT = workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty({}, WorkshopTabs.Repaint, 7), WorkshopTabs.Enchant, 0), WorkshopTabs.Disassemble, 1), WorkshopTabs.GunAttachment, 1), WorkshopTabs.GunWeapon, 1);
         var MAP_TAB_TO_CAPTION = workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty({}, WorkshopTabs.Repaint, 'Краска'), WorkshopTabs.Enchant, 'Супер-заточка'), WorkshopTabs.Repair, 'Недоступно'), WorkshopTabs.Disassemble, 'Недоступно'), WorkshopTabs.Transfer, 'Недоступно'), WorkshopTabs.GunAttachment, 'Точильный камень'), WorkshopTabs.GunWeapon, 'Материалы');
         var MAP_TAB_TO_MESSAGE = workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty(workshop_constants_defineProperty({}, WorkshopTabs.Repaint, {
             update: 'updatePaintSlots',
@@ -322504,13 +322837,13 @@
 
         function workshop_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[63] = list[i];
-            child_ctx[65] = i;
+            child_ctx[67] = list[i];
+            child_ctx[69] = i;
             return child_ctx;
         }
 
-        // (438:2) {:else}
-        function workshop_index_svelte_create_else_block(ctx) {
+        // (476:2) {:else}
+        function workshop_index_svelte_create_else_block_1(ctx) {
             let div0;
             let inventorybutton0;
             let t0;
@@ -322533,7 +322866,7 @@
                     color: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    onClick: /*func_2*/ ctx[40],
+                    onClick: /*func_2*/ ctx[43],
                     active: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant
                 }
             });
@@ -322544,7 +322877,7 @@
                     color: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repaint ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    onClick: /*func_3*/ ctx[41],
+                    onClick: /*func_3*/ ctx[44],
                     active: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repaint
                 }
             });
@@ -322555,7 +322888,7 @@
                     color: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repair ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    onClick: /*func_4*/ ctx[42],
+                    onClick: /*func_4*/ ctx[45],
                     active: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repair
                 }
             });
@@ -322566,7 +322899,7 @@
                     color: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Disassemble ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    onClick: /*func_5*/ ctx[43],
+                    onClick: /*func_5*/ ctx[46],
                     active: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Disassemble
                 }
             });
@@ -322577,7 +322910,7 @@
                     color: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Transfer ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    onClick: /*func_6*/ ctx[44],
+                    onClick: /*func_6*/ ctx[47],
                     active: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Transfer
                 }
             });
@@ -322702,8 +323035,8 @@
             };
         }
 
-        // (421:2) {#if $workshopGunContext}
-        function create_if_block_25(ctx) {
+        // (459:2) {#if $workshopGunContext}
+        function create_if_block_26(ctx) {
             let div0;
             let inventorybutton0;
             let t;
@@ -322717,7 +323050,7 @@
                     color: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.GunAttachment ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    onClick: /*func*/ ctx[38],
+                    onClick: /*func*/ ctx[41],
                     active: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.GunAttachment
                 }
             });
@@ -322728,7 +323061,7 @@
                     color: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.GunWeapon ?
                         ButtonColors.WhiteGrey :
                         ButtonColors.Grey,
-                    onClick: /*func_1*/ ctx[39],
+                    onClick: /*func_1*/ ctx[42],
                     active: /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.GunWeapon
                 }
             });
@@ -322793,8 +323126,8 @@
             };
         }
 
-        // (511:62) 
-        function create_if_block_24(ctx) {
+        // (549:62) 
+        function create_if_block_25(ctx) {
             let i;
 
             return {
@@ -322814,8 +323147,8 @@
             };
         }
 
-        // (509:26) 
-        function create_if_block_23(ctx) {
+        // (547:26) 
+        function create_if_block_24(ctx) {
             let img;
             let img_src_value;
 
@@ -322842,24 +323175,29 @@
             };
         }
 
-        // (507:62) 
-        function create_if_block_22(ctx) {
+        // (545:62) 
+        function create_if_block_23(ctx) {
             let img;
             let img_src_value;
 
             return {
                 c() {
                     img = dom_element("img");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*$workshopEnchantItemId*/ ctx[9]}.webp`)) dom_attr(img, "src", img_src_value);
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*$workshopEnchantItemId*/ ctx[10]}.webp`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "class", "workshop__ingredient-item-image workshop__ingredient-item-image--placeholder");
                     dom_attr(img, "alt", "icon");
+                    dom_toggle_class(img, "workshop__ingredient-item-image--optional", ! /*superEnchantRequired*/ ctx[20]);
                 },
                 m(target, anchor) {
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$workshopEnchantItemId*/ 512 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*$workshopEnchantItemId*/ ctx[9]}.webp`)) {
+                    if (dirty[0] & /*$workshopEnchantItemId*/ 1024 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*$workshopEnchantItemId*/ ctx[10]}.webp`)) {
                         dom_attr(img, "src", img_src_value);
+                    }
+
+                    if (dirty[0] & /*superEnchantRequired*/ 1048576) {
+                        dom_toggle_class(img, "workshop__ingredient-item-image--optional", ! /*superEnchantRequired*/ ctx[20]);
                     }
                 },
                 d(detaching) {
@@ -322870,8 +323208,8 @@
             };
         }
 
-        // (505:85) 
-        function index_svelte_create_if_block_21(ctx) {
+        // (543:85) 
+        function create_if_block_22(ctx) {
             let img;
             let img_src_value;
 
@@ -322894,8 +323232,8 @@
             };
         }
 
-        // (503:7) {#if !isEmpty($colorItem)}
-        function index_svelte_create_if_block_20(ctx) {
+        // (541:7) {#if !isEmpty($colorItem)}
+        function index_svelte_create_if_block_21(ctx) {
             let img;
             let img_src_value;
 
@@ -322922,20 +323260,24 @@
             };
         }
 
-        // (514:7) {#if ($workshopCurrentTab !== WorkshopTabs.Repair && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer)}
-        function workshop_index_svelte_create_if_block_19(ctx) {
+        // (552:7) {#if ($workshopCurrentTab !== WorkshopTabs.Repair && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer)}
+        function index_svelte_create_if_block_20(ctx) {
             let div2;
             let div0;
 
             let t0_value = ((0, lodash.isNil)( /*$colorItem*/ ctx[4].amount) ?
                 0 :
-                /*formatCellAmount*/ ctx[29]( /*$colorItem*/ ctx[4].amount)) + "";
+                /*formatCellAmount*/ ctx[31]( /*$colorItem*/ ctx[4].amount)) + "";
 
             let t0;
             let t1;
             let div1;
             let t2;
-            let t3_value = ( /*$workShopColorItemNeedAmount*/ ctx[21] || MAP_TAB_TO_AMOUNT[ /*$workshopCurrentTab*/ ctx[8]]) + "";
+
+            let t3_value = ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant ?
+                /*$workShopColorItemNeedAmount*/ ctx[9] ?? 0 :
+                /*$workShopColorItemNeedAmount*/ ctx[9] || MAP_TAB_TO_AMOUNT[ /*$workshopCurrentTab*/ ctx[8]]) + "";
+
             let t3;
 
             return {
@@ -322963,9 +323305,11 @@
                 p(ctx, dirty) {
                     if (dirty[0] & /*$colorItem*/ 16 && t0_value !== (t0_value = ((0, lodash.isNil)( /*$colorItem*/ ctx[4].amount) ?
                             0 :
-                            /*formatCellAmount*/ ctx[29]( /*$colorItem*/ ctx[4].amount)) + "")) dom_set_data(t0, t0_value);
+                            /*formatCellAmount*/ ctx[31]( /*$colorItem*/ ctx[4].amount)) + "")) dom_set_data(t0, t0_value);
 
-                    if (dirty[0] & /*$workShopColorItemNeedAmount, $workshopCurrentTab*/ 2097408 && t3_value !== (t3_value = ( /*$workShopColorItemNeedAmount*/ ctx[21] || MAP_TAB_TO_AMOUNT[ /*$workshopCurrentTab*/ ctx[8]]) + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*$workshopCurrentTab, $workShopColorItemNeedAmount*/ 768 && t3_value !== (t3_value = ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant ?
+                            /*$workShopColorItemNeedAmount*/ ctx[9] ?? 0 :
+                            /*$workShopColorItemNeedAmount*/ ctx[9] || MAP_TAB_TO_AMOUNT[ /*$workshopCurrentTab*/ ctx[8]]) + "")) dom_set_data(t3, t3_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -322975,8 +323319,8 @@
             };
         }
 
-        // (533:7) {#if !isEmpty($enchantItem)}
-        function workshop_index_svelte_create_if_block_15(ctx) {
+        // (571:7) {#if !isEmpty($enchantItem)}
+        function workshop_index_svelte_create_if_block_16(ctx) {
             let show_if = !(0, lodash.isNil)( /*$enchantItem*/ ctx[6].color);
             let t0;
             let t1;
@@ -322984,9 +323328,9 @@
             let img_src_value;
             let t2;
             let if_block2_anchor;
-            let if_block0 = show_if && workshop_index_svelte_create_if_block_18(ctx);
-            let if_block1 = MAP_ITEM_ID_TO_ANIMATED_EFFECT_GETTER[ /*$enchantItem*/ ctx[6].item] && workshop_index_svelte_create_if_block_17(ctx);
-            let if_block2 = /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_16(ctx);
+            let if_block0 = show_if && workshop_index_svelte_create_if_block_19(ctx);
+            let if_block1 = MAP_ITEM_ID_TO_ANIMATED_EFFECT_GETTER[ /*$enchantItem*/ ctx[6].item] && workshop_index_svelte_create_if_block_18(ctx);
+            let if_block2 = /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_17(ctx);
 
             return {
                 c() {
@@ -323019,7 +323363,7 @@
                         if (if_block0) {
                             if_block0.p(ctx, dirty);
                         } else {
-                            if_block0 = workshop_index_svelte_create_if_block_18(ctx);
+                            if_block0 = workshop_index_svelte_create_if_block_19(ctx);
                             if_block0.c();
                             if_block0.m(t0.parentNode, t0);
                         }
@@ -323032,7 +323376,7 @@
                         if (if_block1) {
                             if_block1.p(ctx, dirty);
                         } else {
-                            if_block1 = workshop_index_svelte_create_if_block_17(ctx);
+                            if_block1 = workshop_index_svelte_create_if_block_18(ctx);
                             if_block1.c();
                             if_block1.m(t1.parentNode, t1);
                         }
@@ -323049,7 +323393,7 @@
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
-                            if_block2 = workshop_index_svelte_create_if_block_16(ctx);
+                            if_block2 = workshop_index_svelte_create_if_block_17(ctx);
                             if_block2.c();
                             if_block2.m(if_block2_anchor.parentNode, if_block2_anchor);
                         }
@@ -323074,8 +323418,8 @@
             };
         }
 
-        // (534:8) {#if !isNil($enchantItem.color)}
-        function workshop_index_svelte_create_if_block_18(ctx) {
+        // (572:8) {#if !isNil($enchantItem.color)}
+        function workshop_index_svelte_create_if_block_19(ctx) {
             let div;
 
             return {
@@ -323100,8 +323444,8 @@
             };
         }
 
-        // (537:32) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT_GETTER[$enchantItem.item]}
-        function workshop_index_svelte_create_if_block_17(ctx) {
+        // (575:32) {#if MAP_ITEM_ID_TO_ANIMATED_EFFECT_GETTER[$enchantItem.item]}
+        function workshop_index_svelte_create_if_block_18(ctx) {
             let img;
             let img_src_value;
             let mounted;
@@ -323118,7 +323462,7 @@
                     dom_insert(target, img, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(img, "error", /*error_handler*/ ctx[47]);
+                        dispose = dom_listen(img, "error", /*error_handler*/ ctx[50]);
                         mounted = true;
                     }
                 },
@@ -323138,8 +323482,8 @@
             };
         }
 
-        // (546:8) {#if $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
-        function workshop_index_svelte_create_if_block_16(ctx) {
+        // (584:8) {#if $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
+        function workshop_index_svelte_create_if_block_17(ctx) {
             let div;
             let t_value = `+${/*$enchantItem*/ ctx[6].enchant || 0}` + "";
             let t;
@@ -323165,8 +323509,8 @@
             };
         }
 
-        // (575:61) 
-        function workshop_index_svelte_create_if_block_14(ctx) {
+        // (617:61) 
+        function workshop_index_svelte_create_if_block_15(ctx) {
             let i;
 
             return {
@@ -323186,7 +323530,28 @@
             };
         }
 
-        // (573:52) 
+        // (615:52) 
+        function workshop_index_svelte_create_if_block_14(ctx) {
+            let i;
+
+            return {
+                c() {
+                    i = dom_element("i");
+                    dom_attr(i, "class", "workshop__lock-icon ui-question");
+                },
+                m(target, anchor) {
+                    dom_insert(target, i, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(i);
+                    }
+                }
+            };
+        }
+
+        // (613:91) 
         function workshop_index_svelte_create_if_block_13(ctx) {
             let i;
 
@@ -323207,7 +323572,7 @@
             };
         }
 
-        // (571:91) 
+        // (611:94) 
         function workshop_index_svelte_create_if_block_12(ctx) {
             let i;
 
@@ -323228,49 +323593,51 @@
             };
         }
 
-        // (569:94) 
-        function workshop_index_svelte_create_if_block_11(ctx) {
-            let i;
-
-            return {
-                c() {
-                    i = dom_element("i");
-                    dom_attr(i, "class", "workshop__lock-icon ui-question");
-                },
-                m(target, anchor) {
-                    dom_insert(target, i, anchor);
-                },
-                p: utils_noop,
-                d(detaching) {
-                    if (detaching) {
-                        dom_detach(i);
-                    }
-                }
-            };
-        }
-
-        // (567:138) 
+        // (605:138) 
         function workshop_index_svelte_create_if_block_10(ctx) {
-            let i;
+            let if_block_anchor;
+
+            function select_block_type_3(ctx, dirty) {
+                if ( /*enchantStuffPlaceholderId*/ ctx[21]) return workshop_index_svelte_create_if_block_11;
+                return workshop_index_svelte_create_else_block;
+            }
+
+            let current_block_type = select_block_type_3(ctx, [-1, -1, -1]);
+            let if_block = current_block_type(ctx);
 
             return {
                 c() {
-                    i = dom_element("i");
-                    dom_attr(i, "class", "workshop__lock-icon ui-question");
+                    if_block.c();
+                    if_block_anchor = empty();
                 },
                 m(target, anchor) {
-                    dom_insert(target, i, anchor);
+                    if_block.m(target, anchor);
+                    dom_insert(target, if_block_anchor, anchor);
                 },
-                p: utils_noop,
+                p(ctx, dirty) {
+                    if (current_block_type === (current_block_type = select_block_type_3(ctx, dirty)) && if_block) {
+                        if_block.p(ctx, dirty);
+                    } else {
+                        if_block.d(1);
+                        if_block = current_block_type(ctx);
+
+                        if (if_block) {
+                            if_block.c();
+                            if_block.m(if_block_anchor.parentNode, if_block_anchor);
+                        }
+                    }
+                },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(i);
+                        dom_detach(if_block_anchor);
                     }
+
+                    if_block.d(detaching);
                 }
             };
         }
 
-        // (565:7) {#if !isEmpty($enchantStuff)}
+        // (603:7) {#if !isEmpty($enchantStuff)}
         function workshop_index_svelte_create_if_block_9(ctx) {
             let img;
             let img_src_value;
@@ -323298,20 +323665,69 @@
             };
         }
 
-        // (578:7) {#if ($workshopCurrentTab === WorkshopTabs.Repaint || $workshopCurrentTab === WorkshopTabs.Enchant) || $workshopCurrentTab === WorkshopTabs.Disassemble || isGunTab}
+        // (608:8) {:else}
+        function workshop_index_svelte_create_else_block(ctx) {
+            let i;
+
+            return {
+                c() {
+                    i = dom_element("i");
+                    dom_attr(i, "class", "workshop__lock-icon ui-question");
+                },
+                m(target, anchor) {
+                    dom_insert(target, i, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(i);
+                    }
+                }
+            };
+        }
+
+        // (606:8) {#if enchantStuffPlaceholderId}
+        function workshop_index_svelte_create_if_block_11(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*enchantStuffPlaceholderId*/ ctx[21]}.webp`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "workshop__ingredient-item-image workshop__ingredient-item-image--placeholder");
+                    dom_attr(img, "alt", "icon");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                p(ctx, dirty) {
+                    if (dirty[0] & /*enchantStuffPlaceholderId*/ 2097152 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*enchantStuffPlaceholderId*/ ctx[21]}.webp`)) {
+                        dom_attr(img, "src", img_src_value);
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (620:7) {#if ($workshopCurrentTab === WorkshopTabs.Repaint || $workshopCurrentTab === WorkshopTabs.Enchant) || $workshopCurrentTab === WorkshopTabs.Disassemble || isGunTab}
         function workshop_index_svelte_create_if_block_8(ctx) {
             let div2;
             let div0;
 
             let t0_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[5].amount) ?
                 0 :
-                /*formatCellAmount*/ ctx[29]( /*$enchantStuff*/ ctx[5].amount)) + "";
+                /*formatCellAmount*/ ctx[31]( /*$enchantStuff*/ ctx[5].amount)) + "";
 
             let t0;
             let t1;
             let div1;
             let t2;
-            let t3_value = ( /*$workShopEnchantStuffNeedAmount*/ ctx[20] || 1) + "";
+            let t3_value = ( /*$workShopEnchantStuffNeedAmount*/ ctx[23] || 1) + "";
             let t3;
 
             return {
@@ -323339,9 +323755,9 @@
                 p(ctx, dirty) {
                     if (dirty[0] & /*$enchantStuff*/ 32 && t0_value !== (t0_value = ((0, lodash.isNil)( /*$enchantStuff*/ ctx[5].amount) ?
                             0 :
-                            /*formatCellAmount*/ ctx[29]( /*$enchantStuff*/ ctx[5].amount)) + "")) dom_set_data(t0, t0_value);
+                            /*formatCellAmount*/ ctx[31]( /*$enchantStuff*/ ctx[5].amount)) + "")) dom_set_data(t0, t0_value);
 
-                    if (dirty[0] & /*$workShopEnchantStuffNeedAmount*/ 1048576 && t3_value !== (t3_value = ( /*$workShopEnchantStuffNeedAmount*/ ctx[20] || 1) + "")) dom_set_data(t3, t3_value);
+                    if (dirty[0] & /*$workShopEnchantStuffNeedAmount*/ 8388608 && t3_value !== (t3_value = ( /*$workShopEnchantStuffNeedAmount*/ ctx[23] || 1) + "")) dom_set_data(t3, t3_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -323351,7 +323767,7 @@
             };
         }
 
-        // (584:7) {#if $workshopCurrentTab === WorkshopTabs.Transfer}
+        // (626:7) {#if $workshopCurrentTab === WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_7(ctx) {
             let div1;
             let div0;
@@ -323391,7 +323807,7 @@
             };
         }
 
-        // (613:170) 
+        // (655:170) 
         function workshop_index_svelte_create_if_block_4(ctx) {
             let div2;
             let show_if_1 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[6]) && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Transfer;
@@ -323414,7 +323830,7 @@
                     if (if_block1) if_block1.c();
                     dom_attr(div0, "class", "workshop__progress-bar-current");
                     set_style(div0, "--transition-time", `${/*transitionTime*/ ctx[1]}ms`);
-                    dom_toggle_class(div0, "workshop__progress-bar-current--filled", /*progressFilled*/ ctx[14]);
+                    dom_toggle_class(div0, "workshop__progress-bar-current--filled", /*progressFilled*/ ctx[15]);
                     dom_attr(div1, "class", "workshop__progress-bar");
                     dom_attr(div2, "class", "workshop__progress-wrapper");
                 },
@@ -323447,8 +323863,8 @@
                         set_style(div0, "--transition-time", `${/*transitionTime*/ ctx[1]}ms`);
                     }
 
-                    if (dirty[0] & /*progressFilled*/ 16384) {
-                        dom_toggle_class(div0, "workshop__progress-bar-current--filled", /*progressFilled*/ ctx[14]);
+                    if (dirty[0] & /*progressFilled*/ 32768) {
+                        dom_toggle_class(div0, "workshop__progress-bar-current--filled", /*progressFilled*/ ctx[15]);
                     }
 
                     if (dirty[0] & /*$enchantItem, $workshopCurrentTab*/ 320) show_if = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[6]) && /*$enchantItem*/ ctx[6].enchant < MAX_ENCHANT_LEVEL && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Transfer;
@@ -323477,7 +323893,7 @@
             };
         }
 
-        // (595:2) {#if $workshopCurrentTab === WorkshopTabs.Repaint}
+        // (637:2) {#if $workshopCurrentTab === WorkshopTabs.Repaint}
         function workshop_index_svelte_create_if_block_1(ctx) {
             let div;
             let each_value = each_ensure_array_like(constants_COLORS);
@@ -323507,7 +323923,7 @@
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*colorIndex, selectColor*/ 16777217) {
+                    if (dirty[0] & /*colorIndex, selectColor*/ 67108865) {
                         each_value = each_ensure_array_like(constants_COLORS);
                         let i;
 
@@ -323540,7 +323956,7 @@
             };
         }
 
-        // (615:4) {#if !isEmpty($enchantItem) && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
+        // (657:4) {#if !isEmpty($enchantItem) && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_6(ctx) {
             let div;
             let t_value = ( /*$enchantItem*/ ctx[6].enchant || 0) + "";
@@ -323567,7 +323983,7 @@
             };
         }
 
-        // (625:4) {#if !isEmpty($enchantItem) && $enchantItem.enchant < MAX_ENCHANT_LEVEL && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
+        // (667:4) {#if !isEmpty($enchantItem) && $enchantItem.enchant < MAX_ENCHANT_LEVEL && $workshopCurrentTab !== WorkshopTabs.Disassemble && $workshopCurrentTab !== WorkshopTabs.Transfer}
         function workshop_index_svelte_create_if_block_5(ctx) {
             let div;
             let t_value = ( /*$enchantItem*/ ctx[6].enchant || 0) + 1 + "";
@@ -323594,7 +324010,7 @@
             };
         }
 
-        // (604:6) {#if index === 0}
+        // (646:6) {#if index === 0}
         function workshop_index_svelte_create_if_block_3(ctx) {
             let i;
 
@@ -323614,7 +324030,7 @@
             };
         }
 
-        // (607:6) {#if colorIndex === index}
+        // (649:6) {#if colorIndex === index}
         function workshop_index_svelte_create_if_block_2(ctx) {
             let i;
 
@@ -323634,18 +324050,18 @@
             };
         }
 
-        // (597:4) {#each COLORS as color, index}
+        // (639:4) {#each COLORS as color, index}
         function workshop_index_svelte_create_each_block(ctx) {
             let div;
             let t0;
             let t1;
             let mounted;
             let dispose;
-            let if_block0 = /*index*/ ctx[65] === 0 && workshop_index_svelte_create_if_block_3(ctx);
-            let if_block1 = /*colorIndex*/ ctx[0] === /*index*/ ctx[65] && workshop_index_svelte_create_if_block_2(ctx);
+            let if_block0 = /*index*/ ctx[69] === 0 && workshop_index_svelte_create_if_block_3(ctx);
+            let if_block1 = /*colorIndex*/ ctx[0] === /*index*/ ctx[69] && workshop_index_svelte_create_if_block_2(ctx);
 
             function click_handler_1() {
-                return /*click_handler_1*/ ctx[53]( /*index*/ ctx[65]);
+                return /*click_handler_1*/ ctx[56]( /*index*/ ctx[69]);
             }
 
             return {
@@ -323656,8 +324072,8 @@
                     if (if_block1) if_block1.c();
                     t1 = dom_space();
                     dom_attr(div, "class", "workshop__color");
-                    set_style(div, "--color", intToRGBA( /*color*/ ctx[63]));
-                    dom_toggle_class(div, "workshop__color--active", /*colorIndex*/ ctx[0] === /*index*/ ctx[65]);
+                    set_style(div, "--color", intToRGBA( /*color*/ ctx[67]));
+                    dom_toggle_class(div, "workshop__color--active", /*colorIndex*/ ctx[0] === /*index*/ ctx[69]);
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -323674,7 +324090,7 @@
                 p(new_ctx, dirty) {
                     ctx = new_ctx;
 
-                    if ( /*colorIndex*/ ctx[0] === /*index*/ ctx[65]) {
+                    if ( /*colorIndex*/ ctx[0] === /*index*/ ctx[69]) {
                         if (if_block1) {
 
                         } else {
@@ -323688,7 +324104,7 @@
                     }
 
                     if (dirty[0] & /*colorIndex*/ 1) {
-                        dom_toggle_class(div, "workshop__color--active", /*colorIndex*/ ctx[0] === /*index*/ ctx[65]);
+                        dom_toggle_class(div, "workshop__color--active", /*colorIndex*/ ctx[0] === /*index*/ ctx[69]);
                     }
                 },
                 d(detaching) {
@@ -323704,7 +324120,7 @@
             };
         }
 
-        // (635:2) {#if $workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer || isGunTab}
+        // (677:2) {#if $workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer || isGunTab}
         function workshop_index_svelte_create_if_block(ctx) {
             let div4;
             let div3;
@@ -323713,8 +324129,8 @@
             let div2;
             let div1;
 
-            let t2_value = ( /*$additionalInfo*/ ctx[22].chance ?
-                `${/*$additionalInfo*/ ctx[22].chance}%` :
+            let t2_value = ( /*$additionalInfo*/ ctx[24].chance ?
+                `${/*$additionalInfo*/ ctx[24].chance}%` :
                 0) + "";
 
             let t2;
@@ -323745,8 +324161,8 @@
                     dom_append(div1, t2);
                 },
                 p(ctx, dirty) {
-                    if (dirty[0] & /*$additionalInfo*/ 4194304 && t2_value !== (t2_value = ( /*$additionalInfo*/ ctx[22].chance ?
-                            `${/*$additionalInfo*/ ctx[22].chance}%` :
+                    if (dirty[0] & /*$additionalInfo*/ 16777216 && t2_value !== (t2_value = ( /*$additionalInfo*/ ctx[24].chance ?
+                            `${/*$additionalInfo*/ ctx[24].chance}%` :
                             0) + "")) dom_set_data(t2, t2_value);
                 },
                 d(detaching) {
@@ -323788,7 +324204,7 @@
             let div6;
 
             let t8_value = ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant ?
-                /*enchantSuperItemCaption*/ ctx[19] :
+                /*enchantSuperItemCaption*/ ctx[22] :
                 MAP_TAB_TO_CAPTION[ /*$workshopCurrentTab*/ ctx[8]]) + "";
 
             let t8;
@@ -323833,7 +324249,7 @@
             let current;
             let mounted;
             let dispose;
-            const if_block_creators = [create_if_block_25, workshop_index_svelte_create_else_block];
+            const if_block_creators = [create_if_block_26, workshop_index_svelte_create_else_block_1];
             const if_blocks = [];
 
             function select_block_type(ctx, dirty) {
@@ -323848,18 +324264,18 @@
                 if (dirty[0] & /*$colorItem*/ 16) show_if_6 = null;
                 if (dirty[0] & /*$workshopCurrentTab, $colorItem*/ 272) show_if_7 = null;
                 if (show_if_6 == null) show_if_6 = !!!(0, lodash.isEmpty)( /*$colorItem*/ ctx[4]);
-                if (show_if_6) return index_svelte_create_if_block_20;
+                if (show_if_6) return index_svelte_create_if_block_21;
                 if (show_if_7 == null) show_if_7 = !!( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repaint && (0, lodash.isEmpty)( /*$colorItem*/ ctx[4]));
-                if (show_if_7) return index_svelte_create_if_block_21;
-                if ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant) return create_if_block_22;
-                if ( /*isGunTab*/ ctx[3]) return create_if_block_23;
-                if ( /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Repaint) return create_if_block_24;
+                if (show_if_7) return create_if_block_22;
+                if ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant) return create_if_block_23;
+                if ( /*isGunTab*/ ctx[3]) return create_if_block_24;
+                if ( /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Repaint) return create_if_block_25;
             }
 
             let current_block_type = select_block_type_1(ctx, [-1, -1, -1]);
             let if_block1 = current_block_type && current_block_type(ctx);
-            let if_block2 = /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Repair && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_19(ctx);
-            let if_block3 = show_if_5 && workshop_index_svelte_create_if_block_15(ctx);
+            let if_block2 = /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Repair && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Disassemble && /*$workshopCurrentTab*/ ctx[8] !== WorkshopTabs.Transfer && index_svelte_create_if_block_20(ctx);
+            let if_block3 = show_if_5 && workshop_index_svelte_create_if_block_16(ctx);
 
             function select_block_type_2(ctx, dirty) {
                 if (dirty[0] & /*$enchantStuff*/ 32) show_if = null;
@@ -323872,12 +324288,12 @@
                 if (show_if_1 == null) show_if_1 = !!(( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repaint || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant) && (0, lodash.isEmpty)( /*$enchantStuff*/ ctx[5]));
                 if (show_if_1) return workshop_index_svelte_create_if_block_10;
                 if (show_if_2 == null) show_if_2 = !!( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Disassemble && (0, lodash.isEmpty)( /*$enchantStuff*/ ctx[5]));
-                if (show_if_2) return workshop_index_svelte_create_if_block_11;
+                if (show_if_2) return workshop_index_svelte_create_if_block_12;
                 if (show_if_3 == null) show_if_3 = !!( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Transfer && (0, lodash.isEmpty)( /*$enchantStuff*/ ctx[5]));
-                if (show_if_3) return workshop_index_svelte_create_if_block_12;
+                if (show_if_3) return workshop_index_svelte_create_if_block_13;
                 if (show_if_4 == null) show_if_4 = !!( /*isGunTab*/ ctx[3] && (0, lodash.isEmpty)( /*$enchantStuff*/ ctx[5]));
-                if (show_if_4) return workshop_index_svelte_create_if_block_13;
-                if ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repair) return workshop_index_svelte_create_if_block_14;
+                if (show_if_4) return workshop_index_svelte_create_if_block_14;
+                if ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repair) return workshop_index_svelte_create_if_block_15;
             }
 
             let current_block_type_1 = select_block_type_2(ctx, [-1, -1, -1]);
@@ -323885,18 +324301,18 @@
             let if_block5 = ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repaint || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Disassemble || /*isGunTab*/ ctx[3]) && workshop_index_svelte_create_if_block_8(ctx);
             let if_block6 = /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Transfer && workshop_index_svelte_create_if_block_7(ctx);
 
-            function select_block_type_3(ctx, dirty) {
+            function select_block_type_4(ctx, dirty) {
                 if ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repaint) return workshop_index_svelte_create_if_block_1;
                 if ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Disassemble || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Transfer || /*isGunTab*/ ctx[3]) return workshop_index_svelte_create_if_block_4;
             }
 
-            let current_block_type_2 = select_block_type_3(ctx, [-1, -1, -1]);
+            let current_block_type_2 = select_block_type_4(ctx, [-1, -1, -1]);
             let if_block7 = current_block_type_2 && current_block_type_2(ctx);
 
             inventorybutton0 = new inventory_button_index_svelte({
                 props: {
                     text: 'Информация',
-                    onClick: /*func_7*/ ctx[54]
+                    onClick: /*func_7*/ ctx[57]
                 }
             });
 
@@ -323904,7 +324320,7 @@
 
             splittedmoney = new splitted_money_index_svelte({
                 props: {
-                    money: /*$additionalInfo*/ ctx[22].cost || 0,
+                    money: /*$additionalInfo*/ ctx[24].cost || 0,
                     type: SplittedMoneyVariation.MeduimSemitrText
                 }
             });
@@ -323912,8 +324328,8 @@
             inventorybutton1 = new inventory_button_index_svelte({
                 props: {
                     text: MAP_TAB_TO_BUTTON_TEXT[ /*$workshopCurrentTab*/ ctx[8]],
-                    onClick: /*start*/ ctx[30],
-                    disabled: ! /*$additionalInfo*/ ctx[22].available || /*disabledButton*/ ctx[13],
+                    onClick: /*start*/ ctx[32],
+                    disabled: ! /*$additionalInfo*/ ctx[24].available || /*disabledButton*/ ctx[14],
                     color: 'yellow'
                 }
             });
@@ -323983,22 +324399,22 @@
                     div23 = dom_element("div");
                     create_component(inventorybutton1.$$.fragment);
                     dom_attr(div0, "class", "workshop__tabs-control");
-                    dom_attr(div1, "class", div1_class_value = "workshop__gradient workshop__gradient--" + /*resultClass*/ ctx[15]);
+                    dom_attr(div1, "class", div1_class_value = "workshop__gradient workshop__gradient--" + /*resultClass*/ ctx[16]);
                     dom_attr(div2, "class", "workshop__title");
                     dom_attr(div3, "class", "workshop__caption");
                     dom_attr(div4, "class", "workshop__title-wrapper");
                     dom_attr(div5, "class", "workshop__ingredient-item");
-                    dom_toggle_class(div5, "workshop__ingredient-item--highlight", /*colorHighlight*/ ctx[18]);
+                    dom_toggle_class(div5, "workshop__ingredient-item--highlight", /*colorHighlight*/ ctx[19]);
                     dom_toggle_class(div5, "workshop__ingredient-item--lock", /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repair || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Disassemble || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Transfer);
                     dom_attr(div6, "class", "workshop__ingredient-caption workshop__ingredient-caption--min");
                     dom_toggle_class(div6, "workshop__ingredient-caption--disabled", true);
                     dom_attr(div7, "class", "workshop__ingredient");
                     dom_attr(div8, "class", "workshop__ingredient-item workshop__ingredient-item--big");
-                    dom_toggle_class(div8, "workshop__ingredient-item--highlight", /*enchantItemHighlight*/ ctx[16]);
+                    dom_toggle_class(div8, "workshop__ingredient-item--highlight", /*enchantItemHighlight*/ ctx[17]);
                     dom_attr(div9, "class", "workshop__ingredient-caption");
                     dom_attr(div10, "class", "workshop__ingredient");
                     dom_attr(div11, "class", "workshop__ingredient-item");
-                    dom_toggle_class(div11, "workshop__ingredient-item--highlight", /*enchantStuffHighlight*/ ctx[17]);
+                    dom_toggle_class(div11, "workshop__ingredient-item--highlight", /*enchantStuffHighlight*/ ctx[18]);
                     dom_toggle_class(div11, "workshop__ingredient-item--lock", /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repair);
                     dom_attr(div12, "class", "workshop__ingredient-caption workshop__ingredient-caption--min");
                     dom_attr(div13, "class", "workshop__ingredient");
@@ -324012,7 +324428,7 @@
                     dom_attr(div21, "class", "workshop__price");
                     dom_attr(div22, "class", "workshop__menu-item");
                     dom_attr(div23, "class", "workshop__menu-item");
-                    dom_toggle_class(div23, "workshop__menu-item--button", /*$additionalInfo*/ ctx[22].available || /*disabledButton*/ ctx[13]);
+                    dom_toggle_class(div23, "workshop__menu-item--button", /*$additionalInfo*/ ctx[24].available || /*disabledButton*/ ctx[14]);
                     dom_attr(div24, "class", "workshop__menu-panel");
                     dom_attr(div25, "class", "workshop");
                 },
@@ -324082,18 +324498,18 @@
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div7, "mouseenter", /*mouseenter_handler*/ ctx[45]),
-                            dom_listen(div7, "mouseleave", /*mouseleave_handler*/ ctx[46]),
-                            dom_listen(div7, "mouseup", /*handleMouseUp*/ ctx[25]),
-                            dom_listen(div7, "click", /*clearColorItem*/ ctx[28]),
-                            dom_listen(div10, "mouseenter", /*mouseenter_handler_1*/ ctx[48]),
-                            dom_listen(div10, "mouseleave", /*mouseleave_handler_1*/ ctx[49]),
-                            dom_listen(div10, "mouseup", /*handleMouseUp*/ ctx[25]),
-                            dom_listen(div10, "click", /*click_handler*/ ctx[50]),
-                            dom_listen(div13, "mouseenter", /*mouseenter_handler_2*/ ctx[51]),
-                            dom_listen(div13, "mouseleave", /*mouseleave_handler_2*/ ctx[52]),
-                            dom_listen(div13, "mouseup", /*handleMouseUp*/ ctx[25]),
-                            dom_listen(div13, "click", /*clearEnchantStuff*/ ctx[27])
+                            dom_listen(div7, "mouseenter", /*mouseenter_handler*/ ctx[48]),
+                            dom_listen(div7, "mouseleave", /*mouseleave_handler*/ ctx[49]),
+                            dom_listen(div7, "mouseup", /*handleMouseUp*/ ctx[27]),
+                            dom_listen(div7, "click", /*clearColorItem*/ ctx[30]),
+                            dom_listen(div10, "mouseenter", /*mouseenter_handler_1*/ ctx[51]),
+                            dom_listen(div10, "mouseleave", /*mouseleave_handler_1*/ ctx[52]),
+                            dom_listen(div10, "mouseup", /*handleMouseUp*/ ctx[27]),
+                            dom_listen(div10, "click", /*click_handler*/ ctx[53]),
+                            dom_listen(div13, "mouseenter", /*mouseenter_handler_2*/ ctx[54]),
+                            dom_listen(div13, "mouseleave", /*mouseleave_handler_2*/ ctx[55]),
+                            dom_listen(div13, "mouseup", /*handleMouseUp*/ ctx[27]),
+                            dom_listen(div13, "click", /*clearEnchantStuff*/ ctx[29])
                         ];
 
                         mounted = true;
@@ -324126,7 +324542,7 @@
                         if_block0.m(div0, null);
                     }
 
-                    if (!current || dirty[0] & /*resultClass*/ 32768 && div1_class_value !== (div1_class_value = "workshop__gradient workshop__gradient--" + /*resultClass*/ ctx[15])) {
+                    if (!current || dirty[0] & /*resultClass*/ 65536 && div1_class_value !== (div1_class_value = "workshop__gradient workshop__gradient--" + /*resultClass*/ ctx[16])) {
                         dom_attr(div1, "class", div1_class_value);
                     }
 
@@ -324149,7 +324565,7 @@
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
-                            if_block2 = workshop_index_svelte_create_if_block_19(ctx);
+                            if_block2 = index_svelte_create_if_block_20(ctx);
                             if_block2.c();
                             if_block2.m(div5, null);
                         }
@@ -324158,16 +324574,16 @@
                         if_block2 = null;
                     }
 
-                    if (!current || dirty[0] & /*colorHighlight*/ 262144) {
-                        dom_toggle_class(div5, "workshop__ingredient-item--highlight", /*colorHighlight*/ ctx[18]);
+                    if (!current || dirty[0] & /*colorHighlight*/ 524288) {
+                        dom_toggle_class(div5, "workshop__ingredient-item--highlight", /*colorHighlight*/ ctx[19]);
                     }
 
                     if (!current || dirty[0] & /*$workshopCurrentTab*/ 256) {
                         dom_toggle_class(div5, "workshop__ingredient-item--lock", /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Repair || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Disassemble || /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Transfer);
                     }
 
-                    if ((!current || dirty[0] & /*$workshopCurrentTab, enchantSuperItemCaption*/ 524544) && t8_value !== (t8_value = ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant ?
-                            /*enchantSuperItemCaption*/ ctx[19] :
+                    if ((!current || dirty[0] & /*$workshopCurrentTab, enchantSuperItemCaption*/ 4194560) && t8_value !== (t8_value = ( /*$workshopCurrentTab*/ ctx[8] === WorkshopTabs.Enchant ?
+                            /*enchantSuperItemCaption*/ ctx[22] :
                             MAP_TAB_TO_CAPTION[ /*$workshopCurrentTab*/ ctx[8]]) + "")) dom_set_data(t8, t8_value);
 
                     if (dirty[0] & /*$enchantItem*/ 64) show_if_5 = !(0, lodash.isEmpty)( /*$enchantItem*/ ctx[6]);
@@ -324176,7 +324592,7 @@
                         if (if_block3) {
                             if_block3.p(ctx, dirty);
                         } else {
-                            if_block3 = workshop_index_svelte_create_if_block_15(ctx);
+                            if_block3 = workshop_index_svelte_create_if_block_16(ctx);
                             if_block3.c();
                             if_block3.m(div8, null);
                         }
@@ -324185,8 +324601,8 @@
                         if_block3 = null;
                     }
 
-                    if (!current || dirty[0] & /*enchantItemHighlight*/ 65536) {
-                        dom_toggle_class(div8, "workshop__ingredient-item--highlight", /*enchantItemHighlight*/ ctx[16]);
+                    if (!current || dirty[0] & /*enchantItemHighlight*/ 131072) {
+                        dom_toggle_class(div8, "workshop__ingredient-item--highlight", /*enchantItemHighlight*/ ctx[17]);
                     }
 
                     if ((!current || dirty[0] & /*$workshopCurrentTab*/ 256) && t11_value !== (t11_value = MAP_TAB_TO_MAIN_ITEM_TITLE[ /*$workshopCurrentTab*/ ctx[8]] + "")) dom_set_data(t11, t11_value);
@@ -324229,8 +324645,8 @@
                         if_block6 = null;
                     }
 
-                    if (!current || dirty[0] & /*enchantStuffHighlight*/ 131072) {
-                        dom_toggle_class(div11, "workshop__ingredient-item--highlight", /*enchantStuffHighlight*/ ctx[17]);
+                    if (!current || dirty[0] & /*enchantStuffHighlight*/ 262144) {
+                        dom_toggle_class(div11, "workshop__ingredient-item--highlight", /*enchantStuffHighlight*/ ctx[18]);
                     }
 
                     if (!current || dirty[0] & /*$workshopCurrentTab*/ 256) {
@@ -324239,7 +324655,7 @@
 
                     if ((!current || dirty[0] & /*$workshopCurrentTab*/ 256) && t16_value !== (t16_value = MAP_TAB_TO_SEC_ITEM_TITLE[ /*$workshopCurrentTab*/ ctx[8]] + "")) dom_set_data(t16, t16_value);
 
-                    if (current_block_type_2 === (current_block_type_2 = select_block_type_3(ctx, dirty)) && if_block7) {
+                    if (current_block_type_2 === (current_block_type_2 = select_block_type_4(ctx, dirty)) && if_block7) {
                         if_block7.p(ctx, dirty);
                     } else {
                         if (if_block7) if_block7.d(1);
@@ -324265,15 +324681,15 @@
                     }
 
                     const splittedmoney_changes = {};
-                    if (dirty[0] & /*$additionalInfo*/ 4194304) splittedmoney_changes.money = /*$additionalInfo*/ ctx[22].cost || 0;
+                    if (dirty[0] & /*$additionalInfo*/ 16777216) splittedmoney_changes.money = /*$additionalInfo*/ ctx[24].cost || 0;
                     splittedmoney.$set(splittedmoney_changes);
                     const inventorybutton1_changes = {};
                     if (dirty[0] & /*$workshopCurrentTab*/ 256) inventorybutton1_changes.text = MAP_TAB_TO_BUTTON_TEXT[ /*$workshopCurrentTab*/ ctx[8]];
-                    if (dirty[0] & /*$additionalInfo, disabledButton*/ 4202496) inventorybutton1_changes.disabled = ! /*$additionalInfo*/ ctx[22].available || /*disabledButton*/ ctx[13];
+                    if (dirty[0] & /*$additionalInfo, disabledButton*/ 16793600) inventorybutton1_changes.disabled = ! /*$additionalInfo*/ ctx[24].available || /*disabledButton*/ ctx[14];
                     inventorybutton1.$set(inventorybutton1_changes);
 
-                    if (!current || dirty[0] & /*$additionalInfo, disabledButton*/ 4202496) {
-                        dom_toggle_class(div23, "workshop__menu-item--button", /*$additionalInfo*/ ctx[22].available || /*disabledButton*/ ctx[13]);
+                    if (!current || dirty[0] & /*$additionalInfo, disabledButton*/ 16793600) {
+                        dom_toggle_class(div23, "workshop__menu-item--button", /*$additionalInfo*/ ctx[24].available || /*disabledButton*/ ctx[14]);
                     }
                 },
                 i(local) {
@@ -324332,11 +324748,14 @@
             let gunStuffItemId;
             let enchantSuperItem;
             let enchantSuperItemCaption;
+            let enchantStuffPlaceholderId;
+            let superEnchantRequired;
             let $workshopResult;
             let $workshopTimer;
             let $colorItem;
             let $enchantStuff;
             let $enchantItem;
+            let $workshopStoneItemId;
             let $workshopGunContext;
             let $workShopOpened;
             let $inventories;
@@ -324347,21 +324766,22 @@
             let $workshopEnchantItemId;
             let $ITEMS;
             let $additionalInfo;
-            utils_component_subscribe($$self, workshopResult, $$value => $$invalidate(33, $workshopResult = $$value));
-            utils_component_subscribe($$self, workshopTimer, $$value => $$invalidate(34, $workshopTimer = $$value));
+            utils_component_subscribe($$self, workshopResult, $$value => $$invalidate(35, $workshopResult = $$value));
+            utils_component_subscribe($$self, workshopTimer, $$value => $$invalidate(36, $workshopTimer = $$value));
             utils_component_subscribe($$self, colorItem, $$value => $$invalidate(4, $colorItem = $$value));
             utils_component_subscribe($$self, enchantStuff, $$value => $$invalidate(5, $enchantStuff = $$value));
             utils_component_subscribe($$self, enchantItem, $$value => $$invalidate(6, $enchantItem = $$value));
+            utils_component_subscribe($$self, workshopStoneItemId, $$value => $$invalidate(37, $workshopStoneItemId = $$value));
             utils_component_subscribe($$self, workshopGunContext, $$value => $$invalidate(7, $workshopGunContext = $$value));
-            utils_component_subscribe($$self, workShopOpened, $$value => $$invalidate(56, $workShopOpened = $$value));
-            utils_component_subscribe($$self, inventories, $$value => $$invalidate(35, $inventories = $$value));
+            utils_component_subscribe($$self, workShopOpened, $$value => $$invalidate(59, $workShopOpened = $$value));
+            utils_component_subscribe($$self, inventories, $$value => $$invalidate(38, $inventories = $$value));
             utils_component_subscribe($$self, workshopCurrentTab, $$value => $$invalidate(8, $workshopCurrentTab = $$value));
-            utils_component_subscribe($$self, inventoryCurrentItem, $$value => $$invalidate(36, $inventoryCurrentItem = $$value));
-            utils_component_subscribe($$self, workShopEnchantStuffNeedAmount, $$value => $$invalidate(20, $workShopEnchantStuffNeedAmount = $$value));
-            utils_component_subscribe($$self, workShopColorItemNeedAmount, $$value => $$invalidate(21, $workShopColorItemNeedAmount = $$value));
-            utils_component_subscribe($$self, workshopEnchantItemId, $$value => $$invalidate(9, $workshopEnchantItemId = $$value));
-            utils_component_subscribe($$self, ITEMS, $$value => $$invalidate(37, $ITEMS = $$value));
-            utils_component_subscribe($$self, additionalInfo, $$value => $$invalidate(22, $additionalInfo = $$value));
+            utils_component_subscribe($$self, inventoryCurrentItem, $$value => $$invalidate(39, $inventoryCurrentItem = $$value));
+            utils_component_subscribe($$self, workShopEnchantStuffNeedAmount, $$value => $$invalidate(23, $workShopEnchantStuffNeedAmount = $$value));
+            utils_component_subscribe($$self, workShopColorItemNeedAmount, $$value => $$invalidate(9, $workShopColorItemNeedAmount = $$value));
+            utils_component_subscribe($$self, workshopEnchantItemId, $$value => $$invalidate(10, $workshopEnchantItemId = $$value));
+            utils_component_subscribe($$self, ITEMS, $$value => $$invalidate(40, $ITEMS = $$value));
+            utils_component_subscribe($$self, additionalInfo, $$value => $$invalidate(24, $additionalInfo = $$value));
 
             utils_set_store_value(
                 workshopCurrentTab,
@@ -324372,6 +324792,34 @@
             );
 
             const isEnchantSuperItem = item => Number(item?.item) === $workshopEnchantItemId;
+
+            // Картинка-подсказка для пустой ячейки заточки: зависит от предмета в центральной ячейке.
+            // Приоритет у stoneItemId с сервера (учитывает предметы, которые точатся только амулетом),
+            // иначе по типу: бронежилет — заточка для бронежилета; нашивки — только точильный амулет;
+            // аксессуары/скины — точильный камень (амулет тоже подходит, но показываем камень).
+            const getEnchantStuffPlaceholderId = item => {
+                if ((0, lodash.isEmpty)(item)) {
+                    return null;
+                }
+
+                if ($workshopStoneItemId > 0) {
+                    return $workshopStoneItemId;
+                }
+
+                switch (item.item_type) {
+                    case ITEM_TYPES.ITEM_TYPE_IMPROV:
+                        return ARMOUR_SHARPENING_ITEM_ID;
+                    case ITEM_TYPES.ITEM_TYPE_STRIPE:
+                    case ITEM_TYPES.ITEM_TYPE_STRIPE_WEAPON:
+                        return ENCHANT_AMULET_ITEM_ID;
+                    case ITEM_TYPES.ITEM_TYPE_ACCESSORIES:
+                    case ITEM_TYPES.ITEM_TYPE_SKIN:
+                        return ENCHANT_STONE_ITEM_ID;
+                }
+
+                return null;
+            };
+
             let enchantItemHovered = false;
             let enchantStuffHovered = false;
             let colorSlotHovered = false;
@@ -324404,7 +324852,7 @@
 
             setTimeout(
                 () => {
-                    $$invalidate(14, progressFilled = false);
+                    $$invalidate(15, progressFilled = false);
                 },
                 5
             );
@@ -324465,7 +324913,7 @@
 
                 if (enchantItemHovered && (isGunTab ?
                         GUN_MAIN_ITEM_TYPES_BY_TAB[$workshopCurrentTab]?.includes($inventoryCurrentItem.item.item_type) :
-                        enchantItemsPool.includes($inventoryCurrentItem.item.item_type)) && !isEnchantSuperItem($inventoryCurrentItem.item) && !ITEMS_INSTRUCTION_DISASSEMLY.includes($inventoryCurrentItem.item.item)) {
+                        enchantItemsPool.includes($inventoryCurrentItem.item.item_type) || $workshopCurrentTab === WorkshopTabs.Enchant && $inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_IMPROV) && !isEnchantSuperItem($inventoryCurrentItem.item) && !ITEMS_INSTRUCTION_DISASSEMLY.includes($inventoryCurrentItem.item.item)) {
                     utils_set_store_value(enchantItem, $enchantItem = $inventoryCurrentItem.item, $enchantItem);
                     enchantProperties.index = $enchantItem.slot;
                 }
@@ -324514,6 +324962,9 @@
                 utils_set_store_value(enchantItem, $enchantItem = {}, $enchantItem);
                 utils_set_store_value(enchantStuff, $enchantStuff = {}, $enchantStuff);
                 utils_set_store_value(colorItem, $colorItem = {}, $colorItem);
+                utils_set_store_value(workShopColorItemNeedAmount, $workShopColorItemNeedAmount = undefined, $workShopColorItemNeedAmount);
+                utils_set_store_value(workShopEnchantStuffNeedAmount, $workShopEnchantStuffNeedAmount = undefined, $workShopEnchantStuffNeedAmount);
+                utils_set_store_value(workshopStoneItemId, $workshopStoneItemId = 0, $workshopStoneItemId);
 
                 enchantProperties = {
                     index: -1,
@@ -324586,12 +325037,13 @@
 
                 utils_set_store_value(workShopOpened, $workShopOpened = false, $workShopOpened);
                 utils_set_store_value(workshopGunContext, $workshopGunContext = false, $workshopGunContext);
+                utils_set_store_value(workshopStoneItemId, $workshopStoneItemId = 0, $workshopStoneItemId);
                 utils_set_store_value(enchantItem, $enchantItem = {}, $enchantItem);
                 utils_set_store_value(enchantStuff, $enchantStuff = {}, $enchantStuff);
                 utils_set_store_value(colorItem, $colorItem = {}, $colorItem);
                 utils_set_store_value(workshopTimer, $workshopTimer = -1, $workshopTimer);
                 utils_set_store_value(workshopResult, $workshopResult = null, $workshopResult);
-                $$invalidate(14, progressFilled = false);
+                $$invalidate(15, progressFilled = false);
                 $$invalidate(1, transitionTime = 0);
             });
 
@@ -324602,19 +325054,19 @@
             const func_4 = () => changeTab(WorkshopTabs.Repair);
             const func_5 = () => changeTab(WorkshopTabs.Disassemble);
             const func_6 = () => changeTab(WorkshopTabs.Transfer);
-            const mouseenter_handler = () => $$invalidate(12, colorSlotHovered = true);
-            const mouseleave_handler = () => $$invalidate(12, colorSlotHovered = false);
+            const mouseenter_handler = () => $$invalidate(13, colorSlotHovered = true);
+            const mouseleave_handler = () => $$invalidate(13, colorSlotHovered = false);
 
             const error_handler = e => {
                 const g = MAP_ITEM_ID_TO_ANIMATED_EFFECT_CDN_GETTER[$enchantItem.item];
                 if (g && e.target.src !== g()) e.target.src = g();
             };
 
-            const mouseenter_handler_1 = () => $$invalidate(10, enchantItemHovered = true);
-            const mouseleave_handler_1 = () => $$invalidate(10, enchantItemHovered = false);
+            const mouseenter_handler_1 = () => $$invalidate(11, enchantItemHovered = true);
+            const mouseleave_handler_1 = () => $$invalidate(11, enchantItemHovered = false);
             const click_handler = () => clearEnchantItem();
-            const mouseenter_handler_2 = () => $$invalidate(11, enchantStuffHovered = true);
-            const mouseleave_handler_2 = () => $$invalidate(11, enchantStuffHovered = false);
+            const mouseenter_handler_2 = () => $$invalidate(12, enchantStuffHovered = true);
+            const mouseleave_handler_2 = () => $$invalidate(12, enchantStuffHovered = false);
             const click_handler_1 = index => selectColor(index);
             const func_7 = () => cef_sendClientMessage('workshop.info');
 
@@ -324638,107 +325090,18 @@
                 }
 
                 if ($$self.$$.dirty[0] & /*$workshopCurrentTab*/ 256) {
-                    $: $$invalidate(31, gunStuffItemId = GUN_STUFF_ITEM_BY_TAB[$workshopCurrentTab]);
+                    $: $$invalidate(33, gunStuffItemId = GUN_STUFF_ITEM_BY_TAB[$workshopCurrentTab]);
                 }
 
-                if ($$self.$$.dirty[0] & /*$workshopEnchantItemId*/ 512 | $$self.$$.dirty[1] & /*$ITEMS*/ 64) {
-                    $: $$invalidate(32, enchantSuperItem = $ITEMS[$workshopEnchantItemId]);
+                if ($$self.$$.dirty[0] & /*$workshopEnchantItemId*/ 1024 | $$self.$$.dirty[1] & /*$ITEMS*/ 512) {
+                    $: $$invalidate(34, enchantSuperItem = $ITEMS[$workshopEnchantItemId]);
                 }
 
-                if ($$self.$$.dirty[1] & /*enchantSuperItem*/ 2) {
-                    $: $$invalidate(19, enchantSuperItemCaption = enchantSuperItem?.name || MAP_TAB_TO_CAPTION[WorkshopTabs.Enchant]);
+                if ($$self.$$.dirty[1] & /*enchantSuperItem*/ 8) {
+                    $: $$invalidate(22, enchantSuperItemCaption = enchantSuperItem?.name || MAP_TAB_TO_CAPTION[WorkshopTabs.Enchant]);
                 }
 
-                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, isGunTab, transitionTime*/ 266 | $$self.$$.dirty[1] & /*$workshopTimer*/ 8) {
-                    $: {
-                        if ($workshopTimer > 0 && $workshopCurrentTab === WorkshopTabs.Repaint) {
-                            utils_set_store_value(workshopTimer, $workshopTimer = -1, $workshopTimer);
-                            $$invalidate(1, transitionTime = 0);
-                            $$invalidate(14, progressFilled = false);
-                        }
-
-                        if ($workshopTimer > 0 && ($workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer || isGunTab)) {
-                            $$invalidate(13, disabledButton = true);
-                            $$invalidate(1, transitionTime = $workshopTimer - moment_default()().unix() - 150);
-
-                            setTimeout(
-                                () => {
-                                    $$invalidate(14, progressFilled = true);
-                                },
-                                25
-                            );
-
-                            setTimeout(
-                                () => {
-                                    $$invalidate(14, progressFilled = false);
-                                    $$invalidate(13, disabledButton = false);
-                                    utils_set_store_value(workshopTimer, $workshopTimer = -1, $workshopTimer);
-                                    $$invalidate(1, transitionTime = 0);
-                                },
-                                transitionTime
-                            );
-                        }
-                    }
-                }
-
-                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, gunSuperItemId*/ 260 | $$self.$$.dirty[1] & /*$inventoryCurrentItem, gunStuffItemId*/ 33) {
-                    $: {
-                        if (!(0, lodash.isEmpty)($inventoryCurrentItem) && $inventoryCurrentItem.status === DndStatuses.Drag) {
-                            switch ($workshopCurrentTab) {
-                                case WorkshopTabs.Repaint:
-                                    if ($inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ENCHANT || $inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING) {
-                                        $$invalidate(17, enchantStuffHighlight = true);
-                                    } else if ($inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_DYE) {
-                                        $$invalidate(18, colorHighlight = true);
-                                    } else if ($inventoryCurrentItem.item.item_type !== ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED) {
-                                        $$invalidate(16, enchantItemHighlight = true);
-                                    }
-                                    break;
-                                case WorkshopTabs.Enchant:
-                                    if ($inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ENCHANT || $inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING) {
-                                        $$invalidate(17, enchantStuffHighlight = true);
-                                    } else if (isEnchantSuperItem($inventoryCurrentItem.item)) {
-                                        $$invalidate(18, colorHighlight = true);
-                                    } else if ($inventoryCurrentItem.item.item_type !== ITEM_TYPES.ITEM_TYPE_DYE && $inventoryCurrentItem.item.item_type !== ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED) {
-                                        $$invalidate(16, enchantItemHighlight = true);
-                                    }
-                                    break;
-                                case WorkshopTabs.Repair:
-                                    $$invalidate(16, enchantItemHighlight = true);
-                                    break;
-                                case WorkshopTabs.Disassemble:
-                                    if (ITEMS_INSTRUCTION_DISASSEMLY.includes($inventoryCurrentItem.item.item)) {
-                                        $$invalidate(17, enchantStuffHighlight = true);
-                                    } else {
-                                        $$invalidate(16, enchantItemHighlight = true);
-                                    }
-                                    break;
-                                case WorkshopTabs.Transfer:
-                                    if ($inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_ACCESSORIES || $inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_IMPROV) {
-                                        $$invalidate(17, enchantStuffHighlight = true);
-                                        $$invalidate(16, enchantItemHighlight = true);
-                                    }
-                                    break;
-                                case WorkshopTabs.GunAttachment:
-                                case WorkshopTabs.GunWeapon:
-                                    if (GUN_MAIN_ITEM_TYPES_BY_TAB[$workshopCurrentTab]?.includes($inventoryCurrentItem.item.item_type)) {
-                                        $$invalidate(16, enchantItemHighlight = true);
-                                    } else if ($inventoryCurrentItem.item.item === gunStuffItemId) {
-                                        $$invalidate(17, enchantStuffHighlight = true);
-                                    } else if ($inventoryCurrentItem.item.item === gunSuperItemId) {
-                                        $$invalidate(18, colorHighlight = true);
-                                    }
-                                    break;
-                            }
-                        } else {
-                            $$invalidate(16, enchantItemHighlight = false);
-                            $$invalidate(17, enchantStuffHighlight = false);
-                            $$invalidate(18, colorHighlight = false);
-                        }
-                    }
-                }
-
-                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, $enchantItem, $enchantStuff, $colorItem*/ 368 | $$self.$$.dirty[1] & /*$workshopResult, $inventories*/ 20) {
+                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, $enchantItem, $enchantStuff, $colorItem*/ 368 | $$self.$$.dirty[1] & /*$workshopResult, $inventories*/ 144) {
                     $: {
                         if (!(0, lodash.isNil)($workshopResult)) {
                             if ($workshopCurrentTab === WorkshopTabs.Repair || ($workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer) && $workshopResult) {
@@ -324772,7 +325135,7 @@
 
                             setTimeout(
                                 () => {
-                                    $$invalidate(15, resultClass = $workshopResult === 1 ? 'green' : 'red');
+                                    $$invalidate(16, resultClass = $workshopResult === 1 ? 'green' : 'red');
                                 },
                                 420
                             );
@@ -324780,7 +325143,7 @@
                             setTimeout(
                                 () => {
                                     utils_set_store_value(workshopResult, $workshopResult = null, $workshopResult);
-                                    $$invalidate(15, resultClass = '');
+                                    $$invalidate(16, resultClass = '');
                                 },
                                 2400
                             );
@@ -324788,7 +325151,106 @@
                     }
                 }
 
-                if ($$self.$$.dirty[0] & /*$enchantItem, $enchantStuff, $colorItem, colorIndex*/ 113 | $$self.$$.dirty[1] & /*$workshopTimer*/ 8) {
+                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, $enchantItem*/ 320 | $$self.$$.dirty[1] & /*$workshopStoneItemId*/ 64) {
+                    $: $$invalidate(21, enchantStuffPlaceholderId = $workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Repaint ?
+                        getEnchantStuffPlaceholderId($enchantItem, $workshopStoneItemId) :
+                        null);
+                }
+
+                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, $workShopColorItemNeedAmount*/ 768) {
+                    $: $$invalidate(20, superEnchantRequired = $workshopCurrentTab !== WorkshopTabs.Enchant || ($workShopColorItemNeedAmount ?? 0) > 0);
+                }
+
+                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, isGunTab, transitionTime*/ 266 | $$self.$$.dirty[1] & /*$workshopTimer*/ 32) {
+                    $: {
+                        if ($workshopTimer > 0 && $workshopCurrentTab === WorkshopTabs.Repaint) {
+                            utils_set_store_value(workshopTimer, $workshopTimer = -1, $workshopTimer);
+                            $$invalidate(1, transitionTime = 0);
+                            $$invalidate(15, progressFilled = false);
+                        }
+
+                        if ($workshopTimer > 0 && ($workshopCurrentTab === WorkshopTabs.Enchant || $workshopCurrentTab === WorkshopTabs.Disassemble || $workshopCurrentTab === WorkshopTabs.Transfer || isGunTab)) {
+                            $$invalidate(14, disabledButton = true);
+                            $$invalidate(1, transitionTime = $workshopTimer - moment_default()().unix() - 150);
+
+                            setTimeout(
+                                () => {
+                                    $$invalidate(15, progressFilled = true);
+                                },
+                                25
+                            );
+
+                            setTimeout(
+                                () => {
+                                    $$invalidate(15, progressFilled = false);
+                                    $$invalidate(14, disabledButton = false);
+                                    utils_set_store_value(workshopTimer, $workshopTimer = -1, $workshopTimer);
+                                    $$invalidate(1, transitionTime = 0);
+                                },
+                                transitionTime
+                            );
+                        }
+                    }
+                }
+
+                if ($$self.$$.dirty[0] & /*$workshopCurrentTab, gunSuperItemId*/ 260 | $$self.$$.dirty[1] & /*$inventoryCurrentItem, gunStuffItemId*/ 260) {
+                    $: {
+                        if (!(0, lodash.isEmpty)($inventoryCurrentItem) && $inventoryCurrentItem.status === DndStatuses.Drag) {
+                            switch ($workshopCurrentTab) {
+                                case WorkshopTabs.Repaint:
+                                    if ($inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ENCHANT || $inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING) {
+                                        $$invalidate(18, enchantStuffHighlight = true);
+                                    } else if ($inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_DYE) {
+                                        $$invalidate(19, colorHighlight = true);
+                                    } else if ($inventoryCurrentItem.item.item_type !== ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED) {
+                                        $$invalidate(17, enchantItemHighlight = true);
+                                    }
+                                    break;
+                                case WorkshopTabs.Enchant:
+                                    if ($inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ENCHANT || $inventoryCurrentItem.item.item_type === ITEM_TYPES.ITEM_TYPE_ARMOUR_SHARPENING) {
+                                        $$invalidate(18, enchantStuffHighlight = true);
+                                    } else if (isEnchantSuperItem($inventoryCurrentItem.item)) {
+                                        $$invalidate(19, colorHighlight = true);
+                                    } else if ($inventoryCurrentItem.item.item_type !== ITEM_TYPES.ITEM_TYPE_DYE && $inventoryCurrentItem.item.item_type !== ITEM_TYPES.ITEM_TYPE_SUPER_ENCHANTED) {
+                                        $$invalidate(17, enchantItemHighlight = true);
+                                    }
+                                    break;
+                                case WorkshopTabs.Repair:
+                                    $$invalidate(17, enchantItemHighlight = true);
+                                    break;
+                                case WorkshopTabs.Disassemble:
+                                    if (ITEMS_INSTRUCTION_DISASSEMLY.includes($inventoryCurrentItem.item.item)) {
+                                        $$invalidate(18, enchantStuffHighlight = true);
+                                    } else {
+                                        $$invalidate(17, enchantItemHighlight = true);
+                                    }
+                                    break;
+                                case WorkshopTabs.Transfer:
+                                    if ($inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_ACCESSORIES || $inventoryCurrentItem.item.item_type == ITEM_TYPES.ITEM_TYPE_IMPROV) {
+                                        $$invalidate(18, enchantStuffHighlight = true);
+                                        $$invalidate(17, enchantItemHighlight = true);
+                                    }
+                                    break;
+                                case WorkshopTabs.GunAttachment:
+                                case WorkshopTabs.GunWeapon:
+                                    if (GUN_MAIN_ITEM_TYPES_BY_TAB[$workshopCurrentTab]?.includes($inventoryCurrentItem.item.item_type)) {
+                                        $$invalidate(17, enchantItemHighlight = true);
+                                    } else if ($inventoryCurrentItem.item.item === gunStuffItemId) {
+                                        $$invalidate(18, enchantStuffHighlight = true);
+                                    } else if ($inventoryCurrentItem.item.item === gunSuperItemId) {
+                                        $$invalidate(19, colorHighlight = true);
+                                    }
+                                    break;
+                            }
+                        } else {
+                            $$invalidate(17, enchantItemHighlight = false);
+                            $$invalidate(18, enchantStuffHighlight = false);
+                            $$invalidate(19, colorHighlight = false);
+                        }
+                    }
+                }
+
+                if ($$self.$$.dirty[0] & /*$enchantItem, $enchantStuff, $colorItem, colorIndex*/ 113 | $$self.$$.dirty[1] & /*$workshopTimer*/ 32) {
                     $: {
                         if ($workshopTimer < 0) {
                             enchantProperties.index = (0, lodash.isEmpty)($enchantItem) ? -1 : $enchantItem.slot;
@@ -324811,6 +325273,7 @@
                 $enchantItem,
                 $workshopGunContext,
                 $workshopCurrentTab,
+                $workShopColorItemNeedAmount,
                 $workshopEnchantItemId,
                 enchantItemHovered,
                 enchantStuffHovered,
@@ -324821,9 +325284,10 @@
                 enchantItemHighlight,
                 enchantStuffHighlight,
                 colorHighlight,
+                superEnchantRequired,
+                enchantStuffPlaceholderId,
                 enchantSuperItemCaption,
                 $workShopEnchantStuffNeedAmount,
-                $workShopColorItemNeedAmount,
                 $additionalInfo,
                 changeTab,
                 selectColor,
@@ -324837,6 +325301,7 @@
                 enchantSuperItem,
                 $workshopResult,
                 $workshopTimer,
+                $workshopStoneItemId,
                 $inventories,
                 $inventoryCurrentItem,
                 $ITEMS,
@@ -339600,11 +340065,11 @@ const getRandomTableNumber = () => {
 
         function reward_banner_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[12] = list[i];
+            child_ctx[13] = list[i];
             return child_ctx;
         }
 
-        // (89:0) {#if !isEmpty(bannerData)}
+        // (91:0) {#if !isEmpty(bannerData)}
         function reward_banner_index_svelte_create_if_block(ctx) {
             let div9;
             let div0;
@@ -339613,28 +340078,29 @@ const getRandomTableNumber = () => {
             let div1;
             let actionbutton;
             let t1;
+            let t2;
             let div8;
             let div4;
             let div2;
-            let t2_value = /*bannerData*/ ctx[0].titleHeaders + "";
-            let t2;
+            let t3_value = /*bannerData*/ ctx[0].titleHeaders + "";
             let t3;
-            let div3;
-            let t4_value = /*bannerData*/ ctx[0].title + "";
             let t4;
+            let div3;
+            let t5_value = /*bannerData*/ ctx[0].title + "";
             let t5;
-            let div5;
-            let raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "";
             let t6;
-            let div6;
+            let div5;
+            let raw_value = /*parseColoredText*/ ctx[4]( /*bannerData*/ ctx[0].description) + "";
             let t7;
+            let div6;
+            let t8;
             let div7;
 
-            let t8_value = ( /*bannerData*/ ctx[0].time > 0 ?
+            let t9_value = ( /*bannerData*/ ctx[0].time > 0 ?
                 `Доступно через ${formatSecondsToDHhMmSs(/*bannerData*/ ctx[0].time)}` :
                 `${/*bannerData*/ ctx[0].buttonName}`) + "";
 
-            let t8;
+            let t9;
             let div9_style_value;
             let current;
             let mounted;
@@ -339643,7 +340109,7 @@ const getRandomTableNumber = () => {
             imagewithfallback = new imageWithFallback_index_svelte({
                 props: {
                     fallbackImageUrl: reward_banner_img_fallback_namespaceObject,
-                    src: `${/*CND_URL_MAIN*/ ctx[2]}/background/${/*bannerData*/ ctx[0].background}`,
+                    src: `${/*CND_URL_MAIN*/ ctx[3]}/background/${/*bannerData*/ ctx[0].background}`,
                     alt: "reward-icon",
                     class: "reward-banner__reward-image-background",
                     fetchpriority: "high"
@@ -339658,6 +340124,7 @@ const getRandomTableNumber = () => {
                 }
             });
 
+            let if_block = /*hasEndDateText*/ ctx[2] && reward_banner_index_svelte_create_if_block_2(ctx);
             let each_value = each_ensure_array_like( /*rewards*/ ctx[1]);
             let each_blocks = [];
 
@@ -339678,25 +340145,27 @@ const getRandomTableNumber = () => {
                     div1 = dom_element("div");
                     create_component(actionbutton.$$.fragment);
                     t1 = dom_space();
+                    if (if_block) if_block.c();
+                    t2 = dom_space();
                     div8 = dom_element("div");
                     div4 = dom_element("div");
                     div2 = dom_element("div");
-                    t2 = dom_text(t2_value);
-                    t3 = dom_space();
+                    t3 = dom_text(t3_value);
+                    t4 = dom_space();
                     div3 = dom_element("div");
-                    t4 = dom_text(t4_value);
-                    t5 = dom_space();
-                    div5 = dom_element("div");
+                    t5 = dom_text(t5_value);
                     t6 = dom_space();
+                    div5 = dom_element("div");
+                    t7 = dom_space();
                     div6 = dom_element("div");
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
                     }
 
-                    t7 = dom_space();
+                    t8 = dom_space();
                     div7 = dom_element("div");
-                    t8 = dom_text(t8_value);
+                    t9 = dom_text(t9_value);
                     dom_attr(div0, "class", "reward-banner__reward-image-background-wrapper");
                     dom_attr(div1, "class", "reward-banner__exit");
                     dom_attr(div2, "class", "reward-banner__title-caption");
@@ -339720,17 +340189,19 @@ const getRandomTableNumber = () => {
                     dom_append(div9, div1);
                     mount_component(actionbutton, div1, null);
                     dom_append(div9, t1);
+                    if (if_block) if_block.m(div9, null);
+                    dom_append(div9, t2);
                     dom_append(div9, div8);
                     dom_append(div8, div4);
                     dom_append(div4, div2);
-                    dom_append(div2, t2);
-                    dom_append(div4, t3);
+                    dom_append(div2, t3);
+                    dom_append(div4, t4);
                     dom_append(div4, div3);
-                    dom_append(div3, t4);
-                    dom_append(div8, t5);
+                    dom_append(div3, t5);
+                    dom_append(div8, t6);
                     dom_append(div8, div5);
                     div5.innerHTML = raw_value;
-                    dom_append(div8, t6);
+                    dom_append(div8, t7);
                     dom_append(div8, div6);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
@@ -339739,15 +340210,15 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    dom_append(div8, t7);
+                    dom_append(div8, t8);
                     dom_append(div8, div7);
-                    dom_append(div7, t8);
+                    dom_append(div7, t9);
                     current = true;
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div1, "click", /*closeReward*/ ctx[5]),
-                            dom_listen(div7, "click", /*getReward*/ ctx[4])
+                            dom_listen(div1, "click", /*closeReward*/ ctx[6]),
+                            dom_listen(div7, "click", /*getReward*/ ctx[5])
                         ];
 
                         mounted = true;
@@ -339755,23 +340226,37 @@ const getRandomTableNumber = () => {
                 },
                 p(ctx, dirty) {
                     const imagewithfallback_changes = {};
-                    if (dirty & /*bannerData*/ 1) imagewithfallback_changes.src = `${/*CND_URL_MAIN*/ ctx[2]}/background/${/*bannerData*/ ctx[0].background}`;
+                    if (dirty & /*bannerData*/ 1) imagewithfallback_changes.src = `${/*CND_URL_MAIN*/ ctx[3]}/background/${/*bannerData*/ ctx[0].background}`;
                     imagewithfallback.$set(imagewithfallback_changes);
-                    if ((!current || dirty & /*bannerData*/ 1) && t2_value !== (t2_value = /*bannerData*/ ctx[0].titleHeaders + "")) dom_set_data(t2, t2_value);
+
+                    if ( /*hasEndDateText*/ ctx[2]) {
+                        if (if_block) {
+                            if_block.p(ctx, dirty);
+                        } else {
+                            if_block = reward_banner_index_svelte_create_if_block_2(ctx);
+                            if_block.c();
+                            if_block.m(div9, t2);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+
+                    if ((!current || dirty & /*bannerData*/ 1) && t3_value !== (t3_value = /*bannerData*/ ctx[0].titleHeaders + "")) dom_set_data(t3, t3_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div2, "reward-banner__title-caption--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && t4_value !== (t4_value = /*bannerData*/ ctx[0].title + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty & /*bannerData*/ 1) && t5_value !== (t5_value = /*bannerData*/ ctx[0].title + "")) dom_set_data(t5, t5_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div3, "reward-banner__title-value--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && raw_value !== (raw_value = /*parseColoredText*/ ctx[3]( /*bannerData*/ ctx[0].description) + "")) div5.innerHTML = raw_value;;
+                    if ((!current || dirty & /*bannerData*/ 1) && raw_value !== (raw_value = /*parseColoredText*/ ctx[4]( /*bannerData*/ ctx[0].description) + "")) div5.innerHTML = raw_value;;
 
-                    if (dirty & /*bannerData, rewards, CND_URL_MAIN*/ 7) {
+                    if (dirty & /*bannerData, rewards, CND_URL_MAIN*/ 11) {
                         each_value = each_ensure_array_like( /*rewards*/ ctx[1]);
                         let i;
 
@@ -339798,9 +340283,9 @@ const getRandomTableNumber = () => {
                         transitions_check_outros();
                     }
 
-                    if ((!current || dirty & /*bannerData*/ 1) && t8_value !== (t8_value = ( /*bannerData*/ ctx[0].time > 0 ?
+                    if ((!current || dirty & /*bannerData*/ 1) && t9_value !== (t9_value = ( /*bannerData*/ ctx[0].time > 0 ?
                             `Доступно через ${formatSecondsToDHhMmSs(/*bannerData*/ ctx[0].time)}` :
-                            `${/*bannerData*/ ctx[0].buttonName}`) + "")) dom_set_data(t8, t8_value);
+                            `${/*bannerData*/ ctx[0].buttonName}`) + "")) dom_set_data(t9, t9_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div7, "reward-banner__button--active", /*bannerData*/ ctx[0].time <= 0);
@@ -339839,6 +340324,7 @@ const getRandomTableNumber = () => {
 
                     destroy_component(imagewithfallback);
                     destroy_component(actionbutton);
+                    if (if_block) if_block.d();
                     destroy_each(each_blocks, detaching);
                     mounted = false;
                     utils_run_all(dispose);
@@ -339846,13 +340332,38 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (119:7) {#if !isEmpty(reward.badge)}
+        // (106:2) {#if hasEndDateText}
+        function reward_banner_index_svelte_create_if_block_2(ctx) {
+            let div;
+            let raw_value = /*bannerData*/ ctx[0].endDateText + "";
+
+            return {
+                c() {
+                    div = dom_element("div");
+                    dom_attr(div, "class", "reward-banner__end-time");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div, anchor);
+                    div.innerHTML = raw_value;
+                },
+                p(ctx, dirty) {
+                    if (dirty & /*bannerData*/ 1 && raw_value !== (raw_value = /*bannerData*/ ctx[0].endDateText + "")) div.innerHTML = raw_value;;
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div);
+                    }
+                }
+            };
+        }
+
+        // (127:7) {#if !isEmpty(reward.badge)}
         function reward_banner_index_svelte_create_if_block_1(ctx) {
             let div1;
             let i;
             let t0;
             let div0;
-            let t1_value = /*reward*/ ctx[12].badge + "";
+            let t1_value = /*reward*/ ctx[13].badge + "";
             let t1;
 
             return {
@@ -339874,7 +340385,7 @@ const getRandomTableNumber = () => {
                     dom_append(div0, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 2 && t1_value !== (t1_value = /*reward*/ ctx[12].badge + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*rewards*/ 2 && t1_value !== (t1_value = /*reward*/ ctx[13].badge + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -339884,22 +340395,22 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (116:4) {#each rewards as reward}
+        // (124:4) {#each rewards as reward}
         function reward_banner_index_svelte_create_each_block(ctx) {
             let div5;
             let div4;
-            let show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[12].badge);
+            let show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[13].badge);
             let t0;
             let div0;
             let imagewithfallback;
             let t1;
             let div3;
             let div1;
-            let t2_value = /*reward*/ ctx[12].title + "";
+            let t2_value = /*reward*/ ctx[13].title + "";
             let t2;
             let t3;
             let div2;
-            let t4_value = /*reward*/ ctx[12].value + "";
+            let t4_value = /*reward*/ ctx[13].value + "";
             let t4;
             let t5;
             let current;
@@ -339908,7 +340419,7 @@ const getRandomTableNumber = () => {
             imagewithfallback = new imageWithFallback_index_svelte({
                 props: {
                     fallbackImageUrl: reward_banner_img_fallback_namespaceObject,
-                    src: `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[12].image}`,
+                    src: `${/*CND_URL_MAIN*/ ctx[3]}/items/${/*reward*/ ctx[13].image}`,
                     alt: "reward-icon",
                     class: "reward-banner__reward-image",
                     useLoader: true
@@ -339959,7 +340470,7 @@ const getRandomTableNumber = () => {
                     current = true;
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 2) show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[12].badge);
+                    if (dirty & /*rewards*/ 2) show_if = !(0, lodash.isEmpty)( /*reward*/ ctx[13].badge);
 
                     if (show_if) {
                         if (if_block) {
@@ -339975,15 +340486,15 @@ const getRandomTableNumber = () => {
                     }
 
                     const imagewithfallback_changes = {};
-                    if (dirty & /*rewards*/ 2) imagewithfallback_changes.src = `${/*CND_URL_MAIN*/ ctx[2]}/items/${/*reward*/ ctx[12].image}`;
+                    if (dirty & /*rewards*/ 2) imagewithfallback_changes.src = `${/*CND_URL_MAIN*/ ctx[3]}/items/${/*reward*/ ctx[13].image}`;
                     imagewithfallback.$set(imagewithfallback_changes);
 
                     if (!current || dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div0, "reward-banner__reward-image-wrapper--pixel", /*bannerData*/ ctx[0].type === 8);
                     }
 
-                    if ((!current || dirty & /*rewards*/ 2) && t2_value !== (t2_value = /*reward*/ ctx[12].title + "")) dom_set_data(t2, t2_value);
-                    if ((!current || dirty & /*rewards*/ 2) && t4_value !== (t4_value = /*reward*/ ctx[12].value + "")) dom_set_data(t4, t4_value);
+                    if ((!current || dirty & /*rewards*/ 2) && t2_value !== (t2_value = /*reward*/ ctx[13].title + "")) dom_set_data(t2, t2_value);
+                    if ((!current || dirty & /*rewards*/ 2) && t4_value !== (t4_value = /*reward*/ ctx[13].value + "")) dom_set_data(t4, t4_value);
 
                     if (!current || dirty & /*bannerData*/ 1) {
                         dom_toggle_class(div3, "reward-banner__reward-info--pixel", /*bannerData*/ ctx[0].type === 8);
@@ -340075,6 +340586,7 @@ const getRandomTableNumber = () => {
         }
 
         function reward_banner_index_svelte_instance($$self, $$props, $$invalidate) {
+            let hasEndDateText;
             const CND_URL_MAIN = `${CDN_URL}/systems/reward_banner`;
             let bannerData = {};
             let rewards = [];
@@ -340155,7 +340667,21 @@ const getRandomTableNumber = () => {
                 clearTimer();
             });
 
-            return [bannerData, rewards, CND_URL_MAIN, parseColoredText, getReward, closeReward];
+            $$self.$$.update = () => {
+                if ($$self.$$.dirty & /*bannerData*/ 1) {
+                    $: $$invalidate(2, hasEndDateText = typeof bannerData.endDateText === 'string' && bannerData.endDateText.trim() !== '');
+                }
+            };
+
+            return [
+                bannerData,
+                rewards,
+                hasEndDateText,
+                CND_URL_MAIN,
+                parseColoredText,
+                getReward,
+                closeReward
+            ];
         }
 
         class Reward_banner extends Component_SvelteComponent {
@@ -343295,12 +343821,17 @@ const getRandomTableNumber = () => {
 
         /* harmony default export */
         const global_event_quests_index_svelte = (quests_index_svelte_Quests);; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/daily-reward-img.png
-        const daily_reward_img_namespaceObject = __webpack_require__.p + "assets/d345c3440fc23479d679.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/daily-reward-info.svg
-        const daily_reward_info_namespaceObject = __webpack_require__.p + "assets/84b74cb5167991cc1c41.svg";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/rewards-welcome-bg.png
+        const daily_reward_img_namespaceObject = __webpack_require__.p + "assets/d345c3440fc23479d679.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/reward.png
+        const img_reward_namespaceObject = __webpack_require__.p + "assets/9edd6966718b0fd8157c.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/daily-reward-description.svg
+        const daily_reward_description_namespaceObject = __webpack_require__.p + "assets/74cc59eaeb8b4bde2809.svg";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/az-coin.svg
+        const rewards_new_year_img_az_coin_namespaceObject = __webpack_require__.p + "assets/0cefd195ac6ebf1130c4.svg";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/unopened-reward.png
+        const unopened_reward_namespaceObject = __webpack_require__.p + "assets/dfca47c99155c91dd779.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/warning-icon.svg
+        const warning_icon_namespaceObject = __webpack_require__.p + "assets/bfbc8a38499acd5c155c.svg";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/rewards-welcome-bg.png
         const rewards_welcome_bg_namespaceObject = __webpack_require__.p + "assets/ecc38d1686408c308a60.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/default-welcome-bg.svg
         const default_welcome_bg_namespaceObject = __webpack_require__.p + "assets/7772de5c44757e8c2355.svg";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/rewards-main-bg.png
-        const rewards_main_bg_namespaceObject = __webpack_require__.p + "assets/728c44555a64d8146cfb.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/default-main-bg.svg
-        const default_main_bg_namespaceObject = __webpack_require__.p + "assets/2b84a65c01922969c55d.svg";; // CONCATENATED MODULE: ./src/views/rewards-new-year/constants.js
+        const rewards_main_bg_namespaceObject = __webpack_require__.p + "assets/72ce99c5b41b9614dad5.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/rewards-main-logo.png
+        const rewards_main_logo_namespaceObject = __webpack_require__.p + "assets/291460ef89a117ffa8f1.webp";; // CONCATENATED MODULE: ./src/views/rewards-new-year/img/default-main-bg.svg
+        const default_main_bg_namespaceObject = __webpack_require__.p + "assets/a185124e062a0034c112.svg";; // CONCATENATED MODULE: ./src/views/rewards-new-year/constants.js
         function rewards_new_year_constants_typeof(o) {
             "@babel/helpers - typeof";
             return rewards_new_year_constants_typeof = "function" == typeof Symbol && "symbol" == typeof Symbol.iterator ? function(o) {
@@ -343346,9 +343877,13 @@ const getRandomTableNumber = () => {
         var MAP_CALENDAR_ID_TO_BACKGROUND = rewards_new_year_constants_defineProperty(rewards_new_year_constants_defineProperty({}, CalendarId.Welcome, rewards_welcome_bg_namespaceObject), CalendarId.Main, rewards_main_bg_namespaceObject);
         var MAP_CALENDAR_ID_TO_ITEM_BACKGROUND = rewards_new_year_constants_defineProperty(rewards_new_year_constants_defineProperty({}, CalendarId.Welcome, default_welcome_bg_namespaceObject), CalendarId.Main, default_main_bg_namespaceObject);
         var MAP_CALENDAR_ID_TO_TITLE = rewards_new_year_constants_defineProperty(rewards_new_year_constants_defineProperty({}, CalendarId.Welcome, 'Приветственный календарь'), CalendarId.Main, 'Осенний календарь');
-        var MAP_CALENDAR_ID_TO_PROGRESS_COLOR = rewards_new_year_constants_defineProperty(rewards_new_year_constants_defineProperty({}, CalendarId.Welcome, '#CE8235'), CalendarId.Main, '#F2C94C');
-        var MAP_CALENDAR_ID_TO_CDN_ROUTE = rewards_new_year_constants_defineProperty(rewards_new_year_constants_defineProperty({}, CalendarId.Welcome, "".concat(CDN_URL, "/systems/welcome_calendar/")), CalendarId.Main, "".concat(CDN_URL, "/systems/december_calendar/"));; // CONCATENATED MODULE: ./src/views/rewards-new-year/index.svelte
+        var MAP_CALENDAR_ID_TO_LOGO = rewards_new_year_constants_defineProperty(rewards_new_year_constants_defineProperty({}, CalendarId.Welcome, 'Logo'), CalendarId.Main, rewards_main_logo_namespaceObject);
+        var MAP_CALENDAR_ID_TO_PROGRESS_COLOR = rewards_new_year_constants_defineProperty(rewards_new_year_constants_defineProperty({}, CalendarId.Welcome, '#CE8235'), CalendarId.Main, '#CE8235');; // CONCATENATED MODULE: ./src/views/rewards-new-year/index.svelte
         /* src\views\rewards-new-year\index.svelte generated by Svelte v4.2.8 */
+
+
+
+
 
 
 
@@ -343367,12 +343902,12 @@ const getRandomTableNumber = () => {
 
         function rewards_new_year_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[14] = list[i];
+            child_ctx[16] = list[i];
             return child_ctx;
         }
 
-        // (126:91) 
-        function rewards_new_year_index_svelte_create_if_block_5(ctx) {
+        // (132:53) 
+        function rewards_new_year_index_svelte_create_if_block_8(ctx) {
             let i;
 
             return {
@@ -343391,8 +343926,8 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (124:24) {#if reward.interacted && reward.played >= reward.needToPlay && reward.received}
-        function rewards_new_year_index_svelte_create_if_block_4(ctx) {
+        // (130:24) {#if reward.state === 3}
+        function rewards_new_year_index_svelte_create_if_block_7(ctx) {
             let i;
 
             return {
@@ -343411,24 +343946,30 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (138:20) {#if reward.title}
-        function rewards_new_year_index_svelte_create_if_block_3(ctx) {
+        // (148:64) 
+        function rewards_new_year_index_svelte_create_if_block_6(ctx) {
             let p;
-            let t_value = /*reward*/ ctx[14].title + "";
+            let t_value = /*reward*/ ctx[16].title + "";
             let t;
+            let p_title_value;
 
             return {
                 c() {
                     p = dom_element("p");
                     t = dom_text(t_value);
                     dom_attr(p, "class", "rewards-new-year__item-title");
+                    dom_attr(p, "title", p_title_value = /*reward*/ ctx[16].title);
                 },
                 m(target, anchor) {
                     dom_insert(target, p, anchor);
                     dom_append(p, t);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 1 && t_value !== (t_value = /*reward*/ ctx[14].title + "")) dom_set_data(t, t_value);
+                    if (dirty & /*rewards*/ 1 && t_value !== (t_value = /*reward*/ ctx[16].title + "")) dom_set_data(t, t_value);
+
+                    if (dirty & /*rewards*/ 1 && p_title_value !== (p_title_value = /*reward*/ ctx[16].title)) {
+                        dom_attr(p, "title", p_title_value);
+                    }
                 },
                 d(detaching) {
                     if (detaching) {
@@ -343438,12 +343979,34 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (143:20) {#if reward.amount > 0 && !(reward.interacted && reward.played >= reward.needToPlay && !reward.received)}
-        function rewards_new_year_index_svelte_create_if_block_2(ctx) {
+        // (144:20) {#if reward.state === 5}
+        function rewards_new_year_index_svelte_create_if_block_5(ctx) {
+            let p;
+
+            return {
+                c() {
+                    p = dom_element("p");
+                    p.textContent = "Этап начнётся в 00:00";
+                    dom_attr(p, "class", "rewards-new-year__item-stage-waiting");
+                },
+                m(target, anchor) {
+                    dom_insert(target, p, anchor);
+                },
+                p: utils_noop,
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(p);
+                    }
+                }
+            };
+        }
+
+        // (153:20) {#if reward.state >= 2 && reward.amount > 0}
+        function rewards_new_year_index_svelte_create_if_block_4(ctx) {
             let div;
             let p;
             let t0;
-            let t1_value = /*reward*/ ctx[14].amount + "";
+            let t1_value = /*reward*/ ctx[16].amount + "";
             let t1;
 
             return {
@@ -343462,7 +344025,7 @@ const getRandomTableNumber = () => {
                     dom_append(p, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 1 && t1_value !== (t1_value = /*reward*/ ctx[14].amount + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*rewards*/ 1 && t1_value !== (t1_value = /*reward*/ ctx[16].amount + "")) dom_set_data(t1, t1_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -343472,16 +344035,97 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (160:106) 
+        // (185:69) 
+        function rewards_new_year_index_svelte_create_if_block_2(ctx) {
+            let div0;
+            let t2;
+            let div1;
+            let p1;
+            let t3_value = /*reward*/ ctx[16].price + "";
+            let t3;
+            let t4_value = ( /*reward*/ ctx[16].currency === 2 ? ' RUB' : '') + "";
+            let t4;
+            let t5;
+            let mounted;
+            let dispose;
+            let if_block = /*reward*/ ctx[16].currency !== 2 && rewards_new_year_index_svelte_create_if_block_3(ctx);
+
+            function click_handler_1() {
+                return /*click_handler_1*/ ctx[6]( /*reward*/ ctx[16]);
+            }
+
+            return {
+                c() {
+                    div0 = dom_element("div");
+                    div0.innerHTML = `<img class="rewards-new-year__item-missed-warning-icon" src="${warning_icon_namespaceObject}" alt="warning"/> <p class="rewards-new-year__item-missed-warning-title">день ПРопущен</p>`;
+                    t2 = dom_space();
+                    div1 = dom_element("div");
+                    p1 = dom_element("p");
+                    t3 = dom_text(t3_value);
+                    t4 = dom_text(t4_value);
+                    t5 = dom_space();
+                    if (if_block) if_block.c();
+                    dom_attr(div0, "class", "rewards-new-year__item-missed-warning");
+                    dom_attr(p1, "class", "rewards-new-year__item-button-missed-title");
+                    dom_attr(div1, "class", "rewards-new-year__item-button-missed");
+                },
+                m(target, anchor) {
+                    dom_insert(target, div0, anchor);
+                    dom_insert(target, t2, anchor);
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, p1);
+                    dom_append(p1, t3);
+                    dom_append(p1, t4);
+                    dom_append(div1, t5);
+                    if (if_block) if_block.m(div1, null);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div1, "click", click_handler_1);
+                        mounted = true;
+                    }
+                },
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+                    if (dirty & /*rewards*/ 1 && t3_value !== (t3_value = /*reward*/ ctx[16].price + "")) dom_set_data(t3, t3_value);
+                    if (dirty & /*rewards*/ 1 && t4_value !== (t4_value = ( /*reward*/ ctx[16].currency === 2 ? ' RUB' : '') + "")) dom_set_data(t4, t4_value);
+
+                    if ( /*reward*/ ctx[16].currency !== 2) {
+                        if (if_block) {
+
+                        } else {
+                            if_block = rewards_new_year_index_svelte_create_if_block_3(ctx);
+                            if_block.c();
+                            if_block.m(div1, null);
+                        }
+                    } else if (if_block) {
+                        if_block.d(1);
+                        if_block = null;
+                    }
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(div0);
+                        dom_detach(t2);
+                        dom_detach(div1);
+                    }
+
+                    if (if_block) if_block.d();
+                    mounted = false;
+                    dispose();
+                }
+            };
+        }
+
+        // (170:49) 
         function rewards_new_year_index_svelte_create_if_block_1(ctx) {
             let div2;
             let p;
             let t0;
             let span;
-            let t1_value = Math.max(0, Math.floor(( /*reward*/ ctx[14].needToPlay - /*reward*/ ctx[14].played) / 60 / 60)) + "";
+            let t1_value = Math.max(0, Math.floor(( /*reward*/ ctx[16].needToPlay - /*reward*/ ctx[16].played) / 60 / 60)) + "";
             let t1;
             let t2;
-            let t3_value = Math.max(0, Math.floor(( /*reward*/ ctx[14].needToPlay - /*reward*/ ctx[14].played) / 60 % 60)) + "";
+            let t3_value = Math.max(0, Math.floor(( /*reward*/ ctx[16].needToPlay - /*reward*/ ctx[16].played) / 60 % 60)) + "";
             let t3;
             let t4;
             let t5;
@@ -343506,8 +344150,10 @@ const getRandomTableNumber = () => {
                     dom_attr(p, "class", "rewards-new-year__item-progress-time");
                     dom_attr(div0, "class", "rewards-new-year__item-progress-value");
 
-                    dom_attr(div0, "style", div0_style_value = `width: ${/*reward*/ ctx[14].played / (/*reward*/ ctx[14].needToPlay / 100)}%; background-color: ${/*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay / 2
-			? '#3AC746'
+                    dom_attr(div0, "style", div0_style_value = `width: ${/*reward*/ ctx[16].needToPlay > 0
+			? Math.min(100, /*reward*/ ctx[16].played / (/*reward*/ ctx[16].needToPlay / 100))
+			: 0}%; background-color: ${/*reward*/ ctx[16].played >= /*reward*/ ctx[16].needToPlay / 2
+			? '#CE8235'
 			: MAP_CALENDAR_ID_TO_PROGRESS_COLOR[/*calendarId*/ ctx[1]]}`);
 
                     dom_attr(div1, "class", "rewards-new-year__item-progress");
@@ -343527,11 +344173,13 @@ const getRandomTableNumber = () => {
                     dom_append(div1, div0);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*rewards*/ 1 && t1_value !== (t1_value = Math.max(0, Math.floor(( /*reward*/ ctx[14].needToPlay - /*reward*/ ctx[14].played) / 60 / 60)) + "")) dom_set_data(t1, t1_value);
-                    if (dirty & /*rewards*/ 1 && t3_value !== (t3_value = Math.max(0, Math.floor(( /*reward*/ ctx[14].needToPlay - /*reward*/ ctx[14].played) / 60 % 60)) + "")) dom_set_data(t3, t3_value);
+                    if (dirty & /*rewards*/ 1 && t1_value !== (t1_value = Math.max(0, Math.floor(( /*reward*/ ctx[16].needToPlay - /*reward*/ ctx[16].played) / 60 / 60)) + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*rewards*/ 1 && t3_value !== (t3_value = Math.max(0, Math.floor(( /*reward*/ ctx[16].needToPlay - /*reward*/ ctx[16].played) / 60 % 60)) + "")) dom_set_data(t3, t3_value);
 
-                    if (dirty & /*rewards, calendarId*/ 3 && div0_style_value !== (div0_style_value = `width: ${/*reward*/ ctx[14].played / (/*reward*/ ctx[14].needToPlay / 100)}%; background-color: ${/*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay / 2
-			? '#3AC746'
+                    if (dirty & /*rewards, calendarId*/ 3 && div0_style_value !== (div0_style_value = `width: ${/*reward*/ ctx[16].needToPlay > 0
+			? Math.min(100, /*reward*/ ctx[16].played / (/*reward*/ ctx[16].needToPlay / 100))
+			: 0}%; background-color: ${/*reward*/ ctx[16].played >= /*reward*/ ctx[16].needToPlay / 2
+			? '#CE8235'
 			: MAP_CALENDAR_ID_TO_PROGRESS_COLOR[/*calendarId*/ ctx[1]]}`)) {
                         dom_attr(div0, "style", div0_style_value);
                     }
@@ -343544,11 +344192,15 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (151:20) {#if reward.interacted && reward.played >= reward.needToPlay && !reward.received}
+        // (161:20) {#if reward.state === 2}
         function rewards_new_year_index_svelte_create_if_block(ctx) {
             let div;
             let mounted;
             let dispose;
+
+            function click_handler() {
+                return /*click_handler*/ ctx[5]( /*reward*/ ctx[16]);
+            }
 
             return {
                 c() {
@@ -343560,11 +344212,13 @@ const getRandomTableNumber = () => {
                     dom_insert(target, div, anchor);
 
                     if (!mounted) {
-                        dispose = dom_listen(div, "click", /*takeReward*/ ctx[3]);
+                        dispose = dom_listen(div, "click", click_handler);
                         mounted = true;
                     }
                 },
-                p: utils_noop,
+                p(new_ctx, dirty) {
+                    ctx = new_ctx;
+                },
                 d(detaching) {
                     if (detaching) {
                         dom_detach(div);
@@ -343576,13 +344230,36 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (115:12) {#each rewards as reward}
+        // (203:28) {#if reward.currency !== 2}
+        function rewards_new_year_index_svelte_create_if_block_3(ctx) {
+            let img;
+            let img_src_value;
+
+            return {
+                c() {
+                    img = dom_element("img");
+                    dom_attr(img, "class", "rewards-new-year__item-button-missed-currency");
+                    if (!utils_src_url_equal(img.src, img_src_value = rewards_new_year_img_az_coin_namespaceObject)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "alt", "AZ-Coins");
+                },
+                m(target, anchor) {
+                    dom_insert(target, img, anchor);
+                },
+                d(detaching) {
+                    if (detaching) {
+                        dom_detach(img);
+                    }
+                }
+            };
+        }
+
+        // (120:12) {#each rewards as reward}
         function rewards_new_year_index_svelte_create_each_block(ctx) {
             let div1;
             let div0;
             let t0;
             let p;
-            let t1_value = /*reward*/ ctx[14].day + "";
+            let t1_value = /*reward*/ ctx[16].day + "";
             let t1;
             let t2;
             let t3;
@@ -343595,22 +344272,30 @@ const getRandomTableNumber = () => {
             let div1_style_value;
 
             function select_block_type(ctx, dirty) {
-                if ( /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && /*reward*/ ctx[14].received) return rewards_new_year_index_svelte_create_if_block_4;
-                if ( /*reward*/ ctx[14].played > 0 && /*reward*/ ctx[14].played !== /*reward*/ ctx[14].needToPlay) return rewards_new_year_index_svelte_create_if_block_5;
+                if ( /*reward*/ ctx[16].state === 3) return rewards_new_year_index_svelte_create_if_block_7;
+                if ( /*reward*/ ctx[16].state === 1) return rewards_new_year_index_svelte_create_if_block_8;
             }
 
             let current_block_type = select_block_type(ctx, -1);
             let if_block0 = current_block_type && current_block_type(ctx);
-            let if_block1 = /*reward*/ ctx[14].title && rewards_new_year_index_svelte_create_if_block_3(ctx);
-            let if_block2 = /*reward*/ ctx[14].amount > 0 && !( /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && ! /*reward*/ ctx[14].received) && rewards_new_year_index_svelte_create_if_block_2(ctx);
 
             function select_block_type_1(ctx, dirty) {
-                if ( /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && ! /*reward*/ ctx[14].received) return rewards_new_year_index_svelte_create_if_block;
-                if ( /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played < /*reward*/ ctx[14].needToPlay && /*reward*/ ctx[14].played > 0) return rewards_new_year_index_svelte_create_if_block_1;
+                if ( /*reward*/ ctx[16].state === 5) return rewards_new_year_index_svelte_create_if_block_5;
+                if ( /*reward*/ ctx[16].state >= 2 && /*reward*/ ctx[16].title) return rewards_new_year_index_svelte_create_if_block_6;
             }
 
             let current_block_type_1 = select_block_type_1(ctx, -1);
-            let if_block3 = current_block_type_1 && current_block_type_1(ctx);
+            let if_block1 = current_block_type_1 && current_block_type_1(ctx);
+            let if_block2 = /*reward*/ ctx[16].state >= 2 && /*reward*/ ctx[16].amount > 0 && rewards_new_year_index_svelte_create_if_block_4(ctx);
+
+            function select_block_type_2(ctx, dirty) {
+                if ( /*reward*/ ctx[16].state === 2) return rewards_new_year_index_svelte_create_if_block;
+                if ( /*reward*/ ctx[16].state === 1) return rewards_new_year_index_svelte_create_if_block_1;
+                if ( /*reward*/ ctx[16].state === 4 && /*reward*/ ctx[16].price > 0) return rewards_new_year_index_svelte_create_if_block_2;
+            }
+
+            let current_block_type_2 = select_block_type_2(ctx, -1);
+            let if_block3 = current_block_type_2 && current_block_type_2(ctx);
 
             return {
                 c() {
@@ -343633,13 +344318,18 @@ const getRandomTableNumber = () => {
                     dom_attr(p, "class", "rewards-new-year__item-day-text");
                     dom_attr(div0, "class", "rewards-new-year__item-day");
                     dom_attr(img, "class", "rewards-new-year__item-img");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${MAP_CALENDAR_ID_TO_CDN_ROUTE[/*calendarId*/ ctx[1]]}/${/*reward*/ ctx[14].image}.webp`)) dom_attr(img, "src", img_src_value);
+
+                    if (!utils_src_url_equal(img.src, img_src_value = /*reward*/ ctx[16].state === 0 || /*reward*/ ctx[16].state === 1 || /*reward*/ ctx[16].state === 5 ?
+                            unopened_reward_namespaceObject :
+                            `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[16].image}.webp`)) dom_attr(img, "src", img_src_value);
+
                     dom_attr(img, "alt", "reward");
                     dom_attr(div1, "class", "rewards-new-year__item");
-                    dom_attr(div1, "style", div1_style_value = `background: url(${MAP_CALENDAR_ID_TO_ITEM_BACKGROUND[/*calendarId*/ ctx[1]]})`);
-                    dom_toggle_class(div1, "rewards-new-year__item--maxProgress", /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && ! /*reward*/ ctx[14].received);
-                    dom_toggle_class(div1, "rewards-new-year__item--completed", /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && /*reward*/ ctx[14].received);
-                    dom_toggle_class(div1, "rewards-new-year__item--in-progress", /*reward*/ ctx[14].played > 0 && /*reward*/ ctx[14].played !== /*reward*/ ctx[14].needToPlay);
+                    dom_attr(div1, "style", div1_style_value = `--bg: url(${MAP_CALENDAR_ID_TO_ITEM_BACKGROUND[/*calendarId*/ ctx[1]]})`);
+                    dom_toggle_class(div1, "rewards-new-year__item--maxProgress", /*reward*/ ctx[16].state === 2);
+                    dom_toggle_class(div1, "rewards-new-year__item--completed", /*reward*/ ctx[16].state === 3);
+                    dom_toggle_class(div1, "rewards-new-year__item--in-progress", /*reward*/ ctx[16].state === 1);
+                    dom_toggle_class(div1, "rewards-new-year__item--missed", /*reward*/ ctx[16].state === 4);
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -343670,30 +344360,31 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    if (dirty & /*rewards*/ 1 && t1_value !== (t1_value = /*reward*/ ctx[14].day + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*rewards*/ 1 && t1_value !== (t1_value = /*reward*/ ctx[16].day + "")) dom_set_data(t1, t1_value);
 
-                    if (dirty & /*calendarId, rewards*/ 3 && !utils_src_url_equal(img.src, img_src_value = `${MAP_CALENDAR_ID_TO_CDN_ROUTE[/*calendarId*/ ctx[1]]}/${/*reward*/ ctx[14].image}.webp`)) {
+                    if (dirty & /*rewards*/ 1 && !utils_src_url_equal(img.src, img_src_value = /*reward*/ ctx[16].state === 0 || /*reward*/ ctx[16].state === 1 || /*reward*/ ctx[16].state === 5 ?
+                            unopened_reward_namespaceObject :
+                            `${CDN_URL}/assets/images/donate/${/*reward*/ ctx[16].image}.webp`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if ( /*reward*/ ctx[14].title) {
+                    if (current_block_type_1 === (current_block_type_1 = select_block_type_1(ctx, dirty)) && if_block1) {
+                        if_block1.p(ctx, dirty);
+                    } else {
+                        if (if_block1) if_block1.d(1);
+                        if_block1 = current_block_type_1 && current_block_type_1(ctx);
+
                         if (if_block1) {
-                            if_block1.p(ctx, dirty);
-                        } else {
-                            if_block1 = rewards_new_year_index_svelte_create_if_block_3(ctx);
                             if_block1.c();
                             if_block1.m(div1, t5);
                         }
-                    } else if (if_block1) {
-                        if_block1.d(1);
-                        if_block1 = null;
                     }
 
-                    if ( /*reward*/ ctx[14].amount > 0 && !( /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && ! /*reward*/ ctx[14].received)) {
+                    if ( /*reward*/ ctx[16].state >= 2 && /*reward*/ ctx[16].amount > 0) {
                         if (if_block2) {
                             if_block2.p(ctx, dirty);
                         } else {
-                            if_block2 = rewards_new_year_index_svelte_create_if_block_2(ctx);
+                            if_block2 = rewards_new_year_index_svelte_create_if_block_4(ctx);
                             if_block2.c();
                             if_block2.m(div1, t6);
                         }
@@ -343702,11 +344393,11 @@ const getRandomTableNumber = () => {
                         if_block2 = null;
                     }
 
-                    if (current_block_type_1 === (current_block_type_1 = select_block_type_1(ctx, dirty)) && if_block3) {
+                    if (current_block_type_2 === (current_block_type_2 = select_block_type_2(ctx, dirty)) && if_block3) {
                         if_block3.p(ctx, dirty);
                     } else {
                         if (if_block3) if_block3.d(1);
-                        if_block3 = current_block_type_1 && current_block_type_1(ctx);
+                        if_block3 = current_block_type_2 && current_block_type_2(ctx);
 
                         if (if_block3) {
                             if_block3.c();
@@ -343714,20 +344405,24 @@ const getRandomTableNumber = () => {
                         }
                     }
 
-                    if (dirty & /*calendarId*/ 2 && div1_style_value !== (div1_style_value = `background: url(${MAP_CALENDAR_ID_TO_ITEM_BACKGROUND[/*calendarId*/ ctx[1]]})`)) {
+                    if (dirty & /*calendarId*/ 2 && div1_style_value !== (div1_style_value = `--bg: url(${MAP_CALENDAR_ID_TO_ITEM_BACKGROUND[/*calendarId*/ ctx[1]]})`)) {
                         dom_attr(div1, "style", div1_style_value);
                     }
 
                     if (dirty & /*rewards*/ 1) {
-                        dom_toggle_class(div1, "rewards-new-year__item--maxProgress", /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && ! /*reward*/ ctx[14].received);
+                        dom_toggle_class(div1, "rewards-new-year__item--maxProgress", /*reward*/ ctx[16].state === 2);
                     }
 
                     if (dirty & /*rewards*/ 1) {
-                        dom_toggle_class(div1, "rewards-new-year__item--completed", /*reward*/ ctx[14].interacted && /*reward*/ ctx[14].played >= /*reward*/ ctx[14].needToPlay && /*reward*/ ctx[14].received);
+                        dom_toggle_class(div1, "rewards-new-year__item--completed", /*reward*/ ctx[16].state === 3);
                     }
 
                     if (dirty & /*rewards*/ 1) {
-                        dom_toggle_class(div1, "rewards-new-year__item--in-progress", /*reward*/ ctx[14].played > 0 && /*reward*/ ctx[14].played !== /*reward*/ ctx[14].needToPlay);
+                        dom_toggle_class(div1, "rewards-new-year__item--in-progress", /*reward*/ ctx[16].state === 1);
+                    }
+
+                    if (dirty & /*rewards*/ 1) {
+                        dom_toggle_class(div1, "rewards-new-year__item--missed", /*reward*/ ctx[16].state === 4);
                     }
                 },
                 d(detaching) {
@@ -343739,7 +344434,10 @@ const getRandomTableNumber = () => {
                         if_block0.d();
                     }
 
-                    if (if_block1) if_block1.d();
+                    if (if_block1) {
+                        if_block1.d();
+                    }
+
                     if (if_block2) if_block2.d();
 
                     if (if_block3) {
@@ -343750,24 +344448,22 @@ const getRandomTableNumber = () => {
         }
 
         function rewards_new_year_index_svelte_create_fragment(ctx) {
-            let div5;
+            let div6;
             let div0;
             let div0_style_value;
             let t0;
             let div1;
             let actionbutton;
             let t1;
-            let div2;
-            let t4;
-            let div4;
-            let p1;
-            let t5_value = MAP_CALENDAR_ID_TO_TITLE[ /*calendarId*/ ctx[1]] + "";
-            let t5;
-            let t6;
-            let p2;
-            let t8;
+            let div5;
             let div3;
-            let div4_class_value;
+            let img0;
+            let img0_src_value;
+            let t2;
+            let div2;
+            let t5;
+            let div4;
+            let div5_class_value;
             let current;
 
             actionbutton = new shared_action_button_index_svelte({
@@ -343787,23 +344483,20 @@ const getRandomTableNumber = () => {
 
             return {
                 c() {
-                    div5 = dom_element("div");
+                    div6 = dom_element("div");
                     div0 = dom_element("div");
                     t0 = dom_space();
                     div1 = dom_element("div");
                     create_component(actionbutton.$$.fragment);
                     t1 = dom_space();
-                    div2 = dom_element("div");
-                    div2.innerHTML = `<img class="rewards-new-year__info-img" src="${daily_reward_info_namespaceObject}" alt="info-img"/> <p class="rewards-new-year__info-title">Отыгрывай указанное количество часов, чтобы получить ежедневную награду</p>`;
-                    t4 = dom_space();
-                    div4 = dom_element("div");
-                    p1 = dom_element("p");
-                    t5 = dom_text(t5_value);
-                    t6 = dom_space();
-                    p2 = dom_element("p");
-                    p2.textContent = "Играй каждый день и получай награду каждый раз после выполнения всех условий";
-                    t8 = dom_space();
+                    div5 = dom_element("div");
                     div3 = dom_element("div");
+                    img0 = dom_element("img");
+                    t2 = dom_space();
+                    div2 = dom_element("div");
+                    div2.innerHTML = `<img class="rewards-new-year__list-wrapper-description-img" src="${daily_reward_description_namespaceObject}" alt="description-icon"/> <p class="rewards-new-year__list-wrapper-description-title">Играй каждый день и получай награду каждый раз после выполнения всех условий</p>`;
+                    t5 = dom_space();
+                    div4 = dom_element("div");
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
@@ -343812,33 +344505,34 @@ const getRandomTableNumber = () => {
                     dom_attr(div0, "class", "rewards-new-year__background");
                     dom_attr(div0, "style", div0_style_value = `background: url(${MAP_CALENDAR_ID_TO_BACKGROUND[/*calendarId*/ ctx[1]]}) no-repeat center/cover`);
                     dom_attr(div1, "class", "rewards-new-year__exit-wrapper");
-                    dom_attr(div2, "class", "rewards-new-year__info");
-                    dom_attr(p1, "class", "rewards-new-year__list-wrapper-title");
-                    dom_attr(p2, "class", "rewards-new-year__list-wrapper-description");
-                    dom_attr(div3, "class", "rewards-new-year__list");
-                    dom_attr(div4, "class", div4_class_value = "rewards-new-year__list-wrapper rewards-new-year__list-wrapper--" + /*calendarId*/ ctx[1]);
-                    dom_attr(div5, "class", "rewards-new-year");
+                    dom_attr(img0, "class", "rewards-new-year__list-wrapper-title");
+                    if (!utils_src_url_equal(img0.src, img0_src_value = MAP_CALENDAR_ID_TO_LOGO[ /*calendarId*/ ctx[1]])) dom_attr(img0, "src", img0_src_value);
+                    dom_attr(img0, "alt", "logo");
+                    dom_attr(div2, "class", "rewards-new-year__list-wrapper-description");
+                    dom_attr(div3, "class", "rewards-new-year__list-wrapper-info");
+                    dom_attr(div4, "class", "rewards-new-year__list");
+                    dom_attr(div5, "class", div5_class_value = "rewards-new-year__list-wrapper rewards-new-year__list-wrapper--" + /*calendarId*/ ctx[1]);
+                    dom_attr(div6, "class", "rewards-new-year");
+                    dom_toggle_class(div6, "rewards-new-year--main", /*calendarId*/ ctx[1] === 'main');
                 },
                 m(target, anchor) {
-                    dom_insert(target, div5, anchor);
-                    dom_append(div5, div0);
-                    dom_append(div5, t0);
-                    dom_append(div5, div1);
+                    dom_insert(target, div6, anchor);
+                    dom_append(div6, div0);
+                    dom_append(div6, t0);
+                    dom_append(div6, div1);
                     mount_component(actionbutton, div1, null);
-                    dom_append(div5, t1);
-                    dom_append(div5, div2);
-                    dom_append(div5, t4);
+                    dom_append(div6, t1);
+                    dom_append(div6, div5);
+                    dom_append(div5, div3);
+                    dom_append(div3, img0);
+                    dom_append(div3, t2);
+                    dom_append(div3, div2);
+                    dom_append(div5, t5);
                     dom_append(div5, div4);
-                    dom_append(div4, p1);
-                    dom_append(p1, t5);
-                    dom_append(div4, t6);
-                    dom_append(div4, p2);
-                    dom_append(div4, t8);
-                    dom_append(div4, div3);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         if (each_blocks[i]) {
-                            each_blocks[i].m(div3, null);
+                            each_blocks[i].m(div4, null);
                         }
                     }
 
@@ -343849,9 +344543,11 @@ const getRandomTableNumber = () => {
                         dom_attr(div0, "style", div0_style_value);
                     }
 
-                    if ((!current || dirty & /*calendarId*/ 2) && t5_value !== (t5_value = MAP_CALENDAR_ID_TO_TITLE[ /*calendarId*/ ctx[1]] + "")) dom_set_data(t5, t5_value);
+                    if (!current || dirty & /*calendarId*/ 2 && !utils_src_url_equal(img0.src, img0_src_value = MAP_CALENDAR_ID_TO_LOGO[ /*calendarId*/ ctx[1]])) {
+                        dom_attr(img0, "src", img0_src_value);
+                    }
 
-                    if (dirty & /*calendarId, rewards, takeReward, Math*/ 11) {
+                    if (dirty & /*calendarId, rewards, takeReward, Math, buyMissedReward*/ 27) {
                         each_value = each_ensure_array_like( /*rewards*/ ctx[0]);
                         let i;
 
@@ -343863,7 +344559,7 @@ const getRandomTableNumber = () => {
                             } else {
                                 each_blocks[i] = rewards_new_year_index_svelte_create_each_block(child_ctx);
                                 each_blocks[i].c();
-                                each_blocks[i].m(div3, null);
+                                each_blocks[i].m(div4, null);
                             }
                         }
 
@@ -343874,8 +344570,12 @@ const getRandomTableNumber = () => {
                         each_blocks.length = each_value.length;
                     }
 
-                    if (!current || dirty & /*calendarId*/ 2 && div4_class_value !== (div4_class_value = "rewards-new-year__list-wrapper rewards-new-year__list-wrapper--" + /*calendarId*/ ctx[1])) {
-                        dom_attr(div4, "class", div4_class_value);
+                    if (!current || dirty & /*calendarId*/ 2 && div5_class_value !== (div5_class_value = "rewards-new-year__list-wrapper rewards-new-year__list-wrapper--" + /*calendarId*/ ctx[1])) {
+                        dom_attr(div5, "class", div5_class_value);
+                    }
+
+                    if (!current || dirty & /*calendarId*/ 2) {
+                        dom_toggle_class(div6, "rewards-new-year--main", /*calendarId*/ ctx[1] === 'main');
                     }
                 },
                 i(local) {
@@ -343889,7 +344589,7 @@ const getRandomTableNumber = () => {
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div5);
+                        dom_detach(div6);
                     }
 
                     destroy_component(actionbutton);
@@ -343901,69 +344601,80 @@ const getRandomTableNumber = () => {
         function rewards_new_year_index_svelte_instance($$self, $$props, $$invalidate) {
             let rewards = [];
             let calendarId;
+            let currentDay;
 
             const initializeRewards = rewardsDto => {
-                $$invalidate(0, rewards = []);
-                $$invalidate(0, rewards = rewardsDto);
+                $$invalidate(0, rewards = rewardsDto.map(reward => ({
+                    ...reward
+                })));
             };
 
             const initializeCalendarType = calendarIdDto => {
                 $$invalidate(1, calendarId = calendarIdDto);
             };
 
-            const updateRewards = rewardsDto => {
-                $$invalidate(0, rewards = [...rewards, rewardsDto]);
-            };
+            const updateRewardsItem = ([rewardDto, day]) => {
+                const index = day - 1;
 
-            const updateRewardsItem = (rewardDto, id) => {
-                const index = rewards.findIndex(el => el.id === id);
+                if (!rewardDto || index < 0 || index >= rewards.length) {
+                    return;
+                }
+
                 $$invalidate(0, rewards[index] = {
                     ...rewards[index],
                     ...rewardDto
                 }, rewards);
-                $$invalidate(0, rewards);
+                $$invalidate(0, rewards = [...rewards]);
             };
 
             const initializePlayerDay = dayDto => {
-                $$invalidate(0, rewards = rewards.map(item => {
-                    let cache = item;
-                    cache.received = cache.day < dayDto.currentDay;
-                    cache.interacted = cache.day <= dayDto.currentDay;
+                currentDay = dayDto.currentDay;
 
-                    cache = cache.day === dayDto.currentDay ?
-                        {
-                            ...item,
-                            ...dayDto
-                        } :
-                        item;
-
-                    return cache;
-                }));
+                $$invalidate(0, rewards = rewards.map(item => item.day === dayDto.currentDay ?
+                    {
+                        ...item,
+                        played: dayDto.played,
+                        needToPlay: dayDto.needToPlay
+                    } :
+                    item));
             };
 
             const handleClose = () => {
                 cef_sendClientMessage('rewardsNewYear.exit');
             };
 
-            const takeReward = () => {
-                cef_sendClientMessage('rewardsNewYear.takeReward');
+            const takeReward = day => {
+                cef_sendClientMessage('rewardsNewYear.takeReward', day);
+            };
+
+            const buyMissedReward = day => {
+                cef_sendClientMessage('rewardsNewYear.buyMissedReward', day);
             };
 
             const unregisterRewardsType = registerEvent('event.rewardsNewYear.type', initializeCalendarType);
             const unregisterRewardsEvent = registerEvent('event.rewardsNewYear.rewards', initializeRewards);
-            const unregisterUpdateRewardsEvent = registerEvent('event.rewardsNewYear.updateRewards', updateRewards);
             const unregisterUpdateRewardsItemEvent = registerEvent('event.rewardsNewYear.updateRewards.item', updateRewardsItem);
             const unregisterInitializePlayerDay = registerEvent('event.rewardsNewYear.initializePlayerDay', initializePlayerDay);
 
             onDestroy(() => {
                 unregisterRewardsEvent();
-                unregisterUpdateRewardsEvent();
                 unregisterUpdateRewardsItemEvent();
                 unregisterInitializePlayerDay();
                 unregisterRewardsType();
             });
 
-            return [rewards, calendarId, handleClose, takeReward];
+            const click_handler = reward => takeReward(reward.day);
+            const click_handler_1 = reward => buyMissedReward(reward.day);
+
+            return [
+                rewards,
+                calendarId,
+                handleClose,
+                takeReward,
+                buyMissedReward,
+                click_handler,
+                click_handler_1
+            ];
         }
 
         class Rewards_new_year extends Component_SvelteComponent {
@@ -349776,10 +350487,10 @@ const getRandomTableNumber = () => {
 
 
         function pasport_index_svelte_add_css(target) {
-            append_styles(target, "svelte-11hrewx", "@charset \"UTF-8\";.documents-pasport.svelte-11hrewx{position:relative;flex:1 1 auto;display:flex;align-items:center;justify-content:center;border-radius:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__title.svelte-11hrewx{position:absolute;font-family:PFDinDisplayProRegular;color:#4A578E;font-weight:700;text-transform:uppercase;font-size:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((43 * var(--global-scale) * var(--global-scale) - 43 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((43 * var(--global-scale) * var(--global-scale) * 0.44 - (43 * var(--global-scale) * var(--global-scale) - 43 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__header.svelte-11hrewx{display:flex;align-items:center;position:absolute;font-family:PFDinDisplayProRegular;color:rgba(77, 88, 154, 0.5019607843);font-weight:700;text-transform:uppercase;font-size:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((58 * var(--global-scale) * var(--global-scale) * 0.44 - (58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);letter-spacing:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__photo-wrapper.svelte-11hrewx{position:absolute;overflow:hidden;display:flex;align-items:flex-start;justify-content:center;filter:grayscale(100%);top:max(calc((145 * var(--global-scale) * var(--global-scale) - 145 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((145 * var(--global-scale) * var(--global-scale) * 0.44 - (145 * var(--global-scale) * var(--global-scale) - 145 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((278 * var(--global-scale) * var(--global-scale) - 278 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((278 * var(--global-scale) * var(--global-scale) * 0.44 - (278 * var(--global-scale) * var(--global-scale) - 278 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((375 * var(--global-scale) * var(--global-scale) - 375 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((375 * var(--global-scale) * var(--global-scale) * 0.44 - (375 * var(--global-scale) * var(--global-scale) - 375 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__photo.svelte-11hrewx{height:300%}.documents-pasport__main-info.svelte-11hrewx{position:absolute;display:grid;grid-template-columns:50% 50%;width:max(calc((635 * var(--global-scale) * var(--global-scale) - 635 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((635 * var(--global-scale) * var(--global-scale) * 0.44 - (635 * var(--global-scale) * var(--global-scale) - 635 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((165 * var(--global-scale) * var(--global-scale) - 165 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((165 * var(--global-scale) * var(--global-scale) * 0.44 - (165 * var(--global-scale) * var(--global-scale) - 165 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__caption.svelte-11hrewx{font-family:PFDinDisplayProRegular;color:#4A578E;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__value.svelte-11hrewx{font-family:PFDinDisplayProRegular;color:#111111;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__rank.svelte-11hrewx{font-family:PFDinDisplayProRegular;color:#111111;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);word-wrap:break-word;white-space:normal}.documents-pasport__serial.svelte-11hrewx{position:absolute;left:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__serial-value.svelte-11hrewx,.documents-pasport__number-value.svelte-11hrewx{font-family:PFDinDisplayProRegular;color:#B9B9B9;font-weight:200;font-size:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);letter-spacing:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__serial-caption.svelte-11hrewx,.documents-pasport__number-caption.svelte-11hrewx{font-family:PFDinDisplayProRegular;color:#98A2C9;text-transform:uppercase;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);letter-spacing:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__number.svelte-11hrewx{position:absolute;left:max(calc((335 * var(--global-scale) * var(--global-scale) - 335 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((335 * var(--global-scale) * var(--global-scale) * 0.44 - (335 * var(--global-scale) * var(--global-scale) - 335 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__signature-caption.svelte-11hrewx{position:absolute;font-family:PFDinDisplayProRegular;color:#4A578E;right:max(calc((365 * var(--global-scale) * var(--global-scale) - 365 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((365 * var(--global-scale) * var(--global-scale) * 0.44 - (365 * var(--global-scale) * var(--global-scale) - 365 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__signature.svelte-11hrewx{position:absolute;font-family:\"StevenSignature\";color:#4A578E;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;left:max(calc((760 * var(--global-scale) * var(--global-scale) - 760 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((760 * var(--global-scale) * var(--global-scale) * 0.44 - (760 * var(--global-scale) * var(--global-scale) - 760 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((330 * var(--global-scale) * var(--global-scale) - 330 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((330 * var(--global-scale) * var(--global-scale) * 0.44 - (330 * var(--global-scale) * var(--global-scale) - 330 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder-wrapper.svelte-11hrewx{display:flex;flex-direction:column;align-items:center;gap:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder.svelte-11hrewx{display:flex;align-items:center;border-style:solid;border-color:#333D49;width:max(calc((620 * var(--global-scale) * var(--global-scale) - 620 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((620 * var(--global-scale) * var(--global-scale) * 0.44 - (620 * var(--global-scale) * var(--global-scale) - 620 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-width:max(calc((2 * var(--global-scale) * var(--global-scale) - 2 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((2 * var(--global-scale) * var(--global-scale) * 0.44 - (2 * var(--global-scale) * var(--global-scale) - 2 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder-icon.svelte-11hrewx{border-color:#333D49;font-size:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder-text.svelte-11hrewx{text-align:center;font-family:PFDinDisplayProRegular;color:#333D49;font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__button.svelte-11hrewx{display:flex;align-items:center;justify-content:center;background-color:#FFFFFF;transition:0.14s ease-out;transition-property:background-color;width:max(calc((408 * var(--global-scale) * var(--global-scale) - 408 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((408 * var(--global-scale) * var(--global-scale) * 0.44 - (408 * var(--global-scale) * var(--global-scale) - 408 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((56 * var(--global-scale) * var(--global-scale) * 0.44 - (56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__button.svelte-11hrewx:hover{background-color:rgba(255, 255, 255, 0.8)}.documents-pasport__button.svelte-11hrewx:active{background-color:rgba(255, 255, 255, 0.45)}.documents-pasport__button-icon.svelte-11hrewx{border-color:#333D49;font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__button-text.svelte-11hrewx{text-align:center;font-family:PFDinDisplayProRegular;color:#333D49;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+            append_styles(target, "svelte-sn9oyp", "@charset \"UTF-8\";.documents-pasport.svelte-sn9oyp{position:relative;flex:1 1 auto;display:flex;align-items:center;justify-content:center;border-radius:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__title.svelte-sn9oyp{position:absolute;font-family:PFDinDisplayProRegular;color:#4A578E;font-weight:700;text-transform:uppercase;font-size:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((43 * var(--global-scale) * var(--global-scale) - 43 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((43 * var(--global-scale) * var(--global-scale) * 0.44 - (43 * var(--global-scale) * var(--global-scale) - 43 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__header.svelte-sn9oyp{display:flex;align-items:center;position:absolute;font-family:PFDinDisplayProRegular;color:rgba(77, 88, 154, 0.5019607843);font-weight:700;text-transform:uppercase;font-size:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((58 * var(--global-scale) * var(--global-scale) * 0.44 - (58 * var(--global-scale) * var(--global-scale) - 58 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);letter-spacing:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__photo-wrapper.svelte-sn9oyp{position:absolute;overflow:hidden;display:flex;align-items:flex-start;justify-content:center;filter:grayscale(100%);top:max(calc((145 * var(--global-scale) * var(--global-scale) - 145 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((145 * var(--global-scale) * var(--global-scale) * 0.44 - (145 * var(--global-scale) * var(--global-scale) - 145 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((278 * var(--global-scale) * var(--global-scale) - 278 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((278 * var(--global-scale) * var(--global-scale) * 0.44 - (278 * var(--global-scale) * var(--global-scale) - 278 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((375 * var(--global-scale) * var(--global-scale) - 375 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((375 * var(--global-scale) * var(--global-scale) * 0.44 - (375 * var(--global-scale) * var(--global-scale) - 375 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__photo.svelte-sn9oyp{height:300%}.documents-pasport__main-info.svelte-sn9oyp{position:absolute;display:grid;grid-template-columns:50% 50%;width:max(calc((635 * var(--global-scale) * var(--global-scale) - 635 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((635 * var(--global-scale) * var(--global-scale) * 0.44 - (635 * var(--global-scale) * var(--global-scale) - 635 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((165 * var(--global-scale) * var(--global-scale) - 165 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((165 * var(--global-scale) * var(--global-scale) * 0.44 - (165 * var(--global-scale) * var(--global-scale) - 165 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__caption.svelte-sn9oyp{font-family:PFDinDisplayProRegular;color:#4A578E;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__value.svelte-sn9oyp{font-family:PFDinDisplayProRegular;color:#111111;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__value--multiline.svelte-sn9oyp{-webkit-line-clamp:2;overflow-wrap:anywhere}.documents-pasport__rank.svelte-sn9oyp{font-family:PFDinDisplayProRegular;color:#111111;display:-webkit-box;-webkit-box-orient:vertical;overflow:hidden;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);word-wrap:break-word;white-space:normal}.documents-pasport__serial.svelte-sn9oyp{position:absolute;left:max(calc((72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((72 * var(--global-scale) * var(--global-scale) * 0.44 - (72 * var(--global-scale) * var(--global-scale) - 72 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__serial-value.svelte-sn9oyp,.documents-pasport__number-value.svelte-sn9oyp{font-family:PFDinDisplayProRegular;color:#B9B9B9;font-weight:200;font-size:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);letter-spacing:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__serial-caption.svelte-sn9oyp,.documents-pasport__number-caption.svelte-sn9oyp{font-family:PFDinDisplayProRegular;color:#98A2C9;text-transform:uppercase;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);letter-spacing:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__number.svelte-sn9oyp{position:absolute;left:max(calc((335 * var(--global-scale) * var(--global-scale) - 335 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((335 * var(--global-scale) * var(--global-scale) * 0.44 - (335 * var(--global-scale) * var(--global-scale) - 335 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__signature-caption.svelte-sn9oyp{position:absolute;font-family:PFDinDisplayProRegular;color:#4A578E;right:max(calc((365 * var(--global-scale) * var(--global-scale) - 365 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((365 * var(--global-scale) * var(--global-scale) * 0.44 - (365 * var(--global-scale) * var(--global-scale) - 365 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__signature.svelte-sn9oyp{position:absolute;font-family:\"StevenSignature\";color:#4A578E;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:1;overflow:hidden;left:max(calc((760 * var(--global-scale) * var(--global-scale) - 760 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((760 * var(--global-scale) * var(--global-scale) * 0.44 - (760 * var(--global-scale) * var(--global-scale) - 760 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((330 * var(--global-scale) * var(--global-scale) - 330 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((330 * var(--global-scale) * var(--global-scale) * 0.44 - (330 * var(--global-scale) * var(--global-scale) - 330 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((64 * var(--global-scale) * var(--global-scale) * 0.44 - (64 * var(--global-scale) * var(--global-scale) - 64 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder-wrapper.svelte-sn9oyp{display:flex;flex-direction:column;align-items:center;gap:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder.svelte-sn9oyp{display:flex;align-items:center;border-style:solid;border-color:#333D49;width:max(calc((620 * var(--global-scale) * var(--global-scale) - 620 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((620 * var(--global-scale) * var(--global-scale) * 0.44 - (620 * var(--global-scale) * var(--global-scale) - 620 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-width:max(calc((2 * var(--global-scale) * var(--global-scale) - 2 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((2 * var(--global-scale) * var(--global-scale) * 0.44 - (2 * var(--global-scale) * var(--global-scale) - 2 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((32 * var(--global-scale) * var(--global-scale) * 0.44 - (32 * var(--global-scale) * var(--global-scale) - 32 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder-icon.svelte-sn9oyp{border-color:#333D49;font-size:max(calc((48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((48 * var(--global-scale) * var(--global-scale) * 0.44 - (48 * var(--global-scale) * var(--global-scale) - 48 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__holder-text.svelte-sn9oyp{text-align:center;font-family:PFDinDisplayProRegular;color:#333D49;font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__button.svelte-sn9oyp{display:flex;align-items:center;justify-content:center;background-color:#FFFFFF;transition:0.14s ease-out;transition-property:background-color;width:max(calc((408 * var(--global-scale) * var(--global-scale) - 408 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((408 * var(--global-scale) * var(--global-scale) * 0.44 - (408 * var(--global-scale) * var(--global-scale) - 408 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((56 * var(--global-scale) * var(--global-scale) * 0.44 - (56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__button.svelte-sn9oyp:hover{background-color:rgba(255, 255, 255, 0.8)}.documents-pasport__button.svelte-sn9oyp:active{background-color:rgba(255, 255, 255, 0.45)}.documents-pasport__button-icon.svelte-sn9oyp{border-color:#333D49;font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.documents-pasport__button-text.svelte-sn9oyp{text-align:center;font-family:PFDinDisplayProRegular;color:#333D49;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
         }
 
-        // (281:20) 
+        // (285:20) 
         function pasport_index_svelte_create_if_block_1(ctx) {
             let div2;
             let div1;
@@ -349805,10 +350516,10 @@ const getRandomTableNumber = () => {
                     t1 = dom_text(t1_value);
                     t2 = dom_space();
                     if (if_block) if_block.c();
-                    dom_attr(i, "class", "documents-pasport__holder-icon icon-triangle-warning svelte-11hrewx");
-                    dom_attr(div0, "class", "documents-pasport__holder-text svelte-11hrewx");
-                    dom_attr(div1, "class", "documents-pasport__holder svelte-11hrewx");
-                    dom_attr(div2, "class", "documents-pasport__holder-wrapper svelte-11hrewx");
+                    dom_attr(i, "class", "documents-pasport__holder-icon icon-triangle-warning svelte-sn9oyp");
+                    dom_attr(div0, "class", "documents-pasport__holder-text svelte-sn9oyp");
+                    dom_attr(div1, "class", "documents-pasport__holder svelte-sn9oyp");
+                    dom_attr(div2, "class", "documents-pasport__holder-wrapper svelte-sn9oyp");
                 },
                 m(target, anchor) {
                     dom_insert(target, div2, anchor);
@@ -349848,7 +350559,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (215:1) {#if !isEmpty(data) && !data.not}
+        // (219:1) {#if !isEmpty(data) && !data.not}
         function pasport_index_svelte_create_if_block(ctx) {
             let div0;
             let t2;
@@ -350059,53 +350770,53 @@ const getRandomTableNumber = () => {
                     t59 = dom_space();
                     div42 = dom_element("div");
                     t60 = dom_text(t60_value);
-                    dom_attr(div0, "class", "documents-pasport__title svelte-11hrewx");
-                    dom_attr(div1, "class", "documents-pasport__header svelte-11hrewx");
+                    dom_attr(div0, "class", "documents-pasport__title svelte-sn9oyp");
+                    dom_attr(div1, "class", "documents-pasport__header svelte-sn9oyp");
                     if (!utils_src_url_equal(img.src, img_src_value = CDN_URLS[CDN_CHANNEL_TYPES.CDN_CHANNEL_RESOURCES] + /*data*/ ctx[0].skin_image_url)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "avatar");
-                    dom_attr(img, "class", "documents-pasport__photo svelte-11hrewx");
-                    dom_attr(div2, "class", "documents-pasport__photo-wrapper svelte-11hrewx");
-                    dom_attr(div3, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div4, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(img, "class", "documents-pasport__photo svelte-sn9oyp");
+                    dom_attr(div2, "class", "documents-pasport__photo-wrapper svelte-sn9oyp");
+                    dom_attr(div3, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div4, "class", "documents-pasport__value svelte-sn9oyp");
                     dom_attr(div5, "class", "documents-pasport__info");
-                    dom_attr(div6, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div7, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div6, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div7, "class", "documents-pasport__value svelte-sn9oyp");
                     dom_attr(div8, "class", "documents-pasport__info");
-                    dom_attr(div9, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div10, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div9, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div10, "class", "documents-pasport__value svelte-sn9oyp");
                     dom_attr(div11, "class", "documents-pasport__info");
-                    dom_attr(div12, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div13, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div12, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div13, "class", "documents-pasport__value svelte-sn9oyp");
                     dom_attr(div14, "class", "documents-pasport__info");
-                    dom_attr(div15, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div16, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div15, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div16, "class", "documents-pasport__value svelte-sn9oyp");
                     dom_attr(div17, "class", "documents-pasport__info");
-                    dom_attr(div18, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div19, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div18, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div19, "class", "documents-pasport__value svelte-sn9oyp");
                     dom_attr(div20, "class", "documents-pasport__info");
-                    dom_attr(div21, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div22, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div21, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div22, "class", "documents-pasport__value svelte-sn9oyp");
                     dom_attr(div23, "class", "documents-pasport__info");
-                    dom_attr(div24, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div25, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div24, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div25, "class", "documents-pasport__value svelte-sn9oyp");
                     set_style(div25, "color", /*data*/ ctx[0].agenda_color);
                     dom_attr(div26, "class", "documents-pasport__info");
-                    dom_attr(div27, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div28, "class", "documents-pasport__value svelte-11hrewx");
+                    dom_attr(div27, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div28, "class", "documents-pasport__value documents-pasport__value--multiline svelte-sn9oyp");
                     dom_attr(div29, "class", "documents-pasport__info");
-                    dom_attr(div30, "class", "documents-pasport__caption svelte-11hrewx");
-                    dom_attr(div31, "class", "documents-pasport__value svelte-11hrewx");
-                    dom_attr(div32, "class", "documents-pasport__rank svelte-11hrewx");
+                    dom_attr(div30, "class", "documents-pasport__caption svelte-sn9oyp");
+                    dom_attr(div31, "class", "documents-pasport__value svelte-sn9oyp");
+                    dom_attr(div32, "class", "documents-pasport__rank svelte-sn9oyp");
                     dom_attr(div33, "class", "documents-pasport__info");
-                    dom_attr(div34, "class", "documents-pasport__main-info svelte-11hrewx");
-                    dom_attr(div35, "class", "documents-pasport__serial-value svelte-11hrewx");
-                    dom_attr(div36, "class", "documents-pasport__serial-caption svelte-11hrewx");
-                    dom_attr(div37, "class", "documents-pasport__serial svelte-11hrewx");
-                    dom_attr(div38, "class", "documents-pasport__number-value svelte-11hrewx");
-                    dom_attr(div39, "class", "documents-pasport__number-caption svelte-11hrewx");
-                    dom_attr(div40, "class", "documents-pasport__number svelte-11hrewx");
-                    dom_attr(div41, "class", "documents-pasport__signature-caption svelte-11hrewx");
-                    dom_attr(div42, "class", "documents-pasport__signature svelte-11hrewx");
+                    dom_attr(div34, "class", "documents-pasport__main-info svelte-sn9oyp");
+                    dom_attr(div35, "class", "documents-pasport__serial-value svelte-sn9oyp");
+                    dom_attr(div36, "class", "documents-pasport__serial-caption svelte-sn9oyp");
+                    dom_attr(div37, "class", "documents-pasport__serial svelte-sn9oyp");
+                    dom_attr(div38, "class", "documents-pasport__number-value svelte-sn9oyp");
+                    dom_attr(div39, "class", "documents-pasport__number-caption svelte-sn9oyp");
+                    dom_attr(div40, "class", "documents-pasport__number svelte-sn9oyp");
+                    dom_attr(div41, "class", "documents-pasport__signature-caption svelte-sn9oyp");
+                    dom_attr(div42, "class", "documents-pasport__signature svelte-sn9oyp");
                 },
                 m(target, anchor) {
                     dom_insert(target, div0, anchor);
@@ -350255,7 +350966,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (289:3) {#if !showMode}
+        // (293:3) {#if !showMode}
         function pasport_index_svelte_create_if_block_2(ctx) {
             let div1;
             let mounted;
@@ -350264,8 +350975,8 @@ const getRandomTableNumber = () => {
             return {
                 c() {
                     div1 = dom_element("div");
-                    div1.innerHTML = `<i class="documents-pasport__button-icon icon-geo-pick svelte-11hrewx"></i> <div class="documents-pasport__button-text svelte-11hrewx">Отметить в GPS</div>`;
-                    dom_attr(div1, "class", "documents-pasport__button svelte-11hrewx");
+                    div1.innerHTML = `<i class="documents-pasport__button-icon icon-geo-pick svelte-sn9oyp"></i> <div class="documents-pasport__button-text svelte-sn9oyp">Отметить в GPS</div>`;
+                    dom_attr(div1, "class", "documents-pasport__button svelte-sn9oyp");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -350305,7 +351016,7 @@ const getRandomTableNumber = () => {
                 c() {
                     div = dom_element("div");
                     if (if_block) if_block.c();
-                    dom_attr(div, "class", "documents-pasport svelte-11hrewx");
+                    dom_attr(div, "class", "documents-pasport svelte-sn9oyp");
                 },
                 m(target, anchor) {
                     dom_insert(target, div, anchor);
@@ -372750,7 +373461,7 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (658:4) {#if mode === TableMode.Rating}
+        // (659:4) {#if mode === TableMode.Rating}
         function members_index_svelte_create_if_block_14(ctx) {
             let div;
             let t0;
@@ -372784,7 +373495,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (673:8) {#if searchMode}
+        // (674:8) {#if searchMode}
         function members_index_svelte_create_if_block_13(ctx) {
             let i;
             let mounted;
@@ -372815,7 +373526,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (693:20) {#if mode === TableMode.Members && field !== MembersHeaders.Rank && field !== MembersHeaders.Penalty}
+        // (694:20) {#if mode === TableMode.Members && field !== MembersHeaders.Rank && field !== MembersHeaders.Penalty}
         function members_index_svelte_create_if_block_12(ctx) {
             let i;
             let i_class_value;
@@ -372846,7 +373557,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (686:12) {#each headers as field}
+        // (687:12) {#each headers as field}
         function members_index_svelte_create_each_block_2(ctx) {
             let div1;
             let div0;
@@ -372920,7 +373631,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (715:16) {:else}
+        // (716:16) {:else}
         function members_index_svelte_create_else_block(ctx) {
             let each_1_anchor;
             let each_value_1 = each_ensure_array_like( /*actualData*/ ctx[0]);
@@ -372983,7 +373694,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (711:46) 
+        // (712:46) 
         function members_index_svelte_create_if_block_2(ctx) {
             let div;
 
@@ -373007,7 +373718,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (705:16) {#if isNil(actualData)}
+        // (706:16) {#if isNil(actualData)}
         function members_index_svelte_create_if_block_1(ctx) {
             let div1;
             let div0;
@@ -373049,7 +373760,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (755:24) {:else}
+        // (756:24) {:else}
         function members_index_svelte_create_else_block_3(ctx) {
             let div5;
             let div0;
@@ -373181,7 +373892,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (717:24) {#if mode === TableMode.Members}
+        // (718:24) {#if mode === TableMode.Members}
         function members_index_svelte_create_if_block_3(ctx) {
             let div4;
             let div2;
@@ -373316,7 +374027,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (761:36) {#if member.placement > 0 && member.placement < 4}
+        // (762:36) {#if member.placement > 0 && member.placement < 4}
         function members_index_svelte_create_if_block_11(ctx) {
             let i;
 
@@ -373336,7 +374047,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (771:32) {#if !isViceCity}
+        // (772:32) {#if !isViceCity}
         function members_index_svelte_create_if_block_9(ctx) {
             let div;
             let if_block = /*member*/ ctx[47].flagid > 0 && members_index_svelte_create_if_block_10(ctx);
@@ -373375,7 +374086,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (773:40) {#if member.flagid > 0}
+        // (774:40) {#if member.flagid > 0}
         function members_index_svelte_create_if_block_10(ctx) {
             let img;
             let img_src_value;
@@ -373403,7 +374114,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (725:40) {:else}
+        // (726:40) {:else}
         function members_index_svelte_create_else_block_2(ctx) {
             let div;
             let t_value = `${/*member*/ ctx[47].nickname} (ID: ${/*member*/ ctx[47].online_status})` + "";
@@ -373430,7 +374141,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (723:40) {#if member.online_status === 1001}
+        // (724:40) {#if member.online_status === 1001}
         function members_index_svelte_create_if_block_8(ctx) {
             let div;
             let t_value = `${/*member*/ ctx[47].nickname} (Был ${/*member*/ ctx[47].formate_date_ago})` + "";
@@ -373457,7 +374168,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (728:40) {#if !isEmpty(member.role)}
+        // (729:40) {#if !isEmpty(member.role)}
         function members_index_svelte_create_if_block_7(ctx) {
             let div;
             let t_value = /*member*/ ctx[47].role + "";
@@ -373484,7 +374195,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (750:32) {:else}
+        // (751:32) {:else}
         function members_index_svelte_create_else_block_1(ctx) {
             let div0;
             let t0_value = (SERVERS[ /*member*/ ctx[47].server_id] || /*member*/ ctx[47].server_id) + "";
@@ -373525,7 +374236,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (734:32) {#if !isViceCity}
+        // (735:32) {#if !isViceCity}
         function members_index_svelte_create_if_block_4(ctx) {
             let div0;
             let t0_value = /*member*/ ctx[47].quests + "";
@@ -373599,7 +374310,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (737:40) {#if $familyInfo.management}
+        // (738:40) {#if $familyInfo.management}
         function members_index_svelte_create_if_block_6(ctx) {
             let div;
             let t_value = /*member*/ ctx[47].warns + "";
@@ -373626,7 +374337,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (740:40) {#if $familyInfo.management}
+        // (741:40) {#if $familyInfo.management}
         function members_index_svelte_create_if_block_5(ctx) {
             let div;
             let mounted;
@@ -373669,7 +374380,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (716:20) {#each actualData as member, index}
+        // (717:20) {#each actualData as member, index}
         function members_index_svelte_create_each_block_1(ctx) {
             let if_block_anchor;
 
@@ -373713,7 +374424,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (791:4) {#if selectedMemberIndex >= 0}
+        // (792:4) {#if selectedMemberIndex >= 0}
         function members_index_svelte_create_if_block(ctx) {
             let div;
             let each_value = each_ensure_array_like( /*contextItems*/ ctx[7]);
@@ -373786,7 +374497,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (793:12) {#each contextItems as id}
+        // (794:12) {#each contextItems as id}
         function members_index_svelte_create_each_block(ctx) {
             let div1;
             let i;
@@ -374208,7 +374919,9 @@ const getRandomTableNumber = () => {
 
             const formatDate = timestamp => {
                 if (!timestamp) return '-';
-                const date = new Date(timestamp);
+
+                // API отдаёт unix в секундах, Date ждёт миллисекунды
+                const date = new Date(timestamp < 1e12 ? timestamp * 1000 : timestamp);
 
                 return date.toLocaleDateString('ru-RU', {
                     day: '2-digit',
@@ -374220,7 +374933,7 @@ const getRandomTableNumber = () => {
             };
 
             const search = async () => {
-                if ((0, lodash.isEmpty)(query)) {
+                if ((0, lodash.isEmpty)(query.trim())) {
                     clearSearch();
                     return;
                 }
@@ -374236,7 +374949,7 @@ const getRandomTableNumber = () => {
 
                 $$invalidate(8, searchMode = true);
 
-                await lib_axios.get(`${SERVER_API_URL}/client/family/${MAP_TABLE_MODE_TO_CONTROLLER[mode]}?project=${SERVER_API_PROJECT}&server=${$serverApiServerId}&family_id=${$familyInfo.id}&${MAP_TABLE_MODE_TO_SEARCH_KEY[mode]}=${query}`, {
+                await lib_axios.get(`${SERVER_API_URL}/client/family/${MAP_TABLE_MODE_TO_CONTROLLER[mode]}?project=${SERVER_API_PROJECT}&server=${$serverApiServerId}&family_id=${$familyInfo.id}&${MAP_TABLE_MODE_TO_SEARCH_KEY[mode]}=${encodeURIComponent(query.trim())}`, {
                     headers: {
                         Authorization: `Bearer ${$serverApiToken}`
                     }
@@ -447662,7 +448375,7 @@ const getRandomTableNumber = () => {
             return child_ctx;
         }
 
-        // (1241:24) {#if nav.isNew}
+        // (1249:24) {#if nav.isNew}
         function settings_index_svelte_create_if_block_13(ctx) {
             let div;
 
@@ -447683,7 +448396,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1234:16) {#each categories as nav}
+        // (1242:16) {#each categories as nav}
         function settings_index_svelte_create_each_block_3(ctx) {
             let div;
             let t0_value = /*nav*/ ctx[119].title + "";
@@ -447739,7 +448452,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1248:12) {#if !isEmpty(selectedCategory.subCategories)}
+        // (1256:12) {#if !isEmpty(selectedCategory.subCategories)}
         function settings_index_svelte_create_if_block_12(ctx) {
             let div;
             let each_value_2 = each_ensure_array_like( /*selectedCategory*/ ctx[7].subCategories);
@@ -447802,7 +448515,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1250:20) {#each selectedCategory.subCategories as nav}
+        // (1258:20) {#each selectedCategory.subCategories as nav}
         function settings_index_svelte_create_each_block_2(ctx) {
             let div;
             let t0_value = /*nav*/ ctx[119].title + "";
@@ -447852,7 +448565,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1269:20) {#if ((joysticInputMode && group.id === 'joystick')                          ||  !joysticInputMode && group.id === 'mouse'                          || selectedCategory.subCategoryId !== 'input' || group.id === 'inputMethod') && !isEmpty(group.items)}
+        // (1277:20) {#if ((joysticInputMode && group.id === 'joystick')                          ||  !joysticInputMode && group.id === 'mouse'                          || selectedCategory.subCategoryId !== 'input' || group.id === 'inputMethod') && !isEmpty(group.items)}
         function settings_index_svelte_create_if_block_4(ctx) {
             let div2;
             let div0;
@@ -447944,7 +448657,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1290:44) {#if !isEmpty(item.warningText) && item.warningVisible}
+        // (1298:44) {#if !isEmpty(item.warningText) && item.warningVisible}
         function settings_index_svelte_create_if_block_10(ctx) {
             let div;
             let i;
@@ -448009,7 +448722,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1297:52) {#if tooltipData.group === group.id && tooltipData.index === index}
+        // (1305:52) {#if tooltipData.group === group.id && tooltipData.index === index}
         function settings_index_svelte_create_if_block_11(ctx) {
             let div;
             let t_value = /*tooltipData*/ ctx[8].text + "";
@@ -448036,7 +448749,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1305:44) {#if item.isNew}
+        // (1313:44) {#if item.isNew}
         function settings_index_svelte_create_if_block_9(ctx) {
             let div;
 
@@ -448057,7 +448770,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1346:40) {:else}
+        // (1354:40) {:else}
         function settings_index_svelte_create_else_block(ctx) {
             let div;
             let switch_instance;
@@ -448166,7 +448879,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1309:40) {#if item.type === ControlTypes.Keybind}
+        // (1317:40) {#if item.type === ControlTypes.Keybind}
         function settings_index_svelte_create_if_block_5(ctx) {
             let div0;
             let t0;
@@ -448331,7 +449044,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1315:48) {#if item?.value?.main_key > 0}
+        // (1323:48) {#if item?.value?.main_key > 0}
         function settings_index_svelte_create_if_block_8(ctx) {
             let button;
             let current;
@@ -448378,7 +449091,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1327:48) {#if item?.value?.extra_key > 0}
+        // (1335:48) {#if item?.value?.extra_key > 0}
         function settings_index_svelte_create_if_block_7(ctx) {
             let button;
             let current;
@@ -448425,7 +449138,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1339:48) {#if item?.value?.mouse_key > 0}
+        // (1347:48) {#if item?.value?.mouse_key > 0}
         function settings_index_svelte_create_if_block_6(ctx) {
             let button;
             let current;
@@ -448472,7 +449185,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1278:32) {#each group.items as item, index (item.id)}
+        // (1286:32) {#each group.items as item, index (item.id)}
         function settings_index_svelte_create_each_block_1(key_1, ctx) {
             let div1;
             let div0;
@@ -448647,7 +449360,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1268:16) {#each actualData as group, groupIndex}
+        // (1276:16) {#each actualData as group, groupIndex}
         function components_settings_index_svelte_create_each_block(ctx) {
             let show_if = ( /*joysticInputMode*/ ctx[11] && /*group*/ ctx[113].id === 'joystick' || ! /*joysticInputMode*/ ctx[11] && /*group*/ ctx[113].id === 'mouse' || /*selectedCategory*/ ctx[7].subCategoryId !== 'input' || /*group*/ ctx[113].id === 'inputMethod') && !(0, lodash.isEmpty)( /*group*/ ctx[113].items);
             let if_block_anchor;
@@ -448709,7 +449422,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1373:12) {#if selectedCategory.id !== 'game' && selectedCategory.id !== 'interface'}
+        // (1381:12) {#if selectedCategory.id !== 'game' && selectedCategory.id !== 'interface'}
         function settings_index_svelte_create_if_block_3(ctx) {
             let div1;
             let mounted;
@@ -448741,7 +449454,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1384:12) {#if infoControl.description}
+        // (1392:12) {#if infoControl.description}
         function components_settings_index_svelte_create_if_block_1(ctx) {
             let div0;
             let t1;
@@ -448804,7 +449517,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1391:16) {#if !isNil(infoControl.image)}
+        // (1399:16) {#if !isNil(infoControl.image)}
         function settings_index_svelte_create_if_block_2(ctx) {
             let div;
             let img;
@@ -448836,7 +449549,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (1400:4) {#if modalVisible}
+        // (1408:4) {#if modalVisible}
         function components_settings_index_svelte_create_if_block(ctx) {
             let div;
             let switch_instance;
@@ -450423,6 +451136,14 @@ const getRandomTableNumber = () => {
                             updateSettingsFieldProp(fieldId, 'available', false);
                             updateSettingsFieldProp(fieldId, 'warningText', warningText);
                             updateSettingsFieldProp(fieldId, 'warningVisible', true);
+
+                            if (fieldId === 'dynamicShadowsLevel') {
+                                updateSettingsFieldProp(fieldId, 'value', 0);
+                                videoShadersSettings.dynamicShadowsLevel = 0;
+                                const RegUpdate = getSettingsPropById('dynamicShadowsLevel', 'onActivate');
+                                RegUpdate('dynamicShadowsLevel', 0);
+                                applyVideoShadersSettings();
+                            }
                         });
 
                         if (isGraphicModsOn) {
@@ -470740,16 +471461,16 @@ const getRandomTableNumber = () => {
 
 
         function control_index_svelte_add_css(target) {
-            append_styles(target, "svelte-r0ijsu", ".promo-control__coin.svelte-r0ijsu.svelte-r0ijsu{position:absolute;display:flex;gap:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((52 * var(--global-scale) * var(--global-scale) * 0.44 - (52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((279 * var(--global-scale) * var(--global-scale) - 279 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((279 * var(--global-scale) * var(--global-scale) * 0.44 - (279 * var(--global-scale) * var(--global-scale) - 279 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-icon.svelte-r0ijsu.svelte-r0ijsu{display:flex;align-items:center;gap:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-icon-image.svelte-r0ijsu.svelte-r0ijsu{height:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-icon-value.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowBold\";color:rgba(255, 255, 255, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-button.svelte-r0ijsu.svelte-r0ijsu{display:flex;align-items:center;justify-content:center;background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);box-shadow:0px 0px 0px 1px rgba(255, 255, 255, 0.1) inset;cursor:pointer;transition:background 0.2s linear, box-shadow 0.2s linear, color 0.2s linear;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-button.svelte-r0ijsu.svelte-r0ijsu:hover{background:#FFFFFF;box-shadow:0px 0px 0px 1px rgba(17, 17, 17, 0.1) inset}.promo-control__coin-button.svelte-r0ijsu:hover .promo-control__coin-button-title.svelte-r0ijsu{color:rgba(17, 17, 17, 0.9)}.promo-control__coin-button-title.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowBold\";text-transform:uppercase;color:rgba(17, 17, 17, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info.svelte-r0ijsu.svelte-r0ijsu{width:100%;display:flex;align-items:center;justify-content:space-between;margin-top:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-promo-title.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-promo.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowBold\";background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);color:transparent;background-clip:text;-webkit-background-clip:text;text-transform:uppercase;font-size:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control.svelte-r0ijsu.svelte-r0ijsu{display:flex;gap:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button.svelte-r0ijsu.svelte-r0ijsu{display:flex;align-items:center;justify-content:center;background-color:rgba(19, 21, 22, 0.95);border:1px solid rgba(255, 255, 255, 0.1);cursor:pointer;transition:background-color 0.2s linear, border 0.2s linear, color 0.2s linear;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button.svelte-r0ijsu.svelte-r0ijsu:hover{background-color:#FFFFFF;border:1px solid rgba(255, 255, 255, 0.2)}.promo-control__info-control-button.svelte-r0ijsu:hover .promo-control__info-control-button-title.svelte-r0ijsu,.promo-control__info-control-button.svelte-r0ijsu:hover .promo-control__info-control-button-icon.svelte-r0ijsu{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button--small.svelte-r0ijsu.svelte-r0ijsu{width:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button--medium.svelte-r0ijsu.svelte-r0ijsu{width:max(calc((120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((120 * var(--global-scale) * var(--global-scale) * 0.44 - (120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button--disabled.svelte-r0ijsu.svelte-r0ijsu{background-color:#B9B9B9}.promo-control__info-control-button--disabled.svelte-r0ijsu .promo-control__info-control-button-title.svelte-r0ijsu,.promo-control__info-control-button--disabled.svelte-r0ijsu .promo-control__info-control-button-icon.svelte-r0ijsu{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button--disabled.svelte-r0ijsu.svelte-r0ijsu:hover{background-color:#B9B9B9;border:1px solid rgba(255, 255, 255, 0.2);color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button--disabled.svelte-r0ijsu:hover .promo-control__info-control-button-title.svelte-r0ijsu,.promo-control__info-control-button--disabled.svelte-r0ijsu:hover .promo-control__info-control-button-icon.svelte-r0ijsu{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button-icon.svelte-r0ijsu.svelte-r0ijsu{color:rgba(255, 255, 255, 0.9);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button-title.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowBold\";color:rgba(255, 255, 255, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-improve.svelte-r0ijsu.svelte-r0ijsu{display:flex;align-items:center;justify-content:center;background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);cursor:pointer;transition:background 0.2s linear, box-shadow 0.2s linear, color 0.2s linear;box-shadow:0px 0px 0px 1px rgba(255, 255, 255, 0.1) inset;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-improve.svelte-r0ijsu.svelte-r0ijsu:hover{background:#FFFFFF;box-shadow:0px 0px 0px 1px rgba(17, 17, 17, 0.1) inset}.promo-control__info-control-improve.svelte-r0ijsu:hover .promo-control__info-control-improve-title.svelte-r0ijsu,.promo-control__info-control-improve.svelte-r0ijsu:hover .promo-control__info-control-improve-icon.svelte-r0ijsu{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-improve-icon.svelte-r0ijsu.svelte-r0ijsu{color:rgba(17, 17, 17, 0.9);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-improve-title.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowBold\";color:rgba(17, 17, 17, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats.svelte-r0ijsu.svelte-r0ijsu{display:flex;align-items:center;justify-content:center;gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((55 * var(--global-scale) * var(--global-scale) * 0.44 - (55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item.svelte-r0ijsu.svelte-r0ijsu{position:relative;display:flex;flex-direction:column;justify-content:center;gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((380 * var(--global-scale) * var(--global-scale) - 380 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((380 * var(--global-scale) * var(--global-scale) * 0.44 - (380 * var(--global-scale) * var(--global-scale) - 380 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((200 * var(--global-scale) * var(--global-scale) * 0.44 - (200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-background.svelte-r0ijsu.svelte-r0ijsu{z-index:-1;position:absolute;width:100%;height:100%;border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-lvl.svelte-r0ijsu.svelte-r0ijsu{position:absolute;display:flex;align-items:flex-start;gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-lvl-title.svelte-r0ijsu.svelte-r0ijsu{display:flex;align-items:center;font-family:\"HeadingNowBold\";color:rgba(17, 17, 17, 0.9);line-height:1;font-size:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-lvl-title--up.svelte-r0ijsu.svelte-r0ijsu{font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-left:min(calc((-6 * var(--global-scale) * var(--global-scale) - -6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-6 * var(--global-scale) * var(--global-scale) * 0.44 - (-6 * var(--global-scale) * var(--global-scale) - -6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.promo-control__stats-item-title.svelte-r0ijsu.svelte-r0ijsu{position:absolute;font-family:\"HeadingNowBold\";color:rgba(17, 17, 17, 0.9);text-transform:uppercase;top:max(calc((90 * var(--global-scale) * var(--global-scale) - 90 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((90 * var(--global-scale) * var(--global-scale) * 0.44 - (90 * var(--global-scale) * var(--global-scale) - 90 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-title--light.svelte-r0ijsu.svelte-r0ijsu{color:#FFFFFF}.promo-control__stats-item-wrapper.svelte-r0ijsu.svelte-r0ijsu{position:absolute;display:flex;align-items:center;gap:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-icon.svelte-r0ijsu.svelte-r0ijsu{color:#111111;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-icon--white.svelte-r0ijsu.svelte-r0ijsu{color:#FFFFFF}.promo-control__stats-item-text.svelte-r0ijsu.svelte-r0ijsu{color:#111111;font-family:\"HeadingNowRegular\";font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-server.svelte-r0ijsu.svelte-r0ijsu{display:flex;align-items:center;color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-server--bright.svelte-r0ijsu.svelte-r0ijsu{color:rgba(255, 255, 255, 0.6)}.promo-control__stats-item-rating-value.svelte-r0ijsu.svelte-r0ijsu{position:absolute;font-family:\"HeadingNowBold\";color:#FFFFFF;line-height:1;font-size:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list-title.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowRegular\";color:#FFFFFF;text-align:center;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list.svelte-r0ijsu.svelte-r0ijsu{display:flex;justify-content:center;gap:max(calc((85 * var(--global-scale) * var(--global-scale) - 85 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((85 * var(--global-scale) * var(--global-scale) * 0.44 - (85 * var(--global-scale) * var(--global-scale) - 85 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item.svelte-r0ijsu.svelte-r0ijsu{display:flex;flex-direction:column;align-items:center;gap:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image-wrapper.svelte-r0ijsu.svelte-r0ijsu{position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgb(13, 16, 17) 90%);border:2px solid rgba(255, 255, 255, 0.01);border-radius:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image-wrapper.svelte-r0ijsu.svelte-r0ijsu:after{content:\"\";position:absolute;background-color:var(--shadowColor);bottom:0;width:max(calc((56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((56 * var(--global-scale) * var(--global-scale) * 0.44 - (56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image-wrapper.svelte-r0ijsu.svelte-r0ijsu:before{content:\"\";position:absolute;background-color:var(--shadowColor);filter:blur(20px);border-radius:100%;bottom:min(calc((-20 * var(--global-scale) * var(--global-scale) - -20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-20 * var(--global-scale) * var(--global-scale) * 0.44 - (-20 * var(--global-scale) * var(--global-scale) - -20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px);width:max(calc((140 * var(--global-scale) * var(--global-scale) - 140 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((140 * var(--global-scale) * var(--global-scale) * 0.44 - (140 * var(--global-scale) * var(--global-scale) - 140 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image.svelte-r0ijsu.svelte-r0ijsu{z-index:2;height:max(calc((120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((120 * var(--global-scale) * var(--global-scale) * 0.44 - (120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-title.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.85);text-align:center;font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((130 * var(--global-scale) * var(--global-scale) - 130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((130 * var(--global-scale) * var(--global-scale) * 0.44 - (130 * var(--global-scale) * var(--global-scale) - 130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__hint-icon.svelte-r0ijsu.svelte-r0ijsu{color:rgba(255, 255, 255, 0.5);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__hint-title.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((14 * var(--global-scale) * var(--global-scale) - 14 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((14 * var(--global-scale) * var(--global-scale) * 0.44 - (14 * var(--global-scale) * var(--global-scale) - 14 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__hint.svelte-r0ijsu.svelte-r0ijsu{display:flex;justify-content:center;gap:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((77 * var(--global-scale) * var(--global-scale) - 77 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((77 * var(--global-scale) * var(--global-scale) * 0.44 - (77 * var(--global-scale) * var(--global-scale) - 77 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__error-message-wrapper.svelte-r0ijsu.svelte-r0ijsu{position:absolute;top:50%;transform:translateY(-50%);width:90%;left:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__error-message.svelte-r0ijsu.svelte-r0ijsu{font-family:\"HeadingNowBold\";color:#FFFFFF;font-size:max(calc((55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((55 * var(--global-scale) * var(--global-scale) * 0.44 - (55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__error-message--colored.svelte-r0ijsu.svelte-r0ijsu{background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);color:transparent;background-clip:text;-webkit-background-clip:text}.promo-control__characters-image.svelte-r0ijsu.svelte-r0ijsu{position:absolute;right:0;bottom:0;width:auto;height:max(calc((859 * var(--global-scale) * var(--global-scale) - 859 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((859 * var(--global-scale) * var(--global-scale) * 0.44 - (859 * var(--global-scale) * var(--global-scale) - 859 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
+            append_styles(target, "svelte-o2jlbx", ".promo-control__coin.svelte-o2jlbx.svelte-o2jlbx{position:absolute;display:flex;gap:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((52 * var(--global-scale) * var(--global-scale) * 0.44 - (52 * var(--global-scale) * var(--global-scale) - 52 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);right:max(calc((279 * var(--global-scale) * var(--global-scale) - 279 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((279 * var(--global-scale) * var(--global-scale) * 0.44 - (279 * var(--global-scale) * var(--global-scale) - 279 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-icon.svelte-o2jlbx.svelte-o2jlbx{display:flex;align-items:center;gap:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-icon-image.svelte-o2jlbx.svelte-o2jlbx{height:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-icon-value.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowBold\";color:rgba(255, 255, 255, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-button.svelte-o2jlbx.svelte-o2jlbx{display:flex;align-items:center;justify-content:center;background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);box-shadow:0px 0px 0px 1px rgba(255, 255, 255, 0.1) inset;cursor:pointer;transition:background 0.2s linear, box-shadow 0.2s linear, color 0.2s linear;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((100 * var(--global-scale) * var(--global-scale) * 0.44 - (100 * var(--global-scale) * var(--global-scale) - 100 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__coin-button.svelte-o2jlbx.svelte-o2jlbx:hover{background:#FFFFFF;box-shadow:0px 0px 0px 1px rgba(17, 17, 17, 0.1) inset}.promo-control__coin-button.svelte-o2jlbx:hover .promo-control__coin-button-title.svelte-o2jlbx{color:rgba(17, 17, 17, 0.9)}.promo-control__coin-button-title.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowBold\";text-transform:uppercase;color:rgba(17, 17, 17, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info.svelte-o2jlbx.svelte-o2jlbx{width:100%;display:flex;align-items:center;justify-content:space-between;margin-top:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-left:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-right:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-promo-title.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-promo.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowBold\";background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);color:transparent;background-clip:text;-webkit-background-clip:text;text-transform:uppercase;font-size:max(calc((36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((36 * var(--global-scale) * var(--global-scale) * 0.44 - (36 * var(--global-scale) * var(--global-scale) - 36 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control.svelte-o2jlbx.svelte-o2jlbx{display:flex;gap:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button.svelte-o2jlbx.svelte-o2jlbx{display:flex;align-items:center;justify-content:center;background-color:rgba(19, 21, 22, 0.95);border:1px solid rgba(255, 255, 255, 0.1);cursor:pointer;transition:background-color 0.2s linear, border 0.2s linear, color 0.2s linear;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button.svelte-o2jlbx.svelte-o2jlbx:hover{background-color:#FFFFFF;border:1px solid rgba(255, 255, 255, 0.2)}.promo-control__info-control-button.svelte-o2jlbx:hover .promo-control__info-control-button-title.svelte-o2jlbx,.promo-control__info-control-button.svelte-o2jlbx:hover .promo-control__info-control-button-icon.svelte-o2jlbx{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button--small.svelte-o2jlbx.svelte-o2jlbx{width:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button--medium.svelte-o2jlbx.svelte-o2jlbx{width:max(calc((120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((120 * var(--global-scale) * var(--global-scale) * 0.44 - (120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button--disabled.svelte-o2jlbx.svelte-o2jlbx{background-color:#B9B9B9}.promo-control__info-control-button--disabled.svelte-o2jlbx .promo-control__info-control-button-title.svelte-o2jlbx,.promo-control__info-control-button--disabled.svelte-o2jlbx .promo-control__info-control-button-icon.svelte-o2jlbx{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button--disabled.svelte-o2jlbx.svelte-o2jlbx:hover{background-color:#B9B9B9;border:1px solid rgba(255, 255, 255, 0.2);color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button--disabled.svelte-o2jlbx:hover .promo-control__info-control-button-title.svelte-o2jlbx,.promo-control__info-control-button--disabled.svelte-o2jlbx:hover .promo-control__info-control-button-icon.svelte-o2jlbx{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-button-icon.svelte-o2jlbx.svelte-o2jlbx{color:rgba(255, 255, 255, 0.9);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-button-title.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowBold\";color:rgba(255, 255, 255, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-improve.svelte-o2jlbx.svelte-o2jlbx{display:flex;align-items:center;justify-content:center;background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);cursor:pointer;transition:background 0.2s linear, box-shadow 0.2s linear, color 0.2s linear;box-shadow:0px 0px 0px 1px rgba(255, 255, 255, 0.1) inset;gap:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((42 * var(--global-scale) * var(--global-scale) * 0.44 - (42 * var(--global-scale) * var(--global-scale) - 42 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-improve.svelte-o2jlbx.svelte-o2jlbx:hover{background:#FFFFFF;box-shadow:0px 0px 0px 1px rgba(17, 17, 17, 0.1) inset}.promo-control__info-control-improve.svelte-o2jlbx:hover .promo-control__info-control-improve-title.svelte-o2jlbx,.promo-control__info-control-improve.svelte-o2jlbx:hover .promo-control__info-control-improve-icon.svelte-o2jlbx{color:rgba(17, 17, 17, 0.9)}.promo-control__info-control-improve-icon.svelte-o2jlbx.svelte-o2jlbx{color:rgba(17, 17, 17, 0.9);font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__info-control-improve-title.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowBold\";color:rgba(17, 17, 17, 0.9);font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats.svelte-o2jlbx.svelte-o2jlbx{display:flex;align-items:center;justify-content:center;gap:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((55 * var(--global-scale) * var(--global-scale) * 0.44 - (55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-bottom:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item.svelte-o2jlbx.svelte-o2jlbx{position:relative;display:flex;flex-direction:column;justify-content:center;gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((380 * var(--global-scale) * var(--global-scale) - 380 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((380 * var(--global-scale) * var(--global-scale) * 0.44 - (380 * var(--global-scale) * var(--global-scale) - 380 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((200 * var(--global-scale) * var(--global-scale) * 0.44 - (200 * var(--global-scale) * var(--global-scale) - 200 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-background.svelte-o2jlbx.svelte-o2jlbx{z-index:-1;position:absolute;width:100%;height:100%;border-radius:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-lvl.svelte-o2jlbx.svelte-o2jlbx{position:absolute;display:flex;align-items:flex-start;gap:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-lvl-title.svelte-o2jlbx.svelte-o2jlbx{display:flex;align-items:center;font-family:\"HeadingNowBold\";color:rgba(17, 17, 17, 0.9);line-height:1;font-size:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-lvl-title--up.svelte-o2jlbx.svelte-o2jlbx{font-size:max(calc((24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((24 * var(--global-scale) * var(--global-scale) * 0.44 - (24 * var(--global-scale) * var(--global-scale) - 24 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-left:min(calc((-6 * var(--global-scale) * var(--global-scale) - -6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-6 * var(--global-scale) * var(--global-scale) * 0.44 - (-6 * var(--global-scale) * var(--global-scale) - -6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px)}.promo-control__stats-item-title.svelte-o2jlbx.svelte-o2jlbx{position:absolute;font-family:\"HeadingNowBold\";color:rgba(17, 17, 17, 0.9);text-transform:uppercase;top:max(calc((90 * var(--global-scale) * var(--global-scale) - 90 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((90 * var(--global-scale) * var(--global-scale) * 0.44 - (90 * var(--global-scale) * var(--global-scale) - 90 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-title--light.svelte-o2jlbx.svelte-o2jlbx{color:#FFFFFF}.promo-control__stats-item-wrapper.svelte-o2jlbx.svelte-o2jlbx{position:absolute;display:flex;align-items:center;gap:max(calc((5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((5 * var(--global-scale) * var(--global-scale) * 0.44 - (5 * var(--global-scale) * var(--global-scale) - 5 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);bottom:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-icon.svelte-o2jlbx.svelte-o2jlbx{color:#111111;font-size:max(calc((16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((16 * var(--global-scale) * var(--global-scale) * 0.44 - (16 * var(--global-scale) * var(--global-scale) - 16 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-item-icon--white.svelte-o2jlbx.svelte-o2jlbx{color:#FFFFFF}.promo-control__stats-item-text.svelte-o2jlbx.svelte-o2jlbx{color:#111111;font-family:\"HeadingNowRegular\";font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-server.svelte-o2jlbx.svelte-o2jlbx{display:flex;align-items:center;color:#FFFFFF;font-family:\"HeadingNowRegular\";font-size:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);gap:max(calc((6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((6 * var(--global-scale) * var(--global-scale) * 0.44 - (6 * var(--global-scale) * var(--global-scale) - 6 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);line-height:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__stats-server--bright.svelte-o2jlbx.svelte-o2jlbx{color:rgba(255, 255, 255, 0.6)}.promo-control__stats-item-rating-value.svelte-o2jlbx.svelte-o2jlbx{position:absolute;font-family:\"HeadingNowBold\";color:#FFFFFF;line-height:1;font-size:max(calc((60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((60 * var(--global-scale) * var(--global-scale) * 0.44 - (60 * var(--global-scale) * var(--global-scale) - 60 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);left:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list-title.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowRegular\";color:#FFFFFF;text-align:center;font-size:max(calc((18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((18 * var(--global-scale) * var(--global-scale) * 0.44 - (18 * var(--global-scale) * var(--global-scale) - 18 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx{overflow-x:auto;margin-top:max(calc((25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((25 * var(--global-scale) * var(--global-scale) * 0.44 - (25 * var(--global-scale) * var(--global-scale) - 25 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-left:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-right:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);padding-bottom:max(calc((10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((10 * var(--global-scale) * var(--global-scale) * 0.44 - (10 * var(--global-scale) * var(--global-scale) - 10 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx::-webkit-scrollbar{width:0;height:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx::-webkit-scrollbar-button{display:none}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx::-webkit-scrollbar-track{background-color:rgba(255, 255, 255, 0.2)}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx::-webkit-scrollbar-track-piece{background:rgba(255, 255, 255, 0.2);border-radius:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx::-webkit-scrollbar-thumb{background:rgba(255, 255, 255, 0.4);border-radius:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx::-webkit-scrollbar-corner{background-color:rgba(255, 255, 255, 0.2)}.promo-control__reward-list.svelte-o2jlbx.svelte-o2jlbx::-webkit-resizer{background-color:rgba(255, 255, 255, 0.2)}.promo-control__reward-track.svelte-o2jlbx.svelte-o2jlbx{display:flex;justify-content:center;min-width:min-content;gap:max(calc((85 * var(--global-scale) * var(--global-scale) - 85 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((85 * var(--global-scale) * var(--global-scale) * 0.44 - (85 * var(--global-scale) * var(--global-scale) - 85 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item.svelte-o2jlbx.svelte-o2jlbx{display:flex;flex-direction:column;align-items:center;flex-shrink:0;gap:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image-wrapper.svelte-o2jlbx.svelte-o2jlbx{position:relative;display:flex;align-items:center;justify-content:center;overflow:hidden;background:radial-gradient(circle, rgba(255, 255, 255, 0.1) 0%, rgb(13, 16, 17) 90%);border:2px solid rgba(255, 255, 255, 0.01);border-radius:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((150 * var(--global-scale) * var(--global-scale) * 0.44 - (150 * var(--global-scale) * var(--global-scale) - 150 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image-wrapper.svelte-o2jlbx.svelte-o2jlbx:after{content:\"\";position:absolute;background-color:var(--shadowColor);bottom:0;width:max(calc((56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((56 * var(--global-scale) * var(--global-scale) * 0.44 - (56 * var(--global-scale) * var(--global-scale) - 56 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((4 * var(--global-scale) * var(--global-scale) * 0.44 - (4 * var(--global-scale) * var(--global-scale) - 4 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image-wrapper.svelte-o2jlbx.svelte-o2jlbx:before{content:\"\";position:absolute;background-color:var(--shadowColor);filter:blur(20px);border-radius:100%;bottom:min(calc((-20 * var(--global-scale) * var(--global-scale) - -20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((-20 * var(--global-scale) * var(--global-scale) * 0.44 - (-20 * var(--global-scale) * var(--global-scale) - -20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), -1px);width:max(calc((140 * var(--global-scale) * var(--global-scale) - 140 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((140 * var(--global-scale) * var(--global-scale) * 0.44 - (140 * var(--global-scale) * var(--global-scale) - 140 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);height:max(calc((30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((30 * var(--global-scale) * var(--global-scale) * 0.44 - (30 * var(--global-scale) * var(--global-scale) - 30 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-image.svelte-o2jlbx.svelte-o2jlbx{z-index:2;height:max(calc((120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((120 * var(--global-scale) * var(--global-scale) * 0.44 - (120 * var(--global-scale) * var(--global-scale) - 120 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__reward-item-title.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowRegular\";color:rgba(255, 255, 255, 0.85);text-align:center;font-size:max(calc((12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((12 * var(--global-scale) * var(--global-scale) * 0.44 - (12 * var(--global-scale) * var(--global-scale) - 12 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);width:max(calc((130 * var(--global-scale) * var(--global-scale) - 130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((130 * var(--global-scale) * var(--global-scale) * 0.44 - (130 * var(--global-scale) * var(--global-scale) - 130 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__hint-icon.svelte-o2jlbx.svelte-o2jlbx{color:rgba(255, 255, 255, 0.5);font-size:max(calc((20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((20 * var(--global-scale) * var(--global-scale) * 0.44 - (20 * var(--global-scale) * var(--global-scale) - 20 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__hint-title.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowRegular\";color:#FFFFFF;font-size:max(calc((14 * var(--global-scale) * var(--global-scale) - 14 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((14 * var(--global-scale) * var(--global-scale) * 0.44 - (14 * var(--global-scale) * var(--global-scale) - 14 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__hint.svelte-o2jlbx.svelte-o2jlbx{display:flex;justify-content:center;gap:max(calc((15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((15 * var(--global-scale) * var(--global-scale) * 0.44 - (15 * var(--global-scale) * var(--global-scale) - 15 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px);margin-top:max(calc((77 * var(--global-scale) * var(--global-scale) - 77 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((77 * var(--global-scale) * var(--global-scale) * 0.44 - (77 * var(--global-scale) * var(--global-scale) - 77 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__error-message-wrapper.svelte-o2jlbx.svelte-o2jlbx{position:absolute;top:50%;transform:translateY(-50%);width:90%;left:max(calc((50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((50 * var(--global-scale) * var(--global-scale) * 0.44 - (50 * var(--global-scale) * var(--global-scale) - 50 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__error-message.svelte-o2jlbx.svelte-o2jlbx{font-family:\"HeadingNowBold\";color:#FFFFFF;font-size:max(calc((55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((55 * var(--global-scale) * var(--global-scale) * 0.44 - (55 * var(--global-scale) * var(--global-scale) - 55 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}.promo-control__error-message--colored.svelte-o2jlbx.svelte-o2jlbx{background:linear-gradient(91.81deg, #FCD80F 1.53%, #FF9112 59.82%);color:transparent;background-clip:text;-webkit-background-clip:text}.promo-control__characters-image.svelte-o2jlbx.svelte-o2jlbx{position:absolute;right:0;bottom:0;width:auto;height:max(calc((859 * var(--global-scale) * var(--global-scale) - 859 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale))) * 100vw + calc((859 * var(--global-scale) * var(--global-scale) * 0.44 - (859 * var(--global-scale) * var(--global-scale) - 859 * var(--global-scale) * var(--global-scale) * 0.44) / (1920 * var(--global-scale) - 800 * var(--global-scale)) * 800 * var(--global-scale)) * 1px), 1px)}");
         }
 
         function control_index_svelte_get_each_context(ctx, list, i) {
             const child_ctx = ctx.slice();
-            child_ctx[14] = list[i];
+            child_ctx[17] = list[i];
             return child_ctx;
         }
 
-        // (613:4) {:else}
+        // (661:4) {:else}
         function control_index_svelte_create_else_block(ctx) {
             let div3;
             let div0;
@@ -470758,7 +471479,7 @@ const getRandomTableNumber = () => {
             let t3;
             let div2;
             let t4;
-            let t5_value = /*$controlAvailable*/ ctx[2].minLevel + "";
+            let t5_value = /*$controlAvailable*/ ctx[3].minLevel + "";
             let t5;
             let t6;
             let t7;
@@ -470780,13 +471501,13 @@ const getRandomTableNumber = () => {
                     t6 = dom_text(" УРОВНЯ");
                     t7 = dom_space();
                     img = dom_element("img");
-                    dom_attr(div0, "class", "promo-control__error-message svelte-r0ijsu");
-                    dom_attr(div1, "class", "promo-control__error-message svelte-r0ijsu");
-                    dom_attr(div2, "class", "promo-control__error-message promo-control__error-message--colored svelte-r0ijsu");
-                    dom_attr(div3, "class", "promo-control__error-message-wrapper svelte-r0ijsu");
+                    dom_attr(div0, "class", "promo-control__error-message svelte-o2jlbx");
+                    dom_attr(div1, "class", "promo-control__error-message svelte-o2jlbx");
+                    dom_attr(div2, "class", "promo-control__error-message promo-control__error-message--colored svelte-o2jlbx");
+                    dom_attr(div3, "class", "promo-control__error-message-wrapper svelte-o2jlbx");
                     if (!utils_src_url_equal(img.src, img_src_value = characters_namespaceObject)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "characters");
-                    dom_attr(img, "class", "promo-control__characters-image svelte-r0ijsu");
+                    dom_attr(img, "class", "promo-control__characters-image svelte-o2jlbx");
                 },
                 m(target, anchor) {
                     dom_insert(target, div3, anchor);
@@ -470802,7 +471523,7 @@ const getRandomTableNumber = () => {
                     dom_insert(target, img, anchor);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$controlAvailable*/ 4 && t5_value !== (t5_value = /*$controlAvailable*/ ctx[2].minLevel + "")) dom_set_data(t5, t5_value);
+                    if (dirty & /*$controlAvailable*/ 8 && t5_value !== (t5_value = /*$controlAvailable*/ ctx[3].minLevel + "")) dom_set_data(t5, t5_value);
                 },
                 d(detaching) {
                     if (detaching) {
@@ -470814,7 +471535,7 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (444:4) {#if $controlAvailable.available}
+        // (486:4) {#if $controlAvailable.available}
         function control_index_svelte_create_if_block(ctx) {
             let div2;
             let div0;
@@ -470822,7 +471543,7 @@ const getRandomTableNumber = () => {
             let img0_src_value;
             let t0;
             let p0;
-            let t1_value = formatMoney( /*$controlInfo*/ ctx[1].coins) + "";
+            let t1_value = formatMoney( /*$controlInfo*/ ctx[2].coins) + "";
             let t1;
             let t2;
             let div1;
@@ -470832,7 +471553,7 @@ const getRandomTableNumber = () => {
             let p2;
             let t6;
             let p3;
-            let t7_value = /*$controlInfo*/ ctx[1].promo + "";
+            let t7_value = /*$controlInfo*/ ctx[2].promo + "";
             let t7;
             let t8;
             let div8;
@@ -470855,12 +471576,12 @@ const getRandomTableNumber = () => {
             let t19;
             let div10;
             let p7;
-            let t20_value = ( /*$controlInfo*/ ctx[1].currentLvl || 0) + "";
+            let t20_value = ( /*$controlInfo*/ ctx[2].currentLvl || 0) + "";
             let t20;
             let t21;
             let p8;
             let t22;
-            let t23_value = ( /*$controlInfo*/ ctx[1].maxLvl || 0) + "";
+            let t23_value = ( /*$controlInfo*/ ctx[2].maxLvl || 0) + "";
             let t23;
             let t24;
             let p9;
@@ -470870,7 +471591,7 @@ const getRandomTableNumber = () => {
             let t27;
             let div11;
             let t28;
-            let t29_value = /*$controlInfo*/ ctx[1].share + "";
+            let t29_value = /*$controlInfo*/ ctx[2].share + "";
             let t29;
             let t30;
             let br;
@@ -470881,7 +471602,7 @@ const getRandomTableNumber = () => {
             let img2_src_value;
             let t33;
             let p10;
-            let t34_value = ( /*$controlInfo*/ ctx[1].position || 0) + "";
+            let t34_value = ( /*$controlInfo*/ ctx[2].position || 0) + "";
             let t34;
             let t35;
             let p11;
@@ -470891,7 +471612,7 @@ const getRandomTableNumber = () => {
             let t38;
             let div15;
             let div14;
-            let t40_value = ( /*$serverHudInfo*/ ctx[3].title || '') + "";
+            let t40_value = ( /*$serverHudInfo*/ ctx[4].title || '') + "";
             let t40;
             let t41;
             let div20;
@@ -470899,7 +471620,7 @@ const getRandomTableNumber = () => {
             let img3_src_value;
             let t42;
             let p12;
-            let t43_value = ( /*$controlInfo*/ ctx[1].activations || 0) + "";
+            let t43_value = ( /*$controlInfo*/ ctx[2].activations || 0) + "";
             let t43;
             let t44;
             let p13;
@@ -470914,7 +471635,7 @@ const getRandomTableNumber = () => {
             let div23;
             let mounted;
             let dispose;
-            let if_block = /*$controlInfo*/ ctx[1].currentRewards && control_index_svelte_create_if_block_1(ctx);
+            let if_block = /*$controlInfo*/ ctx[2].currentRewards && control_index_svelte_create_if_block_1(ctx);
 
             return {
                 c() {
@@ -470926,7 +471647,7 @@ const getRandomTableNumber = () => {
                     t1 = dom_text(t1_value);
                     t2 = dom_space();
                     div1 = dom_element("div");
-                    div1.innerHTML = `<p class="promo-control__coin-button-title svelte-r0ijsu">получить</p>`;
+                    div1.innerHTML = `<p class="promo-control__coin-button-title svelte-o2jlbx">получить</p>`;
                     t4 = dom_space();
                     div9 = dom_element("div");
                     div3 = dom_element("div");
@@ -470938,10 +471659,10 @@ const getRandomTableNumber = () => {
                     t8 = dom_space();
                     div8 = dom_element("div");
                     div4 = dom_element("div");
-                    div4.innerHTML = `<i class="promo-control__info-control-button-icon icon-promo-info svelte-r0ijsu"></i>`;
+                    div4.innerHTML = `<i class="promo-control__info-control-button-icon icon-promo-info svelte-o2jlbx"></i>`;
                     t9 = dom_space();
                     div5 = dom_element("div");
-                    div5.innerHTML = `<i class="promo-control__info-control-button-icon icon-promo-edit svelte-r0ijsu"></i> <p class="promo-control__info-control-button-title svelte-r0ijsu">Изменить</p>`;
+                    div5.innerHTML = `<i class="promo-control__info-control-button-icon icon-promo-edit svelte-o2jlbx"></i> <p class="promo-control__info-control-button-title svelte-o2jlbx">Изменить</p>`;
                     t12 = dom_space();
                     div6 = dom_element("div");
                     i2 = dom_element("i");
@@ -470950,7 +471671,7 @@ const getRandomTableNumber = () => {
                     t14 = dom_text( /*copyButtonText*/ ctx[0]);
                     t15 = dom_space();
                     div7 = dom_element("div");
-                    div7.innerHTML = `<i class="promo-control__info-control-improve-icon icon-favorite-star svelte-r0ijsu"></i> <p class="promo-control__info-control-improve-title svelte-r0ijsu">Улучшить</p>`;
+                    div7.innerHTML = `<i class="promo-control__info-control-improve-icon icon-favorite-star svelte-o2jlbx"></i> <p class="promo-control__info-control-improve-title svelte-o2jlbx">Улучшить</p>`;
                     t18 = dom_space();
                     div21 = dom_element("div");
                     div13 = dom_element("div");
@@ -471005,7 +471726,7 @@ const getRandomTableNumber = () => {
                     t46 = dom_space();
                     div19 = dom_element("div");
                     div18 = dom_element("div");
-                    div18.innerHTML = `<p class="promo-control__info-control-button-title svelte-r0ijsu">Подробнее</p>`;
+                    div18.innerHTML = `<p class="promo-control__info-control-button-title svelte-o2jlbx">Подробнее</p>`;
                     t48 = dom_space();
                     div22 = dom_element("div");
                     p15 = dom_element("p");
@@ -471014,59 +471735,59 @@ const getRandomTableNumber = () => {
                     if (if_block) if_block.c();
                     t51 = dom_space();
                     div23 = dom_element("div");
-                    div23.innerHTML = `<i class="promo-control__hint-icon icon-promo-info svelte-r0ijsu"></i> <p class="promo-control__hint-title svelte-r0ijsu">Улучшайте уровень своего промокода, чтобы увеличить количество наград!</p>`;
-                    dom_attr(img0, "class", "promo-control__coin-icon-image svelte-r0ijsu");
+                    div23.innerHTML = `<i class="promo-control__hint-icon icon-promo-info svelte-o2jlbx"></i> <p class="promo-control__hint-title svelte-o2jlbx">Улучшайте уровень своего промокода, чтобы увеличить количество наград!</p>`;
+                    dom_attr(img0, "class", "promo-control__coin-icon-image svelte-o2jlbx");
                     if (!utils_src_url_equal(img0.src, img0_src_value = coin_img_namespaceObject)) dom_attr(img0, "src", img0_src_value);
                     dom_attr(img0, "alt", "coin");
-                    dom_attr(p0, "class", "promo-control__coin-icon-value svelte-r0ijsu");
-                    dom_attr(div0, "class", "promo-control__coin-icon svelte-r0ijsu");
-                    dom_attr(div1, "class", "promo-control__coin-button svelte-r0ijsu");
-                    dom_attr(div2, "class", "promo-control__coin svelte-r0ijsu");
-                    dom_attr(p2, "class", "promo-control__info-promo-title svelte-r0ijsu");
-                    dom_attr(p3, "class", "promo-control__info-promo svelte-r0ijsu");
+                    dom_attr(p0, "class", "promo-control__coin-icon-value svelte-o2jlbx");
+                    dom_attr(div0, "class", "promo-control__coin-icon svelte-o2jlbx");
+                    dom_attr(div1, "class", "promo-control__coin-button svelte-o2jlbx");
+                    dom_attr(div2, "class", "promo-control__coin svelte-o2jlbx");
+                    dom_attr(p2, "class", "promo-control__info-promo-title svelte-o2jlbx");
+                    dom_attr(p3, "class", "promo-control__info-promo svelte-o2jlbx");
                     dom_attr(div3, "class", "promo-control__info-promo-wrapper");
-                    dom_attr(div4, "class", "promo-control__info-control-button promo-control__info-control-button--small svelte-r0ijsu");
-                    dom_attr(div5, "class", "promo-control__info-control-button svelte-r0ijsu");
-                    dom_attr(i2, "class", "promo-control__info-control-button-icon icon-promo-save svelte-r0ijsu");
-                    dom_attr(p5, "class", "promo-control__info-control-button-title svelte-r0ijsu");
-                    dom_attr(div6, "class", "promo-control__info-control-button svelte-r0ijsu");
+                    dom_attr(div4, "class", "promo-control__info-control-button promo-control__info-control-button--small svelte-o2jlbx");
+                    dom_attr(div5, "class", "promo-control__info-control-button svelte-o2jlbx");
+                    dom_attr(i2, "class", "promo-control__info-control-button-icon icon-promo-save svelte-o2jlbx");
+                    dom_attr(p5, "class", "promo-control__info-control-button-title svelte-o2jlbx");
+                    dom_attr(div6, "class", "promo-control__info-control-button svelte-o2jlbx");
                     dom_toggle_class(div6, "promo-control__info-control-button--disabled", /*copyButtonText*/ ctx[0] === 'Скопировано');
-                    dom_attr(div7, "class", "promo-control__info-control-improve svelte-r0ijsu");
-                    dom_attr(div8, "class", "promo-control__info-control svelte-r0ijsu");
-                    dom_attr(div9, "class", "promo-control__info svelte-r0ijsu");
-                    dom_attr(img1, "class", "promo-control__stats-item-background svelte-r0ijsu");
+                    dom_attr(div7, "class", "promo-control__info-control-improve svelte-o2jlbx");
+                    dom_attr(div8, "class", "promo-control__info-control svelte-o2jlbx");
+                    dom_attr(div9, "class", "promo-control__info svelte-o2jlbx");
+                    dom_attr(img1, "class", "promo-control__stats-item-background svelte-o2jlbx");
                     if (!utils_src_url_equal(img1.src, img1_src_value = background_lvl_namespaceObject)) dom_attr(img1, "src", img1_src_value);
                     dom_attr(img1, "alt", "background");
-                    dom_attr(p7, "class", "promo-control__stats-item-lvl-title svelte-r0ijsu");
-                    dom_attr(p8, "class", "promo-control__stats-item-lvl-title promo-control__stats-item-lvl-title--up svelte-r0ijsu");
-                    dom_attr(div10, "class", "promo-control__stats-item-lvl svelte-r0ijsu");
-                    dom_attr(p9, "class", "promo-control__stats-item-title svelte-r0ijsu");
-                    dom_attr(i4, "class", "promo-control__stats-item-icon icon-promo-info svelte-r0ijsu");
-                    dom_attr(div11, "class", "promo-control__stats-item-text svelte-r0ijsu");
-                    dom_attr(div12, "class", "promo-control__stats-item-wrapper svelte-r0ijsu");
-                    dom_attr(div13, "class", "promo-control__stats-item svelte-r0ijsu");
-                    dom_attr(img2, "class", "promo-control__stats-item-background svelte-r0ijsu");
+                    dom_attr(p7, "class", "promo-control__stats-item-lvl-title svelte-o2jlbx");
+                    dom_attr(p8, "class", "promo-control__stats-item-lvl-title promo-control__stats-item-lvl-title--up svelte-o2jlbx");
+                    dom_attr(div10, "class", "promo-control__stats-item-lvl svelte-o2jlbx");
+                    dom_attr(p9, "class", "promo-control__stats-item-title svelte-o2jlbx");
+                    dom_attr(i4, "class", "promo-control__stats-item-icon icon-promo-info svelte-o2jlbx");
+                    dom_attr(div11, "class", "promo-control__stats-item-text svelte-o2jlbx");
+                    dom_attr(div12, "class", "promo-control__stats-item-wrapper svelte-o2jlbx");
+                    dom_attr(div13, "class", "promo-control__stats-item svelte-o2jlbx");
+                    dom_attr(img2, "class", "promo-control__stats-item-background svelte-o2jlbx");
                     if (!utils_src_url_equal(img2.src, img2_src_value = background_rating_namespaceObject)) dom_attr(img2, "src", img2_src_value);
                     dom_attr(img2, "alt", "background");
-                    dom_attr(p10, "class", "promo-control__stats-item-rating-value svelte-r0ijsu");
-                    dom_attr(p11, "class", "promo-control__stats-item-title promo-control__stats-item-title--light svelte-r0ijsu");
-                    dom_attr(i5, "class", "promo-control__stats-item-icon promo-control__stats-item-icon--white icon-promo-fire svelte-r0ijsu");
-                    dom_attr(div14, "class", "promo-control__stats-server promo-control__stats-server--bright svelte-r0ijsu");
-                    dom_attr(div15, "class", "promo-control__stats-server svelte-r0ijsu");
-                    dom_attr(div16, "class", "promo-control__stats-item-wrapper svelte-r0ijsu");
-                    dom_attr(div17, "class", "promo-control__stats-item svelte-r0ijsu");
-                    dom_attr(img3, "class", "promo-control__stats-item-background svelte-r0ijsu");
+                    dom_attr(p10, "class", "promo-control__stats-item-rating-value svelte-o2jlbx");
+                    dom_attr(p11, "class", "promo-control__stats-item-title promo-control__stats-item-title--light svelte-o2jlbx");
+                    dom_attr(i5, "class", "promo-control__stats-item-icon promo-control__stats-item-icon--white icon-promo-fire svelte-o2jlbx");
+                    dom_attr(div14, "class", "promo-control__stats-server promo-control__stats-server--bright svelte-o2jlbx");
+                    dom_attr(div15, "class", "promo-control__stats-server svelte-o2jlbx");
+                    dom_attr(div16, "class", "promo-control__stats-item-wrapper svelte-o2jlbx");
+                    dom_attr(div17, "class", "promo-control__stats-item svelte-o2jlbx");
+                    dom_attr(img3, "class", "promo-control__stats-item-background svelte-o2jlbx");
                     if (!utils_src_url_equal(img3.src, img3_src_value = background_activation_namespaceObject)) dom_attr(img3, "src", img3_src_value);
                     dom_attr(img3, "alt", "background");
-                    dom_attr(p12, "class", "promo-control__stats-item-rating-value svelte-r0ijsu");
-                    dom_attr(p13, "class", "promo-control__stats-item-title promo-control__stats-item-title--light svelte-r0ijsu");
-                    dom_attr(div18, "class", "promo-control__info-control-button promo-control__info-control-button--medium svelte-r0ijsu");
-                    dom_attr(div19, "class", "promo-control__stats-item-wrapper svelte-r0ijsu");
-                    dom_attr(div20, "class", "promo-control__stats-item svelte-r0ijsu");
-                    dom_attr(div21, "class", "promo-control__stats svelte-r0ijsu");
-                    dom_attr(p15, "class", "promo-control__reward-list-title svelte-r0ijsu");
+                    dom_attr(p12, "class", "promo-control__stats-item-rating-value svelte-o2jlbx");
+                    dom_attr(p13, "class", "promo-control__stats-item-title promo-control__stats-item-title--light svelte-o2jlbx");
+                    dom_attr(div18, "class", "promo-control__info-control-button promo-control__info-control-button--medium svelte-o2jlbx");
+                    dom_attr(div19, "class", "promo-control__stats-item-wrapper svelte-o2jlbx");
+                    dom_attr(div20, "class", "promo-control__stats-item svelte-o2jlbx");
+                    dom_attr(div21, "class", "promo-control__stats svelte-o2jlbx");
+                    dom_attr(p15, "class", "promo-control__reward-list-title svelte-o2jlbx");
                     dom_attr(div22, "class", "promo-control__reward-list-wrapper");
-                    dom_attr(div23, "class", "promo-control__hint svelte-r0ijsu");
+                    dom_attr(div23, "class", "promo-control__hint svelte-o2jlbx");
                 },
                 m(target, anchor) {
                     dom_insert(target, div2, anchor);
@@ -471157,34 +471878,34 @@ const getRandomTableNumber = () => {
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div1, "click", /*getCoin*/ ctx[8]),
-                            dom_listen(div4, "click", /*openInfo*/ ctx[4]),
-                            dom_listen(div5, "click", /*change*/ ctx[5]),
-                            dom_listen(div6, "click", /*copy*/ ctx[6]),
-                            dom_listen(div7, "click", /*improve*/ ctx[7]),
-                            dom_listen(div18, "click", /*actiovationsInfo*/ ctx[9])
+                            dom_listen(div1, "click", /*getCoin*/ ctx[10]),
+                            dom_listen(div4, "click", /*openInfo*/ ctx[6]),
+                            dom_listen(div5, "click", /*change*/ ctx[7]),
+                            dom_listen(div6, "click", /*copy*/ ctx[8]),
+                            dom_listen(div7, "click", /*improve*/ ctx[9]),
+                            dom_listen(div18, "click", /*actiovationsInfo*/ ctx[11])
                         ];
 
                         mounted = true;
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$controlInfo*/ 2 && t1_value !== (t1_value = formatMoney( /*$controlInfo*/ ctx[1].coins) + "")) dom_set_data(t1, t1_value);
-                    if (dirty & /*$controlInfo*/ 2 && t7_value !== (t7_value = /*$controlInfo*/ ctx[1].promo + "")) dom_set_data(t7, t7_value);
+                    if (dirty & /*$controlInfo*/ 4 && t1_value !== (t1_value = formatMoney( /*$controlInfo*/ ctx[2].coins) + "")) dom_set_data(t1, t1_value);
+                    if (dirty & /*$controlInfo*/ 4 && t7_value !== (t7_value = /*$controlInfo*/ ctx[2].promo + "")) dom_set_data(t7, t7_value);
                     if (dirty & /*copyButtonText*/ 1) dom_set_data(t14, /*copyButtonText*/ ctx[0]);
 
                     if (dirty & /*copyButtonText*/ 1) {
                         dom_toggle_class(div6, "promo-control__info-control-button--disabled", /*copyButtonText*/ ctx[0] === 'Скопировано');
                     }
 
-                    if (dirty & /*$controlInfo*/ 2 && t20_value !== (t20_value = ( /*$controlInfo*/ ctx[1].currentLvl || 0) + "")) dom_set_data(t20, t20_value);
-                    if (dirty & /*$controlInfo*/ 2 && t23_value !== (t23_value = ( /*$controlInfo*/ ctx[1].maxLvl || 0) + "")) dom_set_data(t23, t23_value);
-                    if (dirty & /*$controlInfo*/ 2 && t29_value !== (t29_value = /*$controlInfo*/ ctx[1].share + "")) dom_set_data(t29, t29_value);
-                    if (dirty & /*$controlInfo*/ 2 && t34_value !== (t34_value = ( /*$controlInfo*/ ctx[1].position || 0) + "")) dom_set_data(t34, t34_value);
-                    if (dirty & /*$serverHudInfo*/ 8 && t40_value !== (t40_value = ( /*$serverHudInfo*/ ctx[3].title || '') + "")) dom_set_data(t40, t40_value);
-                    if (dirty & /*$controlInfo*/ 2 && t43_value !== (t43_value = ( /*$controlInfo*/ ctx[1].activations || 0) + "")) dom_set_data(t43, t43_value);
+                    if (dirty & /*$controlInfo*/ 4 && t20_value !== (t20_value = ( /*$controlInfo*/ ctx[2].currentLvl || 0) + "")) dom_set_data(t20, t20_value);
+                    if (dirty & /*$controlInfo*/ 4 && t23_value !== (t23_value = ( /*$controlInfo*/ ctx[2].maxLvl || 0) + "")) dom_set_data(t23, t23_value);
+                    if (dirty & /*$controlInfo*/ 4 && t29_value !== (t29_value = /*$controlInfo*/ ctx[2].share + "")) dom_set_data(t29, t29_value);
+                    if (dirty & /*$controlInfo*/ 4 && t34_value !== (t34_value = ( /*$controlInfo*/ ctx[2].position || 0) + "")) dom_set_data(t34, t34_value);
+                    if (dirty & /*$serverHudInfo*/ 16 && t40_value !== (t40_value = ( /*$serverHudInfo*/ ctx[4].title || '') + "")) dom_set_data(t40, t40_value);
+                    if (dirty & /*$controlInfo*/ 4 && t43_value !== (t43_value = ( /*$controlInfo*/ ctx[2].activations || 0) + "")) dom_set_data(t43, t43_value);
 
-                    if ( /*$controlInfo*/ ctx[1].currentRewards) {
+                    if ( /*$controlInfo*/ ctx[2].currentRewards) {
                         if (if_block) {
                             if_block.p(ctx, dirty);
                         } else {
@@ -471217,10 +471938,13 @@ const getRandomTableNumber = () => {
             };
         }
 
-        // (585:8) {#if $controlInfo.currentRewards}
+        // (627:8) {#if $controlInfo.currentRewards}
         function control_index_svelte_create_if_block_1(ctx) {
-            let div;
-            let each_value = each_ensure_array_like( /*$controlInfo*/ ctx[1].currentRewards);
+            let div1;
+            let div0;
+            let mounted;
+            let dispose;
+            let each_value = each_ensure_array_like( /*$controlInfo*/ ctx[2].currentRewards);
             let each_blocks = [];
 
             for (let i = 0; i < each_value.length; i += 1) {
@@ -471229,26 +471953,37 @@ const getRandomTableNumber = () => {
 
             return {
                 c() {
-                    div = dom_element("div");
+                    div1 = dom_element("div");
+                    div0 = dom_element("div");
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         each_blocks[i].c();
                     }
 
-                    dom_attr(div, "class", "promo-control__reward-list svelte-r0ijsu");
+                    dom_attr(div0, "class", "promo-control__reward-track svelte-o2jlbx");
+                    dom_attr(div1, "class", "promo-control__reward-list svelte-o2jlbx");
                 },
                 m(target, anchor) {
-                    dom_insert(target, div, anchor);
+                    dom_insert(target, div1, anchor);
+                    dom_append(div1, div0);
 
                     for (let i = 0; i < each_blocks.length; i += 1) {
                         if (each_blocks[i]) {
-                            each_blocks[i].m(div, null);
+                            each_blocks[i].m(div0, null);
                         }
+                    }
+
+                    /*div1_binding*/
+                    ctx[12](div1);
+
+                    if (!mounted) {
+                        dispose = dom_listen(div1, "wheel", /*handleRewardsWheel*/ ctx[5]);
+                        mounted = true;
                     }
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$controlInfo*/ 2) {
-                        each_value = each_ensure_array_like( /*$controlInfo*/ ctx[1].currentRewards);
+                    if (dirty & /*$controlInfo*/ 4) {
+                        each_value = each_ensure_array_like( /*$controlInfo*/ ctx[2].currentRewards);
                         let i;
 
                         for (i = 0; i < each_value.length; i += 1) {
@@ -471259,7 +471994,7 @@ const getRandomTableNumber = () => {
                             } else {
                                 each_blocks[i] = control_index_svelte_create_each_block(child_ctx);
                                 each_blocks[i].c();
-                                each_blocks[i].m(div, null);
+                                each_blocks[i].m(div0, null);
                             }
                         }
 
@@ -471272,15 +472007,19 @@ const getRandomTableNumber = () => {
                 },
                 d(detaching) {
                     if (detaching) {
-                        dom_detach(div);
+                        dom_detach(div1);
                     }
 
                     destroy_each(each_blocks, detaching);
+                    /*div1_binding*/
+                    ctx[12](null);
+                    mounted = false;
+                    dispose();
                 }
             };
         }
 
-        // (587:12) {#each $controlInfo.currentRewards as reward}
+        // (634:14) {#each $controlInfo.currentRewards as reward}
         function control_index_svelte_create_each_block(ctx) {
             let div1;
             let div0;
@@ -471289,7 +472028,7 @@ const getRandomTableNumber = () => {
             let div0_style_value;
             let t0;
             let p;
-            let raw_value = parseEmojiInText( /*reward*/ ctx[14].title) + "";
+            let raw_value = parseEmojiInText( /*reward*/ ctx[17].title) + "";
             let t1;
 
             return {
@@ -471300,13 +472039,13 @@ const getRandomTableNumber = () => {
                     t0 = dom_space();
                     p = dom_element("p");
                     t1 = dom_space();
-                    dom_attr(img, "class", "promo-control__reward-item-image svelte-r0ijsu");
-                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*reward*/ ctx[14].image}`)) dom_attr(img, "src", img_src_value);
+                    dom_attr(img, "class", "promo-control__reward-item-image svelte-o2jlbx");
+                    if (!utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*reward*/ ctx[17].image}`)) dom_attr(img, "src", img_src_value);
                     dom_attr(img, "alt", "reward");
-                    dom_attr(div0, "class", "promo-control__reward-item-image-wrapper svelte-r0ijsu");
-                    dom_attr(div0, "style", div0_style_value = `--shadowColor: ${/*reward*/ ctx[14].color};`);
-                    dom_attr(p, "class", "promo-control__reward-item-title svelte-r0ijsu");
-                    dom_attr(div1, "class", "promo-control__reward-item svelte-r0ijsu");
+                    dom_attr(div0, "class", "promo-control__reward-item-image-wrapper svelte-o2jlbx");
+                    dom_attr(div0, "style", div0_style_value = `--shadowColor: ${/*reward*/ ctx[17].color};`);
+                    dom_attr(p, "class", "promo-control__reward-item-title svelte-o2jlbx");
+                    dom_attr(div1, "class", "promo-control__reward-item svelte-o2jlbx");
                 },
                 m(target, anchor) {
                     dom_insert(target, div1, anchor);
@@ -471318,15 +472057,15 @@ const getRandomTableNumber = () => {
                     dom_append(div1, t1);
                 },
                 p(ctx, dirty) {
-                    if (dirty & /*$controlInfo*/ 2 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*reward*/ ctx[14].image}`)) {
+                    if (dirty & /*$controlInfo*/ 4 && !utils_src_url_equal(img.src, img_src_value = `${CDN_URL}/assets/images/donate/128/${/*reward*/ ctx[17].image}`)) {
                         dom_attr(img, "src", img_src_value);
                     }
 
-                    if (dirty & /*$controlInfo*/ 2 && div0_style_value !== (div0_style_value = `--shadowColor: ${/*reward*/ ctx[14].color};`)) {
+                    if (dirty & /*$controlInfo*/ 4 && div0_style_value !== (div0_style_value = `--shadowColor: ${/*reward*/ ctx[17].color};`)) {
                         dom_attr(div0, "style", div0_style_value);
                     }
 
-                    if (dirty & /*$controlInfo*/ 2 && raw_value !== (raw_value = parseEmojiInText( /*reward*/ ctx[14].title) + "")) p.innerHTML = raw_value;;
+                    if (dirty & /*$controlInfo*/ 4 && raw_value !== (raw_value = parseEmojiInText( /*reward*/ ctx[17].title) + "")) p.innerHTML = raw_value;;
                 },
                 d(detaching) {
                     if (detaching) {
@@ -471340,7 +472079,7 @@ const getRandomTableNumber = () => {
             let div;
 
             function select_block_type(ctx, dirty) {
-                if ( /*$controlAvailable*/ ctx[2].available) return control_index_svelte_create_if_block;
+                if ( /*$controlAvailable*/ ctx[3].available) return control_index_svelte_create_if_block;
                 return control_index_svelte_create_else_block;
             }
 
@@ -471386,10 +472125,21 @@ const getRandomTableNumber = () => {
             let $controlInfo;
             let $controlAvailable;
             let $serverHudInfo;
-            utils_component_subscribe($$self, controlInfo, $$value => $$invalidate(1, $controlInfo = $$value));
-            utils_component_subscribe($$self, controlAvailable, $$value => $$invalidate(2, $controlAvailable = $$value));
-            utils_component_subscribe($$self, serverHudInfo, $$value => $$invalidate(3, $serverHudInfo = $$value));
+            utils_component_subscribe($$self, controlInfo, $$value => $$invalidate(2, $controlInfo = $$value));
+            utils_component_subscribe($$self, controlAvailable, $$value => $$invalidate(3, $controlAvailable = $$value));
+            utils_component_subscribe($$self, serverHudInfo, $$value => $$invalidate(4, $serverHudInfo = $$value));
             let copyButtonText = 'Скопировать';
+            let rewardList;
+
+            // колесо мыши крутит список наград по горизонтали
+            const handleRewardsWheel = event => {
+                if (event.deltaY === 0) {
+                    return;
+                }
+
+                event.preventDefault();
+                $$invalidate(1, rewardList.scrollLeft += event.deltaY, rewardList);
+            };
 
             const copyToClipboard = text => {
                 const dummy = document.createElement('textarea');
@@ -471466,17 +472216,27 @@ const getRandomTableNumber = () => {
                 unregisterInitializeEvent();
             });
 
+            function div1_binding($$value) {
+                binding_callbacks[$$value ? 'unshift' : 'push'](() => {
+                    rewardList = $$value;
+                    $$invalidate(1, rewardList);
+                });
+            }
+
             return [
                 copyButtonText,
+                rewardList,
                 $controlInfo,
                 $controlAvailable,
                 $serverHudInfo,
+                handleRewardsWheel,
                 openInfo,
                 change,
                 copy,
                 improve,
                 getCoin,
-                actiovationsInfo
+                actiovationsInfo,
+                div1_binding
             ];
         }
 
@@ -482303,6 +483063,7 @@ setTimeout(() => {
 
 
 
+        // import { externalBrowserUrl } from 'src/components/browser-frame/store';
 
 
 
@@ -482312,6 +483073,11 @@ setTimeout(() => {
 
 
 
+
+
+
+
+        // import BrowserFrame from './components/browser-frame/index.svelte';
 
 
 
@@ -482438,7 +483204,7 @@ setTimeout(() => {
             };
         }
 
-        // (575:0) {#if $arizonaHudVisible && $arizonaHudAvailable}
+        // (604:0) {#if $arizonaHudVisible && $arizonaHudAvailable}
         function App_svelte_create_if_block_14(ctx) {
             let arizonahud;
             let current;
@@ -482467,7 +483233,7 @@ setTimeout(() => {
             };
         }
 
-        // (583:0) {:else}
+        // (612:0) {:else}
         function App_svelte_create_else_block(ctx) {
             let t0;
             let t1;
@@ -482857,7 +483623,7 @@ setTimeout(() => {
             };
         }
 
-        // (579:0) {#if $mainMenuVisible}
+        // (608:0) {#if $mainMenuVisible}
         function App_svelte_create_if_block(ctx) {
             let t;
             let mainmenu;
@@ -482921,7 +483687,7 @@ setTimeout(() => {
             };
         }
 
-        // (585:0) {#if hudVisible}
+        // (614:0) {#if hudVisible}
         function App_svelte_create_if_block_13(ctx) {
             let hud;
             let current;
@@ -482950,7 +483716,7 @@ setTimeout(() => {
             };
         }
 
-        // (588:0) {#if radioVisible}
+        // (617:0) {#if radioVisible}
         function App_svelte_create_if_block_12(ctx) {
             let radio;
             let current;
@@ -482979,7 +483745,7 @@ setTimeout(() => {
             };
         }
 
-        // (592:0) {#if $battleroyaleHudVisible}
+        // (621:0) {#if $battleroyaleHudVisible}
         function App_svelte_create_if_block_11(ctx) {
             let battleroyalehud;
             let current;
@@ -483008,7 +483774,7 @@ setTimeout(() => {
             };
         }
 
-        // (596:0) {#if $battleroyaleMapVisible}
+        // (625:0) {#if $battleroyaleMapVisible}
         function App_svelte_create_if_block_10(ctx) {
             let battleroyalemap;
             let current;
@@ -483037,7 +483803,7 @@ setTimeout(() => {
             };
         }
 
-        // (599:0) {#if horizontalPhoneVisible}
+        // (628:0) {#if horizontalPhoneVisible}
         function App_svelte_create_if_block_9(ctx) {
             let horizontalphone;
             let current;
@@ -483066,7 +483832,7 @@ setTimeout(() => {
             };
         }
 
-        // (603:0) {#if phoneVisible}
+        // (632:0) {#if phoneVisible}
         function App_svelte_create_if_block_8(ctx) {
             let phone;
             let current;
@@ -483095,7 +483861,7 @@ setTimeout(() => {
             };
         }
 
-        // (607:0) {#if $videoBackgroundVisible}
+        // (636:0) {#if $videoBackgroundVisible}
         function App_svelte_create_if_block_7(ctx) {
             let videobackground;
             let current;
@@ -483124,7 +483890,7 @@ setTimeout(() => {
             };
         }
 
-        // (610:1) {#if !isNil(views[$selectedView])}
+        // (639:1) {#if !isNil(views[$selectedView])}
         function App_svelte_create_if_block_6(ctx) {
             let div;
             let switch_instance;
@@ -483159,8 +483925,8 @@ setTimeout(() => {
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(div, "mousedown", /*handleMouseDown*/ ctx[21]),
-                            dom_listen(div, "mouseup", /*handleMouseUp*/ ctx[22])
+                            dom_listen(div, "mousedown", /*handleMouseDown*/ ctx[22]),
+                            dom_listen(div, "mouseup", /*handleMouseUp*/ ctx[23])
                         ];
 
                         mounted = true;
@@ -483233,7 +483999,7 @@ setTimeout(() => {
             };
         }
 
-        // (609:0) {#key $selectedView}
+        // (638:0) {#key $selectedView}
         function App_svelte_create_key_block(ctx) {
             let show_if = !(0, lodash.isNil)( /*views*/ ctx[19][ /*$selectedView*/ ctx[10]]);
             let if_block_anchor;
@@ -483295,7 +484061,7 @@ setTimeout(() => {
             };
         }
 
-        // (623:0) {#if actionProgressBarVisible}
+        // (652:0) {#if actionProgressBarVisible}
         function App_svelte_create_if_block_5(ctx) {
             let actionprogressbar;
             let current;
@@ -483324,7 +484090,7 @@ setTimeout(() => {
             };
         }
 
-        // (627:0) {#if clickerVisible}
+        // (656:0) {#if clickerVisible}
         function App_svelte_create_if_block_4(ctx) {
             let clicker;
             let current;
@@ -483353,7 +484119,7 @@ setTimeout(() => {
             };
         }
 
-        // (631:0) {#if countdownVisible}
+        // (660:0) {#if countdownVisible}
         function App_svelte_create_if_block_3(ctx) {
             let countdown;
             let current;
@@ -483382,7 +484148,7 @@ setTimeout(() => {
             };
         }
 
-        // (635:0) {#if arizonaHudNewYearVisible}
+        // (664:0) {#if arizonaHudNewYearVisible}
         function App_svelte_create_if_block_2(ctx) {
             let arizonahudnewyear;
             let current;
@@ -483411,7 +484177,7 @@ setTimeout(() => {
             };
         }
 
-        // (581:0) {#if $videoBackgroundVisible}
+        // (610:0) {#if $videoBackgroundVisible}
         function App_svelte_create_if_block_1(ctx) {
             let videobackground;
             let current;
@@ -483538,8 +484304,8 @@ setTimeout(() => {
 
                     if (!mounted) {
                         dispose = [
-                            dom_listen(App_svelte_window_1, "keydown", /*keydown_handler*/ ctx[23]),
-                            dom_listen(App_svelte_window_1, "keyup", /*keyup_handler*/ ctx[24])
+                            dom_listen(App_svelte_window_1, "keydown", /*keydown_handler*/ ctx[24]),
+                            dom_listen(App_svelte_window_1, "keyup", /*keyup_handler*/ ctx[25])
                         ];
 
                         mounted = true;
@@ -483687,9 +484453,10 @@ setTimeout(() => {
             let $selectedScreen;
             let $isAnyModalShowed;
             let $mainMenuDisabled;
+            let $videoName;
+            let $videoBackgroundVisible;
             let $mapVisibleMarkers;
             let $svelteAppInited;
-            let $videoBackgroundVisible;
             let $inventoryRowsCount;
             let $inventoryColumnsCount;
             let $inventoryPagination;
@@ -483700,6 +484467,7 @@ setTimeout(() => {
             let $videoRegMuted;
             let $videoRegBlockByTime;
             let $isTrilogyClient;
+            let $playerId;
             let $arizonaHudVisible;
             let $playerVipPremium;
             let $battleroyaleMapVisible;
@@ -483709,25 +484477,27 @@ setTimeout(() => {
             let $arizonaHudAvailable;
             utils_component_subscribe($$self, selectedView, $$value => $$invalidate(10, $selectedView = $$value));
             utils_component_subscribe($$self, mainMenuVisible, $$value => $$invalidate(11, $mainMenuVisible = $$value));
-            utils_component_subscribe($$self, browserId, $$value => $$invalidate(27, $browserId = $$value));
-            utils_component_subscribe($$self, selectedScreen, $$value => $$invalidate(28, $selectedScreen = $$value));
-            utils_component_subscribe($$self, isAnyModalShowed, $$value => $$invalidate(29, $isAnyModalShowed = $$value));
-            utils_component_subscribe($$self, mainMenuDisabled, $$value => $$invalidate(30, $mainMenuDisabled = $$value));
-            utils_component_subscribe($$self, mapVisibleMarkers, $$value => $$invalidate(31, $mapVisibleMarkers = $$value));
-            utils_component_subscribe($$self, svelteAppInited, $$value => $$invalidate(32, $svelteAppInited = $$value));
+            utils_component_subscribe($$self, browserId, $$value => $$invalidate(28, $browserId = $$value));
+            utils_component_subscribe($$self, selectedScreen, $$value => $$invalidate(29, $selectedScreen = $$value));
+            utils_component_subscribe($$self, isAnyModalShowed, $$value => $$invalidate(30, $isAnyModalShowed = $$value));
+            utils_component_subscribe($$self, mainMenuDisabled, $$value => $$invalidate(31, $mainMenuDisabled = $$value));
+            utils_component_subscribe($$self, videoName, $$value => $$invalidate(32, $videoName = $$value));
             utils_component_subscribe($$self, videoBackgroundVisible, $$value => $$invalidate(12, $videoBackgroundVisible = $$value));
-            utils_component_subscribe($$self, inventoryRowsCount, $$value => $$invalidate(33, $inventoryRowsCount = $$value));
-            utils_component_subscribe($$self, inventoryColumnsCount, $$value => $$invalidate(34, $inventoryColumnsCount = $$value));
-            utils_component_subscribe($$self, inventoryPagination, $$value => $$invalidate(35, $inventoryPagination = $$value));
-            utils_component_subscribe($$self, inventoryAutoScrollOnDrag, $$value => $$invalidate(36, $inventoryAutoScrollOnDrag = $$value));
-            utils_component_subscribe($$self, dialogBackgroundColor, $$value => $$invalidate(37, $dialogBackgroundColor = $$value));
-            utils_component_subscribe($$self, rollbackResolutionId, $$value => $$invalidate(38, $rollbackResolutionId = $$value));
-            utils_component_subscribe($$self, videoRegPaused, $$value => $$invalidate(39, $videoRegPaused = $$value));
-            utils_component_subscribe($$self, videoRegMuted, $$value => $$invalidate(40, $videoRegMuted = $$value));
-            utils_component_subscribe($$self, videoRegBlockByTime, $$value => $$invalidate(41, $videoRegBlockByTime = $$value));
-            utils_component_subscribe($$self, isTrilogyClient, $$value => $$invalidate(42, $isTrilogyClient = $$value));
+            utils_component_subscribe($$self, mapVisibleMarkers, $$value => $$invalidate(33, $mapVisibleMarkers = $$value));
+            utils_component_subscribe($$self, svelteAppInited, $$value => $$invalidate(34, $svelteAppInited = $$value));
+            utils_component_subscribe($$self, inventoryRowsCount, $$value => $$invalidate(35, $inventoryRowsCount = $$value));
+            utils_component_subscribe($$self, inventoryColumnsCount, $$value => $$invalidate(36, $inventoryColumnsCount = $$value));
+            utils_component_subscribe($$self, inventoryPagination, $$value => $$invalidate(37, $inventoryPagination = $$value));
+            utils_component_subscribe($$self, inventoryAutoScrollOnDrag, $$value => $$invalidate(38, $inventoryAutoScrollOnDrag = $$value));
+            utils_component_subscribe($$self, dialogBackgroundColor, $$value => $$invalidate(39, $dialogBackgroundColor = $$value));
+            utils_component_subscribe($$self, rollbackResolutionId, $$value => $$invalidate(40, $rollbackResolutionId = $$value));
+            utils_component_subscribe($$self, videoRegPaused, $$value => $$invalidate(41, $videoRegPaused = $$value));
+            utils_component_subscribe($$self, videoRegMuted, $$value => $$invalidate(42, $videoRegMuted = $$value));
+            utils_component_subscribe($$self, videoRegBlockByTime, $$value => $$invalidate(43, $videoRegBlockByTime = $$value));
+            utils_component_subscribe($$self, isTrilogyClient, $$value => $$invalidate(44, $isTrilogyClient = $$value));
+            utils_component_subscribe($$self, playerId, $$value => $$invalidate(45, $playerId = $$value));
             utils_component_subscribe($$self, arizonaHudVisible, $$value => $$invalidate(13, $arizonaHudVisible = $$value));
-            utils_component_subscribe($$self, playerVipPremium, $$value => $$invalidate(43, $playerVipPremium = $$value));
+            utils_component_subscribe($$self, playerVipPremium, $$value => $$invalidate(46, $playerVipPremium = $$value));
             utils_component_subscribe($$self, battleroyaleMapVisible, $$value => $$invalidate(14, $battleroyaleMapVisible = $$value));
             utils_component_subscribe($$self, battleroyaleHudVisible, $$value => $$invalidate(15, $battleroyaleHudVisible = $$value));
             utils_component_subscribe($$self, playerListVisible, $$value => $$invalidate(16, $playerListVisible = $$value));
@@ -483880,6 +484650,20 @@ setTimeout(() => {
                 utils_set_store_value(selectedScreen, $selectedScreen = Screens.ResolutionConfirm, $selectedScreen);
             };
 
+            const onSvelteAppInit = () => {
+                window.cef[ClientMethod.GetPedHitpoints]($playerId);
+                window.cef[ClientMethod.GetPedArmor]($playerId);
+                window.cef[ClientMethod.GetPedWeaponId]($playerId);
+                window.cef[ClientMethod.GetPedWeaponAmmoTotal]($playerId);
+                window.cef[ClientMethod.GetPedWeaponAmmoClip]($playerId);
+                window.cef[ClientMethod.GetPedWeaponState]($playerId);
+                window.cef[ClientMethod.GetPlayersCount]();
+                cef_sendClientMessage('onSvelteAppInit');
+                console.log(`[App] [debug] onSvelteAppInit`);
+            };
+
+            onMount(() => registerExternalLinksHandler());
+
             onDestroy(() => {
                 unregisterUpdateViceCityHudVisible();
                 unregisterupdateSanAndreasHudVisible();
@@ -483910,9 +484694,11 @@ setTimeout(() => {
 
                     window.cef.GetMyId();
                     await parseDataFromGameCommandLine();
+                    window.cef[ClientMethod.GetLocalPedId]();
+                    window.cef[ClientMethod.GetPlayersCount]();
 
                     // Если захотите УДАЛИТЬ данный евент отправки версии, то нужно сообщить Тиму на клиент (он завязялся на данный евент)
-                    cef_sendClientMessage('onSvelteAppVersion', "1021", "ad92f625");
+                    cef_sendClientMessage('onSvelteAppVersion', "1021", "01c4a908");
 
                     if (!$isTrilogyClient) {
                         utils_set_store_value(mapVisibleMarkers, $mapVisibleMarkers = await getRadarMapIcons(), $mapVisibleMarkers);
@@ -484024,15 +484810,7 @@ setTimeout(() => {
 
                                 if (connected && !$svelteAppInited) {
                                     utils_set_store_value(svelteAppInited, $svelteAppInited = true, $svelteAppInited);
-
-                                    setTimeout(
-                                        () => {
-                                            cef_sendClientMessage('onSvelteAppInit');
-                                            console.log(`[App] [debug] onSvelteAppInit`);
-                                        },
-                                        svelteAppInitIntervalMs
-                                    );
-
+                                    setTimeout(onSvelteAppInit, svelteAppInitIntervalMs);
                                     clearInterval(sampConnectedInterval);
                                 }
                             },
@@ -484061,15 +484839,29 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "ad92f625");
+                    console.log(`[debug] app init`, "1021", "01c4a908");
                 }
 
                 initScoreboardPolling();
             });
 
+            // ������, �� ����� ������� ESC ������ �������������� ��������� (������ �� �������, �� ������� ����)
+            const ESC_BLOCKED_VIDEO_NAMES = [
+                Names.calendarEventScene1,
+                Names.calendarEventScene2,
+                Names.calendarEventScene3
+            ];
+
+            const isEscBlockedByVideo = () => $videoBackgroundVisible && ESC_BLOCKED_VIDEO_NAMES.includes($videoName);
+
             const isCanOpenMainMenu = () => {
                 if ($mainMenuDisabled) {
                     console.log(`[isCanOpenMainMenu] error: (mainMenuDisabled)`);
+                    return false;
+                }
+
+                if (isEscBlockedByVideo()) {
+                    console.log(`[isCanOpenMainMenu] error: (isEscBlockedByVideo)`);
                     return false;
                 }
 
@@ -484157,6 +484949,10 @@ setTimeout(() => {
 
             const keydown_handler = e => {
                 if (e.key === 'Escape' && !escHeld) {
+                    if (isEscBlockedByVideo()) {
+                        return;
+                    }
+
                     $$invalidate(0, escHeld = true);
 
                     if ($playerListVisible) {
@@ -484196,6 +484992,7 @@ setTimeout(() => {
                 $isViceCityServer,
                 $arizonaHudAvailable,
                 views,
+                isEscBlockedByVideo,
                 switchMainMenu,
                 handleMouseDown,
                 handleMouseUp,
@@ -484348,10 +485145,31 @@ setTimeout(() => {
         var presetCache = new Map();
         var pendingConfigJson = null;
         var nativeCallbacksBound = false;
-        var nativeApplyConfig = function nativeApplyConfig(json) {};
-        var nativeResetConfig = function nativeResetConfig() {};
-        var nativeHideConfigurator = function nativeHideConfigurator() {};
-        var nativeShowConfigurator = function nativeShowConfigurator() {};
+        var nativeApplyConfig = function nativeApplyConfig(json) {
+            var _window$cef;
+            if ((_window$cef = window.cef) !== null && _window$cef !== void 0 && _window$cef.arizona_config_set) {
+                window.cef.arizona_config_set(json);
+            }
+        };
+        var nativeResetConfig = function nativeResetConfig() {
+            var _window$cef2;
+            if ((_window$cef2 = window.cef) !== null && _window$cef2 !== void 0 && _window$cef2.arizona_config_reset_to_defaults) {
+                window.cef.arizona_config_reset_to_defaults();
+            }
+        };
+        var nativeHideConfigurator = function nativeHideConfigurator() {
+            var _window$cef3;
+            if ((_window$cef3 = window.cef) !== null && _window$cef3 !== void 0 && _window$cef3.arizona_configurator_hide) {
+                window.cef.arizona_configurator_hide();
+            }
+        };
+        var nativeShowConfigurator = function nativeShowConfigurator() {
+            var _window$cef4;
+            if ((_window$cef4 = window.cef) !== null && _window$cef4 !== void 0 && _window$cef4.arizona_configurator_show) {
+                mainMenuVisible.set(false);
+                window.cef.arizona_configurator_show();
+            }
+        };
         var apiConfig = function apiConfig() {
             var token = get_store_value(serverApiToken);
             return token ? {

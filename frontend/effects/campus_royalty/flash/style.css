@@ -1,0 +1,27 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.flash {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: min(65vw, 115.56vh);
+    animation: flash-grow 3000ms ease-out;
+}
+
+@keyframes flash-grow {
+
+    16.667%,
+    83.333% {
+        transform: translate(-25.44%, 34.07%) scale(10.1018);
+    }
+}
