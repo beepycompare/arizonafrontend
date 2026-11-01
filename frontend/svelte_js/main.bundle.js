@@ -187804,8 +187804,8 @@
             }
         };
         registerEvent('event.videoBackground.blockVideoByTime', blockVideoByTime);; // CONCATENATED MODULE: ./src/views/video-background/video-src/auth_video.webm
-        const auth_video_namespaceObject = __webpack_require__.p + "assets/9d1d5862fd782dd654ec.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/registration_video.webm
-        const registration_video_namespaceObject = __webpack_require__.p + "assets/b9a423791933f20bc44c.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/situation_1.webm
+        const auth_video_namespaceObject = __webpack_require__.p + "assets/826e81f4155a2ed9c9af.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/registration_video.webm
+        const registration_video_namespaceObject = __webpack_require__.p + "assets/bc87fba50ff8deb3a6cb.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/situation_1.webm
         const situation_1_namespaceObject = __webpack_require__.p + "assets/35c0690ed0f7a7c23ed6.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/situation_2.webm
         const situation_2_namespaceObject = __webpack_require__.p + "assets/5bec31d2c12b75f6d6bb.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/court_process.webm
         const court_process_namespaceObject = __webpack_require__.p + "assets/f2ae7ecfe629115cba06.webm";; // CONCATENATED MODULE: ./src/views/video-background/video-src/court_process_2.webm
@@ -516208,7 +516208,7 @@ setTimeout(() => {
                     window.cef[ClientMethod.GetPlayersCount]();
 
                     // Если захотите УДАЛИТЬ данный евент отправки версии, то нужно сообщить Тиму на клиент (он завязялся на данный евент)
-                    cef_sendClientMessage('onSvelteAppVersion', "1021", "be1204da");
+                    cef_sendClientMessage('onSvelteAppVersion', "1021", "81bcf3d5");
 
                     if (!$isTrilogyClient) {
                         utils_set_store_value(mapVisibleMarkers, $mapVisibleMarkers = await getRadarMapIcons(), $mapVisibleMarkers);
@@ -516376,7 +516376,7 @@ setTimeout(() => {
                         window.cef[ClientMethod.GetPedArmor](playerId);
                     };
 
-                    console.log(`[debug] app init`, "1021", "be1204da");
+                    console.log(`[debug] app init`, "1021", "81bcf3d5");
                 }
 
                 initScoreboardPolling();
