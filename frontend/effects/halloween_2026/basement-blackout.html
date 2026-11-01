@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Отключение света</title>
+    <style>
+        /* Эффект отключения света. Фон прозрачный, под эффектом видна игра.
+   Как работает:
+   — при появлении блока .bo свет «умирает»: лампа пару раз моргает
+     и за 0.6 секунды экран темнеет на ~65% (по краям сильнее);
+   — пока блок на странице, темнота держится и слегка «дышит»;
+   — чтобы свет вернулся с морганием, добавьте блоку класс .bo--on
+     и удалите блок через 0.5 секунды. Можно и просто удалить блок сразу. */
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            background: transparent;
+        }
+
+        .bo {
+            --dark: .65;
+            /* затемнение в центре экрана: .6 = 60%, .7 = 70% */
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 9997;
+            animation: bo-off .6s steps(1) both;
+        }
+
+        .bo>div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        /* основное затемнение */
+        .bo-dark {
+            background: rgb(4, 6, 10);
+            opacity: var(--dark);
+        }
+
+        /* края уходят почти в полную черноту */
+        .bo-vignette {
+            background: radial-gradient(ellipse 70% 65% at center, transparent 35%, rgba(0, 0, 0, .55) 80%, rgba(0, 0, 0, .8) 100%);
+            animation: bo-breathe 4s ease-in-out .6s infinite;
+        }
+
+        /* холодный оттенок в темноте */
+        .bo-cold {
+            background: rgba(20, 35, 70, .12);
+            mix-blend-mode: multiply;
+        }
+
+        /* свет гаснет: лампа моргает и выключается */
+        @keyframes bo-off {
+            0% {
+                opacity: .35;
+            }
+
+            15% {
+                opacity: 0;
+            }
+
+            30% {
+                opacity: .7;
+            }
+
+            42% {
+                opacity: .15;
+            }
+
+            55% {
+                opacity: 1;
+            }
+
+            70% {
+                opacity: .6;
+            }
+
+            80%,
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* свет включается: лампа моргает и загорается */
+        .bo--on {
+            animation: bo-on .5s steps(1) forwards;
+        }
+
+        @keyframes bo-on {
+            0% {
+                opacity: 1;
+            }
+
+            20% {
+                opacity: .2;
+            }
+
+            35% {
+                opacity: .8;
+            }
+
+            55% {
+                opacity: 0;
+            }
+
+            70% {
+                opacity: .4;
+            }
+
+            85%,
+            100% {
+                opacity: 0;
+            }
+        }
+
+        /* темнота едва заметно сгущается и отступает */
+        @keyframes bo-breathe {
+
+            0%,
+            100% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: .85;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="bo">
+        <div class="bo-dark"></div>
+        <div class="bo-cold"></div>
+        <div class="bo-vignette"></div>
+    </div>
+
+</body>
+
+</html>

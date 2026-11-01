@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.pulse {
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(14, 16, 20, 0) 75%, rgba(14, 16, 20, 0.5) 100%),
+        linear-gradient(180deg, rgba(14, 16, 20, 0.5) 0%, rgba(14, 16, 20, 0) 25%),
+        linear-gradient(270deg, rgba(14, 16, 20, 0.5) 0%, rgba(14, 16, 20, 0) 25%),
+        linear-gradient(90deg, rgba(14, 16, 20, 0.5) 0%, rgba(14, 16, 20, 0) 25%);
+    opacity: 0.3;
+    animation: pulse 230ms ease-in infinite alternate;
+}
+
+@keyframes pulse {
+    from {
+        opacity: 0.3;
+    }
+
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.frost {
+    position: absolute;
+    opacity: 0;
+    animation: frost 13000ms;
+}
+
+.frost-top {
+    top: 0;
+    left: 0;
+    width: 100%;
+    --from: translateY(-100%);
+    z-index: 1;
+}
+
+.frost-bottom {
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    --from: translateY(100%);
+    z-index: 1;
+}
+
+.frost-left {
+    top: 0;
+    left: 0;
+    height: 100%;
+    --from: translateX(-100%);
+}
+
+.frost-right {
+    top: 0;
+    right: 0;
+    height: 100%;
+    --from: translateX(100%);
+}
+
+@keyframes frost {
+    0% {
+        opacity: 0;
+        transform: var(--from);
+        animation-timing-function: ease-in;
+    }
+
+    76.923% {
+        opacity: 1;
+        transform: none;
+        animation-timing-function: ease-in;
+    }
+
+    100% {
+        opacity: 0;
+        transform: var(--from);
+    }
+}

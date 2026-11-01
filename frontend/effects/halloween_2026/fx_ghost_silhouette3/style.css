@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.silhouette {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 30.28vh;
+    height: 76.02vh;
+    background: url("./silhouette.webp") center / 100% 100% no-repeat;
+    opacity: 0;
+    animation: silhouette 2000ms;
+}
+
+@keyframes silhouette {
+    0% {
+        opacity: 0;
+        transform: translate(-28%, 5%);
+        animation-timing-function: ease-in;
+    }
+
+    45%,
+    50% {
+        opacity: 1;
+        transform: none;
+        animation-timing-function: ease-in;
+    }
+
+    95%,
+    100% {
+        opacity: 0;
+        transform: translate(-28%, 5%);
+    }
+}

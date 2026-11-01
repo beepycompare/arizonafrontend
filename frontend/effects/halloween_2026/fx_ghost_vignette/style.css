@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.vignette {
+    position: absolute;
+    inset: 0;
+    background: radial-gradient(45.59% 50% at 50% 50%, rgba(91, 84, 112, 0) 0%, rgba(19, 49, 97, 0.8) 100%);
+    opacity: 0;
+    animation: vignette 4000ms ease-in-out;
+}
+
+@keyframes vignette {
+    0% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.7, -0.4, 0.4, 1.4);
+    }
+
+    25%,
+    75% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.75;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}

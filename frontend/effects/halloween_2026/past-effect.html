@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Эффект прошлого</title>
+    <style>
+        /* Постоянный эффект «нахождения в прошлом» (2023, 2024, 2025 годы).
+   Фон прозрачный, центр экрана не затронут. По краям экрана:
+   — края слегка выцветают в сепию, как на старой фотографии;
+   — мягкая теплая виньетка медленно «дышит»;
+   — едва заметное зерно старой пленки и редкое мерцание.
+   Чтобы убрать эффект, удалите блок .past. */
+        html,
+        body {
+            margin: 0;
+            height: 100%;
+            background: transparent;
+        }
+
+        .past {
+            --tone: 60, 38, 16;
+            /* цвет виньетки (RGB), теплый коричневый */
+            --strength: 1;
+            /* общая сила эффекта: 0.5 — слабее, 1.5 — сильнее */
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow: hidden;
+            pointer-events: none;
+            z-index: 9998;
+        }
+
+        /* прозрачность и анимации задаются слоям, а не самому .past:
+   иначе backdrop-filter у слоя выцветания перестает видеть игру */
+        .past>div {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+        }
+
+        .past-fade,
+        .past-vignette {
+            animation: past-in 2s ease-out both;
+        }
+
+        /* выцветание краев: сепия только по краям, центр без изменений */
+        .past-fade {
+            -webkit-backdrop-filter: sepia(calc(.7 * var(--strength))) saturate(.8) contrast(.95);
+            backdrop-filter: sepia(calc(.7 * var(--strength))) saturate(.8) contrast(.95);
+            -webkit-mask: radial-gradient(ellipse 75% 70% at center, transparent 55%, rgba(0, 0, 0, .6) 80%, #000 100%);
+            mask: radial-gradient(ellipse 75% 70% at center, transparent 55%, rgba(0, 0, 0, .6) 80%, #000 100%);
+        }
+
+        /* теплая виньетка, медленно дышит */
+        .past-vignette {
+            background: radial-gradient(ellipse 80% 75% at center, transparent 60%, rgba(var(--tone), calc(.18 * var(--strength))) 85%, rgba(var(--tone), calc(.38 * var(--strength))) 100%);
+            animation: past-in 2s ease-out both, past-breathe 6s ease-in-out 2s infinite;
+        }
+
+        /* зерно старой пленки, только по краям */
+        .past-grain {
+            top: -50%;
+            left: -50%;
+            right: -50%;
+            bottom: -50%;
+            background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='220' height='220'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .55  0 0 0 0 .45  0 0 0 0 .3  0 0 0 .9 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+            opacity: calc(.07 * var(--strength));
+            -webkit-mask: radial-gradient(ellipse 50% 50% at center, transparent 45%, #000 100%);
+            mask: radial-gradient(ellipse 50% 50% at center, transparent 45%, #000 100%);
+            animation: past-grain .8s steps(4) infinite;
+        }
+
+        /* редкое мерцание, как у старого проектора */
+        .past-flicker {
+            background: rgba(var(--tone), .05);
+            opacity: 0;
+            animation: past-flicker 7s linear infinite;
+        }
+
+        @keyframes past-in {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes past-breathe {
+
+            0%,
+            100% {
+                opacity: .85;
+            }
+
+            50% {
+                opacity: 1;
+            }
+        }
+
+        @keyframes past-grain {
+            0% {
+                transform: translate(0, 0);
+            }
+
+            25% {
+                transform: translate(-3%, 2%);
+            }
+
+            50% {
+                transform: translate(2%, -3%);
+            }
+
+            75% {
+                transform: translate(-2%, -1%);
+            }
+
+            100% {
+                transform: translate(0, 0);
+            }
+        }
+
+        @keyframes past-flicker {
+
+            0%,
+            61%,
+            63%,
+            64%,
+            66%,
+            100% {
+                opacity: 0;
+            }
+
+            62%,
+            65% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="past">
+        <div class="past-fade"></div>
+        <div class="past-vignette"></div>
+        <div class="past-grain"></div>
+        <div class="past-flicker"></div>
+    </div>
+
+</body>
+
+</html>

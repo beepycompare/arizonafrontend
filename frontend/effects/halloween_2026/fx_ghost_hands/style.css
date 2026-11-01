@@ -1,0 +1,155 @@
+body {
+    margin: 0;
+}
+
+.main {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.hand {
+    position: absolute;
+    opacity: 0;
+}
+
+.hand-1 {
+    left: 5.99vw;
+    top: 7.78vh;
+    width: 34.74vw;
+    height: 68.15vh;
+    animation:
+        hand-1-move 5000ms linear,
+        hand-1-fade 5000ms linear;
+}
+
+.hand-2 {
+    left: 48.23vw;
+    top: -1.48vh;
+    width: 41.82vw;
+    height: 75.93vh;
+    animation:
+        hand-2-move 5000ms linear,
+        hand-2-fade 5000ms linear;
+}
+
+.hand-3 {
+    left: 25.26vw;
+    top: 56.3vh;
+    width: 33.85vw;
+    height: 43.7vh;
+    animation:
+        hand-3-move 5000ms linear,
+        hand-3-fade 5000ms linear;
+}
+
+@keyframes hand-1-move {
+
+    0%,
+    47.37% {
+        transform: translate(0.625vw, 0);
+    }
+
+    71.41%,
+    100% {
+        transform: translate(0.833vw, 11.02vh);
+    }
+}
+
+@keyframes hand-1-fade {
+    0% {
+        opacity: 0.012;
+    }
+
+    10% {
+        opacity: 0.871;
+    }
+
+    14.29% {
+        opacity: 1;
+    }
+
+    47.37% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    }
+
+    71.41%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes hand-2-move {
+
+    0%,
+    60.05% {
+        transform: translate(0, 0);
+    }
+
+    80.38%,
+    100% {
+        transform: translate(0.833vw, 11.67vh);
+    }
+}
+
+@keyframes hand-2-fade {
+
+    0%,
+    8.65% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    }
+
+    19.66% {
+        opacity: 1;
+    }
+
+    60.02% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    }
+
+    80.38%,
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes hand-3-move {
+
+    0%,
+    72.79% {
+        transform: translate(0, 0);
+    }
+
+    87.55%,
+    100% {
+        transform: translate(0.833vw, 20.28vh);
+    }
+}
+
+@keyframes hand-3-fade {
+
+    0%,
+    18.8% {
+        opacity: 0;
+        animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    }
+
+    33.99% {
+        opacity: 1;
+    }
+
+    72.79% {
+        opacity: 1;
+        animation-timing-function: cubic-bezier(0.5, 0, 0.5, 1);
+    }
+
+    87.55%,
+    100% {
+        opacity: 0;
+    }
+}
